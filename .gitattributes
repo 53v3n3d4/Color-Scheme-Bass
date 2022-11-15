@@ -1,0 +1,2 @@
+# Ignored directories that will not be add on releases.
+src/ export-ignore
