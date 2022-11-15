@@ -9,10 +9,9 @@ yarn-debug.log
 yarn-error.log
 
 # yarn
-.yarn/*
-!.yarn/releases
-!.yarn/plugins
+.yarn*
 .pnp.*
+yarn.lock
 
 # Jest
 coverage/
