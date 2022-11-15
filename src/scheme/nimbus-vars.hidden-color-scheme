@@ -1,0 +1,153 @@
+{
+    "name": "Bass Nimbus",
+    "variables":
+    {
+        // "bg-color":       "var(green-light1)", // green
+        // "bg-color":       "var(yellow-light1)", // serpia
+        // "bg-color":       "var(white1)", // white
+        // "bg-color":       "var(black6)", // black
+        // "bg-color":       "var(black9)", // black
+        // "primary-color":  "var(blue5)"
+        // dark blue https://eslint.org/sponsors/#donations
+
+        // Leave emprty string("") for ununsed variables. 
+        // Unused commented vars will cause errors in console when using replaceVars method.
+        // E.g. Commented, "line_diff_width": "var(line-diff-width)"
+        // E.g. Empty string, "line_diff_width": ""
+
+        /** Globals variables */
+
+        "bg-color":                   "var(white5)",
+        "fg-color":                   "var(black4)", // Popup definiton/reference text
+        "invisibles":                 "var(gray3)",
+        "caret":                      "var(gray6)", // mouse cursor
+        "block-caret":                "",
+        "line-highlight":             "color(var(gray3) a(0.3)",
+        /** Accents */
+        "misspelling":                "var(orange1)", // not working
+        "fold-marker":                "var(yellow1)", // when folded, the "...
+        "minimap-border":             "var(yellow1)", // not working
+        "accent":                     "var(gray4)",
+        /** Css */
+        // Popup css: Example, bg color, link color, title color of definition/reference. Round corner, border, bg comes from Theme file.
+        "popup-css": "\n      html, body {\n        background-color: transparent;\n        color: #9B9B9B;\n      }\n      body {\n        padding: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
+        // "popup_css": "\n      html, body {\n        background-color: #f4f5f6;\n        border-radius: 4px;\n      color: #808080;\n      }\n      body {\n        padding: 6px 12px;\n      }\n      a {\n        color: #404040;\n      line-height: 1.6em;\n      text-decoration: none;\n}\n    ",
+        // phantom css, to test -> it is the badge/button "UI:select color scheme/theme" inside text line control overlay. 
+        "phantom-css": "\n      html, body {\n        background-color: #B4B4B4;\n        border-radius: 4px;\n      color: #161818;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
+        // "sheet_css": ,
+        /** Gutter */
+        "gutter":                     "var(bg-color)",
+        "gutter-foreground":          "color(var(gray3) alpha(0.7))",
+        // "gutter_foreground": "{font-family: Helvetica";\n        font-size: 8px;\n      color: #808080;\n}",
+        /** Diff */
+        "line-diff-width":            "", // default 3
+        "line-diff-added":            "var(blue3)",
+        "line-diff-modified":         "var(gold1)",
+        "line-diff-deleted":          "var(red3)",
+        /** Selection */
+        "selection":                  "color(var(green-light1) a(0.4))",
+        "selection-fg":               "var(gray4)",
+        "selection-border":           "var(blue-light2)",
+        "selection-border-width":     "1",
+        "inactive-selection":         "color(var(green-light1) a(0.3))",
+        "inactive-selection-fg":      "var(gray4)",
+        "selection-corner-style":     "round",
+        "selection-corner-radius":    "2",
+        /** Find */
+        "highlight":                  "color(var(gold2) a(0.7)",
+        "find-highlight":             "var(orange1)",
+        "find-highlight-fg":          "color(var(white2) s(+ 3%)",
+        "scroll-highlight":           "var(yellow-light3)",
+        /** Rulers */
+        "rulers":                     "var(black4)",
+        /** Guides */
+        "guide":                      "color(var(gray3) alpha(0.5)",
+        "active-guide":               "var(green1)", // not found
+        "stack-guide":                "var(green1)", // not found
+        /** Brackets */
+        "brackets-opts":              "underline",
+        "brackets-fg":                "var(green3)",
+        "bracket-contents-opts":      "underline",
+        "bracket-contents-fg":        "var(green2)",
+        /** Tags */
+        "tags-opts":                  "stippled_underline",
+        "tags-fg":                    "var(purple2)",
+        /** Shadows */
+        "shadow":                     "color(var(black4) alpha(0.3))",
+        "shadow-width":               "3",
+
+        /** Rules variables*/
+
+        /** Entity */
+        "entity-name-fg":               "var(blue1)",
+        "entity-inherited-class-fg":    "var(blue3)",
+        "entity-name-section-fg":       "var(purple1)",
+        "entity-name-tag-fg":           "var(cyan3)",
+        "entity-attribute-name-fg":     "var(brown2)",
+
+        /** Variable */
+        "variable-fg":                 "var(green4)",
+        "variable-lang-font-style":    "italic",
+        "variable-lang-fg":            "var(purple1)",
+        "variable-param-fg":           "var(purple1)",
+        "variable-fn-fg":              "var(cyan3)",
+
+        /** Constant */
+        "constant-fg":                "var(green4)",
+        "constant-num-fg":            "var(blue4)",
+        "constant-lang-fg":           "var(blue3)",
+        "constant-char-escape-fg":    "var(blue4)",
+
+        /** Storage */
+        "storage-fg":             "var(purple3)",
+        "storage-modifier-fg":    "var(purple3)",
+
+        /** Support */
+        "support-fg":    "var(green3)",
+
+        /** Keyword */
+        "keyword-font-style":        "bold",
+        "keyword-fg":                "var(purple2)",
+        "keyword-ctrl-fg":           "var(purple3)",
+        "keyword-operator-fg":       "var(purple3)",
+        "keyword-declaration-fg":    "var(green3)",
+
+        /** String */
+        "string-fg":    "var(red3)",
+
+        /** Comment */
+        "comment-font-style":    "normal",
+        "comment-fg":            "var(green3)",
+
+        /** Invalid */
+        "invalid-fg":               "var(red1)",
+        "invalid-deprecated-fg":    "var(red2)",
+
+        // End minimal recommended setup
+
+        /** Punctuation */
+        "punctuation-separator-cont-fg":    "var(magenta2)",
+
+        /** Markup */
+        "markup-heading-font-style":    "bold",
+        "markup-heading-fg":            "var(gold2)",
+        "markup-list-font-style":       "normal",
+        "markup-list-fg":               "",
+        "markup-bold-font-style":       "bold",
+        "markup-bold-fg":               "",
+        "markup-italic-font-style":     "italic",
+        "markup-italic-fg":             "",
+        "markup-link-fg":               "",
+        "markup-quote-font-style":      "italic",
+        "markup-quote-fg":              "var(green2)",
+        "markup-raw-bg":                "var(gray1)",
+        "markup-raw-inline-bg":         "var(gray1)",
+        "markup-table-bg":              "var(gray1)",
+        "markup-table-fg":              "",
+        "markup-inserted-fg":           "var(yellow1)",
+        "markup-deleted-fg":            "var(magenta1)"
+
+    },
+    "globals": {},
+    "rules": []
+}
