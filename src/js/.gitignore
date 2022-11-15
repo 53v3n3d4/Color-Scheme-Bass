@@ -1,7 +1,8 @@
 # misc
 .DS_Store
-/node_modules
 
+# Node
+/node_modules
 package-lock.json
 
 # log
@@ -9,9 +10,11 @@ yarn-debug.log
 yarn-error.log
 
 # yarn
-.yarn*
-.pnp.*
 yarn.lock
+.yarn*
+!.yarn/plugins
+!.yarn/releases
+.pnp.*
 
 # Jest
 coverage/
