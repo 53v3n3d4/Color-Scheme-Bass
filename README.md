@@ -4,7 +4,7 @@
     </a>
 </p>
 
-## Bass Color-scheme
+## Color scheme Bass
 
 Color-schemes available are
 - Bass Biohack
