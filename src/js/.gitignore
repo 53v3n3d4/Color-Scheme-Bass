@@ -14,6 +14,7 @@ yarn.lock
 .yarn*
 !.yarn/plugins
 !.yarn/releases
+!.yarnrc.yml
 .pnp.*
 
 # Jest
