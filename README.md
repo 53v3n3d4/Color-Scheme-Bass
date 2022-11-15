@@ -4,7 +4,7 @@
     </a>
 </p>
 
-## Color-scheme
+## Bass Color-scheme
 
 Color-schemes available are
 - Bass Biohack
@@ -25,21 +25,16 @@ Pic Bass Daark Mix & Green | Pic Bass Light Digital & Sepia | Pic Treble Adaptiv
 
 The only way to install it is manually now.
 
-To install manually, [download](https://github.com/53v3n3d4/Bass-Treble-Theme/releases) the latest release version zip file and uncompress it on your Sublime Text `Packages` folder.  
-- Download the zip file on [`releases`](https://github.com/53v3n3d4/Bass-Treble-Theme/releases) page
+To install manually, [download](https://github.com/53v3n3d4/Bass-Color-Scheme/releases) the latest release version zip file and uncompress it on your Sublime Text `Packages` folder.  
+- Download the zip file on [`releases`](https://github.com/53v3n3d4/Bass-Color-Scheme/releases) page
 - Menu `Sublime Text > Preferences > Browse packages...` to open destination folder
 - Then unzip `Bass-Treble-Theme zip file` inside `Packages` folder
 
-## :star2: Other themes and color schemes :dizzy:
+## Uninstall
 
-The list below contains some nice themes:
-- [D'Aneo](https://github.com/SublimeText/Theme-DAneo/)
-- [Ayu](https://github.com/dempfi/ayu)
-- [Github sublime theme](https://github.com/mauroreisvieira/github-sublime-theme)
-- [Two Dark](https://github.com/erremauro/TwoDark)
-- [Dracula](https://draculatheme.com/sublime)
-
-> We use some settings ideas from [D'Aneo](https://github.com/SublimeText/Theme-DAneo/).  
+To uninstall manually, go to your Sublime Text folder.
+- Menu `Sublime Text > Preferences > Browse packages...`
+- Then delete `Bass-Treble-Theme` inside `Packages` folder
 
 ## License
 

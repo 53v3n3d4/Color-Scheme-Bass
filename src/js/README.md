@@ -11,10 +11,10 @@ nodeLinker: "pnpm"
 
 ```
 // Script
-$ yarn build-adaptive-replace
+$ yarn build-bc-replace
 
 // Node
-$ node -e 'import("./builder.js").then(b => b.sublimeFile("adaptive-replace"));'
+$ node -e 'import("./builder.js").then(b => b.sublimeFile("bc-replace"));'
 ```
 
 Option to build files using merge files or replace variables.  
