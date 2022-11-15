@@ -4,9 +4,10 @@ import {
 import { builder } from 'sublime-builder'
 
 const messageFilenames =
-`Theme or color-scheme name not valid. Below you can find the names available.
-theme: adaptive, light or dark.
-color-scheme: bc, `
+`Color-scheme name not valid. Below you can find the names available.
+Color-scheme names: bc, bio, bow, do, fuji, lagoon, nimbus, roci and zora.
+Names should be followed by option merge or replace.
+E.g. sublimeFile('bc-replace').`
 
 // Write sublime file
 // Color-schemes: Bc,
@@ -220,7 +221,6 @@ export function sublimeFile (name) {
       )
       break
     default:
-      // console.log(color(messageFilenames, 'red'))
       console.log(`\u001B[91m${messageFilenames}\u001b[0m`)
       return messageFilenames
   }

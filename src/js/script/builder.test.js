@@ -20,9 +20,10 @@ const schemeTest = {
 }
 
 const messageError =
-`Theme or color-scheme name not valid. Below you can find the names available.
-theme: adaptive, light or dark.
-color-scheme: bc, `
+`Color-scheme name not valid. Below you can find the names available.
+Color-scheme names: bc, bio, bow, do, fuji, lagoon, nimbus, roci and zora.
+Names should be followed by option merge or replace.
+E.g. sublimeFile('bc-replace').`
 
 describe('sublimeFile options test', () => {
   test('defines a function', () => {
