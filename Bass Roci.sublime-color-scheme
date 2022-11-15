@@ -5,406 +5,240 @@
  */
 {
     "name": "Roci",
-    "variables": {
-        "black1": "#000000",
-        "black2": "#161818",
-        "black3": "#323234",
-        "black4": "#404040",
-        "black5": "#2D2C2F",
-        "black6": "#252727",
-        "black7": "#161412",
-        "black8": "#232323",
-        "black9": "#18171B",
-        "blue1": "#2077FB",
-        "blue2": "#1E73BE",
-        "blue3": "#0282F2",
-        "blue4": "#1C02CF",
-        "blue5": "#5DD8FF",
-        "blue-light1": "#E8F2FF",
-        "blue-light2": "#C7E1F2",
-        "blue-light3": "#B2D6FB",
-        "blue-light4": "#A4CDFF",
-        "blue-light5": "#C9DDEC",
-        "brown1": "#BF8555",
-        "brown2": "#643820",
-        "cyan1": "#40E0D0",
-        "cyan2": "#38A2AF",
-        "cyan3": "#06B1D8",
-        "cyan4": "#007F7C",
-        "gray1": "#ECECEC",
-        "gray2": "#B4B4B4",
-        "gray3": "#9B9B9B",
-        "gray4": "#5D6C79",
-        "gray5": "#D8D8D8",
-        "gray6": "#525055",
-        "green1": "#57C038",
-        "green2": "#119912",
-        "green3": "#1A5301",
-        "green4": "#294B4E",
-        "green5": "#334D41",
-        "green-light1": "#C4E7CE",
-        "green-light2": "#A7D4B4",
-        "green-light3": "#83B85E",
-        "green-light4": "#00997B",
-        "green-light5": "#B2E79F",
-        "gold1": "#FFB500",
-        "gold2": "#D0BC56",
-        "magenta1": "#FF00FF",
-        "magenta2": "#FC6BAA",
-        "magenta3": "#EC4990",
-        "orange1": "#FD8F3F",
-        "orange2": "#E47C48",
-        "orange3": "#C86733",
-        "orange4": "#FF5A00",
-        "orange-light1": "#ECAA79",
-        "orange-light2": "#F2DBCC",
-        "pink1": "#C01553",
-        "pink-light1": "#F6CAD6",
-        "pink-light2": "#F3B5C5",
-        "pink-light3": "#E87191",
-        "pink-light4": "#DF88B7",
-        "purple1": "#8D52D1",
-        "purple2": "#9B2393",
-        "purple3": "#AA0D91",
-        "purple4": "#47253C",
-        "red1": "#FC5B57",
-        "red2": "#C41A16",
-        "red3": "#9B0509",
-        "red4": "#FC7467",
-        "red5": "#9B1B30",
-        "white1": "#FFFFFF",
-        "white2": "#F0F0F7",
-        "white3": "#F4F5F6",
-        "white4": "#E9EAE8",
-        "white5": "#F3EFF2",
-        "yellow1": "#FFE76D",
-        "yellow2": "#FFF618",
-        "yellow3": "#FFC849",
-        "yellow4": "#F5DF4D",
-        "yellow-light1": "#F9EFDA",
-        "yellow-light2": "#FFFCE5",
-        "yellow-light3": "#F9DF9C",
-        "bg-color": "var(black9)",
-        "fg-color": "var(white2)",
-        "invisibles": "var(gray4)",
-        "caret": "var(gray1)",
-        "block-caret": "",
-        "line-highlight": "var(black3)",
-        "misspelling": "var(orange1)",
-        "fold-marker": "var(yellow1)",
-        "minimap-border": "var(yellow1)",
-        "accent": "var(cyan2)",
-        "popup-css": "\n      html, body {\n        background-color: transparent;\n        color: #B4B4B4;\n      }\n      body {\n        padding: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
-        "phantom-css": "\n      html, body {\n        background-color: #404040;\n        border-radius: 4px;\n      color: #D8D8D8;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
-        "gutter": "var(bg-color)",
-        "gutter-foreground": "color(var(gray2) alpha(0.7))",
-        "line-diff-width": "",
-        "line-diff-added": "var(blue3)",
-        "line-diff-modified": "var(gold1)",
-        "line-diff-deleted": "var(red3)",
-        "selection": "var(black3)",
-        "selection-fg": "var(gray3)",
-        "selection-border": "var(gray6)",
-        "selection-border-width": "1",
-        "inactive-selection": "var(black2)",
-        "inactive-selection-fg": "var(gray6)",
-        "selection-corner-style": "round",
-        "selection-corner-radius": "2",
-        "highlight": "color(var(gold2) a(0.7)",
-        "find-highlight": "var(orange1)",
-        "find-highlight-fg": "color(var(white2) s(+ 3%)",
-        "scroll-highlight": "var(yellow-light3)",
-        "rulers": "var(black4)",
-        "guide": "color(var(gray3) alpha(0.5)",
-        "active-guide": "var(blue1)",
-        "stack-guide": "var(blue1)",
-        "brackets-opts": "underline",
-        "brackets-fg": "var(yellow1)",
-        "bracket-contents-opts": "stippled_underline",
-        "bracket-contents-fg": "var(blue5)",
-        "tags-opts": "stippled_underline",
-        "tags-fg": "var(purple2)",
-        "shadow": "color(var(black4) alpha(0.3))",
-        "shadow-width": "3",
-        "entity-name-fg": "var(blue5)",
-        "entity-inherited-class-fg": "var(blue5)",
-        "entity-name-section-fg": "var(purple1)",
-        "entity-name-tag-fg": "var(cyan3)",
-        "entity-attribute-name-fg": "var(green-light1)",
-        "variable-fg": "var(green-light2)",
-        "variable-lang-font-style": "italic",
-        "variable-lang-fg": "var(purple1)",
-        "variable-param-fg": "var(purple1)",
-        "variable-fn-fg": "var(blue5)",
-        "constant-fg": "var(blue5)",
-        "constant-num-fg": "var(gold2)",
-        "constant-lang-fg": "var(blue3)",
-        "constant-char-escape-fg": "var(gold2)",
-        "storage-fg": "var(magenta2)",
-        "storage-modifier-fg": "var(magenta2)",
-        "support-fg": "var(green-light2)",
-        "keyword-font-style": "bold",
-        "keyword-fg": "var(magenta3)",
-        "keyword-ctrl-fg": "var(magenta3)",
-        "keyword-operator-fg": "var(magenta3)",
-        "keyword-declaration-fg": "var(green-light1)",
-        "string-fg": "var(red4)",
-        "comment-font-style": "normal",
-        "comment-fg": "var(green-light3)",
-        "invalid-fg": "var(red1)",
-        "invalid-deprecated-fg": "var(red2)",
-        "punctuation-separator-cont-fg": "var(magenta2)",
-        "markup-heading-font-style": "bold",
-        "markup-heading-fg": "var(gold2)",
-        "markup-list-font-style": "bold",
-        "markup-list-fg": "",
-        "markup-bold-font-style": "bold",
-        "markup-bold-fg": "",
-        "markup-italic-font-style": "italic",
-        "markup-italic-fg": "",
-        "markup-link-fg": "",
-        "markup-quote-font-style": "italic",
-        "markup-quote-fg": "var(green-light2)",
-        "markup-raw-bg": "var(black8)",
-        "markup-raw-inline-bg": "var(black8)",
-        "markup-table-bg": "var(black4)",
-        "markup-table-fg": "",
-        "markup-inserted-fg": "var(yellow1)",
-        "markup-deleted-fg": "var(magenta1)"
-    },
+    "variables": {},
     "globals": {
-        "background": "var(bg-color)",
-        "foreground": "var(fg-color)",
-        "invisibles": "var(invisibles)",
-        "caret": "var(caret)",
-        "block_caret": "var(block-caret)",
-        "line_highlight": "var(line-highlight)",
-        "misspelling": "var(misspelling)",
-        "fold_marker": "var(fold-marker)",
-        "minimap_border": "var(minimap-border)",
-        "accent": "var(accent)",
-        "popup_css": "var(popup-css)",
-        "phantom_css": "var(phantom-css)",
-        "gutter": "var(gutter)",
-        "gutter_foreground": "var(gutter-foreground)",
-        "line_diff_width": "var(line-diff-width)",
-        "line_diff_added": "var(line-diff-added)",
-        "line_diff_modified": "var(line-diff-modified)",
-        "line_diff_deleted": "var(line-diff-deleted)",
-        "selection": "var(selection)",
-        "selection_foreground": "var(selection-fg)",
-        "selection_border": "var(selection-border)",
-        "selection_border_width": "var(selection-border-width)",
-        "inactive_selection": "var(inactive-selection)",
-        "inactive_selection_foreground": "var(inactive-selection-fg)",
-        "selection_corner_style": "var(selection-corner-style)",
-        "selection_corner_radius": "var(selection-corner-radius)",
-        "highlight": "var(highlight)",
-        "find_highlight": "var(find-highlight)",
-        "find_highlight_foreground": "var(find-highlight-fg)",
-        "scroll_highlight": "var(scroll-highlight)",
-        "rulers": "var(rulers)",
-        "guide": "var(guide)",
-        "active_guide": "var(active-guide)",
-        "stack_guide": "var(stack-guide)",
-        "brackets_options": "var(brackets-opts)",
-        "brackets_foreground": "var(brackets-fg)",
-        "bracket_contents_options": "var(bracket-contents-opts)",
-        "bracket_contents_foreground": "var(bracket-contents-fg)",
-        "tags_options": "var(tags-opts)",
-        "tags_foreground": "var(tags-fg)",
-        "shadow": "var(shadow)",
-        "shadow_width": "var(shadow-width)"
+        "background": "#18171B",
+        "foreground": "#F0F0F7",
+        "invisibles": "#5D6C79",
+        "caret": "#ECECEC",
+        "block_caret": "",
+        "line_highlight": "#323234",
+        "misspelling": "#FD8F3F",
+        "fold_marker": "#FFE76D",
+        "minimap_border": "#FFE76D",
+        "accent": "#38A2AF",
+        "popup_css": "\n      html, body {\n        background-color: transparent;\n        color: #B4B4B4;\n      }\n      body {\n        padding: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
+        "phantom_css": "\n      html, body {\n        background-color: #404040;\n        border-radius: 4px;\n      color: #D8D8D8;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
+        "gutter": "#18171B",
+        "gutter_foreground": "color(#B4B4B4 alpha(0.7))",
+        "line_diff_width": "",
+        "line_diff_added": "#0282F2",
+        "line_diff_modified": "#FFB500",
+        "line_diff_deleted": "#9B0509",
+        "selection": "#323234",
+        "selection_foreground": "#9B9B9B",
+        "selection_border": "#525055",
+        "selection_border_width": "1",
+        "inactive_selection": "#161818",
+        "inactive_selection_foreground": "#525055",
+        "selection_corner_style": "round",
+        "selection_corner_radius": "2",
+        "highlight": "color(#D0BC56 a(0.7)",
+        "find_highlight": "#FD8F3F",
+        "find_highlight_foreground": "color(#F0F0F7 s(+ 3%)",
+        "scroll_highlight": "#F9DF9C",
+        "rulers": "#404040",
+        "guide": "color(#9B9B9B alpha(0.5)",
+        "active_guide": "#2077FB",
+        "stack_guide": "#2077FB",
+        "brackets_options": "underline",
+        "brackets_foreground": "#FFE76D",
+        "bracket_contents_options": "stippled_underline",
+        "bracket_contents_foreground": "#5DD8FF",
+        "tags_options": "stippled_underline",
+        "tags_foreground": "#9B2393",
+        "shadow": "color(#404040 alpha(0.3))",
+        "shadow_width": "3"
     },
     "rules": [
         {
             "name": "Entity name",
             "scope": "entity.name",
-            "foreground": "var(entity-name-fg)"
+            "foreground": "#5DD8FF"
         },
         {
             "name": "Entity other inherited class",
             "scope": "entity.other.inherited-class",
-            "foreground": "var(entity-inherited-class-fg)"
+            "foreground": "#5DD8FF"
         },
         {
             "name": "Entity name section",
             "scope": "entity.name.section",
-            "foreground": "var(entity-name-section-fg)"
+            "foreground": "#8D52D1"
         },
         {
             "name": "Entity name tag",
             "scope": "entity.name.tag",
-            "foreground": "var(entity-name-tag-fg)"
+            "foreground": "#06B1D8"
         },
         {
             "name": "Entity other attribute name",
             "scope": "entity.other.attribute-name",
-            "foreground": "var(entity-attribute-name-fg)"
+            "foreground": "#C4E7CE"
         },
         {
             "name": "Variable",
             "scope": "variable",
-            "foreground": "var(variable-fg)"
+            "foreground": "#A7D4B4"
         },
         {
             "name": "Variable language",
             "scope": "variable.language",
-            "font_style": "var(variable-lang-font-style)",
-            "foreground": "var(variable-lang-fg)"
+            "font_style": "italic",
+            "foreground": "#8D52D1"
         },
         {
             "name": "Variable parameter",
             "scope": "variable.parameter",
-            "foreground": "var(variable-param-fg)"
+            "foreground": "#8D52D1"
         },
         {
             "name": "Variable function",
             "scope": "variable.function",
-            "foreground": "var(variable-fn-fg)"
+            "foreground": "#5DD8FF"
         },
         {
             "name": "Constant",
             "scope": "constant",
-            "foreground": "var(constant-fg)"
+            "foreground": "#5DD8FF"
         },
         {
             "name": "Constant numeric",
             "scope": "constant.numeric",
-            "foreground": "var(constant-num-fg)"
+            "foreground": "#D0BC56"
         },
         {
             "name": "Constant language",
             "scope": "constant.language",
-            "foreground": "var(constant-lang-fg)"
+            "foreground": "#0282F2"
         },
         {
             "name": "Constant character escape",
             "scope": "constant.character.escape",
-            "foreground": "var(constant-char-escape-fg)"
+            "foreground": "#D0BC56"
         },
         {
             "name": "Storage",
             "scope": "storage",
-            "foreground": "var(storage-fg)"
+            "foreground": "#FC6BAA"
         },
         {
             "name": "Storage modifier",
             "scope": "storage.modifier",
-            "foreground": "var(magenta2)"
+            "foreground": "#FC6BAA"
         },
         {
             "name": "Support",
             "scope": "support",
-            "foreground": "var(green-light2)"
+            "foreground": "#A7D4B4"
         },
         {
             "name": "Keyword",
             "scope": "keyword",
-            "font_style": "var(keyword-font-style)",
-            "foreground": "var(keyword-fg)"
+            "font_style": "bold",
+            "foreground": "#EC4990"
         },
         {
             "name": "Keyword control",
             "scope": "keyword.control",
-            "foreground": "var(keyword-ctrl-fg)"
+            "foreground": "#EC4990"
         },
         {
             "name": "Keyword operator",
             "scope": "keyword.operator",
-            "foreground": "var(keyword-operator-fg)"
+            "foreground": "#EC4990"
         },
         {
             "name": "Keyword declaration",
             "scope": "keyword.declaration",
-            "foreground": "var(keyword-declaration-fg)"
+            "foreground": "#C4E7CE"
         },
         {
             "name": "String",
             "scope": "string",
-            "foreground": "var(string-fg)"
+            "foreground": "#FC7467"
         },
         {
             "name": "Comment",
             "scope": "comment",
-            "font_style": "var(comment-font-style)",
-            "foreground": "var(comment-fg)"
+            "font_style": "normal",
+            "foreground": "#83B85E"
         },
         {
             "name": "Invalid",
             "scope": "invalid",
-            "foreground": "var(invalid-fg)"
+            "foreground": "#FC5B57"
         },
         {
             "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
-            "foreground": "var(invalid-deprecated-fg)"
+            "foreground": "#C41A16"
         },
         {
             "name": "Line-continuation characters, such as in Python and R",
             "scope": "punctuation.separator.continuation",
-            "foreground": "var(punctuation-separator-cont-fg)"
+            "foreground": "#FC6BAA"
         },
         {
             "name": "Markup heading",
             "scope": "markup.heading, markup.heading entity.name",
-            "font_style": "var(markup-heading-font-style)",
-            "foreground": "var(markup-heading-fg)"
+            "font_style": "bold",
+            "foreground": "#D0BC56"
         },
         {
             "name": "Markup list",
             "scope": "markup.list.unnumbered, markup.list.numbered",
-            "font_style": "var(markup-list-font-style)",
-            "foreground": "var(markup-list-fg)"
+            "font_style": "bold",
+            "foreground": ""
         },
         {
             "name": "Markup bold",
             "scope": "markup.bold",
-            "font_style": "var(markup-bold-font-style)",
-            "foreground": "var(markup-bold-fg)"
+            "font_style": "bold",
+            "foreground": ""
         },
         {
             "name": "Markup Italic",
             "scope": "markup.italic",
-            "font_style": "var(markup-italic-font-style)",
-            "foreground": "var(markup-italic-fg)"
+            "font_style": "italic",
+            "foreground": ""
         },
         {
             "name": "Markup links",
             "scope": "markup.underline.link, string.other.link",
-            "foreground": "var(blue5)"
+            "foreground": "#5DD8FF"
         },
         {
             "name": "Markup blockquote",
             "scope": "markup.quote",
-            "font_style": "var(markup-quote-font-style)",
-            "foreground": "var(markup-quote-fg)"
+            "font_style": "italic",
+            "foreground": "#A7D4B4"
         },
         {
             "name": "Markup code block",
             "scope": "markup.raw",
-            "background": "var(markup-raw-bg)"
+            "background": "#232323"
         },
         {
             "name": "Markup code inline",
             "scope": "markup.raw.inline",
-            "background": "var(markup-raw-inline-bg)"
+            "background": "#232323"
         },
         {
             "name": "Markup table",
             "scope": "markup.table",
-            "background": "var(markup-table-bg)",
-            "foreground": "var(markup-table-fg)"
+            "background": "#404040",
+            "foreground": ""
         },
         {
             "name": "Markup added",
             "scope": "markup.inserted",
-            "foreground": "var(markup-inserted-fg)"
+            "foreground": "#FFE76D"
         },
         {
             "name": "Markup removed",
             "scope": "markup.deleted",
-            "foreground": "var(markup-deleted-fg)"
+            "foreground": "#FF00FF"
         }
     ]
 }
