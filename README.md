@@ -25,8 +25,8 @@ Pic Bass Daark Mix & Green | Pic Bass Light Digital & Sepia | Pic Treble Adaptiv
 
 The only way to install it is manually now.
 
-To install manually, [download](https://github.com/53v3n3d4/Bass-Color-Scheme/releases) the latest release version zip file and uncompress it on your Sublime Text `Packages` folder.  
-- Download the zip file on [`releases`](https://github.com/53v3n3d4/Bass-Color-Scheme/releases) page
+To install manually, [download](https://github.com/53v3n3d4/Color-Scheme-Bass/releases) the latest release version zip file and uncompress it on your Sublime Text `Packages` folder.  
+- Download the zip file on [`releases`](https://github.com/53v3n3d4/Color-Scheme-Bass/releases) page
 - Menu `Sublime Text > Preferences > Browse packages...` to open destination folder
 - Then unzip `Bass-Treble-Theme zip file` inside `Packages` folder
 
