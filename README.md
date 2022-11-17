@@ -21,6 +21,10 @@ Pic Bass Dark Digital & Blue | Pic Bass Light Analog & Bass Dark | Pic Treble Ad
 
 Pic Bass Daark Mix & Green | Pic Bass Light Digital & Sepia | Pic Treble Adaptive & Treble Dark
 
+> In screenshots, we are using Theme Treble and file-type-icons
+[Theme - Treble](https://github.com/53v3n3d4/Theme-Treble)
+[file-type-icons](https://github.com/53v3n3d4/file-type-icons)
+
 ## Package installation
 
 The only way to install it is manually now.
@@ -28,13 +32,13 @@ The only way to install it is manually now.
 To install manually, [download](https://github.com/53v3n3d4/Color-Scheme-Bass/releases) the latest release version zip file and uncompress it on your Sublime Text `Packages` folder.  
 - Download the zip file on [`releases`](https://github.com/53v3n3d4/Color-Scheme-Bass/releases) page
 - Menu `Sublime Text > Preferences > Browse packages...` to open destination folder
-- Then unzip `Bass-Treble-Theme zip file` inside `Packages` folder
+- Then unzip `Color Scheme - Bass zip file` inside `Packages` folder
 
 ## Uninstall
 
 To uninstall manually, go to your Sublime Text folder.
 - Menu `Sublime Text > Preferences > Browse packages...`
-- Then delete `Bass-Treble-Theme` inside `Packages` folder
+- Then delete `Color Scheme - Bass` inside `Packages` folder
 
 ## License
 
