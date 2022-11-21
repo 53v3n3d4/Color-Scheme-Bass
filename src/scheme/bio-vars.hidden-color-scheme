@@ -17,7 +17,7 @@
 
         /** Globals variables */
 
-        "bg-color":                  "var(black9)", // black
+        "bg-color":                  "#423530", // #443731 423530
         "fg-color":                  "var(white2)", // Popup definiton/reference text
         "invisibles":                "var(gray4)",
         "caret":                     "var(gray1)", // mouse cursor
