@@ -82,8 +82,8 @@ Before open
 
 - Bass colors: Dark, Light, Blue, Green, Serpia, PurpleDark, BlueDark, RedDark 
 
-# Fuji
-- console.log too clear
+JS
+- console.log too clear - follow github. console one color and .log another
 
 
 
