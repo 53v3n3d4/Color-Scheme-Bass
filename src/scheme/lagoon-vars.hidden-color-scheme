@@ -37,7 +37,7 @@
         // "sheet_css": ,
         /** Gutter */
         "gutter":                     "var(bg-color)",
-        "gutter-foreground":          "var(yellow-light1)",
+        "gutter-foreground":          "color(var(gray3) alpha(0.7))",
         // "gutter_foreground": "{font-family: Helvetica";\n        font-size: 8px;\n      color: #808080;\n}",
         /** Diff */
         "line-diff-width":            "", // default 3
@@ -140,9 +140,9 @@
         "markup-link-fg":               "",
         "markup-quote-font-style":      "italic",
         "markup-quote-fg":              "var(green2)",
-        "markup-raw-bg":                "var(gray1)",
-        "markup-raw-inline-bg":         "var(gray1)",
-        "markup-table-bg":              "var(gray1)",
+        "markup-raw-bg":                "var(blue-light4)",
+        "markup-raw-inline-bg":         "var(blue-light4)",
+        "markup-table-bg":              "var(blue-light4)",
         "markup-table-fg":              "",
         "markup-inserted-fg":           "var(yellow1)",
         "markup-deleted-fg":            "var(magenta1)"

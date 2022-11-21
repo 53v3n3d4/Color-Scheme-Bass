@@ -140,9 +140,9 @@
         "markup-link-fg":               "",
         "markup-quote-font-style":      "italic",
         "markup-quote-fg":              "var(green2)",
-        "markup-raw-bg":                "var(gray1)",
-        "markup-raw-inline-bg":         "var(gray1)",
-        "markup-table-bg":              "var(gray1)",
+        "markup-raw-bg":                "color(var(gray2) a(0.3))",
+        "markup-raw-inline-bg":         "color(var(gray2) a(0.3))",
+        "markup-table-bg":              "color(var(gray2) a(0.3))",
         "markup-table-fg":              "",
         "markup-inserted-fg":           "var(yellow1)",
         "markup-deleted-fg":            "var(magenta1)"

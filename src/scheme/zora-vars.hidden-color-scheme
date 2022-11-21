@@ -17,17 +17,17 @@
 
         /** Globals variables */
 
-        "bg-color":                  "#345a71", // 251f3a 305368
-        "fg-color":                  "var(white2)", // Popup definiton/reference text
-        "invisibles":                "var(gray4)",
-        "caret":                     "var(gray1)", // mouse cursor
-        "block-caret":               "",
-        "line-highlight":            "var(black3)",
+        "bg-color":                   "var(blue-dark1)", // 251f3a 305368 213a48 192c37
+        "fg-color":                   "var(gray2)", // Popup definiton/reference text
+        "invisibles":                 "var(gray4)",
+        "caret":                      "var(cyan3)", // mouse cursor
+        "block-caret":                "",
+        "line-highlight":             "var(blue-dark2)",
         /** Accents */
-        "misspelling":               "var(orange1)", // not working
-        "fold-marker":               "var(yellow1)", // when folded, the "...
-        "minimap-border":            "var(yellow1)", // not working
-        "accent":                    "var(cyan2)",
+        "misspelling":                "var(orange1)", // not working
+        "fold-marker":                "var(yellow1)", // when folded, the "...
+        "minimap-border":             "var(yellow1)", // not working
+        "accent":                     "var(cyan3)",
         /** Css */
         // Popup css: Example, bg color, link color, title color of definition/reference. Round corner, border, bg comes from Theme file.
         "popup-css": "\n      html, body {\n        background-color: transparent;\n        color: #B4B4B4;\n      }\n      body {\n        padding: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
@@ -36,21 +36,21 @@
         "phantom-css": "\n      html, body {\n        background-color: #404040;\n        border-radius: 4px;\n      color: #D8D8D8;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
         // "sheet_css": ,
         /** Gutter */
-        "gutter":                    "var(bg-color)",
-        "gutter-foreground":         "color(var(gray2) alpha(0.7))",
+        "gutter":                     "var(bg-color)",
+        "gutter-foreground":          "color(var(gray2) alpha(0.7))",
         // "gutter_foreground": "{font-family: Helvetica";\n        font-size: 8px;\n      color: #808080;\n}",
         /** Diff */
-        "line-diff-width":           "", // default 3
-        "line-diff-added":           "var(blue3)",
-        "line-diff-modified":        "var(gold1)",
-        "line-diff-deleted":         "var(red3)",
+        "line-diff-width":            "", // default 3
+        "line-diff-added":            "var(blue3)",
+        "line-diff-modified":         "var(gold1)",
+        "line-diff-deleted":          "var(red3)",
         /** Selection */
-        "selection":                 "var(black3)",
-        "selection-fg":               "var(gray3)",
-        "selection-border":           "var(gray6)",
+        "selection":                  "color(var(green-light1) a(0.7))",
+        "selection-fg":               "var(black4)",
+        "selection-border":           "var(black2)",
         "selection-border-width":     "1",
-        "inactive-selection":         "var(black2)",
-        "inactive-selection-fg":      "var(gray6)",
+        "inactive-selection":         "color(var(green-light1) a(0.4))",
+        "inactive-selection-fg":      "var(black4)",
         "selection-corner-style":     "round",
         "selection-corner-radius":    "2",
         /** Find */
@@ -59,7 +59,7 @@
         "find-highlight-fg":          "color(var(white2) s(+ 3%)",
         "scroll-highlight":           "var(yellow-light3)",
         /** Rulers */
-        "rulers":                     "var(black4)",
+        "rulers":                     "var(blue2)",
         /** Guides */
         "guide":                      "color(var(gray3) alpha(0.5)",
         "active-guide":               "var(blue1)", // not found
@@ -140,9 +140,9 @@
         "markup-link-fg":               "",
         "markup-quote-font-style":      "italic",
         "markup-quote-fg":              "var(green-light2)",
-        "markup-raw-bg":                "var(black8)",
-        "markup-raw-inline-bg":         "var(black8)",
-        "markup-table-bg":              "var(black4)",
+        "markup-raw-bg":                "var(blue-dark3)",
+        "markup-raw-inline-bg":         "var(blue-dark3)",
+        "markup-table-bg":              "var(blue-dark3)",
         "markup-table-fg":              "",
         "markup-inserted-fg":           "var(yellow1)",
         "markup-deleted-fg":            "var(magenta1)"
