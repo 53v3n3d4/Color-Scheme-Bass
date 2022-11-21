@@ -1,15 +1,15 @@
 import { pathFile, projectDir, schemeDir, schemePath } from './dirPaths.js'
 
 // Sublime color-scheme files. https://louisem.com/29880/color-thesaurus-infographic
-const bcScheme = pathFile('Bass Blackcomb.sublime-color-scheme', projectDir) // black
-const bioScheme = pathFile('Bass Biohack.sublime-color-scheme', projectDir) // dark brown
-const bowScheme = pathFile('Bass Bowtruckle.sublime-color-scheme', projectDir) // green
-const doScheme = pathFile('Bass D-O.sublime-color-scheme', projectDir) // serpia
-const fujiScheme = pathFile('Bass Fuji.sublime-color-scheme', projectDir) // white
-const lagoonScheme = pathFile('Bass Lagoon.sublime-color-scheme', projectDir) // light blue
-const nimbusScheme = pathFile('Bass Nimbus.sublime-color-scheme', projectDir) // light grey
-const rociScheme = pathFile('Bass Roci.sublime-color-scheme', projectDir) // dark purple
-const zoraScheme = pathFile('Bass Zora.sublime-color-scheme', projectDir) // dark blue
+const bcScheme = pathFile('Bass Blackcomb.sublime-color-scheme', projectDir)
+const bioScheme = pathFile('Bass Biohack.sublime-color-scheme', projectDir)
+const bowScheme = pathFile('Bass Bowtruckle.sublime-color-scheme', projectDir)
+const doScheme = pathFile('Bass D-O.sublime-color-scheme', projectDir)
+const fujiScheme = pathFile('Bass Fuji.sublime-color-scheme', projectDir)
+const lagoonScheme = pathFile('Bass Lagoon.sublime-color-scheme', projectDir)
+const nimbusScheme = pathFile('Bass Nimbus.sublime-color-scheme', projectDir)
+const rociScheme = pathFile('Bass Roci.sublime-color-scheme', projectDir)
+const zoraScheme = pathFile('Bass Zora.sublime-color-scheme', projectDir)
 
 // Filenames.
 const bcVars = 'bc-vars.hidden-color-scheme'
