@@ -56,7 +56,7 @@ Light theme tab style do background false fuji color scheme accent grayscale
 Dark theme tab style re background false blackcomb color scheme accent grayscale
 
 # Issues Theme
-
+```
 Order code
 - tint, opacity, texture, draw center, innermargin
 -- Tabs, Buttons, Dialogs, Vcs status, Labels, Tooltips section ok.
@@ -71,6 +71,7 @@ Order code
 
 Order complete
 - Title bar, Status bar, Dialogs, Scroll bars, Inputs, Panels, Quick panels, Sheet, Views, Auto complete
+```
 
 
 # Issues Color Scheme
@@ -86,7 +87,8 @@ Before open
 
 
 
-
+scroll-highlight
+- too round, change to square
 
 json sublime-theme dark colors
 - Change the red color
@@ -94,6 +96,7 @@ json sublime-theme dark colors
 Markdown
 - Finish, started Treble Dark
 - Mariana, color symbols #, - . Treble dark has # colored
+- Round corner raw
 
 Selection 
 - Mariana border
