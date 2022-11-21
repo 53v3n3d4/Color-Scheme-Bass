@@ -88,7 +88,8 @@
         "yellow4":          "#F5DF4D", // "rgb(245, 223, 77)"
         "yellow-light1":    "#F9EFDA", // "rgb(249, 239, 218)"
         "yellow-light2":    "#FFFCE5", // "rgb(255, 252, 229)"
-        "yellow-light3":    "#F9DF9C" // "rgb(249, 223, 156)"
+        "yellow-light3":    "#F9DF9C", // "rgb(249, 223, 156)"
+        "yellow-light4":    "#F4E2BC" // "rgb(244, 228, 188)"
     },
     "globals": {},
     "rules": []
