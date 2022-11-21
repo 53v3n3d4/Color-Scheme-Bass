@@ -217,17 +217,17 @@
         {
             "name": "Markup code block",
             "scope": "markup.raw",
-            "background": "#ECECEC"
+            "background": "color(#B4B4B4 a(0.3))"
         },
         {
             "name": "Markup code inline",
             "scope": "markup.raw.inline",
-            "background": "#ECECEC"
+            "background": "color(#B4B4B4 a(0.3))"
         },
         {
             "name": "Markup table",
             "scope": "markup.table",
-            "background": "#ECECEC",
+            "background": "color(#B4B4B4 a(0.3))",
             "foreground": ""
         },
         {

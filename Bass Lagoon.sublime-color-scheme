@@ -20,7 +20,7 @@
         "popup_css": "\n      html, body {\n        background-color: transparent;\n        color: #9B9B9B;\n      }\n      body {\n        padding: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
         "phantom_css": "\n      html, body {\n        background-color: #B4B4B4;\n        border-radius: 4px;\n      color: #161818;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
         "gutter": "#B2D6FB",
-        "gutter_foreground": "#F9EFDA",
+        "gutter_foreground": "color(#9B9B9B alpha(0.7))",
         "line_diff_width": "",
         "line_diff_added": "#0282F2",
         "line_diff_modified": "#FFB500",
@@ -217,17 +217,17 @@
         {
             "name": "Markup code block",
             "scope": "markup.raw",
-            "background": "#ECECEC"
+            "background": "#A4CDFF"
         },
         {
             "name": "Markup code inline",
             "scope": "markup.raw.inline",
-            "background": "#ECECEC"
+            "background": "#A4CDFF"
         },
         {
             "name": "Markup table",
             "scope": "markup.table",
-            "background": "#ECECEC",
+            "background": "#A4CDFF",
             "foreground": ""
         },
         {

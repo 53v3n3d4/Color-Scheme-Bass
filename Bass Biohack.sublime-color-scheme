@@ -10,13 +10,13 @@
         "background": "#423530",
         "foreground": "#F0F0F7",
         "invisibles": "#5D6C79",
-        "caret": "#ECECEC",
+        "caret": "#06B1D8",
         "block_caret": "",
-        "line_highlight": "#323234",
+        "line_highlight": "#584740",
         "misspelling": "#FD8F3F",
         "fold_marker": "#FFE76D",
         "minimap_border": "#FFE76D",
-        "accent": "#38A2AF",
+        "accent": "#C86733",
         "popup_css": "\n      html, body {\n        background-color: transparent;\n        color: #B4B4B4;\n      }\n      body {\n        padding: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
         "phantom_css": "\n      html, body {\n        background-color: #404040;\n        border-radius: 4px;\n      color: #D8D8D8;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
         "gutter": "#423530",
@@ -25,19 +25,19 @@
         "line_diff_added": "#0282F2",
         "line_diff_modified": "#FFB500",
         "line_diff_deleted": "#9B0509",
-        "selection": "#323234",
-        "selection_foreground": "#9B9B9B",
-        "selection_border": "#525055",
+        "selection": "color(#F6CAD6 a(0.6))",
+        "selection_foreground": "#404040",
+        "selection_border": "#161818",
         "selection_border_width": "1",
-        "inactive_selection": "#161818",
-        "inactive_selection_foreground": "#525055",
+        "inactive_selection": "color(#F6CAD6 a(0.3))",
+        "inactive_selection_foreground": "#404040",
         "selection_corner_style": "round",
         "selection_corner_radius": "2",
         "highlight": "color(#D0BC56 a(0.7)",
         "find_highlight": "#FD8F3F",
         "find_highlight_foreground": "color(#F0F0F7 s(+ 3%)",
         "scroll_highlight": "#F9DF9C",
-        "rulers": "#404040",
+        "rulers": "#161818",
         "guide": "color(#9B9B9B alpha(0.5)",
         "active_guide": "#2077FB",
         "stack_guide": "#2077FB",
@@ -217,17 +217,17 @@
         {
             "name": "Markup code block",
             "scope": "markup.raw",
-            "background": "#232323"
+            "background": "#2F2522"
         },
         {
             "name": "Markup code inline",
             "scope": "markup.raw.inline",
-            "background": "#232323"
+            "background": "#2F2522"
         },
         {
             "name": "Markup table",
             "scope": "markup.table",
-            "background": "#404040",
+            "background": "#2F2522",
             "foreground": ""
         },
         {
