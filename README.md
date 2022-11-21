@@ -21,8 +21,8 @@ Pic Bass Dark Digital & Blue | Pic Bass Light Analog & Bass Dark | Pic Treble Ad
 
 Pic Bass Daark Mix & Green | Pic Bass Light Digital & Sepia | Pic Treble Adaptive & Treble Dark
 
-> In screenshots, we are using Theme Treble and file-type-icons
-[Theme - Treble](https://github.com/53v3n3d4/Theme-Treble)
+> In screenshots, we are using Theme Treble and file-type-icons  
+[Theme - Treble](https://github.com/53v3n3d4/Theme-Treble)  
 [file-type-icons](https://github.com/53v3n3d4/file-type-icons)
 
 ## Package installation
@@ -74,6 +74,10 @@ Order complete
 
 
 # Issues Color Scheme
+
+Before open
+- fix merge
+- 
 
 - Bass colors: Dark, Light, Blue, Green, Serpia, PurpleDark, BlueDark, RedDark 
 
