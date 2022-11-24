@@ -80,11 +80,11 @@ Before open
 - fix merge
 - 
 
-- Bass colors: Dark, Light, Blue, Green, Serpia, PurpleDark, BlueDark, RedDark 
-
 JS
-- console.log too clear - follow github. console one color and .log another
-
+- Class import, class assingment
+- function sub. ie adaptiveData.name - meta.block.js, variable.other.readwrite.js
+- {Object}
+- 
 
 
 scroll-highlight
@@ -101,9 +101,6 @@ Markdown
 Selection 
 - Mariana border
 
-JS
-- comments tags
-- import
 
 Globals
 - theme/color scheme badge when select theme/color, text_line_control maybe
