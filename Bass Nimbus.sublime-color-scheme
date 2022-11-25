@@ -80,10 +80,11 @@
         //     "scope": "support.type.vendor-prefix",
         //     "foreground": "#FC5B57"
         // },
-        // {
-        //     "scope": "source - comment - string - keyword - punctuation - storage - entity - source.css - variable",
-        //     "foreground": "#FC5B57"
-        // },
+        {
+            "name": "", // e.g. name from adaptiveData.name 
+            "scope": "source - comment - string - keyword - punctuation - storage - entity - source.css - variable - support.constant - support",
+            "foreground": "#E8F2FF"
+        },
         {
             "scope": "entity.other.pseudo-class",
             "foreground": "#9B2393"
@@ -180,7 +181,7 @@
             "name": "const Class",
             "scope": "variable.other.constant.js",
             "font_style": "bold",
-            "foreground": "#FC5B57"
+            "foreground": "#DF88B7"
         },
         // {
         //     "name": "",
@@ -188,21 +189,26 @@
         //     "font_style": "bold",
         //     "foreground": "#FC5B57"
         // },
-        {
-            "name": "Keyword operator and arrow fn js",
-            "scope": "keyword.operator.ternary.js, keyword.operator.comparison.js, keyword.operator.assignment.js, keyword.declaration.function.arrow.js, keyword.operator.logical.js",
-            "font_style": "bold",
-            "foreground": "#FC5B57" // light blue?
-        },
         // {
         //     "name": "Keyword control",
         //     "scope": "keyword.control",
         //     "foreground": "#AA0D91"
         // },
+        {
+            "name": "Keyword operator",
+            "scope": "keyword.operator",
+            "foreground": "#FC5B57"
+        },
         // {
-        //     "name": "Keyword operator",
-        //     "scope": "keyword.operator",
-        //     "foreground": "#AA0D91"
+        //     "name": "Keyword operator and arrow fn js",
+        //     "scope": "keyword.operator.ternary.js, keyword.operator.comparison.js, keyword.operator.assignment.js, keyword.declaration.function.arrow.js, keyword.operator.logical.js",
+        //     "font_style": "bold",
+        //     "foreground": "#FC5B57" // light blue?
+        // },
+        // {
+        //     "name": "Keyword node exports js",
+        //     "scope": "support.constant.node.js", // it is changing too many places like _dirname, filename, module
+        //     "foreground": "#FC5B57"
         // },
         // {
         //     "name": "Keyword declaration",
