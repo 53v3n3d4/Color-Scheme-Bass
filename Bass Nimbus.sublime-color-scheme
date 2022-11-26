@@ -83,7 +83,7 @@
         {
             "name": "", // e.g. name from adaptiveData.name 
             "scope": "source - comment - string - keyword - punctuation - storage - entity - source.css - variable - support.constant - support",
-            "foreground": "#E8F2FF"
+            "foreground": "#FFC849"
         },
         {
             "scope": "entity.other.pseudo-class",
@@ -177,12 +177,12 @@
             "font_style": "bold",
             "foreground": "#FC5B57"
         },
-        {
-            "name": "const Class",
-            "scope": "variable.other.constant.js",
-            "font_style": "bold",
-            "foreground": "#DF88B7"
-        },
+        // {
+        //     "name": "const Class",
+        //     "scope": "variable.other.constant.js",
+        //     "font_style": "bold",
+        //     "foreground": "#DF88B7"
+        // },
         // {
         //     "name": "",
         //     "scope": "support.class.node.js",
