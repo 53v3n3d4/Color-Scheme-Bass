@@ -82,7 +82,7 @@
         // },
         {
             "name": "", // e.g. name from adaptiveData.name 
-            "scope": "source - comment - string - keyword - punctuation - storage - entity - source.css - variable - support.constant - support",
+            "scope": "source - comment - string - keyword - punctuation - storage - entity - source.css - variable - support.constant - support - constant.language.boolean - constant.numeric.value",
             "foreground": "#FFC849"
         },
         {
@@ -110,11 +110,22 @@
             "scope": "variable.function",
             "foreground": "#06B1D8"
         },
-        // {
-        //     "name": "Variable other.constant",
-        //     "scope": "variable.other.constant",
-        //     "foreground": "#06B1D8"
-        // },
+        {
+            "name": "Variable other.constant", // Class nodejs
+            "scope": "variable.other.constant",
+            "foreground": "#FFC849"
+        },
+        {
+            "name": "Variable other.constant", // Class new
+            "scope": "variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
+            "foreground": "#FFC849"
+        },
+        {
+            "name": "const Class",
+            "scope": "meta.block.js variable.other.readwrite.js - variable.function - variable.other.constant- variable.language - variable.parameter",
+            // "font_style": "bold",
+            "foreground": "#FFC849"
+        },
         // {
         //     "name": "Constant",
         //     "scope": "constant",
@@ -178,12 +189,6 @@
             "foreground": "#FC5B57"
         },
         // {
-        //     "name": "const Class",
-        //     "scope": "variable.other.constant.js",
-        //     "font_style": "bold",
-        //     "foreground": "#DF88B7"
-        // },
-        // {
         //     "name": "",
         //     "scope": "support.class.node.js",
         //     "font_style": "bold",
@@ -228,7 +233,7 @@
         {
             "name": "Json Yaml Js value",
             "scope": "meta.mapping.value.json string.quoted.double.json, meta.mapping.value.yaml, meta.mapping.value.js", // Json text, Yaml and JS not working
-            "foreground": "#A7D4B4" // green light
+            "foreground": "#1E73BE" // green light
         },
         {
             "name": "Comment",
