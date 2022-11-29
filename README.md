@@ -84,7 +84,13 @@ JS
 - Class import, class assingment
 - function sub. ie adaptiveData.name - meta.block.js, variable.other.readwrite.js
 - {Object}
-- 
+
+C Objective C
+- Comments
+
+Rails Ruby
+- variable, class...
+
 
 
 scroll-highlight
