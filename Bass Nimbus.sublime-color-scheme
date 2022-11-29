@@ -74,18 +74,19 @@
         {
             "name": "Entity other attribute name",
             "scope": "entity.other.attribute-name",
-            "foreground": "#643820"
+            "foreground": "#AA0D91"
         },
         // {
         //     "scope": "support.type.vendor-prefix",
         //     "foreground": "#FC5B57"
         // },
         {
-            "name": "", // e.g. name from adaptiveData.name 
-            "scope": "source - comment - string - keyword - punctuation - storage - entity - source.css - variable - support.constant - support - constant.language.boolean - constant.numeric.value",
+            "name": "Support", // e.g. name from adaptiveData.name 
+            "scope": "source.js - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value",
             "foreground": "#FFC849"
         },
         {
+            "name": "Entity other pseudo class",
             "scope": "entity.other.pseudo-class",
             "foreground": "#9B2393"
         },
@@ -117,25 +118,25 @@
         },
         {
             "name": "Variable other.constant", // Class new
-            "scope": "variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
+            "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
             "foreground": "#FFC849"
         },
-        {
-            "name": "const Class",
-            "scope": "meta.block.js variable.other.readwrite.js - variable.function - variable.other.constant- variable.language - variable.parameter",
-            // "font_style": "bold",
-            "foreground": "#FFC849"
-        },
+        // {
+        //     "name": "const Class",
+        //     "scope": "meta.block.js variable.other.readwrite.js - variable.function - variable.other.constant- variable.language - variable.parameter",
+        //     // "font_style": "bold",
+        //     "foreground": "#FFC849"
+        // },
         // {
         //     "name": "Constant",
         //     "scope": "constant",
         //     "foreground": "#294B4E"
         // },
-        // {
-        //     "name": "Constant numeric",
-        //     "scope": "constant.numeric",
-        //     "foreground": "#1C02CF"
-        // },
+        {
+            "name": "Constant numeric",
+            "scope": "constant.numeric",
+            "foreground": "#1C02CF"
+        },
         // {
         //     "name": "Constant language",
         //     "scope": "constant.language",
@@ -151,18 +152,18 @@
         //     "scope": "storage",
         //     "foreground": "#AA0D91"
         // },
-        // {
-        //     "name": "Storage modifier",
-        //     "scope": "storage.modifier",
-        //     "foreground": "#FC6BAA"
-        // },
+        {
+            "name": "Storage modifier",
+            "scope": "storage.modifier",
+            "foreground": "#FC6BAA"
+        },
         // {
         //     "name": "Support",
         //     "scope": "support",
         //     "foreground": "#A7D4B4"
         // },
         {
-            "name": "Support Functions",
+            "name": "Support Function",
             "scope": "support.function",
             "foreground": "#A7D4B4"
         },
@@ -173,7 +174,7 @@
         {
             "name": "Keyword",
             "scope": "keyword",
-            "font_style": "bold",
+            "font_style": "normal",
             "foreground": "#9B2393"
         },
         {
@@ -185,7 +186,7 @@
         {
             "name": "null",
             "scope": "constant.language.null.js",
-            "font_style": "bold",
+            "font_style": "normal",
             "foreground": "#FC5B57"
         },
         // {
@@ -223,16 +224,16 @@
         {
             "name": "String",
             "scope": "string",
-            "foreground": "#9B0509"
+            "foreground": "#404040"
         },
         {
-            "name": "Json Yaml Js key",
-            "scope": "meta.mapping.key.json string.quoted.double.json,meta.mapping.key.yaml string, meta.mapping.key.js, meta.mapping.key.js string", // Json text
+            "name": "Mapping key",
+            "scope": "meta.mapping.key, meta.mapping.key string", // Json text
             "foreground": "#9B2393" // purple
         },
         {
-            "name": "Json Yaml Js value",
-            "scope": "meta.mapping.value.json string.quoted.double.json, meta.mapping.value.yaml, meta.mapping.value.js", // Json text, Yaml and JS not working
+            "name": "Mapping value",
+            "scope": "meta.mapping.value, meta.mapping.value string", // Json text, Yaml and JS not working
             "foreground": "#1E73BE" // green light
         },
         {
@@ -262,8 +263,8 @@
         //     "foreground": "#FC6BAA"
         // },
         {
-            "name": "Support class js",
-            "scope": "support.class", // i.e: Object, Array
+            "name": "Support class",
+            "scope": "support.class", // i.e: Js Object, Array
             "foreground": "#FC5B57"
         },
         {
@@ -278,23 +279,23 @@
         //     "font_style": "normal",
         //     "foreground": ""
         // },
-        // {
-        //     "name": "Markup bold",
-        //     "scope": "markup.bold",
-        //     "font_style": "bold",
-        //     "foreground": ""
-        // },
-        // {
-        //     "name": "Markup Italic",
-        //     "scope": "markup.italic",
-        //     "font_style": "italic",
-        //     "foreground": ""
-        // },
-        // {
-        //     "name": "Markup links",
-        //     "scope": "markup.underline.link, string.other.link",
-        //     "foreground": "#5DD8FF"
-        // },
+        {
+            "name": "Markup bold",
+            "scope": "markup.bold",
+            "font_style": "bold",
+            "foreground": ""
+        },
+        {
+            "name": "Markup Italic",
+            "scope": "markup.italic",
+            "font_style": "italic",
+            "foreground": ""
+        },
+        {
+            "name": "Markup links",
+            "scope": "markup.underline.link, string.other.link",
+            "foreground": "#5DD8FF"
+        },
         {
             "name": "Markup blockquote",
             "scope": "markup.quote",
@@ -327,5 +328,77 @@
         //     "scope": "markup.deleted",
         //     "foreground": "#FF00FF"
         // }
+        // RUST
+        {
+            "name": "Entity name function",
+            "scope": "entity.name.function.rust",
+            "foreground": "#57C038"
+        },
+        {
+            "name": "Storage Rust",
+            "scope": "storage.type.rust",
+            "foreground": "#2077FB"
+        },
+        {
+            "name": "Storage Rust",
+            "scope": "storage.modifier.rust",
+            "foreground": "#2077FB"
+        },
+        {
+            "name": "Keyword Rust",
+            "scope": "keyword.control.rust",
+            "foreground": "#06B1D8"
+        },
+        {
+            "name": "Support Macro Rust",
+            "scope": "support.macro.rust",
+            "foreground": "#40E0D0"
+        },
+        {
+            "name": "Support Type Rust",
+            "scope": "support.type.rust",
+            "foreground": "#FC5B57"
+        },
+        // HTML
+        {
+            "name": "Entity id",
+            "scope": "text.html entity.other.attribute-name.id",
+            "foreground": "#AA0D91"
+        },
+        // CSS
+        {
+            "name": "Support property name and Entity other custom property", // i.e Margin:, --black: 
+            "scope": "support.type.property-name.css, entity.other.custom-property.css",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "Ar ruler other css", // i.e @width
+            "scope": "meta.at-rule.other.css",
+            "foreground": "#1E73BE"
+        },
+        // C#
+        {
+            "name": "Storage type and Method parameters c#", // i.e void, string, args
+            "scope": "storage.type.cs, meta.method.parameters.cs",
+            "foreground": "#1E73BE"
+        },
+        // Object C
+        {
+            "name": "Comments", // not working
+            "scope": "comment.block.objc, comment.block.c",
+            "foreground": "#1A5301"
+        },
+        // SQL
+        {
+            "name": "Null sql",
+            "scope": "constant.language.null.sql",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "Keyword operator logical sql",
+            "scope": "keyword.operator.logical.sql",
+            "font_style": "normal",
+            "foreground": "#FC5B57"
+        }
     ]
 }
