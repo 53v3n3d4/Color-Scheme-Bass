@@ -226,6 +226,11 @@
             "scope": "string",
             "foreground": "#404040"
         },
+        // {
+        //     "name": "String", // not working
+        //     "scope": "string.js - meta.string.js string.quoted.other.js",
+        //     "foreground": "#9B2393"
+        // },
         {
             "name": "Mapping key",
             "scope": "meta.mapping.key, meta.mapping.key string", // Json text
@@ -399,6 +404,29 @@
             "scope": "keyword.operator.logical.sql",
             "font_style": "normal",
             "foreground": "#FC5B57"
-        }
+        },
+        // Toml
+        {
+            "name": "Key toml",
+            "scope": "entity.name.tag.toml",
+            "foreground": "#AA0D91"
+        },
+        // Ruby
+        {
+            "name": "Entity name class ruby",
+            "scope": "entity.name.class.ruby",
+            "foreground": "#404040"
+        },
+        {
+            "name": "Variable other readwrite instance ruby", //i.e. @article
+            "scope": "variable.other.readwrite.instance.ruby",
+            "foreground": "#AA0D91"
+        },
+        // Rails
+        // {
+        //     "name": "",
+        //     "scope": "meta.model.rails",
+        //     "foreground": "#1E73BE"
+        // }
     ]
 }
