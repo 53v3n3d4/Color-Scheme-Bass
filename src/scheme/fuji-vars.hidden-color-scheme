@@ -79,7 +79,7 @@
         /** Rules variables*/
 
         /** Entity */
-        "entity-name-fg":                  "var(blue1)",
+        "entity-name-fg":                  "var(orange1)",
         "entity-inherited-class-fg":       "var(blue3)",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
@@ -91,7 +91,7 @@
         // "variable-lang-font-style":      "italic",
         // "variable-lang-fg":              "var(purple1)",
         // "variable-param-fg":             "var(purple1)",
-        "variable-fn-fg":                "var(cyan3)",
+        "variable-fn-fg":                "var(cyan2)",
         "variable-other-constant-fg":    "var(yellow3)",
 
         /** Constant */
@@ -106,11 +106,11 @@
 
         /** Support */
         // "support-fg":          "var(green3)",
-        "support-fn-fg":       "var(green-light2)",
+        "support-fn-fg":       "var(cyan3)",
         "support-class-fg":    "var(red1)",
 
         /** Keyword */
-        "keyword-font-style":        "bold",
+        "keyword-font-style":        "normal",
         "keyword-fg":                "var(purple2)",
         // "keyword-ctrl-fg":           "var(purple3)",
         "keyword-operator-fg":       "var(purple3)",
@@ -158,7 +158,7 @@
         "constant-other-lang-name-md-fg":             "var(purple3)",
 
         /** Diff files */
-        "meta-diff-header-bg":                        "color(var(yellow1) a(0.7))",
+        "meta-diff-header-bg":                        "color(var(blue2) a(0.2))",
         "meta-diff-header-fg":                        "",
         "markup-inserted-bg":                         "color(var(green-light1) a(0.7))",
         "markup-inserted-fg":                         "",
@@ -170,7 +170,7 @@
         "variable-entity-other-attribute-name-doc-js-fg":    "var(red1)",
         "constant-lang-null-js-font-style":                  "bold",
         "constant-lang-null-js-fg":                          "var(red1)",
-        "support-other-js-fg":                               "var(yellow3)",
+        "support-other-js-fg":                               "var(green-light4)",
         "meta-string-quoted-js-fg":                          "var(blue2)",
 
         /** Key Value - Json, Yaml, Javascript */
@@ -198,7 +198,8 @@
         "keyword-operator-logical-sql-fg":            "var(red1)",
 
         /** Toml */
-        "entity-name-tag-toml-fg":    "var(purple3)",
+        "entity-name-tag-toml-fg":      "var(purple2)",
+        "entity-name-table-toml-fg":    "var(blue2)",
 
         /** Rails */
         "meta-model-rails-fg":    "var(blue2)",
