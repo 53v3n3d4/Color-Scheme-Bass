@@ -355,6 +355,11 @@
             "foreground": "#AA0D91"
         },
         {
+            "name": "Constant language rust",
+            "scope": "constant.language.rust",
+            "foreground": "#BF8555"
+        },
+        {
             "name": "Entity name function",
             "scope": "entity.name.function.rust",
             "foreground": "#38A2AF"
@@ -372,7 +377,7 @@
         {
             "name": "Keyword control rust",
             "scope": "keyword.control.rust",
-            "foreground": "#38A2AF"
+            "foreground": "#AA0D91"
         },
         {
             "name": "Support macro rust",
