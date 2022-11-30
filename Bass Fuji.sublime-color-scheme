@@ -54,12 +54,12 @@
         {
             "name": "Entity name",
             "scope": "entity.name",
-            "foreground": "#FD8F3F"
+            "foreground": "#38A2AF"
         },
         {
             "name": "Entity other inherited class",
             "scope": "entity.other.inherited-class",
-            "foreground": "#0282F2"
+            "foreground": "#1E73BE"
         },
         {
             "name": "Entity other attribute name",
@@ -74,12 +74,12 @@
         {
             "name": "Variable function",
             "scope": "variable.function",
-            "foreground": "#38A2AF"
+            "foreground": "#119912"
         },
         {
             "name": "Variable other.constant",
             "scope": "variable.other.constant",
-            "foreground": "#FFC849"
+            "foreground": "#BF8555"
         },
         {
             "name": "Constant numeric",
@@ -94,12 +94,12 @@
         {
             "name": "Support function",
             "scope": "support.function",
-            "foreground": "#06B1D8"
+            "foreground": "#119912"
         },
         {
             "name": "Support class",
             "scope": "support.class",
-            "foreground": "#FC5B57"
+            "foreground": "#BF8555"
         },
         {
             "name": "Keyword",
@@ -131,7 +131,7 @@
         {
             "name": "Invalid illegal",
             "scope": "invalid.illegal",
-            "background": "#FC5B57"
+            "background": "color(#FC5B57 a(0.7)"
         },
         {
             "name": "Line-continuation characters, such as in Python and R",
@@ -142,7 +142,7 @@
             "name": "Markup heading",
             "scope": "markup.heading, markup.heading entity.name",
             "font_style": "bold",
-            "foreground": "#D0BC56"
+            "foreground": "#9B2393"
         },
         {
             "name": "Markup list",
@@ -190,7 +190,7 @@
         {
             "name": "Markup links",
             "scope": "markup.underline.link, string.other.link",
-            "foreground": ""
+            "foreground": "#0282F2"
         },
         {
             "name": "Markup blockquote",
@@ -218,7 +218,7 @@
             "name": "Constant other language name md",
             "scope": "constant.other.language-name.markdown",
             "font_style": "italic",
-            "foreground": "#AA0D91"
+            "foreground": "#9B9B9B"
         },
         {
             "scope": "meta.diff, meta.diff.header",
@@ -240,7 +240,7 @@
         {
             "name": "Variable other class js",
             "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
-            "foreground": "#FFC849"
+            "foreground": "#BF8555"
         },
         {
             "name": "Support other js",
@@ -250,13 +250,13 @@
         {
             "name": "JSDocs tags",
             "scope": "entity.other.attribute-name.documentation.js",
-            "foreground": "#FC5B57"
+            "foreground": "#BF8555"
         },
         {
             "name": "Null js",
             "scope": "constant.language.null.js",
-            "font_style": "bold",
-            "foreground": "#FC5B57"
+            "font_style": "normal",
+            "foreground": "#1C02CF"
         },
         {
             "name": "String quoted js",
@@ -286,7 +286,7 @@
         {
             "name": "Support property name and Entity other custom property",
             "scope": "support.type.property-name.css, entity.other.custom-property.css",
-            "foreground": "#FC5B57"
+            "foreground": "#BF8555"
         },
         {
             "name": "Ar ruler other css",
@@ -301,12 +301,12 @@
         {
             "name": "String quoted double go",
             "scope": "string.quoted.double.go",
-            "foreground": "#0282F2"
+            "foreground": "#1E73BE"
         },
         {
             "name": "Constant language go",
             "scope": "constant.language.go",
-            "foreground": "#FC5B57"
+            "foreground": "#1C02CF"
         },
         {
             "name": "Null sql",
@@ -337,12 +337,12 @@
         {
             "name": "Constant ruby",
             "scope": "source.ruby constant",
-            "foreground": "#0282F2"
+            "foreground": "#1E73BE"
         },
         {
             "name": "Constant boolean ruby",
             "scope": "constant.language.boolean.ruby",
-            "foreground": "#FC5B57"
+            "foreground": "#1C02CF"
         },
         {
             "name": "Entity name class ruby",
@@ -357,32 +357,37 @@
         {
             "name": "Entity name function",
             "scope": "entity.name.function.rust",
-            "foreground": "#57C038"
+            "foreground": "#38A2AF"
         },
         {
-            "name": "Storage Rust",
+            "name": "Storage type rust",
             "scope": "storage.type.rust",
-            "foreground": "#2077FB"
+            "foreground": "#AA0D91"
         },
         {
-            "name": "Storage Rust",
+            "name": "Storage modifier rust",
             "scope": "storage.modifier.rust",
-            "foreground": "#2077FB"
+            "foreground": "#EC4990"
         },
         {
-            "name": "Keyword Rust",
+            "name": "Keyword control rust",
             "scope": "keyword.control.rust",
-            "foreground": "#06B1D8"
+            "foreground": "#38A2AF"
         },
         {
-            "name": "Support Macro Rust",
+            "name": "Support macro rust",
             "scope": "support.macro.rust",
-            "foreground": "#40E0D0"
+            "foreground": "#119912"
         },
         {
-            "name": "Support Type Rust",
+            "name": "Support type rust",
             "scope": "support.type.rust",
-            "foreground": "#FC5B57"
+            "foreground": "#BF8555"
+        },
+        {
+            "name": "String quoted rust",
+            "scope": "source.rust string.quoted",
+            "foreground": "#1E73BE"
         }
     ]
 }
