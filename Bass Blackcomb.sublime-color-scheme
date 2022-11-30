@@ -157,10 +157,35 @@
             "foreground": ""
         },
         {
-            "name": "Markup Italic",
+            "name": "Markup italic",
             "scope": "markup.italic",
             "font_style": "italic",
             "foreground": ""
+        },
+        {
+            "name": "Markup underline",
+            "scope": "markup.underline",
+            "font_style": "underline"
+        },
+        {
+            "name": "Markup bold/italic",
+            "scope": "markup.italic markup.bold | markup.bold markup.italic",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Markup bold/underline",
+            "scope": "markup.underline markup.bold | markup.bold markup.underline",
+            "font_style": "bold underline"
+        },
+        {
+            "name": "Markup italic/underline",
+            "scope": "markup.underline markup.italic | markup.italic markup.underline",
+            "font_style": "italic underline"
+        },
+        {
+            "name": "Markup bold/italic/underline",
+            "scope": "markup.bold markup.italic markup.underline | markup.bold markup.underline markup.italic | markup.italic markup.bold markup.underline | markup.italic markup.underline markup.bold | markup.underline markup.bold markup.italic | markup.underline markup.italic markup.bold",
+            "font_style": "bold italic underline"
         },
         {
             "name": "Markup links",
@@ -190,14 +215,27 @@
             "foreground": ""
         },
         {
+            "name": "Constant other language name md",
+            "scope": "constant.other.language-name.markdown",
+            "font_style": "italic",
+            "foreground": "#AA0D91"
+        },
+        {
+            "scope": "meta.diff, meta.diff.header",
+            "background": "#F9DF9C",
+            "foreground": "#404040"
+        },
+        {
             "name": "Markup added",
             "scope": "markup.inserted",
-            "foreground": "#FFE76D"
+            "background": "#C4E7CE",
+            "foreground": "#404040"
         },
         {
             "name": "Markup removed",
             "scope": "markup.deleted",
-            "foreground": "#FF00FF"
+            "background": "#FC5B57",
+            "foreground": "#404040"
         },
         {
             "name": "Variable other class js",
@@ -259,6 +297,16 @@
             "name": "Storage type and Method parameters c#",
             "scope": "storage.type.cs, meta.method.parameters.cs",
             "foreground": "#1E73BE"
+        },
+        {
+            "name": "String quoted double go",
+            "scope": "string.quoted.double.go",
+            "foreground": "#0282F2"
+        },
+        {
+            "name": "Constant language go",
+            "scope": "constant.language.go",
+            "foreground": "#FC5B57"
         },
         {
             "name": "Null sql",

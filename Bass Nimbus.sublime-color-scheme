@@ -265,7 +265,7 @@
         {
             "name": "Invalid illegal",
             "scope": "invalid.illegal",
-            "background": "#FC5B57" // Dark orange
+            "background": "color(#FC5B57 a(0.1))" // Dark orange
         },
         {
             "name": "Invalid deprecated",
@@ -307,6 +307,31 @@
             "foreground": ""
         },
         {
+            "scope": "markup.underline",
+            // "foreground": "var(black)",
+            "font_style": "underline"
+        },
+        {
+            "scope": "markup.italic markup.bold | markup.bold markup.italic",
+            // "foreground": "var(black)",
+            "font_style": "bold italic"
+        },
+        {
+            "scope": "markup.underline markup.bold | markup.bold markup.underline",
+            // "foreground": "var(black)",
+            "font_style": "bold underline"
+        },
+        {
+            "scope": "markup.underline markup.italic | markup.italic markup.underline",
+            // "foreground": "var(black)",
+            "font_style": "italic underline"
+        },
+        {
+            "scope": "markup.bold markup.italic markup.underline | markup.bold markup.underline markup.italic | markup.italic markup.bold markup.underline | markup.italic markup.underline markup.bold | markup.underline markup.bold markup.italic | markup.underline markup.italic markup.bold",
+            // "foreground": "var(black)",
+            "font_style": "bold italic underline"
+        },
+        {
             "name": "Markup links",
             "scope": "markup.underline.link, string.other.link",
             "foreground": "#5DD8FF"
@@ -333,16 +358,54 @@
         //     "background": "color(#B4B4B4 a(0.3))",
         //     "foreground": ""
         // },
+        {
+            "name": "Markup added",
+            "scope": "markup.inserted",
+            "background": "color(#C4E7CE a(0.7))",
+            "foreground": ""
+        },
+        {
+            "name": "Markup removed",
+            "scope": "markup.deleted",
+            "background": "color(#FC5B57 a(0.2))",
+            "foreground": ""
+        },
+        {
+            "scope": "constant.other.language-name.markdown",
+            "foreground": "#FC5B57",
+            "font_style": "italic"
+        },
+        // Sublime Merge, not seeing changes
+        {
+            "scope": "meta.diff, meta.diff.header",
+            "background": "color(#FFE76D a(0.7))",
+            "foreground": ""
+        },
+        {
+            "scope": "markup.changed", // not seeing changes
+            "background": "#E8F2FF", // blue-light1
+            "foreground_adjust": "l(+ 5%)"
+        },
         // {
-        //     "name": "Markup added",
-        //     "scope": "markup.inserted",
-        //     "foreground": "#FFE76D"
+        //     "scope": "diff.deleted",
+        //     "background": "#FC5B57",
+        //     "foreground_adjust": "l(+ 5%)"
         // },
         // {
-        //     "name": "Markup removed",
-        //     "scope": "markup.deleted",
-        //     "foreground": "#FF00FF"
-        // }
+        //     "scope": "diff.deleted.char",
+        //     "background": "#FC5B57",
+        //     "foreground_adjust": "l(+ 10%)"
+        // },
+        // {
+        //     "scope": "diff.inserted",
+        //     "background": "#1E73BE",
+        //     "foreground_adjust": "l(+ 5%)"
+        // },
+        // {
+        //     "scope": "diff.inserted.char",
+        //     "background": "#1E73BE",
+        //     "foreground_adjust": "l(+ 10%)"
+        // },
         // RUST
         {
             "name": "Entity name function",
@@ -421,6 +484,22 @@
             "scope": "entity.name.tag.toml",
             "foreground": "#AA0D91"
         },
+        // Go
+        {
+            "name": "String quoted double go",
+            "scope": "string.quoted.double.go",
+            "foreground": "#0282F2"
+        },
+        {
+            "name": "Constant language go",
+            "scope": "constant.language.go",
+            "foreground": "#FC5B57"
+        },
+        // {
+        //     "name": "",
+        //     "scope": "source.go variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter - storage.type",
+        //     "foreground": "#0282F2"
+        // },
         // Ruby
         {
             "name": "Entity name class ruby",
