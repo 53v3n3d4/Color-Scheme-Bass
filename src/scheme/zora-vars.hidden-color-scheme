@@ -198,7 +198,8 @@
         "keyword-operator-logical-sql-fg":            "var(red1)",
 
         /** Toml */
-        "entity-name-tag-toml-fg":    "var(purple3)",
+        "entity-name-tag-toml-fg":      "var(purple2)",
+        "entity-name-table-toml-fg":    "var(blue2)",
 
         /** Rails */
         "meta-model-rails-fg":    "var(blue2)",

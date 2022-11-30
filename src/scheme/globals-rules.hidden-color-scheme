@@ -560,6 +560,11 @@
             "scope": "entity.name.tag.toml",
             "foreground": "var(entity-name-tag-toml-fg)"
         },
+        {
+            "name": "Table toml",
+            "scope": "entity.name.table.toml",
+            "foreground": "var(entity-name-table-toml-fg)"
+        },
 
         /**
          *
