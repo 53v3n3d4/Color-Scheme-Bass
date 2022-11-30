@@ -447,6 +447,11 @@
          *
          */
         {
+            "name": "Constant css", // i.e. css #000
+            "scope": "source.css constant",
+            "foreground": "var(constant-css-fg)"
+        },
+        {
             "name": "Support property name and Entity other custom property", // i.e Margin:, --black: 
             "scope": "support.type.property-name.css, entity.other.custom-property.css",
             "foreground": "var(support-entity-property-css-fg)"
@@ -512,6 +517,16 @@
          * RUBY
          *
          */
+        {
+            "name": "Constant ruby", // i.e. css #000
+            "scope": "source.ruby constant",
+            "foreground": "var(constant-rb-fg)"
+        },
+        {
+            "name": "Constant boolean ruby", // i.e. true
+            "scope": "constant.language.boolean.ruby",
+            "foreground": "var(constant-lang-bool-rb-fg)"
+        },
         {
             "name": "Entity name class ruby",
             "scope": "entity.name.class.ruby",
