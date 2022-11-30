@@ -56,11 +56,11 @@
             "scope": "entity.name",
             "foreground": "#2077FB"
         },
-        // {
-        //     "name": "Entity other inherited class",
-        //     "scope": "entity.other.inherited-class",
-        //     "foreground": "#0282F2"
-        // },
+        {
+            "name": "Entity other inherited class", // i.e. ruby ApplicationController
+            "scope": "entity.other.inherited-class", // entity.other.inherited-class.ruby
+            "foreground": "#0282F2"
+        },
         // {
         //     "name": "Entity name section",
         //     "scope": "entity.name.section",
@@ -127,11 +127,21 @@
         //     // "font_style": "bold",
         //     "foreground": "#FFC849"
         // },
-        // {
-        //     "name": "Constant",
-        //     "scope": "constant",
-        //     "foreground": "#294B4E"
-        // },
+        {
+            "name": "Constant", // i.e. ruby :article
+            "scope": "source.css constant", // source.ruby.rails constant
+            "foreground": "#5D6C79"
+        },
+        {
+            "name": "Constant", // i.e. ruby :article
+            "scope": "source.ruby constant", // source.ruby.rails constant
+            "foreground": "#0282F2"
+        },
+        {
+            "name": "Constant", // i.e. ruby :article
+            "scope": "constant.language.boolean.ruby", // source.ruby.rails constant
+            "foreground": "#FC5B57"
+        },
         {
             "name": "Constant numeric",
             "scope": "constant.numeric",
