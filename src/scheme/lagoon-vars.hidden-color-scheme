@@ -134,23 +134,25 @@
         "punctuation-separator-cont-fg":    "var(magenta2)",
 
         /** Markup */
-        "markup-heading-font-style":    "bold",
-        "markup-heading-fg":            "var(gold2)",
-        "markup-list-font-style":       "normal",
-        "markup-list-fg":               "",
-        "markup-bold-font-style":       "bold",
-        "markup-bold-fg":               "",
-        "markup-italic-font-style":     "italic",
-        "markup-italic-fg":             "",
-        "markup-link-fg":               "",
-        "markup-quote-font-style":      "italic",
-        "markup-quote-fg":              "var(green2)",
-        "markup-raw-bg":                "var(blue-light4)",
-        "markup-raw-inline-bg":         "var(blue-light4)",
-        "markup-table-bg":              "var(blue-light4)",
-        "markup-table-fg":              "",
-        "markup-inserted-fg":           "var(yellow1)",
-        "markup-deleted-fg":            "var(magenta1)",
+        "markup-heading-font-style":                 "bold",
+        "markup-heading-fg":                         "var(gold2)",
+        "markup-list-font-style":                    "normal",
+        "markup-list-fg":                            "",
+        "markup-bold-font-style":                    "bold",
+        "markup-bold-fg":                            "",
+        "markup-italic-font-style":                  "italic",
+        "markup-italic-fg":                          "",
+        "markup-link-fg":                            "",
+        "markup-quote-font-style":                   "italic",
+        "markup-quote-fg":                           "var(green2)",
+        "markup-raw-bg":                             "var(blue-light4)",
+        "markup-raw-inline-bg":                      "var(blue-light4)",
+        "markup-table-bg":                           "var(blue-light4)",
+        "markup-table-fg":                           "",
+        "markup-inserted-fg":                        "var(yellow1)",
+        "markup-deleted-fg":                         "var(magenta1)",
+        "constant-other-lang-name-md-font-style":    "italic",
+        "constant-other-lang-name-md-fg":            "var(purple3)",
 
         /** Javascript */
         "variable-other-class-js-fg":                        "var(yellow3)",
@@ -174,6 +176,10 @@
 
         /** C# */
         "storage-type-method-params-cs-fg":    "var(blue2)",
+
+        /** Go */
+        "string-quoted-double-go-fg":    "var(blue3)",
+        "constant-lang-go-fg":           "var(red1)",
 
         /** Sql */
         "constant-lang-null-sql-fg":                  "var(red1)",

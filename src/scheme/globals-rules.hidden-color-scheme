@@ -381,6 +381,12 @@
             "scope": "markup.deleted",
             "foreground": "var(markup-deleted-fg)"
         },
+        {
+            "name": "Constant other language name md",
+            "scope": "constant.other.language-name.markdown",
+            "font_style": "var(constant-other-lang-name-md-font-style)",
+            "foreground": "var(constant-other-lang-name-md-fg)"
+        },
 
         /**
          *
@@ -471,6 +477,22 @@
             "name": "Storage type and Method parameters c#", // i.e void, string, args
             "scope": "storage.type.cs, meta.method.parameters.cs",
             "foreground": "var(storage-type-method-params-cs-fg)"
+        },
+
+        /**
+         *
+         * GO
+         *
+         */
+        {
+            "name": "String quoted double go",
+            "scope": "string.quoted.double.go",
+            "foreground": "var(string-quoted-double-go-fg)"
+        },
+        {
+            "name": "Constant language go", // i.e. nil/false/true
+            "scope": "constant.language.go",
+            "foreground": "var(constant-lang-go-fg)"
         },
 
         /**
