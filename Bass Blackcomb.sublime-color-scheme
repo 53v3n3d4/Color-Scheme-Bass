@@ -62,16 +62,6 @@
             "foreground": "#5DD8FF"
         },
         {
-            "name": "Entity name section",
-            "scope": "entity.name.section",
-            "foreground": "#8D52D1"
-        },
-        {
-            "name": "Entity name tag",
-            "scope": "entity.name.tag",
-            "foreground": "#06B1D8"
-        },
-        {
             "name": "Entity other attribute name",
             "scope": "entity.other.attribute-name",
             "foreground": "#C4E7CE"
@@ -80,22 +70,6 @@
             "name": "Entity other pseudo class",
             "scope": "entity.other.pseudo-class",
             "foreground": "#9B2393"
-        },
-        {
-            "name": "Variable",
-            "scope": "variable",
-            "foreground": "#A7D4B4"
-        },
-        {
-            "name": "Variable language",
-            "scope": "variable.language",
-            "font_style": "italic",
-            "foreground": "#8D52D1"
-        },
-        {
-            "name": "Variable parameter",
-            "scope": "variable.parameter",
-            "foreground": "#8D52D1"
         },
         {
             "name": "Variable function",
@@ -108,39 +82,14 @@
             "foreground": "#FFC849"
         },
         {
-            "name": "Constant",
-            "scope": "constant",
-            "foreground": "#5DD8FF"
-        },
-        {
             "name": "Constant numeric",
             "scope": "constant.numeric",
             "foreground": "#D0BC56"
         },
         {
-            "name": "Constant language",
-            "scope": "constant.language",
-            "foreground": "#0282F2"
-        },
-        {
-            "name": "Constant character escape",
-            "scope": "constant.character.escape",
-            "foreground": "#D0BC56"
-        },
-        {
-            "name": "Storage",
-            "scope": "storage",
-            "foreground": "#FC6BAA"
-        },
-        {
             "name": "Storage modifier",
             "scope": "storage.modifier",
             "foreground": "#FC6BAA"
-        },
-        {
-            "name": "Support",
-            "scope": "support",
-            "foreground": "#A7D4B4"
         },
         {
             "name": "Support function",
@@ -159,19 +108,9 @@
             "foreground": "#EC4990"
         },
         {
-            "name": "Keyword control",
-            "scope": "keyword.control",
-            "foreground": "#EC4990"
-        },
-        {
             "name": "Keyword operator",
             "scope": "keyword.operator",
             "foreground": "#EC4990"
-        },
-        {
-            "name": "Keyword declaration",
-            "scope": "keyword.declaration",
-            "foreground": "#C4E7CE"
         },
         {
             "name": "String",
@@ -183,11 +122,6 @@
             "scope": "comment",
             "font_style": "normal",
             "foreground": "#83B85E"
-        },
-        {
-            "name": "Invalid",
-            "scope": "invalid",
-            "foreground": "#FC5B57"
         },
         {
             "name": "Invalid deprecated",
@@ -294,17 +228,22 @@
         {
             "name": "Mapping key",
             "scope": "meta.mapping.key, meta.mapping.key string",
-            "foreground": "#9B2393"
+            "foreground": "#00997B"
         },
         {
             "name": "Mapping value",
             "scope": "meta.mapping.value, meta.mapping.value string",
-            "foreground": "#1E73BE"
+            "foreground": "#A4CDFF"
         },
         {
             "name": "Entity id",
             "scope": "text.html entity.other.attribute-name.id",
             "foreground": "#AA0D91"
+        },
+        {
+            "name": "Constant css",
+            "scope": "source.css constant",
+            "foreground": "#5D6C79"
         },
         {
             "name": "Support property name and Entity other custom property",
@@ -341,6 +280,16 @@
             "name": "Model rails",
             "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby",
             "foreground": "#1E73BE"
+        },
+        {
+            "name": "Constant ruby",
+            "scope": "source.ruby constant",
+            "foreground": "#0282F2"
+        },
+        {
+            "name": "Constant boolean ruby",
+            "scope": "constant.language.boolean.ruby",
+            "foreground": "#FC5B57"
         },
         {
             "name": "Entity name class ruby",
