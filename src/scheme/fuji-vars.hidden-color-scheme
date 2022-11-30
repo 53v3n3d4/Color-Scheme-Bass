@@ -211,6 +211,7 @@
         "variable-other-readwrite-instance-ruby-fg":    "var(purple3)",
 
         /** Rust Enhanced */
+        "constant-lang-rust-fg":       "var(red1)",
         "entity-name-fn-rust-fg":      "var(cyan2)",
         "storage-type-rust-fg":        "var(purple3)",
         "storage-modifier-rust-fg":    "var(magenta3)",

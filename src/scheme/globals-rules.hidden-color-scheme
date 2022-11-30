@@ -609,6 +609,11 @@
          *
          */
         {
+            "name": "Constant language rust", // i.e. true/false
+            "scope": "constant.language.rust",
+            "foreground": "var(constant-lang-rust-fg)"
+        },
+        {
             "name": "Entity name function",
             "scope": "entity.name.function.rust",
             "foreground": "var(entity-name-fn-rust-fg)"
