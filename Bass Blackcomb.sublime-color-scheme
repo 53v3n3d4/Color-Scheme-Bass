@@ -77,6 +77,11 @@
             "foreground": "#C4E7CE"
         },
         {
+            "name": "Entity other pseudo class",
+            "scope": "entity.other.pseudo-class",
+            "foreground": "#9B2393"
+        },
+        {
             "name": "Variable",
             "scope": "variable",
             "foreground": "#A7D4B4"
@@ -96,6 +101,11 @@
             "name": "Variable function",
             "scope": "variable.function",
             "foreground": "#5DD8FF"
+        },
+        {
+            "name": "Variable other.constant",
+            "scope": "variable.other.constant",
+            "foreground": "#FFC849"
         },
         {
             "name": "Constant",
@@ -133,6 +143,16 @@
             "foreground": "#A7D4B4"
         },
         {
+            "name": "Support function",
+            "scope": "support.function",
+            "foreground": "#A7D4B4"
+        },
+        {
+            "name": "Support class",
+            "scope": "support.class",
+            "foreground": "#FC5B57"
+        },
+        {
             "name": "Keyword",
             "scope": "keyword",
             "font_style": "bold",
@@ -156,7 +176,7 @@
         {
             "name": "String",
             "scope": "string",
-            "foreground": "#FC7467"
+            "foreground": "#F0F0F7"
         },
         {
             "name": "Comment",
@@ -173,6 +193,11 @@
             "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
             "foreground": "#C41A16"
+        },
+        {
+            "name": "Invalid illegal",
+            "scope": "invalid.illegal",
+            "background": "#FC5B57"
         },
         {
             "name": "Line-continuation characters, such as in Python and R",
@@ -206,7 +231,7 @@
         {
             "name": "Markup links",
             "scope": "markup.underline.link, string.other.link",
-            "foreground": "#5DD8FF"
+            "foreground": ""
         },
         {
             "name": "Markup blockquote",
@@ -239,6 +264,123 @@
             "name": "Markup removed",
             "scope": "markup.deleted",
             "foreground": "#FF00FF"
+        },
+        {
+            "name": "Variable other class js",
+            "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
+            "foreground": "#FFC849"
+        },
+        {
+            "name": "Support other js",
+            "scope": "source.js - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value",
+            "foreground": "#FFC849"
+        },
+        {
+            "name": "JSDocs tags",
+            "scope": "entity.other.attribute-name.documentation.js",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "Null js",
+            "scope": "constant.language.null.js",
+            "font_style": "bold",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "String quoted js",
+            "scope": "meta.string.js string.quoted.other.js, meta.string.js string.quoted.single.js",
+            "foreground": "#1E73BE"
+        },
+        {
+            "name": "Mapping key",
+            "scope": "meta.mapping.key, meta.mapping.key string",
+            "foreground": "#9B2393"
+        },
+        {
+            "name": "Mapping value",
+            "scope": "meta.mapping.value, meta.mapping.value string",
+            "foreground": "#1E73BE"
+        },
+        {
+            "name": "Entity id",
+            "scope": "text.html entity.other.attribute-name.id",
+            "foreground": "#AA0D91"
+        },
+        {
+            "name": "Support property name and Entity other custom property",
+            "scope": "support.type.property-name.css, entity.other.custom-property.css",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "Ar ruler other css",
+            "scope": "meta.at-rule.other.css",
+            "foreground": "#1E73BE"
+        },
+        {
+            "name": "Storage type and Method parameters c#",
+            "scope": "storage.type.cs, meta.method.parameters.cs",
+            "foreground": "#1E73BE"
+        },
+        {
+            "name": "Null sql",
+            "scope": "constant.language.null.sql",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "Keyword operator logical sql",
+            "scope": "keyword.operator.logical.sql",
+            "font_style": "normal",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "Key toml",
+            "scope": "entity.name.tag.toml",
+            "foreground": "#AA0D91"
+        },
+        {
+            "name": "Model rails",
+            "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby",
+            "foreground": "#1E73BE"
+        },
+        {
+            "name": "Entity name class ruby",
+            "scope": "entity.name.class.ruby",
+            "foreground": "#404040"
+        },
+        {
+            "name": "Variable other readwrite instance ruby",
+            "scope": "variable.other.readwrite.instance.ruby",
+            "foreground": "#AA0D91"
+        },
+        {
+            "name": "Entity name function",
+            "scope": "entity.name.function.rust",
+            "foreground": "#57C038"
+        },
+        {
+            "name": "Storage Rust",
+            "scope": "storage.type.rust",
+            "foreground": "#2077FB"
+        },
+        {
+            "name": "Storage Rust",
+            "scope": "storage.modifier.rust",
+            "foreground": "#2077FB"
+        },
+        {
+            "name": "Keyword Rust",
+            "scope": "keyword.control.rust",
+            "foreground": "#06B1D8"
+        },
+        {
+            "name": "Support Macro Rust",
+            "scope": "support.macro.rust",
+            "foreground": "#40E0D0"
+        },
+        {
+            "name": "Support Type Rust",
+            "scope": "support.type.rust",
+            "foreground": "#FC5B57"
         }
     ]
 }

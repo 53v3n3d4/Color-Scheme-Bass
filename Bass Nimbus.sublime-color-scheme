@@ -226,11 +226,11 @@
             "scope": "string",
             "foreground": "#404040"
         },
-        // {
-        //     "name": "String", // not working
-        //     "scope": "string.js - meta.string.js string.quoted.other.js",
-        //     "foreground": "#9B2393"
-        // },
+        {
+            "name": "String quoted js",
+            "scope": "meta.string.js string.quoted.other.js, meta.string.js string.quoted.single.js",
+            "foreground": "#1E73BE"
+        },
         {
             "name": "Mapping key",
             "scope": "meta.mapping.key, meta.mapping.key string", // Json text
@@ -423,10 +423,10 @@
             "foreground": "#AA0D91"
         },
         // Rails
-        // {
-        //     "name": "",
-        //     "scope": "meta.model.rails",
-        //     "foreground": "#1E73BE"
-        // }
+        {
+            "name": "Model rails",
+            "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby", //meta.controller.rails
+            "foreground": "#1E73BE"
+        }
     ]
 }
