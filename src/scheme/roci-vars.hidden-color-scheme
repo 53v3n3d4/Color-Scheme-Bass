@@ -154,10 +154,16 @@
         "markup-raw-inline-bg":                       "var(purple6)",
         "markup-table-bg":                            "var(purple6)",
         "markup-table-fg":                            "",
-        "markup-inserted-fg":                         "var(yellow1)",
-        "markup-deleted-fg":                          "var(magenta1)",
         "constant-other-lang-name-md-font-style":     "italic",
         "constant-other-lang-name-md-fg":             "var(purple3)",
+
+        /** Diff files */
+        "meta-diff-header-bg":                        "var(yellow-light3)",
+        "meta-diff-header-fg":                        "var(black4)",
+        "markup-inserted-bg":                         "var(green-light1)",
+        "markup-inserted-fg":                         "var(black4)",
+        "markup-deleted-bg":                          "var(red1)",
+        "markup-deleted-fg":                          "var(black4)",
 
         /** Javascript */
         "variable-other-class-js-fg":                        "var(yellow3)",

@@ -126,7 +126,7 @@
         /** Invalid */
         // "invalid-fg":               "var(red1)",
         "invalid-deprecated-fg":    "var(red2)",
-        "invalid-illegal-fg":       "var(red1)",
+        "invalid-illegal-fg":       "color(var(red1) a(0.1)",
 
         // End minimal recommended setup
 
@@ -154,10 +154,16 @@
         "markup-raw-inline-bg":                       "color(var(gray2) a(0.3))",
         "markup-table-bg":                            "color(var(gray2) a(0.3))",
         "markup-table-fg":                            "",
-        "markup-inserted-fg":                         "var(yellow1)",
-        "markup-deleted-fg":                          "var(magenta1)",
         "constant-other-lang-name-md-font-style":     "italic",
         "constant-other-lang-name-md-fg":             "var(purple3)",
+
+        /** Diff files */
+        "meta-diff-header-bg":                        "color(var(yellow1) a(0.7))",
+        "meta-diff-header-fg":                        "",
+        "markup-inserted-bg":                         "color(var(green-light1) a(0.7))",
+        "markup-inserted-fg":                         "",
+        "markup-deleted-bg":                          "color(var(red1) a(0.2))",
+        "markup-deleted-fg":                          "",
 
         /** Javascript */
         "variable-other-class-js-fg":                        "var(yellow3)",
