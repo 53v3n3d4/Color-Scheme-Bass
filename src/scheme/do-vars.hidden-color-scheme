@@ -216,7 +216,9 @@
         "storage-modifier-rust-fg":    "var(blue1)",
         "keyword-ctrl-rust-fg":        "var(cyan3)",
         "support-macro-rust-fg":       "var(cyan1)",
-        "support-type-rust-fg":        "var(red1)"
+        "support-type-rust-fg":        "var(red1)",
+        "string-quoted-rust-fg":       "var(blue2)"
+
     },
     "globals": {},
     "rules": []
