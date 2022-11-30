@@ -115,16 +115,16 @@
             "scope": "entity.other.inherited-class",
             "foreground": "var(entity-inherited-class-fg)"
         },
-        {
-            "name": "Entity name section",
-            "scope": "entity.name.section",
-            "foreground": "var(entity-name-section-fg)" 
-        },
-        {
-            "name": "Entity name tag",
-            "scope": "entity.name.tag",
-            "foreground": "var(entity-name-tag-fg)"
-        },
+        // {
+        //     "name": "Entity name section",
+        //     "scope": "entity.name.section",
+        //     "foreground": "var(entity-name-section-fg)" 
+        // },
+        // {
+        //     "name": "Entity name tag",
+        //     "scope": "entity.name.tag",
+        //     "foreground": "var(entity-name-tag-fg)"
+        // },
         {
             "name": "Entity other attribute name", // html i.e. class
             "scope": "entity.other.attribute-name",
@@ -141,22 +141,22 @@
          * VARIABLE
          *
          */
-        {
-            "name": "Variable",
-            "scope": "variable", // js: vars - fun, imports
-            "foreground": "var(variable-fg)"
-        },
-        {
-            "name": "Variable language",
-            "scope": "variable.language",
-            "font_style": "var(variable-lang-font-style)",
-            "foreground": "var(variable-lang-fg)"
-        },
-        {
-            "name": "Variable parameter",
-            "scope": "variable.parameter",
-            "foreground": "var(variable-param-fg)"
-        },
+        // {
+        //     "name": "Variable",
+        //     "scope": "variable", // js: vars - fun, imports
+        //     "foreground": "var(variable-fg)"
+        // },
+        // {
+        //     "name": "Variable language",
+        //     "scope": "variable.language",
+        //     "font_style": "var(variable-lang-font-style)",
+        //     "foreground": "var(variable-lang-fg)"
+        // },
+        // {
+        //     "name": "Variable parameter",
+        //     "scope": "variable.parameter",
+        //     "foreground": "var(variable-param-fg)"
+        // },
         {
             "name": "Variable function",
             "scope": "variable.function",
@@ -173,37 +173,37 @@
          * CONSTANT
          *
          */
-        {
-            "name": "Constant",
-            "scope": "constant",
-            "foreground": "var(constant-fg)"
-        },
+        // {
+        //     "name": "Constant",
+        //     "scope": "constant",
+        //     "foreground": "var(constant-fg)"
+        // },
         {
             "name": "Constant numeric",
             "scope": "constant.numeric",
             "foreground": "var(constant-num-fg)"
         },
-        {
-            "name": "Constant language", // Built-in
-            "scope": "constant.language",
-            "foreground": "var(constant-lang-fg)"
-        },
-        {
-            "name": "Constant character escape",
-            "scope": "constant.character.escape",
-            "foreground": "var(constant-char-escape-fg)"
-        },
+        // {
+        //     "name": "Constant language", // Built-in
+        //     "scope": "constant.language",
+        //     "foreground": "var(constant-lang-fg)"
+        // },
+        // {
+        //     "name": "Constant character escape",
+        //     "scope": "constant.character.escape",
+        //     "foreground": "var(constant-char-escape-fg)"
+        // },
 
         /**
          *
          * STORAGE
          *
          */
-        {
-            "name": "Storage", // fn methods
-            "scope": "storage",
-            "foreground": "var(storage-fg)"
-        },
+        // {
+        //     "name": "Storage", // fn methods
+        //     "scope": "storage",
+        //     "foreground": "var(storage-fg)"
+        // },
         {
             "name": "Storage modifier", // pub
             "scope": "storage.modifier",
@@ -215,11 +215,11 @@
          * SUPPORT
          *
          */
-        {
-            "name": "Support",
-            "scope": "support", // i.e. js: document, console.log
-            "foreground": "var(support-fg)"
-        },
+        // {
+        //     "name": "Support",
+        //     "scope": "support", // i.e. js: document, console.log
+        //     "foreground": "var(support-fg)"
+        // },
         {
             "name": "Support function",
             "scope": "support.function",
@@ -242,21 +242,21 @@
             "font_style": "var(keyword-font-style)",
             "foreground": "var(keyword-fg)"
         },
-        {
-            "name": "Keyword control",
-            "scope": "keyword.control",
-            "foreground": "var(keyword-ctrl-fg)"
-        },
+        // {
+        //     "name": "Keyword control",
+        //     "scope": "keyword.control",
+        //     "foreground": "var(keyword-ctrl-fg)"
+        // },
         {
             "name": "Keyword operator",
             "scope": "keyword.operator",
             "foreground": "var(keyword-operator-fg)"
         },
-        {
-            "name": "Keyword declaration",
-            "scope": "keyword.declaration",
-            "foreground": "var(keyword-declaration-fg)"
-        },
+        // {
+        //     "name": "Keyword declaration",
+        //     "scope": "keyword.declaration",
+        //     "foreground": "var(keyword-declaration-fg)"
+        // },
 
         /**
          *
@@ -286,11 +286,11 @@
          * INVALID
          *
          */
-        {
-            "name": "Invalid",
-            "scope": "invalid",
-            "foreground": "var(invalid-fg)"
-        },
+        // {
+        //     "name": "Invalid",
+        //     "scope": "invalid",
+        //     "foreground": "var(invalid-fg)"
+        // },
         {
             "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
