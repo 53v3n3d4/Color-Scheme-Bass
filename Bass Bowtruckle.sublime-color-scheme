@@ -121,7 +121,7 @@
             "name": "Comment",
             "scope": "comment",
             "font_style": "normal",
-            "foreground": "#5D6C79"
+            "foreground": "color(#5D6C79 a(0.8)"
         },
         {
             "name": "Invalid deprecated",
@@ -142,7 +142,7 @@
             "name": "Markup heading",
             "scope": "markup.heading, markup.heading entity.name",
             "font_style": "bold",
-            "foreground": "#007F7C"
+            "foreground": "#C86733"
         },
         {
             "name": "Markup list",
@@ -228,13 +228,13 @@
         {
             "name": "Markup added",
             "scope": "markup.inserted",
-            "background": "color(#C4E7CE a(0.7))",
+            "background": "#D6EEDD",
             "foreground": ""
         },
         {
             "name": "Markup removed",
             "scope": "markup.deleted",
-            "background": "color(#FC5B57 a(0.2))",
+            "background": "#FFDEDD",
             "foreground": ""
         },
         {
@@ -266,12 +266,12 @@
         {
             "name": "Mapping key",
             "scope": "meta.mapping.key, meta.mapping.key string",
-            "foreground": "#9B2393"
+            "foreground": "#007F7C"
         },
         {
             "name": "Mapping value",
             "scope": "meta.mapping.value, meta.mapping.value string",
-            "foreground": "#1E73BE"
+            "foreground": "#C41A16"
         },
         {
             "name": "Entity id",
@@ -377,6 +377,11 @@
         {
             "name": "Keyword control rust",
             "scope": "keyword.control.rust",
+            "foreground": "#C41A16"
+        },
+        {
+            "name": "Keyword operator rust",
+            "scope": "keyword.operator.rust",
             "foreground": "#C41A16"
         },
         {

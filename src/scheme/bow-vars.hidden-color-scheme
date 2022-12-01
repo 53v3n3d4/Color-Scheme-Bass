@@ -121,7 +121,7 @@
 
         /** Comment */
         "comment-font-style":    "normal",
-        "comment-fg":            "var(gray4)",
+        "comment-fg":            "color(var(gray4) a(0.8)",
 
         /** Invalid */
         // "invalid-fg":               "var(red1)",
@@ -135,7 +135,7 @@
 
         /** Markup */
         "markup-heading-font-style":                  "bold",
-        "markup-heading-fg":                          "var(cyan4)",
+        "markup-heading-fg":                          "var(orange3)",
         "markup-list-font-style":                     "normal",
         "markup-list-fg":                             "",
         "markup-bold-font-style":                     "bold",
@@ -160,9 +160,9 @@
         /** Diff files */
         "meta-diff-header-bg":                        "color(var(yellow1) a(0.7))",
         "meta-diff-header-fg":                        "",
-        "markup-inserted-bg":                         "color(var(green-light1) a(0.7))",
+        "markup-inserted-bg":                         "var(green-light7)",
         "markup-inserted-fg":                         "",
-        "markup-deleted-bg":                          "color(var(red1) a(0.2))",
+        "markup-deleted-bg":                          "var(red-light1)",
         "markup-deleted-fg":                          "",
 
         /** Javascript */
@@ -174,8 +174,8 @@
         "meta-string-quoted-js-fg":                          "var(blue2)",
 
         /** Key Value - Json, Yaml, Javascript */
-        "meta-mapping-key-fg":      "var(purple2)",
-        "meta-mapping-value-fg":    "var(blue2)",
+        "meta-mapping-key-fg":      "var(cyan4)",
+        "meta-mapping-value-fg":    "var(red2)",
 
         /** HTML */
         "entity-other-attribute-name-html-fg":    "var(purple3)",
@@ -216,6 +216,7 @@
         "storage-type-rust-fg":        "var(red2)",
         "storage-modifier-rust-fg":    "var(purple1)",
         "keyword-ctrl-rust-fg":        "var(red2)",
+        "keyword-operator-rust-fg":    "var(red2)",
         "support-macro-rust-fg":       "var(cyan4)",
         "support-type-rust-fg":        "var(orange2)",
         "string-quoted-rust-fg":       "var(blue2)"
