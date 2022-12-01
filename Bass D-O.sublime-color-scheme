@@ -64,12 +64,12 @@
         {
             "name": "Entity other attribute name",
             "scope": "entity.other.attribute-name",
-            "foreground": "#007F7C"
+            "foreground": "#C86733"
         },
         {
             "name": "Entity other pseudo class",
             "scope": "entity.other.pseudo-class",
-            "foreground": "#38A2AF"
+            "foreground": "#BF8555"
         },
         {
             "name": "Variable function",
@@ -276,7 +276,7 @@
         {
             "name": "Entity id",
             "scope": "text.html entity.other.attribute-name.id",
-            "foreground": "#007F7C"
+            "foreground": "#C86733"
         },
         {
             "name": "Constant css",
@@ -377,6 +377,11 @@
         {
             "name": "Keyword control rust",
             "scope": "keyword.control.rust",
+            "foreground": "#C86733"
+        },
+        {
+            "name": "Keyword operator rust",
+            "scope": "keyword.operator.rust",
             "foreground": "#C86733"
         },
         {

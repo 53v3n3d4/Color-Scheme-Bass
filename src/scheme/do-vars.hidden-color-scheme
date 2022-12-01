@@ -83,8 +83,8 @@
         "entity-inherited-class-fg":       "var(cyan4)",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
-        "entity-attribute-name-fg":        "var(cyan4)",
-        "entity-other-pseudo-class-fg":    "var(cyan2)",
+        "entity-attribute-name-fg":        "var(orange3)",
+        "entity-other-pseudo-class-fg":    "var(brown1)",
 
         /** Variable */
         // "variable-fg":                   "var(green4)",
@@ -178,7 +178,7 @@
         "meta-mapping-value-fg":    "var(gray4)",
 
         /** HTML */
-        "entity-other-attribute-name-html-fg":    "var(cyan4)",
+        "entity-other-attribute-name-html-fg":    "var(orange3)",
 
         /** CSS */
         "constant-css-fg":                    "var(gray4)",
@@ -216,6 +216,7 @@
         "storage-type-rust-fg":        "var(orange3)",
         "storage-modifier-rust-fg":    "var(magenta3)",
         "keyword-ctrl-rust-fg":        "var(orange3)",
+        "keyword-operator-rust-fg":    "var(orange3)",
         "support-macro-rust-fg":       "var(cyan2)",
         "support-type-rust-fg":        "var(red1)",
         "string-quoted-rust-fg":       "var(purple2)"
