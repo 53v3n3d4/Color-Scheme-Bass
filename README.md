@@ -80,18 +80,24 @@ Before open
 - fix merge
 - 
 
+- punctuation not seeing changes. Delete
+
 JS
 - Class import, class assingment
-- function sub. ie adaptiveData.name - meta.block.js, variable.other.readwrite.js
 - {Object}
 
 C Objective C
 - Comments
 
-Rails Ruby
-- variable, class...
+Go
+- Variable... isSet
 
+Sublime Merge
+- diff files not working
+https://forum.sublimetext.com/t/how-to-change-insert-change-delete-diff-colors/39540/2
 
+Gitattributes
+- Bow color scheme -> meta-mapping-key-fg. Do another var for git
 
 scroll-highlight
 - too round, change to square
