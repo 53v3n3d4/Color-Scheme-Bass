@@ -359,6 +359,17 @@
         //     "foreground": ""
         // },
         {
+            "scope": "constant.other.language-name.markdown",
+            "foreground": "#FC5B57",
+            "font_style": "italic"
+        },
+        // Diff files
+        {
+            "scope": "meta.diff, meta.diff.header",
+            "background": "color(#FFE76D a(0.7))",
+            "foreground": ""
+        },
+        {
             "name": "Markup added",
             "scope": "markup.inserted",
             "background": "color(#C4E7CE a(0.7))",
@@ -371,40 +382,90 @@
             "foreground": ""
         },
         {
-            "scope": "constant.other.language-name.markdown",
-            "foreground": "#FC5B57",
-            "font_style": "italic"
-        },
-        // Sublime Merge, not seeing changes
-        {
-            "scope": "meta.diff, meta.diff.header",
-            "background": "color(#FFE76D a(0.7))",
-            "foreground": ""
-        },
-        {
             "scope": "markup.changed", // not seeing changes
             "background": "#E8F2FF", // blue-light1
             "foreground_adjust": "l(+ 5%)"
         },
+        // Sublime Merge
+        // https://github.com/sublimehq/sublime_merge/issues/198
+        {
+            "scope": "diff.deleted",
+            "background": "#E8F2FF",
+            "foreground_adjust": "l(+ 5%)"
+        },
         // {
-        //     "scope": "diff.deleted",
-        //     "background": "#FC5B57",
+        //     "scope": "diff.deleted.side-by-side",
+        //     "background": "hsla(357, 100%, 60%, 0.15)",
         //     "foreground_adjust": "l(+ 5%)"
         // },
         // {
         //     "scope": "diff.deleted.char",
-        //     "background": "#FC5B57",
+        //     "background": "hsla(357, 100%, 60%, 0.50)",
         //     "foreground_adjust": "l(+ 10%)"
         // },
         // {
         //     "scope": "diff.inserted",
-        //     "background": "#1E73BE",
+        //     "background": "hsla(180, 100%, 60%, 0.15)",
+        //     "foreground_adjust": "l(+ 5%)"
+        // },
+        // {
+        //     "scope": "diff.inserted.side-by-side",
+        //     "background": "hsla(180, 100%, 60%, 0.15)",
         //     "foreground_adjust": "l(+ 5%)"
         // },
         // {
         //     "scope": "diff.inserted.char",
-        //     "background": "#1E73BE",
+        //     "background": "hsla(180, 100%, 60%, 0.40)",
         //     "foreground_adjust": "l(+ 10%)"
+        // },
+        // {
+        //     "scope": "diff.fill",
+        //     "background": "hsl(210, 15%, 27%)",
+        // },
+
+        // {
+        //     "scope": "diff.inserted.merge-left",
+        //     "background": "hsla(180, 100%, 60%, 0.15)",
+        //     "foreground_adjust": "l(+ 5%)"
+        // },
+        // {
+        //     "scope": "diff.inserted.char.merge-left",
+        //     "background": "hsla(180, 100%, 60%, 0.30)",
+        //     "foreground_adjust": "l(+ 10%)"
+        // },
+        // {
+        //     "scope": "diff.border.merge-left",
+        //     "background": "hsla(180, 40%, 60%, 0.50)",
+        // },
+        // {
+        //     "scope": "diff.inserted.merge-right",
+        //     "background": "hsla(60, 100%, 40%, 0.15)",
+        //     "foreground_adjust": "l(+ 5%)"
+        // },
+        // {
+        //     "scope": "diff.inserted.char.merge-right",
+        //     "background": "hsla(60, 100%, 60%, 0.30)",
+        //     "foreground_adjust": "l(+ 10%)"
+        // },
+        // {
+        //     "scope": "diff.border.merge-right",
+        //     "background": "hsla(60, 60%, 60%, 0.50)",
+        // },
+        // {
+        //     "scope": "diff.border.merge-conflict",
+        //     "background": "hsla(357, 75%, 65%, 0.50)",
+        // },
+        // {
+        //     "scope": "diff.border.merge-merged",
+        //     "background": "hsla(180, 10%, 70%, 0.30)",
+        // },
+        // {
+        //     "scope": "blame.border",
+        //     "background": "hsl(210, 13%, 30%)",
+        // },
+        // {
+        //     "scope": "blame.age-icon",
+        //     "foreground": "white",
         // },
         // RUST
         {
@@ -428,6 +489,16 @@
             "foreground": "#06B1D8"
         },
         {
+            "name": "Keyword operator rust",
+            "scope": "keyword.operator.rust", // - keyword.operator.assignment.rust
+            "foreground": "#06B1D8"
+        },
+        // {
+        //     "name": "Keyword operator assignment rust",
+        //     "scope": "keyword.operator.assignment.rust",
+        //     "foreground": "#FC5B57"
+        // },
+        {
             "name": "Support Macro Rust",
             "scope": "support.macro.rust",
             "foreground": "#40E0D0"
@@ -435,6 +506,16 @@
         {
             "name": "Support Type Rust",
             "scope": "support.type.rust",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "String quoted rust",
+            "scope": "source.rust string.quoted",
+            "foreground": "#1E73BE"
+        },
+        {
+            "name": "Constant language rust", // i.e. true/false
+            "scope": "constant.language.rust",
             "foreground": "#FC5B57"
         },
         // HTML
