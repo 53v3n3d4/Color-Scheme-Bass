@@ -79,7 +79,7 @@
         /** Rules variables*/
 
         /** Entity */
-        "entity-name-fg":                  "var(blue1)",
+        "entity-name-fg":                  "var(orange2)",
         "entity-inherited-class-fg":       "var(blue3)",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
@@ -91,8 +91,8 @@
         // "variable-lang-font-style":      "italic",
         // "variable-lang-fg":              "var(purple1)",
         // "variable-param-fg":             "var(purple1)",
-        "variable-fn-fg":                "var(cyan3)",
-        "variable-other-constant-fg":    "var(yellow3)",
+        "variable-fn-fg":                "var(red1)",
+        "variable-other-constant-fg":    "var(orange3)",
 
         /** Constant */
         // "constant-fg":                "var(green4)",
@@ -106,14 +106,14 @@
 
         /** Support */
         // "support-fg":          "var(green3)",
-        "support-fn-fg":       "var(green-light2)",
-        "support-class-fg":    "var(red1)",
+        "support-fn-fg":       "var(red1)",
+        "support-class-fg":    "var(brown1)",
 
         /** Keyword */
         "keyword-font-style":        "normal",
-        "keyword-fg":                "var(purple2)",
+        "keyword-fg":                "var(cyan2)",
         // "keyword-ctrl-fg":           "var(purple3)",
-        "keyword-operator-fg":       "var(purple3)",
+        "keyword-operator-fg":       "var(gold2)",
         // "keyword-declaration-fg":    "var(green3)",
 
         /** String */
@@ -121,7 +121,7 @@
 
         /** Comment */
         "comment-font-style":    "normal",
-        "comment-fg":            "var(green3)",
+        "comment-fg":            "color(var(gray3) a(0.9))",
 
         /** Invalid */
         // "invalid-fg":               "var(red1)",
@@ -135,7 +135,7 @@
 
         /** Markup */
         "markup-heading-font-style":                  "bold",
-        "markup-heading-fg":                          "var(gold2)",
+        "markup-heading-fg":                          "var(brown1)",
         "markup-list-font-style":                     "normal",
         "markup-list-fg":                             "",
         "markup-bold-font-style":                     "bold",
@@ -147,9 +147,9 @@
         "markup-bold-underline-font-style":           "bold underline",
         "markup-italic-underline-font-style":         "italic underline",
         "markup-bold-italic-underline-font-style":    "bold italic underline",
-        "markup-link-fg":                             "",
+        "markup-link-fg":                             "var(blue2)",
         "markup-quote-font-style":                    "italic",
-        "markup-quote-fg":                            "var(green2)",
+        "markup-quote-fg":                            "var(orange2)",
         "markup-raw-bg":                              "color(var(gray2) a(0.3))",
         "markup-raw-inline-bg":                       "color(var(gray2) a(0.3))",
         "markup-table-bg":                            "color(var(gray2) a(0.3))",
@@ -166,30 +166,30 @@
         "markup-deleted-fg":                          "",
 
         /** Javascript */
-        "variable-other-class-js-fg":                        "var(yellow3)",
-        "variable-entity-other-attribute-name-doc-js-fg":    "var(red1)",
+        "variable-other-class-js-fg":                        "var(orange3)",
+        "variable-entity-other-attribute-name-doc-js-fg":    "var(gray4)",
         "constant-lang-null-js-font-style":                  "normal",
-        "constant-lang-null-js-fg":                          "var(red1)",
-        "support-other-js-fg":                               "var(yellow3)",
-        "meta-string-quoted-js-fg":                          "var(blue2)",
+        "constant-lang-null-js-fg":                          "var(gold1)",
+        "support-other-js-fg":                               "var(green-light3)",
+        "meta-string-quoted-js-fg":                          "var(purple2)",
 
         /** Key Value - Json, Yaml, Javascript */
-        "meta-mapping-key-fg":      "var(purple2)",
-        "meta-mapping-value-fg":    "var(blue2)",
+        "meta-mapping-key-fg":      "var(brown1)",
+        "meta-mapping-value-fg":    "var(purple3)",
 
         /** HTML */
         "entity-other-attribute-name-html-fg":    "var(purple3)",
 
         /** CSS */
         "constant-css-fg":                    "var(gray4)",
-        "support-entity-property-css-fg":     "var(red1)",
+        "support-entity-property-css-fg":     "var(brown1)",
         "meta-at-rule-other-css-fg":          "var(blue2)",
 
         /** C# */
         "storage-type-method-params-cs-fg":    "var(blue2)",
 
         /** Go */
-        "string-quoted-double-go-fg":    "var(blue3)",
+        "string-quoted-double-go-fg":    "var(purple2)",
         "constant-lang-go-fg":           "var(red1)",
 
         /** Sql */
@@ -212,14 +212,14 @@
 
         /** Rust Enhanced */
         "constant-lang-rust-fg":       "var(red1)",
-        "entity-name-fn-rust-fg":      "var(green1)",
-        "storage-type-rust-fg":        "var(blue1)",
-        "storage-modifier-rust-fg":    "var(blue1)",
-        "keyword-ctrl-rust-fg":        "var(cyan3)",
-        "keyword-operator-rust-fg":    "var(cyan3)",
-        "support-macro-rust-fg":       "var(cyan1)",
+        "entity-name-fn-rust-fg":      "var(orange2)",
+        "storage-type-rust-fg":        "var(cyan2)",
+        "storage-modifier-rust-fg":    "var(green-light3)",
+        "keyword-ctrl-rust-fg":        "var(cyan2)",
+        "keyword-operator-rust-fg":    "var(cyan2)",
+        "support-macro-rust-fg":       "var(brown1)",
         "support-type-rust-fg":        "var(red1)",
-        "string-quoted-rust-fg":       "var(blue2)"
+        "string-quoted-rust-fg":       "var(purple2)"
 
     },
     "globals": {},
