@@ -133,7 +133,7 @@
         {
             "name": "Entity other pseudo class",
             "scope": "entity.other.pseudo-class",
-            "foreground": "var(entity-other-pseudo-class-fg)" //"#9B2393"
+            "foreground": "var(entity-other-pseudo-class-fg)"
         },
 
         /**
@@ -163,9 +163,9 @@
             "foreground": "var(variable-fn-fg)"
         },
         {
-            "name": "Variable other.constant", // Class nodejs
+            "name": "Variable other.constant", // i.e. Class nodejs
             "scope": "variable.other.constant",
-            "foreground": "var(variable-other-constant-fg)" //"#FFC849"
+            "foreground": "var(variable-other-constant-fg)"
         },
 
         /**
@@ -223,12 +223,12 @@
         {
             "name": "Support function",
             "scope": "support.function",
-            "foreground": "var(support-fn-fg)" //"#A7D4B4"
+            "foreground": "var(support-fn-fg)"
         },
         {
             "name": "Support class",
             "scope": "support.class", // i.e: Js Object, Array
-            "foreground": "var(support-class-fg)" //"#FC5B57"
+            "foreground": "var(support-class-fg)"
         },
 
         /**
@@ -299,7 +299,7 @@
         {
             "name": "Invalid illegal",
             "scope": "invalid.illegal",
-            "background": "var(invalid-illegal-fg)" //"#FC5B57" // Dark orange
+            "background": "var(invalid-illegal-fg)"
         },
 
         // End minimal recommended setup
@@ -432,25 +432,25 @@
          *
          */
         {
-            "name": "Variable other class js", // Class new
+            "name": "Variable other class js", // i.e. Class new
             "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
-            "foreground": "var(variable-other-class-js-fg)" //"#FFC849"
+            "foreground": "var(variable-other-class-js-fg)"
         },
         {
             "name": "Support other js", // e.g. name from adaptiveData.name 
             "scope": "source.js - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value",
-            "foreground": "var(support-other-js-fg)" //"#FFC849"
+            "foreground": "var(support-other-js-fg)"
         },
         {
             "name": "JSDocs tags",
             "scope": "entity.other.attribute-name.documentation.js",
-            "foreground": "var(variable-entity-other-attribute-name-doc-js-fg)" //"#FC5B57"
+            "foreground": "var(variable-entity-other-attribute-name-doc-js-fg)"
         },
         {
             "name": "Null js",
             "scope": "constant.language.null.js",
-            "font_style": "var(constant-lang-null-js-font-style)", //"bold",
-            "foreground": "var(constant-lang-null-js-fg)" //"#FC5B57"
+            "font_style": "var(constant-lang-null-js-font-style)",
+            "foreground": "var(constant-lang-null-js-fg)"
         },
         {
             "name": "String quoted js",
@@ -466,12 +466,12 @@
         {
             "name": "Mapping key",
             "scope": "meta.mapping.key, meta.mapping.key string", // Json text
-            "foreground": "var(meta-mapping-key-fg)" //"#9B2393" // purple
+            "foreground": "var(meta-mapping-key-fg)"
         },
         {
             "name": "Mapping value",
             "scope": "meta.mapping.value, meta.mapping.value string", // Json text, Yaml and JS not working
-            "foreground": "var(meta-mapping-value-fg)" //"#1E73BE" // green light
+            "foreground": "var(meta-mapping-value-fg)"
         },
 
         /**
@@ -573,7 +573,7 @@
          */
         {
             "name": "Model rails",
-            "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby", //meta.controller.rails
+            "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby",
             "foreground": "var(meta-model-rails-fg)"
         },
 
@@ -632,6 +632,11 @@
             "name": "Keyword control rust",
             "scope": "keyword.control.rust",
             "foreground": "var(keyword-ctrl-rust-fg)"
+        },
+        {
+            "name": "Keyword operator rust", // i.e. in/as/box
+            "scope": "keyword.operator.rust",
+            "foreground": "var(keyword-operator-rust-fg)"
         },
         {
             "name": "Support macro rust",
