@@ -160,9 +160,9 @@
         /** Diff files */
         "meta-diff-header-bg":                        "color(var(yellow1) a(0.7))",
         "meta-diff-header-fg":                        "",
-        "markup-inserted-bg":                         "color(var(green-light1) a(0.7))",
+        "markup-inserted-bg":                         "var(green-light7)",
         "markup-inserted-fg":                         "",
-        "markup-deleted-bg":                          "color(var(red1) a(0.2))",
+        "markup-deleted-bg":                          "var(red-light1)",
         "markup-deleted-fg":                          "",
 
         /** Javascript */
@@ -216,6 +216,7 @@
         "storage-type-rust-fg":        "var(blue1)",
         "storage-modifier-rust-fg":    "var(blue1)",
         "keyword-ctrl-rust-fg":        "var(cyan3)",
+        "keyword-operator-rust-fg":    "var(cyan3)",
         "support-macro-rust-fg":       "var(cyan1)",
         "support-type-rust-fg":        "var(red1)",
         "string-quoted-rust-fg":       "var(blue2)"

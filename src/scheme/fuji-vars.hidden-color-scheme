@@ -160,9 +160,9 @@
         /** Diff files */
         "meta-diff-header-bg":                        "color(var(blue2) a(0.2))",
         "meta-diff-header-fg":                        "",
-        "markup-inserted-bg":                         "color(var(green-light1) a(0.7))",
+        "markup-inserted-bg":                         "var(green-light7)", //"color(var(green-light1) a(0.7))",
         "markup-inserted-fg":                         "",
-        "markup-deleted-bg":                          "color(var(red1) a(0.2))",
+        "markup-deleted-bg":                          "var(red-light1)", //"color(var(red1) a(0.2))",
         "markup-deleted-fg":                          "",
 
         /** Javascript */
@@ -211,11 +211,12 @@
         "variable-other-readwrite-instance-ruby-fg":    "var(purple3)",
 
         /** Rust Enhanced */
-        "constant-lang-rust-fg":       "var(red1)",
+        "constant-lang-rust-fg":       "var(brown1)",
         "entity-name-fn-rust-fg":      "var(cyan2)",
         "storage-type-rust-fg":        "var(purple3)",
         "storage-modifier-rust-fg":    "var(magenta3)",
-        "keyword-ctrl-rust-fg":        "var(cyan2)",
+        "keyword-ctrl-rust-fg":        "var(purple3)",
+        "keyword-operator-rust-fg":    "var(purple3)",
         "support-macro-rust-fg":       "var(green2)",
         "support-type-rust-fg":        "var(brown1)",
         "string-quoted-rust-fg":       "var(blue2)"
