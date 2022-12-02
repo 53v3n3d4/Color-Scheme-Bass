@@ -535,6 +535,17 @@
 
         /**
          *
+         * GIT
+         *
+         */
+        {
+            "name": "Git attributes value",
+            "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
+            "foreground": "var(meta-mapping-value-git-attributes-fg)"
+        },
+
+        /**
+         *
          * SQL
          *
          */
@@ -548,6 +559,11 @@
             "scope": "keyword.operator.logical.sql",
             "font_style": "var(keyword-operator-logical-sql-font-style)",
             "foreground": "var(keyword-operator-logical-sql-fg)"
+        },
+        {
+            "name": "Storage modifier sql", // i.e. CONSTRAINT, PRIMARY KEY
+            "scope": "storage.modifier.sql",
+            "foreground": "var(storage-modifier-sql-fg)"
         },
 
         /**
