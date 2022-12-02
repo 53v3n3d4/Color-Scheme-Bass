@@ -95,6 +95,7 @@ Go
 Sublime Merge
 - diff files not working
 https://forum.sublimetext.com/t/how-to-change-insert-change-delete-diff-colors/39540/2
+https://github.com/sublimehq/sublime_merge/issues/198
 
 Gitattributes
 - Bow color scheme -> meta-mapping-key-fg. Do another var for git
