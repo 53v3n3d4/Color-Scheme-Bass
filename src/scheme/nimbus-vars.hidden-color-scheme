@@ -2,14 +2,6 @@
     "name": "Bass Nimbus",
     "variables":
     {
-        // "bg-color":       "var(green-light1)", // green
-        // "bg-color":       "var(yellow-light1)", // serpia
-        // "bg-color":       "var(white1)", // white
-        // "bg-color":       "var(black6)", // black
-        // "bg-color":       "var(black9)", // black
-        // "primary-color":  "var(blue5)"
-        // dark blue https://eslint.org/sponsors/#donations
-
         // Leave emprty string("") for ununsed variables. 
         // Unused commented vars will cause errors in console when using replaceVars method.
         // E.g. Commented, "line_diff_width": "var(line-diff-width)"
@@ -80,7 +72,7 @@
 
         /** Entity */
         "entity-name-fg":                  "var(orange2)",
-        "entity-inherited-class-fg":       "var(blue3)",
+        "entity-inherited-class-fg":       "var(purple3)",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
         "entity-attribute-name-fg":        "var(purple3)",
@@ -102,7 +94,7 @@
 
         /** Storage */
         // "storage-fg":             "var(purple3)",
-        "storage-modifier-fg":    "var(purple3)",
+        "storage-modifier-fg":    "var(blue2)",
 
         /** Support */
         // "support-fg":          "var(green3)",
@@ -192,23 +184,27 @@
         "string-quoted-double-go-fg":    "var(purple2)",
         "constant-lang-go-fg":           "var(red1)",
 
+        /** Git */
+        "meta-mapping-value-git-attributes-fg":    "var(purple3)",
+
         /** Sql */
         "constant-lang-null-sql-fg":                  "var(red1)",
         "keyword-operator-logical-sql-font-style":    "normal",
         "keyword-operator-logical-sql-fg":            "var(red1)",
+        "storage-modifier-sql-fg":                    "var(blue2)",
 
         /** Toml */
-        "entity-name-tag-toml-fg":      "var(purple2)",
-        "entity-name-table-toml-fg":    "var(blue2)",
+        "entity-name-tag-toml-fg":      "var(brown1)",
+        "entity-name-table-toml-fg":    "var(purple2)",
 
         /** Rails */
         "meta-model-rails-fg":    "var(blue2)",
 
         /** Ruby */
-        "constant-rb-fg":                               "var(blue3)",
+        "constant-rb-fg":                               "var(purple3)",
         "constant-lang-bool-rb-fg":                     "var(red1)",
         "entity-name-class-ruby-fg":                    "var(black4)",
-        "variable-other-readwrite-instance-ruby-fg":    "var(purple3)",
+        "variable-other-readwrite-instance-ruby-fg":    "var(blue3)",
 
         /** Rust Enhanced */
         "constant-lang-rust-fg":       "var(red1)",

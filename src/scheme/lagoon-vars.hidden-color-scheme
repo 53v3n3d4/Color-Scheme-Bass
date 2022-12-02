@@ -2,14 +2,6 @@
     "name": "Bass Lagoon",
     "variables":
     {
-        // "bg-color":       "var(green-light1)", // green
-        // "bg-color":       "var(yellow-light1)", // serpia
-        // "bg-color":       "var(white1)", // white
-        // "bg-color":       "var(black6)", // black
-        // "bg-color":       "var(black9)", // black
-        // "primary-color":  "var(blue5)"
-        // dark blue https://eslint.org/sponsors/#donations
-
         // Leave emprty string("") for ununsed variables. 
         // Unused commented vars will cause errors in console when using replaceVars method.
         // E.g. Commented, "line_diff_width": "var(line-diff-width)"
@@ -192,10 +184,14 @@
         "string-quoted-double-go-fg":    "var(purple2)",
         "constant-lang-go-fg":           "var(red2)",
 
+        /** Git */
+        "meta-mapping-value-git-attributes-fg":    "var(green2)",
+
         /** Sql */
         "constant-lang-null-sql-fg":                  "var(red2)",
         "keyword-operator-logical-sql-font-style":    "normal",
         "keyword-operator-logical-sql-fg":            "var(red2)",
+        "storage-modifier-sql-fg":                    "var(purple3)",
 
         /** Toml */
         "entity-name-tag-toml-fg":      "var(purple2)",
