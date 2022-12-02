@@ -62,35 +62,14 @@
             "foreground": "#5DD8FF"
         },
         {
-            "name": "Entity name section",
-            "scope": "entity.name.section",
-            "foreground": "#8D52D1"
-        },
-        {
-            "name": "Entity name tag",
-            "scope": "entity.name.tag",
-            "foreground": "#06B1D8"
-        },
-        {
             "name": "Entity other attribute name",
             "scope": "entity.other.attribute-name",
             "foreground": "#C4E7CE"
         },
         {
-            "name": "Variable",
-            "scope": "variable",
-            "foreground": "#A7D4B4"
-        },
-        {
-            "name": "Variable language",
-            "scope": "variable.language",
-            "font_style": "italic",
-            "foreground": "#8D52D1"
-        },
-        {
-            "name": "Variable parameter",
-            "scope": "variable.parameter",
-            "foreground": "#8D52D1"
+            "name": "Entity other pseudo class",
+            "scope": "entity.other.pseudo-class",
+            "foreground": "#9B2393"
         },
         {
             "name": "Variable function",
@@ -98,9 +77,9 @@
             "foreground": "#5DD8FF"
         },
         {
-            "name": "Constant",
-            "scope": "constant",
-            "foreground": "#5DD8FF"
+            "name": "Variable other.constant",
+            "scope": "variable.other.constant",
+            "foreground": "#FFC849"
         },
         {
             "name": "Constant numeric",
@@ -108,29 +87,19 @@
             "foreground": "#D0BC56"
         },
         {
-            "name": "Constant language",
-            "scope": "constant.language",
-            "foreground": "#0282F2"
-        },
-        {
-            "name": "Constant character escape",
-            "scope": "constant.character.escape",
-            "foreground": "#D0BC56"
-        },
-        {
-            "name": "Storage",
-            "scope": "storage",
-            "foreground": "#FC6BAA"
-        },
-        {
             "name": "Storage modifier",
             "scope": "storage.modifier",
             "foreground": "#FC6BAA"
         },
         {
-            "name": "Support",
-            "scope": "support",
+            "name": "Support function",
+            "scope": "support.function",
             "foreground": "#A7D4B4"
+        },
+        {
+            "name": "Support class",
+            "scope": "support.class",
+            "foreground": "#FC5B57"
         },
         {
             "name": "Keyword",
@@ -139,40 +108,30 @@
             "foreground": "#EC4990"
         },
         {
-            "name": "Keyword control",
-            "scope": "keyword.control",
-            "foreground": "#EC4990"
-        },
-        {
             "name": "Keyword operator",
             "scope": "keyword.operator",
             "foreground": "#EC4990"
         },
         {
-            "name": "Keyword declaration",
-            "scope": "keyword.declaration",
-            "foreground": "#C4E7CE"
-        },
-        {
             "name": "String",
             "scope": "string",
-            "foreground": "#FC7467"
+            "foreground": "#F0F0F7"
         },
         {
             "name": "Comment",
             "scope": "comment",
             "font_style": "normal",
-            "foreground": "#83B85E"
-        },
-        {
-            "name": "Invalid",
-            "scope": "invalid",
-            "foreground": "#FC5B57"
+            "foreground": "color(#DF88B7 a(0.6)"
         },
         {
             "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
             "foreground": "#C41A16"
+        },
+        {
+            "name": "Invalid illegal",
+            "scope": "invalid.illegal",
+            "background": "#FC5B57"
         },
         {
             "name": "Line-continuation characters, such as in Python and R",
@@ -198,15 +157,40 @@
             "foreground": ""
         },
         {
-            "name": "Markup Italic",
+            "name": "Markup italic",
             "scope": "markup.italic",
             "font_style": "italic",
             "foreground": ""
         },
         {
+            "name": "Markup underline",
+            "scope": "markup.underline",
+            "font_style": "underline"
+        },
+        {
+            "name": "Markup bold/italic",
+            "scope": "markup.italic markup.bold | markup.bold markup.italic",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Markup bold/underline",
+            "scope": "markup.underline markup.bold | markup.bold markup.underline",
+            "font_style": "bold underline"
+        },
+        {
+            "name": "Markup italic/underline",
+            "scope": "markup.underline markup.italic | markup.italic markup.underline",
+            "font_style": "italic underline"
+        },
+        {
+            "name": "Markup bold/italic/underline",
+            "scope": "markup.bold markup.italic markup.underline | markup.bold markup.underline markup.italic | markup.italic markup.bold markup.underline | markup.italic markup.underline markup.bold | markup.underline markup.bold markup.italic | markup.underline markup.italic markup.bold",
+            "font_style": "bold italic underline"
+        },
+        {
             "name": "Markup links",
             "scope": "markup.underline.link, string.other.link",
-            "foreground": "#5DD8FF"
+            "foreground": ""
         },
         {
             "name": "Markup blockquote",
@@ -231,14 +215,199 @@
             "foreground": ""
         },
         {
+            "name": "Constant other language name md",
+            "scope": "constant.other.language-name.markdown",
+            "font_style": "italic",
+            "foreground": "#AA0D91"
+        },
+        {
+            "scope": "meta.diff, meta.diff.header",
+            "background": "color(#182337 l(+ 11%))",
+            "foreground": "#9B9B9B"
+        },
+        {
             "name": "Markup added",
             "scope": "markup.inserted",
-            "foreground": "#FFE76D"
+            "background": "color(#19261E l(+ 11%))",
+            "foreground": "#9B9B9B"
         },
         {
             "name": "Markup removed",
             "scope": "markup.deleted",
-            "foreground": "#FF00FF"
+            "background": "color(#2F1C1F l(+ 11%))",
+            "foreground": "#9B9B9B"
+        },
+        {
+            "name": "Variable other class js",
+            "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
+            "foreground": "#FFC849"
+        },
+        {
+            "name": "Support other js",
+            "scope": "source.js - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value",
+            "foreground": "#FFC849"
+        },
+        {
+            "name": "JSDocs tags",
+            "scope": "entity.other.attribute-name.documentation.js",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "Null js",
+            "scope": "constant.language.null.js",
+            "font_style": "bold",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "String quoted js",
+            "scope": "meta.string.js string.quoted.other.js, meta.string.js string.quoted.single.js",
+            "foreground": "#1E73BE"
+        },
+        {
+            "name": "Mapping key",
+            "scope": "meta.mapping.key, meta.mapping.key string",
+            "foreground": "#E87191"
+        },
+        {
+            "name": "Mapping value",
+            "scope": "meta.mapping.value, meta.mapping.value string",
+            "foreground": "#A4CDFF"
+        },
+        {
+            "name": "Entity id",
+            "scope": "text.html entity.other.attribute-name.id",
+            "foreground": "#AA0D91"
+        },
+        {
+            "name": "Constant css",
+            "scope": "source.css constant",
+            "foreground": "#5D6C79"
+        },
+        {
+            "name": "Support property name and Entity other custom property",
+            "scope": "support.type.property-name.css, entity.other.custom-property.css",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "Ar ruler other css",
+            "scope": "meta.at-rule.other.css",
+            "foreground": "#1E73BE"
+        },
+        {
+            "name": "Storage type and Method parameters c#",
+            "scope": "storage.type.cs, meta.method.parameters.cs",
+            "foreground": "#1E73BE"
+        },
+        {
+            "name": "String quoted double go",
+            "scope": "string.quoted.double.go",
+            "foreground": "#0282F2"
+        },
+        {
+            "name": "Constant language go",
+            "scope": "constant.language.go",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "Git attributes value",
+            "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
+            "foreground": "#E87191"
+        },
+        {
+            "name": "Null sql",
+            "scope": "constant.language.null.sql",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "Keyword operator logical sql",
+            "scope": "keyword.operator.logical.sql",
+            "font_style": "normal",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "Storage modifier sql",
+            "scope": "storage.modifier.sql",
+            "foreground": "#5DD8FF"
+        },
+        {
+            "name": "Key toml",
+            "scope": "entity.name.tag.toml",
+            "foreground": "#9B2393"
+        },
+        {
+            "name": "Table toml",
+            "scope": "entity.name.table.toml",
+            "foreground": "#1E73BE"
+        },
+        {
+            "name": "Model rails",
+            "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby",
+            "foreground": "#1E73BE"
+        },
+        {
+            "name": "Constant ruby",
+            "scope": "source.ruby constant",
+            "foreground": "#0282F2"
+        },
+        {
+            "name": "Constant boolean ruby",
+            "scope": "constant.language.boolean.ruby",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "Entity name class ruby",
+            "scope": "entity.name.class.ruby",
+            "foreground": "#404040"
+        },
+        {
+            "name": "Variable other readwrite instance ruby",
+            "scope": "variable.other.readwrite.instance.ruby",
+            "foreground": "#AA0D91"
+        },
+        {
+            "name": "Constant language rust",
+            "scope": "constant.language.rust",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "Entity name function",
+            "scope": "entity.name.function.rust",
+            "foreground": "#57C038"
+        },
+        {
+            "name": "Storage type rust",
+            "scope": "storage.type.rust",
+            "foreground": "#2077FB"
+        },
+        {
+            "name": "Storage modifier rust",
+            "scope": "storage.modifier.rust",
+            "foreground": "#2077FB"
+        },
+        {
+            "name": "Keyword control rust",
+            "scope": "keyword.control.rust",
+            "foreground": "#06B1D8"
+        },
+        {
+            "name": "Keyword operator rust",
+            "scope": "keyword.operator.rust",
+            "foreground": "#06B1D8"
+        },
+        {
+            "name": "Support macro rust",
+            "scope": "support.macro.rust",
+            "foreground": "#40E0D0"
+        },
+        {
+            "name": "Support type rust",
+            "scope": "support.type.rust",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "String quoted rust",
+            "scope": "source.rust string.quoted",
+            "foreground": "#1E73BE"
         }
     ]
 }

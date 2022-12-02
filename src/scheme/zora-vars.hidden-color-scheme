@@ -2,14 +2,6 @@
     "name": "Bass Zora",
     "variables":
     {
-        // "bg-color":       "var(green-light1)", // green
-        // "bg-color":       "var(yellow-light1)", // serpia
-        // "bg-color":       "var(white1)", // white
-        // "bg-color":       "var(black6)", // black
-        // "bg-color":       "var(black9)", // black
-        // "primary-color":  "var(blue5)"
-        // dark blue https://eslint.org/sponsors/#donations
-
         // Leave emprty string("") for ununsed variables. 
         // Unused commented vars will cause errors in console when using replaceVars method.
         // E.g. Commented, "line_diff_width": "var(line-diff-width)"
@@ -121,7 +113,7 @@
 
         /** Comment */
         "comment-font-style":    "normal",
-        "comment-fg":            "var(green-light3)",
+        "comment-fg":            "color(var(blue-light3) a(0.4))",
 
         /** Invalid */
         // "invalid-fg":               "var(red1)",
@@ -158,12 +150,12 @@
         "constant-other-lang-name-md-fg":             "var(purple3)",
 
         /** Diff files */
-        "meta-diff-header-bg":                        "var(yellow-light3)",
-        "meta-diff-header-fg":                        "var(black4)",
-        "markup-inserted-bg":                         "var(green-light7)",
-        "markup-inserted-fg":                         "var(black4)",
-        "markup-deleted-bg":                          "var(red-light1)",
-        "markup-deleted-fg":                          "var(black4)",
+        "meta-diff-header-bg":                        "color(var(blue6) l(+ 11%))",
+        "meta-diff-header-fg":                        "var(gray3)",
+        "markup-inserted-bg":                         "color(var(green6) l(+ 11%))",
+        "markup-inserted-fg":                         "var(gray3)",
+        "markup-deleted-bg":                          "color(var(red6) l(+ 11%))",
+        "markup-deleted-fg":                          "var(gray3)",
 
         /** Javascript */
         "variable-other-class-js-fg":                        "var(yellow3)",
@@ -174,8 +166,8 @@
         "meta-string-quoted-js-fg":                          "var(blue2)",
 
         /** Key Value - Json, Yaml, Javascript */
-        "meta-mapping-key-fg":      "var(purple2)",
-        "meta-mapping-value-fg":    "var(blue2)",
+        "meta-mapping-key-fg":      "var(cyan2)",
+        "meta-mapping-value-fg":    "var(gold2)",
 
         /** HTML */
         "entity-other-attribute-name-html-fg":    "var(purple3)",
@@ -192,10 +184,14 @@
         "string-quoted-double-go-fg":    "var(blue3)",
         "constant-lang-go-fg":           "var(red1)",
 
+        /** Git */
+        "meta-mapping-value-git-attributes-fg":    "var(gold2)",
+
         /** Sql */
         "constant-lang-null-sql-fg":                  "var(red1)",
         "keyword-operator-logical-sql-font-style":    "normal",
         "keyword-operator-logical-sql-fg":            "var(red1)",
+        "storage-modifier-sql-fg":                    "var(blue5)",
 
         /** Toml */
         "entity-name-tag-toml-fg":      "var(purple2)",
