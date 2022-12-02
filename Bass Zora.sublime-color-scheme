@@ -126,12 +126,12 @@
         {
             "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
-            "foreground": "#C41A16"
+            "foreground": "#FC5B57"
         },
         {
             "name": "Invalid illegal",
             "scope": "invalid.illegal",
-            "background": "#FC5B57"
+            "background": "color(#FD8F3F a(0.7))"
         },
         {
             "name": "Line-continuation characters, such as in Python and R",

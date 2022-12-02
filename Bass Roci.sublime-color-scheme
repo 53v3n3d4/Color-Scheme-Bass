@@ -131,7 +131,7 @@
         {
             "name": "Invalid illegal",
             "scope": "invalid.illegal",
-            "background": "#FC5B57"
+            "background": "color(#FC5B57 a(0.4))"
         },
         {
             "name": "Line-continuation characters, such as in Python and R",

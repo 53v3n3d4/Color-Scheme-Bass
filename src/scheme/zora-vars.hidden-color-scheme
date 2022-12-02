@@ -117,8 +117,8 @@
 
         /** Invalid */
         // "invalid-fg":               "var(red1)",
-        "invalid-deprecated-fg":    "var(red2)",
-        "invalid-illegal-fg":       "var(red1)",
+        "invalid-deprecated-fg":    "var(red1)",
+        "invalid-illegal-fg":       "color(var(orange1) a(0.7))",
 
         // End minimal recommended setup
 
