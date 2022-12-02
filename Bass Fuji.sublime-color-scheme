@@ -228,13 +228,13 @@
         {
             "name": "Markup added",
             "scope": "markup.inserted",
-            "background": "color(#C4E7CE a(0.7))",
+            "background": "#D6EEDD",
             "foreground": ""
         },
         {
             "name": "Markup removed",
             "scope": "markup.deleted",
-            "background": "color(#FC5B57 a(0.2))",
+            "background": "#FFDEDD",
             "foreground": ""
         },
         {
@@ -309,6 +309,11 @@
             "foreground": "#1C02CF"
         },
         {
+            "name": "Git attributes value",
+            "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
+            "foreground": "#9B2393"
+        },
+        {
             "name": "Null sql",
             "scope": "constant.language.null.sql",
             "foreground": "#FC5B57"
@@ -318,6 +323,11 @@
             "scope": "keyword.operator.logical.sql",
             "font_style": "normal",
             "foreground": "#FC5B57"
+        },
+        {
+            "name": "Storage modifier sql",
+            "scope": "storage.modifier.sql",
+            "foreground": "#5DD8FF"
         },
         {
             "name": "Key toml",
@@ -377,6 +387,11 @@
         {
             "name": "Keyword control rust",
             "scope": "keyword.control.rust",
+            "foreground": "#AA0D91"
+        },
+        {
+            "name": "Keyword operator rust",
+            "scope": "keyword.operator.rust",
             "foreground": "#AA0D91"
         },
         {

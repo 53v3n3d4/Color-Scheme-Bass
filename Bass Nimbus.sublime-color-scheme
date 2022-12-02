@@ -59,7 +59,7 @@
         {
             "name": "Entity other inherited class",
             "scope": "entity.other.inherited-class",
-            "foreground": "#0282F2"
+            "foreground": "#AA0D91"
         },
         {
             "name": "Entity other attribute name",
@@ -89,7 +89,7 @@
         {
             "name": "Storage modifier",
             "scope": "storage.modifier",
-            "foreground": "#AA0D91"
+            "foreground": "#1E73BE"
         },
         {
             "name": "Support function",
@@ -309,6 +309,11 @@
             "foreground": "#FC5B57"
         },
         {
+            "name": "Git attributes value",
+            "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
+            "foreground": "#AA0D91"
+        },
+        {
             "name": "Null sql",
             "scope": "constant.language.null.sql",
             "foreground": "#FC5B57"
@@ -320,14 +325,19 @@
             "foreground": "#FC5B57"
         },
         {
+            "name": "Storage modifier sql",
+            "scope": "storage.modifier.sql",
+            "foreground": "#1E73BE"
+        },
+        {
             "name": "Key toml",
             "scope": "entity.name.tag.toml",
-            "foreground": "#9B2393"
+            "foreground": "#BF8555"
         },
         {
             "name": "Table toml",
             "scope": "entity.name.table.toml",
-            "foreground": "#1E73BE"
+            "foreground": "#9B2393"
         },
         {
             "name": "Model rails",
@@ -337,7 +347,7 @@
         {
             "name": "Constant ruby",
             "scope": "source.ruby constant",
-            "foreground": "#0282F2"
+            "foreground": "#AA0D91"
         },
         {
             "name": "Constant boolean ruby",
@@ -352,7 +362,7 @@
         {
             "name": "Variable other readwrite instance ruby",
             "scope": "variable.other.readwrite.instance.ruby",
-            "foreground": "#AA0D91"
+            "foreground": "#0282F2"
         },
         {
             "name": "Constant language rust",

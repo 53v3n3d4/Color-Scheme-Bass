@@ -309,6 +309,11 @@
             "foreground": "#FD8F3F"
         },
         {
+            "name": "Git attributes value",
+            "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
+            "foreground": "#BF8555"
+        },
+        {
             "name": "Null sql",
             "scope": "constant.language.null.sql",
             "foreground": "#FD8F3F"
@@ -318,6 +323,11 @@
             "scope": "keyword.operator.logical.sql",
             "font_style": "normal",
             "foreground": "#FD8F3F"
+        },
+        {
+            "name": "Storage modifier sql",
+            "scope": "storage.modifier.sql",
+            "foreground": "#007F7C"
         },
         {
             "name": "Key toml",
