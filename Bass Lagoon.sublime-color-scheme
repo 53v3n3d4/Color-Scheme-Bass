@@ -299,14 +299,19 @@
             "foreground": "#1E73BE"
         },
         {
-            "name": "String quoted double go",
-            "scope": "string.quoted.double.go",
+            "name": "String quoted go",
+            "scope": "string.quoted.double.go, string.quoted.backtick.go",
             "foreground": "#9B2393"
         },
         {
             "name": "Constant language go",
             "scope": "constant.language.go",
             "foreground": "#C41A16"
+        },
+        {
+            "name": "Storage Support type builtin go",
+            "scope": "storage.type.go support.type.builtin.go",
+            "foreground": "#EC4990"
         },
         {
             "name": "Git attributes value",

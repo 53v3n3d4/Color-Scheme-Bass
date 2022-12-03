@@ -181,8 +181,9 @@
         "storage-type-method-params-cs-fg":    "var(blue5)",
 
         /** Go */
-        "string-quoted-double-go-fg":    "color(var(yellow-light3) a(0.6))",
-        "constant-lang-go-fg":           "var(red1)",
+        "string-quoted-go-fg":                   "color(var(yellow-light3) a(0.6))",
+        "constant-lang-go-fg":                   "var(red1)",
+        "storage-support-type-builtin-go-fg":    "color(var(magenta3) a(0.7)",
 
         /** Git */
         "meta-mapping-value-git-attributes-fg":    "var(brown1)",
