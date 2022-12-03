@@ -53,9 +53,9 @@
         /** Rulers */
         "rulers":                     "var(brown1)",
         /** Guides */
-        "guide":                      "color(var(gray3) alpha(0.5)",
-        "active-guide":               "var(blue1)", // not found
-        "stack-guide":                "var(blue1)", // not found
+        "guide":                      "color(var(gray3) a(0.5)",
+        "active-guide":               "color(var(green3) a(0.7))",
+        "stack-guide":                "color(var(gray3) a(0.5))",
         /** Brackets */
         "brackets-opts":              "underline",
         "brackets-fg":                "var(orange1)",

@@ -52,6 +52,8 @@
         "rulers":                           "var(rulers)",
         /** Guides */
         "guide":                            "var(guide)",
+        // active_guide and stack_guide
+        // Only used if the option "draw_active" is present in the setting indent_guide_options.
         "active_guide":                     "var(active-guide)", // not found
         "stack_guide":                      "var(stack-guide)", // not found
         /** Brackets */
