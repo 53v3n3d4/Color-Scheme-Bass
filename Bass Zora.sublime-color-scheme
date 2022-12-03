@@ -223,19 +223,19 @@
         {
             "scope": "meta.diff, meta.diff.header",
             "background": "color(#182337 l(+ 11%))",
-            "foreground": "#9B9B9B"
+            "foreground": "#A4CDFF"
         },
         {
             "name": "Markup added",
             "scope": "markup.inserted",
-            "background": "color(#19261E l(+ 11%))",
-            "foreground": "#9B9B9B"
+            "background": "#354A32",
+            "foreground": "#83B85E"
         },
         {
             "name": "Markup removed",
             "scope": "markup.deleted",
-            "background": "color(#2F1C1F l(+ 11%))",
-            "foreground": "#9B9B9B"
+            "background": "#4A3532",
+            "foreground": "#FC5B57"
         },
         {
             "name": "Variable other class js",

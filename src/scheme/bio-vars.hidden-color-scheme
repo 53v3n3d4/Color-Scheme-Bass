@@ -151,11 +151,11 @@
 
         /** Diff files */
         "meta-diff-header-bg":                        "color(var(yellow3) l(+ 11%))",
-        "meta-diff-header-fg":                        "var(gray4)",
-        "markup-inserted-bg":                         "color(var(green6) l(+ 11%))",
-        "markup-inserted-fg":                         "var(gray3)",
-        "markup-deleted-bg":                          "color(var(red6) l(+ 11%))",
-        "markup-deleted-fg":                          "var(gray3)",
+        "meta-diff-header-fg":                        "var(orange3)",
+        "markup-inserted-bg":                         "var(green-dark1)",
+        "markup-inserted-fg":                         "var(green-light3)",
+        "markup-deleted-bg":                          "var(red-dark1)",
+        "markup-deleted-fg":                          "var(red1)",
 
         /** Javascript */
         "variable-other-class-js-fg":                        "var(blue-light4)",
