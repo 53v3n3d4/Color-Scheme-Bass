@@ -523,14 +523,19 @@
          *
          */
         {
-            "name": "String quoted double go",
-            "scope": "string.quoted.double.go",
-            "foreground": "var(string-quoted-double-go-fg)"
+            "name": "String quoted go",
+            "scope": "string.quoted.double.go, string.quoted.backtick.go",
+            "foreground": "var(string-quoted-go-fg)"
         },
         {
             "name": "Constant language go", // i.e. nil/false/true
             "scope": "constant.language.go",
             "foreground": "var(constant-lang-go-fg)"
+        },
+        {
+            "name": "Storage Support type builtin go", // i.e. string/bool
+            "scope": "storage.type.go support.type.builtin.go",
+            "foreground": "var(storage-support-type-builtin-go-fg)"
         },
 
         /**
