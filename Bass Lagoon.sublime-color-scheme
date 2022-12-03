@@ -223,19 +223,19 @@
         {
             "scope": "meta.diff, meta.diff.header",
             "background": "color(#FFE76D a(0.7))",
-            "foreground": ""
+            "foreground": "#E47C48"
         },
         {
             "name": "Markup added",
             "scope": "markup.inserted",
             "background": "#D6EEDD",
-            "foreground": ""
+            "foreground": "#119912"
         },
         {
             "name": "Markup removed",
             "scope": "markup.deleted",
             "background": "#FFDEDD",
-            "foreground": ""
+            "foreground": "#C41A16"
         },
         {
             "name": "Variable other class js",
