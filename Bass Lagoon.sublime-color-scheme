@@ -204,8 +204,8 @@
             "background": "#A4CDFF"
         },
         {
-            "name": "Markup table",
-            "scope": "markup.table",
+            "name": "Table md",
+            "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
             "background": "#A4CDFF",
             "foreground": ""
         },

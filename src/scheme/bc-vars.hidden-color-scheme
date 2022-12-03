@@ -143,7 +143,7 @@
         "markup-quote-font-style":                    "italic",
         "markup-quote-fg":                            "var(green-light2)",
         "markup-raw-bg":                              "var(black8)",
-        "markup-table-bg":                            "var(black4)",
+        "markup-table-bg":                            "var(black8)",
         "markup-table-fg":                            "",
         "constant-other-lang-name-md-font-style":     "normal",
         "constant-other-lang-name-md-fg":             "var(gold2)",
