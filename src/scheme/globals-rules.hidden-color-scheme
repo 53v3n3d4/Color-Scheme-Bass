@@ -317,7 +317,7 @@
 
         /**
          *
-         * MARKUP
+         * MARKDOWN
          *
          */
         {
@@ -386,11 +386,6 @@
             "background": "var(markup-raw-bg)"
         },
         {
-            "name": "Markup code inline",
-            "scope": "markup.raw.inline",
-            "background": "var(markup-raw-inline-bg)"
-        },
-        {
             "name": "Markup table", // not working, delete
             "scope": "markup.table",
             "background": "var(markup-table-bg)",
@@ -401,6 +396,11 @@
             "scope": "constant.other.language-name.markdown",
             "font_style": "var(constant-other-lang-name-md-font-style)",
             "foreground": "var(constant-other-lang-name-md-fg)"
+        },
+        {
+            "name": "Punctuation line break md",
+            "scope": "punctuation.definition.hard-line-break.markdown",
+            "background": "var(punctuation-line-break-md-bg)"
         },
 
         /**

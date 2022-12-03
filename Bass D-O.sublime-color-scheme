@@ -204,11 +204,6 @@
             "background": "#F4E2BC"
         },
         {
-            "name": "Markup code inline",
-            "scope": "markup.raw.inline",
-            "background": "#F4E2BC"
-        },
-        {
             "name": "Markup table",
             "scope": "markup.table",
             "background": "#F4E2BC",
@@ -219,6 +214,11 @@
             "scope": "constant.other.language-name.markdown",
             "font_style": "italic",
             "foreground": "#06B1D8"
+        },
+        {
+            "name": "Punctuation line break md",
+            "scope": "punctuation.definition.hard-line-break.markdown",
+            "background": "color(#F4E2BC a(0.7))"
         },
         {
             "scope": "meta.diff, meta.diff.header",

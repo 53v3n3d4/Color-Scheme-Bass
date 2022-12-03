@@ -130,7 +130,7 @@
         /** Punctuation */
         "punctuation-separator-cont-fg":    "var(magenta2)",
 
-        /** Markup */
+        /** Markdown */
         "markup-heading-font-style":                  "bold",
         "markup-heading-fg":                          "var(pink-light4)",
         "markup-list-font-style":                     "bold",
@@ -148,11 +148,11 @@
         "markup-quote-font-style":                    "italic",
         "markup-quote-fg":                            "var(green-light3)",
         "markup-raw-bg":                              "var(purple6)",
-        "markup-raw-inline-bg":                       "var(purple6)",
         "markup-table-bg":                            "var(purple6)",
         "markup-table-fg":                            "",
         "constant-other-lang-name-md-font-style":     "normal",
         "constant-other-lang-name-md-fg":             "var(yellow1)",
+        "punctuation-line-break-md-bg":               "color(var(purple6) a(0.5))",
 
         /** Diff files */
         "meta-diff-header-bg":                        "color(var(blue6) l(+ 11%))",
