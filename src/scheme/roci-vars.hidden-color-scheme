@@ -42,12 +42,12 @@
         "line-diff-modified":         "var(gold1)",
         "line-diff-deleted":          "var(red3)",
         /** Selection */
-        "selection":                  "color(var(green-light1) a(0.7))",
-        "selection-fg":               "var(black4)",
-        "selection-border":           "var(black2)",
+        "selection":                  "color(var(red-light1) a(0.14))",
+        "selection-fg":               "var(magenta2)",
+        "selection-border":           "color(var(pink-light3) a(0.2))",
         "selection-border-width":     "1",
-        "inactive-selection":         "color(var(green-light1) a(0.5))",
-        "inactive-selection-fg":      "var(black2)",
+        "inactive-selection":         "color(var(red-light1) a(0.2))",
+        "inactive-selection-fg":      "var(magenta2)",
         "selection-corner-style":     "round",
         "selection-corner-radius":    "2",
         /** Find */
