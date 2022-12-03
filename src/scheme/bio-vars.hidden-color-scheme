@@ -71,24 +71,24 @@
         /** Rules variables*/
 
         /** Entity */
-        "entity-name-fg":                  "var(blue5)",
-        "entity-inherited-class-fg":       "var(blue5)",
+        "entity-name-fg":                  "var(orange2)",
+        "entity-inherited-class-fg":       "var(orange2)",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
-        "entity-attribute-name-fg":        "var(green-light1)",
-        "entity-other-pseudo-class-fg":    "var(purple2)",
+        "entity-attribute-name-fg":        "var(magenta2)",
+        "entity-other-pseudo-class-fg":    "var(magenta3)",
 
         /** Variable */
         // "variable-fg":                   "var(green-light2)",
         // "variable-lang-font-style":      "italic",
         // "variable-lang-fg":              "var(purple1)",
         // "variable-param-fg":             "var(purple1)",
-        "variable-fn-fg":                "var(blue5)",
-        "variable-other-constant-fg":    "var(yellow3)",
+        "variable-fn-fg":                "var(magenta2)",
+        "variable-other-constant-fg":    "var(blue-light4)",
 
         /** Constant */
         // "constant-fg":                "var(blue5)",
-        "constant-num-fg":            "var(gold2)",
+        "constant-num-fg":            "var(blue5)",
         // "constant-lang-fg":           "var(blue3)",
         // "constant-char-escape-fg":    "var(gold2)",
 
@@ -99,13 +99,13 @@
         /** Support */
         // "support-fg":          "var(green-light2)",
         "support-fn-fg":       "var(green-light2)",
-        "support-class-fg":    "var(red1)",
+        "support-class-fg":    "var(blue-light4)",
 
         /** Keyword */
-        "keyword-font-style":        "bold",
-        "keyword-fg":                "var(magenta3)",
+        "keyword-font-style":        "normal",
+        "keyword-fg":                "var(gold1)",
         // "keyword-ctrl-fg":           "var(magenta3)",
-        "keyword-operator-fg":       "var(magenta3)",
+        "keyword-operator-fg":       "var(blue5)",
         // "keyword-declaration-fg":    "var(green-light1)",
 
         /** String */
@@ -118,7 +118,7 @@
         /** Invalid */
         // "invalid-fg":               "var(red1)",
         "invalid-deprecated-fg":    "var(red2)",
-        "invalid-illegal-fg":       "var(red1)",
+        "invalid-illegal-fg":       "color(var(red1) a(0.3))",
 
         // End minimal recommended setup
 
@@ -139,15 +139,15 @@
         "markup-bold-underline-font-style":           "bold underline",
         "markup-italic-underline-font-style":         "italic underline",
         "markup-bold-italic-underline-font-style":    "bold italic underline",
-        "markup-link-fg":                             "",
+        "markup-link-fg":                             "var(blue5)",
         "markup-quote-font-style":                    "italic",
         "markup-quote-fg":                            "var(green-light2)",
         "markup-raw-bg":                              "var(brown4)",
         "markup-raw-inline-bg":                       "var(brown4)",
         "markup-table-bg":                            "var(brown4)",
         "markup-table-fg":                            "",
-        "constant-other-lang-name-md-font-style":     "italic",
-        "constant-other-lang-name-md-fg":             "var(purple3)",
+        "constant-other-lang-name-md-font-style":     "normal",
+        "constant-other-lang-name-md-fg":             "var(purple1)",
 
         /** Diff files */
         "meta-diff-header-bg":                        "color(var(yellow3) l(+ 11%))",
@@ -158,30 +158,30 @@
         "markup-deleted-fg":                          "var(gray3)",
 
         /** Javascript */
-        "variable-other-class-js-fg":                        "var(yellow3)",
-        "variable-entity-other-attribute-name-doc-js-fg":    "var(red1)",
-        "constant-lang-null-js-font-style":                  "bold",
-        "constant-lang-null-js-fg":                          "var(red1)",
-        "support-other-js-fg":                               "var(yellow3)",
-        "meta-string-quoted-js-fg":                          "var(blue2)",
+        "variable-other-class-js-fg":                        "var(blue-light4)",
+        "variable-entity-other-attribute-name-doc-js-fg":    "var(gray2)",
+        "constant-lang-null-js-font-style":                  "normal",
+        "constant-lang-null-js-fg":                          "var(blue5)",
+        "support-other-js-fg":                               "var(green-light2)",
+        "meta-string-quoted-js-fg":                          "color(var(yellow-light3) a(0.6))",
 
         /** Key Value - Json, Yaml, Javascript */
         "meta-mapping-key-fg":      "var(brown1)",
         "meta-mapping-value-fg":    "var(magenta3)",
 
         /** HTML */
-        "entity-other-attribute-name-html-fg":    "var(purple3)",
+        "entity-other-attribute-name-html-fg":    "var(magenta2)",
 
         /** CSS */
-        "constant-css-fg":                    "var(gray4)",
-        "support-entity-property-css-fg":     "var(red1)",
+        "constant-css-fg":                    "var(gray2)",
+        "support-entity-property-css-fg":     "var(green-light2)",
         "meta-at-rule-other-css-fg":          "var(blue2)",
 
         /** C# */
-        "storage-type-method-params-cs-fg":    "var(blue2)",
+        "storage-type-method-params-cs-fg":    "var(blue5)",
 
         /** Go */
-        "string-quoted-double-go-fg":    "var(blue3)",
+        "string-quoted-double-go-fg":    "color(var(yellow-light3) a(0.6))",
         "constant-lang-go-fg":           "var(red1)",
 
         /** Git */
@@ -194,28 +194,28 @@
         "storage-modifier-sql-fg":                    "var(green-light2)",
 
         /** Toml */
-        "entity-name-tag-toml-fg":      "var(purple2)",
-        "entity-name-table-toml-fg":    "var(blue2)",
+        "entity-name-tag-toml-fg":      "var(brown1)",
+        "entity-name-table-toml-fg":    "var(blue5)",
 
         /** Rails */
         "meta-model-rails-fg":    "var(blue2)",
 
         /** Ruby */
-        "constant-rb-fg":                               "var(blue3)",
-        "constant-lang-bool-rb-fg":                     "var(red1)",
-        "entity-name-class-ruby-fg":                    "var(black4)",
-        "variable-other-readwrite-instance-ruby-fg":    "var(purple3)",
+        "constant-rb-fg":                               "var(red1)",
+        "constant-lang-bool-rb-fg":                     "var(blue5)",
+        "entity-name-class-ruby-fg":                    "var(white2)",
+        "variable-other-readwrite-instance-ruby-fg":    "var(magenta2)",
 
         /** Rust Enhanced */
         "constant-lang-rust-fg":       "var(red1)",
-        "entity-name-fn-rust-fg":      "var(green1)",
-        "storage-type-rust-fg":        "var(blue1)",
-        "storage-modifier-rust-fg":    "var(blue1)",
-        "keyword-ctrl-rust-fg":        "var(cyan3)",
-        "keyword-operator-rust-fg":    "var(blue2)",
+        "entity-name-fn-rust-fg":      "var(yellow1)",
+        "storage-type-rust-fg":        "var(gold1)",
+        "storage-modifier-rust-fg":    "var(green-light2)",
+        "keyword-ctrl-rust-fg":        "var(gold1)",
+        "keyword-operator-rust-fg":    "var(blue5)",
         "support-macro-rust-fg":       "var(cyan1)",
-        "support-type-rust-fg":        "var(red1)",
-        "string-quoted-rust-fg":       "var(blue2)"
+        "support-type-rust-fg":        "var(gold1)",
+        "string-quoted-rust-fg":       "color(var(yellow-light3) a(0.6))"
 
     },
     "globals": {},
