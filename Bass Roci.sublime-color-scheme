@@ -332,7 +332,7 @@
         {
             "name": "Storage modifier sql",
             "scope": "storage.modifier.sql",
-            "foreground": "#A7D4B4"
+            "foreground": "#83B85E"
         },
         {
             "name": "Key toml",

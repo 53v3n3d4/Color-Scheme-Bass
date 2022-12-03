@@ -197,7 +197,7 @@
         "constant-lang-null-sql-fg":                  "var(red1)",
         "keyword-operator-logical-sql-font-style":    "normal",
         "keyword-operator-logical-sql-fg":            "var(red1)",
-        "storage-modifier-sql-fg":                    "var(green-light2)",
+        "storage-modifier-sql-fg":                    "var(green-light3)",
 
         /** Toml */
         "entity-name-tag-toml-fg":      "var(pink-light3)",
