@@ -150,7 +150,7 @@
         "constant-other-lang-name-md-fg":             "var(gold2)",
 
         /** Diff files */
-        "meta-diff-header-bg":                        "color(var(blue6) l(+ 11%))",
+        "meta-diff-header-bg":                        "color(var(blue-light4) a(0.6))",
         "meta-diff-header-fg":                        "var(white5)",
         "markup-inserted-bg":                         "color(var(green6) l(+ 11%))",
         "markup-inserted-fg":                         "var(white5)",

@@ -222,7 +222,7 @@
         },
         {
             "scope": "meta.diff, meta.diff.header",
-            "background": "color(#182337 l(+ 11%))",
+            "background": "color(#A4CDFF a(0.6))",
             "foreground": "#F3EFF2"
         },
         {

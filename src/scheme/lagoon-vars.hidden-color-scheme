@@ -150,12 +150,12 @@
         "constant-other-lang-name-md-fg":             "var(orange3)",
 
         /** Diff files */
-        "meta-diff-header-bg":                        "color(var(yellow1) a(0.7))",
-        "meta-diff-header-fg":                        "var(orange2)",
-        "markup-inserted-bg":                         "var(green-light7)",
+        "meta-diff-header-bg":                        "color(var(blue3) a(0.2))",
+        "meta-diff-header-fg":                        "var(blue3)",
+        "markup-inserted-bg":                         "color(var(green-light7) s(+ 55%))",
         "markup-inserted-fg":                         "var(green2)",
         "markup-deleted-bg":                          "var(red-light1)",
-        "markup-deleted-fg":                          "var(red2)",
+        "markup-deleted-fg":                          "color(var(red2) s(+ 55%))",
 
         /** Javascript */
         "variable-other-class-js-fg":                        "var(cyan2)",
