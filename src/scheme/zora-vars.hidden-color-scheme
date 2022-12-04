@@ -16,7 +16,7 @@
         "block-caret":                "",
         "line-highlight":             "var(blue-dark2)",
         /** Accents */
-        "misspelling":                "var(orange1)", // not working
+        "misspelling":                "var(green-light4)",
         "fold-marker":                "var(yellow1)", // when folded, the "..."
         "minimap-border":             "var(cyan2)",
         "accent":                     "var(cyan3)",

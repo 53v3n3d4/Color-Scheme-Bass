@@ -17,7 +17,7 @@
         "block_caret":                      "var(block-caret)",
         "line_highlight":                   "var(line-highlight)",
         /** Accents */
-        "misspelling":                      "var(misspelling)", // not working
+        "misspelling":                      "var(misspelling)", // when spell_check is enabled
         "fold_marker":                      "var(fold-marker)", // when folded, the "..."
         "minimap_border":                   "var(minimap-border)", // when draw_minimap_border is enabled
         "accent":                           "var(accent)",
