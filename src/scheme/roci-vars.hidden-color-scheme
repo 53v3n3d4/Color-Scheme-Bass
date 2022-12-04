@@ -15,15 +15,10 @@
         "caret":                      "var(blue2)", // mouse cursor
         "block-caret":                "",
         "line-highlight":             "var(purple5)",
-        /** Accents */        "meta-diff-header-bg":                        "var(blue6)",
-        "meta-diff-header-fg":                        "var(white2)",
-        "markup-inserted-bg":                         "var(green6)",
-        "markup-inserted-fg":                         "var(white2)",
-        "markup-deleted-bg":                          "var(red6)",
-        "markup-deleted-fg":                          "var(white2)",
+        /** Accents */
         "misspelling":                "var(orange1)", // not working
-        "fold-marker":                "var(yellow1)", // when folded, the "...
-        "minimap-border":             "var(yellow1)", // not working
+        "fold-marker":                "var(yellow1)", // when folded, the "..."
+        "minimap-border":             "var(pink-light3)",
         "accent":                     "var(red1)",
         /** Css */
         // Popup css: Example, bg color, link color, title color of definition/reference. Round corner, border, bg comes from Theme file.

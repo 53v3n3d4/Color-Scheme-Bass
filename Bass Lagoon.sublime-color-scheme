@@ -15,7 +15,7 @@
         "line_highlight": "#C4E7CE",
         "misspelling": "#FD8F3F",
         "fold_marker": "#FFE76D",
-        "minimap_border": "#FFE76D",
+        "minimap_border": "color(#2077FB a(0.4))",
         "accent": "#0282F2",
         "popup_css": "\n      html, body {\n        background-color: transparent;\n        color: #9B9B9B;\n      }\n      body {\n        padding: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
         "phantom_css": "\n      html, body {\n        background-color: #B4B4B4;\n        border-radius: 4px;\n      color: #161818;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",

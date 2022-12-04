@@ -17,8 +17,8 @@
         "line-highlight":             "var(blue-light1)",
         /** Accents */
         "misspelling":                "var(orange1)", // not working
-        "fold-marker":                "var(yellow1)", // when folded, the "...
-        "minimap-border":             "var(yellow1)", // not working
+        "fold-marker":                "var(yellow1)", // when folded, the "..."
+        "minimap-border":             "var(gray2)",
         "accent":                     "var(pink-light4)",
         /** Css */
         // Popup css: Example, bg color, link color, title color of definition/reference. Round corner, border, bg comes from Theme file.

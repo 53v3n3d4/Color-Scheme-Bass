@@ -18,8 +18,8 @@
         "line_highlight":                   "var(line-highlight)",
         /** Accents */
         "misspelling":                      "var(misspelling)", // not working
-        "fold_marker":                      "var(fold-marker)", // when folded, the "...
-        "minimap_border":                   "var(minimap-border)", // not working
+        "fold_marker":                      "var(fold-marker)", // when folded, the "..."
+        "minimap_border":                   "var(minimap-border)", // when draw_minimap_border is enabled
         "accent":                           "var(accent)",
         /** Css */
         // Popup css: Example, bg color, link color, title color of Popup definiton/reference. Round corner, border, bg comes from Theme file.
