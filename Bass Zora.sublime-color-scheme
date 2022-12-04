@@ -142,7 +142,7 @@
             "name": "Markup heading",
             "scope": "markup.heading, markup.heading entity.name",
             "font_style": "bold",
-            "foreground": "#38A2AF"
+            "foreground": "#DF88B7"
         },
         {
             "name": "Markup list",
@@ -196,7 +196,7 @@
             "name": "Markup blockquote",
             "scope": "markup.quote",
             "font_style": "italic",
-            "foreground": "#A7D4B4"
+            "foreground": "#38A2AF"
         },
         {
             "name": "Markup code block",

@@ -127,7 +127,7 @@
 
         /** Markdown */
         "markup-heading-font-style":                  "bold",
-        "markup-heading-fg":                          "var(cyan2)",
+        "markup-heading-fg":                          "var(pink-light4)",
         "markup-list-font-style":                     "bold",
         "markup-list-fg":                             "",
         "markup-bold-font-style":                     "bold",
@@ -141,7 +141,7 @@
         "markup-bold-italic-underline-font-style":    "bold italic underline",
         "markup-link-fg":                             "var(blue5)",
         "markup-quote-font-style":                    "italic",
-        "markup-quote-fg":                            "var(green-light2)",
+        "markup-quote-fg":                            "var(cyan2)",
         "markup-raw-bg":                              "var(blue-dark3)",
         "markup-table-bg":                            "var(blue-dark3)",
         "markup-table-fg":                            "",
