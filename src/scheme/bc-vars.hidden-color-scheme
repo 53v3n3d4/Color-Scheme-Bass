@@ -76,7 +76,7 @@
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
         "entity-attribute-name-fg":        "var(magenta2)",
-        "entity-other-pseudo-class-fg":    "var(purple2)",
+        "entity-other-pseudo-class-fg":    "var(pink-light4)",
 
         /** Variable */
         // "variable-fg":                   "var(green-light2)",
@@ -105,7 +105,7 @@
         "keyword-font-style":        "normal",
         "keyword-fg":                "var(magenta3)",
         // "keyword-ctrl-fg":           "var(magenta3)",
-        "keyword-operator-fg":       "var(magenta3)",
+        "keyword-operator-fg":       "var(pink-light4)",
         // "keyword-declaration-fg":    "var(green-light1)",
 
         /** String */
@@ -127,7 +127,7 @@
 
         /** Markdown */
         "markup-heading-font-style":                  "bold",
-        "markup-heading-fg":                          "var(purple2)",
+        "markup-heading-fg":                          "var(magenta3)",
         "markup-list-font-style":                     "bold",
         "markup-list-fg":                             "",
         "markup-bold-font-style":                     "bold",
@@ -213,7 +213,7 @@
         "storage-type-rust-fg":        "var(magenta2)",
         "storage-modifier-rust-fg":    "var(green-light2)",
         "keyword-ctrl-rust-fg":        "var(magenta2)",
-        "keyword-operator-rust-fg":    "var(magenta2)",
+        "keyword-operator-rust-fg":    "var(pink-light4)",
         "support-macro-rust-fg":       "var(cyan1)",
         "support-type-rust-fg":        "var(orange2)",
         "string-quoted-rust-fg":       "var(blue2)"
