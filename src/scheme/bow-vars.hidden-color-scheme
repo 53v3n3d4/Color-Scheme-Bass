@@ -46,10 +46,10 @@
         "selection-corner-style":     "round",
         "selection-corner-radius":    "2",
         /** Find */
-        "highlight":                  "color(var(gold2) a(0.7)",
-        "find-highlight":             "var(orange1)",
-        "find-highlight-fg":          "color(var(white2) s(+ 3%)",
-        "scroll-highlight":           "var(yellow-light3)",
+        "highlight":                  "var(red2)",
+        "find-highlight":             "var(green-light2)",
+        "find-highlight-fg":          "color(var(green3) a(0.7))",
+        "scroll-highlight":           "var(yellow2)",
         /** Rulers */
         "rulers":                     "var(brown1)",
         /** Guides */

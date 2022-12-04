@@ -47,9 +47,9 @@
         "selection-corner-radius":    "2",
         /** Find */
         "highlight":                  "var(yellow1)",
-        "find-highlight":             "var(orange1)",
-        "find-highlight-fg":          "color(var(white2) s(+ 3%)",
-        "scroll-highlight":           "var(yellow-light3)",
+        "find-highlight":             "var(green-light2)",
+        "find-highlight-fg":          "var(white1)",
+        "scroll-highlight":           "var(yellow1)",
         /** Rulers */
         "rulers":                     "var(blue3)",
         /** Guides */

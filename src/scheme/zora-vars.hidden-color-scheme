@@ -17,7 +17,7 @@
         "line-highlight":             "var(blue-dark2)",
         /** Accents */
         "misspelling":                "var(orange1)", // not working
-        "fold-marker":                "var(yellow1)", // when folded, the "...
+        "fold-marker":                "var(yellow1)", // when folded, the "..."
         "minimap-border":             "var(yellow1)", // not working
         "accent":                     "var(cyan3)",
         /** Css */
@@ -47,9 +47,9 @@
         "selection-corner-radius":    "2",
         /** Find */
         "highlight":                  "color(var(gold2) a(0.7)",
-        "find-highlight":             "var(orange1)",
-        "find-highlight-fg":          "color(var(white2) s(+ 3%)",
-        "scroll-highlight":           "var(yellow-light3)",
+        "find-highlight":             "var(blue-light3)",
+        "find-highlight-fg":          "var(cyan4)",
+        "scroll-highlight":           "var(magenta2)",
         /** Rulers */
         "rulers":                     "var(cyan2)",
         /** Guides */
