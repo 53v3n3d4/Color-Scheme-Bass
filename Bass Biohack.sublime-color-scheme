@@ -35,7 +35,7 @@
         "selection_corner_radius": "2",
         "highlight": "color(#FFC849 a(0.7))",
         "find_highlight": "#584740",
-        "find_highlight_foreground": "#B4B4B4",
+        "find_highlight_foreground": "#FFC849",
         "scroll_highlight": "#5DD8FF",
         "rulers": "#161818",
         "guide": "color(#9B9B9B a(0.5)",

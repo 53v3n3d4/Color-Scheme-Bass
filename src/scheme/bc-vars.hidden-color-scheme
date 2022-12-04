@@ -48,7 +48,7 @@
         /** Find */
         "highlight":                  "color(var(gold2) a(0.7)",
         "find-highlight":             "var(black3)",
-        "find-highlight-fg":          "var(gray3)",
+        "find-highlight-fg":          "var(gold2)",
         "scroll-highlight":           "var(blue5)",
         /** Rulers */
         "rulers":                     "var(black4)",
