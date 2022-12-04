@@ -72,7 +72,7 @@
 
         /** Entity */
         "entity-name-fg":                  "var(cyan4)",
-        "entity-inherited-class-fg":       "var(blue3)",
+        "entity-inherited-class-fg":       "var(pink-light3)",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
         "entity-attribute-name-fg":        "var(purple3)",
@@ -88,7 +88,7 @@
 
         /** Constant */
         // "constant-fg":                "var(green4)",
-        "constant-num-fg":            "var(blue4)",
+        "constant-num-fg":            "var(orange3)",
         // "constant-lang-fg":           "var(blue3)",
         // "constant-char-escape-fg":    "var(blue4)",
 
@@ -105,7 +105,7 @@
         "keyword-font-style":        "normal",
         "keyword-fg":                "var(blue2)",
         // "keyword-ctrl-fg":           "var(purple3)",
-        "keyword-operator-fg":       "var(red3)",
+        "keyword-operator-fg":       "var(magenta3)",
         // "keyword-declaration-fg":    "var(green3)",
 
         /** String */
@@ -174,8 +174,8 @@
 
         /** CSS */
         "constant-css-fg":                    "var(gray4)",
-        "support-entity-property-css-fg":     "var(orange2)",
-        "meta-at-rule-other-css-fg":          "var(blue2)",
+        "support-entity-property-css-fg":     "var(blue2)",
+        "meta-at-rule-other-css-fg":          "var(pink-light3)",
 
         /** C# */
         "storage-type-method-params-cs-fg":    "var(blue2)",
@@ -199,23 +199,23 @@
         "entity-name-table-toml-fg":    "var(blue2)",
 
         /** Rails */
-        "meta-model-rails-fg":    "var(blue2)",
+        "meta-model-rails-fg":    "var(pink-light3)",
 
         /** Ruby */
-        "constant-rb-fg":                               "var(blue3)",
+        "constant-rb-fg":                               "var(pink-light3)",
         "constant-lang-bool-rb-fg":                     "var(red2)",
         "entity-name-class-ruby-fg":                    "var(black4)",
         "variable-other-readwrite-instance-ruby-fg":    "var(purple3)",
 
         /** Rust Enhanced */
         "constant-lang-rust-fg":       "var(red2)",
-        "entity-name-fn-rust-fg":      "var(green1)",
+        "entity-name-fn-rust-fg":      "var(green-light4)",
         "storage-type-rust-fg":        "var(blue2)",
-        "storage-modifier-rust-fg":    "var(magenta3)",
+        "storage-modifier-rust-fg":    "var(pink-light3)",
         "keyword-ctrl-rust-fg":        "var(blue2)",
         "keyword-operator-rust-fg":    "var(blue2)",
-        "support-macro-rust-fg":       "var(blue1)",
-        "support-type-rust-fg":        "var(cyan2)",
+        "support-macro-rust-fg":       "color(var(purple1) a(0.77))",
+        "support-type-rust-fg":        "var(orange3)",
         "string-quoted-rust-fg":       "var(purple2)"
 
     },

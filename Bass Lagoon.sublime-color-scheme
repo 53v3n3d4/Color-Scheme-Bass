@@ -59,7 +59,7 @@
         {
             "name": "Entity other inherited class",
             "scope": "entity.other.inherited-class",
-            "foreground": "#0282F2"
+            "foreground": "#E87191"
         },
         {
             "name": "Entity other attribute name",
@@ -84,7 +84,7 @@
         {
             "name": "Constant numeric",
             "scope": "constant.numeric",
-            "foreground": "#1C02CF"
+            "foreground": "#C86733"
         },
         {
             "name": "Storage modifier",
@@ -110,7 +110,7 @@
         {
             "name": "Keyword operator",
             "scope": "keyword.operator",
-            "foreground": "#9B0509"
+            "foreground": "#EC4990"
         },
         {
             "name": "String",
@@ -286,12 +286,12 @@
         {
             "name": "Support property name and Entity other custom property",
             "scope": "support.type.property-name.css, entity.other.custom-property.css",
-            "foreground": "#E47C48"
+            "foreground": "#1E73BE"
         },
         {
             "name": "Ar ruler other css",
             "scope": "meta.at-rule.other.css",
-            "foreground": "#1E73BE"
+            "foreground": "#E87191"
         },
         {
             "name": "Storage type and Method parameters c#",
@@ -347,12 +347,12 @@
         {
             "name": "Model rails",
             "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby",
-            "foreground": "#1E73BE"
+            "foreground": "#E87191"
         },
         {
             "name": "Constant ruby",
             "scope": "source.ruby constant",
-            "foreground": "#0282F2"
+            "foreground": "#E87191"
         },
         {
             "name": "Constant boolean ruby",
@@ -377,7 +377,7 @@
         {
             "name": "Entity name function",
             "scope": "entity.name.function.rust",
-            "foreground": "#57C038"
+            "foreground": "#00997B"
         },
         {
             "name": "Storage type rust",
@@ -387,7 +387,7 @@
         {
             "name": "Storage modifier rust",
             "scope": "storage.modifier.rust",
-            "foreground": "#EC4990"
+            "foreground": "#E87191"
         },
         {
             "name": "Keyword control rust",
@@ -402,12 +402,12 @@
         {
             "name": "Support macro rust",
             "scope": "support.macro.rust",
-            "foreground": "#2077FB"
+            "foreground": "color(#8D52D1 a(0.77))"
         },
         {
             "name": "Support type rust",
             "scope": "support.type.rust",
-            "foreground": "#38A2AF"
+            "foreground": "#C86733"
         },
         {
             "name": "String quoted rust",
