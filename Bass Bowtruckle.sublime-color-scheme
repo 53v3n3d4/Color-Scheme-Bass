@@ -59,7 +59,7 @@
         {
             "name": "Entity other inherited class",
             "scope": "entity.other.inherited-class",
-            "foreground": "#1E73BE"
+            "foreground": "color(#1E73BE a(0.8))"
         },
         {
             "name": "Entity other attribute name",
@@ -74,7 +74,7 @@
         {
             "name": "Variable function",
             "scope": "variable.function",
-            "foreground": "#AA0D91"
+            "foreground": "#8D52D1"
         },
         {
             "name": "Variable other.constant",
@@ -84,7 +84,7 @@
         {
             "name": "Constant numeric",
             "scope": "constant.numeric",
-            "foreground": "#1C02CF"
+            "foreground": "#2077FB"
         },
         {
             "name": "Storage modifier",
@@ -94,7 +94,7 @@
         {
             "name": "Support function",
             "scope": "support.function",
-            "foreground": "#AA0D91"
+            "foreground": "#8D52D1"
         },
         {
             "name": "Support class",
@@ -105,12 +105,12 @@
             "name": "Keyword",
             "scope": "keyword",
             "font_style": "normal",
-            "foreground": "#C41A16"
+            "foreground": "#EC4990"
         },
         {
             "name": "Keyword operator",
             "scope": "keyword.operator",
-            "foreground": "#AA0D91"
+            "foreground": "#E47C48"
         },
         {
             "name": "String",
@@ -212,8 +212,8 @@
         {
             "name": "Constant other language name md",
             "scope": "constant.other.language-name.markdown",
-            "font_style": "italic",
-            "foreground": "#AA0D91"
+            "font_style": "normal",
+            "foreground": "#8D52D1"
         },
         {
             "name": "Punctuation line break md",
@@ -245,23 +245,23 @@
         {
             "name": "Support other js",
             "scope": "source.js - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value",
-            "foreground": "#8D52D1"
+            "foreground": "color(#119912 a(0.7))"
         },
         {
             "name": "JSDocs tags",
             "scope": "entity.other.attribute-name.documentation.js",
-            "foreground": "#BF8555"
+            "foreground": "#38A2AF"
         },
         {
             "name": "Null js",
             "scope": "constant.language.null.js",
             "font_style": "normal",
-            "foreground": "#E47C48"
+            "foreground": "#FC5B57"
         },
         {
             "name": "String quoted js",
             "scope": "meta.string.js string.quoted.other.js, meta.string.js string.quoted.single.js",
-            "foreground": "#1E73BE"
+            "foreground": "color(#1E73BE a(0.8))"
         },
         {
             "name": "Mapping key",
@@ -271,7 +271,7 @@
         {
             "name": "Mapping value",
             "scope": "meta.mapping.value, meta.mapping.value string",
-            "foreground": "#C41A16"
+            "foreground": "color(#1E73BE a(0.8))"
         },
         {
             "name": "Entity id",
@@ -286,7 +286,7 @@
         {
             "name": "Support property name and Entity other custom property",
             "scope": "support.type.property-name.css, entity.other.custom-property.css",
-            "foreground": "#38A2AF"
+            "foreground": "#EC4990"
         },
         {
             "name": "Ar ruler other css",
@@ -301,7 +301,7 @@
         {
             "name": "String quoted go",
             "scope": "string.quoted.double.go, string.quoted.backtick.go",
-            "foreground": "#1E73BE"
+            "foreground": "color(#1E73BE a(0.8))"
         },
         {
             "name": "Constant language go",
@@ -316,23 +316,23 @@
         {
             "name": "Git attributes value",
             "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
-            "foreground": "#C41A16"
+            "foreground": "#EC4990"
         },
         {
             "name": "Null sql",
             "scope": "constant.language.null.sql",
-            "foreground": "#E47C48"
+            "foreground": "#FC5B57"
         },
         {
             "name": "Keyword operator logical sql",
             "scope": "keyword.operator.logical.sql",
             "font_style": "normal",
-            "foreground": "#E47C48"
+            "foreground": "#FC5B57"
         },
         {
             "name": "Storage modifier sql",
             "scope": "storage.modifier.sql",
-            "foreground": "#AA0D91"
+            "foreground": "#38A2AF"
         },
         {
             "name": "Key toml",
@@ -347,12 +347,12 @@
         {
             "name": "Model rails",
             "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby",
-            "foreground": "#1E73BE"
+            "foreground": "color(#1E73BE a(0.8))"
         },
         {
             "name": "Constant ruby",
             "scope": "source.ruby constant",
-            "foreground": "#1E73BE"
+            "foreground": "color(#1E73BE a(0.8))"
         },
         {
             "name": "Constant boolean ruby",
@@ -372,7 +372,7 @@
         {
             "name": "Constant language rust",
             "scope": "constant.language.rust",
-            "foreground": "#E47C48"
+            "foreground": "#FC5B57"
         },
         {
             "name": "Entity name function",
@@ -382,22 +382,22 @@
         {
             "name": "Storage type rust",
             "scope": "storage.type.rust",
-            "foreground": "#C41A16"
+            "foreground": "#EC4990"
         },
         {
             "name": "Storage modifier rust",
             "scope": "storage.modifier.rust",
-            "foreground": "#8D52D1"
+            "foreground": "color(#119912 a(0.6))"
         },
         {
             "name": "Keyword control rust",
             "scope": "keyword.control.rust",
-            "foreground": "#C41A16"
+            "foreground": "#EC4990"
         },
         {
             "name": "Keyword operator rust",
             "scope": "keyword.operator.rust",
-            "foreground": "#C41A16"
+            "foreground": "#FD8F3F"
         },
         {
             "name": "Support macro rust",
@@ -412,7 +412,7 @@
         {
             "name": "String quoted rust",
             "scope": "source.rust string.quoted",
-            "foreground": "#1E73BE"
+            "foreground": "color(#1E73BE a(0.8))"
         }
     ]
 }

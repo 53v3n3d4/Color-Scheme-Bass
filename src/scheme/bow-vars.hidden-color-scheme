@@ -72,7 +72,7 @@
 
         /** Entity */
         "entity-name-fg":                  "var(cyan4)",
-        "entity-inherited-class-fg":       "var(blue2)",
+        "entity-inherited-class-fg":       "color(var(blue2) a(0.8))",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
         "entity-attribute-name-fg":        "var(purple3)",
@@ -83,12 +83,12 @@
         // "variable-lang-font-style":      "italic",
         // "variable-lang-fg":              "var(purple1)",
         // "variable-param-fg":             "var(purple1)",
-        "variable-fn-fg":                "var(purple3)",
+        "variable-fn-fg":                "var(purple1)",
         "variable-other-constant-fg":    "var(cyan4)",
 
         /** Constant */
         // "constant-fg":                "var(green4)",
-        "constant-num-fg":            "var(blue4)",
+        "constant-num-fg":            "var(blue1)",
         // "constant-lang-fg":           "var(blue3)",
         // "constant-char-escape-fg":    "var(blue4)",
 
@@ -98,14 +98,14 @@
 
         /** Support */
         // "support-fg":          "var(green3)",
-        "support-fn-fg":       "var(purple3)",
+        "support-fn-fg":       "var(purple1)",
         "support-class-fg":    "var(cyan4)",
 
         /** Keyword */
         "keyword-font-style":        "normal",
-        "keyword-fg":                "var(red2)",
+        "keyword-fg":                "var(magenta3)",
         // "keyword-ctrl-fg":           "var(purple3)",
-        "keyword-operator-fg":       "var(purple3)",
+        "keyword-operator-fg":       "var(orange2)",
         // "keyword-declaration-fg":    "var(green3)",
 
         /** String */
@@ -145,8 +145,8 @@
         "markup-raw-bg":                              "var(green-light6)",
         "markup-table-bg":                            "var(green-light6)",
         "markup-table-fg":                            "",
-        "constant-other-lang-name-md-font-style":     "italic",
-        "constant-other-lang-name-md-fg":             "var(purple3)",
+        "constant-other-lang-name-md-font-style":     "normal",
+        "constant-other-lang-name-md-fg":             "var(purple1)",
         "punctuation-line-break-md-bg":               "color(var(green-light6) a(0.5))",
 
         /** Diff files */
@@ -159,64 +159,64 @@
 
         /** Javascript */
         "variable-other-class-js-fg":                        "var(cyan4)",
-        "variable-entity-other-attribute-name-doc-js-fg":    "var(brown1)",
+        "variable-entity-other-attribute-name-doc-js-fg":    "var(cyan2)",
         "constant-lang-null-js-font-style":                  "normal",
-        "constant-lang-null-js-fg":                          "var(orange2)",
-        "support-other-js-fg":                               "var(purple1)",
-        "meta-string-quoted-js-fg":                          "var(blue2)",
+        "constant-lang-null-js-fg":                          "var(red1)",
+        "support-other-js-fg":                               "color(var(green2) a(0.7))",
+        "meta-string-quoted-js-fg":                          "color(var(blue2) a(0.8))",
 
         /** Key Value - Json, Yaml, Javascript */
         "meta-mapping-key-fg":      "var(cyan4)",
-        "meta-mapping-value-fg":    "var(red2)",
+        "meta-mapping-value-fg":    "color(var(blue2) a(0.8))",
 
         /** HTML */
         "entity-other-attribute-name-html-fg":    "var(purple3)",
 
         /** CSS */
         "constant-css-fg":                    "var(gray4)",
-        "support-entity-property-css-fg":     "var(cyan2)",
+        "support-entity-property-css-fg":     "var(magenta3)",
         "meta-at-rule-other-css-fg":          "var(blue2)",
 
         /** C# */
         "storage-type-method-params-cs-fg":    "var(blue2)",
 
         /** Go */
-        "string-quoted-go-fg":                   "var(blue2)",
+        "string-quoted-go-fg":                   "color(var(blue2) a(0.8))",
         "constant-lang-go-fg":                   "var(orange2)",
         "storage-support-type-builtin-go-fg":    "var(magenta3)",
 
         /** Git */
-        "meta-mapping-value-git-attributes-fg":    "var(red2)",
+        "meta-mapping-value-git-attributes-fg":    "var(magenta3)",
 
         /** Sql */
-        "constant-lang-null-sql-fg":                  "var(orange2)",
+        "constant-lang-null-sql-fg":                  "var(red1)",
         "keyword-operator-logical-sql-font-style":    "normal",
-        "keyword-operator-logical-sql-fg":            "var(orange2)",
-        "storage-modifier-sql-fg":                    "var(purple3)",
+        "keyword-operator-logical-sql-fg":            "var(red1)",
+        "storage-modifier-sql-fg":                    "var(cyan2)",
 
         /** Toml */
         "entity-name-tag-toml-fg":      "var(purple2)",
         "entity-name-table-toml-fg":    "var(blue2)",
 
+        /** Rails */
+        "meta-model-rails-fg":    "color(var(blue2) a(0.8))",
+
         /** Ruby */
-        "constant-rb-fg":                               "var(blue2)",
+        "constant-rb-fg":                               "color(var(blue2) a(0.8))",
         "constant-lang-bool-rb-fg":                     "var(orange1)",
         "entity-name-class-ruby-fg":                    "var(black4)",
         "variable-other-readwrite-instance-ruby-fg":    "var(purple3)",
 
-        /** Rails */
-        "meta-model-rails-fg":    "var(blue2)",
-
         /** Rust Enhanced */
-        "constant-lang-rust-fg":       "var(orange2)",
+        "constant-lang-rust-fg":       "var(red1)",
         "entity-name-fn-rust-fg":      "var(cyan4)",
-        "storage-type-rust-fg":        "var(red2)",
-        "storage-modifier-rust-fg":    "var(purple1)",
-        "keyword-ctrl-rust-fg":        "var(red2)",
-        "keyword-operator-rust-fg":    "var(red2)",
+        "storage-type-rust-fg":        "var(magenta3)",
+        "storage-modifier-rust-fg":    "color(var(green2) a(0.6))",
+        "keyword-ctrl-rust-fg":        "var(magenta3)",
+        "keyword-operator-rust-fg":    "var(orange1)",
         "support-macro-rust-fg":       "var(cyan4)",
         "support-type-rust-fg":        "var(orange2)",
-        "string-quoted-rust-fg":       "var(blue2)"
+        "string-quoted-rust-fg":       "color(var(blue2) a(0.8))"
 
     },
     "globals": {},
