@@ -30,6 +30,7 @@
         /** Gutter */
         "gutter":                     "var(bg-color)",
         "gutter-foreground":          "color(var(gray2) alpha(0.7))",
+        "gutter-foreground-hl":       "var(cyan4)",
         // "gutter_foreground": "{font-family: Helvetica";\n        font-size: 8px;\n      color: #808080;\n}",
         /** Diff */
         "line-diff-width":            "", // default 3

@@ -21,6 +21,7 @@
         "phantom_css": "\n      html, body {\n        background-color: #B4B4B4;\n        border-radius: 4px;\n      color: #161818;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
         "gutter": "#F3EFF2",
         "gutter_foreground": "color(#9B9B9B alpha(0.7))",
+        "gutter_foreground_highlight": "#9B2393",
         "line_diff_width": "",
         "line_diff_added": "#0282F2",
         "line_diff_modified": "#FFB500",

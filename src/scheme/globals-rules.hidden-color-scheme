@@ -29,6 +29,7 @@
         /** Gutter */
         "gutter":                           "var(gutter)",
         "gutter_foreground":                "var(gutter-foreground)",
+        "gutter_foreground_highlight":      "var(gutter-foreground-hl)",
         /** Diff */
         "line_diff_width":                  "var(line-diff-width)",
         "line_diff_added":                  "var(line-diff-added)",
