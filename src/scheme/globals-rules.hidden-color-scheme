@@ -63,6 +63,7 @@
         "bracket_contents_options":         "var(bracket-contents-opts)",
         "bracket_contents_foreground":      "var(bracket-contents-fg)",
         /** Tags */
+        // HTML and XML tags
         "tags_options":                     "var(tags-opts)",
         "tags_foreground":                  "var(tags-fg)",
         /** Shadows */

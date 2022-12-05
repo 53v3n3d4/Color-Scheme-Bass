@@ -29,7 +29,7 @@
         // "sheet_css": ,
         /** Gutter */
         "gutter":                     "var(bg-color)",
-        "gutter-foreground":          "color(var(brown2) alpha(0.4))",
+        "gutter-foreground":          "color(var(brown2) a(0.4))",
         "gutter-foreground-hl":       "var(brown2)",
         // "gutter_foreground": "{font-family: Helvetica";\n        font-size: 8px;\n      color: #808080;\n}",
         /** Diff */
@@ -59,14 +59,14 @@
         "stack-guide":                "color(var(gray3) a(0.5))",
         /** Brackets */
         "brackets-opts":              "underline",
-        "brackets-fg":                "var(green2)",
+        "brackets-fg":                "var(pink1)",
         "bracket-contents-opts":      "underline",
-        "bracket-contents-fg":        "var(green1)",
+        "bracket-contents-fg":        "var(magenta2)",
         /** Tags */
-        "tags-opts":                  "stippled_underline",
-        "tags-fg":                    "var(purple2)",
+        "tags-opts":                  "underline",
+        "tags-fg":                    "var(pink1)",
         /** Shadows */
-        "shadow":                     "color(var(black4) alpha(0.3))",
+        "shadow":                     "color(var(black4) a(0.3))",
         "shadow-width":               "3",
 
         /** Rules variables*/

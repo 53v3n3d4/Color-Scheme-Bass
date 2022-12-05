@@ -29,7 +29,7 @@
         // "sheet_css": ,
         /** Gutter */
         "gutter":                     "var(bg-color)",
-        "gutter-foreground":          "color(var(gray2) alpha(0.7))",
+        "gutter-foreground":          "color(var(gray2) a(0.7))",
         "gutter-foreground-hl":       "var(yellow1)",
         // "gutter_foreground": "{font-family: Helvetica";\n        font-size: 8px;\n      color: #808080;\n}",
         /** Diff */
@@ -63,10 +63,10 @@
         "bracket-contents-opts":      "stippled_underline",
         "bracket-contents-fg":        "var(blue5)",
         /** Tags */
-        "tags-opts":                  "stippled_underline",
-        "tags-fg":                    "var(purple2)",
+        "tags-opts":                  "underline",
+        "tags-fg":                    "var(yellow1)",
         /** Shadows */
-        "shadow":                     "color(var(black4) alpha(0.3))",
+        "shadow":                     "color(var(black4) a(0.3))",
         "shadow-width":               "3",
 
         /** Rules variables*/
