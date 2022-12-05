@@ -54,7 +54,7 @@
         /** Rulers */
         "rulers":                     "var(orange3)",
         /** Guides */
-        "guide":                      "color(var(orange3) a(0.5)",
+        "guide":                      "color(var(orange3) a(0.5))",
         "active-guide":               "var(red2)",
         "stack-guide":                "color(var(gray3) a(0.5))",
         /** Brackets */

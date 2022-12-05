@@ -49,14 +49,14 @@
         /** Find */
         "highlight":                  "var(blue5)",
         "find-highlight":             "var(pink-light4)",
-        "find-highlight-fg":          "color(var(white2) s(+ 3%)",
+        "find-highlight-fg":          "color(var(white2) s(+ 3%))",
         "scroll-highlight":           "var(pink-light3)",
         /** Rulers */
         "rulers":                     "var(yellow-light1)",
         /** Guides */
-        "guide":                      "color(var(gray3) a(0.5)",
+        "guide":                      "color(var(gray3) a(0.5))",
         "active-guide":               "var(blue5)",
-        "stack-guide":                "color(var(gray3) a(0.5)",
+        "stack-guide":                "color(var(gray3) a(0.5))",
         /** Brackets */
         "brackets-opts":              "underline",
         "brackets-fg":                "var(yellow1)",
@@ -114,7 +114,7 @@
 
         /** Comment */
         "comment-font-style":    "normal",
-        "comment-fg":            "color(var(pink-light4) a(0.6)",
+        "comment-fg":            "color(var(pink-light4) a(0.6))",
 
         /** Invalid */
         // "invalid-fg":               "var(red1)",

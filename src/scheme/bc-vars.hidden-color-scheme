@@ -16,7 +16,7 @@
         "block-caret":                "",
         "line-highlight":             "var(black3)",
         /** Accents */
-        "misspelling":                "var(orange1)", // not working
+        "misspelling":                "var(orange1)",
         "fold-marker":                "var(yellow1)", // when folded, the "..."
         "minimap-border":             "var(gray6)",
         "accent":                     "var(cyan2)",
@@ -47,16 +47,16 @@
         "selection-corner-style":     "round",
         "selection-corner-radius":    "2",
         /** Find */
-        "highlight":                  "color(var(gold2) a(0.7)",
+        "highlight":                  "color(var(gold2) a(0.7))",
         "find-highlight":             "var(black3)",
         "find-highlight-fg":          "var(gold2)",
         "scroll-highlight":           "var(blue5)",
         /** Rulers */
         "rulers":                     "var(black4)",
         /** Guides */
-        "guide":                      "color(var(gray3) a(0.5)",
+        "guide":                      "color(var(gray3) a(0.5))",
         "active-guide":               "var(blue-light4)",
-        "stack-guide":                "color(var(gray3) a(0.5)",
+        "stack-guide":                "color(var(gray3) a(0.5))",
         /** Brackets */
         "brackets-opts":              "underline",
         "brackets-fg":                "var(yellow1)",

@@ -14,7 +14,7 @@
         "invisibles":                 "var(gray3)",
         "caret":                      "var(gray6)", // mouse cursor
         "block-caret":                "",
-        "line-highlight":             "color(var(gray3) a(0.3)",
+        "line-highlight":             "color(var(gray3) a(0.3))",
         /** Accents */
         "misspelling":                "var(orange1)",
         "fold-marker":                "var(yellow1)", // when folded, the "..."
@@ -54,9 +54,9 @@
         /** Rulers */
         "rulers":                     "var(black4)",
         /** Guides */
-        "guide":                      "color(var(gray3) a(0.5)",
+        "guide":                      "color(var(gray3) a(0.5))",
         "active-guide":               "var(orange2)",
-        "stack-guide":                "color(var(gray3) a(0.5)",
+        "stack-guide":                "color(var(gray3) a(0.5))",
         /** Brackets */
         "brackets-opts":              "underline",
         "brackets-fg":                "var(pink-light3)",
@@ -119,7 +119,7 @@
         /** Invalid */
         // "invalid-fg":               "var(red1)",
         "invalid-deprecated-fg":    "var(red2)",
-        "invalid-illegal-fg":       "color(var(red1) a(0.1)",
+        "invalid-illegal-fg":       "color(var(red1) a(0.1))",
 
         // End minimal recommended setup
 
@@ -181,7 +181,7 @@
         /** Go */
         "string-quoted-go-fg":                   "var(purple2)",
         "constant-lang-go-fg":                   "var(red1)",
-        "storage-support-type-builtin-go-fg":    "color(var(magenta3) a(0.7)",
+        "storage-support-type-builtin-go-fg":    "color(var(magenta3) a(0.7))",
 
         /** Git */
         "meta-mapping-value-git-attributes-fg":    "var(purple3)",

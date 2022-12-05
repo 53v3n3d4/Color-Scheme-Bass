@@ -47,16 +47,16 @@
         "selection-corner-style":     "round",
         "selection-corner-radius":    "2",
         /** Find */
-        "highlight":                  "color(var(purple2) a(0.7)",
+        "highlight":                  "color(var(purple2) a(0.7))",
         "find-highlight":             "var(blue-light2)",
         "find-highlight-fg":          "var(blue2)",
         "scroll-highlight":           "var(magenta3)",
         /** Rulers */
         "rulers":                     "var(black4)",
         /** Guides */
-        "guide":                      "color(var(gray3) a(0.5)",
+        "guide":                      "color(var(gray3) a(0.5))",
         "active-guide":               "var(blue1)",
-        "stack-guide":                "color(var(gray3) a(0.5)",
+        "stack-guide":                "color(var(gray3) a(0.5))",
         /** Brackets */
         "brackets-opts":              "underline",
         "brackets-fg":                "var(blue1)",
@@ -119,7 +119,7 @@
         /** Invalid */
         // "invalid-fg":               "var(red1)",
         "invalid-deprecated-fg":    "var(red2)",
-        "invalid-illegal-fg":       "color(var(red1) a(0.7)",
+        "invalid-illegal-fg":       "color(var(red1) a(0.7))",
 
         // End minimal recommended setup
 
@@ -181,7 +181,7 @@
         /** Go */
         "string-quoted-go-fg":                   "var(blue2)",
         "constant-lang-go-fg":                   "var(blue4)",
-        "storage-support-type-builtin-go-fg":    "color(var(magenta3) a(0.7)",
+        "storage-support-type-builtin-go-fg":    "color(var(magenta3) a(0.7))",
 
         /** Git */
         "meta-mapping-value-git-attributes-fg":    "var(purple2)",

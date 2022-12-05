@@ -47,16 +47,16 @@
         "selection-corner-style":     "round",
         "selection-corner-radius":    "2",
         /** Find */
-        "highlight":                  "color(var(gold2) a(0.7)",
+        "highlight":                  "color(var(gold2) a(0.7))",
         "find-highlight":             "var(blue-light3)",
         "find-highlight-fg":          "var(cyan4)",
         "scroll-highlight":           "var(magenta2)",
         /** Rulers */
         "rulers":                     "var(cyan2)",
         /** Guides */
-        "guide":                      "color(var(gray3) a(0.4)",
+        "guide":                      "color(var(gray3) a(0.4))",
         "active-guide":               "color(var(blue-light4) a(0.7))",
-        "stack-guide":                "color(var(gray3) a(0.4)",
+        "stack-guide":                "color(var(gray3) a(0.4))",
         /** Brackets */
         "brackets-opts":              "underline",
         "brackets-fg":                "var(yellow2)",
@@ -181,7 +181,7 @@
         /** Go */
         "string-quoted-go-fg":                   "color(var(gold2) l(+ 6%))",
         "constant-lang-go-fg":                   "var(red1)",
-        "storage-support-type-builtin-go-fg":    "color(var(cyan2) a(0.7)",
+        "storage-support-type-builtin-go-fg":    "color(var(cyan2) a(0.7))",
 
         /** Git */
         "meta-mapping-value-git-attributes-fg":    "var(gold2)",

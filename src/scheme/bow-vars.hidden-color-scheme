@@ -114,7 +114,7 @@
 
         /** Comment */
         "comment-font-style":    "normal",
-        "comment-fg":            "color(var(gray4) a(0.8)",
+        "comment-fg":            "color(var(gray4) a(0.8))",
 
         /** Invalid */
         // "invalid-fg":               "var(red1)",
