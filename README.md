@@ -55,32 +55,11 @@ Dark theme tab style re dark color scheme tabset background true
 Light theme tab style do background false fuji color scheme accent grayscale
 Dark theme tab style re background false blackcomb color scheme accent grayscale
 
-# Issues Theme
-```
-Order code
-- tint, opacity, texture, draw center, innermargin
--- Tabs, Buttons, Dialogs, Vcs status, Labels, Tooltips section ok.
-
-- font face, font size, bold, italic, color, shadow color, shadow offset, opacity
--- Tooltips, Labels, Tooltips section ok.
-
-- fg, match fg, selected fg, selected match fg, bg, match bg, font face, font size
-
-- class, setting, atributte, parent
--- Buttons, Labels, Tooltips section ok
-
-Order complete
-- Title bar, Status bar, Dialogs, Scroll bars, Inputs, Panels, Quick panels, Sheet, Views, Auto complete
-```
-
 
 # Issues Color Scheme
 
 Before open
-- fix merge
-- 
 
-- punctuation not seeing changes. Delete
 
 JS
 - Class import, class assingment
@@ -91,33 +70,3 @@ C Objective C
 
 Go
 - Variable... isSet
-
-Sublime Merge
-- diff files not working
-https://forum.sublimetext.com/t/how-to-change-insert-change-delete-diff-colors/39540/2
-https://github.com/sublimehq/sublime_merge/issues/198
-
-Gitattributes
-- Bow color scheme -> meta-mapping-key-fg. Do another var for git
-
-scroll-highlight
-- too round, change to square
-
-json sublime-theme dark colors
-- Change the red color
-
-Markdown
-- Finish, started Treble Dark
-- Mariana, color symbols #, - . Treble dark has # colored
-- Round corner raw
-
-Selection 
-- Mariana border
-
-
-Globals
-- theme/color scheme badge when select theme/color, text_line_control maybe
-
-Git
-- https://www.sublimetext.com/docs/incremental_diff.html#settings
-
