@@ -123,9 +123,6 @@
 
         // End minimal recommended setup
 
-        /** Punctuation */
-        "punctuation-separator-cont-fg":    "var(magenta2)",
-
         /** Markdown */
         "markup-heading-font-style":                  "bold",
         "markup-heading-fg":                          "var(pink-light4)",

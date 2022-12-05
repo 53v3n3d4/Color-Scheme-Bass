@@ -310,17 +310,6 @@
 
         /**
          *
-         * PUNCTUATION
-         *
-         */
-        {
-            "name": "Line-continuation characters, such as in Python and R",
-            "scope": "punctuation.separator.continuation",
-            "foreground": "var(punctuation-separator-cont-fg)"
-        },
-
-        /**
-         *
          * MARKDOWN
          *
          */
@@ -409,7 +398,7 @@
 
         /**
          *
-         * DIFF FILES
+         * DIFF FILES / BUILD
          *
          */
         {

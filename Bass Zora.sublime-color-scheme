@@ -135,11 +135,6 @@
             "background": "color(#FD8F3F a(0.7))"
         },
         {
-            "name": "Line-continuation characters, such as in Python and R",
-            "scope": "punctuation.separator.continuation",
-            "foreground": "#FC6BAA"
-        },
-        {
             "name": "Markup heading",
             "scope": "markup.heading, markup.heading entity.name",
             "font_style": "bold",
