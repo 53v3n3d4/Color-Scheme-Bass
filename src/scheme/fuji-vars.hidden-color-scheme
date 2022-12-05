@@ -151,12 +151,12 @@
         "punctuation-line-break-md-bg":               "color(var(gray1) a(0.7))",
 
         /** Diff files */
-        "meta-diff-header-bg":                        "color(var(blue2) a(0.2))",
-        "meta-diff-header-fg":                        "",
+        "meta-diff-header-bg":                        "color(var(blue3) a(0.2))",
+        "meta-diff-header-fg":                        "var(blue3)",
         "markup-inserted-bg":                         "var(green-light7)", //"color(var(green-light1) a(0.7))",
-        "markup-inserted-fg":                         "",
+        "markup-inserted-fg":                         "var(green2)",
         "markup-deleted-bg":                          "var(red-light1)", //"color(var(red1) a(0.2))",
-        "markup-deleted-fg":                          "",
+        "markup-deleted-fg":                          "var(red1)",
 
         /** Javascript */
         "variable-other-class-js-fg":                        "var(brown1)",
