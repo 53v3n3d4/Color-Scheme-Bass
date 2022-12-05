@@ -398,13 +398,20 @@
 
         /**
          *
-         * DIFF FILES / BUILD
+         * DIFF
          *
          */
         {
+            "name": "Diff header",
             "scope": "meta.diff, meta.diff.header",
             "background": "var(meta-diff-header-bg)",
             "foreground": "var(meta-diff-header-fg)"
+        },
+        {
+            "name": "Markup changed",
+            "scope": "markup.changed",
+            "background": "var(markup-changed-bg)",
+            "foreground": "var(markup-changed-fg)"
         },
         {
             "name": "Markup added",
@@ -417,6 +424,32 @@
             "scope": "markup.deleted",
             "background": "var(markup-deleted-bg)",
             "foreground": "var(markup-deleted-fg)"
+        },
+
+        /**
+         *
+         * INLINE DIFFS
+         *
+         */
+        {
+            "scope": "diff.deleted",
+            "background": "var(diff-deleted-bg)",
+            "foreground": "var(diff-deleted-fg)"
+        },
+        {
+            "scope": "diff.deleted.char",
+            "background": "var(diff-deleted-char-bg)",
+            "foreground": "var(diff-deleted-char-fg)"
+        },
+        {
+            "scope": "diff.inserted",
+            "background": "var(diff-inserted-bg)",
+            "foreground": "var(diff-inserted-fg)"
+        },
+        {
+            "scope": "diff.inserted.char",
+            "background": "var(diff-inserted-char-bg)",
+            "foreground": "var(diff-inserted-char-fg)"
         },
 
         /**
