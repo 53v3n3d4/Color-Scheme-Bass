@@ -310,7 +310,7 @@
 
         /**
          *
-         * MARKDOWN
+         * MARKDOWN / MARKUP
          *
          */
         {
@@ -338,7 +338,7 @@
             "foreground": "var(markup-italic-fg)"
         },
         {
-            "name": "Markup underline",  // underline does not work, delete
+            "name": "Markup underline",
             "scope": "markup.underline",
             "font_style": "var(markup-underline-font-style)"
         },
@@ -348,17 +348,17 @@
             "font_style": "var(markup-bold-italic-font-style)"
         },
         {
-            "name": "Markup bold/underline",  // underline does not work, delete
+            "name": "Markup bold/underline",
             "scope": "markup.underline markup.bold | markup.bold markup.underline",
             "font_style": "var(markup-bold-underline-font-style)"
         },
         {
-            "name": "Markup italic/underline",  // underline does not work, delete
+            "name": "Markup italic/underline",
             "scope": "markup.underline markup.italic | markup.italic markup.underline",
             "font_style": "var(markup-italic-underline-font-style)"
         },
         {
-            "name": "Markup bold/italic/underline",  // underline does not work, delete
+            "name": "Markup bold/italic/underline",
             "scope": "markup.bold markup.italic markup.underline | markup.bold markup.underline markup.italic | markup.italic markup.bold markup.underline | markup.italic markup.underline markup.bold | markup.underline markup.bold markup.italic | markup.underline markup.italic markup.bold",
             "font_style": "var(markup-bold-italic-underline-font-style)"
         },

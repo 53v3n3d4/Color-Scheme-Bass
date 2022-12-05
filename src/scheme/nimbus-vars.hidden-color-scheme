@@ -123,7 +123,7 @@
 
         // End minimal recommended setup
 
-        /** Markdown */
+        /** Markdown / Markup */
         "markup-heading-font-style":                  "bold",
         "markup-heading-fg":                          "var(brown1)",
         "markup-list-font-style":                     "normal",
