@@ -608,7 +608,7 @@
          *
          */
         {
-            "name": "Constant ruby", // i.e. css #000
+            "name": "Constant ruby",
             "scope": "source.ruby constant",
             "foreground": "var(constant-rb-fg)"
         },
@@ -678,72 +678,6 @@
             "scope": "source.rust string.quoted",
             "foreground": "var(string-quoted-rust-fg)"
         }
-
-        /**
-         *
-         * BRACKET HIGHLIGHTER
-         *
-         */    
-        // {
-        //     "scope": "brackethighlighter.curly",
-        //     "style": "squiggly",
-        //     "foreground": "var(orange1)"
-        // },
-
-
-
-//        {
-//            "name": "Regular Expressions and Escape Characters",
-//            "scope": "string.regexp, constant.character, constant.other",
-//            "foreground": "var(orange1)"
-//        },//
-//
-
-//        {
-//            "name": "diff.header",
-//            "scope": "meta.diff, meta.diff.header",
-//            "foreground": "#c594c5"
-//        },
-//        {
-//            "name": "Ruby class methods",
-//            "scope": "source.ruby variable.other.readwrite",
-//            "foreground": "#f2ae49"
-//        },
-//        {
-//            "name": "CSS tag names",
-//            "scope": "source.css entity.name.tag, source.sass entity.name.tag, source.scss entity.name.tag, source.less entity.name.tag, source.stylus entity.name.tag",
-//            "foreground": "#399ee6"
-//        },
-//        {
-//            "name": "CSS browser prefix",
-//            "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type",
-//            "foreground": "#abb0b6"
-//        },
-//        {
-//            "name": "CSS Properties",
-//            "scope": "support.type.property-name",
-//            "font_style": "normal",
-//            "foreground": "#55b4d4"
-//        },
-//        {
-//            "name": "Search Results Nums",
-//            "scope": "constant.numeric.line-number.find-in-files - match",
-//            "foreground": "#abb0b6"
-//        },
-//        {
-//            "name": "Search Results Match Nums",
-//            "scope": "constant.numeric.line-number.match",
-//            "foreground": "#fa8d3e"
-//        },
-//        {
-//            "name": "Search Results Lines",
-//            "scope": "entity.name.filename.find-in-files",
-//            "foreground": "#86b300"
-//        },
-//        {
-//            "scope": "message.error",
-//            "foreground": "#f51818"
-//        },
 
     ]
 }
