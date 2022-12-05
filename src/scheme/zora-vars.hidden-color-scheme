@@ -147,13 +147,25 @@
         "constant-other-lang-name-md-fg":             "var(yellow1)",
         "punctuation-line-break-md-bg":               "color(var(blue-dark3) a(0.4))",
 
-        /** Diff files */
-        "meta-diff-header-bg":                        "color(var(blue6) l(+ 11%))",
-        "meta-diff-header-fg":                        "var(blue-light4)",
-        "markup-inserted-bg":                         "var(green-dark1)",
-        "markup-inserted-fg":                         "var(green-light3)",
-        "markup-deleted-bg":                          "var(red-dark1)",
-        "markup-deleted-fg":                          "var(red1)",
+        /** Diff */
+        "meta-diff-header-bg":    "hsla(211, 77%, 50%, 0.44)", //"color(var(blue7) a(0.44))",
+        "meta-diff-header-fg":    "var(blue5)",
+        "markup-changed-bg":      "hsla(55, 100%, 55%, 0.26)", //"color(var(yellow5) a(0.26))",
+        "markup-changed-fg":      "var(yellow3)",
+        "markup-inserted-bg":     "hsla(111, 77%, 55%, 0.29)", //"color(var(green7) a(0.29))", //"hsla(111, 33%, 32%, 0.55)", //"color(var(green-dark2) a(0.55))",
+        "markup-inserted-fg":     "color(var(green1) l(+ 7%))",
+        "markup-deleted-bg":      "hsla(338, 65%, 56%, 0.33)", //"color(var(pink2) a(0.33))",
+        "markup-deleted-fg":      "var(red1)",
+
+        /** Inline Diffs */
+        "diff-deleted-bg":          "hsla(338, 65%, 56%, 0.14)",
+        "diff-deleted-fg":          "color(var(red2) l(+ 14%))",
+        "diff-deleted-char-bg":     "hsla(338, 50%, 56%, 0.33)",
+        "diff-deleted-char-fg":     "var(red1)",
+        "diff-inserted-bg":         "hsla(111, 77%, 55%, 0.17)", //"hsla(80, 50%, 53%, 0.15)",
+        "diff-inserted-fg":         "color(var(green1) l(+ 14%))",
+        "diff-inserted-char-bg":    "hsla(111, 77%, 55%, 0.29)", //"hsla(80, 65%, 53%, 0.30)",
+        "diff-inserted-char-fg":    "color(var(green1) l(+ 7%))",
 
         /** Javascript */
         "variable-other-class-js-fg":                        "var(orange2)",

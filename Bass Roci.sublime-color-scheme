@@ -36,12 +36,12 @@
         "selection_corner_radius": "2",
         "highlight": "#5DD8FF",
         "find_highlight": "#DF88B7",
-        "find_highlight_foreground": "color(#F0F0F7 s(+ 3%)",
+        "find_highlight_foreground": "color(#F0F0F7 s(+ 3%))",
         "scroll_highlight": "#E87191",
         "rulers": "#F9EFDA",
-        "guide": "color(#9B9B9B a(0.5)",
+        "guide": "color(#9B9B9B a(0.5))",
         "active_guide": "#5DD8FF",
-        "stack_guide": "color(#9B9B9B a(0.5)",
+        "stack_guide": "color(#9B9B9B a(0.5))",
         "brackets_options": "underline",
         "brackets_foreground": "#FFE76D",
         "bracket_contents_options": "stippled_underline",
@@ -122,7 +122,7 @@
             "name": "Comment",
             "scope": "comment",
             "font_style": "normal",
-            "foreground": "color(#DF88B7 a(0.6)"
+            "foreground": "color(#DF88B7 a(0.6))"
         },
         {
             "name": "Invalid deprecated",
@@ -217,21 +217,48 @@
             "background": "color(#352336 a(0.5))"
         },
         {
+            "name": "Diff header",
             "scope": "meta.diff, meta.diff.header",
-            "background": "color(#182337 l(+ 11%))",
-            "foreground": "#A4CDFF"
+            "background": "hsla(211, 77%, 50%, 0.44)",
+            "foreground": "#5DD8FF"
+        },
+        {
+            "name": "Markup changed",
+            "scope": "markup.changed",
+            "background": "hsla(55, 100%, 55%, 0.26)",
+            "foreground": "#FFC849"
         },
         {
             "name": "Markup added",
             "scope": "markup.inserted",
-            "background": "#354A32",
-            "foreground": "#83B85E"
+            "background": "hsla(111, 77%, 55%, 0.29)",
+            "foreground": "color(#57C038 l(+ 7%))"
         },
         {
             "name": "Markup removed",
             "scope": "markup.deleted",
-            "background": "#4A3532",
+            "background": "hsla(338, 65%, 56%, 0.33)",
             "foreground": "#FC5B57"
+        },
+        {
+            "scope": "diff.deleted",
+            "background": "hsla(338, 65%, 56%, 0.14)",
+            "foreground": "color(#C41A16 l(+ 14%))"
+        },
+        {
+            "scope": "diff.deleted.char",
+            "background": "hsla(338, 50%, 56%, 0.33)",
+            "foreground": "#FC5B57"
+        },
+        {
+            "scope": "diff.inserted",
+            "background": "hsla(111, 77%, 55%, 0.17)",
+            "foreground": "color(#57C038 l(+ 14%))"
+        },
+        {
+            "scope": "diff.inserted.char",
+            "background": "hsla(111, 77%, 55%, 0.29)",
+            "foreground": "color(#57C038 l(+ 7%))"
         },
         {
             "name": "Variable other class js",

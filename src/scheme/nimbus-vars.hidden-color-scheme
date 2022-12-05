@@ -147,13 +147,25 @@
         "constant-other-lang-name-md-fg":             "var(purple3)",
         "punctuation-line-break-md-bg":               "color(var(gray2) a(0.14))",
 
-        /** Diff files */
-        "meta-diff-header-bg":                        "color(var(yellow1) a(0.7))",
-        "meta-diff-header-fg":                        "var(orange2)",
-        "markup-inserted-bg":                         "var(green-light7)",
-        "markup-inserted-fg":                         "var(green2)",
-        "markup-deleted-bg":                          "var(red-light1)",
-        "markup-deleted-fg":                          "var(red1)",
+        /** Diff */
+        "meta-diff-header-bg":    "hsla(211, 77%, 50%, 0.17)", //"color(var(blue7) a(0.17))",
+        "meta-diff-header-fg":    "var(blue2)",
+        "markup-changed-bg":      "hsla(55, 100%, 55%, 0.44)", //"color(var(yellow5) a(0.44))",
+        "markup-changed-fg":      "var(orange3)",
+        "markup-inserted-bg":     "hsla(111, 77%, 55%, 0.29)", //"color(var(green7) a(0.29))", //"hsla(111, 33%, 32%, 0.55)", //"color(var(green-dark2) a(0.55))",
+        "markup-inserted-fg":     "color(var(green2) a(0.9))",
+        "markup-deleted-bg":      "hsla(338, 65%, 56%, 0.22)", //"color(var(pink2) a(0.22))",
+        "markup-deleted-fg":      "color(var(red2) a(0.9))",
+
+        /** Inline Diffs */
+        "diff-deleted-bg":          "hsla(338, 65%, 56%, 0.14)",
+        "diff-deleted-fg":          "color(var(red2) a(0.6))",
+        "diff-deleted-char-bg":     "hsla(338, 50%, 56%, 0.22)",
+        "diff-deleted-char-fg":     "color(var(red2) a(0.9))",
+        "diff-inserted-bg":         "hsla(111, 77%, 55%, 0.17)", //"hsla(80, 50%, 53%, 0.15)",
+        "diff-inserted-fg":         "color(var(green2) a(0.8))",
+        "diff-inserted-char-bg":    "hsla(111, 77%, 55%, 0.29)", //"hsla(80, 65%, 53%, 0.30)",
+        "diff-inserted-char-fg":    "color(var(green2) a(0.9))",
 
         /** Javascript */
         "variable-other-class-js-fg":                        "var(orange3)",

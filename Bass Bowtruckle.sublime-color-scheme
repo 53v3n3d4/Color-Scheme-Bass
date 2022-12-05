@@ -122,7 +122,7 @@
             "name": "Comment",
             "scope": "comment",
             "font_style": "normal",
-            "foreground": "color(#5D6C79 a(0.8)"
+            "foreground": "color(#5D6C79 a(0.8))"
         },
         {
             "name": "Invalid deprecated",
@@ -217,21 +217,48 @@
             "background": "color(#B2D8C4 a(0.5))"
         },
         {
+            "name": "Diff header",
             "scope": "meta.diff, meta.diff.header",
-            "background": "color(#0282F2 a(0.2))",
-            "foreground": "#0282F2"
+            "background": "hsla(211, 77%, 50%, 0.17)",
+            "foreground": "#1E73BE"
+        },
+        {
+            "name": "Markup changed",
+            "scope": "markup.changed",
+            "background": "hsla(55, 100%, 55%, 0.44)",
+            "foreground": "#C86733"
         },
         {
             "name": "Markup added",
             "scope": "markup.inserted",
-            "background": "color(#D6EEDD s(+ 55%))",
-            "foreground": "#119912"
+            "background": "hsla(111, 77%, 55%, 0.29)",
+            "foreground": "color(#119912 a(0.9))"
         },
         {
             "name": "Markup removed",
             "scope": "markup.deleted",
-            "background": "#FFDEDD",
-            "foreground": "color(#C41A16 s(+ 55%))"
+            "background": "hsla(338, 65%, 56%, 0.22)",
+            "foreground": "color(#C41A16 a(0.9))"
+        },
+        {
+            "scope": "diff.deleted",
+            "background": "hsla(338, 65%, 56%, 0.14)",
+            "foreground": "color(#C41A16 a(0.6))"
+        },
+        {
+            "scope": "diff.deleted.char",
+            "background": "hsla(338, 50%, 56%, 0.22)",
+            "foreground": "color(#C41A16 a(0.9))"
+        },
+        {
+            "scope": "diff.inserted",
+            "background": "hsla(111, 77%, 55%, 0.17)",
+            "foreground": "color(#119912 a(0.8))"
+        },
+        {
+            "scope": "diff.inserted.char",
+            "background": "hsla(111, 77%, 55%, 0.29)",
+            "foreground": "color(#119912 a(0.9))"
         },
         {
             "name": "Variable other class js",

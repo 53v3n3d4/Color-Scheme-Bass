@@ -12,7 +12,7 @@
         "invisibles": "#9B9B9B",
         "caret": "#525055",
         "block_caret": "",
-        "line_highlight": "color(#9B9B9B a(0.3)",
+        "line_highlight": "color(#9B9B9B a(0.3))",
         "misspelling": "#FD8F3F",
         "fold_marker": "#FFE76D",
         "minimap_border": "color(#E47C48 a(0.5))",
@@ -39,9 +39,9 @@
         "find_highlight_foreground": "#AA0D91",
         "scroll_highlight": "#38A2AF",
         "rulers": "#404040",
-        "guide": "color(#9B9B9B a(0.5)",
+        "guide": "color(#9B9B9B a(0.5))",
         "active_guide": "#E47C48",
-        "stack_guide": "color(#9B9B9B a(0.5)",
+        "stack_guide": "color(#9B9B9B a(0.5))",
         "brackets_options": "underline",
         "brackets_foreground": "#E87191",
         "bracket_contents_options": "underline",
@@ -132,7 +132,7 @@
         {
             "name": "Invalid illegal",
             "scope": "invalid.illegal",
-            "background": "color(#FC5B57 a(0.1)"
+            "background": "color(#FC5B57 a(0.1))"
         },
         {
             "name": "Markup heading",
@@ -217,21 +217,48 @@
             "background": "color(#B4B4B4 a(0.14))"
         },
         {
+            "name": "Diff header",
             "scope": "meta.diff, meta.diff.header",
-            "background": "color(#FFE76D a(0.7))",
-            "foreground": "#E47C48"
+            "background": "hsla(211, 77%, 50%, 0.17)",
+            "foreground": "#1E73BE"
+        },
+        {
+            "name": "Markup changed",
+            "scope": "markup.changed",
+            "background": "hsla(55, 100%, 55%, 0.44)",
+            "foreground": "#C86733"
         },
         {
             "name": "Markup added",
             "scope": "markup.inserted",
-            "background": "#D6EEDD",
-            "foreground": "#119912"
+            "background": "hsla(111, 77%, 55%, 0.29)",
+            "foreground": "color(#119912 a(0.9))"
         },
         {
             "name": "Markup removed",
             "scope": "markup.deleted",
-            "background": "#FFDEDD",
-            "foreground": "#FC5B57"
+            "background": "hsla(338, 65%, 56%, 0.22)",
+            "foreground": "color(#C41A16 a(0.9))"
+        },
+        {
+            "scope": "diff.deleted",
+            "background": "hsla(338, 65%, 56%, 0.14)",
+            "foreground": "color(#C41A16 a(0.6))"
+        },
+        {
+            "scope": "diff.deleted.char",
+            "background": "hsla(338, 50%, 56%, 0.22)",
+            "foreground": "color(#C41A16 a(0.9))"
+        },
+        {
+            "scope": "diff.inserted",
+            "background": "hsla(111, 77%, 55%, 0.17)",
+            "foreground": "color(#119912 a(0.8))"
+        },
+        {
+            "scope": "diff.inserted.char",
+            "background": "hsla(111, 77%, 55%, 0.29)",
+            "foreground": "color(#119912 a(0.9))"
         },
         {
             "name": "Variable other class js",
@@ -307,7 +334,7 @@
         {
             "name": "Storage Support type builtin go",
             "scope": "storage.type.go support.type.builtin.go",
-            "foreground": "color(#EC4990 a(0.7)"
+            "foreground": "color(#EC4990 a(0.7))"
         },
         {
             "name": "Git attributes value",

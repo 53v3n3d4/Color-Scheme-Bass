@@ -39,9 +39,9 @@
         "find_highlight_foreground": "#FFFFFF",
         "scroll_highlight": "#FFE76D",
         "rulers": "#0282F2",
-        "guide": "color(#2077FB a(0.5)",
+        "guide": "color(#2077FB a(0.5))",
         "active_guide": "#1C02CF",
-        "stack_guide": "color(#2077FB a(0.5)",
+        "stack_guide": "color(#2077FB a(0.5))",
         "brackets_options": "underline",
         "brackets_foreground": "#FFF618",
         "bracket_contents_options": "underline",
@@ -217,21 +217,48 @@
             "background": "color(#A4CDFF a(0.7))"
         },
         {
+            "name": "Diff header",
             "scope": "meta.diff, meta.diff.header",
-            "background": "color(#0282F2 a(0.2))",
-            "foreground": "#0282F2"
+            "background": "hsla(211, 77%, 50%, 0.17)",
+            "foreground": "#1E73BE"
+        },
+        {
+            "name": "Markup changed",
+            "scope": "markup.changed",
+            "background": "hsla(55, 100%, 55%, 0.44)",
+            "foreground": "#C86733"
         },
         {
             "name": "Markup added",
             "scope": "markup.inserted",
-            "background": "color(#D6EEDD s(+ 55%))",
-            "foreground": "#119912"
+            "background": "hsla(111, 77%, 55%, 0.29)",
+            "foreground": "color(#119912 a(0.9))"
         },
         {
             "name": "Markup removed",
             "scope": "markup.deleted",
-            "background": "#FFDEDD",
-            "foreground": "color(#C41A16 s(+ 55%))"
+            "background": "hsla(338, 65%, 56%, 0.22)",
+            "foreground": "color(#C41A16 a(0.9))"
+        },
+        {
+            "scope": "diff.deleted",
+            "background": "hsla(338, 65%, 56%, 0.14)",
+            "foreground": "color(#C41A16 a(0.6))"
+        },
+        {
+            "scope": "diff.deleted.char",
+            "background": "hsla(338, 50%, 56%, 0.22)",
+            "foreground": "color(#C41A16 a(0.9))"
+        },
+        {
+            "scope": "diff.inserted",
+            "background": "hsla(111, 77%, 55%, 0.17)",
+            "foreground": "color(#119912 a(0.8))"
+        },
+        {
+            "scope": "diff.inserted.char",
+            "background": "hsla(111, 77%, 55%, 0.29)",
+            "foreground": "color(#119912 a(0.9))"
         },
         {
             "name": "Variable other class js",
