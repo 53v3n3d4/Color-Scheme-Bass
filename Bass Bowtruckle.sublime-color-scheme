@@ -304,7 +304,7 @@
         {
             "name": "At rule other css",
             "scope": "meta.at-rule.other.css",
-            "foreground": "#1E73BE"
+            "foreground": "#007F7C"
         },
         {
             "name": "Constant css",

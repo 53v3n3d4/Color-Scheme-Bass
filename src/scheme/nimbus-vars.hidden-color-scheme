@@ -183,7 +183,7 @@
         "entity-other-attribute-name-html-fg":    "var(purple3)",
 
         /** CSS */
-        "meta-at-rule-other-css-fg":          "var(blue2)",
+        "meta-at-rule-other-css-fg":          "var(cyan2)",
         "constant-css-fg":                    "var(gray4)",
         "support-entity-property-css-fg":     "var(brown1)",
 
