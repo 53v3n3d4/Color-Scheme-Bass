@@ -322,11 +322,6 @@
             "foreground": "#1E73BE"
         },
         {
-            "name": "String quoted go",
-            "scope": "string.quoted.double.go, string.quoted.backtick.go",
-            "foreground": "color(#1E73BE a(0.8))"
-        },
-        {
             "name": "Constant language go",
             "scope": "constant.language.go",
             "foreground": "#E47C48"
@@ -335,6 +330,11 @@
             "name": "Storage Support type builtin go",
             "scope": "storage.type.go support.type.builtin.go",
             "foreground": "#EC4990"
+        },
+        {
+            "name": "String quoted go",
+            "scope": "string.quoted.double.go, string.quoted.backtick.go",
+            "foreground": "color(#1E73BE a(0.8))"
         },
         {
             "name": "Git attributes value",
@@ -358,14 +358,14 @@
             "foreground": "#38A2AF"
         },
         {
-            "name": "Key toml",
-            "scope": "entity.name.tag.toml",
-            "foreground": "#9B2393"
-        },
-        {
             "name": "Table toml",
             "scope": "entity.name.table.toml",
             "foreground": "#1E73BE"
+        },
+        {
+            "name": "Key toml",
+            "scope": "entity.name.tag.toml",
+            "foreground": "#9B2393"
         },
         {
             "name": "Model rails",

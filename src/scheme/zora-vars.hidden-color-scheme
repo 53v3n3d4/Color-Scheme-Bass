@@ -191,9 +191,9 @@
         "storage-type-method-params-cs-fg":    "var(magenta2)",
 
         /** Go */
-        "string-quoted-go-fg":                   "color(var(gold2) l(+ 6%))",
         "constant-lang-go-fg":                   "var(red1)",
         "storage-support-type-builtin-go-fg":    "color(var(cyan2) a(0.7))",
+        "string-quoted-go-fg":                   "color(var(gold2) l(+ 6%))",
 
         /** Git */
         "meta-mapping-value-git-attributes-fg":    "var(gold2)",
@@ -205,8 +205,8 @@
         "storage-modifier-sql-fg":                    "color(var(gold1) a(0.7))",
 
         /** Toml */
-        "entity-name-tag-toml-fg":      "var(cyan2)",
         "entity-name-table-toml-fg":    "var(gold2)",
+        "entity-name-tag-toml-fg":      "var(cyan2)",
 
         /** Rails */
         "meta-model-rails-fg":    "var(magenta2)",
