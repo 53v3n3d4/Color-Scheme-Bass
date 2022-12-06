@@ -1,25 +1,51 @@
 <p align="center">
     <a href="" title="Sublime Version">
-        <img src="https://img.shields.io/badge/Build_for_Sublime_text-4142-orange?style=flat&logo=sublime-text"/>
+        <img src="https://img.shields.io/badge/Build_for_Sublime_text-4143-orange?style=flat&logo=sublime-text"/>
     </a>
 </p>
 
 ## Color scheme Bass
 
+![Color Scheme Bass](https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshots.gif)
+
 Color-schemes available are
-- Bass Biohack
-- Bass Blackcomb
-- Bass Bowtruckle
-- Bass D-O
-- Bass Fuji
-- Bass Lagoon
-- Bass Nimbus
-- Bass Roci
-- Bass Zora
 
-Pic Bass Dark Digital & Blue | Pic Bass Light Analog & Bass Dark | Pic Treble Adaptive & Treble Light
-
-Pic Bass Daark Mix & Green | Pic Bass Light Digital & Sepia | Pic Treble Adaptive & Treble Dark
+<details>
+  <summary>Bass Biohack</summary><details>
+  <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-biohack.png" name="Biohack">
+</details>
+<details>
+  <summary>Bass Blackcomb</summary><details>
+  <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-blackcomb.png" name="Blackcomb">
+</details>
+<details>
+  <summary>Bass Bowtruckle</summary><details>
+  <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-bowtruckle.png" name="Bowtruckle">
+</details>
+<details>
+  <summary>Bass D-O</summary><details>
+  <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-d-o.png" name="D-O">
+</details>
+<details>
+  <summary>Bass Fuji</summary><details>
+  <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-fuji.png" name="Fuji">
+</details>
+<details>
+  <summary>Bass Lagoon</summary><details>
+  <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-lagoon.png" name="Lagoon">
+</details>
+<details>
+  <summary>Bass Nimbus</summary><details>
+  <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-nimbus.png" name="Nimbus">
+</details>
+<details>
+  <summary>Bass Roci</summary><details>
+  <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-roci.png" name="Roci">
+</details>
+<details>
+  <summary>Bass Zora</summary><details>
+  <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-zora.png" name="Zora">
+</details>
 
 > In screenshots, we are using Theme Treble and file-type-icons  
 [Theme - Treble](https://github.com/53v3n3d4/Theme-Treble)  
@@ -43,30 +69,3 @@ To uninstall manually, go to your Sublime Text folder.
 ## License
 
 MIT license ([LICENSE-MIT](LICENSE))
-
-
-
-
-## Pics
-
-Adaptive theme green color scheme and accent orange
-Light theme tab style do digital fuji color scheme and accent grayscale 
-Dark theme tab style re dark color scheme tabset background true
-Light theme tab style do background false fuji color scheme accent grayscale
-Dark theme tab style re background false blackcomb color scheme accent grayscale
-
-
-# Issues Color Scheme
-
-Before open
-
-
-JS
-- Class import, class assingment
-- {Object}
-
-C Objective C
-- Comments
-
-Go
-- Variable... isSet
