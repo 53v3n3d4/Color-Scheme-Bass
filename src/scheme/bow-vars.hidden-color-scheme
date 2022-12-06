@@ -52,7 +52,7 @@
         "find-highlight-fg":          "color(var(red2) a(0.7))",
         "scroll-highlight":           "var(yellow2)",
         /** Rulers */
-        "rulers":                     "var(brown1)",
+        "rulers":                     "var(brown1)", // This is also setting placeholder
         /** Guides */
         "guide":                      "color(var(gray3) a(0.5)",
         "active-guide":               "color(var(green3) a(0.7))",
@@ -152,7 +152,7 @@
         "meta-diff-header-fg":    "var(blue2)",
         "markup-changed-bg":      "hsla(55, 100%, 55%, 0.44)", //"color(var(yellow5) a(0.44))",
         "markup-changed-fg":      "var(orange3)",
-        "markup-inserted-bg":     "hsla(111, 77%, 55%, 0.29)", //"color(var(green7) a(0.29))", //"hsla(111, 33%, 32%, 0.55)", //"color(var(green-dark2) a(0.55))",
+        "markup-inserted-bg":     "hsla(111, 77%, 55%, 0.29)", //"color(var(green7) a(0.29))",
         "markup-inserted-fg":     "color(var(green2) a(0.9))",
         "markup-deleted-bg":      "hsla(338, 65%, 56%, 0.22)", //"color(var(pink2) a(0.22))",
         "markup-deleted-fg":      "color(var(red2) a(0.9))",
@@ -162,9 +162,9 @@
         "diff-deleted-fg":          "color(var(red2) a(0.6))",
         "diff-deleted-char-bg":     "hsla(338, 50%, 56%, 0.22)",
         "diff-deleted-char-fg":     "color(var(red2) a(0.9))",
-        "diff-inserted-bg":         "hsla(111, 77%, 55%, 0.17)", //"hsla(80, 50%, 53%, 0.15)",
+        "diff-inserted-bg":         "hsla(111, 77%, 55%, 0.17)",
         "diff-inserted-fg":         "color(var(green2) a(0.8))",
-        "diff-inserted-char-bg":    "hsla(111, 77%, 55%, 0.29)", //"hsla(80, 65%, 53%, 0.30)",
+        "diff-inserted-char-bg":    "hsla(111, 77%, 55%, 0.29)",
         "diff-inserted-char-fg":    "color(var(green2) a(0.9))",
 
         /** Javascript */

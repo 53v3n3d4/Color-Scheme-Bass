@@ -219,45 +219,45 @@
         {
             "name": "Diff header",
             "scope": "meta.diff, meta.diff.header",
-            "background": "hsla(211, 77%, 50%, 0.44)",
+            "background": "hsla(234, 77%, 33%, 0.22)",
             "foreground": "#5DD8FF"
         },
         {
             "name": "Markup changed",
             "scope": "markup.changed",
-            "background": "hsla(55, 100%, 55%, 0.26)",
+            "background": "hsla(55, 100%, 22%, 0.22)",
             "foreground": "#FFC849"
         },
         {
             "name": "Markup added",
             "scope": "markup.inserted",
-            "background": "hsla(111, 77%, 55%, 0.29)",
-            "foreground": "color(#57C038 l(+ 7%))"
+            "background": "hsla(133, 89%, 22%, 0.22)",
+            "foreground": "color(#57C038 l(+ 14%))"
         },
         {
             "name": "Markup removed",
             "scope": "markup.deleted",
-            "background": "hsla(338, 65%, 56%, 0.33)",
-            "foreground": "#FC5B57"
+            "background": "hsla(345, 87%, 22%, 0.22)",
+            "foreground": "color(#C41A16 l(+ 14%))"
         },
         {
             "scope": "diff.deleted",
-            "background": "hsla(338, 65%, 56%, 0.14)",
+            "background": "hsla(345, 87%, 22%, 0.22)",
             "foreground": "color(#C41A16 l(+ 14%))"
         },
         {
             "scope": "diff.deleted.char",
-            "background": "hsla(338, 50%, 56%, 0.33)",
+            "background": "hsla(345, 87%, 44%, 0.22)",
             "foreground": "#FC5B57"
         },
         {
             "scope": "diff.inserted",
-            "background": "hsla(111, 77%, 55%, 0.17)",
+            "background": "hsla(133, 89%, 22%, 0.22)",
             "foreground": "color(#57C038 l(+ 14%))"
         },
         {
             "scope": "diff.inserted.char",
-            "background": "hsla(111, 77%, 55%, 0.29)",
+            "background": "hsla(133, 89%, 44%, 0.22)",
             "foreground": "color(#57C038 l(+ 7%))"
         },
         {

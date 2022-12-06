@@ -9,7 +9,7 @@
 
         /** Globals variables */
 
-        "bg-color":                   "var(blue-dark1)", // 251f3a 305368 213a48 192c37
+        "bg-color":                   "var(blue-dark1)",
         "fg-color":                   "var(gray2)", // Popup definiton/reference text
         "invisibles":                 "var(gray4)",
         "caret":                      "var(cyan3)", // mouse cursor
@@ -148,23 +148,23 @@
         "punctuation-line-break-md-bg":               "color(var(blue-dark3) a(0.4))",
 
         /** Diff */
-        "meta-diff-header-bg":    "hsla(211, 77%, 50%, 0.44)", //"color(var(blue7) a(0.44))",
+        "meta-diff-header-bg":    "hsla(234, 77%, 33%, 0.22)", //"color(var(blue8) a(0.22))",
         "meta-diff-header-fg":    "var(blue5)",
-        "markup-changed-bg":      "hsla(55, 100%, 55%, 0.26)", //"color(var(yellow5) a(0.26))",
+        "markup-changed-bg":      "hsla(55, 100%, 22%, 0.22)", //"color(var(yellow-dark1) a(0.22))",
         "markup-changed-fg":      "var(yellow3)",
-        "markup-inserted-bg":     "hsla(111, 77%, 55%, 0.29)", //"color(var(green7) a(0.29))", //"hsla(111, 33%, 32%, 0.55)", //"color(var(green-dark2) a(0.55))",
-        "markup-inserted-fg":     "color(var(green1) l(+ 7%))",
-        "markup-deleted-bg":      "hsla(338, 65%, 56%, 0.33)", //"color(var(pink2) a(0.33))",
-        "markup-deleted-fg":      "var(red1)",
+        "markup-inserted-bg":     "hsla(133, 89%, 22%, 0.22)", //"color(var(green8) a(0.22))",
+        "markup-inserted-fg":     "color(var(green1) l(+ 14%))",
+        "markup-deleted-bg":      "hsla(345, 87%, 22%, 0.22)", //"color(var(red-dark2) a(0.22))",
+        "markup-deleted-fg":      "color(var(red2) l(+ 14%))",
 
         /** Inline Diffs */
-        "diff-deleted-bg":          "hsla(338, 65%, 56%, 0.14)",
+        "diff-deleted-bg":          "hsla(345, 87%, 22%, 0.22)",
         "diff-deleted-fg":          "color(var(red2) l(+ 14%))",
-        "diff-deleted-char-bg":     "hsla(338, 50%, 56%, 0.33)",
+        "diff-deleted-char-bg":     "hsla(345, 87%, 44%, 0.22)",
         "diff-deleted-char-fg":     "var(red1)",
-        "diff-inserted-bg":         "hsla(111, 77%, 55%, 0.17)", //"hsla(80, 50%, 53%, 0.15)",
+        "diff-inserted-bg":         "hsla(133, 89%, 22%, 0.22)",
         "diff-inserted-fg":         "color(var(green1) l(+ 14%))",
-        "diff-inserted-char-bg":    "hsla(111, 77%, 55%, 0.29)", //"hsla(80, 65%, 53%, 0.30)",
+        "diff-inserted-char-bg":    "hsla(133, 89%, 44%, 0.22)",
         "diff-inserted-char-fg":    "color(var(green1) l(+ 7%))",
 
         /** Javascript */
