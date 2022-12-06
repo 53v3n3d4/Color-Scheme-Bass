@@ -168,12 +168,12 @@
         "diff-inserted-char-fg":    "color(var(green2) a(0.9))",
 
         /** Javascript */
-        "variable-other-class-js-fg":                        "var(cyan2)",
-        "variable-entity-other-attribute-name-doc-js-fg":    "var(orange3)",
         "constant-lang-null-js-font-style":                  "normal",
         "constant-lang-null-js-fg":                          "var(red2)",
-        "support-other-js-fg":                               "var(green-light4)",
+        "entity-other-attribute-name-doc-js-fg":             "var(orange3)",
         "meta-string-quoted-js-fg":                          "var(purple2)",
+        "support-other-js-fg":                               "var(green-light4)",
+        "variable-other-class-js-fg":                        "var(cyan2)",
 
         /** Key Value - Json, Yaml, Javascript */
         "meta-mapping-key-fg":      "var(blue2)",
@@ -183,9 +183,9 @@
         "entity-other-attribute-name-html-fg":    "var(purple3)",
 
         /** CSS */
+        "meta-at-rule-other-css-fg":          "var(pink-light3)",
         "constant-css-fg":                    "var(gray4)",
         "support-entity-property-css-fg":     "var(blue2)",
-        "meta-at-rule-other-css-fg":          "var(pink-light3)",
 
         /** C# */
         "storage-type-method-params-cs-fg":    "var(blue2)",

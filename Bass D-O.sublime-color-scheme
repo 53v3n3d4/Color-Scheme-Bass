@@ -261,14 +261,10 @@
             "foreground": "color(#119912 a(0.9))"
         },
         {
-            "name": "Variable other class js",
-            "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
-            "foreground": "#9B0509"
-        },
-        {
-            "name": "Support other js",
-            "scope": "source.js - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value",
-            "foreground": "#38A2AF"
+            "name": "Null js",
+            "scope": "constant.language.null.js",
+            "font_style": "normal",
+            "foreground": "#FD8F3F"
         },
         {
             "name": "JSDocs tags",
@@ -276,15 +272,19 @@
             "foreground": "#525055"
         },
         {
-            "name": "Null js",
-            "scope": "constant.language.null.js",
-            "font_style": "normal",
-            "foreground": "#FD8F3F"
-        },
-        {
             "name": "String quoted js",
             "scope": "meta.string.js string.quoted.other.js, meta.string.js string.quoted.single.js",
             "foreground": "#9B2393"
+        },
+        {
+            "name": "Support other js",
+            "scope": "source.js - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value",
+            "foreground": "#38A2AF"
+        },
+        {
+            "name": "Variable other class js",
+            "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
+            "foreground": "#9B0509"
         },
         {
             "name": "Mapping key",
@@ -302,6 +302,11 @@
             "foreground": "#C86733"
         },
         {
+            "name": "At rule other css",
+            "scope": "meta.at-rule.other.css",
+            "foreground": "#1E73BE"
+        },
+        {
             "name": "Constant css",
             "scope": "source.css constant",
             "foreground": "#5D6C79"
@@ -310,11 +315,6 @@
             "name": "Support property name and Entity other custom property",
             "scope": "support.type.property-name.css, entity.other.custom-property.css",
             "foreground": "#AA0D91"
-        },
-        {
-            "name": "Ar ruler other css",
-            "scope": "meta.at-rule.other.css",
-            "foreground": "#1E73BE"
         },
         {
             "name": "Storage type and Method parameters c#",

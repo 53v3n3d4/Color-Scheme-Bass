@@ -459,9 +459,20 @@
          *
          */
         {
-            "name": "Variable other class js", // i.e. Class new
-            "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
-            "foreground": "var(variable-other-class-js-fg)"
+            "name": "Null js",
+            "scope": "constant.language.null.js",
+            "font_style": "var(constant-lang-null-js-font-style)",
+            "foreground": "var(constant-lang-null-js-fg)"
+        },
+        {
+            "name": "JSDocs tags",
+            "scope": "entity.other.attribute-name.documentation.js",
+            "foreground": "var(entity-other-attribute-name-doc-js-fg)"
+        },
+        {
+            "name": "String quoted js",
+            "scope": "meta.string.js string.quoted.other.js, meta.string.js string.quoted.single.js",
+            "foreground": "var(meta-string-quoted-js-fg)"
         },
         {
             "name": "Support other js", // e.g. name from adaptiveData.name 
@@ -469,20 +480,9 @@
             "foreground": "var(support-other-js-fg)"
         },
         {
-            "name": "JSDocs tags",
-            "scope": "entity.other.attribute-name.documentation.js",
-            "foreground": "var(variable-entity-other-attribute-name-doc-js-fg)"
-        },
-        {
-            "name": "Null js",
-            "scope": "constant.language.null.js",
-            "font_style": "var(constant-lang-null-js-font-style)",
-            "foreground": "var(constant-lang-null-js-fg)"
-        },
-        {
-            "name": "String quoted js",
-            "scope": "meta.string.js string.quoted.other.js, meta.string.js string.quoted.single.js",
-            "foreground": "var(meta-string-quoted-js-fg)"
+            "name": "Variable other class js", // i.e. Class new
+            "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
+            "foreground": "var(variable-other-class-js-fg)"
         },
 
         /**
@@ -518,6 +518,11 @@
          *
          */
         {
+            "name": "At rule other css", // i.e @width
+            "scope": "meta.at-rule.other.css",
+            "foreground": "var(meta-at-rule-other-css-fg)"
+        },
+        {
             "name": "Constant css", // i.e. css #000
             "scope": "source.css constant",
             "foreground": "var(constant-css-fg)"
@@ -526,11 +531,6 @@
             "name": "Support property name and Entity other custom property", // i.e Margin:, --black: 
             "scope": "support.type.property-name.css, entity.other.custom-property.css",
             "foreground": "var(support-entity-property-css-fg)"
-        },
-        {
-            "name": "Ar ruler other css", // i.e @width
-            "scope": "meta.at-rule.other.css",
-            "foreground": "var(meta-at-rule-other-css-fg)"
         },
 
         /**
