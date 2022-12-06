@@ -11,39 +11,39 @@
 Color-schemes available are
 
 <details>
-  <summary>Bass Biohack</summary><details>
+  <summary>Bass Biohack</summary>
   <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-biohack.png" name="Biohack">
 </details>
 <details>
-  <summary>Bass Blackcomb</summary><details>
+  <summary>Bass Blackcomb</summary>
   <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-blackcomb.png" name="Blackcomb">
 </details>
 <details>
-  <summary>Bass Bowtruckle</summary><details>
+  <summary>Bass Bowtruckle</summary>
   <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-bowtruckle.png" name="Bowtruckle">
 </details>
 <details>
-  <summary>Bass D-O</summary><details>
+  <summary>Bass D-O</summary>
   <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-d-o.png" name="D-O">
 </details>
 <details>
-  <summary>Bass Fuji</summary><details>
+  <summary>Bass Fuji</summary>
   <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-fuji.png" name="Fuji">
 </details>
 <details>
-  <summary>Bass Lagoon</summary><details>
+  <summary>Bass Lagoon</summary>
   <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-lagoon.png" name="Lagoon">
 </details>
 <details>
-  <summary>Bass Nimbus</summary><details>
+  <summary>Bass Nimbus</summary>
   <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-nimbus.png" name="Nimbus">
 </details>
 <details>
-  <summary>Bass Roci</summary><details>
+  <summary>Bass Roci</summary>
   <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-roci.png" name="Roci">
 </details>
 <details>
-  <summary>Bass Zora</summary><details>
+  <summary>Bass Zora</summary>
   <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-zora.png" name="Zora">
 </details>
 
