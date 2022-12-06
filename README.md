@@ -47,7 +47,7 @@ Color-schemes available are (Click name to view)
   <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-zora.png" name="Zora">
 </details>
 
-> In screenshots, we are using Theme Treble and file-type-icons  
+> In screenshots, we are using Theme Treble  
 [Theme - Treble](https://github.com/53v3n3d4/Theme-Treble)  
 
 ## Package installation
