@@ -202,8 +202,8 @@
         },
         {
             "name": "Markup underline link",
-            "scope": "markup.underline.link, string.other.link",
-            "foreground": "#1C02CF"
+            "scope": "markup.underline.link",
+            "foreground": "#0282F2"
         },
         {
             "name": "Table md",
