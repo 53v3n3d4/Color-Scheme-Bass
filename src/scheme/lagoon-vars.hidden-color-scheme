@@ -142,7 +142,7 @@
         "markup-quote-font-style":                    "italic",
         "markup-quote-fg":                            "var(red1)",
         "markup-raw-bg":                              "var(blue-light4)",
-        "markup-link-fg":                             "var(blue4)",
+        "markup-link-fg":                             "var(blue3)",
         "markup-table-bg":                            "var(blue-light4)",
         "markup-table-fg":                            "",
         "punctuation-line-break-md-bg":               "color(var(blue-light4) a(0.7))",
