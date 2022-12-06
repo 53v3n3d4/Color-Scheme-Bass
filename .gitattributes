@@ -1,2 +1,3 @@
 # Ignored directories that will not be add on releases.
+assets/ export-ignore
 src/ export-ignore
