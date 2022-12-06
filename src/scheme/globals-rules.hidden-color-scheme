@@ -631,11 +631,6 @@
          *
          */
         {
-            "name": "Constant ruby",
-            "scope": "source.ruby constant",
-            "foreground": "var(constant-rb-fg)"
-        },
-        {
             "name": "Constant boolean ruby", // i.e. true
             "scope": "constant.language.boolean.ruby",
             "foreground": "var(constant-lang-bool-rb-fg)"
@@ -644,6 +639,11 @@
             "name": "Entity name class ruby",
             "scope": "entity.name.class.ruby",
             "foreground": "var(entity-name-class-ruby-fg)"
+        },
+        {
+            "name": "Constant ruby",
+            "scope": "source.ruby constant",
+            "foreground": "var(constant-rb-fg)"
         },
         {
             "name": "Variable other readwrite instance ruby", //i.e. @article
@@ -667,16 +667,6 @@
             "foreground": "var(entity-name-fn-rust-fg)"
         },
         {
-            "name": "Storage type rust",
-            "scope": "storage.type.rust",
-            "foreground": "var(storage-type-rust-fg)"
-        },
-        {
-            "name": "Storage modifier rust",
-            "scope": "storage.modifier.rust",
-            "foreground": "var(storage-modifier-rust-fg)"
-        },
-        {
             "name": "Keyword control rust",
             "scope": "keyword.control.rust",
             "foreground": "var(keyword-ctrl-rust-fg)"
@@ -687,6 +677,21 @@
             "foreground": "var(keyword-operator-rust-fg)"
         },
         {
+            "name": "String quoted rust",
+            "scope": "source.rust string.quoted",
+            "foreground": "var(string-quoted-rust-fg)"
+        },
+        {
+            "name": "Storage modifier rust",
+            "scope": "storage.modifier.rust",
+            "foreground": "var(storage-modifier-rust-fg)"
+        },
+        {
+            "name": "Storage type rust",
+            "scope": "storage.type.rust",
+            "foreground": "var(storage-type-rust-fg)"
+        },
+        {
             "name": "Support macro rust",
             "scope": "support.macro.rust",
             "foreground": "var(support-macro-rust-fg)"
@@ -695,11 +700,6 @@
             "name": "Support type rust",
             "scope": "support.type.rust",
             "foreground": "var(support-type-rust-fg)"
-        },
-        {
-            "name": "String quoted rust",
-            "scope": "source.rust string.quoted",
-            "foreground": "var(string-quoted-rust-fg)"
         }
 
     ]

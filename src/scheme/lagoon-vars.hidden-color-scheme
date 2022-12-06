@@ -212,21 +212,21 @@
         "meta-model-rails-fg":    "var(pink-light3)",
 
         /** Ruby */
-        "constant-rb-fg":                               "var(pink-light3)",
         "constant-lang-bool-rb-fg":                     "var(red2)",
         "entity-name-class-ruby-fg":                    "var(black4)",
+        "constant-rb-fg":                               "var(pink-light3)",
         "variable-other-readwrite-instance-ruby-fg":    "var(purple3)",
 
         /** Rust Enhanced */
-        "constant-lang-rust-fg":       "var(red2)",
-        "entity-name-fn-rust-fg":      "var(green-light4)",
-        "storage-type-rust-fg":        "var(blue2)",
-        "storage-modifier-rust-fg":    "var(pink-light3)",
         "keyword-ctrl-rust-fg":        "var(blue2)",
         "keyword-operator-rust-fg":    "var(blue2)",
+        "constant-lang-rust-fg":       "var(red2)",
+        "entity-name-fn-rust-fg":      "var(green-light4)",
+        "string-quoted-rust-fg":       "var(purple2)",
+        "storage-modifier-rust-fg":    "var(pink-light3)",
+        "storage-type-rust-fg":        "var(blue2)",
         "support-macro-rust-fg":       "color(var(purple1) a(0.77))",
-        "support-type-rust-fg":        "var(orange3)",
-        "string-quoted-rust-fg":       "var(purple2)"
+        "support-type-rust-fg":        "var(orange3)"
 
     },
     "globals": {},

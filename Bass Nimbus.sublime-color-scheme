@@ -373,11 +373,6 @@
             "foreground": "#1E73BE"
         },
         {
-            "name": "Constant ruby",
-            "scope": "source.ruby constant",
-            "foreground": "#AA0D91"
-        },
-        {
             "name": "Constant boolean ruby",
             "scope": "constant.language.boolean.ruby",
             "foreground": "#FC5B57"
@@ -386,6 +381,11 @@
             "name": "Entity name class ruby",
             "scope": "entity.name.class.ruby",
             "foreground": "#404040"
+        },
+        {
+            "name": "Constant ruby",
+            "scope": "source.ruby constant",
+            "foreground": "#AA0D91"
         },
         {
             "name": "Variable other readwrite instance ruby",
@@ -403,16 +403,6 @@
             "foreground": "#E47C48"
         },
         {
-            "name": "Storage type rust",
-            "scope": "storage.type.rust",
-            "foreground": "#38A2AF"
-        },
-        {
-            "name": "Storage modifier rust",
-            "scope": "storage.modifier.rust",
-            "foreground": "#83B85E"
-        },
-        {
             "name": "Keyword control rust",
             "scope": "keyword.control.rust",
             "foreground": "#38A2AF"
@@ -420,6 +410,21 @@
         {
             "name": "Keyword operator rust",
             "scope": "keyword.operator.rust",
+            "foreground": "#38A2AF"
+        },
+        {
+            "name": "String quoted rust",
+            "scope": "source.rust string.quoted",
+            "foreground": "#9B2393"
+        },
+        {
+            "name": "Storage modifier rust",
+            "scope": "storage.modifier.rust",
+            "foreground": "#83B85E"
+        },
+        {
+            "name": "Storage type rust",
+            "scope": "storage.type.rust",
             "foreground": "#38A2AF"
         },
         {
@@ -431,11 +436,6 @@
             "name": "Support type rust",
             "scope": "support.type.rust",
             "foreground": "#FC5B57"
-        },
-        {
-            "name": "String quoted rust",
-            "scope": "source.rust string.quoted",
-            "foreground": "#9B2393"
         }
     ]
 }
