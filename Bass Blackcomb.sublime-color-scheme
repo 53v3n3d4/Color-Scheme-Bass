@@ -135,6 +135,12 @@
             "background": "#FC5B57"
         },
         {
+            "name": "Constant other language name md",
+            "scope": "constant.other.language-name.markdown",
+            "font_style": "normal",
+            "foreground": "#D0BC56"
+        },
+        {
             "name": "Markup heading",
             "scope": "markup.heading, markup.heading entity.name",
             "font_style": "bold",
@@ -184,20 +190,20 @@
             "font_style": "bold italic underline"
         },
         {
-            "name": "Markup links",
-            "scope": "markup.underline.link, string.other.link",
-            "foreground": "#5DD8FF"
-        },
-        {
-            "name": "Markup blockquote",
+            "name": "Markup quote",
             "scope": "markup.quote",
             "font_style": "italic",
             "foreground": "#A7D4B4"
         },
         {
-            "name": "Markup code block",
+            "name": "Markup raw code block",
             "scope": "markup.raw",
             "background": "#232323"
+        },
+        {
+            "name": "Markup underline link",
+            "scope": "markup.underline.link, string.other.link",
+            "foreground": "#5DD8FF"
         },
         {
             "name": "Table md",
@@ -206,21 +212,9 @@
             "foreground": ""
         },
         {
-            "name": "Constant other language name md",
-            "scope": "constant.other.language-name.markdown",
-            "font_style": "normal",
-            "foreground": "#D0BC56"
-        },
-        {
             "name": "Punctuation line break md",
             "scope": "punctuation.definition.hard-line-break.markdown",
             "background": "#232323"
-        },
-        {
-            "name": "Diff header",
-            "scope": "meta.diff, meta.diff.header",
-            "background": "hsla(234, 77%, 33%, 0.22)",
-            "foreground": "#5DD8FF"
         },
         {
             "name": "Markup changed",
@@ -229,16 +223,22 @@
             "foreground": "#FFC849"
         },
         {
-            "name": "Markup added",
+            "name": "Markup deleted",
+            "scope": "markup.deleted",
+            "background": "hsla(345, 87%, 22%, 0.22)",
+            "foreground": "color(#C41A16 l(+ 14%))"
+        },
+        {
+            "name": "Markup inserted",
             "scope": "markup.inserted",
             "background": "hsla(133, 89%, 22%, 0.22)",
             "foreground": "color(#57C038 l(+ 14%))"
         },
         {
-            "name": "Markup removed",
-            "scope": "markup.deleted",
-            "background": "hsla(345, 87%, 22%, 0.22)",
-            "foreground": "color(#C41A16 l(+ 14%))"
+            "name": "Diff header",
+            "scope": "meta.diff, meta.diff.header",
+            "background": "hsla(234, 77%, 33%, 0.22)",
+            "foreground": "#5DD8FF"
         },
         {
             "scope": "diff.deleted",

@@ -22,7 +22,8 @@
         "minimap_border":                   "var(minimap-border)", // when draw_minimap_border is enabled
         "accent":                           "var(accent)",
         /** Css */
-        // Popup css: Example, bg color, link color, title color of Popup definiton/reference. Round corner, border, bg comes from Theme file.
+        // Popup css: Example, bg color, link color, title color of Popup definiton/reference. 
+        // Round corner, border, bg comes from Theme file.
         "popup_css":                        "var(popup-css)",
         "phantom_css":                      "var(phantom-css)",
         // "sheet_css": ,
@@ -55,8 +56,8 @@
         "guide":                            "var(guide)",
         // active_guide and stack_guide
         // Only used if the option "draw_active" is present in the setting indent_guide_options.
-        "active_guide":                     "var(active-guide)", // not found
-        "stack_guide":                      "var(stack-guide)", // not found
+        "active_guide":                     "var(active-guide)",
+        "stack_guide":                      "var(stack-guide)",
         /** Brackets */
         "brackets_options":                 "var(brackets-opts)",
         "brackets_foreground":              "var(brackets-fg)",
@@ -314,6 +315,12 @@
          *
          */
         {
+            "name": "Constant other language name md",
+            "scope": "constant.other.language-name.markdown",
+            "font_style": "var(constant-other-lang-name-md-font-style)",
+            "foreground": "var(constant-other-lang-name-md-fg)"
+        },
+        {
             "name": "Markup heading",
             "scope": "markup.heading, markup.heading entity.name",
             "font_style": "var(markup-heading-font-style)",
@@ -363,32 +370,26 @@
             "font_style": "var(markup-bold-italic-underline-font-style)"
         },
         {
-            "name": "Markup links",
-            "scope": "markup.underline.link, string.other.link",
-            "foreground": "var(markup-link-fg)"
-        },
-        {
-            "name": "Markup blockquote",
+            "name": "Markup quote",
             "scope": "markup.quote",
             "font_style": "var(markup-quote-font-style)",
             "foreground": "var(markup-quote-fg)"
         },
         {
-            "name": "Markup code block",
+            "name": "Markup raw code block",
             "scope": "markup.raw",
             "background": "var(markup-raw-bg)"
+        },
+        {
+            "name": "Markup underline link",
+            "scope": "markup.underline.link, string.other.link",
+            "foreground": "var(markup-link-fg)"
         },
         {
             "name": "Table md",
             "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
             "background": "var(markup-table-bg)",
             "foreground": "var(markup-table-fg)"
-        },
-        {
-            "name": "Constant other language name md",
-            "scope": "constant.other.language-name.markdown",
-            "font_style": "var(constant-other-lang-name-md-font-style)",
-            "foreground": "var(constant-other-lang-name-md-fg)"
         },
         {
             "name": "Punctuation line break md",
@@ -402,28 +403,28 @@
          *
          */
         {
-            "name": "Diff header",
-            "scope": "meta.diff, meta.diff.header",
-            "background": "var(meta-diff-header-bg)",
-            "foreground": "var(meta-diff-header-fg)"
-        },
-        {
             "name": "Markup changed",
             "scope": "markup.changed",
             "background": "var(markup-changed-bg)",
             "foreground": "var(markup-changed-fg)"
         },
         {
-            "name": "Markup added",
+            "name": "Markup deleted",
+            "scope": "markup.deleted",
+            "background": "var(markup-deleted-bg)",
+            "foreground": "var(markup-deleted-fg)"
+        },
+        {
+            "name": "Markup inserted",
             "scope": "markup.inserted",
             "background": "var(markup-inserted-bg)",
             "foreground": "var(markup-inserted-fg)"
         },
         {
-            "name": "Markup removed",
-            "scope": "markup.deleted",
-            "background": "var(markup-deleted-bg)",
-            "foreground": "var(markup-deleted-fg)"
+            "name": "Diff header",
+            "scope": "meta.diff, meta.diff.header",
+            "background": "var(meta-diff-header-bg)",
+            "foreground": "var(meta-diff-header-fg)"
         },
 
         /**

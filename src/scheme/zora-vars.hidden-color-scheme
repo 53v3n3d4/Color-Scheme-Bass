@@ -124,6 +124,8 @@
         // End minimal recommended setup
 
         /** Markdown / Markup */
+        "constant-other-lang-name-md-font-style":     "normal",
+        "constant-other-lang-name-md-fg":             "var(yellow1)",
         "markup-heading-font-style":                  "bold",
         "markup-heading-fg":                          "var(pink-light4)",
         "markup-list-font-style":                     "bold",
@@ -137,25 +139,23 @@
         "markup-bold-underline-font-style":           "bold underline",
         "markup-italic-underline-font-style":         "italic underline",
         "markup-bold-italic-underline-font-style":    "bold italic underline",
-        "markup-link-fg":                             "var(blue5)",
         "markup-quote-font-style":                    "italic",
         "markup-quote-fg":                            "var(cyan2)",
         "markup-raw-bg":                              "var(blue-dark3)",
+        "markup-link-fg":                             "var(blue5)",
         "markup-table-bg":                            "var(blue-dark3)",
         "markup-table-fg":                            "",
-        "constant-other-lang-name-md-font-style":     "normal",
-        "constant-other-lang-name-md-fg":             "var(yellow1)",
         "punctuation-line-break-md-bg":               "color(var(blue-dark3) a(0.4))",
 
         /** Diff */
-        "meta-diff-header-bg":    "hsla(234, 77%, 33%, 0.22)", //"color(var(blue8) a(0.22))",
-        "meta-diff-header-fg":    "var(blue5)",
         "markup-changed-bg":      "hsla(55, 100%, 22%, 0.22)", //"color(var(yellow-dark1) a(0.22))",
         "markup-changed-fg":      "var(yellow3)",
-        "markup-inserted-bg":     "hsla(133, 89%, 22%, 0.22)", //"color(var(green8) a(0.22))",
-        "markup-inserted-fg":     "color(var(green1) l(+ 14%))",
         "markup-deleted-bg":      "hsla(345, 87%, 22%, 0.22)", //"color(var(red-dark2) a(0.22))",
         "markup-deleted-fg":      "color(var(red2) l(+ 14%))",
+        "markup-inserted-bg":     "hsla(133, 89%, 22%, 0.22)", //"color(var(green8) a(0.22))",
+        "markup-inserted-fg":     "color(var(green1) l(+ 14%))",
+        "meta-diff-header-bg":    "hsla(234, 77%, 33%, 0.22)", //"color(var(blue8) a(0.22))",
+        "meta-diff-header-fg":    "var(blue5)",
 
         /** Inline Diffs */
         "diff-deleted-bg":          "hsla(345, 87%, 22%, 0.22)",
