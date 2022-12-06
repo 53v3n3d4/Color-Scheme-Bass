@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.4] - 2022-12
+## [0.1.4] - 2022-12-07
 
 - Add color-palette and global-rules hidden sublime files
 - Add Blackcomb vars
