@@ -4,11 +4,11 @@
     </a>
 </p>
 
-## Color scheme Bass
-
 ![Color Scheme Bass](https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshots.gif)
 
-Color-schemes available are
+## Color scheme Bass
+
+Color-schemes available are (Click name to view)
 
 <details>
   <summary>Bass Biohack</summary>
@@ -49,7 +49,6 @@ Color-schemes available are
 
 > In screenshots, we are using Theme Treble and file-type-icons  
 [Theme - Treble](https://github.com/53v3n3d4/Theme-Treble)  
-[file-type-icons](https://github.com/53v3n3d4/file-type-icons)
 
 ## Package installation
 
