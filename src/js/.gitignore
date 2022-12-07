@@ -1,0 +1,21 @@
+# misc
+.DS_Store
+
+# Node
+/node_modules
+package-lock.json
+
+# log
+yarn-debug.log
+yarn-error.log
+
+# yarn
+yarn.lock
+.yarn*
+!.yarn/plugins
+!.yarn/releases
+!.yarnrc.yml
+.pnp.*
+
+# Jest
+coverage/

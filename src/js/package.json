@@ -1,0 +1,57 @@
+{
+  "name": "js",
+  "version": "0.1.0",
+  "description": "Bass color-scheme builder",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/53v3n3d4/Bass-Color-Scheme/src/js"
+  },
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build-bc-merge": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('bc-merge'));\" ",
+    "build-bc-replace": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('bc-replace'));\" ",
+    "build-bio-merge": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('bio-merge'));\" ",
+    "build-bio-replace": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('bio-replace'));\" ",
+    "build-bow-merge": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('bow-merge'));\" ",
+    "build-bow-replace": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('bow-replace'));\" ",
+    "build-do-merge": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('do-merge'));\" ",
+    "build-do-replace": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('do-replace'));\" ",
+    "build-fuji-merge": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('fuji-merge'));\" ",
+    "build-fuji-replace": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('fuji-replace'));\" ",
+    "build-lagoon-merge": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('lagoon-merge'));\" ",
+    "build-lagoon-replace": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('lagoon-replace'));\" ",
+    "build-nimbus-merge": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('nimbus-merge'));\" ",
+    "build-nimbus-replace": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('nimbus-replace'));\" ",
+    "build-roci-merge": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('roci-merge'));\" ",
+    "build-roci-replace": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('roci-replace'));\" ",
+    "build-zora-merge": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('zora-merge'));\" ",
+    "build-zora-replace": "node -e \"import('./script/builder.js').then(b => b.sublimeFile('zora-replace'));\" ",
+    "jest-coverage": "jest --coverage",
+    "lint": "eslint '**/*.js'",
+    "test": "jest",
+    "watch": "node script/watch.js "
+  },
+  "keywords": [],
+  "author": "Seven Eda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/53v3n3d4/Bass-Color-Scheme/issues"
+  },
+  "homepage": "https://github.com/53v3n3d4/Bass-Color-Scheme/",
+  "dependencies": {
+    "sublime-builder": "https://github.com/53v3n3d4/sublime-builder"
+  },
+  "packageManager": "yarn@3.2.4",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.19.6",
+    "babel-plugin-transform-import-meta": "^2.2.0",
+    "eslint": "^8.28.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.3.1"
+  }
+}
