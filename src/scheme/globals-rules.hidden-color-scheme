@@ -1,0 +1,706 @@
+{
+    "variables": {},
+    "globals":
+    {
+        // example docs
+        //"background": "var(black)",
+        //"foreground": "var(white)",
+        //"caret": "color(var(white) alpha(0.8))"
+
+        /* order by docs */
+
+        /** Globals */
+        "background":                       "var(bg-color)",
+        "foreground":                       "var(fg-color)", // Popup definiton/reference text
+        "invisibles":                       "var(invisibles)",
+        "caret":                            "var(caret)", // mouser cursor
+        "block_caret":                      "var(block-caret)",
+        "line_highlight":                   "var(line-highlight)",
+        /** Accents */
+        "misspelling":                      "var(misspelling)", // when spell_check is enabled
+        "fold_marker":                      "var(fold-marker)", // when folded, the "..."
+        "minimap_border":                   "var(minimap-border)", // when draw_minimap_border is enabled
+        "accent":                           "var(accent)",
+        /** Css */
+        // Popup css: Example, bg color, link color, title color of Popup definiton/reference. 
+        // Round corner, border, bg comes from Theme file.
+        "popup_css":                        "var(popup-css)",
+        "phantom_css":                      "var(phantom-css)",
+        // "sheet_css": ,
+        /** Gutter */
+        "gutter":                           "var(gutter)",
+        "gutter_foreground":                "var(gutter-foreground)",
+        "gutter_foreground_highlight":      "var(gutter-foreground-hl)",
+        /** Diff */
+        "line_diff_width":                  "var(line-diff-width)",
+        "line_diff_added":                  "var(line-diff-added)",
+        "line_diff_modified":               "var(line-diff-modified)",
+        "line_diff_deleted":                "var(line-diff-deleted)",
+        /** Selection */
+        "selection":                        "var(selection)",
+        "selection_foreground":             "var(selection-fg)",
+        "selection_border":                 "var(selection-border)",
+        "selection_border_width":           "var(selection-border-width)",
+        "inactive_selection":               "var(inactive-selection)",
+        "inactive_selection_foreground":    "var(inactive-selection-fg)",
+        "selection_corner_style":           "var(selection-corner-style)",
+        "selection_corner_radius":          "var(selection-corner-radius)",
+        /** Find */
+        "highlight":                        "var(highlight)",
+        "find_highlight":                   "var(find-highlight)",
+        "find_highlight_foreground":        "var(find-highlight-fg)",
+        "scroll_highlight":                 "var(scroll-highlight)",
+        /** Rulers */
+        "rulers":                           "var(rulers)",
+        /** Guides */
+        "guide":                            "var(guide)",
+        // active_guide and stack_guide
+        // Only used if the option "draw_active" is present in the setting indent_guide_options.
+        "active_guide":                     "var(active-guide)",
+        "stack_guide":                      "var(stack-guide)",
+        /** Brackets */
+        "brackets_options":                 "var(brackets-opts)",
+        "brackets_foreground":              "var(brackets-fg)",
+        "bracket_contents_options":         "var(bracket-contents-opts)",
+        "bracket_contents_foreground":      "var(bracket-contents-fg)",
+        /** Tags */
+        // HTML and XML tags
+        "tags_options":                     "var(tags-opts)",
+        "tags_foreground":                  "var(tags-fg)",
+        /** Shadows */
+        "shadow":                           "var(shadow)",
+        "shadow_width":                     "var(shadow-width)"
+    },
+    "rules":
+    [
+        // Minimal recommended setup
+        // entity.name
+        // entity.other.inherited-class
+        // entity.name.section
+        // entity.name.tag
+        // entity.other.attribute-name
+        // variable
+        // variable.language
+        // variable.parameter
+        // variable.function
+        // constant
+        // constant.numeric
+        // constant.language
+        // constant.character.escape
+        // storage.type
+        // storage.modifier
+        // support
+        // keyword
+        // keyword.control
+        // keyword.operator
+        // keyword.declaration
+        // string
+        // comment
+        // invalid
+        // invalid.deprecated
+
+        // Scope naming
+        // https://www.sublimetext.com/docs/3/scope_naming.html
+
+        // Packages syntax
+        // https://github.com/sublimehq/Packages/blob/master/Rust/Rust.sublime-syntax
+
+        /**
+         *
+         * ENTITY
+         *
+         */
+        {
+            "name": "Entity name",
+            "scope": "entity.name", // js: i.e. function name
+            "foreground": "var(entity-name-fg)"
+        },
+        {
+            "name": "Entity other inherited class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "var(entity-inherited-class-fg)"
+        },
+        // {
+        //     "name": "Entity name section",
+        //     "scope": "entity.name.section",
+        //     "foreground": "var(entity-name-section-fg)" 
+        // },
+        // {
+        //     "name": "Entity name tag",
+        //     "scope": "entity.name.tag",
+        //     "foreground": "var(entity-name-tag-fg)"
+        // },
+        {
+            "name": "Entity other attribute name", // html i.e. class
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(entity-attribute-name-fg)"
+        },
+        {
+            "name": "Entity other pseudo class",
+            "scope": "entity.other.pseudo-class",
+            "foreground": "var(entity-other-pseudo-class-fg)"
+        },
+
+        /**
+         *
+         * VARIABLE
+         *
+         */
+        // {
+        //     "name": "Variable",
+        //     "scope": "variable", // js: vars - fun, imports
+        //     "foreground": "var(variable-fg)"
+        // },
+        // {
+        //     "name": "Variable language",
+        //     "scope": "variable.language",
+        //     "font_style": "var(variable-lang-font-style)",
+        //     "foreground": "var(variable-lang-fg)"
+        // },
+        // {
+        //     "name": "Variable parameter",
+        //     "scope": "variable.parameter",
+        //     "foreground": "var(variable-param-fg)"
+        // },
+        {
+            "name": "Variable function",
+            "scope": "variable.function",
+            "foreground": "var(variable-fn-fg)"
+        },
+        {
+            "name": "Variable other.constant", // i.e. Class nodejs
+            "scope": "variable.other.constant",
+            "foreground": "var(variable-other-constant-fg)"
+        },
+
+        /**
+         *
+         * CONSTANT
+         *
+         */
+        // {
+        //     "name": "Constant",
+        //     "scope": "constant",
+        //     "foreground": "var(constant-fg)"
+        // },
+        {
+            "name": "Constant numeric",
+            "scope": "constant.numeric",
+            "foreground": "var(constant-num-fg)"
+        },
+        // {
+        //     "name": "Constant language", // Built-in
+        //     "scope": "constant.language",
+        //     "foreground": "var(constant-lang-fg)"
+        // },
+        // {
+        //     "name": "Constant character escape",
+        //     "scope": "constant.character.escape",
+        //     "foreground": "var(constant-char-escape-fg)"
+        // },
+
+        /**
+         *
+         * STORAGE
+         *
+         */
+        // {
+        //     "name": "Storage", // fn methods
+        //     "scope": "storage",
+        //     "foreground": "var(storage-fg)"
+        // },
+        {
+            "name": "Storage modifier", // pub
+            "scope": "storage.modifier",
+            "foreground": "var(storage-modifier-fg)"
+        },
+
+        /**
+         *
+         * SUPPORT
+         *
+         */
+        // {
+        //     "name": "Support",
+        //     "scope": "support", // i.e. js: document, console.log
+        //     "foreground": "var(support-fg)"
+        // },
+        {
+            "name": "Support function",
+            "scope": "support.function",
+            "foreground": "var(support-fn-fg)"
+        },
+        {
+            "name": "Support class",
+            "scope": "support.class", // i.e: Js Object, Array
+            "foreground": "var(support-class-fg)"
+        },
+
+        /**
+         *
+         * KEYWORD
+         *
+         */
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "font_style": "var(keyword-font-style)",
+            "foreground": "var(keyword-fg)"
+        },
+        // {
+        //     "name": "Keyword control",
+        //     "scope": "keyword.control",
+        //     "foreground": "var(keyword-ctrl-fg)"
+        // },
+        {
+            "name": "Keyword operator",
+            "scope": "keyword.operator",
+            "foreground": "var(keyword-operator-fg)"
+        },
+        // {
+        //     "name": "Keyword declaration",
+        //     "scope": "keyword.declaration",
+        //     "foreground": "var(keyword-declaration-fg)"
+        // },
+
+        /**
+         *
+         * STRING
+         *
+         */
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(string-fg)"
+        },
+
+        /**
+         *
+         * COMMENT
+         *
+         */
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "font_style": "var(comment-font-style)",
+            "foreground": "var(comment-fg)"
+        },
+
+        /**
+         *
+         * INVALID
+         *
+         */
+        // {
+        //     "name": "Invalid",
+        //     "scope": "invalid",
+        //     "foreground": "var(invalid-fg)"
+        // },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "var(invalid-deprecated-fg)"
+        },
+        {
+            "name": "Invalid illegal",
+            "scope": "invalid.illegal",
+            "background": "var(invalid-illegal-fg)"
+        },
+
+        // End minimal recommended setup
+
+        /**
+         *
+         * MARKDOWN / MARKUP
+         *
+         */
+        {
+            "name": "Constant other language name md",
+            "scope": "constant.other.language-name.markdown",
+            "font_style": "var(constant-other-lang-name-md-font-style)",
+            "foreground": "var(constant-other-lang-name-md-fg)"
+        },
+        {
+            "name": "Markup heading",
+            "scope": "markup.heading, markup.heading entity.name",
+            "font_style": "var(markup-heading-font-style)",
+            "foreground": "var(markup-heading-fg)"
+        },
+        {
+            "name": "Markup list",
+            "scope": "markup.list.unnumbered, markup.list.numbered",
+            "font_style": "var(markup-list-font-style)",
+            "foreground": "var(markup-list-fg)"
+        },
+        {
+            "name": "Markup bold",
+            "scope": "markup.bold",
+            "font_style": "var(markup-bold-font-style)",
+            "foreground": "var(markup-bold-fg)"
+        },
+        {
+            "name": "Markup italic",
+            "scope": "markup.italic",
+            "font_style": "var(markup-italic-font-style)",
+            "foreground": "var(markup-italic-fg)"
+        },
+        {
+            "name": "Markup underline",
+            "scope": "markup.underline",
+            "font_style": "var(markup-underline-font-style)"
+        },
+        {
+            "name": "Markup bold/italic",
+            "scope": "markup.italic markup.bold | markup.bold markup.italic",
+            "font_style": "var(markup-bold-italic-font-style)"
+        },
+        {
+            "name": "Markup bold/underline",
+            "scope": "markup.underline markup.bold | markup.bold markup.underline",
+            "font_style": "var(markup-bold-underline-font-style)"
+        },
+        {
+            "name": "Markup italic/underline",
+            "scope": "markup.underline markup.italic | markup.italic markup.underline",
+            "font_style": "var(markup-italic-underline-font-style)"
+        },
+        {
+            "name": "Markup bold/italic/underline",
+            "scope": "markup.bold markup.italic markup.underline | markup.bold markup.underline markup.italic | markup.italic markup.bold markup.underline | markup.italic markup.underline markup.bold | markup.underline markup.bold markup.italic | markup.underline markup.italic markup.bold",
+            "font_style": "var(markup-bold-italic-underline-font-style)"
+        },
+        {
+            "name": "Markup quote",
+            "scope": "markup.quote",
+            "font_style": "var(markup-quote-font-style)",
+            "foreground": "var(markup-quote-fg)"
+        },
+        {
+            "name": "Markup raw code block",
+            "scope": "markup.raw",
+            "background": "var(markup-raw-bg)"
+        },
+        {
+            "name": "Markup underline link",
+            "scope": "markup.underline.link",
+            "foreground": "var(markup-link-fg)"
+        },
+        {
+            "name": "Table md",
+            "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
+            "background": "var(markup-table-bg)",
+            "foreground": "var(markup-table-fg)"
+        },
+        {
+            "name": "Punctuation line break md",
+            "scope": "punctuation.definition.hard-line-break.markdown",
+            "background": "var(punctuation-line-break-md-bg)"
+        },
+
+        /**
+         *
+         * DIFF
+         *
+         */
+        {
+            "name": "Markup changed",
+            "scope": "markup.changed",
+            "background": "var(markup-changed-bg)",
+            "foreground": "var(markup-changed-fg)"
+        },
+        {
+            "name": "Markup deleted",
+            "scope": "markup.deleted",
+            "background": "var(markup-deleted-bg)",
+            "foreground": "var(markup-deleted-fg)"
+        },
+        {
+            "name": "Markup inserted",
+            "scope": "markup.inserted",
+            "background": "var(markup-inserted-bg)",
+            "foreground": "var(markup-inserted-fg)"
+        },
+        {
+            "name": "Diff header",
+            "scope": "meta.diff, meta.diff.header",
+            "background": "var(meta-diff-header-bg)",
+            "foreground": "var(meta-diff-header-fg)"
+        },
+
+        /**
+         *
+         * INLINE DIFFS
+         *
+         */
+        {
+            "scope": "diff.deleted",
+            "background": "var(diff-deleted-bg)",
+            "foreground": "var(diff-deleted-fg)"
+        },
+        {
+            "scope": "diff.deleted.char",
+            "background": "var(diff-deleted-char-bg)",
+            "foreground": "var(diff-deleted-char-fg)"
+        },
+        {
+            "scope": "diff.inserted",
+            "background": "var(diff-inserted-bg)",
+            "foreground": "var(diff-inserted-fg)"
+        },
+        {
+            "scope": "diff.inserted.char",
+            "background": "var(diff-inserted-char-bg)",
+            "foreground": "var(diff-inserted-char-fg)"
+        },
+
+        /**
+         *
+         * JAVASCRIPT
+         *
+         */
+        {
+            "name": "Null js",
+            "scope": "constant.language.null.js",
+            "font_style": "var(constant-lang-null-js-font-style)",
+            "foreground": "var(constant-lang-null-js-fg)"
+        },
+        {
+            "name": "JSDocs tags",
+            "scope": "entity.other.attribute-name.documentation.js",
+            "foreground": "var(entity-other-attribute-name-doc-js-fg)"
+        },
+        {
+            "name": "String quoted js",
+            "scope": "meta.string.js string.quoted.other.js, meta.string.js string.quoted.single.js",
+            "foreground": "var(meta-string-quoted-js-fg)"
+        },
+        {
+            "name": "Support other js", // e.g. name from adaptiveData.name 
+            "scope": "source.js - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value",
+            "foreground": "var(support-other-js-fg)"
+        },
+        {
+            "name": "Variable other class js", // i.e. Class new
+            "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
+            "foreground": "var(variable-other-class-js-fg)"
+        },
+
+        /**
+         *
+         * MAPPING KEY VALUE
+         *
+         */
+        {
+            "name": "Mapping key",
+            "scope": "meta.mapping.key, meta.mapping.key string", // Json text
+            "foreground": "var(meta-mapping-key-fg)"
+        },
+        {
+            "name": "Mapping value",
+            "scope": "meta.mapping.value, meta.mapping.value string", // Json text, Yaml and JS not working
+            "foreground": "var(meta-mapping-value-fg)"
+        },
+
+        /**
+         *
+         * HTML
+         *
+         */
+        {
+            "name": "Entity id", // i.e. id
+            "scope": "text.html entity.other.attribute-name.id",
+            "foreground": "var(entity-other-attribute-name-html-fg)"
+        },
+
+        /**
+         *
+         * CSS
+         *
+         */
+        {
+            "name": "At rule other css", // i.e @width
+            "scope": "meta.at-rule.other.css",
+            "foreground": "var(meta-at-rule-other-css-fg)"
+        },
+        {
+            "name": "Constant css", // i.e. css #000
+            "scope": "source.css constant",
+            "foreground": "var(constant-css-fg)"
+        },
+        {
+            "name": "Support property name and Entity other custom property", // i.e Margin:, --black: 
+            "scope": "support.type.property-name.css, entity.other.custom-property.css",
+            "foreground": "var(support-entity-property-css-fg)"
+        },
+
+        /**
+         *
+         * C#
+         *
+         */
+        {
+            "name": "Storage type and Method parameters c#", // i.e void, string, args
+            "scope": "storage.type.cs, meta.method.parameters.cs",
+            "foreground": "var(storage-type-method-params-cs-fg)"
+        },
+
+        /**
+         *
+         * GO
+         *
+         */
+        {
+            "name": "Constant language go", // i.e. nil/false/true
+            "scope": "constant.language.go",
+            "foreground": "var(constant-lang-go-fg)"
+        },
+        {
+            "name": "Storage Support type builtin go", // i.e. string/bool
+            "scope": "storage.type.go support.type.builtin.go",
+            "foreground": "var(storage-support-type-builtin-go-fg)"
+        },
+        {
+            "name": "String quoted go",
+            "scope": "string.quoted.double.go, string.quoted.backtick.go",
+            "foreground": "var(string-quoted-go-fg)"
+        },
+
+        /**
+         *
+         * GIT
+         *
+         */
+        {
+            "name": "Git attributes value",
+            "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
+            "foreground": "var(meta-mapping-value-git-attributes-fg)"
+        },
+
+        /**
+         *
+         * SQL
+         *
+         */
+        {
+            "name": "Null sql",
+            "scope": "constant.language.null.sql",
+            "foreground": "var(constant-lang-null-sql-fg)"
+        },
+        {
+            "name": "Keyword operator logical sql",
+            "scope": "keyword.operator.logical.sql",
+            "font_style": "var(keyword-operator-logical-sql-font-style)",
+            "foreground": "var(keyword-operator-logical-sql-fg)"
+        },
+        {
+            "name": "Storage modifier sql", // i.e. CONSTRAINT, PRIMARY KEY
+            "scope": "storage.modifier.sql",
+            "foreground": "var(storage-modifier-sql-fg)"
+        },
+
+        /**
+         *
+         * TOML
+         *
+         */
+        {
+            "name": "Table toml",
+            "scope": "entity.name.table.toml",
+            "foreground": "var(entity-name-table-toml-fg)"
+        },
+        {
+            "name": "Key toml",
+            "scope": "entity.name.tag.toml",
+            "foreground": "var(entity-name-tag-toml-fg)"
+        },
+
+        /**
+         *
+         * RAILS
+         *
+         */
+        {
+            "name": "Model rails",
+            "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby",
+            "foreground": "var(meta-model-rails-fg)"
+        },
+
+        /**
+         *
+         * RUBY
+         *
+         */
+        {
+            "name": "Constant boolean ruby", // i.e. true
+            "scope": "constant.language.boolean.ruby",
+            "foreground": "var(constant-lang-bool-rb-fg)"
+        },
+        {
+            "name": "Entity name class ruby",
+            "scope": "entity.name.class.ruby",
+            "foreground": "var(entity-name-class-ruby-fg)"
+        },
+        {
+            "name": "Constant ruby",
+            "scope": "source.ruby constant",
+            "foreground": "var(constant-rb-fg)"
+        },
+        {
+            "name": "Variable other readwrite instance ruby", //i.e. @article
+            "scope": "variable.other.readwrite.instance.ruby",
+            "foreground": "var(variable-other-readwrite-instance-ruby-fg)"
+        },
+
+        /**
+         *
+         * RUST ENHANCED
+         *
+         */
+        {
+            "name": "Constant language rust", // i.e. true/false
+            "scope": "constant.language.rust",
+            "foreground": "var(constant-lang-rust-fg)"
+        },
+        {
+            "name": "Entity name function",
+            "scope": "entity.name.function.rust",
+            "foreground": "var(entity-name-fn-rust-fg)"
+        },
+        {
+            "name": "Keyword control rust",
+            "scope": "keyword.control.rust",
+            "foreground": "var(keyword-ctrl-rust-fg)"
+        },
+        {
+            "name": "Keyword operator rust", // i.e. in/as/box
+            "scope": "keyword.operator.rust",
+            "foreground": "var(keyword-operator-rust-fg)"
+        },
+        {
+            "name": "String quoted rust",
+            "scope": "source.rust string.quoted",
+            "foreground": "var(string-quoted-rust-fg)"
+        },
+        {
+            "name": "Storage modifier rust",
+            "scope": "storage.modifier.rust",
+            "foreground": "var(storage-modifier-rust-fg)"
+        },
+        {
+            "name": "Storage type rust",
+            "scope": "storage.type.rust",
+            "foreground": "var(storage-type-rust-fg)"
+        },
+        {
+            "name": "Support macro rust",
+            "scope": "support.macro.rust",
+            "foreground": "var(support-macro-rust-fg)"
+        },
+        {
+            "name": "Support type rust",
+            "scope": "support.type.rust",
+            "foreground": "var(support-type-rust-fg)"
+        }
+
+    ]
+}

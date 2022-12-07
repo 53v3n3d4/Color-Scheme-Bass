@@ -1,0 +1,234 @@
+{
+    "name": "Bass Zora",
+    "variables":
+    {
+        // Leave emprty string("") for ununsed variables. 
+        // Unused commented vars will cause errors in console when using replaceVars method.
+        // E.g. Commented, "line_diff_width": "var(line-diff-width)"
+        // E.g. Empty string, "line_diff_width": ""
+
+        /** Globals variables */
+
+        "bg-color":                   "var(blue-dark1)",
+        "fg-color":                   "var(gray2)", // Popup definiton/reference text
+        "invisibles":                 "var(gray4)",
+        "caret":                      "var(cyan3)", // mouse cursor
+        "block-caret":                "",
+        "line-highlight":             "var(blue-dark2)",
+        /** Accents */
+        "misspelling":                "var(green-light4)",
+        "fold-marker":                "var(yellow1)", // when folded, the "..."
+        "minimap-border":             "var(cyan2)",
+        "accent":                     "var(cyan3)",
+        /** Css */
+        // Popup css: Example, bg color, link color, title color of definition/reference. Round corner, border, bg comes from Theme file.
+        "popup-css": "\n      html, body {\n        background-color: transparent;\n        color: #B4B4B4;\n      }\n      body {\n        padding: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
+        // "popup_css": "\n      html, body {\n        background-color: #f4f5f6;\n        border-radius: 4px;\n      color: #808080;\n      }\n      body {\n        padding: 6px 12px;\n      }\n      a {\n        color: #404040;\n      line-height: 1.6em;\n      text-decoration: none;\n}\n    ",
+        // phantom css, to test -> it is the badge/button "UI:select color scheme/theme" inside text line control overlay. 
+        "phantom-css": "\n      html, body {\n        background-color: #404040;\n        border-radius: 4px;\n      color: #D8D8D8;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
+        // "sheet_css": ,
+        /** Gutter */
+        "gutter":                     "var(bg-color)",
+        "gutter-foreground":          "color(var(gray2) a(0.7))",
+        "gutter-foreground-hl":       "var(blue5)",
+        // "gutter_foreground": "{font-family: Helvetica";\n        font-size: 8px;\n      color: #808080;\n}",
+        /** Diff */
+        "line-diff-width":            "", // default 3
+        "line-diff-added":            "var(blue3)",
+        "line-diff-modified":         "var(gold1)",
+        "line-diff-deleted":          "var(red3)",
+        /** Selection */
+        "selection":                  "color(var(green-light1) a(0.1))",
+        "selection-fg":               "var(cyan2)",
+        "selection-border":           "var(black4)",
+        "selection-border-width":     "1",
+        "inactive-selection":         "color(var(green-light1) a(0.2))",
+        "inactive-selection-fg":      "var(cyan2)",
+        "selection-corner-style":     "round",
+        "selection-corner-radius":    "2",
+        /** Find */
+        "highlight":                  "color(var(gold2) a(0.7))",
+        "find-highlight":             "var(blue-light3)",
+        "find-highlight-fg":          "var(cyan4)",
+        "scroll-highlight":           "var(magenta2)",
+        /** Rulers */
+        "rulers":                     "var(cyan2)",
+        /** Guides */
+        "guide":                      "color(var(gray3) a(0.4))",
+        "active-guide":               "color(var(blue-light4) a(0.7))",
+        "stack-guide":                "color(var(gray3) a(0.4))",
+        /** Brackets */
+        "brackets-opts":              "underline",
+        "brackets-fg":                "var(yellow2)",
+        "bracket-contents-opts":      "stippled_underline",
+        "bracket-contents-fg":        "var(yellow3)",
+        /** Tags */
+        "tags-opts":                  "underline",
+        "tags-fg":                    "var(yellow2)",
+        /** Shadows */
+        "shadow":                     "color(var(black4) a(0.3))",
+        "shadow-width":               "3",
+
+        /** Rules variables*/
+
+        /** Entity */
+        "entity-name-fg":                  "color(var(cyan1) l(+ 7%))",
+        "entity-inherited-class-fg":       "var(magenta2)",
+        // "entity-name-section-fg":          "var(purple1)",
+        // "entity-name-tag-fg":              "var(cyan3)",
+        "entity-attribute-name-fg":        "var(orange1)",
+        "entity-other-pseudo-class-fg":    "var(yellow1)",
+
+        /** Variable */
+        // "variable-fg":                   "var(green-light2)",
+        // "variable-lang-font-style":      "italic",
+        // "variable-lang-fg":              "var(purple1)",
+        // "variable-param-fg":             "var(purple1)",
+        "variable-fn-fg":                "var(blue5)",
+        "variable-other-constant-fg":    "var(orange1)",
+
+        /** Constant */
+        // "constant-fg":                "var(blue5)",
+        "constant-num-fg":            "var(red1)",
+        // "constant-lang-fg":           "var(blue3)",
+        // "constant-char-escape-fg":    "var(gold2)",
+
+        /** Storage */
+        // "storage-fg":             "var(magenta2)",
+        "storage-modifier-fg":    "var(blue5)",
+
+        /** Support */
+        // "support-fg":          "var(green-light2)",
+        "support-fn-fg":       "var(magenta2)",
+        "support-class-fg":    "var(orange2)",
+
+        /** Keyword */
+        "keyword-font-style":        "normal",
+        "keyword-fg":                "var(blue-light4)",
+        // "keyword-ctrl-fg":           "var(magenta3)",
+        "keyword-operator-fg":       "var(yellow1)",
+        // "keyword-declaration-fg":    "var(green3)",
+
+        /** String */
+        "string-fg":    "var(white2)",
+
+        /** Comment */
+        "comment-font-style":    "normal",
+        "comment-fg":            "color(var(blue-light3) a(0.4))",
+
+        /** Invalid */
+        // "invalid-fg":               "var(red1)",
+        "invalid-deprecated-fg":    "var(red1)",
+        "invalid-illegal-fg":       "color(var(orange1) a(0.7))",
+
+        // End minimal recommended setup
+
+        /** Markdown / Markup */
+        "constant-other-lang-name-md-font-style":     "normal",
+        "constant-other-lang-name-md-fg":             "var(yellow1)",
+        "markup-heading-font-style":                  "bold",
+        "markup-heading-fg":                          "var(pink-light4)",
+        "markup-list-font-style":                     "bold",
+        "markup-list-fg":                             "",
+        "markup-bold-font-style":                     "bold",
+        "markup-bold-fg":                             "",
+        "markup-italic-font-style":                   "italic",
+        "markup-italic-fg":                           "",
+        "markup-underline-font-style":                "underline",
+        "markup-bold-italic-font-style":              "bold italic",
+        "markup-bold-underline-font-style":           "bold underline",
+        "markup-italic-underline-font-style":         "italic underline",
+        "markup-bold-italic-underline-font-style":    "bold italic underline",
+        "markup-quote-font-style":                    "italic",
+        "markup-quote-fg":                            "var(cyan2)",
+        "markup-raw-bg":                              "var(blue-dark3)",
+        "markup-link-fg":                             "var(blue5)",
+        "markup-table-bg":                            "var(blue-dark3)",
+        "markup-table-fg":                            "",
+        "punctuation-line-break-md-bg":               "color(var(blue-dark3) a(0.4))",
+
+        /** Diff */
+        "markup-changed-bg":      "hsla(55, 100%, 22%, 0.22)", //"color(var(yellow-dark1) a(0.22))",
+        "markup-changed-fg":      "var(yellow3)",
+        "markup-deleted-bg":      "hsla(345, 87%, 22%, 0.22)", //"color(var(red-dark2) a(0.22))",
+        "markup-deleted-fg":      "color(var(red2) l(+ 14%))",
+        "markup-inserted-bg":     "hsla(133, 89%, 22%, 0.22)", //"color(var(green8) a(0.22))",
+        "markup-inserted-fg":     "color(var(green1) l(+ 14%))",
+        "meta-diff-header-bg":    "hsla(234, 77%, 33%, 0.22)", //"color(var(blue8) a(0.22))",
+        "meta-diff-header-fg":    "var(blue5)",
+
+        /** Inline Diffs */
+        "diff-deleted-bg":          "hsla(345, 87%, 22%, 0.22)",
+        "diff-deleted-fg":          "color(var(red2) l(+ 14%))",
+        "diff-deleted-char-bg":     "hsla(345, 87%, 44%, 0.22)",
+        "diff-deleted-char-fg":     "var(red1)",
+        "diff-inserted-bg":         "hsla(133, 89%, 22%, 0.22)",
+        "diff-inserted-fg":         "color(var(green1) l(+ 14%))",
+        "diff-inserted-char-bg":    "hsla(133, 89%, 44%, 0.22)",
+        "diff-inserted-char-fg":    "color(var(green1) l(+ 7%))",
+
+        /** Javascript */
+        "constant-lang-null-js-font-style":                  "normal",
+        "constant-lang-null-js-fg":                          "var(red1)",
+        "entity-other-attribute-name-doc-js-fg":             "color(var(cyan3) a(0.5))",
+        "meta-string-quoted-js-fg":                          "color(var(gold2) l(+ 6%))",
+        "support-other-js-fg":                               "var(magenta2)",
+        "variable-other-class-js-fg":                        "var(orange2)",
+
+        /** Key Value - Json, Yaml, Javascript */
+        "meta-mapping-key-fg":      "var(cyan2)",
+        "meta-mapping-value-fg":    "var(gold2)",
+
+        /** HTML */
+        "entity-other-attribute-name-html-fg":    "var(orange1)",
+
+        /** CSS */
+        "meta-at-rule-other-css-fg":          "var(blue5)",
+        "constant-css-fg":                    "var(gray2)",
+        "support-entity-property-css-fg":     "var(magenta3)",
+
+        /** C# */
+        "storage-type-method-params-cs-fg":    "var(magenta2)",
+
+        /** Go */
+        "constant-lang-go-fg":                   "var(red1)",
+        "storage-support-type-builtin-go-fg":    "color(var(cyan2) a(0.7))",
+        "string-quoted-go-fg":                   "color(var(gold2) l(+ 6%))",
+
+        /** Git */
+        "meta-mapping-value-git-attributes-fg":    "var(gold2)",
+
+        /** Sql */
+        "constant-lang-null-sql-fg":                  "var(red1)",
+        "keyword-operator-logical-sql-font-style":    "normal",
+        "keyword-operator-logical-sql-fg":            "var(red1)",
+        "storage-modifier-sql-fg":                    "color(var(gold1) a(0.7))",
+
+        /** Toml */
+        "entity-name-table-toml-fg":    "var(gold2)",
+        "entity-name-tag-toml-fg":      "var(cyan2)",
+
+        /** Rails */
+        "meta-model-rails-fg":    "var(magenta2)",
+
+        /** Ruby */
+        "constant-lang-bool-rb-fg":                     "var(gold1)",
+        "entity-name-class-ruby-fg":                    "var(white2)",
+        "constant-rb-fg":                               "var(magenta2)",
+        "variable-other-readwrite-instance-ruby-fg":    "var(green-light4)",
+
+        /** Rust Enhanced */
+        "constant-lang-rust-fg":       "var(red1)",
+        "entity-name-fn-rust-fg":      "var(pink-light4)",
+        "keyword-ctrl-rust-fg":        "var(blue5)",
+        "keyword-operator-rust-fg":    "var(blue5)",
+        "string-quoted-rust-fg":       "color(var(gold2) l(+ 6%))",
+        "storage-modifier-rust-fg":    "var(magenta3)",
+        "storage-type-rust-fg":        "var(blue5)",
+        "support-macro-rust-fg":       "var(magenta2)",
+        "support-type-rust-fg":        "var(brown1)"
+
+    },
+    "globals": {},
+    "rules": []
+}
