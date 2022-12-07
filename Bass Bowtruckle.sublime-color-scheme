@@ -1,0 +1,441 @@
+/**
+ * @file Bass Bowtruckle.sublime-color-scheme - Bass Bowtruckle
+ * @copyright Seven Eda
+ * @license MIT license
+ */
+{
+    "name": "Bowtruckle",
+    "variables": {},
+    "globals": {
+        "background": "#C4E7CE",
+        "foreground": "#404040",
+        "invisibles": "#9B9B9B",
+        "caret": "#0282F2",
+        "block_caret": "",
+        "line_highlight": "#A7D4B4",
+        "misspelling": "#FC5B57",
+        "fold_marker": "#FFE76D",
+        "minimap_border": "color(#83B85E a(0.5))",
+        "accent": "#1A5301",
+        "popup_css": "\n      html, body {\n        background-color: transparent;\n        color: #9B9B9B;\n      }\n      body {\n        padding: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
+        "phantom_css": "\n      html, body {\n        background-color: #B4B4B4;\n        border-radius: 4px;\n      color: #161818;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
+        "gutter": "#C4E7CE",
+        "gutter_foreground": "color(#B4B4B4 a(0.7))",
+        "gutter_foreground_highlight": "#007F7C",
+        "line_diff_width": "",
+        "line_diff_added": "#0282F2",
+        "line_diff_modified": "#FFB500",
+        "line_diff_deleted": "#9B0509",
+        "selection": "color(#C7E1F2 a(0.8))",
+        "selection_foreground": "#5D6C79",
+        "selection_border": "#57C038",
+        "selection_border_width": "1",
+        "inactive_selection": "color(#A4CDFF a(0.4))",
+        "inactive_selection_foreground": "#5D6C79",
+        "selection_corner_style": "round",
+        "selection_corner_radius": "2",
+        "highlight": "#C41A16",
+        "find_highlight": "#A7D4B4",
+        "find_highlight_foreground": "color(#C41A16 a(0.7))",
+        "scroll_highlight": "#FFF618",
+        "rulers": "#BF8555",
+        "guide": "color(#9B9B9B a(0.5)",
+        "active_guide": "color(#1A5301 a(0.7))",
+        "stack_guide": "color(#9B9B9B a(0.5))",
+        "brackets_options": "underline",
+        "brackets_foreground": "#C01553",
+        "bracket_contents_options": "underline",
+        "bracket_contents_foreground": "#FC6BAA",
+        "tags_options": "underline",
+        "tags_foreground": "#C01553",
+        "shadow": "color(#404040 a(0.3))",
+        "shadow_width": "3"
+    },
+    "rules": [
+        {
+            "name": "Entity name",
+            "scope": "entity.name",
+            "foreground": "#007F7C"
+        },
+        {
+            "name": "Entity other inherited class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "color(#1E73BE a(0.8))"
+        },
+        {
+            "name": "Entity other attribute name",
+            "scope": "entity.other.attribute-name",
+            "foreground": "#AA0D91"
+        },
+        {
+            "name": "Entity other pseudo class",
+            "scope": "entity.other.pseudo-class",
+            "foreground": "#9B2393"
+        },
+        {
+            "name": "Variable function",
+            "scope": "variable.function",
+            "foreground": "#8D52D1"
+        },
+        {
+            "name": "Variable other.constant",
+            "scope": "variable.other.constant",
+            "foreground": "#007F7C"
+        },
+        {
+            "name": "Constant numeric",
+            "scope": "constant.numeric",
+            "foreground": "#2077FB"
+        },
+        {
+            "name": "Storage modifier",
+            "scope": "storage.modifier",
+            "foreground": "#AA0D91"
+        },
+        {
+            "name": "Support function",
+            "scope": "support.function",
+            "foreground": "#8D52D1"
+        },
+        {
+            "name": "Support class",
+            "scope": "support.class",
+            "foreground": "#007F7C"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "font_style": "normal",
+            "foreground": "#EC4990"
+        },
+        {
+            "name": "Keyword operator",
+            "scope": "keyword.operator",
+            "foreground": "#E47C48"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "#404040"
+        },
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "font_style": "normal",
+            "foreground": "color(#5D6C79 a(0.8))"
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "#E47C48"
+        },
+        {
+            "name": "Invalid illegal",
+            "scope": "invalid.illegal",
+            "background": "color(#FD8F3F a(0.7))"
+        },
+        {
+            "name": "Constant other language name md",
+            "scope": "constant.other.language-name.markdown",
+            "font_style": "normal",
+            "foreground": "#8D52D1"
+        },
+        {
+            "name": "Markup heading",
+            "scope": "markup.heading, markup.heading entity.name",
+            "font_style": "bold",
+            "foreground": "#C86733"
+        },
+        {
+            "name": "Markup list",
+            "scope": "markup.list.unnumbered, markup.list.numbered",
+            "font_style": "normal",
+            "foreground": ""
+        },
+        {
+            "name": "Markup bold",
+            "scope": "markup.bold",
+            "font_style": "bold",
+            "foreground": ""
+        },
+        {
+            "name": "Markup italic",
+            "scope": "markup.italic",
+            "font_style": "italic",
+            "foreground": ""
+        },
+        {
+            "name": "Markup underline",
+            "scope": "markup.underline",
+            "font_style": "underline"
+        },
+        {
+            "name": "Markup bold/italic",
+            "scope": "markup.italic markup.bold | markup.bold markup.italic",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Markup bold/underline",
+            "scope": "markup.underline markup.bold | markup.bold markup.underline",
+            "font_style": "bold underline"
+        },
+        {
+            "name": "Markup italic/underline",
+            "scope": "markup.underline markup.italic | markup.italic markup.underline",
+            "font_style": "italic underline"
+        },
+        {
+            "name": "Markup bold/italic/underline",
+            "scope": "markup.bold markup.italic markup.underline | markup.bold markup.underline markup.italic | markup.italic markup.bold markup.underline | markup.italic markup.underline markup.bold | markup.underline markup.bold markup.italic | markup.underline markup.italic markup.bold",
+            "font_style": "bold italic underline"
+        },
+        {
+            "name": "Markup quote",
+            "scope": "markup.quote",
+            "font_style": "italic",
+            "foreground": "#119912"
+        },
+        {
+            "name": "Markup raw code block",
+            "scope": "markup.raw",
+            "background": "#B2D8C4"
+        },
+        {
+            "name": "Markup underline link",
+            "scope": "markup.underline.link",
+            "foreground": "#0282F2"
+        },
+        {
+            "name": "Table md",
+            "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
+            "background": "#B2D8C4",
+            "foreground": ""
+        },
+        {
+            "name": "Punctuation line break md",
+            "scope": "punctuation.definition.hard-line-break.markdown",
+            "background": "color(#B2D8C4 a(0.5))"
+        },
+        {
+            "name": "Markup changed",
+            "scope": "markup.changed",
+            "background": "hsla(55, 100%, 55%, 0.44)",
+            "foreground": "#C86733"
+        },
+        {
+            "name": "Markup deleted",
+            "scope": "markup.deleted",
+            "background": "hsla(338, 65%, 56%, 0.22)",
+            "foreground": "color(#C41A16 a(0.9))"
+        },
+        {
+            "name": "Markup inserted",
+            "scope": "markup.inserted",
+            "background": "hsla(111, 77%, 55%, 0.29)",
+            "foreground": "color(#119912 a(0.9))"
+        },
+        {
+            "name": "Diff header",
+            "scope": "meta.diff, meta.diff.header",
+            "background": "hsla(211, 77%, 50%, 0.17)",
+            "foreground": "#1E73BE"
+        },
+        {
+            "scope": "diff.deleted",
+            "background": "hsla(338, 65%, 56%, 0.14)",
+            "foreground": "color(#C41A16 a(0.6))"
+        },
+        {
+            "scope": "diff.deleted.char",
+            "background": "hsla(338, 50%, 56%, 0.22)",
+            "foreground": "color(#C41A16 a(0.9))"
+        },
+        {
+            "scope": "diff.inserted",
+            "background": "hsla(111, 77%, 55%, 0.17)",
+            "foreground": "color(#119912 a(0.8))"
+        },
+        {
+            "scope": "diff.inserted.char",
+            "background": "hsla(111, 77%, 55%, 0.29)",
+            "foreground": "color(#119912 a(0.9))"
+        },
+        {
+            "name": "Null js",
+            "scope": "constant.language.null.js",
+            "font_style": "normal",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "JSDocs tags",
+            "scope": "entity.other.attribute-name.documentation.js",
+            "foreground": "#38A2AF"
+        },
+        {
+            "name": "String quoted js",
+            "scope": "meta.string.js string.quoted.other.js, meta.string.js string.quoted.single.js",
+            "foreground": "color(#1E73BE a(0.8))"
+        },
+        {
+            "name": "Support other js",
+            "scope": "source.js - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value",
+            "foreground": "color(#119912 a(0.7))"
+        },
+        {
+            "name": "Variable other class js",
+            "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
+            "foreground": "#007F7C"
+        },
+        {
+            "name": "Mapping key",
+            "scope": "meta.mapping.key, meta.mapping.key string",
+            "foreground": "#007F7C"
+        },
+        {
+            "name": "Mapping value",
+            "scope": "meta.mapping.value, meta.mapping.value string",
+            "foreground": "color(#1E73BE a(0.8))"
+        },
+        {
+            "name": "Entity id",
+            "scope": "text.html entity.other.attribute-name.id",
+            "foreground": "#AA0D91"
+        },
+        {
+            "name": "At rule other css",
+            "scope": "meta.at-rule.other.css",
+            "foreground": "#007F7C"
+        },
+        {
+            "name": "Constant css",
+            "scope": "source.css constant",
+            "foreground": "#5D6C79"
+        },
+        {
+            "name": "Support property name and Entity other custom property",
+            "scope": "support.type.property-name.css, entity.other.custom-property.css",
+            "foreground": "#EC4990"
+        },
+        {
+            "name": "Storage type and Method parameters c#",
+            "scope": "storage.type.cs, meta.method.parameters.cs",
+            "foreground": "#1E73BE"
+        },
+        {
+            "name": "Constant language go",
+            "scope": "constant.language.go",
+            "foreground": "#E47C48"
+        },
+        {
+            "name": "Storage Support type builtin go",
+            "scope": "storage.type.go support.type.builtin.go",
+            "foreground": "#EC4990"
+        },
+        {
+            "name": "String quoted go",
+            "scope": "string.quoted.double.go, string.quoted.backtick.go",
+            "foreground": "color(#1E73BE a(0.8))"
+        },
+        {
+            "name": "Git attributes value",
+            "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
+            "foreground": "#EC4990"
+        },
+        {
+            "name": "Null sql",
+            "scope": "constant.language.null.sql",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "Keyword operator logical sql",
+            "scope": "keyword.operator.logical.sql",
+            "font_style": "normal",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "Storage modifier sql",
+            "scope": "storage.modifier.sql",
+            "foreground": "#38A2AF"
+        },
+        {
+            "name": "Table toml",
+            "scope": "entity.name.table.toml",
+            "foreground": "#1E73BE"
+        },
+        {
+            "name": "Key toml",
+            "scope": "entity.name.tag.toml",
+            "foreground": "#9B2393"
+        },
+        {
+            "name": "Model rails",
+            "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby",
+            "foreground": "color(#1E73BE a(0.8))"
+        },
+        {
+            "name": "Constant boolean ruby",
+            "scope": "constant.language.boolean.ruby",
+            "foreground": "#FD8F3F"
+        },
+        {
+            "name": "Entity name class ruby",
+            "scope": "entity.name.class.ruby",
+            "foreground": "#404040"
+        },
+        {
+            "name": "Constant ruby",
+            "scope": "source.ruby constant",
+            "foreground": "color(#1E73BE a(0.8))"
+        },
+        {
+            "name": "Variable other readwrite instance ruby",
+            "scope": "variable.other.readwrite.instance.ruby",
+            "foreground": "#AA0D91"
+        },
+        {
+            "name": "Constant language rust",
+            "scope": "constant.language.rust",
+            "foreground": "#FC5B57"
+        },
+        {
+            "name": "Entity name function",
+            "scope": "entity.name.function.rust",
+            "foreground": "#007F7C"
+        },
+        {
+            "name": "Keyword control rust",
+            "scope": "keyword.control.rust",
+            "foreground": "#EC4990"
+        },
+        {
+            "name": "Keyword operator rust",
+            "scope": "keyword.operator.rust",
+            "foreground": "#FD8F3F"
+        },
+        {
+            "name": "String quoted rust",
+            "scope": "source.rust string.quoted",
+            "foreground": "color(#1E73BE a(0.8))"
+        },
+        {
+            "name": "Storage modifier rust",
+            "scope": "storage.modifier.rust",
+            "foreground": "color(#119912 a(0.6))"
+        },
+        {
+            "name": "Storage type rust",
+            "scope": "storage.type.rust",
+            "foreground": "#EC4990"
+        },
+        {
+            "name": "Support macro rust",
+            "scope": "support.macro.rust",
+            "foreground": "#007F7C"
+        },
+        {
+            "name": "Support type rust",
+            "scope": "support.type.rust",
+            "foreground": "#E47C48"
+        }
+    ]
+}
