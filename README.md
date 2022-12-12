@@ -4,7 +4,7 @@
     </a>
 </p>
 
-![Color Scheme Bass](https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshots.gif)
+![Color Scheme Bass](assets/screenshots.gif)
 
 ## Color scheme Bass
 
@@ -12,39 +12,39 @@ Color-schemes available are (Click name to view)
 
 <details>
   <summary>Bass Biohack</summary>
-  <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-biohack.png" name="Biohack">
+  <img src="assets/screenshot-biohack.png" name="Biohack">
 </details>
 <details>
   <summary>Bass Blackcomb</summary>
-  <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-blackcomb.png" name="Blackcomb">
+  <img src="assets/screenshot-blackcomb.png" name="Blackcomb">
 </details>
 <details>
   <summary>Bass Bowtruckle</summary>
-  <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-bowtruckle.png" name="Bowtruckle">
+  <img src="assets/screenshot-bowtruckle.png" name="Bowtruckle">
 </details>
 <details>
   <summary>Bass D-O</summary>
-  <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-d-o.png" name="D-O">
+  <img src="assets/screenshot-d-o.png" name="D-O">
 </details>
 <details>
   <summary>Bass Fuji</summary>
-  <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-fuji.png" name="Fuji">
+  <img src="assets/screenshot-fuji.png" name="Fuji">
 </details>
 <details>
   <summary>Bass Lagoon</summary>
-  <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-lagoon.png" name="Lagoon">
+  <img src="assets/screenshot-lagoon.png" name="Lagoon">
 </details>
 <details>
   <summary>Bass Nimbus</summary>
-  <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-nimbus.png" name="Nimbus">
+  <img src="assets/screenshot-nimbus.png" name="Nimbus">
 </details>
 <details>
   <summary>Bass Roci</summary>
-  <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-roci.png" name="Roci">
+  <img src="assets/screenshot-roci.png" name="Roci">
 </details>
 <details>
   <summary>Bass Zora</summary>
-  <img src="https://github.com/53v3n3d4/Color-Scheme-Bass/blob/main/assets/screenshot-zora.png" name="Zora">
+  <img src="assets/screenshot-zora.png" name="Zora">
 </details>
 
 > In screenshots, we are using Theme Treble  
