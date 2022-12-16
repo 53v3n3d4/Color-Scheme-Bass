@@ -507,7 +507,7 @@
          *
          */
         {
-            "name": "Entity id", // i.e. id
+            "name": "Entity id html", // i.e. id
             "scope": "text.html entity.other.attribute-name.id",
             "foreground": "var(entity-other-attribute-name-html-fg)"
         },
@@ -528,7 +528,7 @@
             "foreground": "var(constant-css-fg)"
         },
         {
-            "name": "Support property name and Entity other custom property", // i.e Margin:, --black: 
+            "name": "Support property name and Entity other custom property css", // i.e Margin:, --black: 
             "scope": "support.type.property-name.css, entity.other.custom-property.css",
             "foreground": "var(support-entity-property-css-fg)"
         },

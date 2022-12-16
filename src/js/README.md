@@ -6,7 +6,7 @@ Npm and node -e works.
 If prefer using yarn, use setting below.  
 ```
 // .yarnrc.yml
-nodeLinker: "pnpm"
+nodeLinker: pnpm
 ```
 
 ```

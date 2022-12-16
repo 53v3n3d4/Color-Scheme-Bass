@@ -10,7 +10,8 @@ Names should be followed by option merge or replace.
 E.g. sublimeFile('bc-replace').`
 
 // Write sublime file
-// Color-schemes: Bc,
+// Color-schemes: Blackcomb, Biohack, Bowtruckle, D-O, Fuji, Lagoon, Nimbus,
+// Roci and Zora
 export function sublimeFile (name) {
   switch (name) {
     case 'bc-merge':
