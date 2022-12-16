@@ -38,7 +38,7 @@
         "find_highlight": "#A7D4B4",
         "find_highlight_foreground": "#FFFFFF",
         "scroll_highlight": "#FFE76D",
-        "rulers": "#0282F2",
+        "rulers": "color(#5D6C79 a(0.5)",
         "guide": "color(#2077FB a(0.5))",
         "active_guide": "#1C02CF",
         "stack_guide": "color(#2077FB a(0.5))",
@@ -297,7 +297,7 @@
             "foreground": "#119912"
         },
         {
-            "name": "Entity id",
+            "name": "Entity id html",
             "scope": "text.html entity.other.attribute-name.id",
             "foreground": "#AA0D91"
         },
@@ -312,7 +312,7 @@
             "foreground": "#5D6C79"
         },
         {
-            "name": "Support property name and Entity other custom property",
+            "name": "Support property name and Entity other custom property css",
             "scope": "support.type.property-name.css, entity.other.custom-property.css",
             "foreground": "#1E73BE"
         },

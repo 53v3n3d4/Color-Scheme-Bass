@@ -52,7 +52,7 @@
         "find-highlight-fg":          "var(blue2)",
         "scroll-highlight":           "var(magenta3)",
         /** Rulers */
-        "rulers":                     "var(black4)",
+        "rulers":                     "color(var(gray4) a(0.5)", //"var(black4)",
         /** Guides */
         "guide":                      "color(var(gray3) a(0.5))",
         "active-guide":               "var(blue1)",
@@ -168,12 +168,12 @@
         "diff-inserted-char-fg":    "color(var(green2) a(0.9))",
 
         /** Javascript */
-        "constant-lang-null-js-font-style":                  "normal",
-        "constant-lang-null-js-fg":                          "var(blue4)",
-        "entity-other-attribute-name-doc-js-fg":             "var(brown1)",
-        "meta-string-quoted-js-fg":                          "var(blue2)",
-        "support-other-js-fg":                               "var(green-light4)",
-        "variable-other-class-js-fg":                        "var(brown1)",
+        "constant-lang-null-js-font-style":         "normal",
+        "constant-lang-null-js-fg":                 "var(blue4)",
+        "entity-other-attribute-name-doc-js-fg":    "var(brown1)",
+        "meta-string-quoted-js-fg":                 "var(blue2)",
+        "support-other-js-fg":                      "var(green-light4)",
+        "variable-other-class-js-fg":               "var(brown1)",
 
         /** Key Value - Json, Yaml, Javascript */
         "meta-mapping-key-fg":      "var(purple2)",

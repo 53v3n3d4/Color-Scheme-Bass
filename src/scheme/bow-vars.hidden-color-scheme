@@ -52,7 +52,7 @@
         "find-highlight-fg":          "color(var(red2) a(0.7))",
         "scroll-highlight":           "var(yellow2)",
         /** Rulers */
-        "rulers":                     "var(brown1)", // This is also setting placeholder
+        "rulers":                     "color(var(gray4) a(0.5)", //"var(brown1)", // This is also setting placeholder
         /** Guides */
         "guide":                      "color(var(gray3) a(0.5)",
         "active-guide":               "color(var(green3) a(0.7))",
@@ -168,12 +168,12 @@
         "diff-inserted-char-fg":    "color(var(green2) a(0.9))",
 
         /** Javascript */
-        "constant-lang-null-js-font-style":                  "normal",
-        "constant-lang-null-js-fg":                          "var(red1)",
-        "entity-other-attribute-name-doc-js-fg":             "var(cyan2)",
-        "meta-string-quoted-js-fg":                          "color(var(blue2) a(0.8))",
-        "support-other-js-fg":                               "color(var(green2) a(0.7))",
-        "variable-other-class-js-fg":                        "var(cyan4)",
+        "constant-lang-null-js-font-style":         "normal",
+        "constant-lang-null-js-fg":                 "var(red1)",
+        "entity-other-attribute-name-doc-js-fg":    "var(cyan2)",
+        "meta-string-quoted-js-fg":                 "color(var(blue2) a(0.8))",
+        "support-other-js-fg":                      "color(var(green2) a(0.7))",
+        "variable-other-class-js-fg":               "var(cyan4)",
 
         /** Key Value - Json, Yaml, Javascript */
         "meta-mapping-key-fg":      "var(cyan4)",
