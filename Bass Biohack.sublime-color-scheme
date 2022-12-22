@@ -149,7 +149,7 @@
         {
             "name": "Markup list",
             "scope": "markup.list.unnumbered, markup.list.numbered",
-            "font_style": "bold",
+            "font_style": "normal",
             "foreground": ""
         },
         {
@@ -339,7 +339,7 @@
         {
             "name": "Git attributes value",
             "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
-            "foreground": "#BF8555"
+            "foreground": "#A7D4B4"
         },
         {
             "name": "Null sql",

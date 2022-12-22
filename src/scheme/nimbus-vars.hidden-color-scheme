@@ -89,24 +89,24 @@
 
         /** Constant */
         // "constant-fg":                "var(green4)",
-        "constant-num-fg":            "var(blue4)",
+        "constant-num-fg":            "var(blue3)",
         // "constant-lang-fg":           "var(blue3)",
         // "constant-char-escape-fg":    "var(blue4)",
 
         /** Storage */
         // "storage-fg":             "var(purple3)",
-        "storage-modifier-fg":    "var(blue2)",
+        "storage-modifier-fg":    "var(green-light3)",
 
         /** Support */
         // "support-fg":          "var(green3)",
-        "support-fn-fg":       "var(red1)",
+        "support-fn-fg":       "color(var(blue3) a(0.6))",
         "support-class-fg":    "var(brown1)",
 
         /** Keyword */
         "keyword-font-style":        "normal",
         "keyword-fg":                "var(cyan2)",
         // "keyword-ctrl-fg":           "var(purple3)",
-        "keyword-operator-fg":       "var(gold2)",
+        "keyword-operator-fg":       "var(gold3)",
         // "keyword-declaration-fg":    "var(green3)",
 
         /** String */
@@ -175,7 +175,7 @@
         "support-other-js-fg":                      "var(green-light3)",
         "variable-other-class-js-fg":               "var(orange3)",
 
-        /** Key Value - Json, Yaml, Javascript */
+        /** Mapping Key Value */
         "meta-mapping-key-fg":      "var(brown1)",
         "meta-mapping-value-fg":    "var(purple3)",
 
@@ -185,13 +185,13 @@
         /** CSS */
         "meta-at-rule-other-css-fg":          "var(cyan2)",
         "constant-css-fg":                    "var(gray4)",
-        "support-entity-property-css-fg":     "var(brown1)",
+        "support-entity-property-css-fg":     "var(pink-light3)",
 
         /** C# */
         "storage-type-method-params-cs-fg":    "var(blue2)",
 
         /** Go */
-        "constant-lang-go-fg":                   "var(red1)",
+        "constant-lang-go-fg":                   "var(gold1)",
         "storage-support-type-builtin-go-fg":    "color(var(magenta3) a(0.7))",
         "string-quoted-go-fg":                   "var(purple2)",
 
@@ -202,23 +202,23 @@
         "constant-lang-null-sql-fg":                  "var(red1)",
         "keyword-operator-logical-sql-font-style":    "normal",
         "keyword-operator-logical-sql-fg":            "var(red1)",
-        "storage-modifier-sql-fg":                    "var(blue2)",
+        "storage-modifier-sql-fg":                    "var(green-light3)",
 
         /** Toml */
         "entity-name-table-toml-fg":    "var(purple2)",
         "entity-name-tag-toml-fg":      "var(brown1)",
 
         /** Rails */
-        "meta-model-rails-fg":    "var(blue2)",
+        "meta-model-rails-fg":    "var(purple3)",
 
         /** Ruby */
-        "constant-lang-bool-rb-fg":                     "var(red1)",
+        "constant-lang-bool-rb-fg":                     "var(gold1)",
         "entity-name-class-ruby-fg":                    "var(black4)",
         "constant-rb-fg":                               "var(purple3)",
-        "variable-other-readwrite-instance-ruby-fg":    "var(blue3)",
+        "variable-other-readwrite-instance-ruby-fg":    "var(green-light3)",
 
         /** Rust Enhanced */
-        "constant-lang-rust-fg":       "var(red1)",
+        "constant-lang-rust-fg":       "var(gold1)",
         "entity-name-fn-rust-fg":      "var(orange2)",
         "keyword-ctrl-rust-fg":        "var(cyan2)",
         "keyword-operator-rust-fg":    "var(cyan2)",
@@ -226,7 +226,7 @@
         "storage-modifier-rust-fg":    "var(green-light3)",
         "storage-type-rust-fg":        "var(cyan2)",
         "support-macro-rust-fg":       "var(brown1)",
-        "support-type-rust-fg":        "var(red1)"
+        "support-type-rust-fg":        "var(magenta3)"
 
     },
     "globals": {},

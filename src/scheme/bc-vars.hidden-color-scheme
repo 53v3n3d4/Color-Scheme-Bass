@@ -19,7 +19,7 @@
         "misspelling":                "var(orange1)",
         "fold-marker":                "var(yellow1)", // when folded, the "..."
         "minimap-border":             "var(gray6)",
-        "accent":                     "var(cyan2)",
+        "accent":                     "color(var(blue5) a(0.8))",
         /** Css */
         // Popup css: Example, bg color, link color, title color of definition/reference. Round corner, border, bg comes from Theme file.
         "popup-css": "\n      html, body {\n        background-color: transparent;\n        color: #B4B4B4;\n      }\n      body {\n        padding: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
@@ -128,7 +128,7 @@
         "constant-other-lang-name-md-fg":             "var(gold2)",
         "markup-heading-font-style":                  "bold",
         "markup-heading-fg":                          "var(magenta3)",
-        "markup-list-font-style":                     "bold",
+        "markup-list-font-style":                     "normal",
         "markup-list-fg":                             "",
         "markup-bold-font-style":                     "bold",
         "markup-bold-fg":                             "",
@@ -175,7 +175,7 @@
         "support-other-js-fg":                      "var(green-light2)",
         "variable-other-class-js-fg":               "var(orange2)",
 
-        /** Key Value - Json, Yaml, Javascript */
+        /** Mapping Key Value */
         "meta-mapping-key-fg":      "var(magenta3)",
         "meta-mapping-value-fg":    "var(blue-light4)",
 

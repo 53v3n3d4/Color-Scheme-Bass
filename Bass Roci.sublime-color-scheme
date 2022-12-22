@@ -149,7 +149,7 @@
         {
             "name": "Markup list",
             "scope": "markup.list.unnumbered, markup.list.numbered",
-            "font_style": "bold",
+            "font_style": "normal",
             "foreground": ""
         },
         {

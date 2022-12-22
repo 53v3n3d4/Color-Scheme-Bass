@@ -128,7 +128,7 @@
         "constant-other-lang-name-md-fg":             "var(yellow1)",
         "markup-heading-font-style":                  "bold",
         "markup-heading-fg":                          "var(pink-light4)",
-        "markup-list-font-style":                     "bold",
+        "markup-list-font-style":                     "normal",
         "markup-list-fg":                             "",
         "markup-bold-font-style":                     "bold",
         "markup-bold-fg":                             "",
@@ -175,7 +175,7 @@
         "support-other-js-fg":                      "color(var(green-light3) a(0.9))",
         "variable-other-class-js-fg":               "var(orange3)",
 
-        /** Key Value - Json, Yaml, Javascript */
+        /** Mapping Key Value */
         "meta-mapping-key-fg":      "var(pink-light3)",
         "meta-mapping-value-fg":    "var(blue-light4)",
 

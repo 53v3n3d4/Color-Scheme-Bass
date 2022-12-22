@@ -61,6 +61,7 @@
         "green-light7":     "#D6EEDD", // "rgb(214, 238, 221)"
         "gold1":            "#FFB500", // "rgb(255, 181, 0)"
         "gold2":            "#D0BC56", // "rgb(208, 188, 86)"
+        "gold3":            "#D1B502", // "rgb(219, 181, 2)"
         "magenta1":         "#FF00FF", // "rgb(255, 0, 255)"
         "magenta2":         "#FC6BAA", // "rgb(252, 107, 170)"
         "magenta3":         "#EC4990", // "rgb(236, 73, 144)"
