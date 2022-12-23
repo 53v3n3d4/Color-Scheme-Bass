@@ -10,15 +10,42 @@
 - Change markup list font style, bold -> normal
 - Change accent color, cyan -> blue
 
+### D-O
+- Change foreground and string color, black -> gray
+- Change entity name and entity inherited class color, cyan -> purple
+- Change variable function color, cyan -> purple
+- Change variable other constant color to lighter tone
+- Change constant numeric color, blue -> gold
+- Change support function color, cyan -> green-light
+- Change storage modifier color, cyan -> magenta
+- Change storage modifier sql color, cyan -> magenta
+- Change keyword operator color, magenta -> purple
+- Change comment color to lighter tone
+- Change constant language null javascript color, orange -> red
+- Change meta string quoted javascript color, purple -> brown-light
+- Change meta at rule other css, constant css and support entity property css color to lighter tone
+- Change string quoted go color, purple -> brown-light
+- Change key operator logical sql color, orange -> red
+- Change meta model rails color, cyan -> purple
+- Change constant boolean ruby color to lighter tone
+- Change variable other readwrite instance ruby color, cyan -> magenta
+- Change entity name rust color to lighter tone
+- Change constant language and support type rust color, red -> green-light
+- Change entity name function, keyword control, storage modifier and storage type rust color to lighter tone
+- Change keyword operator rust color, orange -> purple
+- Change string quoted rust color, purple -> brown-light
+- Change support macro rust color, cyan -> green
+
 ### Nimbus
 - Change constant numeric color to a lighter blue
 - Change support function color, red -> blue
 - Change storage modifier color, blue -> green-light
+- Change storage modifier sql color, blue -> green-light
 - Change constant language rust color, red -> gold
 - Change support type rust color, red -> magenta
 - Change meta model rails color, blue -> purple
-- Change constant boolean ruby, red -> gold
-- Change variable other readwrite instance ruby, blue -> green-light
+- Change constant boolean ruby color, red -> gold
+- Change variable other readwrite instance ruby color, blue -> green-light
 - Change support entity property css color, brown -> pink-light
 
 ### Roci
