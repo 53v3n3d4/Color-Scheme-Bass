@@ -1,6 +1,7 @@
 # Changelog
 
 ## [0.1.6] - 2023
+- Change string quoted javascript, go, rust to string
 
 ### Biohack
 - Change markup list font style, bold -> normal
@@ -12,6 +13,7 @@
 
 ### D-O
 - Change foreground and string color, black -> gray
+- Change highlight color, brown -> gold
 - Change entity name and entity inherited class color, cyan -> purple
 - Change variable function color, cyan -> purple
 - Change variable other constant color to lighter tone
@@ -23,11 +25,13 @@
 - Change comment color to lighter tone
 - Change constant language null javascript color, orange -> red
 - Change meta string quoted javascript color, purple -> brown-light
-- Change meta at rule other css, constant css and support entity property css color to lighter tone
+- Change meta at rule other css color to lighter tone
+- Change support entity property css color, purple -> blue
 - Change string quoted go color, purple -> brown-light
 - Change key operator logical sql color, orange -> red
 - Change meta model rails color, cyan -> purple
 - Change constant boolean ruby color to lighter tone
+- Change entity class ruby color, black -> gray
 - Change variable other readwrite instance ruby color, cyan -> magenta
 - Change entity name rust color to lighter tone
 - Change constant language and support type rust color, red -> green-light

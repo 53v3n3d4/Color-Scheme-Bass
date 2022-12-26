@@ -116,7 +116,7 @@
         {
             "name": "String",
             "scope": "string",
-            "foreground": "#404040"
+            "foreground": "#9B2393"
         },
         {
             "name": "Comment",
@@ -274,7 +274,7 @@
         {
             "name": "String quoted js",
             "scope": "meta.string.js string.quoted.other.js, meta.string.js string.quoted.single.js",
-            "foreground": "#9B2393"
+            "foreground": ""
         },
         {
             "name": "Support other js",
@@ -334,7 +334,7 @@
         {
             "name": "String quoted go",
             "scope": "string.quoted.double.go, string.quoted.backtick.go",
-            "foreground": "#9B2393"
+            "foreground": ""
         },
         {
             "name": "Git attributes value",
@@ -415,7 +415,7 @@
         {
             "name": "String quoted rust",
             "scope": "source.rust string.quoted",
-            "foreground": "#9B2393"
+            "foreground": ""
         },
         {
             "name": "Storage modifier rust",

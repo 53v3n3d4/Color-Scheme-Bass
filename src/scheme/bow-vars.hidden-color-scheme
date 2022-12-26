@@ -110,7 +110,7 @@
         // "keyword-declaration-fg":    "var(green3)",
 
         /** String */
-        "string-fg":    "var(black4)",
+        "string-fg":    "color(var(blue2) a(0.8))",
 
         /** Comment */
         "comment-font-style":    "normal",
@@ -171,11 +171,11 @@
         "constant-lang-null-js-font-style":         "normal",
         "constant-lang-null-js-fg":                 "var(red1)",
         "entity-other-attribute-name-doc-js-fg":    "var(cyan2)",
-        "meta-string-quoted-js-fg":                 "color(var(blue2) a(0.8))",
+        "meta-string-quoted-js-fg":                 "",
         "support-other-js-fg":                      "color(var(green2) a(0.7))",
         "variable-other-class-js-fg":               "var(cyan4)",
 
-        /** Key Value - Json, Yaml, Javascript */
+        /** Mapping Key Value */
         "meta-mapping-key-fg":      "var(cyan4)",
         "meta-mapping-value-fg":    "color(var(blue2) a(0.8))",
 
@@ -193,7 +193,7 @@
         /** Go */
         "constant-lang-go-fg":                   "var(orange2)",
         "storage-support-type-builtin-go-fg":    "var(magenta3)",
-        "string-quoted-go-fg":                   "color(var(blue2) a(0.8))",
+        "string-quoted-go-fg":                   "",
 
         /** Git */
         "meta-mapping-value-git-attributes-fg":    "var(magenta3)",
@@ -222,7 +222,7 @@
         "entity-name-fn-rust-fg":      "var(cyan4)",
         "keyword-ctrl-rust-fg":        "var(magenta3)",
         "keyword-operator-rust-fg":    "var(orange1)",
-        "string-quoted-rust-fg":       "color(var(blue2) a(0.8))",
+        "string-quoted-rust-fg":       "",
         "storage-modifier-rust-fg":    "color(var(green2) a(0.6))",
         "storage-type-rust-fg":        "var(magenta3)",
         "support-macro-rust-fg":       "var(cyan4)",

@@ -34,7 +34,7 @@
         "inactive_selection_foreground": "#5D6C79",
         "selection_corner_style": "round",
         "selection_corner_radius": "2",
-        "highlight": "#BF8555",
+        "highlight": "#D1B502",
         "find_highlight": "#F9DF9C",
         "find_highlight_foreground": "#BF8555",
         "scroll_highlight": "#FD8F3F",
@@ -65,7 +65,7 @@
         {
             "name": "Entity other attribute name",
             "scope": "entity.other.attribute-name",
-            "foreground": "color(#C86733 a(0.7))"
+            "foreground": "color(#C86733 a(0.8))"
         },
         {
             "name": "Entity other pseudo class",
@@ -116,7 +116,7 @@
         {
             "name": "String",
             "scope": "string",
-            "foreground": "#5D6C79"
+            "foreground": "color(#643820 a(0.5))"
         },
         {
             "name": "Comment",
@@ -274,7 +274,7 @@
         {
             "name": "String quoted js",
             "scope": "meta.string.js string.quoted.other.js, meta.string.js string.quoted.single.js",
-            "foreground": "color(#643820 a(0.5))"
+            "foreground": ""
         },
         {
             "name": "Support other js",
@@ -314,7 +314,7 @@
         {
             "name": "Support property name and Entity other custom property css",
             "scope": "support.type.property-name.css, entity.other.custom-property.css",
-            "foreground": "color(#AA0D91 a(0.7))"
+            "foreground": "color(#0282F2 a(0.8))"
         },
         {
             "name": "Storage type and Method parameters c#",
@@ -334,7 +334,7 @@
         {
             "name": "String quoted go",
             "scope": "string.quoted.double.go, string.quoted.backtick.go",
-            "foreground": "color(#643820 a(0.5))"
+            "foreground": ""
         },
         {
             "name": "Git attributes value",
@@ -380,7 +380,7 @@
         {
             "name": "Entity name class ruby",
             "scope": "entity.name.class.ruby",
-            "foreground": "#404040"
+            "foreground": "#5D6C79"
         },
         {
             "name": "Constant ruby",
@@ -415,7 +415,7 @@
         {
             "name": "String quoted rust",
             "scope": "source.rust string.quoted",
-            "foreground": "color(#643820 a(0.5))"
+            "foreground": ""
         },
         {
             "name": "Storage modifier rust",
