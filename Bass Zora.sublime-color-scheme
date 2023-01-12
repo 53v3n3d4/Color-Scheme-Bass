@@ -219,45 +219,45 @@
         {
             "name": "Markup changed",
             "scope": "markup.changed",
-            "background": "hsla(55, 100%, 22%, 0.22)",
-            "foreground": "#FFC849"
+            "background": "hsla(47, 29%, 23%, 0.6)",
+            "foreground": "hsla(58, 63%, 64%, 0.9)"
         },
         {
             "name": "Markup deleted",
             "scope": "markup.deleted",
-            "background": "hsla(345, 87%, 22%, 0.22)",
-            "foreground": "color(#C41A16 l(+ 14%))"
+            "background": "hsla(6, 28%, 23%, 0.6)",
+            "foreground": "hsla(12, 80%, 69%, 0.9)"
         },
         {
             "name": "Markup inserted",
             "scope": "markup.inserted",
-            "background": "hsla(133, 89%, 22%, 0.22)",
-            "foreground": "color(#57C038 l(+ 14%))"
+            "background": "hsla(133, 29%, 22%, 0.6)",
+            "foreground": "color(#83B85E l(+ 3%))"
         },
         {
             "name": "Diff header",
             "scope": "meta.diff, meta.diff.header",
-            "background": "hsla(234, 77%, 33%, 0.22)",
+            "background": "hsla(234, 23%, 23%, 0.6)",
             "foreground": "#5DD8FF"
         },
         {
             "scope": "diff.deleted",
-            "background": "hsla(345, 87%, 22%, 0.22)",
+            "background": "hsla(6, 28%, 23%, 0.6)",
             "foreground": "color(#C41A16 l(+ 14%))"
         },
         {
             "scope": "diff.deleted.char",
-            "background": "hsla(345, 87%, 44%, 0.22)",
+            "background": "hsla(6, 28%, 34%, 0.6)",
             "foreground": "#FC5B57"
         },
         {
             "scope": "diff.inserted",
-            "background": "hsla(133, 89%, 22%, 0.22)",
+            "background": "hsla(133, 29%, 22%, 0.6)",
             "foreground": "color(#57C038 l(+ 14%))"
         },
         {
             "scope": "diff.inserted.char",
-            "background": "hsla(133, 89%, 44%, 0.22)",
+            "background": "hsla(133, 29%, 32%, 0.6)",
             "foreground": "color(#57C038 l(+ 7%))"
         },
         {
