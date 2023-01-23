@@ -14,7 +14,7 @@
         "invisibles":                 "var(gray3)",
         "caret":                      "var(orange1)", // mouse cursor
         "block-caret":                "",
-        "line-highlight":             "var(green-light1)",
+        "line-highlight":             "color(var(green-light1) a(0.6))",
         /** Accents */
         "misspelling":                "var(pink1)",
         "fold-marker":                "var(yellow1)", // when folded, the "..."

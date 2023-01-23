@@ -12,7 +12,7 @@
         "invisibles": "#5D6C79",
         "caret": "#ECECEC",
         "block_caret": "",
-        "line_highlight": "#323234",
+        "line_highlight": "color(#18171B l(+ 7%) a(0.5))",
         "misspelling": "#FD8F3F",
         "fold_marker": "#FFE76D",
         "minimap_border": "#525055",

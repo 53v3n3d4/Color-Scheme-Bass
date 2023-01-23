@@ -3,6 +3,7 @@
 ## [0.1.6] - 2023
 - Change string quoted javascript, go, rust to string
 - Change Diff and Inline Diffs color tones
+- Change line highlight transparency
 
 ### Biohack
 - Change markup list font style, bold -> normal
