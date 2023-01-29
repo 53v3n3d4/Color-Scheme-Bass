@@ -13,6 +13,18 @@
 - Change markup list font style, bold -> normal
 - Change accent color, cyan -> blue
 
+### Bowtruckle
+- Change support function color, purple -> orange
+- Change keyword operator color, orange -> brown
+- Change invalid depreceated color, orange -> red
+- Change invalid illegal color, orange -> red
+- Change constant language null javascript color to lighter tone
+- Change constant language go color, orange -> red
+- Change key operator logical sql color to lighter tone
+- Change constant boolean ruby color, orange -> red
+- Change support type rust transparency
+- Change constant boolean ruby color, orange -> red
+
 ### D-O
 - Change foreground and string color, black -> gray
 - Change highlight color, brown -> gold

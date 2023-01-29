@@ -14,7 +14,7 @@
         "invisibles":                 "var(gray3)",
         "caret":                      "var(blue3)", // mouse cursor
         "block-caret":                "",
-        "line-highlight":             "var(green-light2)",
+        "line-highlight":             "color(var(bg-color) l(- 11%) a(0.5))", //"var(green-light2)",
         /** Accents */
         "misspelling":                "var(red1)",
         "fold-marker":                "var(yellow1)", // when folded, the "..."
@@ -99,14 +99,14 @@
 
         /** Support */
         // "support-fg":          "var(green3)",
-        "support-fn-fg":       "var(purple1)",
+        "support-fn-fg":       "color(var(orange2) a(0.9))",
         "support-class-fg":    "var(cyan4)",
 
         /** Keyword */
         "keyword-font-style":        "normal",
         "keyword-fg":                "var(magenta3)",
         // "keyword-ctrl-fg":           "var(purple3)",
-        "keyword-operator-fg":       "var(orange2)",
+        "keyword-operator-fg":       "color(var(brown1) a(0.8))",
         // "keyword-declaration-fg":    "var(green3)",
 
         /** String */
@@ -118,8 +118,8 @@
 
         /** Invalid */
         // "invalid-fg":               "var(red1)",
-        "invalid-deprecated-fg":    "var(orange2)",
-        "invalid-illegal-fg":       "color(var(orange1) a(0.7))",
+        "invalid-deprecated-fg":    "var(red2)",
+        "invalid-illegal-fg":       "var(red1)",
 
         // End minimal recommended setup
 
@@ -169,7 +169,7 @@
 
         /** Javascript */
         "constant-lang-null-js-font-style":         "normal",
-        "constant-lang-null-js-fg":                 "var(red1)",
+        "constant-lang-null-js-fg":                 "color(var(red2) l(+ 18%))",
         "entity-other-attribute-name-doc-js-fg":    "var(cyan2)",
         "meta-string-quoted-js-fg":                 "",
         "support-other-js-fg":                      "color(var(green2) a(0.7))",
@@ -191,7 +191,7 @@
         "storage-type-method-params-cs-fg":    "var(blue2)",
 
         /** Go */
-        "constant-lang-go-fg":                   "var(orange2)",
+        "constant-lang-go-fg":                   "color(var(red2) l(+ 18%))",
         "storage-support-type-builtin-go-fg":    "var(magenta3)",
         "string-quoted-go-fg":                   "",
 
@@ -199,9 +199,9 @@
         "meta-mapping-value-git-attributes-fg":    "var(magenta3)",
 
         /** Sql */
-        "constant-lang-null-sql-fg":                  "var(red1)",
+        "constant-lang-null-sql-fg":                  "color(var(red2) l(+ 18%))",
         "keyword-operator-logical-sql-font-style":    "normal",
-        "keyword-operator-logical-sql-fg":            "var(red1)",
+        "keyword-operator-logical-sql-fg":            "color(var(red2) l(+ 18%))",
         "storage-modifier-sql-fg":                    "var(cyan2)",
 
         /** Toml */
@@ -212,21 +212,21 @@
         "meta-model-rails-fg":    "color(var(blue2) a(0.8))",
 
         /** Ruby */
-        "constant-lang-bool-rb-fg":                     "var(orange1)",
+        "constant-lang-bool-rb-fg":                     "color(var(red2) l(+ 18%))",
         "entity-name-class-ruby-fg":                    "var(black4)",
         "constant-rb-fg":                               "color(var(blue2) a(0.8))",
         "variable-other-readwrite-instance-ruby-fg":    "var(purple3)",
 
         /** Rust Enhanced */
-        "constant-lang-rust-fg":       "var(red1)",
+        "constant-lang-rust-fg":       "color(var(red2) l(+ 18%))",
         "entity-name-fn-rust-fg":      "var(cyan4)",
         "keyword-ctrl-rust-fg":        "var(magenta3)",
         "keyword-operator-rust-fg":    "var(orange1)",
         "string-quoted-rust-fg":       "",
         "storage-modifier-rust-fg":    "color(var(green2) a(0.6))",
         "storage-type-rust-fg":        "var(magenta3)",
-        "support-macro-rust-fg":       "var(cyan4)",
-        "support-type-rust-fg":        "var(orange2)"
+        "support-macro-rust-fg":       "color(var(gold2) l(- 7%))",
+        "support-type-rust-fg":        "color(var(red2) l(+ 18%))"
 
     },
     "globals": {},

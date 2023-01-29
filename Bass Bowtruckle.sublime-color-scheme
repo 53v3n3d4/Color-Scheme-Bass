@@ -12,7 +12,7 @@
         "invisibles": "#9B9B9B",
         "caret": "#0282F2",
         "block_caret": "",
-        "line_highlight": "#A7D4B4",
+        "line_highlight": "color(#C4E7CE l(- 11%) a(0.5))",
         "misspelling": "#FC5B57",
         "fold_marker": "#FFE76D",
         "minimap_border": "color(#83B85E a(0.5))",
@@ -95,7 +95,7 @@
         {
             "name": "Support function",
             "scope": "support.function",
-            "foreground": "#8D52D1"
+            "foreground": "color(#E47C48 a(0.9))"
         },
         {
             "name": "Support class",
@@ -111,7 +111,7 @@
         {
             "name": "Keyword operator",
             "scope": "keyword.operator",
-            "foreground": "#E47C48"
+            "foreground": "color(#BF8555 a(0.8))"
         },
         {
             "name": "String",
@@ -127,12 +127,12 @@
         {
             "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
-            "foreground": "#E47C48"
+            "foreground": "#C41A16"
         },
         {
             "name": "Invalid illegal",
             "scope": "invalid.illegal",
-            "background": "color(#FD8F3F a(0.7))"
+            "background": "#FC5B57"
         },
         {
             "name": "Constant other language name md",
@@ -264,7 +264,7 @@
             "name": "Null js",
             "scope": "constant.language.null.js",
             "font_style": "normal",
-            "foreground": "#FC5B57"
+            "foreground": "color(#C41A16 l(+ 18%))"
         },
         {
             "name": "JSDocs tags",
@@ -324,7 +324,7 @@
         {
             "name": "Constant language go",
             "scope": "constant.language.go",
-            "foreground": "#E47C48"
+            "foreground": "color(#C41A16 l(+ 18%))"
         },
         {
             "name": "Storage Support type builtin go",
@@ -344,13 +344,13 @@
         {
             "name": "Null sql",
             "scope": "constant.language.null.sql",
-            "foreground": "#FC5B57"
+            "foreground": "color(#C41A16 l(+ 18%))"
         },
         {
             "name": "Keyword operator logical sql",
             "scope": "keyword.operator.logical.sql",
             "font_style": "normal",
-            "foreground": "#FC5B57"
+            "foreground": "color(#C41A16 l(+ 18%))"
         },
         {
             "name": "Storage modifier sql",
@@ -375,7 +375,7 @@
         {
             "name": "Constant boolean ruby",
             "scope": "constant.language.boolean.ruby",
-            "foreground": "#FD8F3F"
+            "foreground": "color(#C41A16 l(+ 18%))"
         },
         {
             "name": "Entity name class ruby",
@@ -395,7 +395,7 @@
         {
             "name": "Constant language rust",
             "scope": "constant.language.rust",
-            "foreground": "#FC5B57"
+            "foreground": "color(#C41A16 l(+ 18%))"
         },
         {
             "name": "Entity name function",
@@ -430,12 +430,12 @@
         {
             "name": "Support macro rust",
             "scope": "support.macro.rust",
-            "foreground": "#007F7C"
+            "foreground": "color(#D0BC56 l(- 7%))"
         },
         {
             "name": "Support type rust",
             "scope": "support.type.rust",
-            "foreground": "#E47C48"
+            "foreground": "color(#C41A16 l(+ 18%))"
         }
     ]
 }
