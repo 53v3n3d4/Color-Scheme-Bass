@@ -8,7 +8,7 @@
     "variables": {},
     "globals": {
         "background": "#B2D6FB",
-        "foreground": "#404040",
+        "foreground": "#5D6C79",
         "invisibles": "#9B9B9B",
         "caret": "#FD8F3F",
         "block_caret": "",
@@ -55,7 +55,7 @@
         {
             "name": "Entity name",
             "scope": "entity.name",
-            "foreground": "#007F7C"
+            "foreground": "color(#007F7C a(0.8))"
         },
         {
             "name": "Entity other inherited class",
@@ -80,12 +80,12 @@
         {
             "name": "Variable other.constant",
             "scope": "variable.other.constant",
-            "foreground": "#38A2AF"
+            "foreground": "color(#38A2AF a(0.8))"
         },
         {
             "name": "Constant numeric",
             "scope": "constant.numeric",
-            "foreground": "#C86733"
+            "foreground": "color(#2077FB l(+ 14%))"
         },
         {
             "name": "Storage modifier",
@@ -95,12 +95,12 @@
         {
             "name": "Support function",
             "scope": "support.function",
-            "foreground": "#119912"
+            "foreground": "color(#C01553 a(0.8))"
         },
         {
             "name": "Support class",
             "scope": "support.class",
-            "foreground": "#38A2AF"
+            "foreground": "color(#38A2AF a(0.8))"
         },
         {
             "name": "Keyword",
@@ -111,12 +111,12 @@
         {
             "name": "Keyword operator",
             "scope": "keyword.operator",
-            "foreground": "#EC4990"
+            "foreground": "color(#BF8555 a(0.8))"
         },
         {
             "name": "String",
             "scope": "string",
-            "foreground": "#9B2393"
+            "foreground": "color(#9B2393 a(0.6))"
         },
         {
             "name": "Comment",
@@ -264,7 +264,7 @@
             "name": "Null js",
             "scope": "constant.language.null.js",
             "font_style": "normal",
-            "foreground": "#C41A16"
+            "foreground": "color(#C41A16 l(+ 18%))"
         },
         {
             "name": "JSDocs tags",
@@ -304,17 +304,17 @@
         {
             "name": "At rule other css",
             "scope": "meta.at-rule.other.css",
-            "foreground": "#E87191"
+            "foreground": "#1E73BE"
         },
         {
             "name": "Constant css",
             "scope": "source.css constant",
-            "foreground": "#5D6C79"
+            "foreground": "color(#5D6C79 a(0.8))"
         },
         {
             "name": "Support property name and Entity other custom property css",
             "scope": "support.type.property-name.css, entity.other.custom-property.css",
-            "foreground": "#1E73BE"
+            "foreground": "#E87191"
         },
         {
             "name": "Storage type and Method parameters c#",
@@ -324,7 +324,7 @@
         {
             "name": "Constant language go",
             "scope": "constant.language.go",
-            "foreground": "#C41A16"
+            "foreground": "color(#C41A16 l(+ 18%))"
         },
         {
             "name": "Storage Support type builtin go",
@@ -344,13 +344,13 @@
         {
             "name": "Null sql",
             "scope": "constant.language.null.sql",
-            "foreground": "#C41A16"
+            "foreground": "color(#C41A16 l(+ 18%))"
         },
         {
             "name": "Keyword operator logical sql",
             "scope": "keyword.operator.logical.sql",
             "font_style": "normal",
-            "foreground": "#C41A16"
+            "foreground": "color(#C41A16 l(+ 18%))"
         },
         {
             "name": "Storage modifier sql",
@@ -360,32 +360,32 @@
         {
             "name": "Table toml",
             "scope": "entity.name.table.toml",
-            "foreground": "#1E73BE"
+            "foreground": "color(#E87191 a(0.8))"
         },
         {
             "name": "Key toml",
             "scope": "entity.name.tag.toml",
-            "foreground": "#9B2393"
+            "foreground": "#1E73BE"
         },
         {
             "name": "Model rails",
             "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby",
-            "foreground": "#E87191"
+            "foreground": "color(#E87191 a(0.9))"
         },
         {
             "name": "Constant boolean ruby",
             "scope": "constant.language.boolean.ruby",
-            "foreground": "#C41A16"
+            "foreground": "color(#C41A16 l(+ 18%))"
         },
         {
             "name": "Entity name class ruby",
             "scope": "entity.name.class.ruby",
-            "foreground": "#404040"
+            "foreground": "#5D6C79"
         },
         {
             "name": "Constant ruby",
             "scope": "source.ruby constant",
-            "foreground": "#E87191"
+            "foreground": "color(#E87191 a(0.9))"
         },
         {
             "name": "Variable other readwrite instance ruby",
@@ -395,7 +395,7 @@
         {
             "name": "Constant language rust",
             "scope": "constant.language.rust",
-            "foreground": "#C41A16"
+            "foreground": "color(#C41A16 l(+ 18%))"
         },
         {
             "name": "Entity name function",
@@ -410,7 +410,7 @@
         {
             "name": "Keyword operator rust",
             "scope": "keyword.operator.rust",
-            "foreground": "#1E73BE"
+            "foreground": "color(#BF8555 a(0.8))"
         },
         {
             "name": "String quoted rust",
@@ -430,12 +430,12 @@
         {
             "name": "Support macro rust",
             "scope": "support.macro.rust",
-            "foreground": "color(#8D52D1 a(0.77))"
+            "foreground": "color(#D0BC56 l(- 9%))"
         },
         {
             "name": "Support type rust",
             "scope": "support.type.rust",
-            "foreground": "#C86733"
+            "foreground": "color(#C41A16 l(+ 18%))"
         }
     ]
 }

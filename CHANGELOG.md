@@ -20,6 +20,7 @@
 - Change invalid illegal color, orange -> red
 - Change constant language null javascript color to lighter tone
 - Change constant language go color, orange -> red
+- Change constant language null sql color to lighter tone
 - Change key operator logical sql color to lighter tone
 - Change constant boolean ruby color, orange -> red
 - Change support type rust transparency
@@ -53,6 +54,31 @@
 - Change keyword operator rust color, orange -> purple
 - Change string quoted rust color, purple -> brown-light
 - Change support macro rust color, cyan -> green
+
+### Lagoon
+- Change foreground color, black -> gray
+- Change entity name transparency
+- Change constant numeric color, orange -> blue
+- Change support function color, green -> pink
+- Change support class color to lighter tone
+- Change keyword operator color, orange -> brown
+- Change string color to lighter tone
+- Change constant language null javascript color to lighter tone
+- Change meta at rule other css color, pink -> blue
+- Change constant css color to lighter tone
+- Change support entity property css color, blue -> pink
+- Change constant language go color to lighter tone
+- Change constant language null sql color to lighter tone
+- Change key operator logical sql color to lighter tone
+- Change entity name table toml color, blue -> pink
+- Change entity name tag toml color, purple -> blue
+- Change meta model rails color to lighter tone
+- Change constant boolean ruby color to lighter tone
+- Change entity class ruby color, black -> gray
+- Change variable other readwrite instance ruby color to lighter tone
+- Change support macro rust color, purple -> gold
+- Change keyword operator rust, blue -> brown
+- Change support type rust color, orange -> red
 
 ### Nimbus
 - Change constant numeric color to a lighter blue
