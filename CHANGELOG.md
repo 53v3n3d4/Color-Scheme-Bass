@@ -1,6 +1,29 @@
 # Changelog
 
-## [0.1.6] - 2023
+## [0.1.7] - 2023
+
+### Blackcomb
+- Change line diff deleted color to lighter tone
+
+### Biohack
+- Change line diff deleted color to lighter tone
+
+### Bowtruckle
+- Change line diff deleted color to lighter tone
+
+### Fuji
+- Change line diff deleted color to lighter tone
+
+### Nimbus
+- Change line diff deleted color to lighter tone
+
+### Roci
+- Change line diff deleted color to lighter tone
+
+### Zora
+- Change line diff deleted color to lighter tone
+
+## [0.1.6] - 2023-01-29
 - Change string quoted javascript, go, rust to string
 - Change Diff and Inline Diffs color tones
 - Change line highlight transparency
@@ -99,11 +122,9 @@
 - Change markup list font style, bold -> normal
 
 ## [0.1.5] - 2022-12-16
-
 - Adaptive theme placeholder fix, change rulers colors
 
 ## [0.1.4] - 2022-12-07
-
 - Add color-palette and global-rules hidden sublime files
 - Add Blackcomb vars
 - Add Fuji and Nimbus vars

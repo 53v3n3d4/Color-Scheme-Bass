@@ -36,7 +36,7 @@
         "line-diff-width":            "", // default 3
         "line-diff-added":            "var(blue3)",
         "line-diff-modified":         "var(gold1)",
-        "line-diff-deleted":          "var(red3)",
+        "line-diff-deleted":          "var(red2)",
         /** Selection */
         "selection":                  "var(blue-light1)",
         "selection-fg":               "var(gray4)",
