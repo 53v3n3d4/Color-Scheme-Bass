@@ -10,7 +10,7 @@
         /** Globals variables */
 
         "bg-color":                   "var(blue-light3)",
-        "fg-color":                   "var(gray4)", // Popup definiton/reference text
+        "fg-color":                   "color(var(black4) a(0.9))", // Popup definiton/reference text
         "invisibles":                 "var(gray3)",
         "caret":                      "var(orange1)", // mouse cursor
         "block-caret":                "",
@@ -29,7 +29,7 @@
         // "sheet_css": ,
         /** Gutter */
         "gutter":                     "var(bg-color)",
-        "gutter-foreground":          "color(var(gray3) a(0.7))",
+        "gutter-foreground":          "color(var(gray4) a(0.5))",
         "gutter-foreground-hl":       "var(blue1)",
         // "gutter_foreground": "{font-family: Helvetica";\n        font-size: 8px;\n      color: #808080;\n}",
         /** Diff */

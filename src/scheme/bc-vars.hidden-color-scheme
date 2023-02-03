@@ -85,11 +85,11 @@
         // "variable-lang-fg":              "var(purple1)",
         // "variable-param-fg":             "var(purple1)",
         "variable-fn-fg":                "var(blue5)",
-        "variable-other-constant-fg":    "var(orange2)",
+        "variable-other-constant-fg":    "var(brown1)",
 
         /** Constant */
         // "constant-fg":                "var(blue5)",
-        "constant-num-fg":            "var(gold2)",
+        "constant-num-fg":            "var(orange-light1)",
         // "constant-lang-fg":           "var(blue3)",
         // "constant-char-escape-fg":    "var(gold2)",
 
@@ -100,21 +100,21 @@
         /** Support */
         // "support-fg":          "var(green-light2)",
         "support-fn-fg":       "var(green-light2)",
-        "support-class-fg":    "var(orange2)",
+        "support-class-fg":    "var(brown1)",
 
         /** Keyword */
         "keyword-font-style":        "normal",
         "keyword-fg":                "var(magenta3)",
         // "keyword-ctrl-fg":           "var(magenta3)",
-        "keyword-operator-fg":       "var(pink-light4)",
+        "keyword-operator-fg":       "var(yellow1)",
         // "keyword-declaration-fg":    "var(green-light1)",
 
         /** String */
-        "string-fg":    "var(blue2)",
+        "string-fg":    "color(var(green-light3) a(0.9))",
 
         /** Comment */
         "comment-font-style":    "normal",
-        "comment-fg":            "var(green-light3)",
+        "comment-fg":            "color(var(gray2) a(0.9))",
 
         /** Invalid */
         // "invalid-fg":               "var(red1)",
@@ -170,10 +170,10 @@
         /** Javascript */
         "constant-lang-null-js-font-style":         "bold",
         "constant-lang-null-js-fg":                 "var(red1)",
-        "entity-other-attribute-name-doc-js-fg":    "var(green-light1)",
+        "entity-other-attribute-name-doc-js-fg":    "color(var(gray1) a(0.9))",
         "meta-string-quoted-js-fg":                 "",
         "support-other-js-fg":                      "var(green-light2)",
-        "variable-other-class-js-fg":               "var(orange2)",
+        "variable-other-class-js-fg":               "var(brown1)",
 
         /** Mapping Key Value */
         "meta-mapping-key-fg":      "var(magenta3)",
@@ -192,7 +192,7 @@
 
         /** Go */
         "constant-lang-go-fg":                   "var(red1)",
-        "storage-support-type-builtin-go-fg":    "var(cyan2)",
+        "storage-support-type-builtin-go-fg":    "var(orange2)",
         "string-quoted-go-fg":                   "",
 
         /** Git */
@@ -219,7 +219,7 @@
 
         /** Rust Enhanced */
         "constant-lang-rust-fg":       "var(red1)",
-        "entity-name-fn-rust-fg":      "var(green1)",
+        "entity-name-fn-rust-fg":      "color(var(purple1) l(+ 14%))",
         "keyword-ctrl-rust-fg":        "var(magenta2)",
         "keyword-operator-rust-fg":    "var(pink-light4)",
         "string-quoted-rust-fg":       "",

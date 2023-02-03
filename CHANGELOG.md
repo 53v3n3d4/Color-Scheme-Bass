@@ -4,15 +4,29 @@
 
 ### Blackcomb
 - Change line diff deleted color to lighter tone
+- Change variable other constant color, orange -> brown
+- Change support class color, orange -> brown
+- Change keyword operator color, pink -> yellow
+- Change string color, blue -> green
+- Change comment color, green -> gray
+- Change entity other attribute name doc javascript color, green -> gray
+- Change variable other class javascript color, orange -> brown
+- Change entity name function rust color, green -> purple
 
 ### Biohack
 - Change line diff deleted color to lighter tone
 
 ### Bowtruckle
 - Change line diff deleted color to lighter tone
+- Change foreground color to ligther tone
+- Change gutter foreground color to darker tone
 
 ### Fuji
 - Change line diff deleted color to lighter tone
+
+### Lagoon
+- Change foreground color to darker tone
+- Change gutter foreground to darker tone
 
 ### Nimbus
 - Change line diff deleted color to lighter tone
