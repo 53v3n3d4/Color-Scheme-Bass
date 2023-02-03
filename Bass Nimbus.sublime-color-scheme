@@ -360,7 +360,7 @@
         {
             "name": "Table toml",
             "scope": "entity.name.table.toml",
-            "foreground": "#9B2393"
+            "foreground": "#EC4990"
         },
         {
             "name": "Key toml",

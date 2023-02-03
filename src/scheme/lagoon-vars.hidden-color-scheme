@@ -205,7 +205,7 @@
         "storage-modifier-sql-fg":                    "var(purple3)",
 
         /** Toml */
-        "entity-name-table-toml-fg":    "color(var(pink-light3) a(0.8))",
+        "entity-name-table-toml-fg":    "color(var(orange3) a(0.8))",
         "entity-name-tag-toml-fg":      "var(blue2)",
 
         /** Rails */

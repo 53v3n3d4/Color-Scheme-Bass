@@ -20,22 +20,27 @@
 - Change line diff deleted color to lighter tone
 - Change foreground color to ligther tone
 - Change gutter foreground color to darker tone
+- Change entity name table toml color, blue -> cyan
 
 ### Fuji
 - Change line diff deleted color to lighter tone
+- Change entity name table toml color, blue -> green
 
 ### Lagoon
 - Change foreground color to darker tone
 - Change gutter foreground to darker tone
+- Change entity name table toml color, pink -> orange
 
 ### Nimbus
 - Change line diff deleted color to lighter tone
+- Change entity name table toml color, purple -> magenta
 
 ### Roci
 - Change line diff deleted color to lighter tone
 
 ### Zora
 - Change line diff deleted color to lighter tone
+- Change entity name table toml color, gold -> pink
 
 ## [0.1.6] - 2023-01-29
 - Change string quoted javascript, go, rust to string
