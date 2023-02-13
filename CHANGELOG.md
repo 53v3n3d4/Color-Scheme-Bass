@@ -25,11 +25,22 @@
 ### Fuji
 - Change line diff deleted color to lighter tone
 - Change entity name table toml color, blue -> green
+- Change comment color, green -> gray
+- Change constant language null javascript color, blue -> red
+- Change constant language go color, blue -> red
+- Change constant language null sql color to darker tone
+- Change key operator logical sql color to darker tone
+- Change storage modifier sql color, blue -> brown
+- Change constant boolean ruby color, blue -> red
+- Change constant language rust color, brown -> orange
+- Change entity name function rust color, cyan -> brown
+- Change support type rust color, brown -> orange
 
 ### Lagoon
 - Change foreground color to darker tone
 - Change gutter foreground to darker tone
 - Change entity name table toml color, pink -> orange
+- Change constant numeric color to darker tone
 
 ### Nimbus
 - Change line diff deleted color to lighter tone

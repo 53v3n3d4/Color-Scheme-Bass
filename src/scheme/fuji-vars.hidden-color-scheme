@@ -89,7 +89,7 @@
 
         /** Constant */
         // "constant-fg":                "var(green4)",
-        "constant-num-fg":            "var(blue4)",
+        "constant-num-fg":            "var(blue1)",
         // "constant-lang-fg":           "var(blue3)",
         // "constant-char-escape-fg":    "var(blue4)",
 
@@ -114,7 +114,7 @@
 
         /** Comment */
         "comment-font-style":    "normal",
-        "comment-fg":            "var(green3)",
+        "comment-fg":            "color(var(gray4) a(0.9))",
 
         /** Invalid */
         // "invalid-fg":               "var(red1)",
@@ -169,7 +169,7 @@
 
         /** Javascript */
         "constant-lang-null-js-font-style":         "normal",
-        "constant-lang-null-js-fg":                 "var(blue4)",
+        "constant-lang-null-js-fg":                 "color(var(red2) a(0.8))",
         "entity-other-attribute-name-doc-js-fg":    "var(brown1)",
         "meta-string-quoted-js-fg":                 "",
         "support-other-js-fg":                      "var(green-light4)",
@@ -191,7 +191,7 @@
         "storage-type-method-params-cs-fg":    "var(blue2)",
 
         /** Go */
-        "constant-lang-go-fg":                   "var(blue4)",
+        "constant-lang-go-fg":                   "color(var(red2) a(0.8))",
         "storage-support-type-builtin-go-fg":    "color(var(magenta3) a(0.7))",
         "string-quoted-go-fg":                   "",
 
@@ -199,10 +199,10 @@
         "meta-mapping-value-git-attributes-fg":    "var(purple2)",
 
         /** Sql */
-        "constant-lang-null-sql-fg":                  "var(red1)",
+        "constant-lang-null-sql-fg":                  "color(var(red2) a(0.8))",
         "keyword-operator-logical-sql-font-style":    "normal",
-        "keyword-operator-logical-sql-fg":            "var(red1)",
-        "storage-modifier-sql-fg":                    "var(blue5)",
+        "keyword-operator-logical-sql-fg":            "color(var(red2) a(0.8))",
+        "storage-modifier-sql-fg":                    "var(brown1)",
 
         /** Toml */
         "entity-name-table-toml-fg":    "var(green2)",
@@ -212,21 +212,21 @@
         "meta-model-rails-fg":    "var(blue2)",
 
         /** Ruby */
-        "constant-lang-bool-rb-fg":                     "var(blue4)",
+        "constant-lang-bool-rb-fg":                     "color(var(red2) a(0.8))",
         "entity-name-class-ruby-fg":                    "var(black4)",
         "constant-rb-fg":                               "var(blue2)",
         "variable-other-readwrite-instance-ruby-fg":    "var(purple3)",
 
         /** Rust Enhanced */
-        "constant-lang-rust-fg":       "var(brown1)",
-        "entity-name-fn-rust-fg":      "var(cyan2)",
+        "constant-lang-rust-fg":       "var(orange2)",
+        "entity-name-fn-rust-fg":      "var(brown1)",
         "keyword-ctrl-rust-fg":        "var(purple3)",
         "keyword-operator-rust-fg":    "var(purple3)",
         "string-quoted-rust-fg":       "",
         "storage-modifier-rust-fg":    "var(magenta3)",
         "storage-type-rust-fg":        "var(purple3)",
         "support-macro-rust-fg":       "var(green2)",
-        "support-type-rust-fg":        "var(brown1)"
+        "support-type-rust-fg":        "var(orange2)"
 
     },
     "globals": {},

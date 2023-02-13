@@ -85,7 +85,7 @@
         {
             "name": "Constant numeric",
             "scope": "constant.numeric",
-            "foreground": "#1C02CF"
+            "foreground": "#2077FB"
         },
         {
             "name": "Storage modifier",
@@ -122,7 +122,7 @@
             "name": "Comment",
             "scope": "comment",
             "font_style": "normal",
-            "foreground": "#1A5301"
+            "foreground": "color(#5D6C79 a(0.9))"
         },
         {
             "name": "Invalid deprecated",
@@ -264,7 +264,7 @@
             "name": "Null js",
             "scope": "constant.language.null.js",
             "font_style": "normal",
-            "foreground": "#1C02CF"
+            "foreground": "color(#C41A16 a(0.8))"
         },
         {
             "name": "JSDocs tags",
@@ -324,7 +324,7 @@
         {
             "name": "Constant language go",
             "scope": "constant.language.go",
-            "foreground": "#1C02CF"
+            "foreground": "color(#C41A16 a(0.8))"
         },
         {
             "name": "Storage Support type builtin go",
@@ -344,18 +344,18 @@
         {
             "name": "Null sql",
             "scope": "constant.language.null.sql",
-            "foreground": "#FC5B57"
+            "foreground": "color(#C41A16 a(0.8))"
         },
         {
             "name": "Keyword operator logical sql",
             "scope": "keyword.operator.logical.sql",
             "font_style": "normal",
-            "foreground": "#FC5B57"
+            "foreground": "color(#C41A16 a(0.8))"
         },
         {
             "name": "Storage modifier sql",
             "scope": "storage.modifier.sql",
-            "foreground": "#5DD8FF"
+            "foreground": "#BF8555"
         },
         {
             "name": "Table toml",
@@ -375,7 +375,7 @@
         {
             "name": "Constant boolean ruby",
             "scope": "constant.language.boolean.ruby",
-            "foreground": "#1C02CF"
+            "foreground": "color(#C41A16 a(0.8))"
         },
         {
             "name": "Entity name class ruby",
@@ -395,12 +395,12 @@
         {
             "name": "Constant language rust",
             "scope": "constant.language.rust",
-            "foreground": "#BF8555"
+            "foreground": "#E47C48"
         },
         {
             "name": "Entity name function",
             "scope": "entity.name.function.rust",
-            "foreground": "#38A2AF"
+            "foreground": "#BF8555"
         },
         {
             "name": "Keyword control rust",
@@ -435,7 +435,7 @@
         {
             "name": "Support type rust",
             "scope": "support.type.rust",
-            "foreground": "#BF8555"
+            "foreground": "#E47C48"
         }
     ]
 }

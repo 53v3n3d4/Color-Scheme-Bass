@@ -85,7 +85,7 @@
         {
             "name": "Constant numeric",
             "scope": "constant.numeric",
-            "foreground": "color(#2077FB l(+ 14%))"
+            "foreground": "color(#2077FB l(+ 7%))"
         },
         {
             "name": "Storage modifier",
