@@ -125,8 +125,8 @@
         // End minimal recommended setup
 
         /** Markdown / Markup */
-        "constant-other-lang-name-md-font-style":     "italic",
-        "constant-other-lang-name-md-fg":             "var(orange3)",
+        "constant-other-lang-name-md-font-style":     "normal",
+        "constant-other-lang-name-md-fg":             "var(cyan2)",
         "markup-heading-font-style":                  "bold",
         "markup-heading-fg":                          "var(purple3)",
         "markup-list-font-style":                     "normal",

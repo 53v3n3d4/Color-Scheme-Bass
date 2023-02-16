@@ -2,8 +2,31 @@
 
 ## [0.1.8] - 2023
 
+### Biohack
+- Change constant other language name markdown color, purple -> magenta
+
+### D-O
+- Change constant other language name markdown font style, italic -> normal
+- Change constant other language name markdown color, cyan -> green
+
+### Fuji
+- Change constant other language name markdown font style, italic -> normal
+- Change constant other language name markdown color, gray -> cyan
+
+### Lagoon
+- Change constant other language name markdown font style, italic -> normal
+- Change constant other language name markdown color, orange -> cyan
+
+### Nimbus
+- Change constant other language name markdown font style, italic -> normal
+- Change constant other language name markdown color, purple -> pink
+
+### Roci
+- Change constant other language name markdown color, yellow -> gold
+
 ### Zora
 - Change variable function color to darker tone
+- Change constant other language name markdown color, yellow -> gold
 
 ## [0.1.7] - 2023-02-16
 - Change constant language null javascript and sql to constant language null

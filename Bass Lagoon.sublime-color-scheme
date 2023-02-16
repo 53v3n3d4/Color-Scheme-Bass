@@ -142,8 +142,8 @@
         {
             "name": "Constant other language name md",
             "scope": "constant.other.language-name.markdown",
-            "font_style": "italic",
-            "foreground": "#C86733"
+            "font_style": "normal",
+            "foreground": "#38A2AF"
         },
         {
             "name": "Markup heading",
