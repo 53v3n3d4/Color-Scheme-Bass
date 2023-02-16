@@ -84,7 +84,7 @@
         // "variable-lang-font-style":      "italic",
         // "variable-lang-fg":              "var(purple1)",
         // "variable-param-fg":             "var(purple1)",
-        "variable-fn-fg":                "var(blue5)",
+        "variable-fn-fg":                "color(var(blue3) l(+ 18%))",
         "variable-other-constant-fg":    "var(orange1)",
 
         /** Constant */

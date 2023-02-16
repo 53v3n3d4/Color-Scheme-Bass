@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.8] - 2023
+
+### Zora
+- Change variable function color to darker tone
+
 ## [0.1.7] - 2023-02-16
 - Change constant language null javascript and sql to constant language null
 
