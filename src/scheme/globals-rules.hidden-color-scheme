@@ -193,6 +193,11 @@
         //     "scope": "constant.language",
         //     "foreground": "var(constant-lang-fg)"
         // },
+        {
+            "name": "Constant language null",
+            "scope": "constant.language.null",
+            "foreground": "var(constant-lang-null-fg)"
+        },
         // {
         //     "name": "Constant character escape",
         //     "scope": "constant.character.escape",
@@ -459,20 +464,9 @@
          *
          */
         {
-            "name": "Null js",
-            "scope": "constant.language.null.js",
-            "font_style": "var(constant-lang-null-js-font-style)",
-            "foreground": "var(constant-lang-null-js-fg)"
-        },
-        {
             "name": "JSDocs tags",
             "scope": "entity.other.attribute-name.documentation.js",
             "foreground": "var(entity-other-attribute-name-doc-js-fg)"
-        },
-        {
-            "name": "String quoted js",
-            "scope": "meta.string.js string.quoted.other.js, meta.string.js string.quoted.single.js",
-            "foreground": "var(meta-string-quoted-js-fg)"
         },
         {
             "name": "Support other js", // e.g. name from adaptiveData.name 
@@ -559,11 +553,6 @@
             "scope": "storage.type.go support.type.builtin.go",
             "foreground": "var(storage-support-type-builtin-go-fg)"
         },
-        {
-            "name": "String quoted go",
-            "scope": "string.quoted.double.go, string.quoted.backtick.go",
-            "foreground": "var(string-quoted-go-fg)"
-        },
 
         /**
          *
@@ -581,11 +570,6 @@
          * SQL
          *
          */
-        {
-            "name": "Null sql",
-            "scope": "constant.language.null.sql",
-            "foreground": "var(constant-lang-null-sql-fg)"
-        },
         {
             "name": "Keyword operator logical sql",
             "scope": "keyword.operator.logical.sql",
@@ -675,11 +659,6 @@
             "name": "Keyword operator rust", // i.e. in/as/box
             "scope": "keyword.operator.rust",
             "foreground": "var(keyword-operator-rust-fg)"
-        },
-        {
-            "name": "String quoted rust",
-            "scope": "source.rust string.quoted",
-            "foreground": "var(string-quoted-rust-fg)"
         },
         {
             "name": "Storage modifier rust",

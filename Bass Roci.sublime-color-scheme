@@ -88,6 +88,11 @@
             "foreground": "#FFB500"
         },
         {
+            "name": "Constant language null",
+            "scope": "constant.language.null",
+            "foreground": "#FC5B57"
+        },
+        {
             "name": "Storage modifier",
             "scope": "storage.modifier",
             "foreground": "#DF88B7"
@@ -261,20 +266,9 @@
             "foreground": "color(#57C038 l(+ 7%))"
         },
         {
-            "name": "Null js",
-            "scope": "constant.language.null.js",
-            "font_style": "normal",
-            "foreground": "#FC5B57"
-        },
-        {
             "name": "JSDocs tags",
             "scope": "entity.other.attribute-name.documentation.js",
             "foreground": "#E87191"
-        },
-        {
-            "name": "String quoted js",
-            "scope": "meta.string.js string.quoted.other.js, meta.string.js string.quoted.single.js",
-            "foreground": ""
         },
         {
             "name": "Support other js",
@@ -332,19 +326,9 @@
             "foreground": "color(#A4CDFF a(0.7))"
         },
         {
-            "name": "String quoted go",
-            "scope": "string.quoted.double.go, string.quoted.backtick.go",
-            "foreground": ""
-        },
-        {
             "name": "Git attributes value",
             "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
             "foreground": "#E87191"
-        },
-        {
-            "name": "Null sql",
-            "scope": "constant.language.null.sql",
-            "foreground": "#FC5B57"
         },
         {
             "name": "Keyword operator logical sql",
@@ -411,11 +395,6 @@
             "name": "Keyword operator rust",
             "scope": "keyword.operator.rust",
             "foreground": "#FC6BAA"
-        },
-        {
-            "name": "String quoted rust",
-            "scope": "source.rust string.quoted",
-            "foreground": ""
         },
         {
             "name": "Storage modifier rust",

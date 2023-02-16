@@ -88,6 +88,11 @@
             "foreground": "#2077FB"
         },
         {
+            "name": "Constant language null",
+            "scope": "constant.language.null",
+            "foreground": "color(#C41A16 l(+ 18%))"
+        },
+        {
             "name": "Storage modifier",
             "scope": "storage.modifier",
             "foreground": "#AA0D91"
@@ -261,20 +266,9 @@
             "foreground": "color(#119912 a(0.9))"
         },
         {
-            "name": "Null js",
-            "scope": "constant.language.null.js",
-            "font_style": "normal",
-            "foreground": "color(#C41A16 l(+ 18%))"
-        },
-        {
             "name": "JSDocs tags",
             "scope": "entity.other.attribute-name.documentation.js",
             "foreground": "#38A2AF"
-        },
-        {
-            "name": "String quoted js",
-            "scope": "meta.string.js string.quoted.other.js, meta.string.js string.quoted.single.js",
-            "foreground": ""
         },
         {
             "name": "Support other js",
@@ -332,19 +326,9 @@
             "foreground": "#EC4990"
         },
         {
-            "name": "String quoted go",
-            "scope": "string.quoted.double.go, string.quoted.backtick.go",
-            "foreground": ""
-        },
-        {
             "name": "Git attributes value",
             "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
             "foreground": "#EC4990"
-        },
-        {
-            "name": "Null sql",
-            "scope": "constant.language.null.sql",
-            "foreground": "color(#C41A16 l(+ 18%))"
         },
         {
             "name": "Keyword operator logical sql",
@@ -411,11 +395,6 @@
             "name": "Keyword operator rust",
             "scope": "keyword.operator.rust",
             "foreground": "#FD8F3F"
-        },
-        {
-            "name": "String quoted rust",
-            "scope": "source.rust string.quoted",
-            "foreground": ""
         },
         {
             "name": "Storage modifier rust",

@@ -88,6 +88,11 @@
             "foreground": "#0282F2"
         },
         {
+            "name": "Constant language null",
+            "scope": "constant.language.null",
+            "foreground": "#FFB500"
+        },
+        {
             "name": "Storage modifier",
             "scope": "storage.modifier",
             "foreground": "#83B85E"
@@ -261,20 +266,9 @@
             "foreground": "color(#119912 a(0.9))"
         },
         {
-            "name": "Null js",
-            "scope": "constant.language.null.js",
-            "font_style": "normal",
-            "foreground": "#FFB500"
-        },
-        {
             "name": "JSDocs tags",
             "scope": "entity.other.attribute-name.documentation.js",
             "foreground": "#5D6C79"
-        },
-        {
-            "name": "String quoted js",
-            "scope": "meta.string.js string.quoted.other.js, meta.string.js string.quoted.single.js",
-            "foreground": ""
         },
         {
             "name": "Support other js",
@@ -332,25 +326,15 @@
             "foreground": "color(#EC4990 a(0.7))"
         },
         {
-            "name": "String quoted go",
-            "scope": "string.quoted.double.go, string.quoted.backtick.go",
-            "foreground": ""
-        },
-        {
             "name": "Git attributes value",
             "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
             "foreground": "#AA0D91"
         },
         {
-            "name": "Null sql",
-            "scope": "constant.language.null.sql",
-            "foreground": "#FC5B57"
-        },
-        {
             "name": "Keyword operator logical sql",
             "scope": "keyword.operator.logical.sql",
             "font_style": "normal",
-            "foreground": "#FC5B57"
+            "foreground": "#FFB500"
         },
         {
             "name": "Storage modifier sql",
@@ -411,11 +395,6 @@
             "name": "Keyword operator rust",
             "scope": "keyword.operator.rust",
             "foreground": "#38A2AF"
-        },
-        {
-            "name": "String quoted rust",
-            "scope": "source.rust string.quoted",
-            "foreground": ""
         },
         {
             "name": "Storage modifier rust",

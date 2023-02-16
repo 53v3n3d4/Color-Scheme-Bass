@@ -91,6 +91,7 @@
         // "constant-fg":                "var(green4)",
         "constant-num-fg":            "var(blue3)",
         // "constant-lang-fg":           "var(blue3)",
+        "constant-lang-null-fg":      "var(gold1)",
         // "constant-char-escape-fg":    "var(blue4)",
 
         /** Storage */
@@ -168,10 +169,7 @@
         "diff-inserted-char-fg":    "color(var(green2) a(0.9))",
 
         /** Javascript */
-        "constant-lang-null-js-font-style":         "normal",
-        "constant-lang-null-js-fg":                 "var(gold1)",
         "entity-other-attribute-name-doc-js-fg":    "var(gray4)",
-        "meta-string-quoted-js-fg":                 "",
         "support-other-js-fg":                      "var(green-light3)",
         "variable-other-class-js-fg":               "var(orange3)",
 
@@ -193,15 +191,13 @@
         /** Go */
         "constant-lang-go-fg":                   "var(gold1)",
         "storage-support-type-builtin-go-fg":    "color(var(magenta3) a(0.7))",
-        "string-quoted-go-fg":                   "",
 
         /** Git */
         "meta-mapping-value-git-attributes-fg":    "var(purple3)",
 
         /** Sql */
-        "constant-lang-null-sql-fg":                  "var(red1)",
         "keyword-operator-logical-sql-font-style":    "normal",
-        "keyword-operator-logical-sql-fg":            "var(red1)",
+        "keyword-operator-logical-sql-fg":            "var(gold1)",
         "storage-modifier-sql-fg":                    "var(green-light3)",
 
         /** Toml */
@@ -222,7 +218,6 @@
         "entity-name-fn-rust-fg":      "var(orange2)",
         "keyword-ctrl-rust-fg":        "var(cyan2)",
         "keyword-operator-rust-fg":    "var(cyan2)",
-        "string-quoted-rust-fg":       "",
         "storage-modifier-rust-fg":    "var(green-light3)",
         "storage-type-rust-fg":        "var(cyan2)",
         "support-macro-rust-fg":       "var(brown1)",

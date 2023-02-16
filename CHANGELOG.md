@@ -1,6 +1,7 @@
 # Changelog
 
-## [0.1.7] - 2023
+## [0.1.7] - 2023-02-16
+- Change constant language null javascript and sql to constant language null
 
 ### Blackcomb
 - Change line diff deleted color to lighter tone
@@ -9,12 +10,14 @@
 - Change keyword operator color, pink -> yellow
 - Change string color, blue -> green
 - Change comment color, green -> gray
+- Change constant language null javascript font style, bold -> normal
 - Change entity other attribute name doc javascript color, green -> gray
 - Change variable other class javascript color, orange -> brown
 - Change entity name function rust color, green -> purple
 
 ### Biohack
 - Change line diff deleted color to lighter tone
+- Change constant language null javascript color, blue -> red
 
 ### Bowtruckle
 - Change line diff deleted color to lighter tone
@@ -45,6 +48,8 @@
 ### Nimbus
 - Change line diff deleted color to lighter tone
 - Change entity name table toml color, purple -> magenta
+- Change constant language null sql color, red -> gold
+- Change key operator logical sql color, red -> gold
 
 ### Roci
 - Change line diff deleted color to lighter tone
