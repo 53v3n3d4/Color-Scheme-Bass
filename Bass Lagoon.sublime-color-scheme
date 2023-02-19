@@ -127,7 +127,7 @@
             "name": "Comment",
             "scope": "comment",
             "font_style": "normal",
-            "foreground": "color(#5D6C79 a(0.6))"
+            "foreground": "color(#5D6C79 a(0.67))"
         },
         {
             "name": "Invalid deprecated",

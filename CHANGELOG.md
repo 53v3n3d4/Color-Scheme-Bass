@@ -6,6 +6,7 @@
 - Change constant other language name markdown color, purple -> magenta
 
 ### D-O
+- Change comments color to darker tone
 - Change constant other language name markdown font style, italic -> normal
 - Change constant other language name markdown color, cyan -> green
 
@@ -14,10 +15,12 @@
 - Change constant other language name markdown color, gray -> cyan
 
 ### Lagoon
+- Change comments color to darker tone
 - Change constant other language name markdown font style, italic -> normal
 - Change constant other language name markdown color, orange -> cyan
 
 ### Nimbus
+- Change comments color to darker tone
 - Change constant other language name markdown font style, italic -> normal
 - Change constant other language name markdown color, purple -> pink
 
