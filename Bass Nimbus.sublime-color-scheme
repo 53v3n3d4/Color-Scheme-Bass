@@ -60,7 +60,7 @@
         {
             "name": "Entity other inherited class",
             "scope": "entity.other.inherited-class",
-            "foreground": "#AA0D91"
+            "foreground": "color(#FF00FF l(- 11%))"
         },
         {
             "name": "Entity other attribute name",
@@ -354,7 +354,7 @@
         {
             "name": "Model rails",
             "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby",
-            "foreground": "#AA0D91"
+            "foreground": "color(#FF00FF l(- 11%))"
         },
         {
             "name": "Constant boolean ruby",
@@ -369,7 +369,7 @@
         {
             "name": "Constant ruby",
             "scope": "source.ruby constant",
-            "foreground": "#AA0D91"
+            "foreground": "#FC6BAA"
         },
         {
             "name": "Variable other readwrite instance ruby",

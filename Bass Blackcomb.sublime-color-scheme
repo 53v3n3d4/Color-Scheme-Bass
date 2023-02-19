@@ -60,7 +60,7 @@
         {
             "name": "Entity other inherited class",
             "scope": "entity.other.inherited-class",
-            "foreground": "#5DD8FF"
+            "foreground": "color(#0282F2 l(+ 11%))"
         },
         {
             "name": "Entity other attribute name",
@@ -85,7 +85,7 @@
         {
             "name": "Constant numeric",
             "scope": "constant.numeric",
-            "foreground": "#ECAA79"
+            "foreground": "#FD8F3F"
         },
         {
             "name": "Constant language null",
@@ -323,7 +323,7 @@
         {
             "name": "Storage Support type builtin go",
             "scope": "storage.type.go support.type.builtin.go",
-            "foreground": "#E47C48"
+            "foreground": "#ECAA79"
         },
         {
             "name": "Git attributes value",
@@ -354,7 +354,7 @@
         {
             "name": "Model rails",
             "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby",
-            "foreground": "#1E73BE"
+            "foreground": "color(#0282F2 l(+ 11%))"
         },
         {
             "name": "Constant boolean ruby",
@@ -374,7 +374,7 @@
         {
             "name": "Variable other readwrite instance ruby",
             "scope": "variable.other.readwrite.instance.ruby",
-            "foreground": "#9B2393"
+            "foreground": "color(#AA0D91 l(+ 33%))"
         },
         {
             "name": "Constant language rust",

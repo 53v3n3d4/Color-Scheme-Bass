@@ -3,33 +3,66 @@
 ## [0.1.8] - 2023
 
 ### Biohack
+- Change entity inherited class color, orange -> yellow
 - Change constant other language name markdown color, purple -> magenta
+- Change meta models rails color, blue -> yellow
+
+### Blackcomb
+- Change entity inherited class color to lighter tone
+- Change constant numeric color to darker tone
+- Change storage support type built in go color to lighter tone
+- Change meta models rails color to lighter tone
+- Change variable other readwrite instance ruby color to lighter tone
+
+### Bowtruckle
+- Change entity inherited class color, blue -> green
+- Change storage support type built in go color, magenta -> brown
+- Change meta models rails color, blue -> green
+- Change storage modifier rust color to darker tone
 
 ### D-O
 - Change comments color to darker tone
+- Change entity inherited class color, purple -> blue
+- Change support function color to darker tone
 - Change constant other language name markdown font style, italic -> normal
 - Change constant other language name markdown color, cyan -> green
+- Change meta models rails color to lighter tone, purple -> blue
 
 ### Fuji
+- Change entity inherited class color, blue -> magenta
 - Change constant other language name markdown font style, italic -> normal
 - Change constant other language name markdown color, gray -> cyan
+- Change meta models rails color, blue -> magenta
+- Change constant ruby color, blue -> pink
 
 ### Lagoon
 - Change comments color to darker tone
 - Change constant other language name markdown font style, italic -> normal
 - Change constant other language name markdown color, orange -> cyan
+- Change storage support type built in go color to lighter tone
+- Change constant ruby color, pink -> orange
+- Change variable other readwrite instance ruby color, purple -> green
 
 ### Nimbus
 - Change comments color to darker tone
+- Change entity inherited class color, purple -> magenta
 - Change constant other language name markdown font style, italic -> normal
 - Change constant other language name markdown color, purple -> pink
+- Change meta models rails color, purple -> magenta
+- Change constant ruby color, purple -> magenta
 
 ### Roci
+- Change entity inherited class color, blue -> cyan
 - Change constant other language name markdown color, yellow -> gold
+- Change meta models rails color, blue -> cyan
 
 ### Zora
+- Change entity inherited class color, magenta -> green
 - Change variable function color to darker tone
 - Change constant other language name markdown color, yellow -> gold
+- Change meta models rails color, magenta -> green
+- Change constant ruby color, magenta -> green
+- Change variable other readwrite instance ruby color, green -> pink
 
 ## [0.1.7] - 2023-02-16
 - Change constant language null javascript and sql to constant language null

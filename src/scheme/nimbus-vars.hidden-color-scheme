@@ -73,7 +73,7 @@
 
         /** Entity */
         "entity-name-fg":                  "var(orange2)",
-        "entity-inherited-class-fg":       "var(purple3)",
+        "entity-inherited-class-fg":       "color(var(magenta1) l(- 11%))",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
         "entity-attribute-name-fg":        "var(purple3)",
@@ -205,12 +205,12 @@
         "entity-name-tag-toml-fg":      "var(brown1)",
 
         /** Rails */
-        "meta-model-rails-fg":    "var(purple3)",
+        "meta-model-rails-fg":    "color(var(magenta1) l(- 11%))",
 
         /** Ruby */
         "constant-lang-bool-rb-fg":                     "var(gold1)",
         "entity-name-class-ruby-fg":                    "var(black4)",
-        "constant-rb-fg":                               "var(purple3)",
+        "constant-rb-fg":                               "var(magenta2)",
         "variable-other-readwrite-instance-ruby-fg":    "var(green-light3)",
 
         /** Rust Enhanced */

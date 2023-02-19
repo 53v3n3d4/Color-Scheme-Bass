@@ -323,7 +323,7 @@
         {
             "name": "Storage Support type builtin go",
             "scope": "storage.type.go support.type.builtin.go",
-            "foreground": "#EC4990"
+            "foreground": "color(#EC4990 a(0.8))"
         },
         {
             "name": "Git attributes value",
@@ -369,12 +369,12 @@
         {
             "name": "Constant ruby",
             "scope": "source.ruby constant",
-            "foreground": "color(#E87191 a(0.9))"
+            "foreground": "color(#C86733 a(0.9))"
         },
         {
             "name": "Variable other readwrite instance ruby",
             "scope": "variable.other.readwrite.instance.ruby",
-            "foreground": "#AA0D91"
+            "foreground": "color(#57C038 l(- 5%))"
         },
         {
             "name": "Constant language rust",

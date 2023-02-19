@@ -60,7 +60,7 @@
         {
             "name": "Entity other inherited class",
             "scope": "entity.other.inherited-class",
-            "foreground": "#E47C48"
+            "foreground": "#FFE76D"
         },
         {
             "name": "Entity other attribute name",
@@ -354,7 +354,7 @@
         {
             "name": "Model rails",
             "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby",
-            "foreground": "#1E73BE"
+            "foreground": "#FFE76D"
         },
         {
             "name": "Constant boolean ruby",

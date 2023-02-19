@@ -60,7 +60,7 @@
         {
             "name": "Entity other inherited class",
             "scope": "entity.other.inherited-class",
-            "foreground": "color(#AA0D91 a(0.7))"
+            "foreground": "color(#0282F2 l(+ 16%))"
         },
         {
             "name": "Entity other attribute name",
@@ -100,7 +100,7 @@
         {
             "name": "Support function",
             "scope": "support.function",
-            "foreground": "#83B85E"
+            "foreground": "color(#83B85E l(- 4%))"
         },
         {
             "name": "Support class",
@@ -354,7 +354,7 @@
         {
             "name": "Model rails",
             "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby",
-            "foreground": "#AA0D91"
+            "foreground": "color(#0282F2 l(+ 16%))"
         },
         {
             "name": "Constant boolean ruby",

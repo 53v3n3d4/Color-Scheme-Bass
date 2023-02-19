@@ -73,7 +73,7 @@
 
         /** Entity */
         "entity-name-fg":                  "var(orange2)",
-        "entity-inherited-class-fg":       "var(orange2)",
+        "entity-inherited-class-fg":       "var(yellow1)",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
         "entity-attribute-name-fg":        "var(magenta2)",
@@ -205,7 +205,7 @@
         "entity-name-tag-toml-fg":      "var(brown1)",
 
         /** Rails */
-        "meta-model-rails-fg":    "var(blue2)",
+        "meta-model-rails-fg":    "var(yellow1)",
 
         /** Ruby */
         "constant-lang-bool-rb-fg":                     "var(blue5)",

@@ -73,7 +73,7 @@
 
         /** Entity */
         "entity-name-fg":                  "var(blue5)",
-        "entity-inherited-class-fg":       "var(blue5)",
+        "entity-inherited-class-fg":       "color(var(blue3) l(+ 11%))",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
         "entity-attribute-name-fg":        "var(magenta2)",
@@ -89,7 +89,7 @@
 
         /** Constant */
         // "constant-fg":                "var(blue5)",
-        "constant-num-fg":            "var(orange-light1)",
+        "constant-num-fg":            "var(orange1)",
         // "constant-lang-fg":           "var(blue3)",
         "constant-lang-null-fg":      "var(red1)",
         // "constant-char-escape-fg":    "var(gold2)",
@@ -190,7 +190,7 @@
 
         /** Go */
         "constant-lang-go-fg":                   "var(red1)",
-        "storage-support-type-builtin-go-fg":    "var(orange2)",
+        "storage-support-type-builtin-go-fg":    "var(orange-light1)",
 
         /** Git */
         "meta-mapping-value-git-attributes-fg":    "var(magenta2)",
@@ -205,13 +205,13 @@
         "entity-name-tag-toml-fg":      "var(magenta2)",
 
         /** Rails */
-        "meta-model-rails-fg":    "var(blue2)",
+        "meta-model-rails-fg":    "color(var(blue3) l(+ 11%))",
 
         /** Ruby */
         "constant-lang-bool-rb-fg":                     "var(red1)",
         "entity-name-class-ruby-fg":                    "var(white2)",
         "constant-rb-fg":                               "var(blue5)",
-        "variable-other-readwrite-instance-ruby-fg":    "var(purple2)",
+        "variable-other-readwrite-instance-ruby-fg":    "color(var(purple3) l(+ 33%))",
 
         /** Rust Enhanced */
         "constant-lang-rust-fg":       "var(red1)",

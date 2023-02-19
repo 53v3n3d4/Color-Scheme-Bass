@@ -190,7 +190,7 @@
 
         /** Go */
         "constant-lang-go-fg":                   "color(var(red2) l(+ 18%))",
-        "storage-support-type-builtin-go-fg":    "var(magenta3)",
+        "storage-support-type-builtin-go-fg":    "color(var(magenta3) a(0.8))",
 
         /** Git */
         "meta-mapping-value-git-attributes-fg":    "var(green2)",
@@ -210,8 +210,8 @@
         /** Ruby */
         "constant-lang-bool-rb-fg":                     "color(var(red2) l(+ 18%))",
         "entity-name-class-ruby-fg":                    "var(gray4)",
-        "constant-rb-fg":                               "color(var(pink-light3) a(0.9))",
-        "variable-other-readwrite-instance-ruby-fg":    "var(purple3)",
+        "constant-rb-fg":                               "color(var(orange3) a(0.9))",
+        "variable-other-readwrite-instance-ruby-fg":    "color(var(green1) l(- 5%))",
 
         /** Rust Enhanced */
         "constant-lang-rust-fg":       "color(var(red2) l(+ 18%))",

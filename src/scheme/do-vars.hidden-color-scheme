@@ -73,7 +73,7 @@
 
         /** Entity */
         "entity-name-fg":                  "color(var(purple3) a(0.7))",
-        "entity-inherited-class-fg":       "color(var(purple3) a(0.7))",
+        "entity-inherited-class-fg":       "color(var(blue3) l(+ 16%))",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
         "entity-attribute-name-fg":        "color(var(orange3) a(0.8))",
@@ -100,7 +100,7 @@
 
         /** Support */
         // "support-fg":          "var(green3)",
-        "support-fn-fg":       "var(green-light3)",
+        "support-fn-fg":       "color(var(green-light3) l(- 4%))",
         "support-class-fg":    "color(var(red2) a(0.7))",
 
         /** Keyword */
@@ -205,7 +205,7 @@
         "entity-name-tag-toml-fg":      "var(purple2)",
 
         /** Rails */
-        "meta-model-rails-fg":    "var(purple3)",
+        "meta-model-rails-fg":    "color(var(blue3) l(+ 16%))",
 
         /** Ruby */
         "constant-lang-bool-rb-fg":                     "var(red1)",
