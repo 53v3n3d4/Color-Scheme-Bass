@@ -149,7 +149,7 @@
             "name": "Markup heading",
             "scope": "markup.heading, markup.heading entity.name",
             "font_style": "bold",
-            "foreground": "#AA0D91"
+            "foreground": "color(#643820 l(+ 17%))"
         },
         {
             "name": "Markup list",

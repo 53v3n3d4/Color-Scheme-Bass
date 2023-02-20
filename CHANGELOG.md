@@ -26,6 +26,7 @@
 - Change support function color to darker tone
 - Change constant other language name markdown font style, italic -> normal
 - Change constant other language name markdown color, cyan -> green
+- Change markup heading color, purple -> brown
 - Change meta models rails color to lighter tone, purple -> blue
 
 ### Fuji
@@ -39,6 +40,7 @@
 - Change comments color to darker tone
 - Change constant other language name markdown font style, italic -> normal
 - Change constant other language name markdown color, orange -> cyan
+- Change markup heading color, purple -> green
 - Change storage support type built in go color to lighter tone
 - Change constant ruby color, pink -> orange
 - Change variable other readwrite instance ruby color, purple -> green
@@ -54,6 +56,7 @@
 ### Roci
 - Change entity inherited class color, blue -> cyan
 - Change constant other language name markdown color, yellow -> gold
+- Change markup heading color, pink -> blue
 - Change meta models rails color, blue -> cyan
 
 ### Zora
