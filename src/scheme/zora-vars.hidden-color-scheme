@@ -175,7 +175,7 @@
 
         /** Mapping Key Value */
         "meta-mapping-key-fg":      "var(cyan2)",
-        "meta-mapping-value-fg":    "var(gold2)",
+        "meta-mapping-value-fg":    "color(var(gold2) l(- 11%))",
 
         /** HTML */
         "entity-other-attribute-name-html-fg":    "var(orange1)",

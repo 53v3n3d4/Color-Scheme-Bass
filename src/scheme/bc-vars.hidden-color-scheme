@@ -174,7 +174,7 @@
         "variable-other-class-js-fg":               "var(brown1)",
 
         /** Mapping Key Value */
-        "meta-mapping-key-fg":      "var(magenta3)",
+        "meta-mapping-key-fg":      "color(var(pink-light4) l(- 1%))",
         "meta-mapping-value-fg":    "var(blue-light4)",
 
         /** HTML */
@@ -215,12 +215,12 @@
 
         /** Rust Enhanced */
         "constant-lang-rust-fg":       "var(red1)",
-        "entity-name-fn-rust-fg":      "color(var(purple1) l(+ 14%))",
+        "entity-name-fn-rust-fg":      "var(blue-light4)",
         "keyword-ctrl-rust-fg":        "var(magenta2)",
         "keyword-operator-rust-fg":    "var(pink-light4)",
         "storage-modifier-rust-fg":    "var(green-light2)",
         "storage-type-rust-fg":        "var(magenta2)",
-        "support-macro-rust-fg":       "var(cyan1)",
+        "support-macro-rust-fg":       "color(var(yellow-light3) l(+ 4%))",
         "support-type-rust-fg":        "var(orange2)"
 
     },

@@ -72,11 +72,11 @@
         /** Rules variables*/
 
         /** Entity */
-        "entity-name-fg":                  "color(var(cyan4) a(0.8))",
-        "entity-inherited-class-fg":       "var(pink-light3)",
+        "entity-name-fg":                  "color(var(cyan2) l(- 4%))",
+        "entity-inherited-class-fg":       "color(var(pink-light4) l(- 5%))",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
-        "entity-attribute-name-fg":        "var(purple3)",
+        "entity-attribute-name-fg":        "color(var(gold3) l(- 13%))",
         "entity-other-pseudo-class-fg":    "var(purple2)",
 
         /** Variable */
@@ -84,8 +84,8 @@
         // "variable-lang-font-style":      "italic",
         // "variable-lang-fg":              "var(purple1)",
         // "variable-param-fg":             "var(purple1)",
-        "variable-fn-fg":                "var(green2)",
-        "variable-other-constant-fg":    "color(var(cyan2) a(0.8))",
+        "variable-fn-fg":                "color(var(green2) l(- 1%))",
+        "variable-other-constant-fg":    "color(var(cyan2) l(- 4%))",
 
         /** Constant */
         // "constant-fg":                "var(green4)",
@@ -101,17 +101,17 @@
         /** Support */
         // "support-fg":          "var(green3)",
         "support-fn-fg":       "color(var(pink1) a(0.8))",
-        "support-class-fg":    "color(var(cyan2) a(0.8))",
+        "support-class-fg":    "color(var(cyan2) l(- 4%))",
 
         /** Keyword */
         "keyword-font-style":        "normal",
         "keyword-fg":                "var(blue2)",
         // "keyword-ctrl-fg":           "var(purple3)",
-        "keyword-operator-fg":       "color(var(brown1) a(0.8))",
+        "keyword-operator-fg":       "color(var(orange3) a(0.8))",
         // "keyword-declaration-fg":    "var(green3)",
 
         /** String */
-        "string-fg":    "color(var(purple2) a(0.6))",
+        "string-fg":    "color(var(purple2) a(0.8))",
 
         /** Comment */
         "comment-font-style":    "normal",
@@ -141,7 +141,7 @@
         "markup-italic-underline-font-style":         "italic underline",
         "markup-bold-italic-underline-font-style":    "bold italic underline",
         "markup-quote-font-style":                    "italic",
-        "markup-quote-fg":                            "var(red1)",
+        "markup-quote-fg":                            "color(var(orange3) l(- 2%))",
         "markup-raw-bg":                              "var(blue-light4)",
         "markup-link-fg":                             "var(blue3)",
         "markup-table-bg":                            "var(blue-light4)",
@@ -171,11 +171,11 @@
         /** Javascript */
         "entity-other-attribute-name-doc-js-fg":    "var(orange3)",
         "support-other-js-fg":                      "var(green-light4)",
-        "variable-other-class-js-fg":               "var(cyan2)",
+        "variable-other-class-js-fg":               "color(var(cyan2) l(- 4%))",
 
         /** Mapping Key Value */
-        "meta-mapping-key-fg":      "var(blue2)",
-        "meta-mapping-value-fg":    "var(green2)",
+        "meta-mapping-key-fg":      "color(var(purple2) l(+ 3%))",
+        "meta-mapping-value-fg":    "color(var(green2) l(- 7%))",
 
         /** HTML */
         "entity-other-attribute-name-html-fg":    "var(purple3)",
@@ -183,7 +183,7 @@
         /** CSS */
         "meta-at-rule-other-css-fg":          "var(blue2)",
         "constant-css-fg":                    "color(var(gray4) a(0.8))",
-        "support-entity-property-css-fg":     "var(pink-light3)",
+        "support-entity-property-css-fg":     "color(var(green-light3) l(- 11%))",
 
         /** C# */
         "storage-type-method-params-cs-fg":    "var(blue2)",
@@ -220,7 +220,7 @@
         "keyword-operator-rust-fg":    "color(var(brown1) a(0.8))",
         "storage-modifier-rust-fg":    "var(pink-light3)",
         "storage-type-rust-fg":        "var(blue2)",
-        "support-macro-rust-fg":       "color(var(gold2) l(- 9%))",
+        "support-macro-rust-fg":       "color(var(gold2) l(- 16%))",
         "support-type-rust-fg":        "color(var(red2) l(+ 18%))"
 
     },

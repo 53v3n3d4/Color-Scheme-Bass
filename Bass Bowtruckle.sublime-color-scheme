@@ -121,7 +121,7 @@
         {
             "name": "String",
             "scope": "string",
-            "foreground": "color(#1E73BE a(0.8))"
+            "foreground": "color(#1E73BE a(0.9))"
         },
         {
             "name": "Comment",
@@ -143,7 +143,7 @@
             "name": "Constant other language name md",
             "scope": "constant.other.language-name.markdown",
             "font_style": "normal",
-            "foreground": "#8D52D1"
+            "foreground": "color(#D0BC56 l(- 14%))"
         },
         {
             "name": "Markup heading",
@@ -283,12 +283,12 @@
         {
             "name": "Mapping key",
             "scope": "meta.mapping.key, meta.mapping.key string",
-            "foreground": "#007F7C"
+            "foreground": "#9B2393"
         },
         {
             "name": "Mapping value",
             "scope": "meta.mapping.value, meta.mapping.value string",
-            "foreground": "color(#1E73BE a(0.8))"
+            "foreground": "color(#38A2AF l(- 3%))"
         },
         {
             "name": "Entity id html",
@@ -409,7 +409,7 @@
         {
             "name": "Support macro rust",
             "scope": "support.macro.rust",
-            "foreground": "color(#D0BC56 l(- 7%))"
+            "foreground": "color(#D0BC56 l(- 14%))"
         },
         {
             "name": "Support type rust",

@@ -100,7 +100,7 @@
 
         /** Support */
         // "support-fg":          "var(green3)",
-        "support-fn-fg":       "var(green2)",
+        "support-fn-fg":       "color(var(green-light3) l(- 5%))",
         "support-class-fg":    "var(brown1)",
 
         /** Keyword */
@@ -174,8 +174,8 @@
         "variable-other-class-js-fg":               "var(brown1)",
 
         /** Mapping Key Value */
-        "meta-mapping-key-fg":      "var(purple2)",
-        "meta-mapping-value-fg":    "var(blue2)",
+        "meta-mapping-key-fg":      "var(pink2)",
+        "meta-mapping-value-fg":    "color(var(blue8) a(0.8))",
 
         /** HTML */
         "entity-other-attribute-name-html-fg":    "var(purple3)",
@@ -202,7 +202,7 @@
 
         /** Toml */
         "entity-name-table-toml-fg":    "var(green2)",
-        "entity-name-tag-toml-fg":      "var(purple2)",
+        "entity-name-tag-toml-fg":      "var(pink2)",
 
         /** Rails */
         "meta-model-rails-fg":    "var(magenta2)",
@@ -210,7 +210,7 @@
         /** Ruby */
         "constant-lang-bool-rb-fg":                     "color(var(red2) a(0.8))",
         "entity-name-class-ruby-fg":                    "var(black4)",
-        "constant-rb-fg":                               "var(pink-light4)",
+        "constant-rb-fg":                               "color(var(pink-light4) l(- 3%))",
         "variable-other-readwrite-instance-ruby-fg":    "var(orange1)",
 
         /** Rust Enhanced */
@@ -220,7 +220,7 @@
         "keyword-operator-rust-fg":    "var(purple3)",
         "storage-modifier-rust-fg":    "var(magenta3)",
         "storage-type-rust-fg":        "var(purple3)",
-        "support-macro-rust-fg":       "var(green2)",
+        "support-macro-rust-fg":       "color(var(gold3) l(- 4%))",
         "support-type-rust-fg":        "var(orange2)"
 
     },

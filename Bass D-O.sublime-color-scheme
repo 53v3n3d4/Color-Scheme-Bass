@@ -75,7 +75,7 @@
         {
             "name": "Variable function",
             "scope": "variable.function",
-            "foreground": "color(#AA0D91 a(0.7))"
+            "foreground": "color(#9B2393 l(- 3%))"
         },
         {
             "name": "Variable other.constant",
@@ -283,7 +283,7 @@
         {
             "name": "Mapping key",
             "scope": "meta.mapping.key, meta.mapping.key string",
-            "foreground": "#BF8555"
+            "foreground": "color(#BF8555 l(- 9%))"
         },
         {
             "name": "Mapping value",

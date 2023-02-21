@@ -4,57 +4,92 @@
 
 ### Biohack
 - Change entity inherited class color, orange -> yellow
+- Change comment color, gray -> yellow
 - Change constant other language name markdown color, purple -> magenta
 - Change meta models rails color, blue -> yellow
 
 ### Blackcomb
 - Change entity inherited class color to lighter tone
 - Change constant numeric color to darker tone
+- Change meta mapping key color, magenta -> pink
 - Change storage support type built in go color to lighter tone
 - Change meta models rails color to lighter tone
 - Change variable other readwrite instance ruby color to lighter tone
+- Change entity name function color, purple -> blue
+- Change support macro rust color, cyan -> yellow
 
 ### Bowtruckle
 - Change entity inherited class color, blue -> green
+- Change string color to darker tone
+- Change constant other language name markdown color, purple -> gold
+- Change meta mapping key color, cyan -> purple
+- Change meta mapping value color, blue -> cyan
 - Change storage support type built in go color, magenta -> brown
 - Change meta models rails color, blue -> green
 - Change storage modifier rust color to darker tone
+- Change support macro rust color to darker tone
 
 ### D-O
 - Change comments color to darker tone
 - Change entity inherited class color, purple -> blue
+- Change variable function color to darker tone
 - Change support function color to darker tone
 - Change constant other language name markdown font style, italic -> normal
 - Change constant other language name markdown color, cyan -> green
 - Change markup heading color, purple -> brown
+- Change meta mapping key color to darker tone
 - Change meta models rails color to lighter tone, purple -> blue
 
 ### Fuji
 - Change entity inherited class color, blue -> magenta
+- Change support function color to lighter tone
 - Change constant other language name markdown font style, italic -> normal
 - Change constant other language name markdown color, gray -> cyan
+- Change meta mapping key color, purple -> pink
+- Change meta mapping value color to darker tone
+- Change entity name tag toml color, purple -> pink
 - Change meta models rails color, blue -> magenta
 - Change constant ruby color, blue -> pink
+- Change support macro rust color, green -> gold
 
 ### Lagoon
+- Change entity name color to darker tone
+- Change entity inherited class color to darker tone
+- Change entity attribute name color, purple -> gold
+- Change variable function color to darker tone
+- Change variable other constant color to darker tone
+- Change support class color to darker tone
+- Change keyword operator color, brown -> orange
 - Change comments color to darker tone
+- Change string color to darker tone
 - Change constant other language name markdown font style, italic -> normal
 - Change constant other language name markdown color, orange -> cyan
 - Change markup heading color, purple -> green
+- Change markup quote color, red -> orange
+- Change variable other class javascript to darker tone
+- Change meta mapping key color, blue -> purple
+- Change meta mapping value color to darker tone
+- Change support entity property css color, pink -> green
 - Change storage support type built in go color to lighter tone
 - Change constant ruby color, pink -> orange
 - Change variable other readwrite instance ruby color, purple -> green
+- Change support macro rust color to darker tone
 
 ### Nimbus
-- Change comments color to darker tone
 - Change entity inherited class color, purple -> magenta
+- Change entity attribute name color, purple -> green
+- Change support function color to darker tone
+- Change comments color to darker tone
 - Change constant other language name markdown font style, italic -> normal
 - Change constant other language name markdown color, purple -> pink
+- Change markup quote color, orange -> green
+- Change meta mapping value color, purple -> green
 - Change meta models rails color, purple -> magenta
 - Change constant ruby color, purple -> magenta
 
 ### Roci
 - Change entity inherited class color, blue -> cyan
+- Change variable function color to darker tone
 - Change constant other language name markdown color, yellow -> gold
 - Change markup heading color, pink -> blue
 - Change meta models rails color, blue -> cyan
@@ -63,6 +98,7 @@
 - Change entity inherited class color, magenta -> green
 - Change variable function color to darker tone
 - Change constant other language name markdown color, yellow -> gold
+- Change meta mapping value color to darker tone
 - Change meta models rails color, magenta -> green
 - Change constant ruby color, magenta -> green
 - Change variable other readwrite instance ruby color, green -> pink

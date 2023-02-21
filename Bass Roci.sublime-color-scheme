@@ -75,7 +75,7 @@
         {
             "name": "Variable function",
             "scope": "variable.function",
-            "foreground": "#5DD8FF"
+            "foreground": "color(#1E73BE l(+ 19%))"
         },
         {
             "name": "Variable other.constant",

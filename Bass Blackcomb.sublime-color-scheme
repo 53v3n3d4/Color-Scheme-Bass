@@ -283,7 +283,7 @@
         {
             "name": "Mapping key",
             "scope": "meta.mapping.key, meta.mapping.key string",
-            "foreground": "#EC4990"
+            "foreground": "color(#DF88B7 l(- 1%))"
         },
         {
             "name": "Mapping value",
@@ -384,7 +384,7 @@
         {
             "name": "Entity name function",
             "scope": "entity.name.function.rust",
-            "foreground": "color(#8D52D1 l(+ 14%))"
+            "foreground": "#A4CDFF"
         },
         {
             "name": "Keyword control rust",
@@ -409,7 +409,7 @@
         {
             "name": "Support macro rust",
             "scope": "support.macro.rust",
-            "foreground": "#40E0D0"
+            "foreground": "color(#F9DF9C l(+ 4%))"
         },
         {
             "name": "Support type rust",

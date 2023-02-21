@@ -84,7 +84,7 @@
         // "variable-lang-font-style":      "italic",
         // "variable-lang-fg":              "var(purple1)",
         // "variable-param-fg":             "var(purple1)",
-        "variable-fn-fg":                "color(var(purple3) a(0.7))",
+        "variable-fn-fg":                "color(var(purple2) l(- 3%))",
         "variable-other-constant-fg":    "color(var(red2) a(0.7))",
 
         /** Constant */
@@ -174,7 +174,7 @@
         "variable-other-class-js-fg":               "color(var(red2) a(0.7))",
 
         /** Mapping Key Value */
-        "meta-mapping-key-fg":      "var(brown1)",
+        "meta-mapping-key-fg":      "color(var(brown1) l(- 9%))",
         "meta-mapping-value-fg":    "var(gray4)",
 
         /** HTML */

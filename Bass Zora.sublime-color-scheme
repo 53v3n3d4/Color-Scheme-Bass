@@ -288,7 +288,7 @@
         {
             "name": "Mapping value",
             "scope": "meta.mapping.value, meta.mapping.value string",
-            "foreground": "#D0BC56"
+            "foreground": "color(#D0BC56 l(- 11%))"
         },
         {
             "name": "Entity id html",

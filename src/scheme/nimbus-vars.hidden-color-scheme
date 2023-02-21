@@ -73,10 +73,10 @@
 
         /** Entity */
         "entity-name-fg":                  "var(orange2)",
-        "entity-inherited-class-fg":       "color(var(magenta1) l(- 11%))",
+        "entity-inherited-class-fg":       "color(var(magenta2) l(+ 7%))",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
-        "entity-attribute-name-fg":        "var(purple3)",
+        "entity-attribute-name-fg":        "color(var(green-light3) l(- 17%))",
         "entity-other-pseudo-class-fg":    "var(purple2)",
 
         /** Variable */
@@ -100,7 +100,7 @@
 
         /** Support */
         // "support-fg":          "var(green3)",
-        "support-fn-fg":       "color(var(blue3) a(0.6))",
+        "support-fn-fg":       "color(var(blue3) a(0.7))",
         "support-class-fg":    "var(brown1)",
 
         /** Keyword */
@@ -141,7 +141,7 @@
         "markup-italic-underline-font-style":         "italic underline",
         "markup-bold-italic-underline-font-style":    "bold italic underline",
         "markup-quote-font-style":                    "italic",
-        "markup-quote-fg":                            "var(orange2)",
+        "markup-quote-fg":                            "color(var(green-light3) l(- 7%))",
         "markup-raw-bg":                              "color(var(gray2) a(0.3))",
         "markup-link-fg":                             "var(blue2)",
         "markup-table-bg":                            "color(var(gray2) a(0.3))",
@@ -175,7 +175,7 @@
 
         /** Mapping Key Value */
         "meta-mapping-key-fg":      "var(brown1)",
-        "meta-mapping-value-fg":    "var(purple3)",
+        "meta-mapping-value-fg":    "color(var(green3) a(0.8))",
 
         /** HTML */
         "entity-other-attribute-name-html-fg":    "var(purple3)",
