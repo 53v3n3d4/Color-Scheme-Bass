@@ -85,7 +85,7 @@
         {
             "name": "Constant numeric",
             "scope": "constant.numeric",
-            "foreground": "#D0BC56"
+            "foreground": "color(#D0BC56 l(- 7%))"
         },
         {
             "name": "Constant language null",

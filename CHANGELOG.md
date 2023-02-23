@@ -33,6 +33,7 @@
 - Change comments color to darker tone
 - Change entity inherited class color, purple -> blue
 - Change variable function color to darker tone
+- Change constant numeric color to darker tone
 - Change support function color to darker tone
 - Change constant other language name markdown font style, italic -> normal
 - Change constant other language name markdown color, cyan -> green
