@@ -88,8 +88,18 @@
             "foreground": "#2077FB"
         },
         {
+            "name": "Constant language",
+            "scope": "constant.language",
+            "foreground": "color(#C41A16 a(0.8))"
+        },
+        {
             "name": "Constant language null",
             "scope": "constant.language.null",
+            "foreground": "color(#C41A16 a(0.8))"
+        },
+        {
+            "name": "Constant language boolean",
+            "scope": "constant.language.boolean",
             "foreground": "color(#C41A16 a(0.8))"
         },
         {
@@ -318,7 +328,7 @@
         {
             "name": "Constant language go",
             "scope": "constant.language.go",
-            "foreground": "color(#C41A16 a(0.8))"
+            "foreground": ""
         },
         {
             "name": "Storage Support type builtin go",
@@ -359,7 +369,7 @@
         {
             "name": "Constant boolean ruby",
             "scope": "constant.language.boolean.ruby",
-            "foreground": "color(#C41A16 a(0.8))"
+            "foreground": ""
         },
         {
             "name": "Entity name class ruby",
@@ -379,7 +389,7 @@
         {
             "name": "Constant language rust",
             "scope": "constant.language.rust",
-            "foreground": "#E47C48"
+            "foreground": ""
         },
         {
             "name": "Entity name function",

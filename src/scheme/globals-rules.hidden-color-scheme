@@ -188,15 +188,20 @@
             "scope": "constant.numeric",
             "foreground": "var(constant-num-fg)"
         },
-        // {
-        //     "name": "Constant language", // Built-in
-        //     "scope": "constant.language",
-        //     "foreground": "var(constant-lang-fg)"
-        // },
+        {
+            "name": "Constant language", // Built-in
+            "scope": "constant.language",
+            "foreground": "var(constant-lang-fg)"
+        },
         {
             "name": "Constant language null",
             "scope": "constant.language.null",
             "foreground": "var(constant-lang-null-fg)"
+        },
+        {
+            "name": "Constant language boolean",
+            "scope": "constant.language.boolean",
+            "foreground": "var(constant-lang-bool-fg)"
         },
         // {
         //     "name": "Constant character escape",

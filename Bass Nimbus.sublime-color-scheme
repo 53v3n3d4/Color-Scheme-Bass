@@ -88,9 +88,19 @@
             "foreground": "#0282F2"
         },
         {
+            "name": "Constant language",
+            "scope": "constant.language",
+            "foreground": "color(#FFB500 l(- 5%))"
+        },
+        {
             "name": "Constant language null",
             "scope": "constant.language.null",
-            "foreground": "#FFB500"
+            "foreground": "color(#FFB500 l(- 5%))"
+        },
+        {
+            "name": "Constant language boolean",
+            "scope": "constant.language.boolean",
+            "foreground": "color(#FFB500 l(- 5%))"
         },
         {
             "name": "Storage modifier",
@@ -318,7 +328,7 @@
         {
             "name": "Constant language go",
             "scope": "constant.language.go",
-            "foreground": "#FFB500"
+            "foreground": ""
         },
         {
             "name": "Storage Support type builtin go",
@@ -334,7 +344,7 @@
             "name": "Keyword operator logical sql",
             "scope": "keyword.operator.logical.sql",
             "font_style": "normal",
-            "foreground": "#FFB500"
+            "foreground": "color(#FFB500 l(- 5%))"
         },
         {
             "name": "Storage modifier sql",
@@ -359,7 +369,7 @@
         {
             "name": "Constant boolean ruby",
             "scope": "constant.language.boolean.ruby",
-            "foreground": "#FFB500"
+            "foreground": ""
         },
         {
             "name": "Entity name class ruby",
@@ -379,7 +389,7 @@
         {
             "name": "Constant language rust",
             "scope": "constant.language.rust",
-            "foreground": "#FFB500"
+            "foreground": ""
         },
         {
             "name": "Entity name function",

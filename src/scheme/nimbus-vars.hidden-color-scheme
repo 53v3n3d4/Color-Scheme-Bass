@@ -90,8 +90,9 @@
         /** Constant */
         // "constant-fg":                "var(green4)",
         "constant-num-fg":            "var(blue3)",
-        // "constant-lang-fg":           "var(blue3)",
-        "constant-lang-null-fg":      "var(gold1)",
+        "constant-lang-fg":           "color(var(gold1) l(- 5%))",
+        "constant-lang-null-fg":      "color(var(gold1) l(- 5%))",
+        "constant-lang-bool-fg":      "color(var(gold1) l(- 5%))",
         // "constant-char-escape-fg":    "var(blue4)",
 
         /** Storage */
@@ -189,7 +190,7 @@
         "storage-type-method-params-cs-fg":    "var(blue2)",
 
         /** Go */
-        "constant-lang-go-fg":                   "var(gold1)",
+        "constant-lang-go-fg":                   "",
         "storage-support-type-builtin-go-fg":    "color(var(magenta3) a(0.7))",
 
         /** Git */
@@ -197,7 +198,7 @@
 
         /** Sql */
         "keyword-operator-logical-sql-font-style":    "normal",
-        "keyword-operator-logical-sql-fg":            "var(gold1)",
+        "keyword-operator-logical-sql-fg":            "color(var(gold1) l(- 5%))",
         "storage-modifier-sql-fg":                    "var(green-light3)",
 
         /** Toml */
@@ -208,13 +209,13 @@
         "meta-model-rails-fg":    "color(var(magenta1) l(- 11%))",
 
         /** Ruby */
-        "constant-lang-bool-rb-fg":                     "var(gold1)",
+        "constant-lang-bool-rb-fg":                     "",
         "entity-name-class-ruby-fg":                    "var(black4)",
         "constant-rb-fg":                               "var(magenta2)",
         "variable-other-readwrite-instance-ruby-fg":    "var(green-light3)",
 
         /** Rust Enhanced */
-        "constant-lang-rust-fg":       "var(gold1)",
+        "constant-lang-rust-fg":       "",
         "entity-name-fn-rust-fg":      "var(orange2)",
         "keyword-ctrl-rust-fg":        "var(cyan2)",
         "keyword-operator-rust-fg":    "var(cyan2)",

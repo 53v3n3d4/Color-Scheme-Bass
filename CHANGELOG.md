@@ -1,6 +1,8 @@
 # Changelog
 
-## [0.1.8] - 2023
+## [0.1.8] - 2023-02-28
+- Change constant language go and rust to constant language
+- Change constant language boolean ruby to constant language boolean
 
 ### Biohack
 - Change entity inherited class color, orange -> yellow
@@ -17,6 +19,7 @@
 - Change variable other readwrite instance ruby color to lighter tone
 - Change entity name function color, purple -> blue
 - Change support macro rust color, cyan -> yellow
+- Change support type rust color, red -> brown
 
 ### Bowtruckle
 - Change entity inherited class color, blue -> green
@@ -40,6 +43,7 @@
 - Change markup heading color, purple -> brown
 - Change meta mapping key color to darker tone
 - Change meta models rails color to lighter tone, purple -> blue
+- Change constant language rust color, green -> red
 
 ### Fuji
 - Change entity inherited class color, blue -> magenta
@@ -51,6 +55,7 @@
 - Change entity name tag toml color, purple -> pink
 - Change meta models rails color, blue -> magenta
 - Change constant ruby color, blue -> pink
+- Change constant language rust color, orange -> red
 - Change support macro rust color, green -> gold
 
 ### Lagoon
@@ -75,6 +80,7 @@
 - Change constant ruby color, pink -> orange
 - Change variable other readwrite instance ruby color, purple -> green
 - Change support macro rust color to darker tone
+- Change support type rust color, red -> brown
 
 ### Nimbus
 - Change entity inherited class color, purple -> magenta
@@ -86,6 +92,7 @@
 - Change markup quote color, orange -> green
 - Change meta mapping value color, purple -> green
 - Change meta models rails color, purple -> magenta
+- Change keyword operator logical sql to darker tone
 - Change constant ruby color, purple -> magenta
 
 ### Roci
@@ -98,9 +105,11 @@
 ### Zora
 - Change entity inherited class color, magenta -> green
 - Change variable function color to darker tone
+- Change constant numeric color, red -> gold
 - Change constant other language name markdown color, yellow -> gold
 - Change meta mapping value color to darker tone
 - Change meta models rails color, magenta -> green
+- Change constant language boolean ruby color, gold -> red
 - Change constant ruby color, magenta -> green
 - Change variable other readwrite instance ruby color, green -> pink
 

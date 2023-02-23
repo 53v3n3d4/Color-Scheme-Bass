@@ -90,8 +90,9 @@
         /** Constant */
         // "constant-fg":                "var(green4)",
         "constant-num-fg":            "var(blue1)",
-        // "constant-lang-fg":           "var(blue3)",
+        "constant-lang-fg":           "color(var(red2) a(0.8))",
         "constant-lang-null-fg":      "color(var(red2) a(0.8))",
+        "constant-lang-bool-fg":      "color(var(red2) a(0.8))",
         // "constant-char-escape-fg":    "var(blue4)",
 
         /** Storage */
@@ -189,7 +190,7 @@
         "storage-type-method-params-cs-fg":    "var(blue2)",
 
         /** Go */
-        "constant-lang-go-fg":                   "color(var(red2) a(0.8))",
+        "constant-lang-go-fg":                   "",
         "storage-support-type-builtin-go-fg":    "color(var(magenta3) a(0.7))",
 
         /** Git */
@@ -208,13 +209,13 @@
         "meta-model-rails-fg":    "var(magenta2)",
 
         /** Ruby */
-        "constant-lang-bool-rb-fg":                     "color(var(red2) a(0.8))",
+        "constant-lang-bool-rb-fg":                     "",
         "entity-name-class-ruby-fg":                    "var(black4)",
         "constant-rb-fg":                               "color(var(pink-light4) l(- 3%))",
         "variable-other-readwrite-instance-ruby-fg":    "var(orange1)",
 
         /** Rust Enhanced */
-        "constant-lang-rust-fg":       "var(orange2)",
+        "constant-lang-rust-fg":       "",
         "entity-name-fn-rust-fg":      "var(brown1)",
         "keyword-ctrl-rust-fg":        "var(purple3)",
         "keyword-operator-rust-fg":    "var(purple3)",
