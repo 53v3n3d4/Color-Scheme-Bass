@@ -179,7 +179,7 @@
         "meta-mapping-value-fg":    "color(var(green2) l(- 7%))",
 
         /** HTML */
-        "entity-other-attribute-name-html-fg":    "var(purple3)",
+        "entity-other-attribute-name-html-fg":    "color(var(gold3) l(- 13%))",
 
         /** CSS */
         "meta-at-rule-other-css-fg":          "var(blue2)",

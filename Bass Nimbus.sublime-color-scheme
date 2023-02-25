@@ -303,7 +303,7 @@
         {
             "name": "Entity id html",
             "scope": "text.html entity.other.attribute-name.id",
-            "foreground": "#AA0D91"
+            "foreground": "color(#83B85E l(- 17%))"
         },
         {
             "name": "At rule other css",

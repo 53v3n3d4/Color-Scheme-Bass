@@ -60,7 +60,7 @@
         {
             "name": "Entity other inherited class",
             "scope": "entity.other.inherited-class",
-            "foreground": "#57C038"
+            "foreground": "color(#57C038 l(+ 11%))"
         },
         {
             "name": "Entity other attribute name",
@@ -126,7 +126,7 @@
         {
             "name": "Keyword operator",
             "scope": "keyword.operator",
-            "foreground": "#FFE76D"
+            "foreground": "#DF88B7"
         },
         {
             "name": "String",
@@ -333,7 +333,7 @@
         {
             "name": "Storage Support type builtin go",
             "scope": "storage.type.go support.type.builtin.go",
-            "foreground": "color(#38A2AF a(0.7))"
+            "foreground": "color(#38A2AF l(- 13%))"
         },
         {
             "name": "Git attributes value",
@@ -364,7 +364,7 @@
         {
             "name": "Model rails",
             "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby",
-            "foreground": "#57C038"
+            "foreground": "color(#57C038 l(+ 11%))"
         },
         {
             "name": "Constant boolean ruby",

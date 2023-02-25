@@ -24,6 +24,7 @@
 ### Bowtruckle
 - Change entity inherited class color, blue -> green
 - Change string color to darker tone
+- Change comments color to lighter tone
 - Change constant other language name markdown color, purple -> gold
 - Change meta mapping key color, cyan -> purple
 - Change meta mapping value color, blue -> cyan
@@ -75,6 +76,7 @@
 - Change variable other class javascript to darker tone
 - Change meta mapping key color, blue -> purple
 - Change meta mapping value color to darker tone
+- Change entity other attribute name html color, purple -> gold
 - Change support entity property css color, pink -> green
 - Change storage support type built in go color to lighter tone
 - Change constant ruby color, pink -> orange
@@ -91,6 +93,7 @@
 - Change constant other language name markdown color, purple -> pink
 - Change markup quote color, orange -> green
 - Change meta mapping value color, purple -> green
+- Change entity other attribute name html color, purple -> green
 - Change meta models rails color, purple -> magenta
 - Change keyword operator logical sql to darker tone
 - Change constant ruby color, purple -> magenta
@@ -106,6 +109,7 @@
 - Change entity inherited class color, magenta -> green
 - Change variable function color to darker tone
 - Change constant numeric color, red -> gold
+- Change keyword operator color, yellow -> pink
 - Change constant other language name markdown color, yellow -> gold
 - Change meta mapping value color to darker tone
 - Change meta models rails color, magenta -> green
