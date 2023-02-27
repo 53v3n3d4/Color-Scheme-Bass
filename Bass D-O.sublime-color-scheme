@@ -55,7 +55,7 @@
         {
             "name": "Entity name",
             "scope": "entity.name",
-            "foreground": "color(#AA0D91 a(0.7))"
+            "foreground": "color(#EC4990 a(0.8))"
         },
         {
             "name": "Entity other inherited class",
@@ -75,7 +75,7 @@
         {
             "name": "Variable function",
             "scope": "variable.function",
-            "foreground": "color(#9B2393 l(- 3%))"
+            "foreground": "color(#9B2393 a(0.7))"
         },
         {
             "name": "Variable other.constant",
@@ -105,7 +105,7 @@
         {
             "name": "Storage modifier",
             "scope": "storage.modifier",
-            "foreground": "color(#EC4990 a(0.7))"
+            "foreground": "color(#57C038 l(- 3%))"
         },
         {
             "name": "Support function",
@@ -126,7 +126,7 @@
         {
             "name": "Keyword operator",
             "scope": "keyword.operator",
-            "foreground": "color(#8D52D1 a(0.7))"
+            "foreground": "color(#8D52D1 l(+ 7%))"
         },
         {
             "name": "String",
@@ -349,7 +349,7 @@
         {
             "name": "Storage modifier sql",
             "scope": "storage.modifier.sql",
-            "foreground": "color(#EC4990 a(0.7))"
+            "foreground": "color(#83B85E l(- 1%))"
         },
         {
             "name": "Table toml",
@@ -379,12 +379,12 @@
         {
             "name": "Constant ruby",
             "scope": "source.ruby constant",
-            "foreground": "#AA0D91"
+            "foreground": "color(#AA0D91 a(0.7))"
         },
         {
             "name": "Variable other readwrite instance ruby",
             "scope": "variable.other.readwrite.instance.ruby",
-            "foreground": "color(#EC4990 a(0.7))"
+            "foreground": "color(#D1B502 l(- 1%))"
         },
         {
             "name": "Constant language rust",
@@ -409,7 +409,7 @@
         {
             "name": "Storage modifier rust",
             "scope": "storage.modifier.rust",
-            "foreground": "color(#EC4990 a(0.7))"
+            "foreground": "color(#DF88B7 l(- 3%))"
         },
         {
             "name": "Storage type rust",

@@ -35,16 +35,23 @@
 
 ### D-O
 - Change comments color to darker tone
+- Change entity name color, purple -> magenta
 - Change entity inherited class color, purple -> blue
 - Change variable function color to darker tone
 - Change constant numeric color to darker tone
+- Change storage modifier color, magenta -> green
 - Change support function color to darker tone
+- Change keyword operator color to darker tone
 - Change constant other language name markdown font style, italic -> normal
 - Change constant other language name markdown color, cyan -> green
 - Change markup heading color, purple -> brown
 - Change meta mapping key color to darker tone
+- Change storage modifier sql color, magenta -> green
 - Change meta models rails color to lighter tone, purple -> blue
+- Change constant ruby color to ligther tone
+- Change variable other readwrite instance ruby color, magenta -> gold
 - Change constant language rust color, green -> red
+- Change storage modifier rust color, magenta -> pink
 
 ### Fuji
 - Change entity inherited class color, blue -> magenta

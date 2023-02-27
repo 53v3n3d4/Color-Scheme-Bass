@@ -72,7 +72,7 @@
         /** Rules variables*/
 
         /** Entity */
-        "entity-name-fg":                  "color(var(purple3) a(0.7))",
+        "entity-name-fg":                  "color(var(magenta3) a(0.8))",
         "entity-inherited-class-fg":       "color(var(blue3) l(+ 16%))",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
@@ -84,7 +84,7 @@
         // "variable-lang-font-style":      "italic",
         // "variable-lang-fg":              "var(purple1)",
         // "variable-param-fg":             "var(purple1)",
-        "variable-fn-fg":                "color(var(purple2) l(- 3%))",
+        "variable-fn-fg":                "color(var(purple2) a(0.7))",
         "variable-other-constant-fg":    "color(var(red2) a(0.7))",
 
         /** Constant */
@@ -97,7 +97,7 @@
 
         /** Storage */
         // "storage-fg":             "var(purple3)",
-        "storage-modifier-fg":    "color(var(magenta3) a(0.7))",
+        "storage-modifier-fg":    "color(var(green1) l(- 3%))",
 
         /** Support */
         // "support-fg":          "var(green3)",
@@ -108,7 +108,7 @@
         "keyword-font-style":        "normal",
         "keyword-fg":                "color(var(orange3) a(0.8))",
         // "keyword-ctrl-fg":           "var(purple3)",
-        "keyword-operator-fg":       "color(var(purple1) a(0.7))",
+        "keyword-operator-fg":       "color(var(purple1) l(+ 7%))",
         // "keyword-declaration-fg":    "var(green3)",
 
         /** String */
@@ -199,7 +199,7 @@
         /** Sql */
         "keyword-operator-logical-sql-font-style":    "normal",
         "keyword-operator-logical-sql-fg":            "var(red1)",
-        "storage-modifier-sql-fg":                    "color(var(magenta3) a(0.7))",
+        "storage-modifier-sql-fg":                    "color(var(green-light3) l(- 1%))",
 
         /** Toml */
         "entity-name-table-toml-fg":    "var(blue2)",
@@ -211,15 +211,15 @@
         /** Ruby */
         "constant-lang-bool-rb-fg":                     "",
         "entity-name-class-ruby-fg":                    "var(gray4)",
-        "constant-rb-fg":                               "var(purple3)",
-        "variable-other-readwrite-instance-ruby-fg":    "color(var(magenta3) a(0.7))",
+        "constant-rb-fg":                               "color(var(purple3) a(0.7))",
+        "variable-other-readwrite-instance-ruby-fg":    "color(var(gold3) l(- 1%))",
 
         /** Rust Enhanced */
         "constant-lang-rust-fg":       "",
         "entity-name-fn-rust-fg":      "color(var(cyan2) a(0.8))",
         "keyword-ctrl-rust-fg":        "color(var(orange3) a(0.7))",
         "keyword-operator-rust-fg":    "color(var(purple1) a(0.7))",
-        "storage-modifier-rust-fg":    "color(var(magenta3) a(0.7))",
+        "storage-modifier-rust-fg":    "color(var(pink-light4) l(- 3%))",
         "storage-type-rust-fg":        "color(var(orange3) a(0.7))",
         "support-macro-rust-fg":       "color(var(green2) a(0.6))",
         "support-type-rust-fg":        "var(green-light3)"
