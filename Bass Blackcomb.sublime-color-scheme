@@ -419,7 +419,7 @@
         {
             "name": "Support macro rust",
             "scope": "support.macro.rust",
-            "foreground": "color(#F9DF9C l(+ 4%))"
+            "foreground": "#F9DF9C"
         },
         {
             "name": "Support type rust",

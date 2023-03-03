@@ -221,7 +221,7 @@
         "keyword-operator-rust-fg":    "var(pink-light4)",
         "storage-modifier-rust-fg":    "var(green-light2)",
         "storage-type-rust-fg":        "var(magenta2)",
-        "support-macro-rust-fg":       "color(var(yellow-light3) l(+ 4%))",
+        "support-macro-rust-fg":       "var(yellow-light3)",
         "support-type-rust-fg":        "var(orange2)"
 
     },

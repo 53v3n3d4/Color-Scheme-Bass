@@ -4,6 +4,7 @@
 
 ### Blackcomb
 - Change diff and inline diff color to lighter tone
+- Change support macro rust color to darker tone
 
 ### Bowtruckle
 - Change diff and inline diff color to lighter tone
