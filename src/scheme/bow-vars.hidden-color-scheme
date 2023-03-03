@@ -150,23 +150,23 @@
         "punctuation-line-break-md-bg":               "color(var(green-light6) a(0.5))",
 
         /** Diff */
-        "markup-changed-bg":      "hsla(53, 93%, 87%, 0.9)",
+        "markup-changed-bg":      "hsla(53, 93%, 87%, 0.6)",
         "markup-changed-fg":      "var(orange3)",
-        "markup-deleted-bg":      "hsla(3, 100%, 91%, 0.9)",
+        "markup-deleted-bg":      "hsla(3, 100%, 91%, 0.5)",
         "markup-deleted-fg":      "color(var(red2) a(0.9))",
-        "markup-inserted-bg":     "hsla(111, 89%, 89%, 0.9)",
+        "markup-inserted-bg":     "hsla(111, 89%, 89%, 0.5)",
         "markup-inserted-fg":     "color(var(green2) a(0.9))",
-        "meta-diff-header-bg":    "hsla(211, 85%, 89%, 0.9)",
+        "meta-diff-header-bg":    "hsla(211, 85%, 89%, 0.5)",
         "meta-diff-header-fg":    "var(blue2)",
 
         /** Inline Diffs */
-        "diff-deleted-bg":          "hsla(3, 100%, 91%, 0.9)",
+        "diff-deleted-bg":          "hsla(3, 100%, 91%, 0.5)",
         "diff-deleted-fg":          "color(var(red2) a(0.6))",
-        "diff-deleted-char-bg":     "hsla(3, 100%, 86%, 0.9)",
+        "diff-deleted-char-bg":     "hsla(3, 100%, 86%, 0.5)",
         "diff-deleted-char-fg":     "color(var(red2) a(0.9))",
-        "diff-inserted-bg":         "hsla(111, 89%, 89%, 0.9)",
+        "diff-inserted-bg":         "hsla(111, 89%, 89%, 0.5)",
         "diff-inserted-fg":         "color(var(green2) a(0.8))",
-        "diff-inserted-char-bg":    "hsla(111, 89%, 81%, 0.9)",
+        "diff-inserted-char-bg":    "hsla(111, 89%, 81%, 0.5)",
         "diff-inserted-char-fg":    "color(var(green2) a(0.9))",
 
         /** Javascript */

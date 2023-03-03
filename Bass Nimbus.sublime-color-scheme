@@ -234,19 +234,19 @@
         {
             "name": "Markup changed",
             "scope": "markup.changed",
-            "background": "hsla(53, 93%, 89%, 0.9)",
+            "background": "hsla(53, 93%, 89%, 0.7)",
             "foreground": "#C86733"
         },
         {
             "name": "Markup deleted",
             "scope": "markup.deleted",
-            "background": "hsla(3, 100%, 93%, 0.9)",
+            "background": "hsla(3, 100%, 93%, 0.7)",
             "foreground": "color(#C41A16 a(0.9))"
         },
         {
             "name": "Markup inserted",
             "scope": "markup.inserted",
-            "background": "hsla(111, 89%, 93%, 0.9)",
+            "background": "hsla(111, 89%, 93%, 0.7)",
             "foreground": "color(#119912 a(0.9))"
         },
         {
@@ -257,22 +257,22 @@
         },
         {
             "scope": "diff.deleted",
-            "background": "hsla(3, 100%, 93%, 0.9)",
+            "background": "hsla(3, 100%, 93%, 0.7)",
             "foreground": "color(#C41A16 a(0.6))"
         },
         {
             "scope": "diff.deleted.char",
-            "background": "hsla(3, 100%, 86%, 0.9)",
+            "background": "hsla(3, 100%, 86%, 0.7)",
             "foreground": "color(#C41A16 a(0.9))"
         },
         {
             "scope": "diff.inserted",
-            "background": "hsla(111, 89%, 93%, 0.9)",
+            "background": "hsla(111, 89%, 93%, 0.7)",
             "foreground": "color(#119912 a(0.8))"
         },
         {
             "scope": "diff.inserted.char",
-            "background": "hsla(111, 89%, 87%, 0.9)",
+            "background": "hsla(111, 89%, 87%, 0.7)",
             "foreground": "color(#119912 a(0.9))"
         },
         {

@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.1.9] - 2023
+
+### Blackcomb
+- Change diff and inline diff color to lighter tone
+
+### Bowtruckle
+- Change diff and inline diff color to lighter tone
+
+### D-O
+- Change diff and inline diff color to lighter tone
+
+### Lagoon
+- Change diff and inline diff color to lighter tone
+
+### Nimbus
+- Change diff and inline diff color to lighter tone
+
 ## [0.1.8] - 2023-02-28
 - Change constant language go and rust to constant language
 - Change constant language boolean ruby to constant language boolean

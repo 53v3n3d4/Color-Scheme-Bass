@@ -234,45 +234,45 @@
         {
             "name": "Markup changed",
             "scope": "markup.changed",
-            "background": "hsla(55, 100%, 55%, 0.44)",
+            "background": "hsla(53, 93%, 87%, 0.9)",
             "foreground": "#C86733"
         },
         {
             "name": "Markup deleted",
             "scope": "markup.deleted",
-            "background": "hsla(338, 65%, 56%, 0.22)",
+            "background": "hsla(3, 100%, 91%, 0.5)",
             "foreground": "color(#C41A16 a(0.9))"
         },
         {
             "name": "Markup inserted",
             "scope": "markup.inserted",
-            "background": "hsla(111, 77%, 55%, 0.29)",
+            "background": "hsla(111, 89%, 89%, 0.5)",
             "foreground": "color(#119912 a(0.9))"
         },
         {
             "name": "Diff header",
             "scope": "meta.diff, meta.diff.header",
-            "background": "hsla(211, 77%, 50%, 0.17)",
+            "background": "hsla(211, 85%, 89%, 0.7)",
             "foreground": "#1E73BE"
         },
         {
             "scope": "diff.deleted",
-            "background": "hsla(338, 65%, 56%, 0.14)",
+            "background": "hsla(3, 100%, 91%, 0.5)",
             "foreground": "color(#C41A16 a(0.6))"
         },
         {
             "scope": "diff.deleted.char",
-            "background": "hsla(338, 50%, 56%, 0.22)",
+            "background": "hsla(3, 100%, 86%, 0.5)",
             "foreground": "color(#C41A16 a(0.9))"
         },
         {
             "scope": "diff.inserted",
-            "background": "hsla(111, 77%, 55%, 0.17)",
+            "background": "hsla(111, 89%, 89%, 0.5)",
             "foreground": "color(#119912 a(0.8))"
         },
         {
             "scope": "diff.inserted.char",
-            "background": "hsla(111, 77%, 55%, 0.29)",
+            "background": "hsla(111, 89%, 81%, 0.6)",
             "foreground": "color(#119912 a(0.9))"
         },
         {
