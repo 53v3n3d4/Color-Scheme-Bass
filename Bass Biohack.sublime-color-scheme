@@ -326,11 +326,6 @@
             "foreground": "#5DD8FF"
         },
         {
-            "name": "Constant language go",
-            "scope": "constant.language.go",
-            "foreground": ""
-        },
-        {
             "name": "Storage Support type builtin go",
             "scope": "storage.type.go support.type.builtin.go",
             "foreground": "color(#EC4990 a(0.7))"
@@ -367,11 +362,6 @@
             "foreground": "#FFE76D"
         },
         {
-            "name": "Constant boolean ruby",
-            "scope": "constant.language.boolean.ruby",
-            "foreground": ""
-        },
-        {
             "name": "Entity name class ruby",
             "scope": "entity.name.class.ruby",
             "foreground": "#F0F0F7"
@@ -385,11 +375,6 @@
             "name": "Variable other readwrite instance ruby",
             "scope": "variable.other.readwrite.instance.ruby",
             "foreground": "#FC6BAA"
-        },
-        {
-            "name": "Constant language rust",
-            "scope": "constant.language.rust",
-            "foreground": ""
         },
         {
             "name": "Entity name function",

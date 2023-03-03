@@ -549,11 +549,6 @@
          *
          */
         {
-            "name": "Constant language go", // i.e. nil/false/true
-            "scope": "constant.language.go",
-            "foreground": "var(constant-lang-go-fg)"
-        },
-        {
             "name": "Storage Support type builtin go", // i.e. string/bool
             "scope": "storage.type.go support.type.builtin.go",
             "foreground": "var(storage-support-type-builtin-go-fg)"
@@ -620,11 +615,6 @@
          *
          */
         {
-            "name": "Constant boolean ruby", // i.e. true
-            "scope": "constant.language.boolean.ruby",
-            "foreground": "var(constant-lang-bool-rb-fg)"
-        },
-        {
             "name": "Entity name class ruby",
             "scope": "entity.name.class.ruby",
             "foreground": "var(entity-name-class-ruby-fg)"
@@ -645,11 +635,6 @@
          * RUST ENHANCED
          *
          */
-        {
-            "name": "Constant language rust", // i.e. true/false
-            "scope": "constant.language.rust",
-            "foreground": "var(constant-lang-rust-fg)"
-        },
         {
             "name": "Entity name function",
             "scope": "entity.name.function.rust",
