@@ -252,7 +252,7 @@
         {
             "name": "Diff header",
             "scope": "meta.diff, meta.diff.header",
-            "background": "hsla(234, 23%, 23%, 0.6)",
+            "background": "hsla(234, 33%, 23%, 0.6)",
             "foreground": "#5DD8FF"
         },
         {
@@ -318,7 +318,7 @@
         {
             "name": "Support property name and Entity other custom property css",
             "scope": "support.type.property-name.css, entity.other.custom-property.css",
-            "foreground": "#EC4990"
+            "foreground": "color(#83B85E l(+ 3%))"
         },
         {
             "name": "Storage type and Method parameters c#",
@@ -379,7 +379,7 @@
         {
             "name": "Entity name function",
             "scope": "entity.name.function.rust",
-            "foreground": "#DF88B7"
+            "foreground": "color(#83B85E l(+ 2%))"
         },
         {
             "name": "Keyword control rust",
@@ -389,7 +389,7 @@
         {
             "name": "Keyword operator rust",
             "scope": "keyword.operator.rust",
-            "foreground": "#5DD8FF"
+            "foreground": "#DF88B7"
         },
         {
             "name": "Storage modifier rust",

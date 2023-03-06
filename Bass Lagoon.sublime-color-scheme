@@ -65,17 +65,17 @@
         {
             "name": "Entity other attribute name",
             "scope": "entity.other.attribute-name",
-            "foreground": "color(#D1B502 l(- 13%))"
+            "foreground": "color(#E47C48 l(- 11%) a(0.7))"
         },
         {
             "name": "Entity other pseudo class",
             "scope": "entity.other.pseudo-class",
-            "foreground": "#9B2393"
+            "foreground": "color(#57C038 l(- 9%))"
         },
         {
             "name": "Variable function",
             "scope": "variable.function",
-            "foreground": "color(#119912 l(- 1%))"
+            "foreground": "color(#83B85E l(- 14%))"
         },
         {
             "name": "Variable other.constant",
@@ -110,7 +110,7 @@
         {
             "name": "Support function",
             "scope": "support.function",
-            "foreground": "color(#C01553 a(0.8))"
+            "foreground": "color(#FFB500 l(- 16%) a(0.7))"
         },
         {
             "name": "Support class",
@@ -293,7 +293,7 @@
         {
             "name": "Mapping key",
             "scope": "meta.mapping.key, meta.mapping.key string",
-            "foreground": "color(#9B2393 l(+ 3%))"
+            "foreground": "color(#DF88B7 l(- 10%))"
         },
         {
             "name": "Mapping value",
@@ -303,7 +303,7 @@
         {
             "name": "Entity id html",
             "scope": "text.html entity.other.attribute-name.id",
-            "foreground": "color(#D1B502 l(- 13%))"
+            "foreground": "color(#E47C48 l(- 11%) a(0.7))"
         },
         {
             "name": "At rule other css",
@@ -318,7 +318,7 @@
         {
             "name": "Support property name and Entity other custom property css",
             "scope": "support.type.property-name.css, entity.other.custom-property.css",
-            "foreground": "color(#83B85E l(- 11%))"
+            "foreground": "color(#DF88B7 l(- 9%))"
         },
         {
             "name": "Storage type and Method parameters c#",
@@ -369,7 +369,7 @@
         {
             "name": "Constant ruby",
             "scope": "source.ruby constant",
-            "foreground": "color(#C86733 a(0.9))"
+            "foreground": "color(#C01553 l(+ 9%) a(0.7))"
         },
         {
             "name": "Variable other readwrite instance ruby",
@@ -389,7 +389,7 @@
         {
             "name": "Keyword operator rust",
             "scope": "keyword.operator.rust",
-            "foreground": "color(#BF8555 a(0.8))"
+            "foreground": "color(#C86733 a(0.8))"
         },
         {
             "name": "Storage modifier rust",

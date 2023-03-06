@@ -318,7 +318,7 @@
         {
             "name": "Support property name and Entity other custom property css",
             "scope": "support.type.property-name.css, entity.other.custom-property.css",
-            "foreground": "#A7D4B4"
+            "foreground": "color(#C4E7CE l(- 17%) a(0.9))"
         },
         {
             "name": "Storage type and Method parameters c#",
@@ -389,7 +389,7 @@
         {
             "name": "Keyword operator rust",
             "scope": "keyword.operator.rust",
-            "foreground": "#DF88B7"
+            "foreground": "#FFE76D"
         },
         {
             "name": "Storage modifier rust",

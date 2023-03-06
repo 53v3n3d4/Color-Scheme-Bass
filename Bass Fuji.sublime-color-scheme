@@ -126,7 +126,7 @@
         {
             "name": "Keyword operator",
             "scope": "keyword.operator",
-            "foreground": "#AA0D91"
+            "foreground": "color(#D1B502 l(- 2%))"
         },
         {
             "name": "String",
@@ -389,7 +389,7 @@
         {
             "name": "Keyword operator rust",
             "scope": "keyword.operator.rust",
-            "foreground": "#AA0D91"
+            "foreground": "color(#D1B502 l(- 2%))"
         },
         {
             "name": "Storage modifier rust",

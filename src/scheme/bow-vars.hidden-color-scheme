@@ -108,7 +108,7 @@
         "keyword-font-style":        "normal",
         "keyword-fg":                "var(magenta3)",
         // "keyword-ctrl-fg":           "var(purple3)",
-        "keyword-operator-fg":       "color(var(brown1) a(0.8))",
+        "keyword-operator-fg":       "color(var(orange1) l(- 17%) a(0.7))",
         // "keyword-declaration-fg":    "var(green3)",
 
         /** String */
@@ -215,7 +215,7 @@
         /** Rust Enhanced */
         "entity-name-fn-rust-fg":      "var(cyan4)",
         "keyword-ctrl-rust-fg":        "var(magenta3)",
-        "keyword-operator-rust-fg":    "color(var(orange1) l(- 14%))",
+        "keyword-operator-rust-fg":    "color(var(orange1) l(- 17%) a(0.7))",
         "storage-modifier-rust-fg":    "color(var(green2) a(0.7))",
         "storage-type-rust-fg":        "var(magenta3)",
         "support-macro-rust-fg":       "color(var(gold2) l(- 14%))",

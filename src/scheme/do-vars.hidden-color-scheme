@@ -156,7 +156,7 @@
         "markup-deleted-fg":      "color(var(red2) a(0.9))",
         "markup-inserted-bg":     "hsla(111, 89%, 89%, 0.5)",
         "markup-inserted-fg":     "color(var(green2) a(0.9))",
-        "meta-diff-header-bg":    "hsla(211, 85%, 89%, 0.7)",
+        "meta-diff-header-bg":    "hsla(211, 85%, 89%, 0.4)",
         "meta-diff-header-fg":    "var(blue2)",
 
         /** Inline Diffs */
@@ -175,7 +175,7 @@
         "variable-other-class-js-fg":               "color(var(red2) a(0.7))",
 
         /** Mapping Key Value */
-        "meta-mapping-key-fg":      "color(var(brown1) l(- 9%))",
+        "meta-mapping-key-fg":      "color(var(blue3) l(+ 9%))",
         "meta-mapping-value-fg":    "var(gray4)",
 
         /** HTML */

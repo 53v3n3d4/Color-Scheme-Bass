@@ -252,7 +252,7 @@
         {
             "name": "Diff header",
             "scope": "meta.diff, meta.diff.header",
-            "background": "hsla(211, 85%, 89%, 0.7)",
+            "background": "hsla(211, 85%, 89%, 0.4)",
             "foreground": "#1E73BE"
         },
         {
@@ -293,7 +293,7 @@
         {
             "name": "Mapping key",
             "scope": "meta.mapping.key, meta.mapping.key string",
-            "foreground": "color(#BF8555 l(- 9%))"
+            "foreground": "color(#0282F2 l(+ 9%))"
         },
         {
             "name": "Mapping value",

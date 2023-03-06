@@ -156,7 +156,7 @@
         "markup-deleted-fg":      "hsla(12, 80%, 69%, 0.9)",
         "markup-inserted-bg":     "hsla(133, 29%, 22%, 0.6)",
         "markup-inserted-fg":     "color(var(green-light3) l(+ 3%))",
-        "meta-diff-header-bg":    "hsla(234, 23%, 23%, 0.6)",
+        "meta-diff-header-bg":    "hsla(234, 33%, 23%, 0.6)",
         "meta-diff-header-fg":    "var(blue5)",
 
         /** Inline Diffs */
@@ -184,7 +184,7 @@
         /** CSS */
         "meta-at-rule-other-css-fg":          "var(blue5)",
         "constant-css-fg":                    "var(gray2)",
-        "support-entity-property-css-fg":     "var(magenta3)",
+        "support-entity-property-css-fg":     "color(var(green-light3) l(+ 3%))",
 
         /** C# */
         "storage-type-method-params-cs-fg":    "var(magenta2)",
@@ -213,9 +213,9 @@
         "variable-other-readwrite-instance-ruby-fg":    "color(var(pink-light4) l(+ 4%))",
 
         /** Rust Enhanced */
-        "entity-name-fn-rust-fg":      "var(pink-light4)",
+        "entity-name-fn-rust-fg":      "color(var(green-light3) l(+ 2%))",
         "keyword-ctrl-rust-fg":        "var(blue5)",
-        "keyword-operator-rust-fg":    "var(blue5)",
+        "keyword-operator-rust-fg":    "var(pink-light4)",
         "storage-modifier-rust-fg":    "var(magenta3)",
         "storage-type-rust-fg":        "var(blue5)",
         "support-macro-rust-fg":       "var(magenta2)",

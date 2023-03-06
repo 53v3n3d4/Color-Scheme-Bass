@@ -240,39 +240,39 @@
         {
             "name": "Markup deleted",
             "scope": "markup.deleted",
-            "background": "hsla(6, 29%, 26%, 0.9)",
+            "background": "hsla(6, 29%, 26%, 0.8)",
             "foreground": "hsla(12, 80%, 69%, 0.9)"
         },
         {
             "name": "Markup inserted",
             "scope": "markup.inserted",
-            "background": "hsla(133, 29%, 22%, 0.9)",
+            "background": "hsla(133, 29%, 22%, 0.8)",
             "foreground": "color(#83B85E l(+ 3%))"
         },
         {
             "name": "Diff header",
             "scope": "meta.diff, meta.diff.header",
-            "background": "hsla(234, 23%, 21%, 0.9)",
+            "background": "hsla(234, 23%, 21%, 0.5)",
             "foreground": "#5DD8FF"
         },
         {
             "scope": "diff.deleted",
-            "background": "hsla(6, 29%, 26%, 0.9)",
+            "background": "hsla(6, 29%, 26%, 0.8)",
             "foreground": "color(#C41A16 l(+ 14%))"
         },
         {
             "scope": "diff.deleted.char",
-            "background": "hsla(6, 29%, 34%, 0.9)",
+            "background": "hsla(6, 29%, 34%, 0.8)",
             "foreground": "#FC5B57"
         },
         {
             "scope": "diff.inserted",
-            "background": "hsla(133, 29%, 22%, 0.9)",
+            "background": "hsla(133, 29%, 22%, 0.8)",
             "foreground": "color(#57C038 l(+ 14%))"
         },
         {
             "scope": "diff.inserted.char",
-            "background": "hsla(133, 29%, 32%, 0.9)",
+            "background": "hsla(133, 29%, 32%, 0.8)",
             "foreground": "color(#57C038 l(+ 7%))"
         },
         {
@@ -293,7 +293,7 @@
         {
             "name": "Mapping key",
             "scope": "meta.mapping.key, meta.mapping.key string",
-            "foreground": "#BF8555"
+            "foreground": "color(#FFE76D a(0.9))"
         },
         {
             "name": "Mapping value",
@@ -318,7 +318,7 @@
         {
             "name": "Support property name and Entity other custom property css",
             "scope": "support.type.property-name.css, entity.other.custom-property.css",
-            "foreground": "#A7D4B4"
+            "foreground": "color(#83B85E l(+ 5%))"
         },
         {
             "name": "Storage type and Method parameters c#",

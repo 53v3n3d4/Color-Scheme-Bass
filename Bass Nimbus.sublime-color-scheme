@@ -252,7 +252,7 @@
         {
             "name": "Diff header",
             "scope": "meta.diff, meta.diff.header",
-            "background": "hsla(211, 85%, 95%, 0.9)",
+            "background": "hsla(211, 85%, 92%, 0.7)",
             "foreground": "#1E73BE"
         },
         {
@@ -389,7 +389,7 @@
         {
             "name": "Keyword operator rust",
             "scope": "keyword.operator.rust",
-            "foreground": "#38A2AF"
+            "foreground": "#D1B502"
         },
         {
             "name": "Storage modifier rust",

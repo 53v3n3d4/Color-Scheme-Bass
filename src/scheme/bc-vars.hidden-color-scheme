@@ -184,7 +184,7 @@
         /** CSS */
         "meta-at-rule-other-css-fg":          "var(blue5)",
         "constant-css-fg":                    "var(gray2)",
-        "support-entity-property-css-fg":     "var(green-light2)",
+        "support-entity-property-css-fg":     "color(var(green-light1) l(- 17%) a(0.9))",
 
         /** C# */
         "storage-type-method-params-cs-fg":    "var(blue2)",
@@ -215,7 +215,7 @@
         /** Rust Enhanced */
         "entity-name-fn-rust-fg":      "var(blue-light4)",
         "keyword-ctrl-rust-fg":        "var(magenta2)",
-        "keyword-operator-rust-fg":    "var(pink-light4)",
+        "keyword-operator-rust-fg":    "var(yellow1)",
         "storage-modifier-rust-fg":    "var(green-light2)",
         "storage-type-rust-fg":        "var(magenta2)",
         "support-macro-rust-fg":       "var(yellow-light3)",

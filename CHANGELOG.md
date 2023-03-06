@@ -2,21 +2,55 @@
 
 ## [0.1.9] - 2023
 
+### Biohack
+- Change diff and inline diff color to lighter tone
+- Change meta mapping key color, brown -> yellow
+- Change support entity property css color to darker tone
+
 ### Blackcomb
 - Change diff and inline diff color to lighter tone
+- Change support entity property css color to darker tone
+- Change keyword operator rust color, pink -> yellow
 - Change support macro rust color to darker tone
 
 ### Bowtruckle
 - Change diff and inline diff color to lighter tone
+- Change keyword operator color, brown -> orange
+- Change keyword operator rust color to lighter tone
 
 ### D-O
 - Change diff and inline diff color to lighter tone
+- Change meta mapping key color, brown -> blue
+
+### Fuji
+- Change keyword operator color, purple -> gold
+- Change keyword operator rust color, purple -> gold
 
 ### Lagoon
+- Change attribute name color, gold -> orange
+- Change entity other pseudo class color, purple -> green
+- Change variable function color to lighter tone
+- Change support function color, pink -> gold
 - Change diff and inline diff color to lighter tone
+- Change meta mapping key color, purple -> pink
+- Change entity other attribute name html color, gold -> orange
+- Change support entity property css color, green -> pink
+- Change constant ruby color, orange -> pink
+- Change keyword operator rust color, brown -> orange
 
 ### Nimbus
 - Change diff and inline diff color to lighter tone
+- Change keyword operator rust color, cyan -> gold
+
+### Roci
+- Change diff header to darker tone
+- Change keyword operator rust color, magenta -> yellow
+
+### Zora
+- Change diff header to darker tone
+- Change support entity property css color, magenta -> green
+- Change entity name function rust color, pink -> green
+- Change keyword operator rust color, blue -> pink
 
 ## [0.1.8] - 2023-02-28
 - Change constant language go and rust to constant language

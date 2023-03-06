@@ -156,7 +156,7 @@
         "markup-deleted-fg":      "color(var(red2) a(0.9))",
         "markup-inserted-bg":     "hsla(111, 89%, 93%, 0.7)",
         "markup-inserted-fg":     "color(var(green2) a(0.9))",
-        "meta-diff-header-bg":    "hsla(211, 85%, 95%, 0.9)",
+        "meta-diff-header-bg":    "hsla(211, 85%, 92%, 0.7)",
         "meta-diff-header-fg":    "var(blue2)",
 
         /** Inline Diffs */
@@ -215,7 +215,7 @@
         /** Rust Enhanced */
         "entity-name-fn-rust-fg":      "var(orange2)",
         "keyword-ctrl-rust-fg":        "var(cyan2)",
-        "keyword-operator-rust-fg":    "var(cyan2)",
+        "keyword-operator-rust-fg":    "var(gold3)",
         "storage-modifier-rust-fg":    "var(green-light3)",
         "storage-type-rust-fg":        "var(cyan2)",
         "support-macro-rust-fg":       "var(brown1)",

@@ -76,15 +76,15 @@
         "entity-inherited-class-fg":       "color(var(pink-light4) l(- 5%))",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
-        "entity-attribute-name-fg":        "color(var(gold3) l(- 13%))",
-        "entity-other-pseudo-class-fg":    "var(purple2)",
+        "entity-attribute-name-fg":        "color(var(orange2) l(- 11%) a(0.7))",
+        "entity-other-pseudo-class-fg":    "color(var(green1) l(- 9%))",
 
         /** Variable */
         // "variable-fg":                   "var(green4)",
         // "variable-lang-font-style":      "italic",
         // "variable-lang-fg":              "var(purple1)",
         // "variable-param-fg":             "var(purple1)",
-        "variable-fn-fg":                "color(var(green2) l(- 1%))",
+        "variable-fn-fg":                "color(var(green-light3) l(- 14%))",
         "variable-other-constant-fg":    "color(var(cyan2) l(- 4%))",
 
         /** Constant */
@@ -101,7 +101,7 @@
 
         /** Support */
         // "support-fg":          "var(green3)",
-        "support-fn-fg":       "color(var(pink1) a(0.8))",
+        "support-fn-fg":       "color(var(gold1) l(- 16%) a(0.7))",
         "support-class-fg":    "color(var(cyan2) l(- 4%))",
 
         /** Keyword */
@@ -175,16 +175,16 @@
         "variable-other-class-js-fg":               "color(var(cyan2) l(- 4%))",
 
         /** Mapping Key Value */
-        "meta-mapping-key-fg":      "color(var(purple2) l(+ 3%))",
+        "meta-mapping-key-fg":      "color(var(pink-light4) l(- 10%))",
         "meta-mapping-value-fg":    "color(var(green2) l(- 7%))",
 
         /** HTML */
-        "entity-other-attribute-name-html-fg":    "color(var(gold3) l(- 13%))",
+        "entity-other-attribute-name-html-fg":    "color(var(orange2) l(- 11%) a(0.7))",
 
         /** CSS */
         "meta-at-rule-other-css-fg":          "var(blue2)",
         "constant-css-fg":                    "color(var(gray4) a(0.8))",
-        "support-entity-property-css-fg":     "color(var(green-light3) l(- 11%))",
+        "support-entity-property-css-fg":     "color(var(pink-light4) l(- 9%))",
 
         /** C# */
         "storage-type-method-params-cs-fg":    "var(blue2)",
@@ -209,13 +209,13 @@
 
         /** Ruby */
         "entity-name-class-ruby-fg":                    "var(gray4)",
-        "constant-rb-fg":                               "color(var(orange3) a(0.9))",
+        "constant-rb-fg":                               "color(var(pink1) l(+ 9%) a(0.7))",
         "variable-other-readwrite-instance-ruby-fg":    "color(var(green1) l(- 5%))",
 
         /** Rust Enhanced */
         "entity-name-fn-rust-fg":      "var(green-light4)",
         "keyword-ctrl-rust-fg":        "var(blue2)",
-        "keyword-operator-rust-fg":    "color(var(brown1) a(0.8))",
+        "keyword-operator-rust-fg":    "color(var(orange3) a(0.8))",
         "storage-modifier-rust-fg":    "var(pink-light3)",
         "storage-type-rust-fg":        "var(blue2)",
         "support-macro-rust-fg":       "color(var(gold2) l(- 16%))",
