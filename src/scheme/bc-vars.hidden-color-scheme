@@ -97,7 +97,7 @@
 
         /** Storage */
         // "storage-fg":             "var(magenta2)",
-        "storage-modifier-fg":    "var(magenta2)",
+        "storage-modifier-fg":    "var(green-light2)",
 
         /** Support */
         // "support-fg":          "var(green-light2)",
@@ -162,11 +162,11 @@
         /** Inline Diffs */
         "diff-deleted-bg":          "hsla(6, 28%, 23%, 0.7)",
         "diff-deleted-fg":          "color(var(red2) l(+ 14%))",
-        "diff-deleted-char-bg":     "hsla(6, 28%, 34%, 0.7)",
+        "diff-deleted-char-bg":     "hsla(6, 28%, 37%, 0.7)",
         "diff-deleted-char-fg":     "var(red1)",
         "diff-inserted-bg":         "hsla(133, 29%, 22%, 0.7)",
         "diff-inserted-fg":         "color(var(green1) l(+ 14%))",
-        "diff-inserted-char-bg":    "hsla(133, 29%, 32%, 0.7)",
+        "diff-inserted-char-bg":    "hsla(133, 29%, 37%, 0.7)",
         "diff-inserted-char-fg":    "color(var(green1) l(+ 7%))",
 
         /** Javascript */
@@ -198,7 +198,7 @@
         /** Sql */
         "keyword-operator-logical-sql-font-style":    "normal",
         "keyword-operator-logical-sql-fg":            "var(red1)",
-        "storage-modifier-sql-fg":                    "var(green-light2)",
+        "storage-modifier-sql-fg":                    "",
 
         /** Toml */
         "entity-name-table-toml-fg":    "var(blue5)",
@@ -216,7 +216,7 @@
         "entity-name-fn-rust-fg":      "var(blue-light4)",
         "keyword-ctrl-rust-fg":        "var(magenta2)",
         "keyword-operator-rust-fg":    "var(yellow1)",
-        "storage-modifier-rust-fg":    "var(green-light2)",
+        "storage-modifier-rust-fg":    "",
         "storage-type-rust-fg":        "var(magenta2)",
         "support-macro-rust-fg":       "var(yellow-light3)",
         "support-type-rust-fg":        "var(orange2)"

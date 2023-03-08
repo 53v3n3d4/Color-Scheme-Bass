@@ -1,56 +1,98 @@
 # Changelog
 
-## [0.1.9] - 2023
+## [0.1.9] - 2023-03-16
+- Change storage modifier sql and rust to storage modifier
 
 ### Biohack
+- Change storage modifier color, maagenta -> green
+- Change markup link color to lighter tone
 - Change diff and inline diff color to lighter tone
+- Change diff deleted char background color to darker tone
+- Change diff inserted char background color to darker tone
 - Change meta mapping key color, brown -> yellow
 - Change support entity property css color to darker tone
 
 ### Blackcomb
+- Change storage modifier color, maagenta -> green
 - Change diff and inline diff color to lighter tone
+- Change diff deleted char background color to darker tone
+- Change diff inserted char background color to darker tone
 - Change support entity property css color to darker tone
 - Change keyword operator rust color, pink -> yellow
 - Change support macro rust color to darker tone
 
 ### Bowtruckle
+- Change storage modifier color to lighter tone
 - Change diff and inline diff color to lighter tone
 - Change keyword operator color, brown -> orange
+- Change diff deleted char background color to darker tone
+- Change diff inserted char background color to darker tone
+- Change storage modifier sql color, cyan -> purple
 - Change keyword operator rust color to lighter tone
+- Change storage modifier rust color, green -> purple
 
 ### D-O
+- Change storage modifier color to lighter tone
 - Change diff and inline diff color to lighter tone
+- Change diff deleted char background color to darker tone
+- Change diff inserted char background color to darker tone
 - Change meta mapping key color, brown -> blue
+- Change storage modifier rust color, gold -> blue
 
 ### Fuji
+- Change storage modifier color, maagenta -> purple
 - Change keyword operator color, purple -> gold
+- Change diff deleted char background color to darker tone
+- Change diff inserted char background color to darker tone
+- Change storage modifier sql color, brown -> purple
 - Change keyword operator rust color, purple -> gold
+- Change storage modifier rust color, magenta -> purple
+- Change support macro rust color, gold -> blue
 
 ### Lagoon
 - Change attribute name color, gold -> orange
 - Change entity other pseudo class color, purple -> green
 - Change variable function color to lighter tone
+- Change storage modifier color, purple -> pink
 - Change support function color, pink -> gold
 - Change diff and inline diff color to lighter tone
+- Change diff deleted char background color to darker tone
+- Change diff inserted char background color to darker tone
 - Change meta mapping key color, purple -> pink
 - Change entity other attribute name html color, gold -> orange
 - Change support entity property css color, green -> pink
+- Change storage modifier sql color, purple -> pink
 - Change constant ruby color, orange -> pink
 - Change keyword operator rust color, brown -> orange
+- Change storage modifier rust color to lighter tone
 
 ### Nimbus
 - Change diff and inline diff color to lighter tone
+- Change diff deleted char background color to darker tone
+- Change diff inserted char background color to darker tone
 - Change keyword operator rust color, cyan -> gold
 
 ### Roci
+- Change storage modifier color, pink -> green
 - Change diff header to darker tone
+- Change markup link color to lighter tone
+- Change diff deleted char background color to darker tone
+- Change diff inserted char background color to darker tone
+- Change entity name function rust color, gold -> brown
+- Change keyword operator color to lighter tone
 - Change keyword operator rust color, magenta -> yellow
+- Change support macro rust color to lighter tone
 
 ### Zora
+- Change storage modifier color, blue -> gold
 - Change diff header to darker tone
+- Change diff deleted char background color to darker tone
+- Change diff inserted char background color to darker tone
+- Change markup link color to lighter tone
 - Change support entity property css color, magenta -> green
 - Change entity name function rust color, pink -> green
 - Change keyword operator rust color, blue -> pink
+- Change storage modifier rust color, magenta -> gold
 
 ## [0.1.8] - 2023-02-28
 - Change constant language go and rust to constant language

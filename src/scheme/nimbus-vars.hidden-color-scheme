@@ -162,11 +162,11 @@
         /** Inline Diffs */
         "diff-deleted-bg":          "hsla(3, 100%, 93%, 0.7)",
         "diff-deleted-fg":          "color(var(red2) a(0.6))",
-        "diff-deleted-char-bg":     "hsla(3, 100%, 86%, 0.7)",
+        "diff-deleted-char-bg":     "hsla(3, 100%, 83%, 0.7)",
         "diff-deleted-char-fg":     "color(var(red2) a(0.9))",
         "diff-inserted-bg":         "hsla(111, 89%, 93%, 0.7)",
         "diff-inserted-fg":         "color(var(green2) a(0.8))",
-        "diff-inserted-char-bg":    "hsla(111, 89%, 87%, 0.7)",
+        "diff-inserted-char-bg":    "hsla(111, 89%, 77%, 0.7)",
         "diff-inserted-char-fg":    "color(var(green2) a(0.9))",
 
         /** Javascript */
@@ -198,7 +198,7 @@
         /** Sql */
         "keyword-operator-logical-sql-font-style":    "normal",
         "keyword-operator-logical-sql-fg":            "color(var(gold1) l(- 5%))",
-        "storage-modifier-sql-fg":                    "var(green-light3)",
+        "storage-modifier-sql-fg":                    "",
 
         /** Toml */
         "entity-name-table-toml-fg":    "var(magenta3)",
@@ -216,7 +216,7 @@
         "entity-name-fn-rust-fg":      "var(orange2)",
         "keyword-ctrl-rust-fg":        "var(cyan2)",
         "keyword-operator-rust-fg":    "var(gold3)",
-        "storage-modifier-rust-fg":    "var(green-light3)",
+        "storage-modifier-rust-fg":    "",
         "storage-type-rust-fg":        "var(cyan2)",
         "support-macro-rust-fg":       "var(brown1)",
         "support-type-rust-fg":        "var(magenta3)"

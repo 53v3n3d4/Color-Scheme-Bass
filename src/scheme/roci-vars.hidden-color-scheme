@@ -97,7 +97,7 @@
 
         /** Storage */
         // "storage-fg":             "var(magenta2)",
-        "storage-modifier-fg":    "var(pink-light4)",
+        "storage-modifier-fg":    "var(green-light3)",
 
         /** Support */
         // "support-fg":          "var(green-light2)",
@@ -108,7 +108,7 @@
         "keyword-font-style":        "normal",
         "keyword-fg":                "var(magenta3)",
         // "keyword-ctrl-fg":           "var(magenta3)",
-        "keyword-operator-fg":       "var(yellow1)",
+        "keyword-operator-fg":       "color(var(yellow1) l(+ 4%))",
         // "keyword-declaration-fg":    "var(green-light1)",
 
         /** String */
@@ -144,7 +144,7 @@
         "markup-quote-font-style":                    "italic",
         "markup-quote-fg":                            "var(green-light3)",
         "markup-raw-bg":                              "var(purple6)",
-        "markup-link-fg":                             "var(blue5)",
+        "markup-link-fg":                             "color(var(blue5) a(0.9))",
         "markup-table-bg":                            "var(purple6)",
         "markup-table-fg":                            "",
         "punctuation-line-break-md-bg":               "color(var(purple6) a(0.5))",
@@ -162,11 +162,11 @@
         /** Inline Diffs */
         "diff-deleted-bg":          "hsla(6, 28%, 23%, 0.7)",
         "diff-deleted-fg":          "color(var(red2) l(+ 14%))",
-        "diff-deleted-char-bg":     "hsla(6, 28%, 34%, 0.7)",
+        "diff-deleted-char-bg":     "hsla(6, 28%, 37%, 0.7)",
         "diff-deleted-char-fg":     "var(red1)",
         "diff-inserted-bg":         "hsla(133, 29%, 22%, 0.7)",
         "diff-inserted-fg":         "color(var(green1) l(+ 14%))",
-        "diff-inserted-char-bg":    "hsla(133, 29%, 32%, 0.7)",
+        "diff-inserted-char-bg":    "hsla(133, 29%, 37%, 0.7)",
         "diff-inserted-char-fg":    "color(var(green1) l(+ 7%))",
 
         /** Javascript */
@@ -198,7 +198,7 @@
         /** Sql */
         "keyword-operator-logical-sql-font-style":    "normal",
         "keyword-operator-logical-sql-fg":            "var(red1)",
-        "storage-modifier-sql-fg":                    "var(green-light3)",
+        "storage-modifier-sql-fg":                    "",
 
         /** Toml */
         "entity-name-table-toml-fg":    "var(blue5)",
@@ -213,12 +213,12 @@
         "variable-other-readwrite-instance-ruby-fg":    "var(yellow1)",
 
         /** Rust Enhanced */
-        "entity-name-fn-rust-fg":      "var(gold1)",
+        "entity-name-fn-rust-fg":      "var(brown1)",
         "keyword-ctrl-rust-fg":        "var(magenta2)",
-        "keyword-operator-rust-fg":    "var(yellow1)",
-        "storage-modifier-rust-fg":    "var(green-light3)",
+        "keyword-operator-rust-fg":    "color(var(yellow1) l(+ 4%))",
+        "storage-modifier-rust-fg":    "",
         "storage-type-rust-fg":        "var(magenta2)",
-        "support-macro-rust-fg":       "var(cyan1)",
+        "support-macro-rust-fg":       "color(var(cyan1) l(+ 11%))",
         "support-type-rust-fg":        "var(orange1)"
 
     },

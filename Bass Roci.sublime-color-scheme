@@ -105,7 +105,7 @@
         {
             "name": "Storage modifier",
             "scope": "storage.modifier",
-            "foreground": "#DF88B7"
+            "foreground": "#83B85E"
         },
         {
             "name": "Support function",
@@ -126,7 +126,7 @@
         {
             "name": "Keyword operator",
             "scope": "keyword.operator",
-            "foreground": "#FFE76D"
+            "foreground": "color(#FFE76D l(+ 4%))"
         },
         {
             "name": "String",
@@ -218,7 +218,7 @@
         {
             "name": "Markup underline link",
             "scope": "markup.underline.link",
-            "foreground": "#5DD8FF"
+            "foreground": "color(#5DD8FF a(0.9))"
         },
         {
             "name": "Table md",
@@ -262,7 +262,7 @@
         },
         {
             "scope": "diff.deleted.char",
-            "background": "hsla(6, 28%, 34%, 0.7)",
+            "background": "hsla(6, 28%, 37%, 0.7)",
             "foreground": "#FC5B57"
         },
         {
@@ -272,7 +272,7 @@
         },
         {
             "scope": "diff.inserted.char",
-            "background": "hsla(133, 29%, 32%, 0.7)",
+            "background": "hsla(133, 29%, 37%, 0.7)",
             "foreground": "color(#57C038 l(+ 7%))"
         },
         {
@@ -344,7 +344,7 @@
         {
             "name": "Storage modifier sql",
             "scope": "storage.modifier.sql",
-            "foreground": "#83B85E"
+            "foreground": ""
         },
         {
             "name": "Table toml",
@@ -379,7 +379,7 @@
         {
             "name": "Entity name function",
             "scope": "entity.name.function.rust",
-            "foreground": "#FFB500"
+            "foreground": "#BF8555"
         },
         {
             "name": "Keyword control rust",
@@ -389,12 +389,12 @@
         {
             "name": "Keyword operator rust",
             "scope": "keyword.operator.rust",
-            "foreground": "#FFE76D"
+            "foreground": "color(#FFE76D l(+ 4%))"
         },
         {
             "name": "Storage modifier rust",
             "scope": "storage.modifier.rust",
-            "foreground": "#83B85E"
+            "foreground": ""
         },
         {
             "name": "Storage type rust",
@@ -404,7 +404,7 @@
         {
             "name": "Support macro rust",
             "scope": "support.macro.rust",
-            "foreground": "#40E0D0"
+            "foreground": "color(#40E0D0 l(+ 11%))"
         },
         {
             "name": "Support type rust",

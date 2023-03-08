@@ -105,7 +105,7 @@
         {
             "name": "Storage modifier",
             "scope": "storage.modifier",
-            "foreground": "#AA0D91"
+            "foreground": "#EC4990"
         },
         {
             "name": "Support function",
@@ -262,7 +262,7 @@
         },
         {
             "scope": "diff.deleted.char",
-            "background": "hsla(3, 100%, 87%, 0.9)",
+            "background": "hsla(3, 100%, 84%, 0.9)",
             "foreground": "color(#C41A16 a(0.9))"
         },
         {
@@ -272,7 +272,7 @@
         },
         {
             "scope": "diff.inserted.char",
-            "background": "hsla(111, 89%, 87%, 0.9)",
+            "background": "hsla(111, 89%, 81%, 0.9)",
             "foreground": "color(#119912 a(0.9))"
         },
         {
@@ -344,7 +344,7 @@
         {
             "name": "Storage modifier sql",
             "scope": "storage.modifier.sql",
-            "foreground": "#BF8555"
+            "foreground": ""
         },
         {
             "name": "Table toml",
@@ -394,7 +394,7 @@
         {
             "name": "Storage modifier rust",
             "scope": "storage.modifier.rust",
-            "foreground": "#EC4990"
+            "foreground": ""
         },
         {
             "name": "Storage type rust",
@@ -404,7 +404,7 @@
         {
             "name": "Support macro rust",
             "scope": "support.macro.rust",
-            "foreground": "color(#D1B502 l(- 4%))"
+            "foreground": "color(#5DD8FF l(- 19%))"
         },
         {
             "name": "Support type rust",

@@ -97,7 +97,7 @@
 
         /** Storage */
         // "storage-fg":             "var(magenta2)",
-        "storage-modifier-fg":    "var(magenta2)",
+        "storage-modifier-fg":    "var(green-light2)",
 
         /** Support */
         // "support-fg":          "var(green-light2)",
@@ -144,7 +144,7 @@
         "markup-quote-font-style":                    "italic",
         "markup-quote-fg":                            "var(green-light2)",
         "markup-raw-bg":                              "var(brown4)",
-        "markup-link-fg":                             "var(blue5)",
+        "markup-link-fg":                             "color(var(blue5) a(0.9))",
         "markup-table-bg":                            "var(brown4)",
         "markup-table-fg":                            "",
         "punctuation-line-break-md-bg":               "color(var(brown4) a(0.3))",
@@ -162,11 +162,11 @@
         /** Inline Diffs */
         "diff-deleted-bg":          "hsla(6, 29%, 26%, 0.8)",
         "diff-deleted-fg":          "color(var(red2) l(+ 14%))",
-        "diff-deleted-char-bg":     "hsla(6, 29%, 34%, 0.8)",
+        "diff-deleted-char-bg":     "hsla(6, 29%, 35%, 0.8)",
         "diff-deleted-char-fg":     "var(red1)",
         "diff-inserted-bg":         "hsla(133, 29%, 22%, 0.8)",
         "diff-inserted-fg":         "color(var(green1) l(+ 14%))",
-        "diff-inserted-char-bg":    "hsla(133, 29%, 32%, 0.8)",
+        "diff-inserted-char-bg":    "hsla(133, 29%, 35%, 0.8)",
         "diff-inserted-char-fg":    "color(var(green1) l(+ 7%))",
 
         /** Javascript */
@@ -198,7 +198,7 @@
         /** Sql */
         "keyword-operator-logical-sql-font-style":    "normal",
         "keyword-operator-logical-sql-fg":            "var(red1)",
-        "storage-modifier-sql-fg":                    "var(green-light2)",
+        "storage-modifier-sql-fg":                    "",
 
         /** Toml */
         "entity-name-table-toml-fg":    "var(blue5)",
@@ -216,7 +216,7 @@
         "entity-name-fn-rust-fg":      "var(yellow1)",
         "keyword-ctrl-rust-fg":        "var(gold1)",
         "keyword-operator-rust-fg":    "var(blue5)",
-        "storage-modifier-rust-fg":    "var(green-light2)",
+        "storage-modifier-rust-fg":    "",
         "storage-type-rust-fg":        "var(gold1)",
         "support-macro-rust-fg":       "var(cyan1)",
         "support-type-rust-fg":        "var(gold1)"
