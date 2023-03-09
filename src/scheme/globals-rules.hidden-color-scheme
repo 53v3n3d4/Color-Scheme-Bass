@@ -224,9 +224,10 @@
             "scope": "storage.modifier",
             "foreground": "var(storage-modifier-fg)"
         },
+        // Rust scopes from Rust Enhanced package
         {
             "name": "Storage type",
-            "scope": "storage.type - meta.block meta.enum.rust",
+            "scope": "storage.type - meta.block meta.enum.rust - meta.group.rust",
             "foreground": "var(storage-type-fg)"
         },
 
@@ -672,7 +673,7 @@
         },
         {
             "name": "Storage type source rust",
-            "scope": "storage.type.source.rust - meta.enum.rust",
+            "scope": "storage.type.source.rust - meta.enum.rust - meta.group.rust",
             "foreground": "var(storage-type-source-rust-fg)"
         },
         {
