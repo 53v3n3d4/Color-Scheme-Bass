@@ -98,6 +98,7 @@
         /** Storage */
         // "storage-fg":             "var(magenta2)",
         "storage-modifier-fg":    "var(green-light2)",
+        "storage-type-fg":        "var(magenta3)",
 
         /** Support */
         // "support-fg":          "var(green-light2)",
@@ -199,6 +200,7 @@
         "keyword-operator-logical-sql-font-style":    "normal",
         "keyword-operator-logical-sql-fg":            "var(red1)",
         "storage-modifier-sql-fg":                    "",
+        "storage-type-sql-fg":                        "var(yellow-light3)",
 
         /** Toml */
         "entity-name-table-toml-fg":    "var(blue5)",
@@ -213,13 +215,14 @@
         "variable-other-readwrite-instance-ruby-fg":    "color(var(purple3) l(+ 33%))",
 
         /** Rust Enhanced */
-        "entity-name-fn-rust-fg":      "var(blue-light4)",
-        "keyword-ctrl-rust-fg":        "var(magenta2)",
-        "keyword-operator-rust-fg":    "var(yellow1)",
-        "storage-modifier-rust-fg":    "",
-        "storage-type-rust-fg":        "var(magenta2)",
-        "support-macro-rust-fg":       "var(yellow-light3)",
-        "support-type-rust-fg":        "var(orange2)"
+        "entity-name-fn-rust-fg":         "var(blue-light4)",
+        "keyword-ctrl-rust-fg":           "var(magenta2)",
+        "keyword-operator-rust-fg":       "var(yellow1)",
+        "storage-modifier-rust-fg":       "",
+        "storage-type-rust-fg":           "var(magenta2)",
+        "storage-type-source-rust-fg":    "color(var(orange2) l(+ 11%))",
+        "support-macro-rust-fg":          "var(yellow-light3)",
+        "support-type-rust-fg":           "color(var(orange2) l(+ 11%))"
 
     },
     "globals": {},

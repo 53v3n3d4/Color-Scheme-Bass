@@ -108,6 +108,11 @@
             "foreground": "#83B85E"
         },
         {
+            "name": "Storage type",
+            "scope": "storage.type - meta.block meta.enum.rust",
+            "foreground": "#EC4990"
+        },
+        {
             "name": "Support function",
             "scope": "support.function",
             "foreground": "color(#83B85E a(0.9))"
@@ -347,6 +352,11 @@
             "foreground": ""
         },
         {
+            "name": "Storage type sql",
+            "scope": "storage.type.sql",
+            "foreground": "color(#FFE76D l(+ 4%) a(0.9))"
+        },
+        {
             "name": "Table toml",
             "scope": "entity.name.table.toml",
             "foreground": "#5DD8FF"
@@ -402,6 +412,11 @@
             "foreground": "#FC6BAA"
         },
         {
+            "name": "Storage type source rust",
+            "scope": "storage.type.source.rust - meta.enum.rust",
+            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
+        },
+        {
             "name": "Support macro rust",
             "scope": "support.macro.rust",
             "foreground": "color(#40E0D0 l(+ 11%))"
@@ -409,7 +424,7 @@
         {
             "name": "Support type rust",
             "scope": "support.type.rust",
-            "foreground": "#FD8F3F"
+            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
         }
     ]
 }

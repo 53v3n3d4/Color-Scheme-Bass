@@ -2,6 +2,7 @@
 
 ## [0.1.9] - 2023-03-16
 - Change storage modifier sql and rust to storage modifier
+- Add storage type, storage type sql, storage type source rust
 
 ### Biohack
 - Change storage modifier color, maagenta -> green
@@ -11,6 +12,7 @@
 - Change diff inserted char background color to darker tone
 - Change meta mapping key color, brown -> yellow
 - Change support entity property css color to darker tone
+- Change support type rust color, gold -> red
 
 ### Blackcomb
 - Change storage modifier color, maagenta -> green
@@ -20,6 +22,7 @@
 - Change support entity property css color to darker tone
 - Change keyword operator rust color, pink -> yellow
 - Change support macro rust color to darker tone
+- Change support type rust color to lighter tone
 
 ### Bowtruckle
 - Change storage modifier color to lighter tone
@@ -38,6 +41,7 @@
 - Change diff inserted char background color to darker tone
 - Change meta mapping key color, brown -> blue
 - Change storage modifier rust color, gold -> blue
+- Change support type rust color, green -> gold
 
 ### Fuji
 - Change storage modifier color, maagenta -> purple
@@ -82,6 +86,7 @@
 - Change keyword operator color to lighter tone
 - Change keyword operator rust color, magenta -> yellow
 - Change support macro rust color to lighter tone
+- Change support type rust color to lighter tone
 
 ### Zora
 - Change storage modifier color, blue -> gold
@@ -93,6 +98,8 @@
 - Change entity name function rust color, pink -> green
 - Change keyword operator rust color, blue -> pink
 - Change storage modifier rust color, magenta -> gold
+- Change support type rust color, brown -> orange
+- Change support type rust color to lighter tone
 
 ## [0.1.8] - 2023-02-28
 - Change constant language go and rust to constant language
