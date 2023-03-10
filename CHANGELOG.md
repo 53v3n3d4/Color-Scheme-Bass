@@ -3,6 +3,8 @@
 ## [0.1.9] - 2023-03-16
 - Change storage modifier sql and rust to storage modifier
 - Add storage type, storage type sql, storage type source rust
+- Add support type primitive
+- Add variable other member
 
 ### Biohack
 - Change storage modifier color, maagenta -> green
@@ -89,17 +91,30 @@
 - Change support type rust color to lighter tone
 
 ### Zora
+- Change entity name color, cyan -> magenta
+- Change entity attribute name color, orange -> blue
+- Change variable function color to lighter tone
+- Change variable other constant color to darker tone
 - Change storage modifier color, blue -> gold
+- Change support function color, magenta -> green
+- Change support class color to lighter tone
+- Change keyword color to darker tone
+- Change keyword operator color, pink -> gold
 - Change diff header to darker tone
 - Change diff deleted char background color to darker tone
 - Change diff inserted char background color to darker tone
 - Change markup link color to lighter tone
+- Change variable other class js color to lighter tone
+- Change meta at rule other css color to lighter tone
 - Change support entity property css color, magenta -> green
+- Change storage type builtin go color, cyan -> orange
 - Change entity name function rust color, pink -> green
-- Change keyword operator rust color, blue -> pink
+- Change keyword control rust color to lighter tone
+- Change keyword operator rust color, blue -> orange
 - Change storage modifier rust color, magenta -> gold
-- Change support type rust color, brown -> orange
-- Change support type rust color to lighter tone
+- Change storage type rust color to lighter tone
+- Change support macro rust color, magenta -> purple
+- Change support type rust color, brown -> pink
 
 ## [0.1.8] - 2023-02-28
 - Change constant language go and rust to constant language

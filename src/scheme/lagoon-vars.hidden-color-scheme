@@ -86,6 +86,7 @@
         // "variable-param-fg":             "var(purple1)",
         "variable-fn-fg":                "color(var(green-light3) l(- 14%))",
         "variable-other-constant-fg":    "color(var(cyan2) l(- 4%))",
+        "variable-other-member-fg":      "color(var(gold3) l(- 11%))",
 
         /** Constant */
         // "constant-fg":                "var(green4)",
@@ -102,8 +103,9 @@
 
         /** Support */
         // "support-fg":          "var(green3)",
-        "support-fn-fg":       "color(var(gold1) l(- 16%) a(0.7))",
-        "support-class-fg":    "color(var(cyan2) l(- 4%))",
+        "support-fn-fg":                "color(var(gold1) l(- 16%) a(0.7))",
+        "support-class-fg":             "color(var(cyan2) l(- 4%))",
+        "support-type-primitive-fg":    "color(var(pink-light4) l(- 3%))",
 
         /** Keyword */
         "keyword-font-style":        "normal",

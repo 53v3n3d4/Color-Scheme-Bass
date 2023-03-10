@@ -83,6 +83,11 @@
             "foreground": "#BF8555"
         },
         {
+            "name": "Variable other.member",
+            "scope": "variable.other.member - meta.type.go - meta.block.rust",
+            "foreground": "#EC4990"
+        },
+        {
             "name": "Constant numeric",
             "scope": "constant.numeric",
             "foreground": "#2077FB"
@@ -109,7 +114,7 @@
         },
         {
             "name": "Storage type",
-            "scope": "storage.type - meta.block meta.enum.rust",
+            "scope": "storage.type - meta.block meta.enum.rust - meta.group.rust",
             "foreground": "#9B2393"
         },
         {
@@ -121,6 +126,11 @@
             "name": "Support class",
             "scope": "support.class",
             "foreground": "#BF8555"
+        },
+        {
+            "name": "Support type primitive",
+            "scope": "support.type.primitive",
+            "foreground": "color(#A4CDFF l(- 17%))"
         },
         {
             "name": "Keyword",
@@ -413,7 +423,7 @@
         },
         {
             "name": "Storage type source rust",
-            "scope": "storage.type.source.rust - meta.enum.rust",
+            "scope": "storage.type.source.rust - meta.enum.rust - meta.group.rust",
             "foreground": "#E47C48"
         },
         {

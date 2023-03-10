@@ -86,6 +86,7 @@
         // "variable-param-fg":             "var(purple1)",
         "variable-fn-fg":                "var(magenta2)",
         "variable-other-constant-fg":    "var(blue-light4)",
+        "variable-other-member-fg":      "color(var(green-light3) l(- 3%) a(0.9))",
 
         /** Constant */
         // "constant-fg":                "var(blue5)",
@@ -97,8 +98,9 @@
 
         /** Storage */
         // "storage-fg":             "var(magenta2)",
-        "storage-modifier-fg":    "var(green-light2)",
-        "storage-type-fg":        "var(gold1)",
+        "storage-modifier-fg":          "var(green-light2)",
+        "storage-type-fg":              "var(gold1)",
+        "support-type-primitive-fg":    "color(var(pink-light4) l(+ 3%) a(0.9))",
 
         /** Support */
         // "support-fg":          "var(green-light2)",

@@ -172,6 +172,11 @@
             "scope": "variable.other.constant",
             "foreground": "var(variable-other-constant-fg)"
         },
+        {
+            "name": "Variable other.member",
+            "scope": "variable.other.member - meta.type.go - meta.block.rust",
+            "foreground": "var(variable-other-member-fg)"
+        },
 
         /**
          *
@@ -250,6 +255,11 @@
             "name": "Support class",
             "scope": "support.class", // i.e: Js Object, Array
             "foreground": "var(support-class-fg)"
+        },
+        {
+            "name": "Support type primitive",
+            "scope": "support.type.primitive", // js: number, string
+            "foreground": "var(support-type-primitive-fg)"
         },
 
         /**
