@@ -99,7 +99,7 @@
         /** Storage */
         // "storage-fg":             "var(purple3)",
         "storage-modifier-fg":    "var(magenta3)",
-        "storage-type-fg":        "var(purple2)",
+        "storage-type-fg":        "var(purple3)",
 
         /** Support */
         // "support-fg":          "var(green3)",
@@ -109,7 +109,7 @@
 
         /** Keyword */
         "keyword-font-style":        "normal",
-        "keyword-fg":                "var(purple2)",
+        "keyword-fg":                "var(purple3)",
         // "keyword-ctrl-fg":           "var(purple3)",
         "keyword-operator-fg":       "color(var(gold3) l(- 2%))",
         // "keyword-declaration-fg":    "var(green3)",

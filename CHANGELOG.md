@@ -18,6 +18,7 @@
 
 ### Blackcomb
 - Change storage modifier color, maagenta -> green
+- Change keyword color to lighter tone
 - Change diff and inline diff color to lighter tone
 - Change diff deleted char background color to darker tone
 - Change diff inserted char background color to darker tone
@@ -38,6 +39,7 @@
 
 ### D-O
 - Change storage modifier color to lighter tone
+- Change keyword color to lighter tone
 - Change diff and inline diff color to lighter tone
 - Change diff deleted char background color to darker tone
 - Change diff inserted char background color to darker tone
@@ -47,6 +49,7 @@
 
 ### Fuji
 - Change storage modifier color, maagenta -> purple
+- Change keyword color to darker tone
 - Change keyword operator color, purple -> gold
 - Change diff deleted char background color to darker tone
 - Change diff inserted char background color to darker tone
@@ -80,6 +83,7 @@
 
 ### Roci
 - Change storage modifier color, pink -> green
+- Change keyword color to lighter tone
 - Change diff header to darker tone
 - Change markup link color to lighter tone
 - Change diff deleted char background color to darker tone
@@ -96,6 +100,7 @@
 - Change variable function color to lighter tone
 - Change variable other constant color to darker tone
 - Change storage modifier color, blue -> gold
+- Change keyword color to lighter tone
 - Change support function color, magenta -> green
 - Change support class color to lighter tone
 - Change keyword color to darker tone

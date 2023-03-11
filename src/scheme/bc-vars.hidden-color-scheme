@@ -99,7 +99,7 @@
         /** Storage */
         // "storage-fg":             "var(magenta2)",
         "storage-modifier-fg":    "var(green-light2)",
-        "storage-type-fg":        "var(magenta3)",
+        "storage-type-fg":        "var(magenta2)",
 
         /** Support */
         // "support-fg":          "var(green-light2)",
@@ -109,7 +109,7 @@
 
         /** Keyword */
         "keyword-font-style":        "normal",
-        "keyword-fg":                "var(magenta3)",
+        "keyword-fg":                "var(magenta2)",
         // "keyword-ctrl-fg":           "var(magenta3)",
         "keyword-operator-fg":       "var(yellow1)",
         // "keyword-declaration-fg":    "var(green-light1)",

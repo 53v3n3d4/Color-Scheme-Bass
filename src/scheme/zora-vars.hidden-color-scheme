@@ -99,7 +99,7 @@
         /** Storage */
         // "storage-fg":             "var(magenta2)",
         "storage-modifier-fg":    "color(var(gold1) l(+ 14%) a(0.7))",
-        "storage-type-fg":        "color(var(blue-light4) l(- 3%) a(0.9))",
+        "storage-type-fg":        "color(var(blue5) l(- 3%) a(0.9))",
 
         /** Support */
         // "support-fg":          "var(green-light2)",
@@ -109,7 +109,7 @@
 
         /** Keyword */
         "keyword-font-style":        "normal",
-        "keyword-fg":                "color(var(blue-light4) l(- 3%) a(0.9))",
+        "keyword-fg":                "color(var(blue5) l(- 3%) a(0.9))",
         // "keyword-ctrl-fg":           "var(magenta3)",
         "keyword-operator-fg":       "color(var(gold1) l(+ 11%) a(0.9))",
         // "keyword-declaration-fg":    "var(green3)",

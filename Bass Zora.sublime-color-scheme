@@ -115,7 +115,7 @@
         {
             "name": "Storage type",
             "scope": "storage.type - meta.block meta.enum.rust - meta.group.rust",
-            "foreground": "color(#A4CDFF l(- 3%) a(0.9))"
+            "foreground": "color(#5DD8FF l(- 3%) a(0.9))"
         },
         {
             "name": "Support function",
@@ -136,7 +136,7 @@
             "name": "Keyword",
             "scope": "keyword",
             "font_style": "normal",
-            "foreground": "color(#A4CDFF l(- 3%) a(0.9))"
+            "foreground": "color(#5DD8FF l(- 3%) a(0.9))"
         },
         {
             "name": "Keyword operator",
