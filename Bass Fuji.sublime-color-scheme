@@ -78,12 +78,12 @@
             "foreground": "#119912"
         },
         {
-            "name": "Variable other.constant",
+            "name": "Variable other constant",
             "scope": "variable.other.constant",
             "foreground": "#BF8555"
         },
         {
-            "name": "Variable other.member",
+            "name": "Variable other member",
             "scope": "variable.other.member - meta.type.go - meta.block.rust",
             "foreground": "#EC4990"
         },
@@ -423,7 +423,7 @@
         },
         {
             "name": "Storage type source rust",
-            "scope": "storage.type.source.rust - meta.enum.rust - meta.group.rust",
+            "scope": "storage.type.source.rust - meta.enum.rust",
             "foreground": "#E47C48"
         },
         {

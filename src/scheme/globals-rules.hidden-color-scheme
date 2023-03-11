@@ -168,12 +168,13 @@
             "foreground": "var(variable-fn-fg)"
         },
         {
-            "name": "Variable other.constant", // i.e. Class nodejs
+            "name": "Variable other constant", // i.e. Class nodejs
             "scope": "variable.other.constant",
             "foreground": "var(variable-other-constant-fg)"
         },
+        // Go and Rust scopes
         {
-            "name": "Variable other.member",
+            "name": "Variable other member",
             "scope": "variable.other.member - meta.type.go - meta.block.rust",
             "foreground": "var(variable-other-member-fg)"
         },
@@ -229,7 +230,7 @@
             "scope": "storage.modifier",
             "foreground": "var(storage-modifier-fg)"
         },
-        // Rust scopes from Rust Enhanced package
+        // Rust scopes
         {
             "name": "Storage type",
             "scope": "storage.type - meta.block meta.enum.rust - meta.group.rust",
@@ -653,7 +654,7 @@
 
         /**
          *
-         * RUST ENHANCED
+         * RUST
          *
          */
         {
@@ -683,7 +684,7 @@
         },
         {
             "name": "Storage type source rust",
-            "scope": "storage.type.source.rust - meta.enum.rust - meta.group.rust",
+            "scope": "storage.type.source.rust - meta.enum.rust",
             "foreground": "var(storage-type-source-rust-fg)"
         },
         {
