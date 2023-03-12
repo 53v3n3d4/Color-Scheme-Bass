@@ -496,6 +496,11 @@
          *
          */
         {
+            "name": "Entity name type interface",
+            "scope": "entity.name.type.js, entity.name.interface.js",
+            "foreground": "var(entity-name-type-interface-js-fg)"
+        },
+        {
             "name": "JSDocs tags",
             "scope": "entity.other.attribute-name.documentation.js",
             "foreground": "var(entity-other-attribute-name-doc-js-fg)"
@@ -507,7 +512,7 @@
         },
         {
             "name": "Support other js", // e.g. name from adaptiveData.name
-            "scope": "source.js - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
+            "scope": "(source.js | source.ts) - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
             "foreground": "var(support-other-js-fg)"
         },
         {

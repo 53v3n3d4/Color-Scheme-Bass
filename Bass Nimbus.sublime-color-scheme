@@ -301,6 +301,11 @@
             "foreground": "color(#119912 a(0.9))"
         },
         {
+            "name": "Entity name type interface",
+            "scope": "entity.name.type.js, entity.name.interface.js",
+            "foreground": "color(#E47C48 a(0.9))"
+        },
+        {
             "name": "JSDocs tags",
             "scope": "entity.other.attribute-name.documentation.js",
             "foreground": "#5D6C79"
@@ -312,7 +317,7 @@
         },
         {
             "name": "Support other js",
-            "scope": "source.js - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
+            "scope": "(source.js | source.ts) - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
             "foreground": "color(#83B85E l(- 11%) a(0.8))"
         },
         {
@@ -459,7 +464,7 @@
         {
             "name": "Keyword operator rust",
             "scope": "keyword.operator.rust",
-            "foreground": "#D1B502"
+            "foreground": ""
         },
         {
             "name": "Storage modifier rust",

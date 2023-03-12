@@ -175,6 +175,7 @@
         "diff-inserted-char-fg":    "color(var(green1) l(+ 7%))",
 
         /** Javascript */
+        "entity-name-type-interface-js-fg":         "color(var(orange2) l(+ 6%) a(0.8)",
         "entity-other-attribute-name-doc-js-fg":    "var(pink-light3)",
         "keyword-declaration-fn-arrow-js-fg":       "color(var(yellow1) l(+ 4%))",
         "support-other-js-fg":                      "color(var(green-light3) a(0.9))",
@@ -234,7 +235,7 @@
         /** Rust */
         "entity-name-fn-rust-fg":         "color(var(blue2) l(+ 19%))",
         "keyword-ctrl-rust-fg":           "var(magenta2)",
-        "keyword-operator-rust-fg":       "color(var(yellow1) l(+ 4%))",
+        "keyword-operator-rust-fg":       "",
         "storage-modifier-rust-fg":       "",
         "storage-type-rust-fg":           "var(magenta2)",
         "storage-type-source-rust-fg":    "color(var(orange1) l(+ 14%) a(0.8))",

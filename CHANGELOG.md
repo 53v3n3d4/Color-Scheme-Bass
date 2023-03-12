@@ -11,9 +11,32 @@
 - Add storage type go
 - Add punctuation definition variable php
 - Add punctuation section embedded php
+- Add entity name type and interface js
 - Change variable other member scope
 - Change support other js scope
 - Change storage type method params c# color empty
+- Change keyword operator rust to keyword operator
+
+### Lagoon
+- Change entity name color, cyan -> brown
+- Change entity attribute name color, orange -> green
+- Change variable function color, green -> brown
+- Change variable other constant color, cyan -> green
+- Change variable other member color, gold -> cyan
+- Change support function color, gold -> brown
+- Change support class color, cyan -> green
+- Change support type primitive color, pink -> gold
+- Change keyword operator color, orange -> gold
+- Change entity other attribute name doc js color, orange -> green
+- Change support other js color, orange -> pink
+- Change variable other class js color, cyan -> green
+- Change meta mapping key color, pink -> green
+- Change meta mapping value color, green -> pink
+- Change entity other attribute name html color, orange -> green
+- Change entity name function rust color, green -> brown
+- Change storage type source rust color, brown -> green
+- Change support macro rust color, gold -> cyan
+- Change support type rust color, brown -> green
 
 ### Nimbus
 - Change entity name color, orange -> blue
