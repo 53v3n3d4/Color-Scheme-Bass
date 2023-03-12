@@ -17,6 +17,20 @@
 - Change storage type method params c# color empty
 - Change keyword operator rust to keyword operator
 
+### D-O
+- Change variable function color, purple -> magenta
+- Change variable other constant color, red -> gold
+- Change support function color, green -> magenta
+- Change support class color, red -> gold
+- Change support other js color, cyan -> green
+- Change variable other class js color, red -> gold
+- Change meta mapping key color to darker tone
+- Change entity other attribute name html color to lighter tone
+- Change storage support type builtin go color, cyan -> green
+- Change storage type sql color to darker tone
+- Change entity name function rust color, cyan -> magenta
+- Change support macro rust color to darker tone
+
 ### Fuji
 - Change entity name color, cyan -> green
 - Change entity inherited class color, magenta -> blue
