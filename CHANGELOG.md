@@ -17,6 +17,22 @@
 - Change storage type method params c# color empty
 - Change keyword operator rust to keyword operator
 
+### Biohack
+- Change entity inherited class color, yellow -> blue
+- Change entity attribute name color, magenta -> blue
+- Change variable function color, magenta -> orange
+- Change variable other constant color, blue -> pink
+- Change support function color, green -> orange
+- Change support class color, blue -> pink
+- Change support type primitive color, pink -> yellow
+- Change variable other class js color, blue -> pink
+- Change entity other attribute name html color, magenta -> blue
+- Change storage support type builtin go color, magenta -> pink
+- Change entity name function rust color, yellow -> orange
+- Change storage type source rust color, red -> pink
+- Change support macro rust color, cyan -> green
+- Change support type rust color, red -> pink
+
 ### Blackcomb
 - Change entity inherited class color, blue -> green
 - Change support function color, green -> blue

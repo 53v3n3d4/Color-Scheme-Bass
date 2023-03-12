@@ -58,14 +58,24 @@
             "foreground": "#E47C48"
         },
         {
+            "name": "Entity name class",
+            "scope": "entity.name.class",
+            "foreground": "#DF88B7"
+        },
+        {
+            "name": "Entity name function",
+            "scope": "entity.name.function",
+            "foreground": "#E47C48"
+        },
+        {
             "name": "Entity other inherited class",
             "scope": "entity.other.inherited-class",
-            "foreground": "#FFE76D"
+            "foreground": "#5DD8FF"
         },
         {
             "name": "Entity other attribute name",
             "scope": "entity.other.attribute-name",
-            "foreground": "#FC6BAA"
+            "foreground": "#A4CDFF"
         },
         {
             "name": "Entity other pseudo class",
@@ -75,16 +85,16 @@
         {
             "name": "Variable function",
             "scope": "variable.function",
-            "foreground": "#FC6BAA"
+            "foreground": "#E47C48"
         },
         {
             "name": "Variable other constant",
             "scope": "variable.other.constant",
-            "foreground": "#A4CDFF"
+            "foreground": "#DF88B7"
         },
         {
             "name": "Variable other member",
-            "scope": "variable.other.member - meta.type.go - meta.block.rust",
+            "scope": "variable.other.member - meta.block.rust",
             "foreground": "color(#83B85E l(- 3%) a(0.9))"
         },
         {
@@ -120,17 +130,17 @@
         {
             "name": "Support function",
             "scope": "support.function",
-            "foreground": "#A7D4B4"
+            "foreground": "#E47C48"
         },
         {
             "name": "Support class",
             "scope": "support.class",
-            "foreground": "#A4CDFF"
+            "foreground": "#DF88B7"
         },
         {
             "name": "Support type primitive",
             "scope": "support.type.primitive",
-            "foreground": "color(#DF88B7 l(+ 3%) a(0.9))"
+            "foreground": "#FFE76D"
         },
         {
             "name": "Keyword",
@@ -291,19 +301,39 @@
             "foreground": "color(#57C038 l(+ 7%))"
         },
         {
+            "name": "Entity name type interface",
+            "scope": "entity.name.type.js, entity.name.interface.js",
+            "foreground": "#DF88B7"
+        },
+        {
             "name": "JSDocs tags",
             "scope": "entity.other.attribute-name.documentation.js",
             "foreground": "#B4B4B4"
         },
         {
+            "name": "Keyword declaration function arrow js",
+            "scope": "keyword.declaration.function.arrow.js",
+            "foreground": "#5DD8FF"
+        },
+        {
             "name": "Support other js",
-            "scope": "source.js - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value",
+            "scope": "(source.js | source.ts) - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
+            "foreground": "#A7D4B4"
+        },
+        {
+            "name": "Support meta class js",
+            "scope": "meta.class.js support.constant.builtin.js, meta.function-call.constructor.js variable.type.js",
+            "foreground": "#DF88B7"
+        },
+        {
+            "name": "Support meta function js",
+            "scope": "support.constant.node.js, support.constant.builtin.js",
             "foreground": "#A7D4B4"
         },
         {
             "name": "Variable other class js",
             "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
-            "foreground": "#A4CDFF"
+            "foreground": "#DF88B7"
         },
         {
             "name": "Mapping key",
@@ -318,7 +348,7 @@
         {
             "name": "Entity id html",
             "scope": "text.html entity.other.attribute-name.id",
-            "foreground": "#FC6BAA"
+            "foreground": "#A4CDFF"
         },
         {
             "name": "At rule other css",
@@ -331,6 +361,11 @@
             "foreground": "#B4B4B4"
         },
         {
+            "name": "Entity name tag css",
+            "scope": "entity.name.tag.html.css",
+            "foreground": "#FC6BAA"
+        },
+        {
             "name": "Support property name and Entity other custom property css",
             "scope": "support.type.property-name.css, entity.other.custom-property.css",
             "foreground": "color(#83B85E l(+ 5%))"
@@ -338,17 +373,37 @@
         {
             "name": "Storage type and Method parameters c#",
             "scope": "storage.type.cs, meta.method.parameters.cs",
-            "foreground": "#5DD8FF"
+            "foreground": ""
+        },
+        {
+            "name": "Variable other readwrite declaration go",
+            "scope": "variable.other.readwrite.declaration.go",
+            "foreground": "#E47C48"
+        },
+        {
+            "name": "Storage type go",
+            "scope": "storage.type.go",
+            "foreground": "#E47C48"
         },
         {
             "name": "Storage Support type builtin go",
             "scope": "storage.type.go support.type.builtin.go",
-            "foreground": "color(#EC4990 a(0.7))"
+            "foreground": "#DF88B7"
         },
         {
             "name": "Git attributes value",
             "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
             "foreground": "#A7D4B4"
+        },
+        {
+            "name": "Punctuation definition variable php",
+            "scope": "embedding.php text.html.php meta.embedded.php punctuation.definition.variable.php",
+            "foreground": "#FC6BAA"
+        },
+        {
+            "name": "Punctuation section embedded php",
+            "scope": "embedding.php text.html.php meta.embedded.php punctuation.section.embedded",
+            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
         },
         {
             "name": "Keyword operator logical sql",
@@ -399,7 +454,7 @@
         {
             "name": "Entity name function",
             "scope": "entity.name.function.rust",
-            "foreground": "#FFE76D"
+            "foreground": "#E47C48"
         },
         {
             "name": "Keyword control rust",
@@ -409,7 +464,7 @@
         {
             "name": "Keyword operator rust",
             "scope": "keyword.operator.rust",
-            "foreground": "#5DD8FF"
+            "foreground": ""
         },
         {
             "name": "Storage modifier rust",
@@ -424,17 +479,17 @@
         {
             "name": "Storage type source rust",
             "scope": "storage.type.source.rust - meta.enum.rust",
-            "foreground": "color(#FC5B57 l(+ 14%))"
+            "foreground": "#DF88B7"
         },
         {
             "name": "Support macro rust",
             "scope": "support.macro.rust",
-            "foreground": "#40E0D0"
+            "foreground": "color(#83B85E l(- 3%) a(0.9))"
         },
         {
             "name": "Support type rust",
             "scope": "support.type.rust",
-            "foreground": "color(#FC5B57 l(+ 14%))"
+            "foreground": "#DF88B7"
         }
     ]
 }
