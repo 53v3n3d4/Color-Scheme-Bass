@@ -17,6 +17,18 @@
 - Change storage type method params c# color empty
 - Change keyword operator rust to keyword operator
 
+### Bowtruckle
+- Change variable function color, purple -> cyan
+- Change variable other constant color, cyan -> brown
+- Change variable other member color, gold -> purple
+- Change support function color, orange -> cyan
+- Change support class color, cyan -> brown
+- Change keyword operator color, orange -> gold
+- Change support other js color, green -> purple
+- Change variable other class js color, cyan -> brown
+- Change support entity property css color, magenta -> green
+- Change support macro rust color, gold -> orange
+
 ### D-O
 - Change variable function color, purple -> magenta
 - Change variable other constant color, red -> gold
