@@ -17,6 +17,13 @@
 - Change storage type method params c# color empty
 - Change keyword operator rust to keyword operator
 
+### Blackcomb
+- Change entity inherited class color, blue -> green
+- Change support function color, green -> blue
+- Change entity name function rust color to darker tone
+- Change storage type source rust color, orange -> brown
+- Change support type rust color, orange -> brown
+
 ### Bowtruckle
 - Change variable function color, purple -> cyan
 - Change variable other constant color, cyan -> brown
