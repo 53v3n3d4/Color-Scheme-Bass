@@ -55,12 +55,22 @@
         {
             "name": "Entity name",
             "scope": "entity.name",
-            "foreground": "#38A2AF"
+            "foreground": "color(#83B85E l(- 7%))"
+        },
+        {
+            "name": "Entity name class",
+            "scope": "entity.name.class",
+            "foreground": "#BF8555"
+        },
+        {
+            "name": "Entity name function",
+            "scope": "entity.name.function",
+            "foreground": "color(#83B85E l(- 7%))"
         },
         {
             "name": "Entity other inherited class",
             "scope": "entity.other.inherited-class",
-            "foreground": "#FC6BAA"
+            "foreground": "color(#5DD8FF l(- 23%))"
         },
         {
             "name": "Entity other attribute name",
@@ -75,7 +85,7 @@
         {
             "name": "Variable function",
             "scope": "variable.function",
-            "foreground": "#119912"
+            "foreground": "color(#83B85E l(- 7%))"
         },
         {
             "name": "Variable other constant",
@@ -84,7 +94,7 @@
         },
         {
             "name": "Variable other member",
-            "scope": "variable.other.member - meta.type.go - meta.block.rust",
+            "scope": "variable.other.member - meta.block.rust",
             "foreground": "#EC4990"
         },
         {
@@ -120,7 +130,7 @@
         {
             "name": "Support function",
             "scope": "support.function",
-            "foreground": "color(#83B85E l(- 5%))"
+            "foreground": "color(#83B85E l(- 7%))"
         },
         {
             "name": "Support class",
@@ -291,14 +301,34 @@
             "foreground": "color(#119912 a(0.9))"
         },
         {
-            "name": "JSDocs tags",
-            "scope": "entity.other.attribute-name.documentation.js",
+            "name": "Entity name type interface",
+            "scope": "entity.name.type.js, entity.name.interface.js",
             "foreground": "#BF8555"
         },
         {
+            "name": "JSDocs tags",
+            "scope": "entity.other.attribute-name.documentation.js",
+            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
+        },
+        {
+            "name": "Keyword declaration function arrow js",
+            "scope": "keyword.declaration.function.arrow.js",
+            "foreground": "color(#D1B502 l(- 2%))"
+        },
+        {
             "name": "Support other js",
-            "scope": "source.js - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value",
-            "foreground": "#00997B"
+            "scope": "(source.js | source.ts) - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
+            "foreground": "#DF88B7"
+        },
+        {
+            "name": "Support meta class js",
+            "scope": "meta.class.js support.constant.builtin.js, meta.function-call.constructor.js variable.type.js",
+            "foreground": "#BF8555"
+        },
+        {
+            "name": "Support meta function js",
+            "scope": "support.constant.node.js, support.constant.builtin.js",
+            "foreground": "#DF88B7"
         },
         {
             "name": "Variable other class js",
@@ -331,6 +361,11 @@
             "foreground": "#5D6C79"
         },
         {
+            "name": "Entity name tag css",
+            "scope": "entity.name.tag.html.css",
+            "foreground": "#DF88B7"
+        },
+        {
             "name": "Support property name and Entity other custom property css",
             "scope": "support.type.property-name.css, entity.other.custom-property.css",
             "foreground": "#BF8555"
@@ -338,17 +373,37 @@
         {
             "name": "Storage type and Method parameters c#",
             "scope": "storage.type.cs, meta.method.parameters.cs",
-            "foreground": "#1E73BE"
+            "foreground": ""
+        },
+        {
+            "name": "Variable other readwrite declaration go",
+            "scope": "variable.other.readwrite.declaration.go",
+            "foreground": "color(#83B85E l(- 7%))"
+        },
+        {
+            "name": "Storage type go",
+            "scope": "storage.type.go",
+            "foreground": "color(#83B85E l(- 7%))"
         },
         {
             "name": "Storage Support type builtin go",
             "scope": "storage.type.go support.type.builtin.go",
-            "foreground": "color(#EC4990 a(0.7))"
+            "foreground": "#E47C48"
         },
         {
             "name": "Git attributes value",
             "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
             "foreground": "#9B2393"
+        },
+        {
+            "name": "Punctuation definition variable php",
+            "scope": "embedding.php text.html.php meta.embedded.php punctuation.definition.variable.php",
+            "foreground": "#FC6BAA"
+        },
+        {
+            "name": "Punctuation section embedded php",
+            "scope": "embedding.php text.html.php meta.embedded.php punctuation.section.embedded",
+            "foreground": "#E47C48"
         },
         {
             "name": "Keyword operator logical sql",
@@ -399,7 +454,7 @@
         {
             "name": "Entity name function",
             "scope": "entity.name.function.rust",
-            "foreground": "#BF8555"
+            "foreground": "color(#83B85E l(- 7%))"
         },
         {
             "name": "Keyword control rust",
@@ -409,7 +464,7 @@
         {
             "name": "Keyword operator rust",
             "scope": "keyword.operator.rust",
-            "foreground": "color(#D1B502 l(- 2%))"
+            "foreground": ""
         },
         {
             "name": "Storage modifier rust",
@@ -424,17 +479,17 @@
         {
             "name": "Storage type source rust",
             "scope": "storage.type.source.rust - meta.enum.rust",
-            "foreground": "#E47C48"
+            "foreground": "#BF8555"
         },
         {
             "name": "Support macro rust",
             "scope": "support.macro.rust",
-            "foreground": "color(#5DD8FF l(- 19%))"
+            "foreground": "color(#5DD8FF l(- 23%))"
         },
         {
             "name": "Support type rust",
             "scope": "support.type.rust",
-            "foreground": "#E47C48"
+            "foreground": "#BF8555"
         }
     ]
 }
