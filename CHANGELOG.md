@@ -13,6 +13,17 @@
 - Add punctuation section embedded php
 - Change variable other member scope
 - Change support other js scope
+- Change storage type method params c# color empty
+
+### Roci
+- Change entity name color to lighter tone
+- Change variable other constant color to lighter tone
+- Change support function color, green -> blue
+- Change support class color to lighter tone
+- Change support type primitive color, brown -> blue
+- Change variable other class js color to lighter tone
+- Change entity other attribute name html color, magenta -> pink
+- Change entity name function rust color, brown -> blue
 
 ### Zora
 - Change entity name color, magenta -> green
