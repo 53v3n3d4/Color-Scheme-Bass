@@ -457,6 +457,11 @@
             "foreground": "#E47C48"
         },
         {
+            "name": "Entity name module and struct",
+            "scope": "entity.name.module.rust, entity.name.struct.rust",
+            "foreground": "#F0F0F7"
+        },
+        {
             "name": "Keyword control rust",
             "scope": "keyword.control.rust",
             "foreground": "#FFB500"

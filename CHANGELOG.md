@@ -12,6 +12,7 @@
 - Add punctuation definition variable php
 - Add punctuation section embedded php
 - Add entity name type and interface js
+- Add entity name module and struct rust
 - Change variable other member scope
 - Change support other js scope
 - Change storage type method params c# color empty

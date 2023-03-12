@@ -735,6 +735,11 @@
             "foreground": "var(entity-name-fn-rust-fg)"
         },
         {
+            "name": "Entity name module and struct",
+            "scope": "entity.name.module.rust, entity.name.struct.rust",
+            "foreground": "var(entity-name-module-struct-rust-fg)"
+        },
+        {
             "name": "Keyword control rust",
             "scope": "keyword.control.rust",
             "foreground": "var(keyword-ctrl-rust-fg)"
@@ -744,6 +749,11 @@
             "scope": "keyword.operator.rust",
             "foreground": "var(keyword-operator-rust-fg)"
         },
+        // {
+        //     "name": "Meta function rust",
+        //     "scope": "meta.function.rust meta.block.rust - meta.group.rust - meta.path.rust",
+        //     "foreground": "var(meta-fn-rust-fg)"
+        // },
         {
             "name": "Storage modifier rust",
             "scope": "storage.modifier.rust",

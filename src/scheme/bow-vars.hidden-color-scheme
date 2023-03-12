@@ -233,14 +233,16 @@
         "variable-other-readwrite-instance-ruby-fg":    "var(purple3)",
 
         /** Rust */
-        "entity-name-fn-rust-fg":         "var(cyan4)",
-        "keyword-ctrl-rust-fg":           "var(magenta3)",
-        "keyword-operator-rust-fg":       "",
-        "storage-modifier-rust-fg":       "",
-        "storage-type-rust-fg":           "var(magenta3)",
-        "storage-type-source-rust-fg":    "color(var(brown2) l(+ 18%))",
-        "support-macro-rust-fg":          "color(var(orange1) l(- 17%) a(0.7))",
-        "support-type-rust-fg":           "color(var(brown2) l(+ 18%))"
+        "entity-name-fn-rust-fg":               "var(cyan4)",
+        "entity-name-module-struct-rust-fg":    "color(var(black4) a(0.9))",
+        "keyword-ctrl-rust-fg":                 "var(magenta3)",
+        "keyword-operator-rust-fg":             "",
+        // "meta-fn-rust-fg":                      "",
+        "storage-modifier-rust-fg":             "",
+        "storage-type-rust-fg":                 "var(magenta3)",
+        "storage-type-source-rust-fg":          "color(var(brown2) l(+ 18%))",
+        "support-macro-rust-fg":                "color(var(orange1) l(- 17%) a(0.7))",
+        "support-type-rust-fg":                 "color(var(brown2) l(+ 18%))"
 
     },
     "globals": {},
