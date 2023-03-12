@@ -112,8 +112,18 @@
          */
         {
             "name": "Entity name",
-            "scope": "entity.name", // js: i.e. function name
+            "scope": "entity.name",
             "foreground": "var(entity-name-fg)"
+        },
+        {
+            "name": "Entity name class",
+            "scope": "entity.name.class",
+            "foreground": "var(entity-name-class-fg)"
+        },
+        {
+            "name": "Entity name function",
+            "scope": "entity.name.function", // function name
+            "foreground": "var(entity-name-fn-fg)"
         },
         {
             "name": "Entity other inherited class",
@@ -172,10 +182,10 @@
             "scope": "variable.other.constant",
             "foreground": "var(variable-other-constant-fg)"
         },
-        // Go and Rust scopes
+        // Rust scopes
         {
             "name": "Variable other member",
-            "scope": "variable.other.member - meta.type.go - meta.block.rust",
+            "scope": "variable.other.member - meta.block.rust",
             "foreground": "var(variable-other-member-fg)"
         },
 
@@ -491,9 +501,24 @@
             "foreground": "var(entity-other-attribute-name-doc-js-fg)"
         },
         {
-            "name": "Support other js", // e.g. name from adaptiveData.name 
-            "scope": "source.js - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value",
+            "name": "Keyword declaration function arrow js",
+            "scope": "keyword.declaration.function.arrow.js",
+            "foreground": "var(keyword-declaration-fn-arrow-js-fg)"
+        },
+        {
+            "name": "Support other js", // e.g. name from adaptiveData.name
+            "scope": "source.js - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
             "foreground": "var(support-other-js-fg)"
+        },
+        {
+            "name": "Support meta class js",
+            "scope": "meta.class.js support.constant.builtin.js, meta.function-call.constructor.js variable.type.js",
+            "foreground": "var(support-meta-class-js-fg)"
+        },
+        {
+            "name": "Support meta function js",
+            "scope": "support.constant.node.js, support.constant.builtin.js",
+            "foreground": "var(support-meta-fn-js-fg)"
         },
         {
             "name": "Variable other class js", // i.e. Class new
@@ -544,6 +569,11 @@
             "foreground": "var(constant-css-fg)"
         },
         {
+            "name": "Entity name tag css",
+            "scope": "entity.name.tag.html.css",
+            "foreground": "var(entity-name-tag-css-fg)"
+        },
+        {
             "name": "Support property name and Entity other custom property css", // i.e Margin:, --black: 
             "scope": "support.type.property-name.css, entity.other.custom-property.css",
             "foreground": "var(support-entity-property-css-fg)"
@@ -566,7 +596,17 @@
          *
          */
         {
-            "name": "Storage Support type builtin go", // i.e. string/bool
+            "name": "Variable other readwrite declaration go",
+            "scope": "variable.other.readwrite.declaration.go",
+            "foreground": "var(variable-other-readwrite-declaration-go-fg)"
+        },
+        {
+            "name": "Storage type go",
+            "scope": "storage.type.go",
+            "foreground": "var(storage-type-go-fg)"
+        },
+        {
+            "name": "Storage Support type builtin go", // i.e. string/bool/float
             "scope": "storage.type.go support.type.builtin.go",
             "foreground": "var(storage-support-type-builtin-go-fg)"
         },
@@ -581,6 +621,33 @@
             "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
             "foreground": "var(meta-mapping-value-git-attributes-fg)"
         },
+
+        /**
+         *
+         * PHP
+         *
+         */
+        {
+            "name": "Punctuation definition variable php", // php tag
+            "scope": "embedding.php text.html.php meta.embedded.php punctuation.definition.variable.php",
+            "foreground": "var(punctuation-definition-var-php-fg)"
+        },
+        {
+            "name": "Punctuation section embedded php", // php tag
+            "scope": "embedding.php text.html.php meta.embedded.php punctuation.section.embedded",
+            "foreground": "var(punctuation-section-embedded-php-fg)"
+        },
+
+        /**
+         *
+         * PYTHON
+         *
+         */
+        // {
+        //     "name": "Meta qualified name function", // want to color only Class but coloring functions too
+        //     "scope": "meta.function-call.python meta.qualified-name.python variable.function.python meta.generic-name.python",
+        //     "foreground": "var(meta-qualified-name-fn-python-fg)"
+        // },
 
         /**
          *

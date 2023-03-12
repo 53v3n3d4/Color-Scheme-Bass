@@ -55,7 +55,17 @@
         {
             "name": "Entity name",
             "scope": "entity.name",
-            "foreground": "color(#FC6BAA l(+ 7%))"
+            "foreground": "color(#83B85E l(+ 2%))"
+        },
+        {
+            "name": "Entity name class",
+            "scope": "entity.name.class",
+            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
+        },
+        {
+            "name": "Entity name function",
+            "scope": "entity.name.function",
+            "foreground": "color(#83B85E l(+ 2%))"
         },
         {
             "name": "Entity other inherited class",
@@ -75,7 +85,7 @@
         {
             "name": "Variable function",
             "scope": "variable.function",
-            "foreground": "color(#A4CDFF l(- 3%) a(0.9))"
+            "foreground": "color(#83B85E l(+ 2%))"
         },
         {
             "name": "Variable other constant",
@@ -84,7 +94,7 @@
         },
         {
             "name": "Variable other member",
-            "scope": "variable.other.member - meta.type.go - meta.block.rust",
+            "scope": "variable.other.member - meta.block.rust",
             "foreground": "color(#643820 l(+ 37%) a(0.7))"
         },
         {
@@ -141,7 +151,7 @@
         {
             "name": "Keyword operator",
             "scope": "keyword.operator",
-            "foreground": "color(#FFB500 l(+ 11%) a(0.9))"
+            "foreground": "#FC6BAA"
         },
         {
             "name": "String",
@@ -296,9 +306,24 @@
             "foreground": "color(#06B1D8 a(0.5))"
         },
         {
-            "name": "Support other js",
-            "scope": "source.js - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value",
+            "name": "Keyword declaration function arrow js",
+            "scope": "keyword.declaration.function.arrow.js",
             "foreground": "#FC6BAA"
+        },
+        {
+            "name": "Support other js",
+            "scope": "source.js - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
+            "foreground": "#DF88B7"
+        },
+        {
+            "name": "Support meta class js",
+            "scope": "meta.class.js support.constant.builtin.js, meta.function-call.constructor.js variable.type.js",
+            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
+        },
+        {
+            "name": "Support meta function js",
+            "scope": "support.constant.node.js, support.constant.builtin.js",
+            "foreground": "#DF88B7"
         },
         {
             "name": "Variable other class js",
@@ -318,7 +343,7 @@
         {
             "name": "Entity id html",
             "scope": "text.html entity.other.attribute-name.id",
-            "foreground": "#FD8F3F"
+            "foreground": "#A4CDFF"
         },
         {
             "name": "At rule other css",
@@ -331,24 +356,49 @@
             "foreground": "#B4B4B4"
         },
         {
+            "name": "Entity name tag css",
+            "scope": "entity.name.tag.html.css",
+            "foreground": "color(#643820 l(+ 37%) a(0.7))"
+        },
+        {
             "name": "Support property name and Entity other custom property css",
             "scope": "support.type.property-name.css, entity.other.custom-property.css",
-            "foreground": "color(#83B85E l(+ 3%))"
+            "foreground": "color(#FC6BAA l(+ 7%) a(0.8))"
         },
         {
             "name": "Storage type and Method parameters c#",
             "scope": "storage.type.cs, meta.method.parameters.cs",
-            "foreground": "#FC6BAA"
+            "foreground": ""
+        },
+        {
+            "name": "Variable other readwrite declaration go",
+            "scope": "variable.other.readwrite.declaration.go",
+            "foreground": "color(#83B85E l(+ 2%))"
+        },
+        {
+            "name": "Storage type go",
+            "scope": "storage.type.go",
+            "foreground": "color(#83B85E l(+ 2%))"
         },
         {
             "name": "Storage Support type builtin go",
             "scope": "storage.type.go support.type.builtin.go",
-            "foreground": "color(#FD8F3F l(- 4%) a(0.8))"
+            "foreground": "#DF88B7"
         },
         {
             "name": "Git attributes value",
             "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
             "foreground": "#D0BC56"
+        },
+        {
+            "name": "Punctuation definition variable php",
+            "scope": "embedding.php text.html.php meta.embedded.php punctuation.definition.variable.php",
+            "foreground": "#FC6BAA"
+        },
+        {
+            "name": "Punctuation section embedded php",
+            "scope": "embedding.php text.html.php meta.embedded.php punctuation.section.embedded",
+            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
         },
         {
             "name": "Keyword operator logical sql",

@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.1.10] - 2023
+- Add entity name class
+- Add entity name function
+- Add keyword declaration function arrow js
+- Add support meta class js
+- Add support meta function js
+- Add entity name tag css
+- Add variable other readwrite declaration go
+- Add storage type go
+- Add punctuation definition variable php
+- Add punctuation section embedded php
+- Change variable other member scope
+- Change support other js scope
+
+### Zora
+- Change entity name color, magenta -> green
+- Change variable function color, blue -> green
+- Change keyword operator color, gold -> magenta
+- Change support other js color, magenta -> pink
+- Change entity other attribute name html color, orange -> blue
+- Change support entity property css color, green -> magenta
+- Change storage support type builtin go color, orange -> pink
+
 ## [0.1.9] - 2023-03-12
 - Change storage modifier sql and rust to storage modifier
 - Add storage type, storage type sql, storage type source rust
