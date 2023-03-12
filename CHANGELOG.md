@@ -15,6 +15,27 @@
 - Change support other js scope
 - Change storage type method params c# color empty
 
+### Nimbus
+- Change entity name color, orange -> blue
+- Change variable function color, red -> blue
+- Change variable other constant color to lighter tone
+- Change constant numeric color, blue -> red
+- Change language color to darker tone
+- Change language null color to darker tone
+- Change language boolean color to darker tone
+- Change storage modifier to darker tone
+- Change support class color, brown to orange
+- Change keyword operator color to darker tone
+- Change support other js color to darker tone
+- Change variable other class js color to darker tone
+- Change meta mapping key color to darker tone
+- Change entity other attribute name html color to lighter tone
+- Change variable other readwrite instance ruby color to darker tone
+- Change entity name function rust color, orange -> blue
+- Change storage type source rust color, magenta -> orange
+- Change support macro rust color, brown -> magenta
+- Change support type rust color, magenta -> orange
+
 ### Roci
 - Change entity name color to lighter tone
 - Change variable other constant color to lighter tone

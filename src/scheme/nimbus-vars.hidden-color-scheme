@@ -72,7 +72,9 @@
         /** Rules variables*/
 
         /** Entity */
-        "entity-name-fg":                  "var(orange2)",
+        "entity-name-fg":                  "color(var(blue3) a(0.7))",
+        "entity-name-class-fg":            "color(var(orange2) a(0.9))",
+        "entity-name-fn-fg":               "color(var(blue3) a(0.7))",
         "entity-inherited-class-fg":       "color(var(magenta2) l(+ 7%))",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
@@ -84,34 +86,34 @@
         // "variable-lang-font-style":      "italic",
         // "variable-lang-fg":              "var(purple1)",
         // "variable-param-fg":             "var(purple1)",
-        "variable-fn-fg":                "var(red1)",
-        "variable-other-constant-fg":    "var(orange3)",
+        "variable-fn-fg":                "color(var(blue3) a(0.7))",
+        "variable-other-constant-fg":    "color(var(orange2) a(0.9))",
         "variable-other-member-fg":      "color(var(green-light3) l(- 11%) a(0.8))",
 
         /** Constant */
         // "constant-fg":                "var(green4)",
-        "constant-num-fg":            "var(blue3)",
-        "constant-lang-fg":           "color(var(gold1) l(- 5%))",
-        "constant-lang-null-fg":      "color(var(gold1) l(- 5%))",
-        "constant-lang-bool-fg":      "color(var(gold1) l(- 5%))",
+        "constant-num-fg":            "color(var(red2) l(+ 21%) a(0.8))",
+        "constant-lang-fg":           "color(var(gold1) l(- 7%) a(0.9))",
+        "constant-lang-null-fg":      "color(var(gold1) l(- 7%) a(0.9))",
+        "constant-lang-bool-fg":      "color(var(gold1) l(- 7%) a(0.9))",
         // "constant-char-escape-fg":    "var(blue4)",
 
         /** Storage */
         // "storage-fg":             "var(purple3)",
-        "storage-modifier-fg":    "var(green-light3)",
+        "storage-modifier-fg":    "color(var(green-light3) l(- 11%) a(0.8))",
         "storage-type-fg":        "var(cyan2)",
 
         /** Support */
         // "support-fg":          "var(green3)",
         "support-fn-fg":                "color(var(blue3) a(0.7))",
-        "support-class-fg":             "var(brown1)",
+        "support-class-fg":             "color(var(orange2) a(0.9))",
         "support-type-primitive-fg":    "color(var(pink-light4) l(- 1%))",
 
         /** Keyword */
         "keyword-font-style":        "normal",
         "keyword-fg":                "var(cyan2)",
         // "keyword-ctrl-fg":           "var(purple3)",
-        "keyword-operator-fg":       "var(gold3)",
+        "keyword-operator-fg":       "color(var(gold3) l(- 1%) a(0.9))",
         // "keyword-declaration-fg":    "var(green3)",
 
         /** String */
@@ -174,33 +176,46 @@
 
         /** Javascript */
         "entity-other-attribute-name-doc-js-fg":    "var(gray4)",
-        "support-other-js-fg":                      "var(green-light3)",
-        "variable-other-class-js-fg":               "var(orange3)",
+        "keyword-declaration-fn-arrow-js-fg":       "var(gold3)",
+        "support-other-js-fg":                      "color(var(green-light3) l(- 11%) a(0.8))",
+        "support-meta-class-js-fg":                 "color(var(orange2) a(0.9))",
+        "support-meta-fn-js-fg":                    "color(var(green-light3) l(- 11%) a(0.8))",
+        "variable-other-class-js-fg":               "color(var(orange2) a(0.9))",
 
         /** Mapping Key Value */
-        "meta-mapping-key-fg":      "var(brown1)",
+        "meta-mapping-key-fg":      "color(var(brown1) l(- 7%))",
         "meta-mapping-value-fg":    "color(var(green3) a(0.8))",
 
         /** HTML */
-        "entity-other-attribute-name-html-fg":    "color(var(green-light3) l(- 17%))",
+        "entity-other-attribute-name-html-fg":    "color(var(green-light3) l(- 11%) a(0.8))",
 
         /** CSS */
         "meta-at-rule-other-css-fg":          "var(cyan2)",
         "constant-css-fg":                    "var(gray4)",
+        "entity-name-tag-css-fg":             "color(var(orange2) a(0.9))",
         "support-entity-property-css-fg":     "var(pink-light3)",
 
         /** C# */
-        "storage-type-method-params-cs-fg":    "var(blue2)",
+        "storage-type-method-params-cs-fg":    "",
 
         /** Go */
-        "storage-support-type-builtin-go-fg":    "color(var(magenta3) a(0.7))",
+        "variable-other-readwrite-declaration-go-fg":    "color(var(blue3) a(0.7))",
+        "storage-type-go-fg":                            "color(var(blue3) a(0.7))",
+        "storage-support-type-builtin-go-fg":            "color(var(magenta3) a(0.7))",
 
         /** Git */
         "meta-mapping-value-git-attributes-fg":    "var(purple3)",
 
+        /** PHP */
+        "punctuation-definition-var-php-fg":      "var(gold3)",
+        "punctuation-section-embedded-php-fg":    "color(var(orange2) a(0.9))",
+
+        /** Python */
+        // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
+
         /** Sql */
         "keyword-operator-logical-sql-font-style":    "normal",
-        "keyword-operator-logical-sql-fg":            "color(var(gold1) l(- 5%))",
+        "keyword-operator-logical-sql-fg":            "color(var(gold1) l(- 5%) a(0.9))",
         "storage-modifier-sql-fg":                    "",
         "storage-type-sql-fg":                        "color(var(pink-light4) l(- 1%))",
 
@@ -214,17 +229,17 @@
         /** Ruby */
         "entity-name-class-ruby-fg":                    "var(black4)",
         "constant-rb-fg":                               "var(magenta2)",
-        "variable-other-readwrite-instance-ruby-fg":    "var(green-light3)",
+        "variable-other-readwrite-instance-ruby-fg":    "color(var(green-light3) l(- 11%) a(0.8))",
 
-        /** Rust Enhanced */
-        "entity-name-fn-rust-fg":         "var(orange2)",
+        /** Rust */
+        "entity-name-fn-rust-fg":         "color(var(blue3) a(0.7))",
         "keyword-ctrl-rust-fg":           "var(cyan2)",
         "keyword-operator-rust-fg":       "var(gold3)",
         "storage-modifier-rust-fg":       "",
         "storage-type-rust-fg":           "var(cyan2)",
-        "storage-type-source-rust-fg":    "var(magenta3)",
-        "support-macro-rust-fg":          "var(brown1)",
-        "support-type-rust-fg":           "var(magenta3)"
+        "storage-type-source-rust-fg":    "color(var(orange2) a(0.9))",
+        "support-macro-rust-fg":          "color(var(magenta3) a(0.7))",
+        "support-type-rust-fg":           "color(var(orange2) a(0.9))"
 
     },
     "globals": {},
