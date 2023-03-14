@@ -196,9 +196,6 @@
         "entity-name-tag-css-fg":             "color(var(brown2) l(+ 18%))",
         "support-entity-property-css-fg":     "color(var(green3) l(+ 11%))",
 
-        /** C# */
-        "storage-type-method-params-cs-fg":    "",
-
         /** Go */
         "variable-other-readwrite-declaration-go-fg":    "var(cyan4)",
         "storage-type-go-fg":                            "var(cyan4)",
@@ -217,7 +214,6 @@
         /** Sql */
         "keyword-operator-logical-sql-font-style":    "normal",
         "keyword-operator-logical-sql-fg":            "color(var(red2) l(+ 18%))",
-        "storage-modifier-sql-fg":                    "",
         "storage-type-sql-fg":                        "color(var(gold2) l(- 14%))",
 
         /** Toml */
@@ -233,16 +229,16 @@
         "variable-other-readwrite-instance-ruby-fg":    "var(purple3)",
 
         /** Rust */
-        "entity-name-fn-rust-fg":               "var(cyan4)",
-        "entity-name-module-struct-rust-fg":    "color(var(black4) a(0.9))",
-        "keyword-ctrl-rust-fg":                 "var(magenta3)",
-        "keyword-operator-rust-fg":             "",
+        "entity-name-rust-fg":             "color(var(brown2) l(+ 18%))",
+        "entity-name-fn-rust-fg":          "var(cyan4)",
+        "entity-name-module-rust-fg":      "color(var(black4) a(0.9))",
+        "keyword-ctrl-rust-fg":            "var(magenta3)",
+        "meta-annotation-path-rust-fg":    "var(cyan2)",
         // "meta-fn-rust-fg":                      "",
-        "storage-modifier-rust-fg":             "",
-        "storage-type-rust-fg":                 "var(magenta3)",
-        "storage-type-source-rust-fg":          "color(var(brown2) l(+ 18%))",
-        "support-macro-rust-fg":                "color(var(orange1) l(- 17%) a(0.7))",
-        "support-type-rust-fg":                 "color(var(brown2) l(+ 18%))"
+        "storage-type-rust-fg":            "var(magenta3)",
+        "storage-type-source-rust-fg":     "color(var(brown2) l(+ 18%))",
+        "support-macro-rust-fg":           "color(var(orange1) l(- 17%) a(0.7))",
+        "support-type-rust-fg":            "color(var(brown2) l(+ 18%))"
 
     },
     "globals": {},

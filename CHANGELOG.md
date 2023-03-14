@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.1.11] - 2023
+- Add entity name rust
+- Add meta annotation path rust
+- Change entity name module and struct rust
+- Change keyword declaration function arrow js
+
+### Blackcomb
+- Change entity other attribute name docs js color, gray -> blue
+
+### D-O
+- Change entity other attribute name docs js color, gray -> brown
+
+### Fuji
+- Change entity other attribute name doc js color, orange -> brown
+
+### Roci
+- Change entity other attribute name doc js color, pink -> orange
+
+### Zora
+- Change entity other attribute name doc js color to lighter tone
+- Change support other js color to lighter tone
+- Change support meta function js color to lighter tone
+
 ## [0.1.10] - 2023-03-13
 - Add entity name class
 - Add entity name function

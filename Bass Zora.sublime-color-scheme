@@ -308,17 +308,17 @@
         {
             "name": "JSDocs tags",
             "scope": "entity.other.attribute-name.documentation.js",
-            "foreground": "color(#06B1D8 a(0.5))"
+            "foreground": "color(#40E0D0 a(0.7))"
         },
         {
             "name": "Keyword declaration function arrow js",
-            "scope": "keyword.declaration.function.arrow.js",
+            "scope": "keyword.declaration.function.arrow.js, meta.type.js keyword.declaration.function.js",
             "foreground": "#FC6BAA"
         },
         {
             "name": "Support other js",
             "scope": "(source.js | source.ts) - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
-            "foreground": "#DF88B7"
+            "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
         },
         {
             "name": "Support meta class js",
@@ -328,7 +328,7 @@
         {
             "name": "Support meta function js",
             "scope": "support.constant.node.js, support.constant.builtin.js",
-            "foreground": "#DF88B7"
+            "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
         },
         {
             "name": "Variable other class js",
@@ -371,11 +371,6 @@
             "foreground": "color(#FC6BAA l(+ 7%) a(0.8))"
         },
         {
-            "name": "Storage type and Method parameters c#",
-            "scope": "storage.type.cs, meta.method.parameters.cs",
-            "foreground": ""
-        },
-        {
             "name": "Variable other readwrite declaration go",
             "scope": "variable.other.readwrite.declaration.go",
             "foreground": "color(#83B85E l(+ 2%))"
@@ -410,11 +405,6 @@
             "scope": "keyword.operator.logical.sql",
             "font_style": "normal",
             "foreground": "#FC5B57"
-        },
-        {
-            "name": "Storage modifier sql",
-            "scope": "storage.modifier.sql",
-            "foreground": ""
         },
         {
             "name": "Storage type sql",
@@ -452,13 +442,18 @@
             "foreground": "color(#DF88B7 l(+ 4%))"
         },
         {
+            "name": "Entity name rust",
+            "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust - entity.name.union.rust",
+            "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
+        },
+        {
             "name": "Entity name function",
             "scope": "entity.name.function.rust",
             "foreground": "color(#83B85E l(+ 2%))"
         },
         {
-            "name": "Entity name module and struct",
-            "scope": "entity.name.module.rust, entity.name.struct.rust",
+            "name": "Entity name module",
+            "scope": "entity.name.module.rust",
             "foreground": "#B4B4B4"
         },
         {
@@ -467,14 +462,9 @@
             "foreground": "color(#5DD8FF l(- 3%) a(0.9))"
         },
         {
-            "name": "Keyword operator rust",
-            "scope": "keyword.operator.rust",
-            "foreground": ""
-        },
-        {
-            "name": "Storage modifier rust",
-            "scope": "storage.modifier.rust",
-            "foreground": ""
+            "name": "Meta annotation path rust",
+            "scope": "meta.annotation.rust meta.path.rust, meta.annotation.rust punctuation.definition.annotation.rust, meta.annotation.rust punctuation.section.group.begin.rust, meta.annotation.rust punctuation.section.group.end.rust",
+            "foreground": "color(#40E0D0 a(0.7))"
         },
         {
             "name": "Storage type rust",

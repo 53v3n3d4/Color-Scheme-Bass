@@ -507,7 +507,7 @@
         },
         {
             "name": "Keyword declaration function arrow js",
-            "scope": "keyword.declaration.function.arrow.js",
+            "scope": "keyword.declaration.function.arrow.js, meta.type.js keyword.declaration.function.js",
             "foreground": "var(keyword-declaration-fn-arrow-js-fg)"
         },
         {
@@ -586,17 +586,6 @@
 
         /**
          *
-         * C#
-         *
-         */
-        {
-            "name": "Storage type and Method parameters c#", // i.e void, string, args
-            "scope": "storage.type.cs, meta.method.parameters.cs",
-            "foreground": "var(storage-type-method-params-cs-fg)"
-        },
-
-        /**
-         *
          * GO
          *
          */
@@ -666,11 +655,6 @@
             "foreground": "var(keyword-operator-logical-sql-fg)"
         },
         {
-            "name": "Storage modifier sql", // i.e. CONSTRAINT, PRIMARY KEY
-            "scope": "storage.modifier.sql",
-            "foreground": "var(storage-modifier-sql-fg)"
-        },
-        {
             "name": "Storage type sql",
             "scope": "storage.type.sql",
             "foreground": "var(storage-type-sql-fg)"
@@ -730,14 +714,19 @@
          *
          */
         {
+            "name": "Entity name rust",
+            "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust - entity.name.union.rust",
+            "foreground": "var(entity-name-rust-fg)"
+        },
+        {
             "name": "Entity name function",
             "scope": "entity.name.function.rust",
             "foreground": "var(entity-name-fn-rust-fg)"
         },
         {
-            "name": "Entity name module and struct",
-            "scope": "entity.name.module.rust, entity.name.struct.rust",
-            "foreground": "var(entity-name-module-struct-rust-fg)"
+            "name": "Entity name module",
+            "scope": "entity.name.module.rust",
+            "foreground": "var(entity-name-module-rust-fg)"
         },
         {
             "name": "Keyword control rust",
@@ -745,20 +734,15 @@
             "foreground": "var(keyword-ctrl-rust-fg)"
         },
         {
-            "name": "Keyword operator rust", // i.e. in/as/box
-            "scope": "keyword.operator.rust",
-            "foreground": "var(keyword-operator-rust-fg)"
+            "name": "Meta annotation path rust",
+            "scope": "meta.annotation.rust meta.path.rust, meta.annotation.rust punctuation.definition.annotation.rust, meta.annotation.rust punctuation.section.group.begin.rust, meta.annotation.rust punctuation.section.group.end.rust",
+            "foreground": "var(meta-annotation-path-rust-fg)"
         },
         // {
         //     "name": "Meta function rust",
         //     "scope": "meta.function.rust meta.block.rust - meta.group.rust - meta.path.rust",
         //     "foreground": "var(meta-fn-rust-fg)"
         // },
-        {
-            "name": "Storage modifier rust",
-            "scope": "storage.modifier.rust",
-            "foreground": "var(storage-modifier-rust-fg)"
-        },
         {
             "name": "Storage type rust",
             "scope": "storage.type.rust",

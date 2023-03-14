@@ -308,11 +308,11 @@
         {
             "name": "JSDocs tags",
             "scope": "entity.other.attribute-name.documentation.js",
-            "foreground": "#525055"
+            "foreground": "color(#643820 a(0.7))"
         },
         {
             "name": "Keyword declaration function arrow js",
-            "scope": "keyword.declaration.function.arrow.js",
+            "scope": "keyword.declaration.function.arrow.js, meta.type.js keyword.declaration.function.js",
             "foreground": "color(#8D52D1 l(+ 7%))"
         },
         {
@@ -371,11 +371,6 @@
             "foreground": "color(#0282F2 a(0.8))"
         },
         {
-            "name": "Storage type and Method parameters c#",
-            "scope": "storage.type.cs, meta.method.parameters.cs",
-            "foreground": ""
-        },
-        {
             "name": "Variable other readwrite declaration go",
             "scope": "variable.other.readwrite.declaration.go",
             "foreground": "color(#EC4990 a(0.8))"
@@ -410,11 +405,6 @@
             "scope": "keyword.operator.logical.sql",
             "font_style": "normal",
             "foreground": "#FC5B57"
-        },
-        {
-            "name": "Storage modifier sql",
-            "scope": "storage.modifier.sql",
-            "foreground": ""
         },
         {
             "name": "Storage type sql",
@@ -452,13 +442,18 @@
             "foreground": "color(#D1B502 l(- 1%))"
         },
         {
+            "name": "Entity name rust",
+            "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust - entity.name.union.rust",
+            "foreground": "color(#D0BC56 l(- 7%))"
+        },
+        {
             "name": "Entity name function",
             "scope": "entity.name.function.rust",
             "foreground": "color(#EC4990 a(0.8))"
         },
         {
-            "name": "Entity name module and struct",
-            "scope": "entity.name.module.rust, entity.name.struct.rust",
+            "name": "Entity name module",
+            "scope": "entity.name.module.rust",
             "foreground": "#5D6C79"
         },
         {
@@ -467,14 +462,9 @@
             "foreground": "color(#C86733 a(0.7))"
         },
         {
-            "name": "Keyword operator rust",
-            "scope": "keyword.operator.rust",
-            "foreground": ""
-        },
-        {
-            "name": "Storage modifier rust",
-            "scope": "storage.modifier.rust",
-            "foreground": ""
+            "name": "Meta annotation path rust",
+            "scope": "meta.annotation.rust meta.path.rust, meta.annotation.rust punctuation.definition.annotation.rust, meta.annotation.rust punctuation.section.group.begin.rust, meta.annotation.rust punctuation.section.group.end.rust",
+            "foreground": "color(#643820 a(0.7))"
         },
         {
             "name": "Storage type rust",

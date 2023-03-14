@@ -196,9 +196,6 @@
         "entity-name-tag-css-fg":             "color(var(cyan2) l(- 4%))",
         "support-entity-property-css-fg":     "color(var(pink-light4) l(- 9%))",
 
-        /** C# */
-        "storage-type-method-params-cs-fg":    "",
-
         /** Go */
         "variable-other-readwrite-declaration-go-fg":    "color(var(brown2) l(+ 23%))",
         "storage-type-go-fg":                            "color(var(brown2) l(+ 23%))",
@@ -217,7 +214,6 @@
         /** Sql */
         "keyword-operator-logical-sql-font-style":    "normal",
         "keyword-operator-logical-sql-fg":            "color(var(red2) l(+ 18%))",
-        "storage-modifier-sql-fg":                    "",
         "storage-type-sql-fg":                        "color(var(green-light3) l(- 14%))",
 
         /** Toml */
@@ -233,16 +229,16 @@
         "variable-other-readwrite-instance-ruby-fg":    "color(var(green1) l(- 5%))",
 
         /** Rust */
-        "entity-name-fn-rust-fg":               "color(var(brown2) l(+ 23%))",
-        "entity-name-module-struct-rust-fg":    "color(var(black4) a(0.9))",
-        "keyword-ctrl-rust-fg":                 "var(blue2)",
-        "keyword-operator-rust-fg":             "",
+        "entity-name-rust-fg":             "color(var(green-light3) l(- 14%))",
+        "entity-name-fn-rust-fg":          "color(var(brown2) l(+ 23%))",
+        "entity-name-module-rust-fg":      "color(var(black4) a(0.9))",
+        "keyword-ctrl-rust-fg":            "var(blue2)",
+        "meta-annotation-path-rust-fg":    "color(var(green2) l(- 7%))",
         // "meta-fn-rust-fg":                      "",
-        "storage-modifier-rust-fg":             "",
-        "storage-type-rust-fg":                 "var(blue2)",
-        "storage-type-source-rust-fg":          "color(var(green-light3) l(- 14%))",
-        "support-macro-rust-fg":                "color(var(cyan2) l(- 4%))",
-        "support-type-rust-fg":                 "color(var(green-light3) l(- 14%))"
+        "storage-type-rust-fg":            "var(blue2)",
+        "storage-type-source-rust-fg":     "color(var(green-light3) l(- 14%))",
+        "support-macro-rust-fg":           "color(var(cyan2) l(- 4%))",
+        "support-type-rust-fg":            "color(var(green-light3) l(- 14%))"
 
     },
     "globals": {},
