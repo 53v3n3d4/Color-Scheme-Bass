@@ -124,7 +124,7 @@
         },
         {
             "name": "Storage type",
-            "scope": "storage.type - meta.block meta.enum.rust - meta.group.rust",
+            "scope": "storage.type",
             "foreground": "color(#5DD8FF l(- 3%) a(0.9))"
         },
         {
@@ -145,7 +145,6 @@
         {
             "name": "Keyword",
             "scope": "keyword",
-            "font_style": "normal",
             "foreground": "color(#5DD8FF l(- 3%) a(0.9))"
         },
         {
@@ -161,7 +160,6 @@
         {
             "name": "Comment",
             "scope": "comment",
-            "font_style": "normal",
             "foreground": "color(#B2D6FB a(0.4))"
         },
         {
@@ -403,7 +401,6 @@
         {
             "name": "Keyword operator logical sql",
             "scope": "keyword.operator.logical.sql",
-            "font_style": "normal",
             "foreground": "#FC5B57"
         },
         {
@@ -443,7 +440,7 @@
         },
         {
             "name": "Entity name rust",
-            "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust - entity.name.union.rust",
+            "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust",
             "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
         },
         {
@@ -473,7 +470,7 @@
         },
         {
             "name": "Storage type source rust",
-            "scope": "storage.type.source.rust - meta.enum.rust",
+            "scope": "storage.type.source.rust",
             "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
         },
         {

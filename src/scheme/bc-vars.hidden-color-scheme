@@ -110,18 +110,16 @@
         "support-type-primitive-fg":    "color(var(blue-light4) l(- 17%))",
 
         /** Keyword */
-        "keyword-font-style":        "normal",
-        "keyword-fg":                "var(magenta2)",
+        "keyword-fg":             "var(magenta2)",
         // "keyword-ctrl-fg":           "var(magenta3)",
-        "keyword-operator-fg":       "var(yellow1)",
+        "keyword-operator-fg":    "var(yellow1)",
         // "keyword-declaration-fg":    "var(green-light1)",
 
         /** String */
         "string-fg":    "color(var(green-light3) a(0.9))",
 
         /** Comment */
-        "comment-font-style":    "normal",
-        "comment-fg":            "color(var(gray2) a(0.9))",
+        "comment-fg":    "color(var(gray2) a(0.9))",
 
         /** Invalid */
         // "invalid-fg":               "var(red1)",
@@ -212,9 +210,8 @@
         // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
 
         /** Sql */
-        "keyword-operator-logical-sql-font-style":    "normal",
-        "keyword-operator-logical-sql-fg":            "var(red1)",
-        "storage-type-sql-fg":                        "var(yellow-light3)",
+        "keyword-operator-logical-sql-fg":    "var(red1)",
+        "storage-type-sql-fg":                "var(yellow-light3)",
 
         /** Toml */
         "entity-name-table-toml-fg":    "var(blue5)",

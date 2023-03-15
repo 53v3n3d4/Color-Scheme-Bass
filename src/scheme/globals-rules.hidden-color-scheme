@@ -243,7 +243,7 @@
         // Rust scopes
         {
             "name": "Storage type",
-            "scope": "storage.type - meta.block meta.enum.rust - meta.group.rust",
+            "scope": "storage.type",
             "foreground": "var(storage-type-fg)"
         },
 
@@ -281,7 +281,6 @@
         {
             "name": "Keyword",
             "scope": "keyword",
-            "font_style": "var(keyword-font-style)",
             "foreground": "var(keyword-fg)"
         },
         // {
@@ -319,7 +318,6 @@
         {
             "name": "Comment",
             "scope": "comment",
-            "font_style": "var(comment-font-style)",
             "foreground": "var(comment-fg)"
         },
 
@@ -651,7 +649,6 @@
         {
             "name": "Keyword operator logical sql",
             "scope": "keyword.operator.logical.sql",
-            "font_style": "var(keyword-operator-logical-sql-font-style)",
             "foreground": "var(keyword-operator-logical-sql-fg)"
         },
         {
@@ -715,7 +712,7 @@
          */
         {
             "name": "Entity name rust",
-            "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust - entity.name.union.rust",
+            "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust",
             "foreground": "var(entity-name-rust-fg)"
         },
         {
@@ -750,7 +747,7 @@
         },
         {
             "name": "Storage type source rust",
-            "scope": "storage.type.source.rust - meta.enum.rust",
+            "scope": "storage.type.source.rust",
             "foreground": "var(storage-type-source-rust-fg)"
         },
         {

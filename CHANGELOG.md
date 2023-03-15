@@ -5,6 +5,9 @@
 - Add meta annotation path rust
 - Change entity name module and struct rust
 - Change keyword declaration function arrow js
+- Change storage type
+- Change storage type rust
+- Change entity name rust
 
 ### Blackcomb
 - Change entity other attribute name docs js color, gray -> blue
