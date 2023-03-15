@@ -126,19 +126,12 @@
         "invalid-deprecated-fg":    "var(red2)",
         "invalid-illegal-fg":       "var(red1)",
 
-        // End minimal recommended setup
-
         /** Markdown / Markup */
-        "constant-other-lang-name-md-font-style":     "normal",
         "constant-other-lang-name-md-fg":             "color(var(gold2) l(- 14%))",
         "markup-heading-font-style":                  "bold",
         "markup-heading-fg":                          "var(orange3)",
-        "markup-list-font-style":                     "normal",
-        "markup-list-fg":                             "",
         "markup-bold-font-style":                     "bold",
-        "markup-bold-fg":                             "",
         "markup-italic-font-style":                   "italic",
-        "markup-italic-fg":                           "",
         "markup-underline-font-style":                "underline",
         "markup-bold-italic-font-style":              "bold italic",
         "markup-bold-underline-font-style":           "bold underline",
@@ -149,7 +142,6 @@
         "markup-raw-bg":                              "var(green-light6)",
         "markup-link-fg":                             "var(blue3)",
         "markup-table-bg":                            "var(green-light6)",
-        "markup-table-fg":                            "",
         "punctuation-line-break-md-bg":               "color(var(green-light6) a(0.5))",
 
         /** Diff */
@@ -217,12 +209,10 @@
         "entity-name-table-toml-fg":    "var(cyan4)",
         "entity-name-tag-toml-fg":      "var(purple2)",
 
-        /** Rails */
-        "meta-model-rails-fg":    "color(var(green3) l(+ 11%))",
-
         /** Ruby */
-        "entity-name-class-ruby-fg":                    "var(black4)",
+        "entity-name-class-ruby-fg":                    "color(var(black4) a(0.9))",
         "constant-rb-fg":                               "color(var(green2) l(+ 4%))",
+        "meta-class-ruby-fg":                           "color(var(brown2) l(+ 18%))",
         "variable-other-readwrite-instance-ruby-fg":    "var(purple3)",
 
         /** Rust */

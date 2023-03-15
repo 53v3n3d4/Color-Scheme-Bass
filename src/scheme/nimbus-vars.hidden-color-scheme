@@ -126,19 +126,12 @@
         "invalid-deprecated-fg":    "var(red2)",
         "invalid-illegal-fg":       "color(var(red1) a(0.1))",
 
-        // End minimal recommended setup
-
         /** Markdown / Markup */
-        "constant-other-lang-name-md-font-style":     "normal",
         "constant-other-lang-name-md-fg":             "var(pink-light3)",
         "markup-heading-font-style":                  "bold",
         "markup-heading-fg":                          "var(brown1)",
-        "markup-list-font-style":                     "normal",
-        "markup-list-fg":                             "",
         "markup-bold-font-style":                     "bold",
-        "markup-bold-fg":                             "",
         "markup-italic-font-style":                   "italic",
-        "markup-italic-fg":                           "",
         "markup-underline-font-style":                "underline",
         "markup-bold-italic-font-style":              "bold italic",
         "markup-bold-underline-font-style":           "bold underline",
@@ -149,7 +142,6 @@
         "markup-raw-bg":                              "color(var(gray2) a(0.3))",
         "markup-link-fg":                             "var(blue2)",
         "markup-table-bg":                            "color(var(gray2) a(0.3))",
-        "markup-table-fg":                            "",
         "punctuation-line-break-md-bg":               "color(var(gray2) a(0.14))",
 
         /** Diff */
@@ -217,12 +209,10 @@
         "entity-name-table-toml-fg":    "var(magenta3)",
         "entity-name-tag-toml-fg":      "var(brown1)",
 
-        /** Rails */
-        "meta-model-rails-fg":    "color(var(magenta1) l(- 11%))",
-
         /** Ruby */
         "entity-name-class-ruby-fg":                    "var(black4)",
         "constant-rb-fg":                               "var(magenta2)",
+        "meta-class-ruby-fg":                           "color(var(orange2) a(0.9))",
         "variable-other-readwrite-instance-ruby-fg":    "color(var(green-light3) l(- 11%) a(0.8))",
 
         /** Rust */

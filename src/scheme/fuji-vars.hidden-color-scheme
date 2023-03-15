@@ -126,19 +126,12 @@
         "invalid-deprecated-fg":    "var(red2)",
         "invalid-illegal-fg":       "color(var(red1) a(0.7))",
 
-        // End minimal recommended setup
-
         /** Markdown / Markup */
-        "constant-other-lang-name-md-font-style":     "normal",
         "constant-other-lang-name-md-fg":             "var(cyan2)",
         "markup-heading-font-style":                  "bold",
         "markup-heading-fg":                          "var(purple2)",
-        "markup-list-font-style":                     "normal",
-        "markup-list-fg":                             "",
         "markup-bold-font-style":                     "bold",
-        "markup-bold-fg":                             "",
         "markup-italic-font-style":                   "italic",
-        "markup-italic-fg":                           "",
         "markup-underline-font-style":                "underline",
         "markup-bold-italic-font-style":              "bold italic",
         "markup-bold-underline-font-style":           "bold underline",
@@ -149,7 +142,6 @@
         "markup-raw-bg":                              "var(gray1)",
         "markup-link-fg":                             "var(blue3)",
         "markup-table-bg":                            "var(gray1)",
-        "markup-table-fg":                            "",
         "punctuation-line-break-md-bg":               "color(var(gray1) a(0.7))",
 
         /** Diff */
@@ -217,12 +209,10 @@
         "entity-name-table-toml-fg":    "var(green2)",
         "entity-name-tag-toml-fg":      "var(pink2)",
 
-        /** Rails */
-        "meta-model-rails-fg":    "var(magenta2)",
-
         /** Ruby */
         "entity-name-class-ruby-fg":                    "var(black4)",
         "constant-rb-fg":                               "color(var(pink-light4) l(- 3%))",
+        "meta-class-ruby-fg":                           "var(brown1)",
         "variable-other-readwrite-instance-ruby-fg":    "var(orange1)",
 
         /** Rust */

@@ -8,23 +8,47 @@
 - Change storage type
 - Change storage type rust
 - Change entity name rust
+- Change meta models rails -> meta class ruby
+
+### Biohack
+- Change meta model rails color, yellow -> pink
+- Change variable other readwrite instance ruby color, magenta -> green
 
 ### Blackcomb
 - Change entity other attribute name docs js color, gray -> blue
+- Change constant ruby color, blue -> green
+- Change meta model rails color, blue -> brown
+
+### Bowtruckle
+- Change entity name class ruby color to lighter tone
+- Change meta model rails color, green -> brown
 
 ### D-O
 - Change entity other attribute name docs js color, gray -> brown
+- Change meta model rails color, blue -> gold
 
 ### Fuji
 - Change entity other attribute name doc js color, orange -> brown
+- Change meta model rails color, magenta -> brown
+
+### Lagoon
+- Change entity name class ruby color, gray -> black
+- Change meta model rails color, pink -> green
+
+### Nimbus
+- Change meta model rails color, magenta -> orange
 
 ### Roci
 - Change entity other attribute name doc js color, pink -> orange
+- Change entity name class ruby color, white -> gray
+- Change meta model rails color, cyan -> orange
 
 ### Zora
 - Change entity other attribute name doc js color to lighter tone
 - Change support other js color to lighter tone
 - Change support meta function js color to lighter tone
+- Change entity name class ruby color, white -> gray
+- Change meta model rails color, green -> orange
 
 ## [0.1.10] - 2023-03-13
 - Add entity name class

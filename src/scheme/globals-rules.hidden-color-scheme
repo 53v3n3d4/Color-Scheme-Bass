@@ -126,7 +126,7 @@
             "foreground": "var(entity-name-fn-fg)"
         },
         {
-            "name": "Entity other inherited class",
+            "name": "Entity other inherited class", // python, ruby
             "scope": "entity.other.inherited-class",
             "foreground": "var(entity-inherited-class-fg)"
         },
@@ -146,7 +146,7 @@
             "foreground": "var(entity-attribute-name-fg)"
         },
         {
-            "name": "Entity other pseudo class",
+            "name": "Entity other pseudo class", // css i.e. :root
             "scope": "entity.other.pseudo-class",
             "foreground": "var(entity-other-pseudo-class-fg)"
         },
@@ -342,8 +342,6 @@
             "background": "var(invalid-illegal-fg)"
         },
 
-        // End minimal recommended setup
-
         /**
          *
          * MARKDOWN / MARKUP
@@ -352,7 +350,6 @@
         {
             "name": "Constant other language name md",
             "scope": "constant.other.language-name.markdown",
-            "font_style": "var(constant-other-lang-name-md-font-style)",
             "foreground": "var(constant-other-lang-name-md-fg)"
         },
         {
@@ -362,22 +359,14 @@
             "foreground": "var(markup-heading-fg)"
         },
         {
-            "name": "Markup list",
-            "scope": "markup.list.unnumbered, markup.list.numbered",
-            "font_style": "var(markup-list-font-style)",
-            "foreground": "var(markup-list-fg)"
-        },
-        {
             "name": "Markup bold",
             "scope": "markup.bold",
-            "font_style": "var(markup-bold-font-style)",
-            "foreground": "var(markup-bold-fg)"
+            "font_style": "var(markup-bold-font-style)"
         },
         {
             "name": "Markup italic",
             "scope": "markup.italic",
-            "font_style": "var(markup-italic-font-style)",
-            "foreground": "var(markup-italic-fg)"
+            "font_style": "var(markup-italic-font-style)"
         },
         {
             "name": "Markup underline",
@@ -423,8 +412,7 @@
         {
             "name": "Table md",
             "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
-            "background": "var(markup-table-bg)",
-            "foreground": "var(markup-table-fg)"
+            "background": "var(markup-table-bg)"
         },
         {
             "name": "Punctuation line break md",
@@ -675,17 +663,6 @@
 
         /**
          *
-         * RAILS
-         *
-         */
-        {
-            "name": "Model rails",
-            "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby",
-            "foreground": "var(meta-model-rails-fg)"
-        },
-
-        /**
-         *
          * RUBY
          *
          */
@@ -698,6 +675,11 @@
             "name": "Constant ruby",
             "scope": "source.ruby constant",
             "foreground": "var(constant-rb-fg)"
+        },
+        {
+            "name": "Meta class ruby",
+            "scope": "meta.class.ruby entity.other.inherited-class.ruby",
+            "foreground": "var(meta-class-ruby-fg)"
         },
         {
             "name": "Variable other readwrite instance ruby", //i.e. @article

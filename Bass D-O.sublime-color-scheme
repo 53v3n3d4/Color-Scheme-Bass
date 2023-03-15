@@ -175,7 +175,6 @@
         {
             "name": "Constant other language name md",
             "scope": "constant.other.language-name.markdown",
-            "font_style": "normal",
             "foreground": "#83B85E"
         },
         {
@@ -185,22 +184,14 @@
             "foreground": "color(#643820 l(+ 17%))"
         },
         {
-            "name": "Markup list",
-            "scope": "markup.list.unnumbered, markup.list.numbered",
-            "font_style": "normal",
-            "foreground": ""
-        },
-        {
             "name": "Markup bold",
             "scope": "markup.bold",
-            "font_style": "bold",
-            "foreground": ""
+            "font_style": "bold"
         },
         {
             "name": "Markup italic",
             "scope": "markup.italic",
-            "font_style": "italic",
-            "foreground": ""
+            "font_style": "italic"
         },
         {
             "name": "Markup underline",
@@ -246,8 +237,7 @@
         {
             "name": "Table md",
             "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
-            "background": "#F4E2BC",
-            "foreground": ""
+            "background": "#F4E2BC"
         },
         {
             "name": "Punctuation line break md",
@@ -419,11 +409,6 @@
             "foreground": "#9B2393"
         },
         {
-            "name": "Model rails",
-            "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby",
-            "foreground": "color(#0282F2 a(0.8))"
-        },
-        {
             "name": "Entity name class ruby",
             "scope": "entity.name.class.ruby",
             "foreground": "#5D6C79"
@@ -432,6 +417,11 @@
             "name": "Constant ruby",
             "scope": "source.ruby constant",
             "foreground": "color(#AA0D91 a(0.7))"
+        },
+        {
+            "name": "Meta class ruby",
+            "scope": "meta.class.ruby entity.other.inherited-class.ruby",
+            "foreground": "color(#D0BC56 l(- 7%))"
         },
         {
             "name": "Variable other readwrite instance ruby",

@@ -175,7 +175,6 @@
         {
             "name": "Constant other language name md",
             "scope": "constant.other.language-name.markdown",
-            "font_style": "normal",
             "foreground": "#38A2AF"
         },
         {
@@ -185,22 +184,14 @@
             "foreground": "#9B2393"
         },
         {
-            "name": "Markup list",
-            "scope": "markup.list.unnumbered, markup.list.numbered",
-            "font_style": "normal",
-            "foreground": ""
-        },
-        {
             "name": "Markup bold",
             "scope": "markup.bold",
-            "font_style": "bold",
-            "foreground": ""
+            "font_style": "bold"
         },
         {
             "name": "Markup italic",
             "scope": "markup.italic",
-            "font_style": "italic",
-            "foreground": ""
+            "font_style": "italic"
         },
         {
             "name": "Markup underline",
@@ -246,8 +237,7 @@
         {
             "name": "Table md",
             "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
-            "background": "#ECECEC",
-            "foreground": ""
+            "background": "#ECECEC"
         },
         {
             "name": "Punctuation line break md",
@@ -419,11 +409,6 @@
             "foreground": "#D8467B"
         },
         {
-            "name": "Model rails",
-            "scope": "meta.model.rails meta.class.ruby entity.other.inherited-class.ruby",
-            "foreground": "#FC6BAA"
-        },
-        {
             "name": "Entity name class ruby",
             "scope": "entity.name.class.ruby",
             "foreground": "#404040"
@@ -432,6 +417,11 @@
             "name": "Constant ruby",
             "scope": "source.ruby constant",
             "foreground": "color(#DF88B7 l(- 3%))"
+        },
+        {
+            "name": "Meta class ruby",
+            "scope": "meta.class.ruby entity.other.inherited-class.ruby",
+            "foreground": "#BF8555"
         },
         {
             "name": "Variable other readwrite instance ruby",
