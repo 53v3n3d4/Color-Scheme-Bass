@@ -4,7 +4,7 @@
     </a>
 </p>
 
-![Color Scheme Bass](assets/screenshots.gif)
+![Color Scheme Bass](assets/screenshots-v0111.gif)
 
 ## Color scheme Bass
 
@@ -12,43 +12,47 @@ Color-schemes available are (Click name to view)
 
 <details>
   <summary>Bass Biohack</summary>
-  <img src="assets/screenshot-biohack.png" name="Biohack">
+  <img src="assets/biohack-v0111.png" name="Biohack">
 </details>
 <details>
   <summary>Bass Blackcomb</summary>
-  <img src="assets/screenshot-blackcomb.png" name="Blackcomb">
+  <img src="assets/blackcomb-v0111.png" name="Blackcomb">
 </details>
 <details>
   <summary>Bass Bowtruckle</summary>
-  <img src="assets/screenshot-bowtruckle.png" name="Bowtruckle">
+  <img src="assets/bowtruckle-v0111.png" name="Bowtruckle">
 </details>
 <details>
   <summary>Bass D-O</summary>
-  <img src="assets/screenshot-d-o.png" name="D-O">
+  <img src="assets/d-o-v0111.png" name="D-O">
 </details>
 <details>
   <summary>Bass Fuji</summary>
-  <img src="assets/screenshot-fuji.png" name="Fuji">
+  <img src="assets/fuji-v0111.png" name="Fuji">
 </details>
 <details>
   <summary>Bass Lagoon</summary>
-  <img src="assets/screenshot-lagoon.png" name="Lagoon">
+  <img src="assets/lagoon-v0111.png" name="Lagoon">
 </details>
 <details>
   <summary>Bass Nimbus</summary>
-  <img src="assets/screenshot-nimbus.png" name="Nimbus">
+  <img src="assets/nimbus-v0111.png" name="Nimbus">
 </details>
 <details>
   <summary>Bass Roci</summary>
-  <img src="assets/screenshot-roci.png" name="Roci">
+  <img src="assets/roci-v0111.png" name="Roci">
 </details>
 <details>
   <summary>Bass Zora</summary>
-  <img src="assets/screenshot-zora.png" name="Zora">
+  <img src="assets/zora-v0111.png" name="Zora">
 </details>
+
+> Screenshots from v0.1.11
 
 > In screenshots, we are using Theme Treble  
 [Theme - Treble](https://github.com/53v3n3d4/Theme-Treble)  
+
+> Note: Highligth import Class js is possible if customize JavaScript.sublime-syntax
 
 ## Package installation
 
