@@ -58,7 +58,7 @@
         {
             "name": "Entity name class",
             "scope": "entity.name.class",
-            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
+            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
         },
         {
             "name": "Entity name function",
@@ -88,7 +88,7 @@
         {
             "name": "Variable other constant",
             "scope": "variable.other.constant",
-            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
+            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
         },
         {
             "name": "Variable other member",
@@ -133,7 +133,7 @@
         {
             "name": "Support class",
             "scope": "support.class",
-            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
+            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
         },
         {
             "name": "Support type primitive",
@@ -289,12 +289,12 @@
         {
             "name": "Entity name type interface",
             "scope": "entity.name.type.js, entity.name.interface.js",
-            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
+            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
         },
         {
             "name": "JSDocs tags",
             "scope": "entity.other.attribute-name.documentation.js",
-            "foreground": "color(#E47C48 l(+ 14%) a(0.8)"
+            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
         },
         {
             "name": "Keyword declaration function arrow js",
@@ -309,7 +309,7 @@
         {
             "name": "Support meta class js",
             "scope": "meta.class.js support.constant.builtin.js, meta.function-call.constructor.js variable.type.js",
-            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
+            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
         },
         {
             "name": "Support meta function js",
@@ -319,7 +319,7 @@
         {
             "name": "Variable other class js",
             "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
-            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
+            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
         },
         {
             "name": "Mapping key",
@@ -419,7 +419,7 @@
         {
             "name": "Meta class ruby",
             "scope": "meta.class.ruby entity.other.inherited-class.ruby",
-            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
+            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
         },
         {
             "name": "Variable other readwrite instance ruby",

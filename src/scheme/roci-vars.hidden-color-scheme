@@ -71,7 +71,7 @@
 
         /** Entity */
         "entity-name-fg":                  "color(var(blue2) l(+ 19%))",
-        "entity-name-class-fg":            "color(var(orange2) l(+ 6%) a(0.8)",
+        "entity-name-class-fg":            "color(var(orange1) l(+ 14%) a(0.8))",
         "entity-name-fn-fg":               "color(var(blue2) l(+ 19%))",
         "entity-inherited-class-fg":       "var(cyan1)",
         // "entity-name-section-fg":          "var(purple1)",
@@ -85,7 +85,7 @@
         // "variable-lang-fg":              "var(purple1)",
         // "variable-param-fg":             "var(purple1)",
         "variable-fn-fg":                "color(var(blue2) l(+ 19%))",
-        "variable-other-constant-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
+        "variable-other-constant-fg":    "color(var(orange1) l(+ 14%) a(0.8))",
         "variable-other-member-fg":      "color(var(purple2) l(+ 33%) a(0.7))",
 
         /** Constant */
@@ -104,7 +104,7 @@
         /** Support */
         // "support-fg":          "var(green-light2)",
         "support-fn-fg":                "color(var(blue2) l(+ 19%))",
-        "support-class-fg":             "color(var(orange2) l(+ 6%) a(0.8)",
+        "support-class-fg":             "color(var(orange1) l(+ 14%) a(0.8))",
         "support-type-primitive-fg":    "var(blue-light4)",
 
         /** Keyword */
@@ -163,13 +163,13 @@
         "diff-inserted-char-fg":    "color(var(green1) l(+ 7%))",
 
         /** Javascript */
-        "entity-name-type-interface-js-fg":         "color(var(orange2) l(+ 6%) a(0.8)",
-        "entity-other-attribute-name-doc-js-fg":    "color(var(orange2) l(+ 14%) a(0.8)",
+        "entity-name-type-interface-js-fg":         "color(var(orange1) l(+ 14%) a(0.8))",
+        "entity-other-attribute-name-doc-js-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
         "keyword-declaration-fn-arrow-js-fg":       "color(var(yellow1) l(+ 4%))",
         "support-other-js-fg":                      "color(var(green-light3) a(0.9))",
-        "support-meta-class-js-fg":                 "color(var(orange2) l(+ 6%) a(0.8)",
+        "support-meta-class-js-fg":                 "color(var(orange1) l(+ 14%) a(0.8))",
         "support-meta-fn-js-fg":                    "color(var(green-light3) a(0.9))",
-        "variable-other-class-js-fg":               "color(var(orange2) l(+ 6%) a(0.8)",
+        "variable-other-class-js-fg":               "color(var(orange1) l(+ 14%) a(0.8))",
 
         /** Mapping Key Value */
         "meta-mapping-key-fg":      "var(pink-light3)",
@@ -210,7 +210,7 @@
         /** Ruby */
         "entity-name-class-ruby-fg":                    "var(gray2)",
         "constant-rb-fg":                               "var(blue5)",
-        "meta-class-ruby-fg":                           "color(var(orange2) l(+ 6%) a(0.8)",
+        "meta-class-ruby-fg":                           "color(var(orange1) l(+ 14%) a(0.8))",
         "variable-other-readwrite-instance-ruby-fg":    "var(yellow1)",
 
         /** Rust */

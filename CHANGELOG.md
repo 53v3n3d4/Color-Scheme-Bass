@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.11] - 2023
+## [0.1.11] - 2023-03-16
 - Add entity name rust
 - Add meta annotation path rust
 - Change entity name module and struct rust
@@ -42,16 +42,29 @@
 - Change meta model rails color, magenta -> orange
 
 ### Roci
+- Change entity name class color to lighter tone
+- Change variable other constant color to lighter tone
+- Change support class color to lighter tone
+- Change entity name type interface js color to lighter tone
 - Change entity other attribute name doc js color, pink -> orange
-- Change entity name class ruby color, white -> gray
+- Change support meta class js color to lighter tone
+- Change variable other class js color to lighter tone
 - Change meta model rails color, cyan -> orange
+- Change entity name class ruby color, white -> gray
 
 ### Zora
+- Change entity name class color, orange -> pink
+- Change variable other constant color, orange -> pink
+- Change support class color, orange -> pink
+- Change entity name type interface js color, orange -> pink
 - Change entity other attribute name doc js color to lighter tone
-- Change support other js color to lighter tone
-- Change support meta function js color to lighter tone
+- Change support other js color, pink -> orange
+- Change support meta class js color, orange -> pink
+- Change support meta function js color, pink -> orange
+- Change variable other class js color, orange -> pink
+- Change meta model rails color, green -> pink
 - Change entity name class ruby color, white -> gray
-- Change meta model rails color, green -> orange
+- Change variable other readwrite instace ruby color, pink -> orange
 
 ## [0.1.10] - 2023-03-13
 - Add entity name class
