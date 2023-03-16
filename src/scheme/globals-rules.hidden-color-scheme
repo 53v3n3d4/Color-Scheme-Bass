@@ -14,7 +14,6 @@
         "foreground":                       "var(fg-color)", // Popup definiton/reference text
         "invisibles":                       "var(invisibles)",
         "caret":                            "var(caret)", // mouser cursor
-        "block_caret":                      "var(block-caret)",
         "line_highlight":                   "var(line-highlight)",
         /** Accents */
         "misspelling":                      "var(misspelling)", // when spell_check is enabled
@@ -32,7 +31,6 @@
         "gutter_foreground":                "var(gutter-foreground)",
         "gutter_foreground_highlight":      "var(gutter-foreground-hl)",
         /** Diff */
-        "line_diff_width":                  "var(line-diff-width)",
         "line_diff_added":                  "var(line-diff-added)",
         "line_diff_modified":               "var(line-diff-modified)",
         "line_diff_deleted":                "var(line-diff-deleted)",

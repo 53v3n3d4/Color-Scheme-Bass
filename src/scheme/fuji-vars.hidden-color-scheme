@@ -13,7 +13,6 @@
         "fg-color":                   "var(black4)", // Popup definiton/reference text
         "invisibles":                 "var(gray3)",
         "caret":                      "var(gray6)", // mouse cursor
-        "block-caret":                "",
         "line-highlight":             "color(var(blue-light3) a(0.4))",
         /** Accents */
         "misspelling":                "var(orange1)",
@@ -33,7 +32,6 @@
         "gutter-foreground-hl":       "var(magenta3)",
         // "gutter_foreground": "{font-family: Helvetica";\n        font-size: 8px;\n      color: #808080;\n}",
         /** Diff */
-        "line-diff-width":            "", // default 3
         "line-diff-added":            "var(blue3)",
         "line-diff-modified":         "var(gold1)",
         "line-diff-deleted":          "var(red2)",
@@ -213,7 +211,7 @@
         "entity-name-class-ruby-fg":                    "var(black4)",
         "constant-rb-fg":                               "color(var(pink-light4) l(- 3%))",
         "meta-class-ruby-fg":                           "var(brown1)",
-        "variable-other-readwrite-instance-ruby-fg":    "var(orange1)",
+        "variable-other-readwrite-instance-ruby-fg":    "color(var(blue5) l(- 23%))",
 
         /** Rust */
         "entity-name-rust-fg":             "var(brown1)",

@@ -11,7 +11,6 @@
         "foreground": "color(#404040 a(0.9))",
         "invisibles": "#9B9B9B",
         "caret": "#FD8F3F",
-        "block_caret": "",
         "line_highlight": "color(#C4E7CE a(0.6))",
         "misspelling": "#C01553",
         "fold_marker": "#FFE76D",
@@ -22,7 +21,6 @@
         "gutter": "#B2D6FB",
         "gutter_foreground": "color(#5D6C79 a(0.5))",
         "gutter_foreground_highlight": "#2077FB",
-        "line_diff_width": "",
         "line_diff_added": "#0282F2",
         "line_diff_modified": "#FFB500",
         "line_diff_deleted": "#FC5B57",
@@ -426,7 +424,7 @@
         {
             "name": "Variable other readwrite instance ruby",
             "scope": "variable.other.readwrite.instance.ruby",
-            "foreground": "color(#57C038 l(- 5%))"
+            "foreground": "color(#38A2AF l(- 4%))"
         },
         {
             "name": "Entity name rust",

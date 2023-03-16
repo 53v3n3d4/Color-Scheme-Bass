@@ -26,14 +26,17 @@
 ### D-O
 - Change entity other attribute name docs js color, gray -> brown
 - Change meta model rails color, blue -> gold
+- Change variable other readwrite instance ruby color, gold -> green
 
 ### Fuji
 - Change entity other attribute name doc js color, orange -> brown
 - Change meta model rails color, magenta -> brown
+- Change variable other readwrite instance ruby color, orange -> blue
 
 ### Lagoon
 - Change entity name class ruby color, gray -> black
 - Change meta model rails color, pink -> green
+- Change variable other readwrite instance ruby color, green -> cyan
 
 ### Nimbus
 - Change meta model rails color, magenta -> orange

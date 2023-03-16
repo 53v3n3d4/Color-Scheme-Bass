@@ -13,7 +13,6 @@
         "fg-color":                   "var(white2)", // Popup definiton/reference text
         "invisibles":                 "var(gray4)",
         "caret":                      "var(cyan3)", // mouse cursor
-        "block-caret":                "",
         "line-highlight":             "color(var(bg-color) l(+ 7%) a(0.5))", //"var(brown-light1)",
         /** Accents */
         "misspelling":                "var(brown1)",
@@ -33,7 +32,6 @@
         "gutter-foreground-hl":       "var(gold1)",
         // "gutter_foreground": "{font-family: Helvetica";\n        font-size: 8px;\n      color: #808080;\n}",
         /** Diff */
-        "line-diff-width":            "", // default 3
         "line-diff-added":            "var(blue3)",
         "line-diff-modified":         "var(gold1)",
         "line-diff-deleted":          "var(red2)",
