@@ -53,7 +53,7 @@
         {
             "name": "Entity name",
             "scope": "entity.name",
-            "foreground": "#5DD8FF"
+            "foreground": "color(#A4CDFF l(- 1%) a(0.9))"
         },
         {
             "name": "Entity name class",
@@ -63,7 +63,7 @@
         {
             "name": "Entity name function",
             "scope": "entity.name.function",
-            "foreground": "#5DD8FF"
+            "foreground": "color(#A4CDFF l(- 1%) a(0.9))"
         },
         {
             "name": "Entity other inherited class",
@@ -83,7 +83,7 @@
         {
             "name": "Variable function",
             "scope": "variable.function",
-            "foreground": "#5DD8FF"
+            "foreground": "color(#A4CDFF l(- 1%) a(0.9))"
         },
         {
             "name": "Variable other constant",
@@ -128,7 +128,7 @@
         {
             "name": "Support function",
             "scope": "support.function",
-            "foreground": "#5DD8FF"
+            "foreground": "color(#A4CDFF l(- 1%) a(0.9))"
         },
         {
             "name": "Support class",
@@ -179,7 +179,7 @@
             "name": "Markup heading",
             "scope": "markup.heading, markup.heading entity.name",
             "font_style": "bold",
-            "foreground": "#EC4990"
+            "foreground": "color(#DF88B7 l(- 1%))"
         },
         {
             "name": "Markup bold",
@@ -230,7 +230,7 @@
         {
             "name": "Markup underline link",
             "scope": "markup.underline.link",
-            "foreground": "#5DD8FF"
+            "foreground": "color(#5DD8FF a(0.9))"
         },
         {
             "name": "Table md",
@@ -329,7 +329,7 @@
         {
             "name": "Mapping value",
             "scope": "meta.mapping.value, meta.mapping.value string",
-            "foreground": "#A4CDFF"
+            "foreground": "color(#A4CDFF l(- 1%) a(0.9))"
         },
         {
             "name": "Entity id html",
@@ -339,7 +339,7 @@
         {
             "name": "At rule other css",
             "scope": "meta.at-rule.other.css",
-            "foreground": "#5DD8FF"
+            "foreground": "color(#A4CDFF l(- 1%) a(0.9))"
         },
         {
             "name": "Constant css",
@@ -359,12 +359,12 @@
         {
             "name": "Variable other readwrite declaration go",
             "scope": "variable.other.readwrite.declaration.go",
-            "foreground": "#5DD8FF"
+            "foreground": "color(#A4CDFF l(- 1%) a(0.9))"
         },
         {
             "name": "Storage type go",
             "scope": "storage.type.go",
-            "foreground": "#5DD8FF"
+            "foreground": "color(#A4CDFF l(- 1%) a(0.9))"
         },
         {
             "name": "Storage Support type builtin go",
@@ -399,7 +399,7 @@
         {
             "name": "Table toml",
             "scope": "entity.name.table.toml",
-            "foreground": "#5DD8FF"
+            "foreground": "color(#A4CDFF l(- 1%) a(0.9))"
         },
         {
             "name": "Key toml",
@@ -434,7 +434,7 @@
         {
             "name": "Entity name function",
             "scope": "entity.name.function.rust",
-            "foreground": "#5DD8FF"
+            "foreground": "color(#A4CDFF l(- 1%) a(0.9))"
         },
         {
             "name": "Entity name module",

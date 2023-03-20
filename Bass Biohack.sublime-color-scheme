@@ -384,7 +384,7 @@
         {
             "name": "Punctuation section embedded php",
             "scope": "embedding.php text.html.php meta.embedded.php punctuation.section.embedded",
-            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
+            "foreground": "#A7D4B4"
         },
         {
             "name": "Keyword operator logical sql",

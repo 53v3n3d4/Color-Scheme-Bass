@@ -76,7 +76,7 @@
         "entity-inherited-class-fg":       "color(var(magenta2) l(+ 7%))",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
-        "entity-attribute-name-fg":        "color(var(green-light3) l(- 17%))",
+        "entity-attribute-name-fg":        "color(var(green-light3) l(- 17%) a(0.8))",
         "entity-other-pseudo-class-fg":    "var(purple2)",
 
         /** Variable */
@@ -98,7 +98,7 @@
 
         /** Storage */
         // "storage-fg":             "var(purple3)",
-        "storage-modifier-fg":    "color(var(green-light3) l(- 11%) a(0.8))",
+        "storage-modifier-fg":    "color(var(green-light3) l(- 17%) a(0.8))",
         "storage-type-fg":        "var(cyan2)",
 
         /** Support */
@@ -176,7 +176,7 @@
         "meta-mapping-value-fg":    "color(var(green3) a(0.8))",
 
         /** HTML */
-        "entity-other-attribute-name-html-fg":    "color(var(green-light3) l(- 11%) a(0.8))",
+        "entity-other-attribute-name-html-fg":    "color(var(green-light3) l(- 17%) a(0.8))",
 
         /** CSS */
         "meta-at-rule-other-css-fg":          "var(cyan2)",
@@ -211,7 +211,7 @@
         "entity-name-class-ruby-fg":                    "var(black4)",
         "constant-rb-fg":                               "var(magenta2)",
         "meta-class-ruby-fg":                           "color(var(orange2) a(0.9))",
-        "variable-other-readwrite-instance-ruby-fg":    "color(var(green-light3) l(- 11%) a(0.8))",
+        "variable-other-readwrite-instance-ruby-fg":    "color(var(green-light3) l(- 17%) a(0.8))",
 
         /** Rust */
         "entity-name-rust-fg":             "color(var(orange2) a(0.9))",

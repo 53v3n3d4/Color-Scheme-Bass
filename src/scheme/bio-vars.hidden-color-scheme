@@ -194,7 +194,7 @@
 
         /** PHP */
         "punctuation-definition-var-php-fg":      "var(magenta2)",
-        "punctuation-section-embedded-php-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
+        "punctuation-section-embedded-php-fg":    "var(green-light2)",
 
         /** Python */
         // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",

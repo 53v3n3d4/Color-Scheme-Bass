@@ -73,7 +73,7 @@
         {
             "name": "Entity other attribute name",
             "scope": "entity.other.attribute-name",
-            "foreground": "#A4CDFF"
+            "foreground": "color(#A4CDFF l(- 1%) a(0.8))"
         },
         {
             "name": "Entity other pseudo class",
@@ -118,12 +118,12 @@
         {
             "name": "Storage modifier",
             "scope": "storage.modifier",
-            "foreground": "color(#FFB500 l(+ 14%) a(0.7))"
+            "foreground": "color(#FFF618 l(+ 9%) a(0.7))"
         },
         {
             "name": "Storage type",
             "scope": "storage.type",
-            "foreground": "color(#5DD8FF l(- 3%) a(0.9))"
+            "foreground": "color(#1E73BE l(+ 19%))"
         },
         {
             "name": "Support function",
@@ -143,7 +143,7 @@
         {
             "name": "Keyword",
             "scope": "keyword",
-            "foreground": "color(#5DD8FF l(- 3%) a(0.9))"
+            "foreground": "color(#1E73BE l(+ 19%))"
         },
         {
             "name": "Keyword operator",
@@ -304,7 +304,7 @@
         {
             "name": "Support other js",
             "scope": "(source.js | source.ts) - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
-            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
+            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
         },
         {
             "name": "Support meta class js",
@@ -314,7 +314,7 @@
         {
             "name": "Support meta function js",
             "scope": "support.constant.node.js, support.constant.builtin.js",
-            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
+            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
         },
         {
             "name": "Variable other class js",
@@ -334,12 +334,12 @@
         {
             "name": "Entity id html",
             "scope": "text.html entity.other.attribute-name.id",
-            "foreground": "#A4CDFF"
+            "foreground": "color(#A4CDFF l(- 1%) a(0.8))"
         },
         {
             "name": "At rule other css",
             "scope": "meta.at-rule.other.css",
-            "foreground": "color(#5DD8FF l(- 3%) a(0.9))"
+            "foreground": "color(#1E73BE l(+ 19%))"
         },
         {
             "name": "Constant css",
@@ -424,7 +424,7 @@
         {
             "name": "Variable other readwrite instance ruby",
             "scope": "variable.other.readwrite.instance.ruby",
-            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
+            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
         },
         {
             "name": "Entity name rust",
@@ -444,7 +444,7 @@
         {
             "name": "Keyword control rust",
             "scope": "keyword.control.rust",
-            "foreground": "color(#5DD8FF l(- 3%) a(0.9))"
+            "foreground": "color(#1E73BE l(+ 19%))"
         },
         {
             "name": "Meta annotation path rust",
@@ -454,7 +454,7 @@
         {
             "name": "Storage type rust",
             "scope": "storage.type.rust",
-            "foreground": "color(#5DD8FF l(- 3%) a(0.9))"
+            "foreground": "color(#1E73BE l(+ 19%))"
         },
         {
             "name": "Storage type source rust",

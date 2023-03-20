@@ -1,5 +1,51 @@
 # Changelog
 
+## [0.1.12] - 2023
+
+### Biohack
+- Change punctuation section embedded php color, orange -> green
+
+### Blackcomb
+- Change entity name color to darker tone
+- Change entity name function color to darker tone
+- Change variable function color to darker tone
+- Change support function color to darker tone
+- Change markup heading color to lighter tone
+- Change markup link color to darker tone
+- Change meta mapping value color to darker tone
+- Change meta at rule other css color to darker tone
+- Change variable other readwrite declaration go color to darker tone
+- Change storage type go color to darker tone
+- Change entity name table toml color to darker tone
+- Change entity name function rust color to darker tone
+
+### Lagoon
+- Change constant language color to darker tone
+- Change constant language null color to darker tone
+- Change constant language boolean color to darker tone
+- Change keyword operator logical color to darker tone
+
+### Roci
+- Change keyword operator color to lighter tone
+- Change keyword declaration function arrow js color to lighter tone
+- Change meta mapping value color to darker tone
+- Change storage type sql color to lighter tone
+- Change entity name table toml to darker tone
+- Change variable other readwrite instance ruby color to lighter tone
+
+### Zora
+- Change entity attribute name color to darker tone
+- Change storage type color to darker tone
+- Change keyword color to darker tone
+- Change storage modifier to lighter tone
+- Change support other js color to lighter tone
+- Change support meta function js color to lighter tone
+- Change entity other attribute name html to darker tone
+- Change meta at rule other css color to darker tone
+- Change variable other readwrite instance ruby color to lighter tone
+- Change keyword control rust color to darker tone
+- Change storage type rust color to darker tone
+
 ## [0.1.11] - 2023-03-16
 - Add entity name rust
 - Add meta annotation path rust

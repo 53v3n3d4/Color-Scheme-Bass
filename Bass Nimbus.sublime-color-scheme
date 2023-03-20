@@ -73,7 +73,7 @@
         {
             "name": "Entity other attribute name",
             "scope": "entity.other.attribute-name",
-            "foreground": "color(#83B85E l(- 17%))"
+            "foreground": "color(#83B85E l(- 17%) a(0.8))"
         },
         {
             "name": "Entity other pseudo class",
@@ -118,7 +118,7 @@
         {
             "name": "Storage modifier",
             "scope": "storage.modifier",
-            "foreground": "color(#83B85E l(- 11%) a(0.8))"
+            "foreground": "color(#83B85E l(- 17%) a(0.8))"
         },
         {
             "name": "Storage type",
@@ -334,7 +334,7 @@
         {
             "name": "Entity id html",
             "scope": "text.html entity.other.attribute-name.id",
-            "foreground": "color(#83B85E l(- 11%) a(0.8))"
+            "foreground": "color(#83B85E l(- 17%) a(0.8))"
         },
         {
             "name": "At rule other css",
@@ -424,7 +424,7 @@
         {
             "name": "Variable other readwrite instance ruby",
             "scope": "variable.other.readwrite.instance.ruby",
-            "foreground": "color(#83B85E l(- 11%) a(0.8))"
+            "foreground": "color(#83B85E l(- 17%) a(0.8))"
         },
         {
             "name": "Entity name rust",

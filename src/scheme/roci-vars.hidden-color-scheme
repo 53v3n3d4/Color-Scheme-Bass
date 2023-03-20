@@ -110,7 +110,7 @@
         /** Keyword */
         "keyword-fg":             "var(magenta2)",
         // "keyword-ctrl-fg":           "var(magenta3)",
-        "keyword-operator-fg":    "color(var(yellow1) l(+ 4%))",
+        "keyword-operator-fg":    "color(var(yellow1) l(+ 2%) a(0.9))",
         // "keyword-declaration-fg":    "var(green-light1)",
 
         /** String */
@@ -165,7 +165,7 @@
         /** Javascript */
         "entity-name-type-interface-js-fg":         "color(var(orange1) l(+ 14%) a(0.8))",
         "entity-other-attribute-name-doc-js-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
-        "keyword-declaration-fn-arrow-js-fg":       "color(var(yellow1) l(+ 4%))",
+        "keyword-declaration-fn-arrow-js-fg":       "color(var(yellow1) l(+ 2%) a(0.9))",
         "support-other-js-fg":                      "color(var(green-light3) a(0.9))",
         "support-meta-class-js-fg":                 "color(var(orange1) l(+ 14%) a(0.8))",
         "support-meta-fn-js-fg":                    "color(var(green-light3) a(0.9))",
@@ -173,7 +173,7 @@
 
         /** Mapping Key Value */
         "meta-mapping-key-fg":      "var(pink-light3)",
-        "meta-mapping-value-fg":    "var(blue-light4)",
+        "meta-mapping-value-fg":    "color(var(blue2) l(+ 19%))",
 
         /** HTML */
         "entity-other-attribute-name-html-fg":    "var(pink-light4)",
@@ -201,17 +201,17 @@
 
         /** Sql */
         "keyword-operator-logical-sql-fg":    "var(red1)",
-        "storage-type-sql-fg":                "color(var(yellow1) l(+ 4%) a(0.9))",
+        "storage-type-sql-fg":                "color(var(yellow1) l(+ 2%) a(0.9))",
 
         /** Toml */
-        "entity-name-table-toml-fg":    "var(blue5)",
+        "entity-name-table-toml-fg":    "color(var(blue2) l(+ 19%))",
         "entity-name-tag-toml-fg":      "var(pink-light3)",
 
         /** Ruby */
         "entity-name-class-ruby-fg":                    "var(gray2)",
         "constant-rb-fg":                               "var(blue5)",
         "meta-class-ruby-fg":                           "color(var(orange1) l(+ 14%) a(0.8))",
-        "variable-other-readwrite-instance-ruby-fg":    "var(yellow1)",
+        "variable-other-readwrite-instance-ruby-fg":    "color(var(yellow1) l(+ 2%) a(0.9))",
 
         /** Rust */
         "entity-name-rust-fg":             "color(var(orange1) l(+ 14%) a(0.8))",

@@ -91,9 +91,9 @@
         /** Constant */
         // "constant-fg":                "var(green4)",
         "constant-num-fg":            "color(var(blue1) l(+ 7%))",
-        "constant-lang-fg":           "color(var(red2) l(+ 18%))",
-        "constant-lang-null-fg":      "color(var(red2) l(+ 18%))",
-        "constant-lang-bool-fg":      "color(var(red2) l(+ 18%))",
+        "constant-lang-fg":           "color(var(red2) l(+ 3%) a(0.9))",
+        "constant-lang-null-fg":      "color(var(red2) l(+ 3%) a(0.9))",
+        "constant-lang-bool-fg":      "color(var(red2) l(+ 3%) a(0.9))",
         // "constant-char-escape-fg":    "var(blue4)",
 
         /** Storage */
@@ -200,7 +200,7 @@
         // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
 
         /** Sql */
-        "keyword-operator-logical-sql-fg":    "color(var(red2) l(+ 18%))",
+        "keyword-operator-logical-sql-fg":    "color(var(red2) l(+ 3%) a(0.9))",
         "storage-type-sql-fg":                "color(var(green-light3) l(- 14%))",
 
         /** Toml */

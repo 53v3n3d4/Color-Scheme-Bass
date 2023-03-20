@@ -76,7 +76,7 @@
         "entity-inherited-class-fg":       "color(var(green1) l(+ 11%))",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
-        "entity-attribute-name-fg":        "var(blue-light4)",
+        "entity-attribute-name-fg":        "color(var(blue-light4) l(- 1%) a(0.8))",
         "entity-other-pseudo-class-fg":    "var(yellow1)",
 
         /** Variable */
@@ -98,8 +98,8 @@
 
         /** Storage */
         // "storage-fg":             "var(magenta2)",
-        "storage-modifier-fg":    "color(var(gold1) l(+ 14%) a(0.7))",
-        "storage-type-fg":        "color(var(blue5) l(- 3%) a(0.9))",
+        "storage-modifier-fg":    "color(var(yellow2) l(+ 9%) a(0.7))",
+        "storage-type-fg":        "color(var(blue2) l(+ 19%))",
 
         /** Support */
         // "support-fg":          "var(green-light2)",
@@ -108,7 +108,7 @@
         "support-type-primitive-fg":    "color(var(cyan2) a(0.8))",
 
         /** Keyword */
-        "keyword-fg":             "color(var(blue5) l(- 3%) a(0.9))",
+        "keyword-fg":             "color(var(blue2) l(+ 19%))",
         // "keyword-ctrl-fg":           "var(magenta3)",
         "keyword-operator-fg":    "var(magenta2)",
         // "keyword-declaration-fg":    "var(green3)",
@@ -166,9 +166,9 @@
         "entity-name-type-interface-js-fg":         "color(var(pink-light4) l(+ 4%) a(0.8))",
         "entity-other-attribute-name-doc-js-fg":    "color(var(cyan1) a(0.7))",
         "keyword-declaration-fn-arrow-js-fg":       "var(magenta2)",
-        "support-other-js-fg":                      "color(var(orange2) l(+ 6%) a(0.8)",
+        "support-other-js-fg":                      "color(var(orange1) l(+ 14%) a(0.8))",
         "support-meta-class-js-fg":                 "color(var(pink-light4) l(+ 4%) a(0.8))",
-        "support-meta-fn-js-fg":                    "color(var(orange2) l(+ 6%) a(0.8)",
+        "support-meta-fn-js-fg":                    "color(var(orange1) l(+ 14%) a(0.8))",
         "variable-other-class-js-fg":               "color(var(pink-light4) l(+ 4%) a(0.8))",
 
         /** Mapping Key Value */
@@ -176,10 +176,10 @@
         "meta-mapping-value-fg":    "color(var(gold2) l(- 11%))",
 
         /** HTML */
-        "entity-other-attribute-name-html-fg":    "var(blue-light4)",
+        "entity-other-attribute-name-html-fg":    "color(var(blue-light4) l(- 1%) a(0.8))",
 
         /** CSS */
-        "meta-at-rule-other-css-fg":          "color(var(blue5) l(- 3%) a(0.9))",
+        "meta-at-rule-other-css-fg":          "color(var(blue2) l(+ 19%))",
         "constant-css-fg":                    "var(gray2)",
         "entity-name-tag-css-fg":             "color(var(brown2) l(+ 37%) a(0.7))",
         "support-entity-property-css-fg":     "color(var(magenta2) l(+ 7%) a(0.8))",
@@ -211,16 +211,16 @@
         "entity-name-class-ruby-fg":                    "var(gray2)",
         "constant-rb-fg":                               "var(green-light4)",
         "meta-class-ruby-fg":                           "color(var(pink-light4) l(+ 4%) a(0.8))",
-        "variable-other-readwrite-instance-ruby-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
+        "variable-other-readwrite-instance-ruby-fg":    "color(var(orange1) l(+ 14%) a(0.8))",
 
         /** Rust */
         "entity-name-rust-fg":             "color(var(pink-light4) l(+ 4%) a(0.8))",
         "entity-name-fn-rust-fg":          "color(var(green-light3) l(+ 2%))",
         "entity-name-module-rust-fg":      "var(gray2)",
-        "keyword-ctrl-rust-fg":            "color(var(blue5) l(- 3%) a(0.9))",
+        "keyword-ctrl-rust-fg":            "color(var(blue2) l(+ 19%))",
         "meta-annotation-path-rust-fg":    "color(var(cyan1) a(0.7))",
         // "meta-fn-rust-fg":                      "",
-        "storage-type-rust-fg":            "color(var(blue5) l(- 3%) a(0.9))",
+        "storage-type-rust-fg":            "color(var(blue2) l(+ 19%))",
         "storage-type-source-rust-fg":     "color(var(pink-light4) l(+ 4%) a(0.8))",
         "support-macro-rust-fg":           "color(var(purple2) l(+ 33%) a(0.7))",
         "support-type-rust-fg":            "color(var(pink-light4) l(+ 4%) a(0.8))"

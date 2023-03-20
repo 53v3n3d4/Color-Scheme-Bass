@@ -103,17 +103,17 @@
         {
             "name": "Constant language",
             "scope": "constant.language",
-            "foreground": "color(#C41A16 l(+ 18%))"
+            "foreground": "color(#C41A16 l(+ 3%) a(0.9))"
         },
         {
             "name": "Constant language null",
             "scope": "constant.language.null",
-            "foreground": "color(#C41A16 l(+ 18%))"
+            "foreground": "color(#C41A16 l(+ 3%) a(0.9))"
         },
         {
             "name": "Constant language boolean",
             "scope": "constant.language.boolean",
-            "foreground": "color(#C41A16 l(+ 18%))"
+            "foreground": "color(#C41A16 l(+ 3%) a(0.9))"
         },
         {
             "name": "Storage modifier",
@@ -389,7 +389,7 @@
         {
             "name": "Keyword operator logical sql",
             "scope": "keyword.operator.logical.sql",
-            "foreground": "color(#C41A16 l(+ 18%))"
+            "foreground": "color(#C41A16 l(+ 3%) a(0.9))"
         },
         {
             "name": "Storage type sql",

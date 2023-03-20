@@ -148,7 +148,7 @@
         {
             "name": "Keyword operator",
             "scope": "keyword.operator",
-            "foreground": "color(#FFE76D l(+ 4%))"
+            "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
         },
         {
             "name": "String",
@@ -299,7 +299,7 @@
         {
             "name": "Keyword declaration function arrow js",
             "scope": "keyword.declaration.function.arrow.js, meta.type.js keyword.declaration.function.js",
-            "foreground": "color(#FFE76D l(+ 4%))"
+            "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
         },
         {
             "name": "Support other js",
@@ -329,7 +329,7 @@
         {
             "name": "Mapping value",
             "scope": "meta.mapping.value, meta.mapping.value string",
-            "foreground": "#A4CDFF"
+            "foreground": "color(#1E73BE l(+ 19%))"
         },
         {
             "name": "Entity id html",
@@ -394,12 +394,12 @@
         {
             "name": "Storage type sql",
             "scope": "storage.type.sql",
-            "foreground": "color(#FFE76D l(+ 4%) a(0.9))"
+            "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
         },
         {
             "name": "Table toml",
             "scope": "entity.name.table.toml",
-            "foreground": "#5DD8FF"
+            "foreground": "color(#1E73BE l(+ 19%))"
         },
         {
             "name": "Key toml",
@@ -424,7 +424,7 @@
         {
             "name": "Variable other readwrite instance ruby",
             "scope": "variable.other.readwrite.instance.ruby",
-            "foreground": "#FFE76D"
+            "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
         },
         {
             "name": "Entity name rust",
