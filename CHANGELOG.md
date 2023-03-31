@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.12] - 2023
+## [0.1.12] - 2023-04-01
 
 ### Biohack
 - Change punctuation section embedded php color, orange -> green
