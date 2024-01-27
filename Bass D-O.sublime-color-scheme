@@ -267,21 +267,25 @@
             "foreground": "#1E73BE"
         },
         {
+            "name": "Inline diff deleted",
             "scope": "diff.deleted",
             "background": "hsla(3, 100%, 91%, 0.5)",
             "foreground": "color(#C41A16 a(0.6))"
         },
         {
+            "name": "Inline diff deleted char",
             "scope": "diff.deleted.char",
             "background": "hsla(3, 100%, 78%, 0.5)",
             "foreground": "color(#C41A16 a(0.9))"
         },
         {
+            "name": "Inline diff inserted",
             "scope": "diff.inserted",
             "background": "hsla(111, 89%, 89%, 0.5)",
             "foreground": "color(#119912 a(0.8))"
         },
         {
+            "name": "Inline diff inserted char",
             "scope": "diff.inserted.char",
             "background": "hsla(111, 89%, 73%, 0.6)",
             "foreground": "color(#119912 a(0.9))"

@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.13] - 2024-
+- Add name field description for Inline diff rules
+
+### Blackcomb
+- Change invisibles to litgher tone
+
+### Biohack
+- Change keyword operator color, blue -> cyan
+- Change keyword declaration fn arrow js, blue -> cyan
+
 ## [0.1.12] - 2023-04-01
 
 ### Biohack

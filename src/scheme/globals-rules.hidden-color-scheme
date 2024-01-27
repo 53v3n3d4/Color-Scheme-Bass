@@ -454,21 +454,25 @@
          *
          */
         {
+            "name": "Inline diff deleted",
             "scope": "diff.deleted",
             "background": "var(diff-deleted-bg)",
             "foreground": "var(diff-deleted-fg)"
         },
         {
+            "name": "Inline diff deleted char",
             "scope": "diff.deleted.char",
             "background": "var(diff-deleted-char-bg)",
             "foreground": "var(diff-deleted-char-fg)"
         },
         {
+            "name": "Inline diff inserted",
             "scope": "diff.inserted",
             "background": "var(diff-inserted-bg)",
             "foreground": "var(diff-inserted-fg)"
         },
         {
+            "name": "Inline diff inserted char",
             "scope": "diff.inserted.char",
             "background": "var(diff-inserted-char-bg)",
             "foreground": "var(diff-inserted-char-fg)"

@@ -110,7 +110,7 @@
         /** Keyword */
         "keyword-fg":             "var(gold1)",
         // "keyword-ctrl-fg":           "var(magenta3)",
-        "keyword-operator-fg":    "var(blue5)",
+        "keyword-operator-fg":    "color(var(cyan1) l(+ 3%))",
         // "keyword-declaration-fg":    "var(green-light1)",
 
         /** String */
@@ -165,7 +165,7 @@
         /** Javascript */
         "entity-name-type-interface-js-fg":         "var(pink-light4)",
         "entity-other-attribute-name-doc-js-fg":    "var(gray2)",
-        "keyword-declaration-fn-arrow-js-fg":       "var(blue5)",
+        "keyword-declaration-fn-arrow-js-fg":       "color(var(cyan1) l(+ 3%))",
         "support-other-js-fg":                      "var(green-light2)",
         "support-meta-class-js-fg":                 "var(pink-light4)",
         "support-meta-fn-js-fg":                    "var(green-light2)",

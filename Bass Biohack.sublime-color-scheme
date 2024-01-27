@@ -148,7 +148,7 @@
         {
             "name": "Keyword operator",
             "scope": "keyword.operator",
-            "foreground": "#5DD8FF"
+            "foreground": "color(#40E0D0 l(+ 3%))"
         },
         {
             "name": "String",
@@ -267,21 +267,25 @@
             "foreground": "#5DD8FF"
         },
         {
+            "name": "Inline diff deleted",
             "scope": "diff.deleted",
             "background": "hsla(6, 29%, 26%, 0.8)",
             "foreground": "color(#C41A16 l(+ 14%))"
         },
         {
+            "name": "Inline diff deleted char",
             "scope": "diff.deleted.char",
             "background": "hsla(6, 29%, 35%, 0.8)",
             "foreground": "#FC5B57"
         },
         {
+            "name": "Inline diff inserted",
             "scope": "diff.inserted",
             "background": "hsla(133, 29%, 22%, 0.8)",
             "foreground": "color(#57C038 l(+ 14%))"
         },
         {
+            "name": "Inline diff inserted char",
             "scope": "diff.inserted.char",
             "background": "hsla(133, 29%, 35%, 0.8)",
             "foreground": "color(#57C038 l(+ 7%))"
@@ -299,7 +303,7 @@
         {
             "name": "Keyword declaration function arrow js",
             "scope": "keyword.declaration.function.arrow.js, meta.type.js keyword.declaration.function.js",
-            "foreground": "#5DD8FF"
+            "foreground": "color(#40E0D0 l(+ 3%))"
         },
         {
             "name": "Support other js",
