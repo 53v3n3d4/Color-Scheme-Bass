@@ -7,29 +7,29 @@
     "name": "Zora",
     "variables": {},
     "globals": {
-        "background": "#192C37",
+        "background": "#262833",
         "foreground": "#B4B4B4",
         "invisibles": "#5D6C79",
         "caret": "#06B1D8",
-        "line_highlight": "color(#192C37 l(+ 7%) a(0.5))",
+        "line_highlight": "color(#262833 l(+ 7%) a(0.5))",
         "misspelling": "#00997B",
         "fold_marker": "#FFE76D",
         "minimap_border": "#38A2AF",
         "accent": "#06B1D8",
         "popup_css": "\n      html, body {\n        background-color: transparent;\n        color: #B4B4B4;\n      }\n      body {\n        padding: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
         "phantom_css": "\n      html, body {\n        background-color: #404040;\n        border-radius: 4px;\n      color: #D8D8D8;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
-        "gutter": "#192C37",
+        "gutter": "#262833",
         "gutter_foreground": "color(#B4B4B4 a(0.7))",
         "gutter_foreground_highlight": "#5DD8FF",
         "line_diff_added": "#0282F2",
         "line_diff_modified": "#FFB500",
         "line_diff_deleted": "#C41A16",
         "selection": "color(#C4E7CE a(0.1))",
-        "selection_foreground": "#38A2AF",
+        "selection_foreground": "color(#A4CDFF a(0.8)",
         "selection_border": "#404040",
         "selection_border_width": "1",
         "inactive_selection": "color(#C4E7CE a(0.2))",
-        "inactive_selection_foreground": "#38A2AF",
+        "inactive_selection_foreground": "color(#A4CDFF a(0.8)",
         "selection_corner_style": "round",
         "selection_corner_radius": "2",
         "highlight": "color(#D0BC56 a(0.7))",
@@ -103,27 +103,27 @@
         {
             "name": "Constant language",
             "scope": "constant.language",
-            "foreground": "#FC5B57"
+            "foreground": "color(#FC5B57 a(0.9)"
         },
         {
             "name": "Constant language null",
             "scope": "constant.language.null",
-            "foreground": "#FC5B57"
+            "foreground": "color(#FC5B57 a(0.9)"
         },
         {
             "name": "Constant language boolean",
             "scope": "constant.language.boolean",
-            "foreground": "#FC5B57"
+            "foreground": "color(#FC5B57 a(0.9)"
         },
         {
             "name": "Storage modifier",
             "scope": "storage.modifier",
-            "foreground": "color(#FFF618 l(+ 9%) a(0.7))"
+            "foreground": "color(#F5DF4D l(+ 6%) a(0.9))"
         },
         {
             "name": "Storage type",
             "scope": "storage.type",
-            "foreground": "color(#1E73BE l(+ 19%))"
+            "foreground": "color(#1E73BE l(+ 24%))"
         },
         {
             "name": "Support function",
@@ -143,7 +143,7 @@
         {
             "name": "Keyword",
             "scope": "keyword",
-            "foreground": "color(#1E73BE l(+ 19%))"
+            "foreground": "color(#1E73BE l(+ 24%))"
         },
         {
             "name": "Keyword operator",
@@ -163,7 +163,7 @@
         {
             "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
-            "foreground": "#FC5B57"
+            "foreground": "color(#FC5B57 a(0.9)"
         },
         {
             "name": "Invalid illegal",
@@ -225,7 +225,7 @@
         {
             "name": "Markup raw code block",
             "scope": "markup.raw",
-            "background": "#233E4E"
+            "background": "color(#262833 l(- 4%))"
         },
         {
             "name": "Markup underline link",
@@ -235,12 +235,12 @@
         {
             "name": "Table md",
             "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
-            "background": "#233E4E"
+            "background": "color(#262833 l(- 4%))"
         },
         {
             "name": "Punctuation line break md",
             "scope": "punctuation.definition.hard-line-break.markdown",
-            "background": "color(#233E4E a(0.4))"
+            "background": "color(#262833 l(- 4%) a(0.8))"
         },
         {
             "name": "Markup changed",
@@ -328,12 +328,12 @@
         {
             "name": "Mapping key",
             "scope": "meta.mapping.key, meta.mapping.key string",
-            "foreground": "#38A2AF"
+            "foreground": "color(#38A2AF l(+ 11%) a(0.9))"
         },
         {
             "name": "Mapping value",
             "scope": "meta.mapping.value, meta.mapping.value string",
-            "foreground": "color(#D0BC56 l(- 11%))"
+            "foreground": "color(#D0BC56 l(- 7%))"
         },
         {
             "name": "Entity id html",
@@ -343,7 +343,7 @@
         {
             "name": "At rule other css",
             "scope": "meta.at-rule.other.css",
-            "foreground": "color(#1E73BE l(+ 19%))"
+            "foreground": "color(#1E73BE l(+ 24%))"
         },
         {
             "name": "Constant css",
@@ -393,7 +393,7 @@
         {
             "name": "Keyword operator logical sql",
             "scope": "keyword.operator.logical.sql",
-            "foreground": "#FC5B57"
+            "foreground": "color(#FC5B57 a(0.9)"
         },
         {
             "name": "Storage type sql",
@@ -448,7 +448,7 @@
         {
             "name": "Keyword control rust",
             "scope": "keyword.control.rust",
-            "foreground": "color(#1E73BE l(+ 19%))"
+            "foreground": "color(#1E73BE l(+ 24%))"
         },
         {
             "name": "Meta annotation path rust",
@@ -458,7 +458,7 @@
         {
             "name": "Storage type rust",
             "scope": "storage.type.rust",
-            "foreground": "color(#1E73BE l(+ 19%))"
+            "foreground": "color(#1E73BE l(+ 24%))"
         },
         {
             "name": "Storage type source rust",

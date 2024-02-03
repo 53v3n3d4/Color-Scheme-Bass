@@ -10,6 +10,27 @@
 - Change keyword operator color, blue -> cyan
 - Change keyword declaration fn arrow js, blue -> cyan
 
+### Zora
+- Change background color to different dark blue tone, rgb(25, 44, 55) -> rgb(38, 40, 51)
+- Change selection color, cyan -> blue
+- Change inactive selection color, cyan -> blue
+- Change constant language color to darker tone
+- Change constant language null color to darker tone
+- Change constant language boolean color to darker tone
+- Change storage modifier color to ligther tone
+- Change storage type color to ligther tone
+- Change keyword color to ligther tone
+- Change invalid depreceated color to darker tone
+- Change markup raw background color to darker tone
+- Change markup table background color to darker tone
+- Change punctuation line break background color to darker tone
+- Change meta mapping key color to ligther tone
+- Change meta mapping value color to ligther tone
+- Change meta at rule other css color to ligther tone
+- Change keyword operator logical sql color to darker tone
+- Change keyword control rust color to ligther tone
+- Change storage type color to ligther tone
+
 ## [0.1.12] - 2023-04-01
 
 ### Biohack
