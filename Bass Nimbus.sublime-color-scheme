@@ -16,7 +16,7 @@
         "fold_marker": "#FFE76D",
         "minimap_border": "color(#E47C48 a(0.5))",
         "accent": "#5D6C79",
-        "popup_css": "\n      html, body {\n        background-color: transparent;\n        color: #9B9B9B;\n      }\n      body {\n        padding: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
+        "popup_css": "\n      html, body {\n        background-color: #F3EFF2;\n        color: #9B9B9B;\n      }\n      body {\n        padding: 4px;\n      margin: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
         "phantom_css": "\n      html, body {\n        background-color: #B4B4B4;\n        border-radius: 4px;\n      color: #161818;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
         "gutter": "#F3EFF2",
         "gutter_foreground": "color(#9B9B9B a(0.7))",

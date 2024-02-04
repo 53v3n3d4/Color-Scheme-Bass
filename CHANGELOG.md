@@ -2,6 +2,7 @@
 
 ## [0.1.13] - 2024-
 - Add name field description for Inline diff rules
+- Fix transparecy popup-css in light schemes. Change background color and margin.
 
 ### Blackcomb
 - Change invisibles to litgher tone
