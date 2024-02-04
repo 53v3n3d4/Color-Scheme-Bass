@@ -47,7 +47,7 @@ Color-schemes available are (Click name to view)
   <img src="assets/zora.png" name="Zora">
 </details>
 
-> Screenshots from v0.1.11
+> Screenshots from v0.1.13
 
 > In screenshots, we are using Theme Treble  
 [Theme - Treble](https://github.com/53v3n3d4/Theme-Treble)  
