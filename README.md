@@ -4,7 +4,7 @@
     </a>
 </p>
 
-![Color Scheme Bass](assets/screenshots-v0111.gif)
+![Color Scheme Bass](assets/screenshots.gif)
 
 ## Color scheme Bass
 
@@ -12,39 +12,39 @@ Color-schemes available are (Click name to view)
 
 <details>
   <summary>Bass Biohack</summary>
-  <img src="assets/biohack-v0111.png" name="Biohack">
+  <img src="assets/biohack.png" name="Biohack">
 </details>
 <details>
   <summary>Bass Blackcomb</summary>
-  <img src="assets/blackcomb-v0111.png" name="Blackcomb">
+  <img src="assets/blackcomb.png" name="Blackcomb">
 </details>
 <details>
   <summary>Bass Bowtruckle</summary>
-  <img src="assets/bowtruckle-v0111.png" name="Bowtruckle">
+  <img src="assets/bowtruckle.png" name="Bowtruckle">
 </details>
 <details>
   <summary>Bass D-O</summary>
-  <img src="assets/d-o-v0111.png" name="D-O">
+  <img src="assets/d-o.png" name="D-O">
 </details>
 <details>
   <summary>Bass Fuji</summary>
-  <img src="assets/fuji-v0111.png" name="Fuji">
+  <img src="assets/fuji.png" name="Fuji">
 </details>
 <details>
   <summary>Bass Lagoon</summary>
-  <img src="assets/lagoon-v0111.png" name="Lagoon">
+  <img src="assets/lagoon.png" name="Lagoon">
 </details>
 <details>
   <summary>Bass Nimbus</summary>
-  <img src="assets/nimbus-v0111.png" name="Nimbus">
+  <img src="assets/nimbus.png" name="Nimbus">
 </details>
 <details>
   <summary>Bass Roci</summary>
-  <img src="assets/roci-v0111.png" name="Roci">
+  <img src="assets/roci.png" name="Roci">
 </details>
 <details>
   <summary>Bass Zora</summary>
-  <img src="assets/zora-v0111.png" name="Zora">
+  <img src="assets/zora.png" name="Zora">
 </details>
 
 > Screenshots from v0.1.11
