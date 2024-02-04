@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.13] - 2024-
+## [0.1.13] - 2024-02-04
 - Add name field description for Inline diff rules
 - Fix transparecy popup-css in light schemes. Change background color and margin.
 
