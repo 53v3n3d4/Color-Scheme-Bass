@@ -15,7 +15,7 @@
         "misspelling": "#C01553",
         "fold_marker": "#FFE76D",
         "minimap_border": "#E87191",
-        "accent": "#FC5B57",
+        "accent": "color(#FC5B57 a(0.7) l(+ 11%))",
         "popup_css": "\n      html, body {\n        background-color: #3E2940;\n        color: #B4B4B4;\n      }\n      body {\n        padding: 4px;\n      margin: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
         "phantom_css": "\n      html, body {\n        background-color: #404040;\n        border-radius: 4px;\n      color: #D8D8D8;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
         "gutter": "#3E2940",

@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.1.14] - 2024
+
+### Biohack
+- Change accent color, orange -> brown
+
+### Blackcomb
+- Change accent color, blue -> brown
+
+### Bowtruckle
+- Change accent color, green -> cyan
+
+### D-O
+- Change accent color, orange -> brown
+
+### Fuji
+- Change accent color to lighter tone
+
+### Lagoon
+- Change accent color, blue -> purple
+
+### Nimbus
+- Change accent color to lighter tone
+
+### Roci
+- Change accent color to lighter tone
+
+### Zora
+- Change accent color, cyan -> purple
+
 ## [0.1.13] - 2024-02-04
 - Add name field description for Inline diff rules
 - Fix transparecy popup-css in light schemes. Change background color and margin.

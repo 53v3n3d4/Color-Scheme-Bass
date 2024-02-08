@@ -18,7 +18,7 @@
         "misspelling":                "var(red1)",
         "fold-marker":                "var(yellow1)", // when folded, the "..."
         "minimap-border":             "var(yellow3)",
-        "accent":                     "var(orange3)",
+        "accent":                     "color(var(brown1) l(+ 7%))",
         /** Css */
         // Popup css: Example, bg color, link color, title color of definition/reference. Round corner, border, bg comes from Theme file.
         "popup-css": "\n      html, body {\n        background-color: var(bg-color);\n        color: #9B9B9B;\n      }\n      body {\n        padding: 4px;\n      margin: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
