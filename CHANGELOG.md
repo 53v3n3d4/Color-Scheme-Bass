@@ -9,7 +9,7 @@
 - Change accent color, blue -> brown
 
 ### Bowtruckle
-- Change accent color, green -> cyan
+- Change accent color, green -> purple
 
 ### D-O
 - Change accent color, orange -> brown
@@ -27,7 +27,7 @@
 - Change accent color to lighter tone
 
 ### Zora
-- Change accent color, cyan -> purple
+- Change accent color, cyan -> blue
 
 ## [0.1.13] - 2024-02-04
 - Add name field description for Inline diff rules
