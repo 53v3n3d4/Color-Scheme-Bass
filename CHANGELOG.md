@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.14] - 2024
+## [0.1.14] - 2024-02-09
 
 ### Biohack
 - Change accent color, orange -> brown
