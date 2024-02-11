@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.15] - 2024
+## [0.1.15] - 2024-02-11
 - Add new violet color
 - Add punctuation section mapping json and yaml
 
