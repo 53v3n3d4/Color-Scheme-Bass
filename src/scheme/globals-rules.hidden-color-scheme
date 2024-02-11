@@ -534,6 +534,11 @@
             "scope": "meta.mapping.value, meta.mapping.value string", // Json text, Yaml and JS not working
             "foreground": "var(meta-mapping-value-fg)"
         },
+        {
+            "name": "Punctuation section mapping",
+            "scope": "(source.json | source.yaml) punctuation.section.mapping.begin, (source.json | source.yaml) punctuation.section.mapping.end", // Open and close bracket json, yaml
+            "foreground": "var(punctuation-section-mapping-fg)"
+        },
 
         /**
          *

@@ -336,6 +336,11 @@
             "foreground": "color(#A4CDFF l(- 1%) a(0.9))"
         },
         {
+            "name": "Punctuation section mapping",
+            "scope": "(source.json | source.yaml) punctuation.section.mapping.begin, (source.json | source.yaml) punctuation.section.mapping.end",
+            "foreground": "color(#A4CDFF l(- 1%) a(0.9))"
+        },
+        {
             "name": "Entity id html",
             "scope": "text.html entity.other.attribute-name.id",
             "foreground": "#FC6BAA"

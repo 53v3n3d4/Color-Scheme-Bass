@@ -40,7 +40,7 @@
         "selection-fg":               "var(gray4)",
         "selection-border":           "var(blue-light1)",
         "selection-border-width":     "1",
-        "inactive-selection":         "color(var(green-light1) a(0.2))",
+        "inactive-selection":         "color(var(green-light1) a(0.33))",
         "inactive-selection-fg":      "var(gray4)",
         "selection-corner-style":     "round",
         "selection-corner-radius":    "2",
@@ -172,8 +172,9 @@
         "variable-other-class-js-fg":               "color(var(green-light3) l(- 14%))",
 
         /** Mapping Key Value */
-        "meta-mapping-key-fg":      "color(var(green2) l(- 7%))",
-        "meta-mapping-value-fg":    "color(var(pink-light4) l(- 13%))",
+        "meta-mapping-key-fg":               "color(var(green2) l(- 7%))",
+        "meta-mapping-value-fg":             "color(var(pink-light4) l(- 13%))",
+        "punctuation-section-mapping-fg":    "color(var(pink-light4) l(- 13%))",
 
         /** HTML */
         "entity-other-attribute-name-html-fg":    "color(var(green-light3) l(- 14%))",

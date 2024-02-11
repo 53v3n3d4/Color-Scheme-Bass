@@ -1,5 +1,32 @@
 # Changelog
 
+## [0.1.15] - 2024
+- Add new violet color
+- Add punctuation section mapping json and yaml
+
+### Biohack
+- Change background color to darker tone
+- Change inactive selection color, pink -> brown
+- Change inactive selection fg color, black -> gray
+
+### Bowtruckle
+- Change inactive selection color to lighter tone
+
+### Fuji
+- Change inactive selection color to lighter tone
+
+### Lagoon
+- Change inactive selection color to darker tone
+
+### Roci
+- Change background color to darker tone
+- Change inactive selection color to lighter tone
+
+### Zora
+- Change selection color to lighter tone
+- Change selection border color to darker tone
+- Change inactive selection color to darker tone
+
 ## [0.1.14] - 2024-02-09
 
 ### Biohack

@@ -172,8 +172,9 @@
         "variable-other-class-js-fg":               "var(brown1)",
 
         /** Mapping Key Value */
-        "meta-mapping-key-fg":      "color(var(pink-light4) l(- 1%))",
-        "meta-mapping-value-fg":    "color(var(blue-light4) l(- 1%) a(0.9))",
+        "meta-mapping-key-fg":               "color(var(pink-light4) l(- 1%))",
+        "meta-mapping-value-fg":             "color(var(blue-light4) l(- 1%) a(0.9))",
+        "punctuation-section-mapping-fg":    "color(var(blue-light4) l(- 1%) a(0.9))",
 
         /** HTML */
         "entity-other-attribute-name-html-fg":    "var(magenta2)",

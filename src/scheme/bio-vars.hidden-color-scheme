@@ -9,7 +9,7 @@
 
         /** Globals variables */
 
-        "bg-color":                   "var(brown3)",
+        "bg-color":                   "color(var(brown3) l(- 3%))",
         "fg-color":                   "var(white2)", // Popup definiton/reference text
         "invisibles":                 "var(gray4)",
         "caret":                      "var(cyan3)", // mouse cursor
@@ -40,8 +40,8 @@
         "selection-fg":               "var(black4)",
         "selection-border":           "var(black2)",
         "selection-border-width":     "1",
-        "inactive-selection":         "color(var(pink-light1) a(0.3))",
-        "inactive-selection-fg":      "var(black4)",
+        "inactive-selection":         "color(var(bg-color) l(+ 7%))",
+        "inactive-selection-fg":      "var(gray3)",
         "selection-corner-style":     "round",
         "selection-corner-radius":    "2",
         /** Find */
@@ -172,8 +172,9 @@
         "variable-other-class-js-fg":               "var(pink-light4)",
 
         /** Mapping Key Value */
-        "meta-mapping-key-fg":      "color(var(yellow1) a(0.9))",
-        "meta-mapping-value-fg":    "var(magenta3)",
+        "meta-mapping-key-fg":               "color(var(yellow1) a(0.9))",
+        "meta-mapping-value-fg":             "var(magenta3)",
+        "punctuation-section-mapping-fg":    "var(magenta3)",
 
         /** HTML */
         "entity-other-attribute-name-html-fg":    "var(blue-light4)",

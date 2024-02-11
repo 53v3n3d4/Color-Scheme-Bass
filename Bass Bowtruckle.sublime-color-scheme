@@ -28,7 +28,7 @@
         "selection_foreground": "#5D6C79",
         "selection_border": "#57C038",
         "selection_border_width": "1",
-        "inactive_selection": "color(#A4CDFF a(0.4))",
+        "inactive_selection": "color(#A4CDFF a(0.3))",
         "inactive_selection_foreground": "#5D6C79",
         "selection_corner_style": "round",
         "selection_corner_radius": "2",
@@ -333,6 +333,11 @@
         {
             "name": "Mapping value",
             "scope": "meta.mapping.value, meta.mapping.value string",
+            "foreground": "color(#38A2AF l(- 3%))"
+        },
+        {
+            "name": "Punctuation section mapping",
+            "scope": "(source.json | source.yaml) punctuation.section.mapping.begin, (source.json | source.yaml) punctuation.section.mapping.end",
             "foreground": "color(#38A2AF l(- 3%))"
         },
         {

@@ -7,18 +7,18 @@
     "name": "Biohack",
     "variables": {},
     "globals": {
-        "background": "#423530",
+        "background": "color(#423530 l(- 3%))",
         "foreground": "#F0F0F7",
         "invisibles": "#5D6C79",
         "caret": "#06B1D8",
-        "line_highlight": "color(#423530 l(+ 7%) a(0.5))",
+        "line_highlight": "color(color(#423530 l(- 3%)) l(+ 7%) a(0.5))",
         "misspelling": "#BF8555",
         "fold_marker": "#FFE76D",
         "minimap_border": "#643820",
         "accent": "color(#584740 l(+ 22%))",
-        "popup_css": "\n      html, body {\n        background-color: #423530;\n        color: #B4B4B4;\n      }\n      body {\n        padding: 4px;\n      margin: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
+        "popup_css": "\n      html, body {\n        background-color: color(#423530 l(- 3%));\n        color: #B4B4B4;\n      }\n      body {\n        padding: 4px;\n      margin: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
         "phantom_css": "\n      html, body {\n        background-color: #404040;\n        border-radius: 4px;\n      color: #D8D8D8;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
-        "gutter": "#423530",
+        "gutter": "color(#423530 l(- 3%))",
         "gutter_foreground": "color(#B4B4B4 a(0.7))",
         "gutter_foreground_highlight": "#FFB500",
         "line_diff_added": "#0282F2",
@@ -28,8 +28,8 @@
         "selection_foreground": "#404040",
         "selection_border": "#161818",
         "selection_border_width": "1",
-        "inactive_selection": "color(#F6CAD6 a(0.3))",
-        "inactive_selection_foreground": "#404040",
+        "inactive_selection": "color(color(#423530 l(- 3%)) l(+ 7%))",
+        "inactive_selection_foreground": "#9B9B9B",
         "selection_corner_style": "round",
         "selection_corner_radius": "2",
         "highlight": "color(#FFC849 a(0.7))",
@@ -333,6 +333,11 @@
         {
             "name": "Mapping value",
             "scope": "meta.mapping.value, meta.mapping.value string",
+            "foreground": "#EC4990"
+        },
+        {
+            "name": "Punctuation section mapping",
+            "scope": "(source.json | source.yaml) punctuation.section.mapping.begin, (source.json | source.yaml) punctuation.section.mapping.end",
             "foreground": "#EC4990"
         },
         {
