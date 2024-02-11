@@ -1,11 +1,20 @@
 ## Build
 
 ```
+// Install using corepack
+$ corepack enable
+
+// Install the package manager configured in the local project
+$ corepack install
+
+// Install dependecies
+$ yarn install
+
 // Script
 $ yarn build-bc-replace
 
 // Node
-$ node -e 'import("./builder.js").then(b => b.sublimeFile("bc-replace"));'
+$ node -e 'import("./index.js").then(b => b.sublimeFile("bc-replace"));'
 ```
 
 Option to build files using merge files or replace variables.  
