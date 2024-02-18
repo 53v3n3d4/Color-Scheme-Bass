@@ -23,6 +23,8 @@ export function sublimeFile (name) {
         bcData.license,
         bcData.filename,
         bcData.name
+        // null,
+        // bcData.tabSpaces
       )
       break
     case 'bc-replace':
@@ -34,7 +36,8 @@ export function sublimeFile (name) {
         bcData.license,
         bcData.filename,
         bcData.name,
-        bcData.rules
+        bcData.rules,
+        bcData.tabSpaces
       )
       break
     case 'bio-merge':
@@ -46,6 +49,8 @@ export function sublimeFile (name) {
         bioData.license,
         bioData.filename,
         bioData.name
+        // null,
+        // bioData.tabSpaces
       )
       break
     case 'bio-replace':
@@ -57,7 +62,8 @@ export function sublimeFile (name) {
         bioData.license,
         bioData.filename,
         bioData.name,
-        bioData.rules
+        bioData.rules,
+        bioData.tabSpaces
       )
       break
     case 'bow-merge':
@@ -69,6 +75,8 @@ export function sublimeFile (name) {
         bowData.license,
         bowData.filename,
         bowData.name
+        // null,
+        // bowData.tabSpaces
       )
       break
     case 'bow-replace':
@@ -80,7 +88,8 @@ export function sublimeFile (name) {
         bowData.license,
         bowData.filename,
         bowData.name,
-        bowData.rules
+        bowData.rules,
+        bowData.tabSpaces
       )
       break
     case 'do-merge':
@@ -92,6 +101,8 @@ export function sublimeFile (name) {
         doData.license,
         doData.filename,
         doData.name
+        // null,
+        // doData.tabSpaces
       )
       break
     case 'do-replace':
@@ -103,7 +114,8 @@ export function sublimeFile (name) {
         doData.license,
         doData.filename,
         doData.name,
-        doData.rules
+        doData.rules,
+        doData.tabSpaces
       )
       break
     case 'fuji-merge':
@@ -115,6 +127,8 @@ export function sublimeFile (name) {
         fujiData.license,
         fujiData.filename,
         fujiData.name
+        // null,
+        // fujiData.tabSpaces
       )
       break
     case 'fuji-replace':
@@ -126,7 +140,8 @@ export function sublimeFile (name) {
         fujiData.license,
         fujiData.filename,
         fujiData.name,
-        fujiData.rules
+        fujiData.rules,
+        fujiData.tabSpaces
       )
       break
     case 'lagoon-merge':
@@ -138,6 +153,8 @@ export function sublimeFile (name) {
         lagoonData.license,
         lagoonData.filename,
         lagoonData.name
+        // null,
+        // lagoonData.tabSpaces
       )
       break
     case 'lagoon-replace':
@@ -149,7 +166,8 @@ export function sublimeFile (name) {
         lagoonData.license,
         lagoonData.filename,
         lagoonData.name,
-        lagoonData.rules
+        lagoonData.rules,
+        lagoonData.tabSpaces
       )
       break
     case 'nimbus-merge':
@@ -161,6 +179,8 @@ export function sublimeFile (name) {
         nimbusData.license,
         nimbusData.filename,
         nimbusData.name
+        // null,
+        // nimbusData.tabSpaces
       )
       break
     case 'nimbus-replace':
@@ -172,7 +192,8 @@ export function sublimeFile (name) {
         nimbusData.license,
         nimbusData.filename,
         nimbusData.name,
-        nimbusData.rules
+        nimbusData.rules,
+        nimbusData.tabSpaces
       )
       break
     case 'roci-merge':
@@ -184,6 +205,8 @@ export function sublimeFile (name) {
         rociData.license,
         rociData.filename,
         rociData.name
+        // null,
+        // rociData.tabSpaces
       )
       break
     case 'roci-replace':
@@ -195,7 +218,8 @@ export function sublimeFile (name) {
         rociData.license,
         rociData.filename,
         rociData.name,
-        rociData.rules
+        rociData.rules,
+        rociData.tabSpaces
       )
       break
     case 'zora-merge':
@@ -207,6 +231,8 @@ export function sublimeFile (name) {
         zoraData.license,
         zoraData.filename,
         zoraData.name
+        // null,
+        // zoraData.tabSpaces
       )
       break
     case 'zora-replace':
@@ -218,7 +244,8 @@ export function sublimeFile (name) {
         zoraData.license,
         zoraData.filename,
         zoraData.name,
-        zoraData.rules
+        zoraData.rules,
+        zoraData.tabSpaces
       )
       break
     default:

@@ -86,7 +86,8 @@ export const bcData = {
   replaceFiles: [
     pathFile(bcVars, schemeDir),
     pathFile(colorsScheme, schemeDir)
-  ]
+  ],
+  tabSpaces: 2
 }
 
 export const bioData = {
@@ -104,7 +105,8 @@ export const bioData = {
   replaceFiles: [
     pathFile(bioVars, schemeDir),
     pathFile(colorsScheme, schemeDir)
-  ]
+  ],
+  tabSpaces: 2
 }
 
 export const bowData = {
@@ -122,7 +124,8 @@ export const bowData = {
   replaceFiles: [
     pathFile(bowVars, schemeDir),
     pathFile(colorsScheme, schemeDir)
-  ]
+  ],
+  tabSpaces: 2
 }
 
 export const doData = {
@@ -140,7 +143,8 @@ export const doData = {
   replaceFiles: [
     pathFile(doVars, schemeDir),
     pathFile(colorsScheme, schemeDir)
-  ]
+  ],
+  tabSpaces: 2
 }
 
 export const fujiData = {
@@ -158,7 +162,8 @@ export const fujiData = {
   replaceFiles: [
     pathFile(fujiVars, schemeDir),
     pathFile(colorsScheme, schemeDir)
-  ]
+  ],
+  tabSpaces: 2
 }
 
 export const lagoonData = {
@@ -176,7 +181,8 @@ export const lagoonData = {
   replaceFiles: [
     pathFile(lagoonVars, schemeDir),
     pathFile(colorsScheme, schemeDir)
-  ]
+  ],
+  tabSpaces: 2
 }
 
 export const nimbusData = {
@@ -194,7 +200,8 @@ export const nimbusData = {
   replaceFiles: [
     pathFile(nimbusVars, schemeDir),
     pathFile(colorsScheme, schemeDir)
-  ]
+  ],
+  tabSpaces: 2
 }
 
 export const rociData = {
@@ -212,7 +219,8 @@ export const rociData = {
   replaceFiles: [
     pathFile(rociVars, schemeDir),
     pathFile(colorsScheme, schemeDir)
-  ]
+  ],
+  tabSpaces: 2
 }
 
 export const zoraData = {
@@ -230,5 +238,6 @@ export const zoraData = {
   replaceFiles: [
     pathFile(zoraVars, schemeDir),
     pathFile(colorsScheme, schemeDir)
-  ]
+  ],
+  tabSpaces: 2
 }
