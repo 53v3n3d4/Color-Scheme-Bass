@@ -135,7 +135,7 @@ For releases, using replace variables.
 
 ```
 // Option 1
-$ yarn node watch.js
+$ yarn node script/watch.js
 
 // Option 2
 $ yarn watch
@@ -147,8 +147,8 @@ Using Yarn PnP, if get error import package not found when use Watch.
 https://yarnpkg.com/features/pnp#initializing-pnp
 ```
 // Instead of
-$ node watch.js
+$ node script/watch.js
 
 // Use
-$ yarn node watch.js
+$ yarn node script/watch.js
 ```
