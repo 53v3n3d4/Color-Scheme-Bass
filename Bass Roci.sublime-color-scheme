@@ -4,481 +4,481 @@
  * @license MIT license
  */
 {
-    "name": "Roci",
-    "variables": {},
-    "globals": {
-        "background": "color(#3E2940 l(- 1%))",
-        "foreground": "#B4B4B4",
-        "invisibles": "#5D6C79",
-        "caret": "#1E73BE",
-        "line_highlight": "color(color(#3E2940 l(- 1%)) l(+ 7%) a(0.5))",
-        "misspelling": "#C01553",
-        "fold_marker": "#FFE76D",
-        "minimap_border": "#E87191",
-        "accent": "color(#FC5B57 a(0.7) l(+ 11%))",
-        "popup_css": "\n      html, body {\n        background-color: color(#3E2940 l(- 1%));\n        color: #B4B4B4;\n      }\n      body {\n        padding: 4px;\n      margin: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
-        "phantom_css": "\n      html, body {\n        background-color: #404040;\n        border-radius: 4px;\n      color: #D8D8D8;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
-        "gutter": "color(#3E2940 l(- 1%))",
-        "gutter_foreground": "color(#B4B4B4 a(0.7))",
-        "gutter_foreground_highlight": "#E87191",
-        "line_diff_added": "#0282F2",
-        "line_diff_modified": "#FFB500",
-        "line_diff_deleted": "#C41A16",
-        "selection": "color(#FFDEDD a(0.14))",
-        "selection_foreground": "#FC6BAA",
-        "selection_border": "color(#E87191 a(0.2))",
-        "selection_border_width": "1",
-        "inactive_selection": "color(#FFDEDD a(0.1))",
-        "inactive_selection_foreground": "#FC6BAA",
-        "selection_corner_style": "round",
-        "selection_corner_radius": "2",
-        "highlight": "#5DD8FF",
-        "find_highlight": "#DF88B7",
-        "find_highlight_foreground": "color(#F0F0F7 s(+ 3%))",
-        "scroll_highlight": "#E87191",
-        "rulers": "color(#5D6C79 a(0.5)",
-        "guide": "color(#9B9B9B a(0.5))",
-        "active_guide": "#5DD8FF",
-        "stack_guide": "color(#9B9B9B a(0.5))",
-        "brackets_options": "underline",
-        "brackets_foreground": "#FFE76D",
-        "bracket_contents_options": "stippled_underline",
-        "bracket_contents_foreground": "#FD8F3F",
-        "tags_options": "underline",
-        "tags_foreground": "#FFE76D",
-        "shadow": "color(#404040 a(0.3))",
-        "shadow_width": "3"
+  "name": "Roci",
+  "variables": {},
+  "globals": {
+    "background": "#3B273D",
+    "foreground": "#B4B4B4",
+    "invisibles": "#5D6C79",
+    "caret": "#1E73BE",
+    "line_highlight": "color(#3B273D l(+ 7%) a(0.5))",
+    "misspelling": "#C01553",
+    "fold_marker": "#FFE76D",
+    "minimap_border": "#E87191",
+    "accent": "color(#FC5B57 a(0.7) l(+ 11%))",
+    "popup_css": "\n      html, body {\n        background-color: #3B273D;\n        color: #B4B4B4;\n      }\n      body {\n        padding: 4px;\n      margin: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
+    "phantom_css": "\n      html, body {\n        background-color: #404040;\n        border-radius: 4px;\n      color: #D8D8D8;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
+    "gutter": "#3B273D",
+    "gutter_foreground": "color(#B4B4B4 a(0.7))",
+    "gutter_foreground_highlight": "#E87191",
+    "line_diff_added": "#0282F2",
+    "line_diff_modified": "#FFB500",
+    "line_diff_deleted": "#C41A16",
+    "selection": "color(#FFDEDD a(0.14))",
+    "selection_foreground": "#FC6BAA",
+    "selection_border": "color(#E87191 a(0.2))",
+    "selection_border_width": "1",
+    "inactive_selection": "color(#FFDEDD a(0.1))",
+    "inactive_selection_foreground": "#FC6BAA",
+    "selection_corner_style": "round",
+    "selection_corner_radius": "2",
+    "highlight": "#5DD8FF",
+    "find_highlight": "#DF88B7",
+    "find_highlight_foreground": "color(#F0F0F7 s(+ 3%))",
+    "scroll_highlight": "#E87191",
+    "rulers": "color(#5D6C79 a(0.5)",
+    "guide": "color(#9B9B9B a(0.5))",
+    "active_guide": "#5DD8FF",
+    "stack_guide": "color(#9B9B9B a(0.5))",
+    "brackets_options": "underline",
+    "brackets_foreground": "#FFE76D",
+    "bracket_contents_options": "stippled_underline",
+    "bracket_contents_foreground": "#FD8F3F",
+    "tags_options": "underline",
+    "tags_foreground": "#FFE76D",
+    "shadow": "color(#404040 a(0.3))",
+    "shadow_width": "3"
+  },
+  "rules": [
+    {
+      "name": "Entity name",
+      "scope": "entity.name",
+      "foreground": "color(#1E73BE l(+ 19%))"
     },
-    "rules": [
-        {
-            "name": "Entity name",
-            "scope": "entity.name",
-            "foreground": "color(#1E73BE l(+ 19%))"
-        },
-        {
-            "name": "Entity name class",
-            "scope": "entity.name.class",
-            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
-        },
-        {
-            "name": "Entity name function",
-            "scope": "entity.name.function",
-            "foreground": "color(#1E73BE l(+ 19%))"
-        },
-        {
-            "name": "Entity other inherited class",
-            "scope": "entity.other.inherited-class",
-            "foreground": "#40E0D0"
-        },
-        {
-            "name": "Entity other attribute name",
-            "scope": "entity.other.attribute-name",
-            "foreground": "#DF88B7"
-        },
-        {
-            "name": "Entity other pseudo class",
-            "scope": "entity.other.pseudo-class",
-            "foreground": "#EC4990"
-        },
-        {
-            "name": "Variable function",
-            "scope": "variable.function",
-            "foreground": "color(#1E73BE l(+ 19%))"
-        },
-        {
-            "name": "Variable other constant",
-            "scope": "variable.other.constant",
-            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
-        },
-        {
-            "name": "Variable other member",
-            "scope": "variable.other.member - meta.block.rust",
-            "foreground": "color(#9B2393 l(+ 33%) a(0.7))"
-        },
-        {
-            "name": "Constant numeric",
-            "scope": "constant.numeric",
-            "foreground": "#FFB500"
-        },
-        {
-            "name": "Constant language",
-            "scope": "constant.language",
-            "foreground": "#FC5B57"
-        },
-        {
-            "name": "Constant language null",
-            "scope": "constant.language.null",
-            "foreground": "#FC5B57"
-        },
-        {
-            "name": "Constant language boolean",
-            "scope": "constant.language.boolean",
-            "foreground": "#FC5B57"
-        },
-        {
-            "name": "Storage modifier",
-            "scope": "storage.modifier",
-            "foreground": "#83B85E"
-        },
-        {
-            "name": "Storage type",
-            "scope": "storage.type",
-            "foreground": "#FC6BAA"
-        },
-        {
-            "name": "Support function",
-            "scope": "support.function",
-            "foreground": "color(#1E73BE l(+ 19%))"
-        },
-        {
-            "name": "Support class",
-            "scope": "support.class",
-            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
-        },
-        {
-            "name": "Support type primitive",
-            "scope": "support.type.primitive",
-            "foreground": "#A4CDFF"
-        },
-        {
-            "name": "Keyword",
-            "scope": "keyword",
-            "foreground": "#FC6BAA"
-        },
-        {
-            "name": "Keyword operator",
-            "scope": "keyword.operator",
-            "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
-        },
-        {
-            "name": "String",
-            "scope": "string",
-            "foreground": "color(#40E0D0 a(0.7))"
-        },
-        {
-            "name": "Comment",
-            "scope": "comment",
-            "foreground": "color(#DF88B7 a(0.6))"
-        },
-        {
-            "name": "Invalid deprecated",
-            "scope": "invalid.deprecated",
-            "foreground": "#C41A16"
-        },
-        {
-            "name": "Invalid illegal",
-            "scope": "invalid.illegal",
-            "background": "color(#FC5B57 a(0.4))"
-        },
-        {
-            "name": "Constant other language name md",
-            "scope": "constant.other.language-name.markdown",
-            "foreground": "#D1B502"
-        },
-        {
-            "name": "Markup heading",
-            "scope": "markup.heading, markup.heading entity.name",
-            "font_style": "bold",
-            "foreground": "color(#1E73BE l(+ 11%))"
-        },
-        {
-            "name": "Markup bold",
-            "scope": "markup.bold",
-            "font_style": "bold"
-        },
-        {
-            "name": "Markup italic",
-            "scope": "markup.italic",
-            "font_style": "italic"
-        },
-        {
-            "name": "Markup underline",
-            "scope": "markup.underline",
-            "font_style": "underline"
-        },
-        {
-            "name": "Markup bold/italic",
-            "scope": "markup.italic markup.bold | markup.bold markup.italic",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "Markup bold/underline",
-            "scope": "markup.underline markup.bold | markup.bold markup.underline",
-            "font_style": "bold underline"
-        },
-        {
-            "name": "Markup italic/underline",
-            "scope": "markup.underline markup.italic | markup.italic markup.underline",
-            "font_style": "italic underline"
-        },
-        {
-            "name": "Markup bold/italic/underline",
-            "scope": "markup.bold markup.italic markup.underline | markup.bold markup.underline markup.italic | markup.italic markup.bold markup.underline | markup.italic markup.underline markup.bold | markup.underline markup.bold markup.italic | markup.underline markup.italic markup.bold",
-            "font_style": "bold italic underline"
-        },
-        {
-            "name": "Markup quote",
-            "scope": "markup.quote",
-            "font_style": "italic",
-            "foreground": "#83B85E"
-        },
-        {
-            "name": "Markup raw code block",
-            "scope": "markup.raw",
-            "background": "#352336"
-        },
-        {
-            "name": "Markup underline link",
-            "scope": "markup.underline.link",
-            "foreground": "color(#5DD8FF a(0.9))"
-        },
-        {
-            "name": "Table md",
-            "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
-            "background": "#352336"
-        },
-        {
-            "name": "Punctuation line break md",
-            "scope": "punctuation.definition.hard-line-break.markdown",
-            "background": "color(#352336 a(0.5))"
-        },
-        {
-            "name": "Markup changed",
-            "scope": "markup.changed",
-            "background": "hsla(47, 29%, 23%, 0.7)",
-            "foreground": "hsla(58, 63%, 64%, 0.9)"
-        },
-        {
-            "name": "Markup deleted",
-            "scope": "markup.deleted",
-            "background": "hsla(6, 28%, 23%, 0.7)",
-            "foreground": "hsla(12, 80%, 69%, 0.9)"
-        },
-        {
-            "name": "Markup inserted",
-            "scope": "markup.inserted",
-            "background": "hsla(133, 29%, 22%, 0.7)",
-            "foreground": "color(#83B85E l(+ 3%))"
-        },
-        {
-            "name": "Diff header",
-            "scope": "meta.diff, meta.diff.header",
-            "background": "hsla(234, 27%, 21%, 0.7)",
-            "foreground": "#5DD8FF"
-        },
-        {
-            "name": "Inline diff deleted",
-            "scope": "diff.deleted",
-            "background": "hsla(6, 28%, 23%, 0.7)",
-            "foreground": "color(#C41A16 l(+ 14%))"
-        },
-        {
-            "name": "Inline diff deleted char",
-            "scope": "diff.deleted.char",
-            "background": "hsla(6, 28%, 37%, 0.7)",
-            "foreground": "#FC5B57"
-        },
-        {
-            "name": "Inline diff inserted",
-            "scope": "diff.inserted",
-            "background": "hsla(133, 29%, 22%, 0.7)",
-            "foreground": "color(#57C038 l(+ 14%))"
-        },
-        {
-            "name": "Inline diff inserted char",
-            "scope": "diff.inserted.char",
-            "background": "hsla(133, 29%, 37%, 0.7)",
-            "foreground": "color(#57C038 l(+ 7%))"
-        },
-        {
-            "name": "Entity name type interface",
-            "scope": "entity.name.type.js, entity.name.interface.js",
-            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
-        },
-        {
-            "name": "JSDocs tags",
-            "scope": "entity.other.attribute-name.documentation.js",
-            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
-        },
-        {
-            "name": "Keyword declaration function arrow js",
-            "scope": "keyword.declaration.function.arrow.js, meta.type.js keyword.declaration.function.js",
-            "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
-        },
-        {
-            "name": "Support other js",
-            "scope": "(source.js | source.ts) - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
-            "foreground": "color(#83B85E a(0.9))"
-        },
-        {
-            "name": "Support meta class js",
-            "scope": "meta.class.js support.constant.builtin.js, meta.function-call.constructor.js variable.type.js",
-            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
-        },
-        {
-            "name": "Support meta function js",
-            "scope": "support.constant.node.js, support.constant.builtin.js",
-            "foreground": "color(#83B85E a(0.9))"
-        },
-        {
-            "name": "Variable other class js",
-            "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
-            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
-        },
-        {
-            "name": "Mapping key",
-            "scope": "meta.mapping.key, meta.mapping.key string",
-            "foreground": "#E87191"
-        },
-        {
-            "name": "Mapping value",
-            "scope": "meta.mapping.value, meta.mapping.value string",
-            "foreground": "color(#1E73BE l(+ 19%))"
-        },
-        {
-            "name": "Punctuation section mapping",
-            "scope": "(source.json | source.yaml) punctuation.section.mapping.begin, (source.json | source.yaml) punctuation.section.mapping.end",
-            "foreground": "color(#1E73BE l(+ 19%))"
-        },
-        {
-            "name": "Entity id html",
-            "scope": "text.html entity.other.attribute-name.id",
-            "foreground": "#DF88B7"
-        },
-        {
-            "name": "At rule other css",
-            "scope": "meta.at-rule.other.css",
-            "foreground": "#83B85E"
-        },
-        {
-            "name": "Constant css",
-            "scope": "source.css constant",
-            "foreground": "#B4B4B4"
-        },
-        {
-            "name": "Entity name tag css",
-            "scope": "entity.name.tag.html.css",
-            "foreground": "color(#83B85E a(0.9))"
-        },
-        {
-            "name": "Support property name and Entity other custom property css",
-            "scope": "support.type.property-name.css, entity.other.custom-property.css",
-            "foreground": "color(#FC5B57 a(0.7))"
-        },
-        {
-            "name": "Variable other readwrite declaration go",
-            "scope": "variable.other.readwrite.declaration.go",
-            "foreground": "color(#1E73BE l(+ 19%))"
-        },
-        {
-            "name": "Storage type go",
-            "scope": "storage.type.go",
-            "foreground": "color(#1E73BE l(+ 19%))"
-        },
-        {
-            "name": "Storage Support type builtin go",
-            "scope": "storage.type.go support.type.builtin.go",
-            "foreground": "color(#A4CDFF a(0.7))"
-        },
-        {
-            "name": "Git attributes value",
-            "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
-            "foreground": "#E87191"
-        },
-        {
-            "name": "Punctuation definition variable php",
-            "scope": "embedding.php text.html.php meta.embedded.php punctuation.definition.variable.php",
-            "foreground": "#FC6BAA"
-        },
-        {
-            "name": "Punctuation section embedded php",
-            "scope": "embedding.php text.html.php meta.embedded.php punctuation.section.embedded",
-            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
-        },
-        {
-            "name": "Keyword operator logical sql",
-            "scope": "keyword.operator.logical.sql",
-            "foreground": "#FC5B57"
-        },
-        {
-            "name": "Storage type sql",
-            "scope": "storage.type.sql",
-            "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
-        },
-        {
-            "name": "Table toml",
-            "scope": "entity.name.table.toml",
-            "foreground": "color(#1E73BE l(+ 19%))"
-        },
-        {
-            "name": "Key toml",
-            "scope": "entity.name.tag.toml",
-            "foreground": "#E87191"
-        },
-        {
-            "name": "Entity name class ruby",
-            "scope": "entity.name.class.ruby",
-            "foreground": "#B4B4B4"
-        },
-        {
-            "name": "Constant ruby",
-            "scope": "source.ruby constant",
-            "foreground": "#5DD8FF"
-        },
-        {
-            "name": "Meta class ruby",
-            "scope": "meta.class.ruby entity.other.inherited-class.ruby",
-            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
-        },
-        {
-            "name": "Variable other readwrite instance ruby",
-            "scope": "variable.other.readwrite.instance.ruby",
-            "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
-        },
-        {
-            "name": "Entity name rust",
-            "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust",
-            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
-        },
-        {
-            "name": "Entity name function",
-            "scope": "entity.name.function.rust",
-            "foreground": "color(#1E73BE l(+ 19%))"
-        },
-        {
-            "name": "Entity name module",
-            "scope": "entity.name.module.rust",
-            "foreground": "#B4B4B4"
-        },
-        {
-            "name": "Keyword control rust",
-            "scope": "keyword.control.rust",
-            "foreground": "#FC6BAA"
-        },
-        {
-            "name": "Meta annotation path rust",
-            "scope": "meta.annotation.rust meta.path.rust, meta.annotation.rust punctuation.definition.annotation.rust, meta.annotation.rust punctuation.section.group.begin.rust, meta.annotation.rust punctuation.section.group.end.rust",
-            "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
-        },
-        {
-            "name": "Storage type rust",
-            "scope": "storage.type.rust",
-            "foreground": "#FC6BAA"
-        },
-        {
-            "name": "Storage type source rust",
-            "scope": "storage.type.source.rust",
-            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
-        },
-        {
-            "name": "Support macro rust",
-            "scope": "support.macro.rust",
-            "foreground": "color(#40E0D0 l(+ 11%))"
-        },
-        {
-            "name": "Support type rust",
-            "scope": "support.type.rust",
-            "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
-        }
-    ]
+    {
+      "name": "Entity name class",
+      "scope": "entity.name.class",
+      "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
+    },
+    {
+      "name": "Entity name function",
+      "scope": "entity.name.function",
+      "foreground": "color(#1E73BE l(+ 19%))"
+    },
+    {
+      "name": "Entity other inherited class",
+      "scope": "entity.other.inherited-class",
+      "foreground": "#40E0D0"
+    },
+    {
+      "name": "Entity other attribute name",
+      "scope": "entity.other.attribute-name",
+      "foreground": "#DF88B7"
+    },
+    {
+      "name": "Entity other pseudo class",
+      "scope": "entity.other.pseudo-class",
+      "foreground": "#EC4990"
+    },
+    {
+      "name": "Variable function",
+      "scope": "variable.function",
+      "foreground": "color(#1E73BE l(+ 19%))"
+    },
+    {
+      "name": "Variable other constant",
+      "scope": "variable.other.constant",
+      "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
+    },
+    {
+      "name": "Variable other member",
+      "scope": "variable.other.member - meta.block.rust",
+      "foreground": "color(#9B2393 l(+ 33%) a(0.7))"
+    },
+    {
+      "name": "Constant numeric",
+      "scope": "constant.numeric",
+      "foreground": "#FFB500"
+    },
+    {
+      "name": "Constant language",
+      "scope": "constant.language",
+      "foreground": "#FC5B57"
+    },
+    {
+      "name": "Constant language null",
+      "scope": "constant.language.null",
+      "foreground": "#FC5B57"
+    },
+    {
+      "name": "Constant language boolean",
+      "scope": "constant.language.boolean",
+      "foreground": "#FC5B57"
+    },
+    {
+      "name": "Storage modifier",
+      "scope": "storage.modifier",
+      "foreground": "#83B85E"
+    },
+    {
+      "name": "Storage type",
+      "scope": "storage.type",
+      "foreground": "#FC6BAA"
+    },
+    {
+      "name": "Support function",
+      "scope": "support.function",
+      "foreground": "color(#1E73BE l(+ 19%))"
+    },
+    {
+      "name": "Support class",
+      "scope": "support.class",
+      "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
+    },
+    {
+      "name": "Support type primitive",
+      "scope": "support.type.primitive",
+      "foreground": "#A4CDFF"
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "foreground": "#FC6BAA"
+    },
+    {
+      "name": "Keyword operator",
+      "scope": "keyword.operator",
+      "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "foreground": "color(#40E0D0 a(0.7))"
+    },
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "foreground": "color(#DF88B7 a(0.6))"
+    },
+    {
+      "name": "Invalid deprecated",
+      "scope": "invalid.deprecated",
+      "foreground": "#C41A16"
+    },
+    {
+      "name": "Invalid illegal",
+      "scope": "invalid.illegal",
+      "background": "color(#FC5B57 a(0.4))"
+    },
+    {
+      "name": "Constant other language name md",
+      "scope": "constant.other.language-name.markdown",
+      "foreground": "#D1B502"
+    },
+    {
+      "name": "Markup heading",
+      "scope": "markup.heading, markup.heading entity.name",
+      "font_style": "bold",
+      "foreground": "color(#1E73BE l(+ 11%))"
+    },
+    {
+      "name": "Markup bold",
+      "scope": "markup.bold",
+      "font_style": "bold"
+    },
+    {
+      "name": "Markup italic",
+      "scope": "markup.italic",
+      "font_style": "italic"
+    },
+    {
+      "name": "Markup underline",
+      "scope": "markup.underline",
+      "font_style": "underline"
+    },
+    {
+      "name": "Markup bold/italic",
+      "scope": "markup.italic markup.bold | markup.bold markup.italic",
+      "font_style": "bold italic"
+    },
+    {
+      "name": "Markup bold/underline",
+      "scope": "markup.underline markup.bold | markup.bold markup.underline",
+      "font_style": "bold underline"
+    },
+    {
+      "name": "Markup italic/underline",
+      "scope": "markup.underline markup.italic | markup.italic markup.underline",
+      "font_style": "italic underline"
+    },
+    {
+      "name": "Markup bold/italic/underline",
+      "scope": "markup.bold markup.italic markup.underline | markup.bold markup.underline markup.italic | markup.italic markup.bold markup.underline | markup.italic markup.underline markup.bold | markup.underline markup.bold markup.italic | markup.underline markup.italic markup.bold",
+      "font_style": "bold italic underline"
+    },
+    {
+      "name": "Markup quote",
+      "scope": "markup.quote",
+      "font_style": "italic",
+      "foreground": "#83B85E"
+    },
+    {
+      "name": "Markup raw code block",
+      "scope": "markup.raw",
+      "background": "#352336"
+    },
+    {
+      "name": "Markup underline link",
+      "scope": "markup.underline.link",
+      "foreground": "color(#5DD8FF a(0.9))"
+    },
+    {
+      "name": "Table md",
+      "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
+      "background": "#352336"
+    },
+    {
+      "name": "Punctuation line break md",
+      "scope": "punctuation.definition.hard-line-break.markdown",
+      "background": "color(#352336 a(0.5))"
+    },
+    {
+      "name": "Markup changed",
+      "scope": "markup.changed",
+      "background": "hsla(47, 29%, 23%, 0.7)",
+      "foreground": "hsla(58, 63%, 64%, 0.9)"
+    },
+    {
+      "name": "Markup deleted",
+      "scope": "markup.deleted",
+      "background": "hsla(6, 28%, 23%, 0.7)",
+      "foreground": "hsla(12, 80%, 69%, 0.9)"
+    },
+    {
+      "name": "Markup inserted",
+      "scope": "markup.inserted",
+      "background": "hsla(133, 29%, 22%, 0.7)",
+      "foreground": "color(#83B85E l(+ 3%))"
+    },
+    {
+      "name": "Diff header",
+      "scope": "meta.diff, meta.diff.header",
+      "background": "hsla(234, 27%, 21%, 0.7)",
+      "foreground": "#5DD8FF"
+    },
+    {
+      "name": "Inline diff deleted",
+      "scope": "diff.deleted",
+      "background": "hsla(6, 28%, 23%, 0.7)",
+      "foreground": "color(#C41A16 l(+ 14%))"
+    },
+    {
+      "name": "Inline diff deleted char",
+      "scope": "diff.deleted.char",
+      "background": "hsla(6, 28%, 37%, 0.7)",
+      "foreground": "#FC5B57"
+    },
+    {
+      "name": "Inline diff inserted",
+      "scope": "diff.inserted",
+      "background": "hsla(133, 29%, 22%, 0.7)",
+      "foreground": "color(#57C038 l(+ 14%))"
+    },
+    {
+      "name": "Inline diff inserted char",
+      "scope": "diff.inserted.char",
+      "background": "hsla(133, 29%, 37%, 0.7)",
+      "foreground": "color(#57C038 l(+ 7%))"
+    },
+    {
+      "name": "Entity name type interface",
+      "scope": "entity.name.type.js, entity.name.interface.js",
+      "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
+    },
+    {
+      "name": "JSDocs tags",
+      "scope": "entity.other.attribute-name.documentation.js",
+      "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
+    },
+    {
+      "name": "Keyword declaration function arrow js",
+      "scope": "keyword.declaration.function.arrow.js, meta.type.js keyword.declaration.function.js",
+      "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
+    },
+    {
+      "name": "Support other js",
+      "scope": "(source.js | source.ts) - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
+      "foreground": "color(#83B85E a(0.9))"
+    },
+    {
+      "name": "Support meta class js",
+      "scope": "meta.class.js support.constant.builtin.js, meta.function-call.constructor.js variable.type.js",
+      "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
+    },
+    {
+      "name": "Support meta function js",
+      "scope": "support.constant.node.js, support.constant.builtin.js",
+      "foreground": "color(#83B85E a(0.9))"
+    },
+    {
+      "name": "Variable other class js",
+      "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
+      "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
+    },
+    {
+      "name": "Mapping key",
+      "scope": "meta.mapping.key, meta.mapping.key string",
+      "foreground": "color(#E87191 l(+ 3%))"
+    },
+    {
+      "name": "Mapping value",
+      "scope": "meta.mapping.value, meta.mapping.value string",
+      "foreground": "color(#1E73BE l(+ 19%))"
+    },
+    {
+      "name": "Punctuation section mapping",
+      "scope": "(source.json | source.yaml) punctuation.section.mapping.begin, (source.json | source.yaml) punctuation.section.mapping.end",
+      "foreground": "color(#1E73BE l(+ 19%))"
+    },
+    {
+      "name": "Entity id html",
+      "scope": "text.html entity.other.attribute-name.id",
+      "foreground": "#DF88B7"
+    },
+    {
+      "name": "At rule other css",
+      "scope": "meta.at-rule.other.css",
+      "foreground": "#83B85E"
+    },
+    {
+      "name": "Constant css",
+      "scope": "source.css constant",
+      "foreground": "#B4B4B4"
+    },
+    {
+      "name": "Entity name tag css",
+      "scope": "entity.name.tag.html.css",
+      "foreground": "color(#83B85E a(0.9))"
+    },
+    {
+      "name": "Support property name and Entity other custom property css",
+      "scope": "support.type.property-name.css, entity.other.custom-property.css",
+      "foreground": "color(#FC5B57 a(0.7))"
+    },
+    {
+      "name": "Variable other readwrite declaration go",
+      "scope": "variable.other.readwrite.declaration.go",
+      "foreground": "color(#1E73BE l(+ 19%))"
+    },
+    {
+      "name": "Storage type go",
+      "scope": "storage.type.go",
+      "foreground": "color(#1E73BE l(+ 19%))"
+    },
+    {
+      "name": "Storage Support type builtin go",
+      "scope": "storage.type.go support.type.builtin.go",
+      "foreground": "color(#A4CDFF a(0.7))"
+    },
+    {
+      "name": "Git attributes value",
+      "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
+      "foreground": "#E87191"
+    },
+    {
+      "name": "Punctuation definition variable php",
+      "scope": "embedding.php text.html.php meta.embedded.php punctuation.definition.variable.php",
+      "foreground": "#FC6BAA"
+    },
+    {
+      "name": "Punctuation section embedded php",
+      "scope": "embedding.php text.html.php meta.embedded.php punctuation.section.embedded",
+      "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
+    },
+    {
+      "name": "Keyword operator logical sql",
+      "scope": "keyword.operator.logical.sql",
+      "foreground": "#FC5B57"
+    },
+    {
+      "name": "Storage type sql",
+      "scope": "storage.type.sql",
+      "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
+    },
+    {
+      "name": "Table toml",
+      "scope": "entity.name.table.toml",
+      "foreground": "color(#1E73BE l(+ 19%))"
+    },
+    {
+      "name": "Key toml",
+      "scope": "entity.name.tag.toml",
+      "foreground": "#E87191"
+    },
+    {
+      "name": "Entity name class ruby",
+      "scope": "entity.name.class.ruby",
+      "foreground": "#B4B4B4"
+    },
+    {
+      "name": "Constant ruby",
+      "scope": "source.ruby constant",
+      "foreground": "#5DD8FF"
+    },
+    {
+      "name": "Meta class ruby",
+      "scope": "meta.class.ruby entity.other.inherited-class.ruby",
+      "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
+    },
+    {
+      "name": "Variable other readwrite instance ruby",
+      "scope": "variable.other.readwrite.instance.ruby",
+      "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
+    },
+    {
+      "name": "Entity name rust",
+      "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust",
+      "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
+    },
+    {
+      "name": "Entity name function",
+      "scope": "entity.name.function.rust",
+      "foreground": "color(#1E73BE l(+ 19%))"
+    },
+    {
+      "name": "Entity name module",
+      "scope": "entity.name.module.rust",
+      "foreground": "#B4B4B4"
+    },
+    {
+      "name": "Keyword control rust",
+      "scope": "keyword.control.rust",
+      "foreground": "#FC6BAA"
+    },
+    {
+      "name": "Meta annotation path rust",
+      "scope": "meta.annotation.rust meta.path.rust, meta.annotation.rust punctuation.definition.annotation.rust, meta.annotation.rust punctuation.section.group.begin.rust, meta.annotation.rust punctuation.section.group.end.rust",
+      "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
+    },
+    {
+      "name": "Storage type rust",
+      "scope": "storage.type.rust",
+      "foreground": "#FC6BAA"
+    },
+    {
+      "name": "Storage type source rust",
+      "scope": "storage.type.source.rust",
+      "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
+    },
+    {
+      "name": "Support macro rust",
+      "scope": "support.macro.rust",
+      "foreground": "color(#40E0D0 l(+ 11%))"
+    },
+    {
+      "name": "Support type rust",
+      "scope": "support.type.rust",
+      "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
+    }
+  ]
 }

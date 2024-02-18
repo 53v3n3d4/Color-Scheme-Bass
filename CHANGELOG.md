@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.16] - 2024
+
+### Biohack
+- Change background color to hex without filter
+
+### Roci
+- Change meta mapping key fg color to ligther tone
+- Change background color to hex without filter
+
 ## [0.1.15] - 2024-02-11
 - Add new violet color
 - Add punctuation section mapping json and yaml

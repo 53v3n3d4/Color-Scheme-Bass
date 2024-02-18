@@ -9,7 +9,7 @@
 
         /** Globals variables */
 
-        "bg-color":                   "color(var(violet1) l(- 1%))",
+        "bg-color":                   "var(violet2)",
         "fg-color":                   "var(gray2)", // Popup definiton/reference text
         "invisibles":                 "var(gray4)",
         "caret":                      "var(blue2)", // mouse cursor
@@ -172,7 +172,7 @@
         "variable-other-class-js-fg":               "color(var(orange1) l(+ 14%) a(0.8))",
 
         /** Mapping Key Value */
-        "meta-mapping-key-fg":               "var(pink-light3)",
+        "meta-mapping-key-fg":               "color(var(pink-light3) l(+ 3%))",
         "meta-mapping-value-fg":             "color(var(blue2) l(+ 19%))",
         "punctuation-section-mapping-fg":    "color(var(blue2) l(+ 19%))",
 
