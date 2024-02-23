@@ -162,6 +162,9 @@
         "diff-inserted-char-bg":    "hsla(111, 89%, 73%, 0.5)",
         "diff-inserted-char-fg":    "color(var(green2) a(0.9))",
 
+        /** Java */
+        "meta-import-wildcard-asterisk-java-fg":    "color(var(brown2) l(+ 18%))",
+
         /** Javascript */
         "entity-name-type-interface-js-fg":         "color(var(brown2) l(+ 18%))",
         "entity-other-attribute-name-doc-js-fg":    "var(cyan2)",
@@ -180,10 +183,16 @@
         "entity-other-attribute-name-html-fg":    "var(purple3)",
 
         /** CSS */
-        "meta-at-rule-other-css-fg":          "var(cyan4)",
-        "constant-css-fg":                    "var(gray4)",
-        "entity-name-tag-css-fg":             "color(var(brown2) l(+ 18%))",
-        "support-entity-property-css-fg":     "color(var(green3) l(+ 11%))",
+        "meta-at-rule-other-css-fg":    "var(cyan4)",
+        "constant-css-fg":              "var(gray4)",
+        "entity-name-tag-css-fg":       "color(var(brown2) l(+ 18%))",
+        "support-property-css-fg":      "color(var(green3) l(+ 11%) a(0.9))",
+        "css-variable-fg":              "color(var(brown2) a(0.8)",
+
+        /** Elixir */
+        "constant-symbol-keyword-elixir-fg":             "color(var(green2) l(+ 2%) a(0.8))",
+        "meta-embedded-var-other-constant-elixir-fg":    "color(var(gold2) l(- 14%))",
+        "attr-doc-entity-name-const-elixir-fg":          "color(var(gold2) l(- 14%))",
 
         /** Go */
         "variable-other-readwrite-declaration-go-fg":    "var(cyan4)",
@@ -198,7 +207,14 @@
         "punctuation-section-embedded-php-fg":    "color(var(brown2) l(+ 18%))",
 
         /** Python */
+        "keyword-control-loop-in-python-fg":      "color(var(gold2) l(- 14%))",
+        "meta-annotation-python-fg":              "var(cyan2)",
+        "meta-fn-call-support-type-python-fg":    "var(cyan4)",
         // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
+
+        /** Sass/SCSS */
+        "params-sass-fg":      "color(var(green3) l(+ 11%) a(0.9))",
+        "variable-sass-fg":    "color(var(cyan2) l(- 4%) a(0.9))",
 
         /** Sql */
         "keyword-operator-logical-sql-fg":    "color(var(red2) l(+ 18%))",
@@ -210,8 +226,9 @@
 
         /** Ruby */
         "entity-name-class-ruby-fg":                    "color(var(black4) a(0.9))",
-        "constant-rb-fg":                               "color(var(green2) l(+ 4%))",
+        "constant-rb-fg":                               "color(var(green2) l(+ 2%) a(0.8))",
         "meta-class-ruby-fg":                           "color(var(brown2) l(+ 18%))",
+        "meta-require-ruby-fg":                         "var(magenta3)",
         "variable-other-readwrite-instance-ruby-fg":    "var(purple3)",
 
         /** Rust */

@@ -1,9 +1,27 @@
 # Changelog
 
 ## [0.1.16] - 2024
+- Add meta require ruby
+- Add meta import wildcard asterisk java
+- Add meta function call support type python
+- Add meta annotation python
+- Add keyword control loopp in python
+- Add constant other symbol keyword elixir
+- Add meta embedded variable other constant elixir
+- Add support attribute doc and entity name constant elixir
+- Add variable sass/scss
+- Split css variable and support property css
 
 ### Biohack
 - Change background color to hex without filter
+- Change constant ruby fg color, red -> yellow
+
+### Blackcomb
+- Change support property css fg color to lighter tone
+
+### Bowtruckle
+- Change support property css fg color to lighter tone
+- Change constant ruby fg color to darker tone
 
 ### Nimbus
 - Change constant number fg color to darker tone
@@ -11,6 +29,7 @@
 - Change language null fg color, gold -> magenta
 - Change language boolean fg color, gold -> magenta
 - Change string fg color, purple -> violet
+- Change support property css fg color, pink -> red dark
 - Change keyword operator logical sql fg color, gold -> magenta
 
 ### Roci

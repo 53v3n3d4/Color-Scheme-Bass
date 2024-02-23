@@ -109,22 +109,22 @@
          *
          */
         {
-            "name": "Entity name",
+            // "name": "Entity name",
             "scope": "entity.name",
             "foreground": "var(entity-name-fg)"
         },
         {
-            "name": "Entity name class",
+            // "name": "Entity name class",
             "scope": "entity.name.class",
             "foreground": "var(entity-name-class-fg)"
         },
         {
-            "name": "Entity name function",
+            // "name": "Entity name function",
             "scope": "entity.name.function", // function name
             "foreground": "var(entity-name-fn-fg)"
         },
         {
-            "name": "Entity other inherited class", // python, ruby
+            // "name": "Entity other inherited class", // python, ruby
             "scope": "entity.other.inherited-class",
             "foreground": "var(entity-inherited-class-fg)"
         },
@@ -139,12 +139,12 @@
         //     "foreground": "var(entity-name-tag-fg)"
         // },
         {
-            "name": "Entity other attribute name", // html i.e. class
+            // "name": "Entity other attribute name", // html i.e. class
             "scope": "entity.other.attribute-name",
             "foreground": "var(entity-attribute-name-fg)"
         },
         {
-            "name": "Entity other pseudo class", // css i.e. :root
+            // "name": "Entity other pseudo class", // css i.e. :root
             "scope": "entity.other.pseudo-class",
             "foreground": "var(entity-other-pseudo-class-fg)"
         },
@@ -171,18 +171,18 @@
         //     "foreground": "var(variable-param-fg)"
         // },
         {
-            "name": "Variable function",
+            // "name": "Variable function",
             "scope": "variable.function",
             "foreground": "var(variable-fn-fg)"
         },
         {
-            "name": "Variable other constant", // i.e. Class nodejs
+            // "name": "Variable other constant", // i.e. Class nodejs
             "scope": "variable.other.constant",
             "foreground": "var(variable-other-constant-fg)"
         },
         // Rust scopes
         {
-            "name": "Variable other member",
+            // "name": "Variable other member",
             "scope": "variable.other.member - meta.block.rust",
             "foreground": "var(variable-other-member-fg)"
         },
@@ -198,22 +198,22 @@
         //     "foreground": "var(constant-fg)"
         // },
         {
-            "name": "Constant numeric",
+            // "name": "Constant numeric",
             "scope": "constant.numeric",
             "foreground": "var(constant-num-fg)"
         },
         {
-            "name": "Constant language", // Built-in
+            // "name": "Constant language", // Built-in
             "scope": "constant.language",
             "foreground": "var(constant-lang-fg)"
         },
         {
-            "name": "Constant language null",
+            // "name": "Constant language null",
             "scope": "constant.language.null",
             "foreground": "var(constant-lang-null-fg)"
         },
         {
-            "name": "Constant language boolean",
+            // "name": "Constant language boolean",
             "scope": "constant.language.boolean",
             "foreground": "var(constant-lang-bool-fg)"
         },
@@ -234,13 +234,13 @@
         //     "foreground": "var(storage-fg)"
         // },
         {
-            "name": "Storage modifier", // pub
+            // "name": "Storage modifier", // pub
             "scope": "storage.modifier",
             "foreground": "var(storage-modifier-fg)"
         },
         // Rust scopes
         {
-            "name": "Storage type",
+            // "name": "Storage type",
             "scope": "storage.type",
             "foreground": "var(storage-type-fg)"
         },
@@ -256,17 +256,17 @@
         //     "foreground": "var(support-fg)"
         // },
         {
-            "name": "Support function",
+            // "name": "Support function",
             "scope": "support.function",
             "foreground": "var(support-fn-fg)"
         },
         {
-            "name": "Support class",
+            // "name": "Support class",
             "scope": "support.class", // i.e: Js Object, Array
             "foreground": "var(support-class-fg)"
         },
         {
-            "name": "Support type primitive",
+            // "name": "Support type primitive",
             "scope": "support.type.primitive", // js: number, string
             "foreground": "var(support-type-primitive-fg)"
         },
@@ -277,7 +277,7 @@
          *
          */
         {
-            "name": "Keyword",
+            // "name": "Keyword",
             "scope": "keyword",
             "foreground": "var(keyword-fg)"
         },
@@ -287,7 +287,7 @@
         //     "foreground": "var(keyword-ctrl-fg)"
         // },
         {
-            "name": "Keyword operator",
+            // "name": "Keyword operator",
             "scope": "keyword.operator",
             "foreground": "var(keyword-operator-fg)"
         },
@@ -303,7 +303,7 @@
          *
          */
         {
-            "name": "String",
+            // "name": "String",
             "scope": "string",
             "foreground": "var(string-fg)"
         },
@@ -314,7 +314,7 @@
          *
          */
         {
-            "name": "Comment",
+            // "name": "Comment",
             "scope": "comment",
             "foreground": "var(comment-fg)"
         },
@@ -330,12 +330,12 @@
         //     "foreground": "var(invalid-fg)"
         // },
         {
-            "name": "Invalid deprecated",
+            // "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
             "foreground": "var(invalid-deprecated-fg)"
         },
         {
-            "name": "Invalid illegal",
+            // "name": "Invalid illegal",
             "scope": "invalid.illegal",
             "background": "var(invalid-illegal-fg)"
         },
@@ -346,74 +346,74 @@
          *
          */
         {
-            "name": "Constant other language name md",
+            // "name": "Constant other language name md",
             "scope": "constant.other.language-name.markdown",
             "foreground": "var(constant-other-lang-name-md-fg)"
         },
         {
-            "name": "Markup heading",
+            // "name": "Markup heading",
             "scope": "markup.heading, markup.heading entity.name",
             "font_style": "var(markup-heading-font-style)",
             "foreground": "var(markup-heading-fg)"
         },
         {
-            "name": "Markup bold",
+            // "name": "Markup bold",
             "scope": "markup.bold",
             "font_style": "var(markup-bold-font-style)"
         },
         {
-            "name": "Markup italic",
+            // "name": "Markup italic",
             "scope": "markup.italic",
             "font_style": "var(markup-italic-font-style)"
         },
         {
-            "name": "Markup underline",
+            // "name": "Markup underline",
             "scope": "markup.underline",
             "font_style": "var(markup-underline-font-style)"
         },
         {
-            "name": "Markup bold/italic",
+            // "name": "Markup bold/italic",
             "scope": "markup.italic markup.bold | markup.bold markup.italic",
             "font_style": "var(markup-bold-italic-font-style)"
         },
         {
-            "name": "Markup bold/underline",
+            // "name": "Markup bold/underline",
             "scope": "markup.underline markup.bold | markup.bold markup.underline",
             "font_style": "var(markup-bold-underline-font-style)"
         },
         {
-            "name": "Markup italic/underline",
+            // "name": "Markup italic/underline",
             "scope": "markup.underline markup.italic | markup.italic markup.underline",
             "font_style": "var(markup-italic-underline-font-style)"
         },
         {
-            "name": "Markup bold/italic/underline",
+            // "name": "Markup bold/italic/underline",
             "scope": "markup.bold markup.italic markup.underline | markup.bold markup.underline markup.italic | markup.italic markup.bold markup.underline | markup.italic markup.underline markup.bold | markup.underline markup.bold markup.italic | markup.underline markup.italic markup.bold",
             "font_style": "var(markup-bold-italic-underline-font-style)"
         },
         {
-            "name": "Markup quote",
+            // "name": "Markup quote",
             "scope": "markup.quote",
             "font_style": "var(markup-quote-font-style)",
             "foreground": "var(markup-quote-fg)"
         },
         {
-            "name": "Markup raw code block",
+            // "name": "Markup raw code block",
             "scope": "markup.raw",
             "background": "var(markup-raw-bg)"
         },
         {
-            "name": "Markup underline link",
+            // "name": "Markup underline link",
             "scope": "markup.underline.link",
             "foreground": "var(markup-link-fg)"
         },
         {
-            "name": "Table md",
+            // "name": "Table md",
             "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
             "background": "var(markup-table-bg)"
         },
         {
-            "name": "Punctuation line break md",
+            // "name": "Punctuation line break md",
             "scope": "punctuation.definition.hard-line-break.markdown",
             "background": "var(punctuation-line-break-md-bg)"
         },
@@ -424,25 +424,25 @@
          *
          */
         {
-            "name": "Markup changed",
+            // "name": "Markup changed",
             "scope": "markup.changed",
             "background": "var(markup-changed-bg)",
             "foreground": "var(markup-changed-fg)"
         },
         {
-            "name": "Markup deleted",
+            // "name": "Markup deleted",
             "scope": "markup.deleted",
             "background": "var(markup-deleted-bg)",
             "foreground": "var(markup-deleted-fg)"
         },
         {
-            "name": "Markup inserted",
+            // "name": "Markup inserted",
             "scope": "markup.inserted",
             "background": "var(markup-inserted-bg)",
             "foreground": "var(markup-inserted-fg)"
         },
         {
-            "name": "Diff header",
+            // "name": "Diff header",
             "scope": "meta.diff, meta.diff.header",
             "background": "var(meta-diff-header-bg)",
             "foreground": "var(meta-diff-header-fg)"
@@ -454,28 +454,39 @@
          *
          */
         {
-            "name": "Inline diff deleted",
+            // "name": "Inline diff deleted",
             "scope": "diff.deleted",
             "background": "var(diff-deleted-bg)",
             "foreground": "var(diff-deleted-fg)"
         },
         {
-            "name": "Inline diff deleted char",
+            // "name": "Inline diff deleted char",
             "scope": "diff.deleted.char",
             "background": "var(diff-deleted-char-bg)",
             "foreground": "var(diff-deleted-char-fg)"
         },
         {
-            "name": "Inline diff inserted",
+            // "name": "Inline diff inserted",
             "scope": "diff.inserted",
             "background": "var(diff-inserted-bg)",
             "foreground": "var(diff-inserted-fg)"
         },
         {
-            "name": "Inline diff inserted char",
+            // "name": "Inline diff inserted char",
             "scope": "diff.inserted.char",
             "background": "var(diff-inserted-char-bg)",
             "foreground": "var(diff-inserted-char-fg)"
+        },
+
+        /**
+         *
+         * JAVA
+         *
+         */
+        {
+            // "name": "Meta import wildcard asterisk java",
+            "scope": "meta.import.java constant.other.wildcard.asterisk.java",
+            "foreground": "var(meta-import-wildcard-asterisk-java-fg)"
         },
 
         /**
@@ -484,37 +495,37 @@
          *
          */
         {
-            "name": "Entity name type interface",
+            // "name": "Entity name type interface",
             "scope": "entity.name.type.js, entity.name.interface.js",
             "foreground": "var(entity-name-type-interface-js-fg)"
         },
         {
-            "name": "JSDocs tags",
+            // "name": "JSDocs tags",
             "scope": "entity.other.attribute-name.documentation.js",
             "foreground": "var(entity-other-attribute-name-doc-js-fg)"
         },
         {
-            "name": "Keyword declaration function arrow js",
+            // "name": "Keyword declaration function arrow js",
             "scope": "keyword.declaration.function.arrow.js, meta.type.js keyword.declaration.function.js",
             "foreground": "var(keyword-declaration-fn-arrow-js-fg)"
         },
         {
-            "name": "Support other js", // e.g. name from adaptiveData.name
+            // "name": "Support other js", // e.g. name from adaptiveData.name
             "scope": "(source.js | source.ts) - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
             "foreground": "var(support-other-js-fg)"
         },
         {
-            "name": "Support meta class js",
+            // "name": "Support meta class js",
             "scope": "meta.class.js support.constant.builtin.js, meta.function-call.constructor.js variable.type.js",
             "foreground": "var(support-meta-class-js-fg)"
         },
         {
-            "name": "Support meta function js",
+            // "name": "Support meta function js",
             "scope": "support.constant.node.js, support.constant.builtin.js",
             "foreground": "var(support-meta-fn-js-fg)"
         },
         {
-            "name": "Variable other class js", // i.e. Class new
+            // "name": "Variable other class js", // i.e. Class new
             "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
             "foreground": "var(variable-other-class-js-fg)"
         },
@@ -525,17 +536,17 @@
          *
          */
         {
-            "name": "Mapping key",
+            // "name": "Mapping key",
             "scope": "meta.mapping.key, meta.mapping.key string", // Json text
             "foreground": "var(meta-mapping-key-fg)"
         },
         {
-            "name": "Mapping value",
+            // "name": "Mapping value",
             "scope": "meta.mapping.value, meta.mapping.value string", // Json text, Yaml and JS not working
             "foreground": "var(meta-mapping-value-fg)"
         },
         {
-            "name": "Punctuation section mapping",
+            // "name": "Punctuation section mapping",
             "scope": "(source.json | source.yaml) punctuation.section.mapping.begin, (source.json | source.yaml) punctuation.section.mapping.end", // Open and close bracket json, yaml
             "foreground": "var(punctuation-section-mapping-fg)"
         },
@@ -546,7 +557,7 @@
          *
          */
         {
-            "name": "Entity id html", // i.e. id
+            // "name": "Entity id html", // i.e. id
             "scope": "text.html entity.other.attribute-name.id",
             "foreground": "var(entity-other-attribute-name-html-fg)"
         },
@@ -557,24 +568,50 @@
          *
          */
         {
-            "name": "At rule other css", // i.e @width
+            // "name": "At rule other css", // i.e @width
             "scope": "meta.at-rule.other.css",
             "foreground": "var(meta-at-rule-other-css-fg)"
         },
         {
-            "name": "Constant css", // i.e. css #000
+            // "name": "Constant css", // i.e. css #000
             "scope": "source.css constant",
             "foreground": "var(constant-css-fg)"
         },
         {
-            "name": "Entity name tag css",
+            // "name": "Entity name tag css",
             "scope": "entity.name.tag.html.css",
             "foreground": "var(entity-name-tag-css-fg)"
         },
         {
-            "name": "Support property name and Entity other custom property css", // i.e Margin:, --black: 
-            "scope": "support.type.property-name.css, entity.other.custom-property.css",
-            "foreground": "var(support-entity-property-css-fg)"
+            // "name": "Support property name css", // i.e Margin:
+            "scope": "support.type.property-name.css",
+            "foreground": "var(support-property-css-fg)"
+        },
+        {
+            // "name": "Css variable", // i.e css variables --black: 
+            "scope": "entity.other.custom-property.css, meta.property-value.css variable.other.custom-property.css",
+            "foreground": "var(css-variable-fg)"
+        },
+
+        /**
+         *
+         * Elixir
+         *
+         */
+        {
+            // "name": "Constant other symbol keyword elixir",
+            "scope": "constant.other.symbol.elixir, constant.other.keyword.elixir",
+            "foreground": "var(constant-symbol-keyword-elixir-fg)"
+        },
+        {
+            // "name": "Meta embedded variable other constant elixir",
+            "scope": "meta.embedded.eex meta.function-call.arguments.elixir variable.other.constant.elixir",
+            "foreground": "var(meta-embedded-var-other-constant-elixir-fg)"
+        },
+        {
+            // "name": "Support attribute doc, keyword  and entity name constant elixir",
+            "scope": "support.attr.doc.elixir, keyword.operator.attribute.elixir, meta.function-call.arguments.elixir entity.name.constant.elixir",
+            "foreground": "var(attr-doc-entity-name-const-elixir-fg)"
         },
 
         /**
@@ -582,18 +619,24 @@
          * GO
          *
          */
+        // {
+        //     // Coloring too many
+        //     "name": "Meta block variable other go",
+        //     "scope": "meta.block.go meta.block.go variable.other.go",
+        //     "foreground": "var(meta-block-variable-other-go-fg)"
+        // },
         {
-            "name": "Variable other readwrite declaration go",
+            // "name": "Variable other readwrite declaration go",
             "scope": "variable.other.readwrite.declaration.go",
             "foreground": "var(variable-other-readwrite-declaration-go-fg)"
         },
         {
-            "name": "Storage type go",
+            // "name": "Storage type go",
             "scope": "storage.type.go",
             "foreground": "var(storage-type-go-fg)"
         },
         {
-            "name": "Storage Support type builtin go", // i.e. string/bool/float
+            // "name": "Storage Support type builtin go", // i.e. string/bool/float
             "scope": "storage.type.go support.type.builtin.go",
             "foreground": "var(storage-support-type-builtin-go-fg)"
         },
@@ -604,7 +647,7 @@
          *
          */
         {
-            "name": "Git attributes value",
+            // "name": "Git attributes value",
             "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
             "foreground": "var(meta-mapping-value-git-attributes-fg)"
         },
@@ -615,12 +658,12 @@
          *
          */
         {
-            "name": "Punctuation definition variable php", // php tag
+            // "name": "Punctuation definition variable php", // php tag
             "scope": "embedding.php text.html.php meta.embedded.php punctuation.definition.variable.php",
             "foreground": "var(punctuation-definition-var-php-fg)"
         },
         {
-            "name": "Punctuation section embedded php", // php tag
+            // "name": "Punctuation section embedded php", // php tag
             "scope": "embedding.php text.html.php meta.embedded.php punctuation.section.embedded",
             "foreground": "var(punctuation-section-embedded-php-fg)"
         },
@@ -630,6 +673,21 @@
          * PYTHON
          *
          */
+        {
+            // "name": "Keyword control loopp in python",
+            "scope": "meta.statement.loop.for.python keyword.control.loop.for.in.python",
+            "foreground": "var(keyword-control-loop-in-python-fg)"
+        },
+        {
+            // "name": "Meta annotation python",
+            "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python",
+            "foreground": "var(meta-annotation-python-fg)"
+        },
+        {
+            // "name": "Meta function call support type python",
+            "scope": "meta.function-call.identifier.python support.type.python",
+            "foreground": "var(meta-fn-call-support-type-python-fg)"
+        },
         // {
         //     "name": "Meta qualified name function", // want to color only Class but coloring functions too
         //     "scope": "meta.function-call.python meta.qualified-name.python variable.function.python meta.generic-name.python",
@@ -638,16 +696,33 @@
 
         /**
          *
+         * Sass/SCSS
+         *
+         */
+        // source.scss meta.property-value.css meta.group.css meta.map.arguments.sass meta.group.css meta.map.arguments.sass variable.parameter.sass
+        {
+            // "name": "Parameter sass",
+            "scope": "meta.map.arguments.sass variable.parameter.sass",
+            "foreground": "var(params-sass-fg)"
+        },
+        {
+            // "name": "Variable sass", // source.scss meta.property-value.css meta.group.css meta.map.arguments.sass meta.group.css meta.map.arguments.sass variable.other.sass
+            "scope": "variable.declaration.sass, variable.other.sass, meta.map.arguments.sass variable.other.sass, meta.function.parameters.sass variable.parameter.sass, source.sass meta.selector.css, source.sass meta.selector.css entity.name.tag.custom.css",
+            "foreground": "var(variable-sass-fg)"
+        },
+
+        /**
+         *
          * SQL
          *
          */
         {
-            "name": "Keyword operator logical sql",
+            // "name": "Keyword operator logical sql",
             "scope": "keyword.operator.logical.sql",
             "foreground": "var(keyword-operator-logical-sql-fg)"
         },
         {
-            "name": "Storage type sql",
+            // "name": "Storage type sql",
             "scope": "storage.type.sql",
             "foreground": "var(storage-type-sql-fg)"
         },
@@ -658,12 +733,12 @@
          *
          */
         {
-            "name": "Table toml",
+            // "name": "Table toml",
             "scope": "entity.name.table.toml",
             "foreground": "var(entity-name-table-toml-fg)"
         },
         {
-            "name": "Key toml",
+            // "name": "Key toml",
             "scope": "entity.name.tag.toml",
             "foreground": "var(entity-name-tag-toml-fg)"
         },
@@ -674,22 +749,27 @@
          *
          */
         {
-            "name": "Entity name class ruby",
+            // "name": "Entity name class ruby",
             "scope": "entity.name.class.ruby",
             "foreground": "var(entity-name-class-ruby-fg)"
         },
         {
-            "name": "Constant ruby",
+            // "name": "Constant ruby",
             "scope": "source.ruby constant",
             "foreground": "var(constant-rb-fg)"
         },
         {
-            "name": "Meta class ruby",
+            // "name": "Meta class ruby",
             "scope": "meta.class.ruby entity.other.inherited-class.ruby",
             "foreground": "var(meta-class-ruby-fg)"
         },
         {
-            "name": "Variable other readwrite instance ruby", //i.e. @article
+            // "name": "Meta require ruby",
+            "scope": "meta.require.ruby - punctuation.definition.group.begin.ruby - punctuation.definition.group.end.ruby - punctuation.separator.sequence.ruby",
+            "foreground": "var(meta-require-ruby-fg)"
+        },
+        {
+            // "name": "Variable other readwrite instance ruby", //i.e. @article
             "scope": "variable.other.readwrite.instance.ruby",
             "foreground": "var(variable-other-readwrite-instance-ruby-fg)"
         },
@@ -700,27 +780,27 @@
          *
          */
         {
-            "name": "Entity name rust",
+            // "name": "Entity name rust",
             "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust",
             "foreground": "var(entity-name-rust-fg)"
         },
         {
-            "name": "Entity name function",
+            // "name": "Entity name function",
             "scope": "entity.name.function.rust",
             "foreground": "var(entity-name-fn-rust-fg)"
         },
         {
-            "name": "Entity name module",
+            // "name": "Entity name module",
             "scope": "entity.name.module.rust",
             "foreground": "var(entity-name-module-rust-fg)"
         },
         {
-            "name": "Keyword control rust",
+            // "name": "Keyword control rust",
             "scope": "keyword.control.rust",
             "foreground": "var(keyword-ctrl-rust-fg)"
         },
         {
-            "name": "Meta annotation path rust",
+            // "name": "Meta annotation path rust",
             "scope": "meta.annotation.rust meta.path.rust, meta.annotation.rust punctuation.definition.annotation.rust, meta.annotation.rust punctuation.section.group.begin.rust, meta.annotation.rust punctuation.section.group.end.rust",
             "foreground": "var(meta-annotation-path-rust-fg)"
         },
@@ -730,22 +810,22 @@
         //     "foreground": "var(meta-fn-rust-fg)"
         // },
         {
-            "name": "Storage type rust",
+            // "name": "Storage type rust",
             "scope": "storage.type.rust",
             "foreground": "var(storage-type-rust-fg)"
         },
         {
-            "name": "Storage type source rust",
+            // "name": "Storage type source rust",
             "scope": "storage.type.source.rust",
             "foreground": "var(storage-type-source-rust-fg)"
         },
         {
-            "name": "Support macro rust",
+            // "name": "Support macro rust",
             "scope": "support.macro.rust",
             "foreground": "var(support-macro-rust-fg)"
         },
         {
-            "name": "Support type rust",
+            // "name": "Support type rust",
             "scope": "support.type.rust",
             "foreground": "var(support-type-rust-fg)"
         }
