@@ -24,7 +24,7 @@ export function sublimeFile (name) {
         bcData.filename,
         bcData.name
         // null,
-        // bcData.tabSpaces
+        // bcData.tabSpace
       )
       break
     case 'bc-replace':
@@ -37,7 +37,7 @@ export function sublimeFile (name) {
         bcData.filename,
         bcData.name,
         bcData.rules,
-        bcData.tabSpaces
+        bcData.tabSpace
       )
       break
     case 'bio-merge':
@@ -50,7 +50,7 @@ export function sublimeFile (name) {
         bioData.filename,
         bioData.name
         // null,
-        // bioData.tabSpaces
+        // bioData.tabSpace
       )
       break
     case 'bio-replace':
@@ -63,7 +63,7 @@ export function sublimeFile (name) {
         bioData.filename,
         bioData.name,
         bioData.rules,
-        bioData.tabSpaces
+        bioData.tabSpace
       )
       break
     case 'bow-merge':
@@ -76,7 +76,7 @@ export function sublimeFile (name) {
         bowData.filename,
         bowData.name
         // null,
-        // bowData.tabSpaces
+        // bowData.tabSpace
       )
       break
     case 'bow-replace':
@@ -89,7 +89,7 @@ export function sublimeFile (name) {
         bowData.filename,
         bowData.name,
         bowData.rules,
-        bowData.tabSpaces
+        bowData.tabSpace
       )
       break
     case 'do-merge':
@@ -102,7 +102,7 @@ export function sublimeFile (name) {
         doData.filename,
         doData.name
         // null,
-        // doData.tabSpaces
+        // doData.tabSpace
       )
       break
     case 'do-replace':
@@ -115,7 +115,7 @@ export function sublimeFile (name) {
         doData.filename,
         doData.name,
         doData.rules,
-        doData.tabSpaces
+        doData.tabSpace
       )
       break
     case 'fuji-merge':
@@ -128,7 +128,7 @@ export function sublimeFile (name) {
         fujiData.filename,
         fujiData.name
         // null,
-        // fujiData.tabSpaces
+        // fujiData.tabSpace
       )
       break
     case 'fuji-replace':
@@ -141,7 +141,7 @@ export function sublimeFile (name) {
         fujiData.filename,
         fujiData.name,
         fujiData.rules,
-        fujiData.tabSpaces
+        fujiData.tabSpace
       )
       break
     case 'lagoon-merge':
@@ -154,7 +154,7 @@ export function sublimeFile (name) {
         lagoonData.filename,
         lagoonData.name
         // null,
-        // lagoonData.tabSpaces
+        // lagoonData.tabSpace
       )
       break
     case 'lagoon-replace':
@@ -167,7 +167,7 @@ export function sublimeFile (name) {
         lagoonData.filename,
         lagoonData.name,
         lagoonData.rules,
-        lagoonData.tabSpaces
+        lagoonData.tabSpace
       )
       break
     case 'nimbus-merge':
@@ -180,7 +180,7 @@ export function sublimeFile (name) {
         nimbusData.filename,
         nimbusData.name
         // null,
-        // nimbusData.tabSpaces
+        // nimbusData.tabSpace
       )
       break
     case 'nimbus-replace':
@@ -193,7 +193,7 @@ export function sublimeFile (name) {
         nimbusData.filename,
         nimbusData.name,
         nimbusData.rules,
-        nimbusData.tabSpaces
+        nimbusData.tabSpace
       )
       break
     case 'roci-merge':
@@ -206,7 +206,7 @@ export function sublimeFile (name) {
         rociData.filename,
         rociData.name
         // null,
-        // rociData.tabSpaces
+        // rociData.tabSpace
       )
       break
     case 'roci-replace':
@@ -219,7 +219,7 @@ export function sublimeFile (name) {
         rociData.filename,
         rociData.name,
         rociData.rules,
-        rociData.tabSpaces
+        rociData.tabSpace
       )
       break
     case 'zora-merge':
@@ -232,7 +232,7 @@ export function sublimeFile (name) {
         zoraData.filename,
         zoraData.name
         // null,
-        // zoraData.tabSpaces
+        // zoraData.tabSpace
       )
       break
     case 'zora-replace':
@@ -245,7 +245,7 @@ export function sublimeFile (name) {
         zoraData.filename,
         zoraData.name,
         zoraData.rules,
-        zoraData.tabSpaces
+        zoraData.tabSpace
       )
       break
     default:
