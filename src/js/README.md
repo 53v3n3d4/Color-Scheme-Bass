@@ -22,111 +22,111 @@ For releases, using replace variables.
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax">Name</th>
-    <th class="tg-0lax">Kind</th>
-    <th class="tg-0lax">sublimeFile name</th>
-    <th class="tg-0lax">Script</th>
+    <th>Name</th>
+    <th>Kind</th>
+    <th>sublimeFile name</th>
+    <th>Script</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax" rowspan="2">Biohack</td>
-    <td class="tg-0lax">merge</td>
-    <td class="tg-0lax">bio-merge</td>
-    <td class="tg-0lax">build-bio-merge</td>
+    <td rowspan="2">Biohack</td>
+    <td>merge</td>
+    <td>bio-merge</td>
+    <td>build-bio-merge</td>
   </tr>
   <tr>
-    <td class="tg-0lax">replace</td>
-    <td class="tg-0lax">bio-replace</td>
-    <td class="tg-0lax">build-bio-replace</td>
+    <td>replace</td>
+    <td>bio-replace</td>
+    <td>build-bio-replace</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2">BlackComb</td>
-    <td class="tg-0lax">merge</td>
-    <td class="tg-0lax">bc-merge</td>
-    <td class="tg-0lax">build-bc-merge</td>
+    <td rowspan="2">BlackComb</td>
+    <td>merge</td>
+    <td>bc-merge</td>
+    <td>build-bc-merge</td>
   </tr>
   <tr>
-    <td class="tg-0lax">replace</td>
-    <td class="tg-0lax">bc-replace</td>
-    <td class="tg-0lax">build-bc-replace</td>
+    <td>replace</td>
+    <td>bc-replace</td>
+    <td>build-bc-replace</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2">Bowtruckle</td>
-    <td class="tg-0lax">merge</td>
-    <td class="tg-0lax">bow-merge</td>
-    <td class="tg-0lax">build-bow-merge</td>
+    <td rowspan="2">Bowtruckle</td>
+    <td>merge</td>
+    <td>bow-merge</td>
+    <td>build-bow-merge</td>
   </tr>
   <tr>
-    <td class="tg-0lax">replace</td>
-    <td class="tg-0lax">bow-replace</td>
-    <td class="tg-0lax">build-bow-replace</td>
+    <td>replace</td>
+    <td>bow-replace</td>
+    <td>build-bow-replace</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2">D-O</td>
-    <td class="tg-0lax">merge</td>
-    <td class="tg-0lax">do-merge</td>
-    <td class="tg-0lax">build-do-merge</td>
+    <td rowspan="2">D-O</td>
+    <td>merge</td>
+    <td>do-merge</td>
+    <td>build-do-merge</td>
   </tr>
   <tr>
-    <td class="tg-0lax">replace</td>
-    <td class="tg-0lax">do-replace</td>
-    <td class="tg-0lax">build-do-replace</td>
+    <td>replace</td>
+    <td>do-replace</td>
+    <td>build-do-replace</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2">Fuji</td>
-    <td class="tg-0lax">merge</td>
-    <td class="tg-0lax">fuji-merge</td>
-    <td class="tg-0lax">build-fuji-merge</td>
+    <td rowspan="2">Fuji</td>
+    <td>merge</td>
+    <td>fuji-merge</td>
+    <td>build-fuji-merge</td>
   </tr>
   <tr>
-    <td class="tg-0lax">replace</td>
-    <td class="tg-0lax">fuji-replace</td>
-    <td class="tg-0lax">build-fuji-replace</td>
+    <td>replace</td>
+    <td>fuji-replace</td>
+    <td>build-fuji-replace</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2">Lagoon</td>
-    <td class="tg-0lax">merge</td>
-    <td class="tg-0lax">lagoon-merge</td>
-    <td class="tg-0lax">build-lagoon-merge</td>
+    <td rowspan="2">Lagoon</td>
+    <td>merge</td>
+    <td>lagoon-merge</td>
+    <td>build-lagoon-merge</td>
   </tr>
   <tr>
-    <td class="tg-0lax">replace</td>
-    <td class="tg-0lax">lagoon-replace</td>
-    <td class="tg-0lax">build-lagoon-replace</td>
+    <td>replace</td>
+    <td>lagoon-replace</td>
+    <td>build-lagoon-replace</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2">Nimbus</td>
-    <td class="tg-0lax">merge</td>
-    <td class="tg-0lax">nimbus-merge</td>
-    <td class="tg-0lax">build-nimbus-merge</td>
+    <td rowspan="2">Nimbus</td>
+    <td>merge</td>
+    <td>nimbus-merge</td>
+    <td>build-nimbus-merge</td>
   </tr>
   <tr>
-    <td class="tg-0lax">replace</td>
-    <td class="tg-0lax">nimbus-replace</td>
-    <td class="tg-0lax">build-nimbus-replace</td>
+    <td>replace</td>
+    <td>nimbus-replace</td>
+    <td>build-nimbus-replace</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2">Roci</td>
-    <td class="tg-0lax">merge</td>
-    <td class="tg-0lax">roci-merge</td>
-    <td class="tg-0lax">build-roci-merge</td>
+    <td rowspan="2">Roci</td>
+    <td>merge</td>
+    <td>roci-merge</td>
+    <td>build-roci-merge</td>
   </tr>
   <tr>
-    <td class="tg-0lax">replace</td>
-    <td class="tg-0lax">roci-replace</td>
-    <td class="tg-0lax">build-roci-replace</td>
+    <td>replace</td>
+    <td>roci-replace</td>
+    <td>build-roci-replace</td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2">Zora</td>
-    <td class="tg-0lax">merge</td>
-    <td class="tg-0lax">zora-merge</td>
-    <td class="tg-0lax">build-zora-merge</td>
+    <td rowspan="2">Zora</td>
+    <td>merge</td>
+    <td>zora-merge</td>
+    <td>build-zora-merge</td>
   </tr>
   <tr>
-    <td class="tg-0lax">replace</td>
-    <td class="tg-0lax">zora-replace</td>
-    <td class="tg-0lax">build-zora-replace</td>
+    <td>replace</td>
+    <td>zora-replace</td>
+    <td>build-zora-replace</td>
   </tr>
 </tbody>
 </table>
