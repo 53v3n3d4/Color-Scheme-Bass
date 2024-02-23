@@ -366,7 +366,7 @@
     },
     {
       "scope": "variable.declaration.sass, variable.other.sass, meta.map.arguments.sass variable.other.sass, meta.function.parameters.sass variable.parameter.sass, source.sass meta.selector.css, source.sass meta.selector.css entity.name.tag.custom.css",
-      "foreground": "color(#F9DF9C l(- 7%) a(0.8))"
+      "foreground": "color(#F9DF9C l(+ 3%) a(0.7))"
     },
     {
       "scope": "keyword.operator.logical.sql",

@@ -214,7 +214,7 @@
 
         /** Sass/SCSS */
         "params-sass-fg":      "color(var(green-light3) l(+ 5%))",
-        "variable-sass-fg":    "color(var(yellow-light3) l(- 7%) a(0.8))",
+        "variable-sass-fg":    "color(var(yellow-light3) l(+ 3%) a(0.7))",
 
         /** Sql */
         "keyword-operator-logical-sql-fg":    "color(var(red1) a(0.9)",
