@@ -90,10 +90,10 @@
 
         /** Constant */
         // "constant-fg":                "var(green4)",
-        "constant-num-fg":            "color(var(red2) l(+ 21%) a(0.8))",
-        "constant-lang-fg":           "color(var(gold1) l(- 7%) a(0.9))",
-        "constant-lang-null-fg":      "color(var(gold1) l(- 7%) a(0.9))",
-        "constant-lang-bool-fg":      "color(var(gold1) l(- 7%) a(0.9))",
+        "constant-num-fg":            "color(var(red2) l(+ 11%) a(0.8))",
+        "constant-lang-fg":           "color(var(magenta3) l(- 11%) a(0.8))",
+        "constant-lang-null-fg":      "color(var(magenta3) l(- 11%) a(0.8))",
+        "constant-lang-bool-fg":      "color(var(magenta3) l(- 11%) a(0.8))",
         // "constant-char-escape-fg":    "var(blue4)",
 
         /** Storage */
@@ -114,7 +114,7 @@
         // "keyword-declaration-fg":    "var(green3)",
 
         /** String */
-        "string-fg":    "var(purple2)",
+        "string-fg":    "color(var(violet1) l(+ 29%))",
 
         /** Comment */
         "comment-fg":    "color(var(gray4) a(0.65))",
@@ -201,7 +201,7 @@
         // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
 
         /** Sql */
-        "keyword-operator-logical-sql-fg":    "color(var(gold1) l(- 5%) a(0.9))",
+        "keyword-operator-logical-sql-fg":    "color(var(magenta3) l(- 11%) a(0.8))",
         "storage-type-sql-fg":                "color(var(pink-light4) l(- 1%))",
 
         /** Toml */

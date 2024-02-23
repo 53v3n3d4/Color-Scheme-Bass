@@ -5,6 +5,14 @@
 ### Biohack
 - Change background color to hex without filter
 
+### Nimbus
+- Change constant number fg color to darker tone
+- Change language fg color, gold -> magenta
+- Change language null fg color, gold -> magenta
+- Change language boolean fg color, gold -> magenta
+- Change string fg color, purple -> violet
+- Change keyword operator logical sql fg color, gold -> magenta
+
 ### Roci
 - Change meta mapping key fg color to ligther tone
 - Change background color to hex without filter
