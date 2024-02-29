@@ -137,9 +137,10 @@
         "markup-bold-italic-underline-font-style":    "bold italic underline",
         "markup-quote-font-style":                    "italic",
         "markup-quote-fg":                            "color(var(orange3) l(- 2%))",
-        "markup-raw-bg":                              "var(blue-light4)",
+        "markup-raw-bg":                              "color(var(blue-light4) a(0.8))",
+        "markup-raw-inline-bg":                       "color(var(blue-light4) a(0.9))",
         "markup-link-fg":                             "var(blue3)",
-        "markup-table-bg":                            "var(blue-light4)",
+        "markup-table-bg":                            "color(var(blue-light4) a(0.8))",
         "punctuation-line-break-md-bg":               "color(var(blue-light4) a(0.7))",
 
         /** Diff */

@@ -190,7 +190,11 @@
     },
     {
       "scope": "markup.raw",
-      "background": "#A4CDFF"
+      "background": "color(#A4CDFF a(0.8))"
+    },
+    {
+      "scope": "markup.raw.inline.markdown",
+      "background": "color(#A4CDFF a(0.9))"
     },
     {
       "scope": "markup.underline.link",
@@ -198,7 +202,7 @@
     },
     {
       "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
-      "background": "#A4CDFF"
+      "background": "color(#A4CDFF a(0.8))"
     },
     {
       "scope": "punctuation.definition.hard-line-break.markdown",

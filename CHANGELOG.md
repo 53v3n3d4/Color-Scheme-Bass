@@ -1,15 +1,59 @@
 # Changelog
 
+## [0.1.17] - 2024
+- Add markup raw inline background
+
+## Biohack
+- Change markup raw bg color to lighter tone
+- Change markup table bg color to lighter tone
+- Change punctuation line break md bg color to lighter tone
+
+## Blackcomb
+- Change invisibles to darker tone
+- Change markup raw bg color to lighter tone
+- Change markup table bg color to lighter tone
+
+## Bowtruckle
+- Change markup raw bg color to lighter tone
+- Change markup table bg color to lighter tone
+
+## D-O
+- Change markup raw bg color to lighter tone
+- Change markup table bg color to lighter tone
+
+## Fuji
+- Change markup raw bg color to lighter tone
+- Change markup table bg color to lighter tone
+
+## Lagoon
+- Change markup raw bg color to lighter tone
+- Change markup table bg color to lighter tone
+
+## Nimbus
+- Change markup raw bg color to lighter tone
+- Change markup table bg color to lighter tone
+
+## Roci
+- Change markup raw bg color to lighter tone
+- Change markup table bg color to lighter tone
+- Change punctuation line break md bg color to lighter tone
+
+## Zora
+- Change markup raw bg color to lighter tone
+- Change markup table bg color to lighter tone
+- Change punctuation line break md bg color to lighter tone
+
 ## [0.1.16] - 2024-02-23
 - Add meta require ruby
 - Add meta import wildcard asterisk java
 - Add meta function call support type python
 - Add meta annotation python
-- Add keyword control loopp in python
+- Add keyword control loop in python
 - Add constant other symbol keyword elixir
 - Add meta embedded variable other constant elixir
 - Add support attribute doc and entity name constant elixir
 - Add variable sass/scss
+- Add parameter sass/scss
 - Split css variable and support property css
 
 ### Biohack

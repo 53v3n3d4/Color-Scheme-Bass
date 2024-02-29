@@ -190,7 +190,11 @@
     },
     {
       "scope": "markup.raw",
-      "background": "color(#B4B4B4 a(0.3))"
+      "background": "color(#B4B4B4 a(0.2))"
+    },
+    {
+      "scope": "markup.raw.inline.markdown",
+      "background": "color(#B4B4B4 a(0.2))"
     },
     {
       "scope": "markup.underline.link",
@@ -198,7 +202,7 @@
     },
     {
       "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
-      "background": "color(#B4B4B4 a(0.3))"
+      "background": "color(#B4B4B4 a(0.2))"
     },
     {
       "scope": "punctuation.definition.hard-line-break.markdown",

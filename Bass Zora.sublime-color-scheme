@@ -190,7 +190,11 @@
     },
     {
       "scope": "markup.raw",
-      "background": "color(#262833 l(- 4%))"
+      "background": "color(#262833 l(+ 4%))"
+    },
+    {
+      "scope": "markup.raw.inline.markdown",
+      "background": "color(#262833 l(+ 8%) a(0.8))"
     },
     {
       "scope": "markup.underline.link",
@@ -198,11 +202,11 @@
     },
     {
       "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
-      "background": "color(#262833 l(- 4%))"
+      "background": "color(#262833 l(+ 4%))"
     },
     {
       "scope": "punctuation.definition.hard-line-break.markdown",
-      "background": "color(#262833 l(- 4%) a(0.8))"
+      "background": "color(#262833 l(+ 4%) a(0.8))"
     },
     {
       "scope": "markup.changed",

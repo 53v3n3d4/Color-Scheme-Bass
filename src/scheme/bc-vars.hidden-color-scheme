@@ -11,7 +11,7 @@
 
         "bg-color":                   "var(black9)",
         "fg-color":                   "var(white2)", // Popup definiton/reference text
-        "invisibles":                 "color(var(gray4) a(0.5)",
+        "invisibles":                 "color(var(gray4) a(0.7)",
         "caret":                      "var(gray1)", // mouse cursor
         "line-highlight":             "color(var(bg-color) l(+ 7%) a(0.5))", //"var(black3)",
         /** Accents */
@@ -137,9 +137,10 @@
         "markup-bold-italic-underline-font-style":    "bold italic underline",
         "markup-quote-font-style":                    "italic",
         "markup-quote-fg":                            "var(green-light2)",
-        "markup-raw-bg":                              "var(black8)",
+        "markup-raw-bg":                              "var(black6)",
+        "markup-raw-inline-bg":                       "color(var(black4) a(0.8))",
         "markup-link-fg":                             "color(var(blue5) a(0.9))",
-        "markup-table-bg":                            "var(black8)",
+        "markup-table-bg":                            "var(black6)",
         "punctuation-line-break-md-bg":               "var(black8)",
 
         /** Diff */
@@ -193,7 +194,6 @@
         "constant-symbol-keyword-elixir-fg":             "var(green-light2)",
         "meta-embedded-var-other-constant-elixir-fg":    "var(yellow-light3)",
         "attr-doc-entity-name-const-elixir-fg":          "var(yellow-light3)",
-
 
         /** Go */
         "variable-other-readwrite-declaration-go-fg":    "color(var(blue-light4) l(- 1%) a(0.9))",

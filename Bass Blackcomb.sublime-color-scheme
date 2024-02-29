@@ -9,7 +9,7 @@
   "globals": {
     "background": "#18171B",
     "foreground": "#F0F0F7",
-    "invisibles": "color(#5D6C79 a(0.5)",
+    "invisibles": "color(#5D6C79 a(0.7)",
     "caret": "#ECECEC",
     "line_highlight": "color(#18171B l(+ 7%) a(0.5))",
     "misspelling": "#FD8F3F",
@@ -190,7 +190,11 @@
     },
     {
       "scope": "markup.raw",
-      "background": "#232323"
+      "background": "#252727"
+    },
+    {
+      "scope": "markup.raw.inline.markdown",
+      "background": "color(#404040 a(0.8))"
     },
     {
       "scope": "markup.underline.link",
@@ -198,7 +202,7 @@
     },
     {
       "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
-      "background": "#232323"
+      "background": "#252727"
     },
     {
       "scope": "punctuation.definition.hard-line-break.markdown",

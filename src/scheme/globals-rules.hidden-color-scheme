@@ -403,6 +403,11 @@
             "background": "var(markup-raw-bg)"
         },
         {
+            // "name": "Markup raw inline code",
+            "scope": "markup.raw.inline.markdown",
+            "background": "var(markup-raw-inline-bg)"
+        },
+        {
             // "name": "Markup underline link",
             "scope": "markup.underline.link",
             "foreground": "var(markup-link-fg)"
