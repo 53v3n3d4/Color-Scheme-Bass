@@ -2,46 +2,57 @@
 
 ## [0.1.17] - 2024
 - Add markup raw inline background
+- Add support attribute elixir
+- Add meta embedded heex variable other constant elixir
 
 ## Biohack
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
 - Change punctuation line break md bg color to lighter tone
+- Change meta import wildcard asterisk java fg color, pink -> cyan
 
 ## Blackcomb
 - Change invisibles to darker tone
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
+- Change meta import wildcard asterisk java fg color, brown -> yellow
 
 ## Bowtruckle
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
+- Change meta import wildcard asterisk java fg color, brown -> gold
 
 ## D-O
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
+- Change meta import wildcard asterisk java fg color, gold -> purple
 
 ## Fuji
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
+- Change meta import wildcard asterisk java fg color, brown -> gold
 
 ## Lagoon
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
+- Change meta import wildcard asterisk java fg color, green -> gold
 
 ## Nimbus
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
+- Change meta import wildcard asterisk java fg color, orange -> gold
 
 ## Roci
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
 - Change punctuation line break md bg color to lighter tone
+- Change meta import wildcard asterisk java fg color, orange -> yellow
 
 ## Zora
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
 - Change punctuation line break md bg color to lighter tone
+- Change meta import wildcard asterisk java fg color, pink -> magenta
 
 ## [0.1.16] - 2024-02-23
 - Add meta require ruby

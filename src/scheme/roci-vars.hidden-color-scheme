@@ -164,7 +164,7 @@
         "diff-inserted-char-fg":    "color(var(green1) l(+ 7%))",
 
         /** Java */
-        "meta-import-wildcard-asterisk-java-fg":    "color(var(orange1) l(+ 14%) a(0.8))",
+        "meta-import-wildcard-asterisk-java-fg":    "color(var(yellow1) l(+ 2%) a(0.9))",
 
         /** Javascript */
         "entity-name-type-interface-js-fg":         "color(var(orange1) l(+ 14%) a(0.8))",
@@ -193,7 +193,7 @@
         /** Elixir */
         "constant-symbol-keyword-elixir-fg":             "var(blue5)",
         "meta-embedded-var-other-constant-elixir-fg":    "color(var(yellow1) l(+ 2%) a(0.9))",
-        "attr-doc-entity-name-const-elixir-fg":          "color(var(yellow1) l(+ 2%) a(0.9))",
+        "support-attr-entity-name-const-elixir-fg":      "color(var(yellow1) l(+ 2%) a(0.9))",
 
         /** Go */
         "variable-other-readwrite-declaration-go-fg":    "color(var(blue2) l(+ 19%))",

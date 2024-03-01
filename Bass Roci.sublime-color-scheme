@@ -250,7 +250,7 @@
     },
     {
       "scope": "meta.import.java constant.other.wildcard.asterisk.java",
-      "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
+      "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
     },
     {
       "scope": "entity.name.type.js, entity.name.interface.js",
@@ -321,11 +321,11 @@
       "foreground": "#5DD8FF"
     },
     {
-      "scope": "meta.embedded.eex meta.function-call.arguments.elixir variable.other.constant.elixir",
+      "scope": "meta.embedded.eex meta.function-call.arguments.elixir variable.other.constant.elixir, meta.embedded.heex variable.other.constant.elixir",
       "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
     },
     {
-      "scope": "support.attr.doc.elixir, keyword.operator.attribute.elixir, meta.function-call.arguments.elixir entity.name.constant.elixir",
+      "scope": "support.attr.elixir, support.attr.doc.elixir, keyword.operator.attribute.elixir, meta.function-call.arguments.elixir entity.name.constant.elixir",
       "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
     },
     {
