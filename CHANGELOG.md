@@ -10,6 +10,9 @@
 - Change markup table bg color to lighter tone
 - Change punctuation line break md bg color to lighter tone
 - Change meta import wildcard asterisk java fg color, pink -> cyan
+- Change entity name tag css fg color, magenta -> green
+- Change support property css fg color, green -> magenta
+- Change parameter sass fg color, green -> magenta
 
 ## Blackcomb
 - Change invisibles to darker tone
@@ -21,6 +24,9 @@
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
 - Change meta import wildcard asterisk java fg color, brown -> gold
+- Change entity name tag css fg color, brown -> green
+- Change support property css fg color, green -> brown
+- Change parameter sass fg color, green -> brown
 
 ## D-O
 - Change markup raw bg color to lighter tone
@@ -36,6 +42,8 @@
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
 - Change meta import wildcard asterisk java fg color, green -> gold
+- Change css variable fg color to darker tone
+- Change variable sass fg color to lighter tone
 
 ## Nimbus
 - Change markup raw bg color to lighter tone
@@ -47,6 +55,9 @@
 - Change markup table bg color to lighter tone
 - Change punctuation line break md bg color to lighter tone
 - Change meta import wildcard asterisk java fg color, orange -> yellow
+- Change entity name tag css fg color, gree -> brown
+- Change support property css fg color, brown -> green
+- Change parameter sass fg color, brown -> green
 
 ## Zora
 - Change markup raw bg color to lighter tone

@@ -186,8 +186,8 @@
         /** CSS */
         "meta-at-rule-other-css-fg":    "var(brown1)",
         "constant-css-fg":              "var(gray2)",
-        "entity-name-tag-css-fg":       "var(magenta2)",
-        "support-property-css-fg":      "color(var(green-light3) l(+ 5%))",
+        "entity-name-tag-css-fg":       "color(var(green-light3) l(+ 5%))",
+        "support-property-css-fg":      "var(magenta2)",
         "css-variable-fg":              "color(var(green-light1) l(- 7%) a(0.7))",
 
         /** Elixir */
@@ -214,7 +214,7 @@
         // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
 
         /** Sass/SCSS */
-        "params-sass-fg":      "color(var(green-light3) l(+ 5%))",
+        "params-sass-fg":      "var(magenta2)",
         "variable-sass-fg":    "color(var(yellow-light3) l(- 4%) a(0.8))",
 
         /** Sql */

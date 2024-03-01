@@ -306,11 +306,11 @@
     },
     {
       "scope": "entity.name.tag.html.css",
-      "foreground": "#FC6BAA"
+      "foreground": "color(#83B85E l(+ 5%))"
     },
     {
       "scope": "support.type.property-name.css",
-      "foreground": "color(#83B85E l(+ 5%))"
+      "foreground": "#FC6BAA"
     },
     {
       "scope": "entity.other.custom-property.css, meta.property-value.css variable.other.custom-property.css",
@@ -366,7 +366,7 @@
     },
     {
       "scope": "meta.map.arguments.sass variable.parameter.sass",
-      "foreground": "color(#83B85E l(+ 5%))"
+      "foreground": "#FC6BAA"
     },
     {
       "scope": "variable.declaration.sass, variable.other.sass, meta.map.arguments.sass variable.other.sass, meta.function.parameters.sass variable.parameter.sass, source.sass meta.selector.css, source.sass meta.selector.css entity.name.tag.custom.css",

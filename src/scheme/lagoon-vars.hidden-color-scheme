@@ -188,7 +188,7 @@
         "constant-css-fg":              "color(var(gray4) a(0.8))",
         "entity-name-tag-css-fg":       "color(var(cyan2) l(- 4%))",
         "support-property-css-fg":      "color(var(pink-light4) l(- 9%))",
-        "css-variable-fg":              "color(var(red2) l(- 9%) a(0.7))",
+        "css-variable-fg":              "color(var(red-dark1) l(+ 9% )a(0.8))",
 
         /** Elixir */
         "constant-symbol-keyword-elixir-fg":             "color(var(pink1) l(+ 9%) a(0.7))",
@@ -215,7 +215,7 @@
 
         /** Sass/SCSS */
         "params-sass-fg":      "color(var(pink-light4) l(- 9%))",
-        "variable-sass-fg":    "color(var(red-dark1) l(+ 9% )a(0.8))",
+        "variable-sass-fg":    "color(var(red2) l(- 9%) a(0.7))",
 
         /** Sql */
         "keyword-operator-logical-sql-fg":    "color(var(red2) l(+ 3%) a(0.9))",
