@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.17] - 2024
+## [0.1.17] - 2024-03-01
 - Add markup raw inline background
 - Add support attribute elixir
 - Add meta embedded heex variable other constant elixir
