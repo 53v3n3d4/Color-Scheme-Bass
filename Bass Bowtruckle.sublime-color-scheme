@@ -406,7 +406,7 @@
     },
     {
       "scope": "variable.other.readwrite.instance.ruby",
-      "foreground": "#AA0D91"
+      "foreground": "color(#D0BC56 l(- 14%))"
     },
     {
       "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust",

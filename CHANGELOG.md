@@ -1,5 +1,42 @@
 # Changelog
 
+## [0.1.18] - 2024
+
+## Biohack
+- Change meta embedded var other constant elixir fg color, cyan -> green
+- Change support attr entity name const elixir fg color, cyan -> green
+
+## Blackcomb
+- Change variable other readwrite instance ruby fg color. purple -> yellow
+
+## Bowtruckle
+- Change variable other readwrite instance ruby fg color. purple -> gold
+
+## D-O
+- Change meta embedded var other constant elixir fg color, purple -> green
+- Change support attr entity name const elixir fg color, purple -> green
+
+## Fuji
+- Change meta embedded var other constant elixir fg color, gold -> blue
+- Change support attr entity name const elixir fg color, gold -> blue
+
+## Lagoon
+- Change meta embedded var other constant elixir fg color, gold -> cyan
+- Change support attr entity name const elixir fg color, gold -> cyan
+
+## Nimbus
+- Change variable other readwrite instance ruby fg color. green -> brown
+
+## Roci
+- Change meta embedded var other constant elixir fg color to lighter tone
+- Change support attr entity name const elixir fg color to lighter tone
+- Change variable other readwrite instance ruby fg color to lighter tone
+
+## Zora
+- Change meta embedded var other constant elixir fg color to lighter tone
+- Change support attr entity name const elixir fg color to lighter tone
+- Change variable other readwrite instance ruby fg color. orange -> magenta
+
 ## [0.1.17] - 2024-03-01
 - Add markup raw inline background
 - Add support attribute elixir

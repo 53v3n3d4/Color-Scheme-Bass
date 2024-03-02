@@ -192,8 +192,8 @@
 
         /** Elixir */
         "constant-symbol-keyword-elixir-fg":             "color(var(pink-light4) l(- 3%))",
-        "meta-embedded-var-other-constant-elixir-fg":    "color(var(gold3) l(- 2%))",
-        "support-attr-entity-name-const-elixir-fg":      "color(var(gold3) l(- 2%))",
+        "meta-embedded-var-other-constant-elixir-fg":    "color(var(blue5) l(- 23%))",
+        "support-attr-entity-name-const-elixir-fg":      "color(var(blue5) l(- 23%))",
 
         /** Go */
         "variable-other-readwrite-declaration-go-fg":    "color(var(green-light3) l(- 7%))",

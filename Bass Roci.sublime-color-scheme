@@ -322,11 +322,11 @@
     },
     {
       "scope": "meta.embedded.eex meta.function-call.arguments.elixir variable.other.constant.elixir, meta.embedded.heex variable.other.constant.elixir",
-      "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
+      "foreground": "color(#FFE76D l(+ 7%) a(0.8))"
     },
     {
       "scope": "support.attr.elixir, support.attr.doc.elixir, keyword.operator.attribute.elixir, meta.function-call.arguments.elixir entity.name.constant.elixir",
-      "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
+      "foreground": "color(#FFE76D l(+ 7%) a(0.8))"
     },
     {
       "scope": "variable.other.readwrite.declaration.go",
@@ -406,7 +406,7 @@
     },
     {
       "scope": "variable.other.readwrite.instance.ruby",
-      "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
+      "foreground": "color(#FFE76D l(+ 7%) a(0.8))"
     },
     {
       "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust",

@@ -230,7 +230,7 @@
         "constant-rb-fg":                               "var(green-light2)",
         "meta-class-ruby-fg":                           "var(brown1)",
         "meta-require-ruby-fg":                         "var(magenta2)",
-        "variable-other-readwrite-instance-ruby-fg":    "color(var(purple3) l(+ 33%))",
+        "variable-other-readwrite-instance-ruby-fg":    "var(yellow-light3)",
 
         /** Rust */
         "entity-name-rust-fg":             "var(brown1)",
