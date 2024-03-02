@@ -52,7 +52,7 @@
   "rules": [
     {
       "scope": "entity.name",
-      "foreground": "#007F7C"
+      "foreground": "color(#007F7C l(+ 2%))"
     },
     {
       "scope": "entity.name.class",
@@ -60,7 +60,7 @@
     },
     {
       "scope": "entity.name.function",
-      "foreground": "#007F7C"
+      "foreground": "color(#007F7C l(+ 2%))"
     },
     {
       "scope": "entity.other.inherited-class",
@@ -68,7 +68,7 @@
     },
     {
       "scope": "entity.other.attribute-name",
-      "foreground": "#AA0D91"
+      "foreground": "color(#AA0D91 a(0.8))"
     },
     {
       "scope": "entity.other.pseudo-class",
@@ -76,7 +76,7 @@
     },
     {
       "scope": "variable.function",
-      "foreground": "#007F7C"
+      "foreground": "color(#007F7C l(+ 2%))"
     },
     {
       "scope": "variable.other.constant",
@@ -112,7 +112,7 @@
     },
     {
       "scope": "support.function",
-      "foreground": "#007F7C"
+      "foreground": "color(#007F7C l(+ 2%))"
     },
     {
       "scope": "support.class",
@@ -282,7 +282,7 @@
     },
     {
       "scope": "meta.mapping.key, meta.mapping.key string",
-      "foreground": "#9B2393"
+      "foreground": "color(#9B2393 a(0.9))"
     },
     {
       "scope": "meta.mapping.value, meta.mapping.value string",
@@ -294,11 +294,11 @@
     },
     {
       "scope": "text.html entity.other.attribute-name.id",
-      "foreground": "#AA0D91"
+      "foreground": "color(#AA0D91 a(0.8))"
     },
     {
       "scope": "meta.at-rule.other.css",
-      "foreground": "#007F7C"
+      "foreground": "color(#007F7C l(+ 2%))"
     },
     {
       "scope": "source.css constant",
@@ -306,7 +306,7 @@
     },
     {
       "scope": "entity.name.tag.html.css",
-      "foreground": "color(#1A5301 l(+ 11%) a(0.9))"
+      "foreground": "color(#83B85E l(- 15%))"
     },
     {
       "scope": "support.type.property-name.css",
@@ -330,11 +330,11 @@
     },
     {
       "scope": "variable.other.readwrite.declaration.go",
-      "foreground": "#007F7C"
+      "foreground": "color(#007F7C l(+ 2%))"
     },
     {
       "scope": "storage.type.go",
-      "foreground": "#007F7C"
+      "foreground": "color(#007F7C l(+ 2%))"
     },
     {
       "scope": "storage.type.go support.type.builtin.go",
@@ -362,7 +362,7 @@
     },
     {
       "scope": "meta.function-call.identifier.python support.type.python",
-      "foreground": "#007F7C"
+      "foreground": "color(#007F7C l(+ 2%))"
     },
     {
       "scope": "meta.map.arguments.sass variable.parameter.sass",
@@ -382,11 +382,11 @@
     },
     {
       "scope": "entity.name.table.toml",
-      "foreground": "#007F7C"
+      "foreground": "color(#007F7C l(+ 2%))"
     },
     {
       "scope": "entity.name.tag.toml",
-      "foreground": "#9B2393"
+      "foreground": "color(#9B2393 a(0.9))"
     },
     {
       "scope": "entity.name.class.ruby",
@@ -414,7 +414,7 @@
     },
     {
       "scope": "entity.name.function.rust",
-      "foreground": "#007F7C"
+      "foreground": "color(#007F7C l(+ 2%))"
     },
     {
       "scope": "entity.name.module.rust",

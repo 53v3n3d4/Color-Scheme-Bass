@@ -7,12 +7,29 @@
 - Change support attr entity name const elixir fg color, cyan -> green
 
 ## Blackcomb
+- Change line highlight to ligher tone
 - Change variable other readwrite instance ruby fg color. purple -> yellow
 
 ## Bowtruckle
+- Change entity name fg color to lighter tone
+- Change entity name fn fg color to lighter tone
+- Change entity attribute name fg color to lighter tone
+- Change variable fn fg color to lighter tone
+- Change support fn fg color to lighter tone
+- Change meta mapping key fg color to lighter tone
+- Change entity other attribute name html fg color to lighter tone
+- Change meta at rule other css fg color to lighter tone
+- Change entity name tag css fg color to darker tone
+- Change variable other readwrite declaration go fg color to lighter tone
+- Change storage type go fg color to lighter tone
+- Change meta fn call support type python fg color to lighter tone
+- Change entity name table toml fg color to lighter tone
 - Change variable other readwrite instance ruby fg color. purple -> gold
+- Change entity name fn rust fg color to lighter tone
 
 ## D-O
+- Change entity name tag css fg color to darker tone
+- Change css variable fg color to lighter tone
 - Change meta embedded var other constant elixir fg color, purple -> green
 - Change support attr entity name const elixir fg color, purple -> green
 

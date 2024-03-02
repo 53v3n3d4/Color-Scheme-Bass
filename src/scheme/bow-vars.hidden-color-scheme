@@ -70,13 +70,13 @@
         /** Rules variables*/
 
         /** Entity */
-        "entity-name-fg":                  "var(cyan4)",
+        "entity-name-fg":                  "color(var(cyan4) l(+ 2%))",
         "entity-name-class-fg":            "color(var(brown2) l(+ 18%))",
-        "entity-name-fn-fg":               "var(cyan4)",
+        "entity-name-fn-fg":               "color(var(cyan4) l(+ 2%))",
         "entity-inherited-class-fg":       "color(var(green3) l(+ 11%))",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
-        "entity-attribute-name-fg":        "var(purple3)",
+        "entity-attribute-name-fg":        "color(var(purple3) a(0.8))",
         "entity-other-pseudo-class-fg":    "var(purple2)",
 
         /** Variable */
@@ -84,7 +84,7 @@
         // "variable-lang-font-style":      "italic",
         // "variable-lang-fg":              "var(purple1)",
         // "variable-param-fg":             "var(purple1)",
-        "variable-fn-fg":                "var(cyan4)",
+        "variable-fn-fg":                "color(var(cyan4) l(+ 2%))",
         "variable-other-constant-fg":    "color(var(brown2) l(+ 18%))",
         "variable-other-member-fg":      "var(purple1)",
 
@@ -103,7 +103,7 @@
 
         /** Support */
         // "support-fg":          "var(green3)",
-        "support-fn-fg":                "var(cyan4)",
+        "support-fn-fg":                "color(var(cyan4) l(+ 2%))",
         "support-class-fg":             "color(var(brown2) l(+ 18%))",
         "support-type-primitive-fg":    "color(var(blue-light4) l(- 23%) a(0.8))",
 
@@ -176,17 +176,17 @@
         "variable-other-class-js-fg":               "color(var(brown2) l(+ 18%))",
 
         /** Mapping Key Value */
-        "meta-mapping-key-fg":               "var(purple2)",
+        "meta-mapping-key-fg":               "color(var(purple2) a(0.9))",
         "meta-mapping-value-fg":             "color(var(cyan2) l(- 3%))",
         "punctuation-section-mapping-fg":    "color(var(cyan2) l(- 3%))",
 
         /** HTML */
-        "entity-other-attribute-name-html-fg":    "var(purple3)",
+        "entity-other-attribute-name-html-fg":    "color(var(purple3) a(0.8))",
 
         /** CSS */
-        "meta-at-rule-other-css-fg":    "var(cyan4)",
+        "meta-at-rule-other-css-fg":    "color(var(cyan4) l(+ 2%))",
         "constant-css-fg":              "var(gray4)",
-        "entity-name-tag-css-fg":       "color(var(green3) l(+ 11%) a(0.9))",
+        "entity-name-tag-css-fg":       "color(var(green-light3) l(- 15%))",
         "support-property-css-fg":      "color(var(brown2) l(+ 18%))",
         "css-variable-fg":              "color(var(brown2) a(0.8)",
 
@@ -196,8 +196,8 @@
         "support-attr-entity-name-const-elixir-fg":      "color(var(gold2) l(- 14%))",
 
         /** Go */
-        "variable-other-readwrite-declaration-go-fg":    "var(cyan4)",
-        "storage-type-go-fg":                            "var(cyan4)",
+        "variable-other-readwrite-declaration-go-fg":    "color(var(cyan4) l(+ 2%))",
+        "storage-type-go-fg":                            "color(var(cyan4) l(+ 2%))",
         "storage-support-type-builtin-go-fg":            "color(var(brown2) l(+ 19%))",
 
         /** Git */
@@ -210,7 +210,7 @@
         /** Python */
         "keyword-control-loop-in-python-fg":      "color(var(gold2) l(- 14%))",
         "meta-annotation-python-fg":              "var(cyan2)",
-        "meta-fn-call-support-type-python-fg":    "var(cyan4)",
+        "meta-fn-call-support-type-python-fg":    "color(var(cyan4) l(+ 2%))",
         // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
 
         /** Sass/SCSS */
@@ -222,8 +222,8 @@
         "storage-type-sql-fg":                "color(var(gold2) l(- 14%))",
 
         /** Toml */
-        "entity-name-table-toml-fg":    "var(cyan4)",
-        "entity-name-tag-toml-fg":      "var(purple2)",
+        "entity-name-table-toml-fg":    "color(var(cyan4) l(+ 2%))",
+        "entity-name-tag-toml-fg":      "color(var(purple2) a(0.9))",
 
         /** Ruby */
         "entity-name-class-ruby-fg":                    "color(var(black4) a(0.9))",
@@ -234,7 +234,7 @@
 
         /** Rust */
         "entity-name-rust-fg":             "color(var(brown2) l(+ 18%))",
-        "entity-name-fn-rust-fg":          "var(cyan4)",
+        "entity-name-fn-rust-fg":          "color(var(cyan4) l(+ 2%))",
         "entity-name-module-rust-fg":      "color(var(black4) a(0.9))",
         "keyword-ctrl-rust-fg":            "var(magenta3)",
         "meta-annotation-path-rust-fg":    "var(cyan2)",
