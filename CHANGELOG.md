@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.18] - 2024
+## [0.1.18] - 2024-03-05
 - Add support type vendor prefix css
 
 ## Biohack
