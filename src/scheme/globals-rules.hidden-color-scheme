@@ -588,9 +588,14 @@
             "foreground": "var(entity-name-tag-css-fg)"
         },
         {
-            // "name": "Support property name css", // i.e Margin:
-            "scope": "support.type.property-name.css",
+            // "name": "Support property name and meta property type vendor css", // i.e Margin:
+            "scope": "support.type.property-name.css, meta.property-name.css support.type.vendor-prefix.css",
             "foreground": "var(support-property-css-fg)"
+        },
+        {
+            // "name": "Meta selector support type vendor prefix css",
+            "scope": "meta.selector.css support.type.vendor-prefix.css",
+            "foreground": "var(meta-selector-support-type-vendor-prefix-css-fg)"
         },
         {
             // "name": "Css variable", // i.e css variables --black: 

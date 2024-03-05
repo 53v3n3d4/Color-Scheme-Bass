@@ -184,11 +184,12 @@
         "entity-other-attribute-name-html-fg":    "var(magenta2)",
 
         /** CSS */
-        "meta-at-rule-other-css-fg":    "color(var(blue-light4) l(- 1%) a(0.9))",
-        "constant-css-fg":              "var(gray2)",
-        "entity-name-tag-css-fg":       "color(var(brown2) l(+ 37%) a(0.7))",
-        "support-property-css-fg":      "color(var(green-light1) l(- 11%) a(0.7))",
-        "css-variable-fg":              "color(var(brown2) l(+ 42%) a(0.8))",
+        "meta-at-rule-other-css-fg":                          "color(var(blue-light4) l(- 1%) a(0.9))",
+        "constant-css-fg":                                    "var(gray2)",
+        "entity-name-tag-css-fg":                             "var(yellow-light3)",
+        "support-property-css-fg":                            "color(var(green-light1) l(- 11%) a(0.7))",
+        "meta-selector-support-type-vendor-prefix-css-fg":    "var(pink-light4)",
+        "css-variable-fg":                                    "color(var(brown2) l(+ 42%) a(0.8))",
 
         /** Elixir */
         "constant-symbol-keyword-elixir-fg":             "var(green-light2)",

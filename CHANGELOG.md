@@ -1,6 +1,7 @@
 # Changelog
 
 ## [0.1.18] - 2024
+- Add support type vendor prefix css
 
 ## Biohack
 - Change meta embedded var other constant elixir fg color, cyan -> green
@@ -8,6 +9,7 @@
 
 ## Blackcomb
 - Change line highlight to ligher tone
+- Change entity name fg color, brown -> yellow
 - Change variable other readwrite instance ruby fg color. purple -> yellow
 
 ## Bowtruckle

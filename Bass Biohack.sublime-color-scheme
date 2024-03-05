@@ -309,8 +309,12 @@
       "foreground": "color(#83B85E l(+ 5%))"
     },
     {
-      "scope": "support.type.property-name.css",
+      "scope": "support.type.property-name.css, meta.property-name.css support.type.vendor-prefix.css",
       "foreground": "#FC6BAA"
+    },
+    {
+      "scope": "meta.selector.css support.type.vendor-prefix.css",
+      "foreground": "#EC4990"
     },
     {
       "scope": "entity.other.custom-property.css, meta.property-value.css variable.other.custom-property.css",
