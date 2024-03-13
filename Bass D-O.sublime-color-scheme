@@ -365,8 +365,8 @@
       "foreground": "color(#643820 a(0.7))"
     },
     {
-      "scope": "meta.function-call.identifier.python support.type.python",
-      "foreground": "color(#D0BC56 l(- 7%))"
+      "scope": "support.type.python",
+      "foreground": "color(#EC4990 a(0.8))"
     },
     {
       "scope": "meta.map.arguments.sass variable.parameter.sass",

@@ -695,8 +695,8 @@
         },
         {
             // "name": "Meta function call support type python",
-            "scope": "meta.function-call.identifier.python support.type.python",
-            "foreground": "var(meta-fn-call-support-type-python-fg)"
+            "scope": "support.type.python", // "meta.function-call.identifier.python support.type.python, meta.function.return-type.python support.type.python",
+            "foreground": "var(support-type-python-fg)"
         },
         // {
         //     "name": "Meta qualified name function", // want to color only Class but coloring functions too
@@ -709,14 +709,13 @@
          * Sass/SCSS
          *
          */
-        // source.scss meta.property-value.css meta.group.css meta.map.arguments.sass meta.group.css meta.map.arguments.sass variable.parameter.sass
         {
             // "name": "Parameter sass",
             "scope": "meta.map.arguments.sass variable.parameter.sass",
             "foreground": "var(params-sass-fg)"
         },
         {
-            // "name": "Variable sass", // source.scss meta.property-value.css meta.group.css meta.map.arguments.sass meta.group.css meta.map.arguments.sass variable.other.sass
+            // "name": "Variable sass",
             "scope": "variable.declaration.sass, variable.other.sass, meta.map.arguments.sass variable.other.sass, meta.function.parameters.sass variable.parameter.sass, source.sass meta.selector.css, source.sass meta.selector.css entity.name.tag.custom.css",
             "foreground": "var(variable-sass-fg)"
         },

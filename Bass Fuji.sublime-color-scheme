@@ -365,7 +365,7 @@
       "foreground": "color(#643820 a(0.8))"
     },
     {
-      "scope": "meta.function-call.identifier.python support.type.python",
+      "scope": "support.type.python",
       "foreground": "color(#83B85E l(- 7%))"
     },
     {

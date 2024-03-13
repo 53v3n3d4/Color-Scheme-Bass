@@ -365,7 +365,7 @@
       "foreground": "#B4B4B4"
     },
     {
-      "scope": "meta.function-call.identifier.python support.type.python",
+      "scope": "support.type.python",
       "foreground": "#E47C48"
     },
     {

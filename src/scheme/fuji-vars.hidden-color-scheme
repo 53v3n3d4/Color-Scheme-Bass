@@ -209,9 +209,9 @@
         "punctuation-section-embedded-php-fg":    "var(orange2)",
 
         /** Python */
-        "keyword-control-loop-in-python-fg":      "color(var(gold3) l(- 2%))",
-        "meta-annotation-python-fg":              "color(var(brown2) a(0.8))",
-        "meta-fn-call-support-type-python-fg":    "color(var(green-light3) l(- 7%))",
+        "keyword-control-loop-in-python-fg":    "color(var(gold3) l(- 2%))",
+        "meta-annotation-python-fg":            "color(var(brown2) a(0.8))",
+        "support-type-python-fg":               "color(var(green-light3) l(- 7%))",
         // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
 
         /** Sass/SCSS */
