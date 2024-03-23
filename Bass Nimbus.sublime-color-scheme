@@ -8,7 +8,7 @@
   "variables": {},
   "globals": {
     "background": "#F3EFF2",
-    "foreground": "#404040",
+    "foreground": "color(#525055 a(0.9))",
     "invisibles": "#9B9B9B",
     "caret": "#525055",
     "line_highlight": "color(#F3EFF2 l(- 11%) a(0.5))",

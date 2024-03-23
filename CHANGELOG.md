@@ -6,6 +6,9 @@
 ### D-O
 - Change support type python fg color, gold -> magenta
 
+### Nimbus
+- Change foreground color to lighter tone
+
 ## [0.1.18] - 2024-03-05
 - Add support type vendor prefix css
 
