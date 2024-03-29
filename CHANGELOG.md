@@ -8,6 +8,8 @@
 
 ### Nimbus
 - Change foreground color to lighter tone
+- Change gutter foreground hl color, purple -> blue
+- Change meta annotation path rust fg color to lighter tone
 
 ## [0.1.18] - 2024-03-05
 - Add support type vendor prefix css
