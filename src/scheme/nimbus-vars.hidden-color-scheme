@@ -215,7 +215,9 @@
         // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
 
         /** Sass/SCSS */
+        "constant-sass-fg":    "var(gray4)",
         "params-sass-fg":      "color(var(red-dark1) l(+ 11% )a(0.8))",
+        "string-scss-fg":      "color(var(violet1) l(+ 29%))",
         "variable-sass-fg":    "color(var(pink-light3) l(- 11%) a(0.8))",
 
         /** Sql */

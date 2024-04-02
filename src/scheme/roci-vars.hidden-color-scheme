@@ -185,7 +185,7 @@
 
         /** CSS */
         "meta-at-rule-other-css-fg":                          "var(green-light3)",
-        "constant-css-fg":                                    "var(gray2)",
+        "constant-css-fg":                                    "color(var(gray2) l(+ 8%))",
         "entity-name-tag-css-fg":                             "color(var(brown2) l(+ 24%))",
         "support-property-css-fg":                            "color(var(green-light3) a(0.9))",
         "meta-selector-support-type-vendor-prefix-css-fg":    "var(magenta3)",
@@ -215,7 +215,9 @@
         // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
 
         /** Sass/SCSS */
+        "constant-sass-fg":    "color(var(gray2) l(+ 8%))",
         "params-sass-fg":      "color(var(green-light3) a(0.9))",
+        "string-scss-fg":      "color(var(cyan1) a(0.7))",
         "variable-sass-fg":    "color(var(green-light1) l(- 9%) a(0.7))",
 
         /** Sql */

@@ -2,6 +2,8 @@
 
 ## [0.1.19] - 2024
 - Change meta function call support type python to support type python
+- Add sass/scss constant other color rgb-value
+- Fix plugin sass (add string sass), after upgrade, do not identify @use with multiple lines.
 
 ### D-O
 - Change support type python fg color, gold -> magenta
@@ -10,6 +12,12 @@
 - Change foreground color to lighter tone
 - Change gutter foreground hl color, purple -> blue
 - Change meta annotation path rust fg color to lighter tone
+
+### Roci
+- Change constant css fg to lighter tone
+
+### Zora
+- Change constant css fg to lighter tone
 
 ## [0.1.18] - 2024-03-05
 - Add support type vendor prefix css

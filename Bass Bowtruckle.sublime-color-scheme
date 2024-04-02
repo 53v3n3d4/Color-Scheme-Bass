@@ -369,11 +369,19 @@
       "foreground": "color(#007F7C l(+ 2%))"
     },
     {
+      "scope": "source.sass meta.property-name.css meta.property-value.css constant.other.color.rgb-value.css, source.scss constant.other.color.rgb-value.css",
+      "foreground": "#5D6C79"
+    },
+    {
       "scope": "meta.map.arguments.sass variable.parameter.sass",
       "foreground": "color(#643820 l(+ 18%))"
     },
     {
-      "scope": "variable.declaration.sass, variable.other.sass, meta.map.arguments.sass variable.other.sass, meta.function.parameters.sass variable.parameter.sass, source.sass meta.selector.css, source.sass meta.selector.css entity.name.tag.custom.css",
+      "scope": "source.scss meta.selector.css entity.name.tag.other.css, source.scss meta.selector.css entity.name.tag.html.css",
+      "foreground": "color(#1E73BE a(0.9))"
+    },
+    {
+      "scope": "variable.declaration.sass, variable.other.sass, meta.map.arguments.sass variable.other.sass, meta.function.parameters.sass variable.parameter.sass, source.sass meta.selector.css, source.sass meta.selector.css entity.name.tag.custom.css, variable.other.scss, meta.parameter.identifier.scss variable.parameter.scss, meta.argument.identifier.scss variable.parameter.scss",
       "foreground": "color(#38A2AF l(- 4%) a(0.9))"
     },
     {

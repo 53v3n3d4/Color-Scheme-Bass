@@ -710,13 +710,23 @@
          *
          */
         {
+            // "name": "Constant scss",
+            "scope": "source.sass meta.property-name.css meta.property-value.css constant.other.color.rgb-value.css, source.scss constant.other.color.rgb-value.css",
+            "foreground": "var(constant-sass-fg)"
+        },
+        {
             // "name": "Parameter sass",
             "scope": "meta.map.arguments.sass variable.parameter.sass",
             "foreground": "var(params-sass-fg)"
         },
         {
-            // "name": "Variable sass",
-            "scope": "variable.declaration.sass, variable.other.sass, meta.map.arguments.sass variable.other.sass, meta.function.parameters.sass variable.parameter.sass, source.sass meta.selector.css, source.sass meta.selector.css entity.name.tag.custom.css",
+            // "name": "String scss", // Fix plugin sass, after upgrade, do not identify @use with multiple lines
+            "scope": "source.scss meta.selector.css entity.name.tag.other.css, source.scss meta.selector.css entity.name.tag.html.css",
+            "foreground": "var(string-scss-fg)"
+        },
+        {
+            // "name": "Variable sass/scss",
+            "scope": "variable.declaration.sass, variable.other.sass, meta.map.arguments.sass variable.other.sass, meta.function.parameters.sass variable.parameter.sass, source.sass meta.selector.css, source.sass meta.selector.css entity.name.tag.custom.css, variable.other.scss, meta.parameter.identifier.scss variable.parameter.scss, meta.argument.identifier.scss variable.parameter.scss",
             "foreground": "var(variable-sass-fg)"
         },
 
