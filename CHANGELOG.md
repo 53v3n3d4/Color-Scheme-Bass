@@ -1,9 +1,12 @@
 # Changelog
 
+## [0.1.20] - 2024
+- Change scope constant sass/scss fg
+
 ## [0.1.19] - 2024-04-01
 - Change meta function call support type python to support type python
 - Add sass/scss constant other color rgb-value
-- Fix plugin sass (add string sass), after upgrade, do not identify @use with multiple lines.
+- Fix plugin sass (add string sass), after upgrade, do not identify tag use with multiple strings
 
 ### D-O
 - Change support type python fg color, gold -> magenta

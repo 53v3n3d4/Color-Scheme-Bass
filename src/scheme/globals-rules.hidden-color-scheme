@@ -710,8 +710,8 @@
          *
          */
         {
-            // "name": "Constant scss",
-            "scope": "source.sass meta.property-name.css meta.property-value.css constant.other.color.rgb-value.css, source.scss constant.other.color.rgb-value.css",
+            // "name": "Constant sass",
+            "scope": "source.sass constant.other.color.rgb-value.css, source.scss constant.other.color.rgb-value.css",
             "foreground": "var(constant-sass-fg)"
         },
         {
@@ -720,7 +720,7 @@
             "foreground": "var(params-sass-fg)"
         },
         {
-            // "name": "String scss", // Fix plugin sass, after upgrade, do not identify @use with multiple lines
+            // "name": "String scss", // Fix plugin sass, after upgrade, do not identify @use with multiple strings
             "scope": "source.scss meta.selector.css entity.name.tag.other.css, source.scss meta.selector.css entity.name.tag.html.css",
             "foreground": "var(string-scss-fg)"
         },

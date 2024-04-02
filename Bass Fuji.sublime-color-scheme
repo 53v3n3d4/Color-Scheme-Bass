@@ -369,7 +369,7 @@
       "foreground": "color(#83B85E l(- 7%))"
     },
     {
-      "scope": "source.sass meta.property-name.css meta.property-value.css constant.other.color.rgb-value.css, source.scss constant.other.color.rgb-value.css",
+      "scope": "source.sass constant.other.color.rgb-value.css, source.scss constant.other.color.rgb-value.css",
       "foreground": "#5D6C79"
     },
     {
