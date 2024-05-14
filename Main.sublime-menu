@@ -1,0 +1,29 @@
+[
+  {
+    "id": "preferences",
+    "children":
+    [
+      {
+        "caption": "Package Settings",
+        "id": "package-settings",
+        "children":
+        [
+          {
+            "caption": "Color Scheme - Bass",
+            "children":
+            [
+              {
+                "caption": "CHANGELOG",
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/Color Scheme - Bass/CHANGELOG.md"
+                }
+              }
+            ]
+          }
+
+        ]
+      }
+    ]
+  }
+]
