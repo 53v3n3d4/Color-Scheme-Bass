@@ -164,7 +164,7 @@
         "diff-inserted-char-fg":    "color(var(green2) a(0.9))",
 
         /** Java */
-        "meta-import-wildcard-asterisk-java-fg":    "color(var(gold3) l(- 11%))",
+        "meta-import-wildcard-asterisk-java-fg":    "color(var(yellow2) l(- 8%))",
 
         /** Javascript */
         "entity-name-type-interface-js-fg":         "color(var(green-light3) l(- 14%))",
@@ -202,16 +202,19 @@
         "storage-support-type-builtin-go-fg":            "color(var(magenta3) a(0.8))",
 
         /** Git */
-        "meta-mapping-value-git-attributes-fg":    "var(green2)",
+        "entity-name-git-ignore-const-wildcard-asterisk-fg":    "color(var(yellow2) l(- 8%))",
+        "meta-mapping-value-git-attributes-fg":                 "var(green2)",
 
         /** PHP */
         "punctuation-definition-var-php-fg":      "color(var(pink-light4) l(- 13%))",
         "punctuation-section-embedded-php-fg":    "color(var(green-light3) l(- 14%))",
 
         /** Python */
-        "keyword-control-loop-in-python-fg":    "color(var(gold3) l(- 11%))",
-        "meta-annotation-python-fg":            "color(var(green2) l(- 7%))",
-        "support-type-python-fg":               "color(var(brown2) l(+ 23%))",
+        "constant-other-placeholder-python-fg":    "color(var(black4) a(0.9))",
+        "keyword-control-loop-in-python-fg":       "color(var(gold3) l(- 11%))",
+        "meta-annotation-python-fg":               "color(var(green2) l(- 7%))",
+        "meta-fn-arg-string-quoted-python-fg":     "color(var(purple2) a(0.8))",
+        "support-type-python-fg":                  "color(var(brown2) l(+ 23%))",
         // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
 
         /** Sass/SCSS */

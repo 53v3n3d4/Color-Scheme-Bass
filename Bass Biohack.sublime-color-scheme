@@ -345,6 +345,10 @@
       "foreground": "#DF88B7"
     },
     {
+      "scope": "entity.name.pattern.git.ignore constant.other.wildcard.asterisk.fnmatch.git",
+      "foreground": "color(#40E0D0 l(+ 3%))"
+    },
+    {
       "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
       "foreground": "#A7D4B4"
     },
@@ -357,12 +361,20 @@
       "foreground": "#A7D4B4"
     },
     {
+      "scope": "meta.function-call.arguments.python meta.string.python string.quoted.single.python constant.other.placeholder.python",
+      "foreground": "#F0F0F7"
+    },
+    {
       "scope": "meta.statement.loop.for.python keyword.control.loop.for.in.python",
       "foreground": "color(#40E0D0 l(+ 3%))"
     },
     {
       "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python",
       "foreground": "#B4B4B4"
+    },
+    {
+      "scope": "meta.function-call.arguments.python meta.mapping.value.python string.quoted.single.python",
+      "foreground": "color(#F9DF9C a(0.6))"
     },
     {
       "scope": "support.type.python",

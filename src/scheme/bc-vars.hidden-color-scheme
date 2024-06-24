@@ -202,16 +202,19 @@
         "storage-support-type-builtin-go-fg":            "var(orange-light1)",
 
         /** Git */
-        "meta-mapping-value-git-attributes-fg":    "var(magenta2)",
+        "entity-name-git-ignore-const-wildcard-asterisk-fg":    "var(yellow1)",
+        "meta-mapping-value-git-attributes-fg":                 "var(magenta2)",
 
         /** PHP */
         "punctuation-definition-var-php-fg":      "var(yellow1)",
         "punctuation-section-embedded-php-fg":    "var(brown1)",
 
         /** Python */
-        "keyword-control-loop-in-python-fg":    "var(yellow1)",
-        "meta-annotation-python-fg":            "color(var(blue2) l(+ 33%) a(0.6))",
-        "support-type-python-fg":               "color(var(blue-light4) l(- 1%) a(0.9))",
+        "constant-other-placeholder-python-fg":    "var(white2)",
+        "keyword-control-loop-in-python-fg":       "var(yellow1)",
+        "meta-annotation-python-fg":               "color(var(blue2) l(+ 33%) a(0.6))",
+        "meta-fn-arg-string-quoted-python-fg":     "color(var(green-light3) a(0.9))",
+        "support-type-python-fg":                  "color(var(blue-light4) l(- 1%) a(0.9))",
         // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
 
         /** Sass/SCSS */

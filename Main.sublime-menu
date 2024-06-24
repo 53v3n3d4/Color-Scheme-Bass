@@ -13,7 +13,7 @@
             "children":
             [
               {
-                "caption": "CHANGELOG",
+                "caption": "Changelog",
                 "command": "open_file",
                 "args": {
                   "file": "${packages}/Color Scheme - Bass/CHANGELOG.md"

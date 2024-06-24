@@ -250,7 +250,7 @@
     },
     {
       "scope": "meta.import.java constant.other.wildcard.asterisk.java",
-      "foreground": "color(#D1B502 l(- 2%))"
+      "foreground": "color(#5DD8FF l(- 2%))"
     },
     {
       "scope": "entity.name.type.js, entity.name.interface.js",
@@ -345,6 +345,10 @@
       "foreground": "#E47C48"
     },
     {
+      "scope": "entity.name.pattern.git.ignore constant.other.wildcard.asterisk.fnmatch.git",
+      "foreground": "color(#5DD8FF l(- 2%))"
+    },
+    {
       "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
       "foreground": "#9B2393"
     },
@@ -357,12 +361,20 @@
       "foreground": "#E47C48"
     },
     {
+      "scope": "meta.function-call.arguments.python meta.string.python string.quoted.single.python constant.other.placeholder.python",
+      "foreground": "#404040"
+    },
+    {
       "scope": "meta.statement.loop.for.python keyword.control.loop.for.in.python",
       "foreground": "color(#D1B502 l(- 2%))"
     },
     {
       "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python",
       "foreground": "color(#643820 a(0.8))"
+    },
+    {
+      "scope": "meta.function-call.arguments.python meta.mapping.value.python string.quoted.single.python",
+      "foreground": "#1E73BE"
     },
     {
       "scope": "support.type.python",

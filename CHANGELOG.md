@@ -2,6 +2,16 @@
 
 ## [0.1.20] - 2024
 - Change scope constant sass/scss fg
+- Add sublime-menu, with Changelog
+- Add entity name gitignore constant wildcard asterisk fg
+- Add constant other placeholder python fg
+- Add meta function call arguments string quoted python fg
+
+### Fuji
+- Change meta import wildcard asterisk java fg color, gold -> blue 
+
+### Lagoon
+- Change meta import wildcard asterisk java fg color, gold -> yellow 
 
 ## [0.1.19] - 2024-04-01
 - Change meta function call support type python to support type python

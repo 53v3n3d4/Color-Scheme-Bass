@@ -657,6 +657,11 @@
          *
          */
         {
+            // "name": "Entity name patthen git ignore wildcard asterisk",
+            "scope": "entity.name.pattern.git.ignore constant.other.wildcard.asterisk.fnmatch.git",
+            "foreground": "var(entity-name-git-ignore-const-wildcard-asterisk-fg)"
+        },
+        {
             // "name": "Git attributes value",
             "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
             "foreground": "var(meta-mapping-value-git-attributes-fg)"
@@ -684,6 +689,11 @@
          *
          */
         {
+            // "name": "Constant other placeholder python",
+            "scope": "meta.function-call.arguments.python meta.string.python string.quoted.single.python constant.other.placeholder.python",
+            "foreground": "var(constant-other-placeholder-python-fg)"
+        },
+        {
             // "name": "Keyword control loopp in python",
             "scope": "meta.statement.loop.for.python keyword.control.loop.for.in.python",
             "foreground": "var(keyword-control-loop-in-python-fg)"
@@ -692,6 +702,11 @@
             // "name": "Meta annotation python",
             "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python",
             "foreground": "var(meta-annotation-python-fg)"
+        },
+        {
+            // "name": "Meta function call arguments string quoted python",
+            "scope": "meta.function-call.arguments.python meta.mapping.value.python string.quoted.single.python",
+            "foreground": "var(meta-fn-arg-string-quoted-python-fg)"
         },
         {
             // "name": "Meta function call support type python",
