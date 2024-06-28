@@ -210,11 +210,12 @@
         "punctuation-section-embedded-php-fg":    "color(var(orange2) a(0.9))",
 
         /** Python */
-        "constant-other-placeholder-python-fg":    "color(var(gray6) a(0.9))",
-        "keyword-control-loop-in-python-fg":       "color(var(gold3) l(- 1%) a(0.9))",
-        "meta-annotation-python-fg":               "var(gray4)",
-        "meta-fn-arg-string-quoted-python-fg":     "color(var(violet1) l(+ 29%))",
-        "support-type-python-fg":                  "color(var(blue3) a(0.7))",
+        "constant-other-placeholder-python-fg":                 "color(var(gray6) a(0.9))",
+        "keyword-control-loop-in-python-fg":                    "color(var(gold3) l(- 1%) a(0.9))",
+        "meta-annotation-python-fg":                            "var(gray4)",
+        "meta-fn-arg-string-quoted-python-fg":                  "color(var(violet1) l(+ 29%))",
+        "meta-mapping-value-string-interpolation-python-fg":    "color(var(gray6) a(0.9))",
+        "support-type-python-fg":                               "color(var(blue3) a(0.7))",
         // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
 
         /** Sass/SCSS */

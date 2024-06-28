@@ -709,6 +709,11 @@
             "foreground": "var(meta-fn-arg-string-quoted-python-fg)"
         },
         {
+            // "name": "Meta mapping value string interpolation python",
+            "scope": "meta.mapping.value.python meta.string.python meta.interpolation.python source.python.embedded, meta.mapping.value.python meta.string.python meta.interpolation.python punctuation.section.interpolation.end.python, meta.mapping.value.python meta.string.python meta.interpolation.python punctuation.section.interpolation.begin.python",
+            "foreground": "var(meta-mapping-value-string-interpolation-python-fg)"
+        },
+        {
             // "name": "Meta function call support type python",
             "scope": "support.type.python", // "meta.function-call.identifier.python support.type.python, meta.function.return-type.python support.type.python",
             "foreground": "var(support-type-python-fg)"

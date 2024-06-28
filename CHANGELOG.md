@@ -6,6 +6,7 @@
 - Add entity name gitignore constant wildcard asterisk fg
 - Add constant other placeholder python fg
 - Add meta function call arguments string quoted python fg
+- Add meta mapping value string interpolation python fg
 
 ### Fuji
 - Change meta import wildcard asterisk java fg color, gold -> blue 

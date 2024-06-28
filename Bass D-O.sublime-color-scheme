@@ -377,6 +377,10 @@
       "foreground": "color(#643820 a(0.5))"
     },
     {
+      "scope": "meta.mapping.value.python meta.string.python meta.interpolation.python source.python.embedded, meta.mapping.value.python meta.string.python meta.interpolation.python punctuation.section.interpolation.end.python, meta.mapping.value.python meta.string.python meta.interpolation.python punctuation.section.interpolation.begin.python",
+      "foreground": "#5D6C79"
+    },
+    {
       "scope": "support.type.python",
       "foreground": "color(#EC4990 a(0.8))"
     },
