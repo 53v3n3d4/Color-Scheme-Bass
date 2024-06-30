@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.20] - 2024
+## [0.1.20] - 2024-06-30
 - Change scope constant sass/scss fg
 - Add sublime-menu, with Changelog
 - Add entity name gitignore constant wildcard asterisk fg
