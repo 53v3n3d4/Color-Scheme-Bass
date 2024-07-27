@@ -90,7 +90,7 @@
 
         /** Constant */
         // "constant-fg":                "var(green4)",
-        "constant-num-fg":            "color(var(gold2) l(- 7%))",
+        "constant-num-fg":            "color(var(orange1) l(+ 2%))",
         "constant-lang-fg":           "var(red1)",
         "constant-lang-null-fg":      "var(red1)",
         "constant-lang-bool-fg":      "var(red1)",

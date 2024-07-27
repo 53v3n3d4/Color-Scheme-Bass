@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.21] - 2024
+
+### D-O
+- Change constant number fg color, gold -> orange
+
 ## [0.1.20] - 2024-06-30
 - Change scope constant sass/scss fg
 - Add sublime-menu, with Changelog
