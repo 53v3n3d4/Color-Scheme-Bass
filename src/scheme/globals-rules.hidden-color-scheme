@@ -537,7 +537,7 @@
 
         /**
          *
-         * MAPPING KEY VALUE
+         * MAPPING KEY VALUE AND SEQUENCE
          *
          */
         {
@@ -550,10 +550,17 @@
             "scope": "meta.mapping.value, meta.mapping.value string", // Json text, Yaml and JS not working
             "foreground": "var(meta-mapping-value-fg)"
         },
+        // Open and close bracket json, yaml
+        // More generic, removing ( json | yaml ) because it is mixing inside other lang codes.
         {
             // "name": "Punctuation section mapping",
-            "scope": "(source.json | source.yaml) punctuation.section.mapping.begin, (source.json | source.yaml) punctuation.section.mapping.end", // Open and close bracket json, yaml
+            "scope": "punctuation.section.mapping.begin, punctuation.section.mapping.end",
             "foreground": "var(punctuation-section-mapping-fg)"
+        },
+        {
+            // "name": "Punctuation section sequence separator",
+            "scope": "punctuation.section.sequence.begin, punctuation.section.sequence.end, punctuation.separator.sequence, punctuation.separator.key-value",
+            "foreground": "var(punctuation-section-sequence-separator-fg)"
         },
 
         /**

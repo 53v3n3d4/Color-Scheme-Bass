@@ -176,9 +176,10 @@
         "variable-other-class-js-fg":               "color(var(brown2) l(+ 18%))",
 
         /** Mapping Key Value */
-        "meta-mapping-key-fg":               "color(var(purple2) a(0.9))",
-        "meta-mapping-value-fg":             "color(var(cyan2) l(- 3%))",
-        "punctuation-section-mapping-fg":    "color(var(cyan2) l(- 3%))",
+        "meta-mapping-key-fg":                          "color(var(purple2) a(0.9))",
+        "meta-mapping-value-fg":                        "color(var(cyan2) l(- 3%))",
+        "punctuation-section-mapping-fg":               "color(var(black4) a(0.9))",
+        "punctuation-section-sequence-separator-fg":    "color(var(black4) a(0.9))",
 
         /** HTML */
         "entity-other-attribute-name-html-fg":    "color(var(purple3) a(0.8))",

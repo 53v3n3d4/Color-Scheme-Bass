@@ -1,9 +1,35 @@
 # Changelog
 
 ## [0.1.21] - 2024
+- Change rules punctuation section mapping fg
+- Add punctuation section sequence separator fg
+
+### Biohack
+- Change punctuation section mapping fg color, magenta -> white
+
+### Blackcomb
+- Change punctuation section mapping fg color, blue-light -> white
+
+### Bowtruckle
+- Change punctuation section mapping fg color, cyan -> black
 
 ### D-O
 - Change constant number fg color, gold -> orange
+
+### Fuji
+- Change punctuation section mapping fg color, blue -> black
+
+### Lagoon
+- Change punctuation section mapping fg color, pink -> black
+
+### Nimbus
+- Change punctuation section mapping fg color, green -> gray
+
+### Roci
+- Change punctuation section mapping fg color, blue -> gray
+
+### Zora
+- Change punctuation section mapping fg color, gold -> gray
 
 ## [0.1.20] - 2024-06-30
 - Change scope constant sass/scss fg

@@ -289,8 +289,12 @@
       "foreground": "color(#D0BC56 l(- 7%))"
     },
     {
-      "scope": "(source.json | source.yaml) punctuation.section.mapping.begin, (source.json | source.yaml) punctuation.section.mapping.end",
-      "foreground": "color(#D0BC56 l(- 7%))"
+      "scope": "punctuation.section.mapping.begin, punctuation.section.mapping.end",
+      "foreground": "#B4B4B4"
+    },
+    {
+      "scope": "punctuation.section.sequence.begin, punctuation.section.sequence.end, punctuation.separator.sequence, punctuation.separator.key-value",
+      "foreground": "#B4B4B4"
     },
     {
       "scope": "text.html entity.other.attribute-name.id",

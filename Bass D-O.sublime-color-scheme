@@ -289,7 +289,11 @@
       "foreground": "#5D6C79"
     },
     {
-      "scope": "(source.json | source.yaml) punctuation.section.mapping.begin, (source.json | source.yaml) punctuation.section.mapping.end",
+      "scope": "punctuation.section.mapping.begin, punctuation.section.mapping.end",
+      "foreground": "#5D6C79"
+    },
+    {
+      "scope": "punctuation.section.sequence.begin, punctuation.section.sequence.end, punctuation.separator.sequence, punctuation.separator.key-value",
       "foreground": "#5D6C79"
     },
     {
