@@ -621,14 +621,14 @@
             "foreground": "var(constant-symbol-keyword-elixir-fg)"
         },
         {
-            // "name": "Meta embedded variable other constant elixir",
-            "scope": "meta.embedded.eex meta.function-call.arguments.elixir variable.other.constant.elixir, meta.embedded.heex variable.other.constant.elixir",
-            "foreground": "var(meta-embedded-var-other-constant-elixir-fg)"
-        },
-        {
             // "name": "Support attribute, keyword  and entity name constant elixir",
             "scope": "support.attr.elixir, support.attr.doc.elixir, keyword.operator.attribute.elixir, meta.function-call.arguments.elixir entity.name.constant.elixir",
             "foreground": "var(support-attr-entity-name-const-elixir-fg)"
+        },
+        {
+            // "name": "Variable other constant elixir",
+            "scope": "meta.embedded.eex meta.function-call.arguments.elixir variable.other.constant.elixir, meta.embedded.heex variable.other.constant.elixir, meta.function-call.arguments.elixir meta.block.elixir meta.brackets.elixir variable.other.constant.elixir",
+            "foreground": "var(var-other-constant-elixir-fg)"
         },
 
         /**

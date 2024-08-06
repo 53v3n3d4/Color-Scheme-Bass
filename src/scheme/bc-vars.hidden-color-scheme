@@ -193,9 +193,9 @@
         "css-variable-fg":                                    "color(var(brown2) l(+ 42%) a(0.8))",
 
         /** Elixir */
-        "constant-symbol-keyword-elixir-fg":             "var(green-light2)",
-        "meta-embedded-var-other-constant-elixir-fg":    "var(yellow-light3)",
-        "support-attr-entity-name-const-elixir-fg":      "var(yellow-light3)",
+        "constant-symbol-keyword-elixir-fg":           "var(green-light2)",
+        "support-attr-entity-name-const-elixir-fg":    "var(yellow-light3)",
+        "var-other-constant-elixir-fg":                "var(yellow-light3)",
 
         /** Go */
         "variable-other-readwrite-declaration-go-fg":    "color(var(blue-light4) l(- 1%) a(0.9))",

@@ -186,16 +186,16 @@
 
         /** CSS */
         "meta-at-rule-other-css-fg":                          "var(blue2)",
-        "constant-css-fg":                                    "var(gray4)",
+        "constant-css-fg":                                    "color(var(gray2) l(- 14%))",
         "entity-name-tag-css-fg":                             "var(pink-light4)",
         "support-property-css-fg":                            "var(brown1)",
         "meta-selector-support-type-vendor-prefix-css-fg":    "var(purple2)",
         "css-variable-fg":                                    "color(var(blue5) l(- 24%))",
 
         /** Elixir */
-        "constant-symbol-keyword-elixir-fg":             "color(var(pink-light4) l(- 3%))",
-        "meta-embedded-var-other-constant-elixir-fg":    "color(var(blue5) l(- 23%))",
-        "support-attr-entity-name-const-elixir-fg":      "color(var(blue5) l(- 23%))",
+        "constant-symbol-keyword-elixir-fg":           "color(var(pink-light4) l(- 3%))",
+        "support-attr-entity-name-const-elixir-fg":    "color(var(blue5) l(- 23%))",
+        "var-other-constant-elixir-fg":                "color(var(blue5) l(- 23%))",
 
         /** Go */
         "variable-other-readwrite-declaration-go-fg":    "color(var(green-light3) l(- 7%))",

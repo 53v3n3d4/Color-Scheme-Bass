@@ -1,8 +1,9 @@
 # Changelog
 
 ## [0.1.21] - 2024
-- Change rules punctuation section mapping fg
+- Change rule punctuation section mapping fg
 - Add punctuation section sequence separator fg
+- Change rule meta embedded variable other constant elixir fg
 
 ### Biohack
 - Change punctuation section mapping fg color, magenta -> white
@@ -18,12 +19,14 @@
 
 ### Fuji
 - Change punctuation section mapping fg color, blue -> black
+- Change constant css fg to lighter tone
 
 ### Lagoon
 - Change punctuation section mapping fg color, pink -> black
 
 ### Nimbus
 - Change punctuation section mapping fg color, green -> gray
+- Change constant css fg to lighter tone
 
 ### Roci
 - Change punctuation section mapping fg color, blue -> gray
