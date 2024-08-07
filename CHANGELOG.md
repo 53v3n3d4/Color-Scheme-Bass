@@ -7,15 +7,21 @@
 
 ### Biohack
 - Change punctuation section mapping fg color, magenta -> white
+- Change meta mapping value fg color, magenta -> gray
+- Change meta annotation python fg color, gray -> green
 
 ### Blackcomb
 - Change punctuation section mapping fg color, blue-light -> white
+- Change meta mapping key fg to lighter tone
+- Change meta mapping value fg color, blue -> yellow
 
 ### Bowtruckle
 - Change punctuation section mapping fg color, cyan -> black
+- Change meta mapping value fg color, cyan -> brown
 
 ### D-O
 - Change constant number fg color, gold -> orange
+- Change meta mapping value fg color, gray -> dark red
 
 ### Fuji
 - Change punctuation section mapping fg color, blue -> black
@@ -23,6 +29,7 @@
 
 ### Lagoon
 - Change punctuation section mapping fg color, pink -> black
+- Change meta mapping key fg color, green -> dark red
 
 ### Nimbus
 - Change punctuation section mapping fg color, green -> gray
@@ -30,9 +37,13 @@
 
 ### Roci
 - Change punctuation section mapping fg color, blue -> gray
+- Change meta mapping key fg to lighter tone
+- Change meta mapping value fg color, blue -> green
 
 ### Zora
 - Change punctuation section mapping fg color, gold -> gray
+- Change meta mapping key fg to darker tone
+- Change meta mapping value fg color, gold -> brown
 
 ## [0.1.20] - 2024-06-30
 - Change scope constant sass/scss fg

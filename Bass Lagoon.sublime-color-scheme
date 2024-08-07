@@ -282,7 +282,7 @@
     },
     {
       "scope": "meta.mapping.key, meta.mapping.key string",
-      "foreground": "color(#119912 l(- 7%))"
+      "foreground": "color(#4A3532 l(+ 9% )a(0.8))"
     },
     {
       "scope": "meta.mapping.value, meta.mapping.value string",

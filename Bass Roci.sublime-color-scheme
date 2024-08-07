@@ -282,11 +282,11 @@
     },
     {
       "scope": "meta.mapping.key, meta.mapping.key string",
-      "foreground": "color(#E87191 l(+ 3%))"
+      "foreground": "color(#DF88B7 l(+ 1%))"
     },
     {
       "scope": "meta.mapping.value, meta.mapping.value string",
-      "foreground": "color(#1E73BE l(+ 19%))"
+      "foreground": "color(#C4E7CE l(- 26%))"
     },
     {
       "scope": "punctuation.section.mapping.begin, punctuation.section.mapping.end",

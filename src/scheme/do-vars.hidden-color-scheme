@@ -177,7 +177,7 @@
 
         /** Mapping Key Value */
         "meta-mapping-key-fg":                          "color(var(blue2) l(+ 4%) a(0.8))",
-        "meta-mapping-value-fg":                        "var(gray4)",
+        "meta-mapping-value-fg":                        "color(var(red-dark1) l(+ 12% )a(0.8))",
         "punctuation-section-mapping-fg":               "var(gray4)",
         "punctuation-section-sequence-separator-fg":    "var(gray4)",
 

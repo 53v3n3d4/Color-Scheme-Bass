@@ -176,7 +176,7 @@
         "variable-other-class-js-fg":               "color(var(green-light3) l(- 14%))",
 
         /** Mapping Key Value */
-        "meta-mapping-key-fg":                          "color(var(green2) l(- 7%))",
+        "meta-mapping-key-fg":                          "color(var(red-dark1) l(+ 9% )a(0.8))",
         "meta-mapping-value-fg":                        "color(var(pink-light4) l(- 13%))",
         "punctuation-section-mapping-fg":               "color(var(black4) a(0.9))",
         "punctuation-section-sequence-separator-fg":    "color(var(black4) a(0.9))",

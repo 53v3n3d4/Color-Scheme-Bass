@@ -286,7 +286,7 @@
     },
     {
       "scope": "meta.mapping.value, meta.mapping.value string",
-      "foreground": "#EC4990"
+      "foreground": "color(#B4B4B4 l(+ 4%))"
     },
     {
       "scope": "punctuation.section.mapping.begin, punctuation.section.mapping.end",
@@ -374,7 +374,7 @@
     },
     {
       "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python",
-      "foreground": "#B4B4B4"
+      "foreground": "#A7D4B4"
     },
     {
       "scope": "meta.function-call.arguments.python meta.mapping.value.python string.quoted.single.python",

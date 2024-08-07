@@ -286,7 +286,7 @@
     },
     {
       "scope": "meta.mapping.value, meta.mapping.value string",
-      "foreground": "color(#38A2AF l(- 3%))"
+      "foreground": "color(#643820 l(+ 3%) a(0.8)"
     },
     {
       "scope": "punctuation.section.mapping.begin, punctuation.section.mapping.end",

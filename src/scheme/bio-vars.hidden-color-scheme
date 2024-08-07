@@ -177,7 +177,7 @@
 
         /** Mapping Key Value and Sequence */
         "meta-mapping-key-fg":                          "color(var(yellow1) a(0.9))",
-        "meta-mapping-value-fg":                        "var(magenta3)",
+        "meta-mapping-value-fg":                        "color(var(gray2) l(+ 4%))",
         "punctuation-section-mapping-fg":               "var(white2)",
         "punctuation-section-sequence-separator-fg":    "var(white2)",
 
@@ -213,7 +213,7 @@
         /** Python */
         "constant-other-placeholder-python-fg":                 "var(white2)",
         "keyword-control-loop-in-python-fg":                    "color(var(cyan1) l(+ 3%))",
-        "meta-annotation-python-fg":                            "var(gray2)",
+        "meta-annotation-python-fg":                            "var(green-light2)",
         "meta-fn-arg-string-quoted-python-fg":                  "color(var(yellow-light3) a(0.6))",
         "meta-mapping-value-string-interpolation-python-fg":    "var(white2)",
         "support-type-python-fg":                               "var(orange2)",
