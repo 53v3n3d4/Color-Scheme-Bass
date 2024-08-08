@@ -193,8 +193,8 @@
         "css-variable-fg":                                    "color(var(brown1) l(- 7%))",
 
         /** Elixir */
-        "constant-symbol-keyword-elixir-fg":           "var(magenta2)",
-        "brackets-tuple-const-other-key-elixir-fg":    "color(var(brown1) l(- 7%))",
+        "constant-other-keyword-elixir-fg":            "color(var(brown1) l(- 7%))",
+        "constant-other-symbol-elixir-fg":             "var(magenta2)",
         "support-attr-entity-name-const-elixir-fg":    "color(var(orange-light1) l(- 11%))",
         "var-other-constant-elixir-fg":                "color(var(orange-light1) l(- 11%))",
 

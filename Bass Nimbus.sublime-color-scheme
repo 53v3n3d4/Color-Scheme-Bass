@@ -325,12 +325,12 @@
       "foreground": "color(#BF8555 l(- 7%))"
     },
     {
-      "scope": "constant.other.symbol.elixir, constant.other.keyword.elixir",
-      "foreground": "#FC6BAA"
+      "scope": "constant.other.keyword.elixir",
+      "foreground": "color(#BF8555 l(- 7%))"
     },
     {
-      "scope": "meta.sequence.tuple.elixir constant.other.keyword.elixir, meta.brackets.elixir constant.other.keyword.elixir",
-      "foreground": "color(#BF8555 l(- 7%))"
+      "scope": "constant.other.symbol.elixir",
+      "foreground": "#FC6BAA"
     },
     {
       "scope": "support.attr.elixir, support.attr.doc.elixir, keyword.operator.attribute.elixir, meta.function-call.arguments.elixir entity.name.constant.elixir",

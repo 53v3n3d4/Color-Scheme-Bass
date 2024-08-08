@@ -616,14 +616,14 @@
          *
          */
         {
-            // "name": "Constant other symbol keyword elixir",
-            "scope": "constant.other.symbol.elixir, constant.other.keyword.elixir",
-            "foreground": "var(constant-symbol-keyword-elixir-fg)"
+            // "name": "Constant other keyword elixir",
+            "scope": "constant.other.keyword.elixir",
+            "foreground": "var(constant-other-keyword-elixir-fg)"
         },
         {
-            // "name": "Brackets sequence tuple constant other keyword elixir",
-            "scope": "meta.sequence.tuple.elixir constant.other.keyword.elixir, meta.brackets.elixir constant.other.keyword.elixir",
-            "foreground": "var(brackets-tuple-const-other-key-elixir-fg)"
+            // "name": "Constant other symbol elixir",
+            "scope": "constant.other.symbol.elixir",
+            "foreground": "var(constant-other-symbol-elixir-fg)"
         },
         {
             // "name": "Support attribute, keyword  and entity name constant elixir",

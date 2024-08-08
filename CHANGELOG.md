@@ -4,7 +4,7 @@
 - Change rule punctuation section mapping fg
 - Add punctuation section sequence separator fg
 - Change rule meta embedded variable other constant elixir fg
-- Add brackets tuple constant other keyword elixir fg
+- Split rule constant other keyword elixir fg from constant other symbol elixir
 
 ### Biohack
 - Change punctuation section mapping fg color, magenta -> white
