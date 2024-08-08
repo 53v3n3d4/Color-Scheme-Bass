@@ -326,6 +326,10 @@
     },
     {
       "scope": "constant.other.symbol.elixir, constant.other.keyword.elixir",
+      "foreground": "color(#B4B4B4 l(+ 4%))"
+    },
+    {
+      "scope": "meta.sequence.tuple.elixir constant.other.keyword.elixir, meta.brackets.elixir constant.other.keyword.elixir",
       "foreground": "color(#FFE76D a(0.9))"
     },
     {
@@ -418,7 +422,7 @@
     },
     {
       "scope": "entity.name.tag.toml",
-      "foreground": "#BF8555"
+      "foreground": "color(#FFE76D a(0.9))"
     },
     {
       "scope": "entity.name.class.ruby",

@@ -329,12 +329,16 @@
       "foreground": "#A7D4B4"
     },
     {
+      "scope": "meta.sequence.tuple.elixir constant.other.keyword.elixir, meta.brackets.elixir constant.other.keyword.elixir",
+      "foreground": "color(#DF88B7 l(+ 2%))"
+    },
+    {
       "scope": "support.attr.elixir, support.attr.doc.elixir, keyword.operator.attribute.elixir, meta.function-call.arguments.elixir entity.name.constant.elixir",
-      "foreground": "#F9DF9C"
+      "foreground": "color(#FFC849 l(+ 2%) a(0.9)"
     },
     {
       "scope": "meta.embedded.eex meta.function-call.arguments.elixir variable.other.constant.elixir, meta.embedded.heex variable.other.constant.elixir, meta.function-call.arguments.elixir meta.block.elixir meta.brackets.elixir variable.other.constant.elixir",
-      "foreground": "#F9DF9C"
+      "foreground": "color(#FFC849 l(+ 2%) a(0.9)"
     },
     {
       "scope": "variable.other.readwrite.declaration.go",
@@ -418,7 +422,7 @@
     },
     {
       "scope": "entity.name.tag.toml",
-      "foreground": "#FC6BAA"
+      "foreground": "color(#DF88B7 l(+ 2%))"
     },
     {
       "scope": "entity.name.class.ruby",

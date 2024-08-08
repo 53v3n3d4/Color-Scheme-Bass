@@ -194,8 +194,9 @@
 
         /** Elixir */
         "constant-symbol-keyword-elixir-fg":           "var(magenta2)",
-        "support-attr-entity-name-const-elixir-fg":    "color(var(brown1) l(- 9%))",
-        "var-other-constant-elixir-fg":                "color(var(brown1) l(- 9%))",
+        "brackets-tuple-const-other-key-elixir-fg":    "color(var(brown1) l(- 7%))",
+        "support-attr-entity-name-const-elixir-fg":    "color(var(orange-light1) l(- 11%))",
+        "var-other-constant-elixir-fg":                "color(var(orange-light1) l(- 11%))",
 
         /** Go */
         "variable-other-readwrite-declaration-go-fg":    "color(var(blue3) a(0.7))",
@@ -231,7 +232,7 @@
 
         /** Toml */
         "entity-name-table-toml-fg":    "var(magenta3)",
-        "entity-name-tag-toml-fg":      "var(brown1)",
+        "entity-name-tag-toml-fg":      "color(var(brown1) l(- 7%))",
 
         /** Ruby */
         "entity-name-class-ruby-fg":                    "var(black4)",

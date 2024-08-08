@@ -621,6 +621,11 @@
             "foreground": "var(constant-symbol-keyword-elixir-fg)"
         },
         {
+            // "name": "Brackets sequence tuple constant other keyword elixir",
+            "scope": "meta.sequence.tuple.elixir constant.other.keyword.elixir, meta.brackets.elixir constant.other.keyword.elixir",
+            "foreground": "var(brackets-tuple-const-other-key-elixir-fg)"
+        },
+        {
             // "name": "Support attribute, keyword  and entity name constant elixir",
             "scope": "support.attr.elixir, support.attr.doc.elixir, keyword.operator.attribute.elixir, meta.function-call.arguments.elixir entity.name.constant.elixir",
             "foreground": "var(support-attr-entity-name-const-elixir-fg)"

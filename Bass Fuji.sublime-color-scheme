@@ -329,6 +329,10 @@
       "foreground": "color(#DF88B7 l(- 3%))"
     },
     {
+      "scope": "meta.sequence.tuple.elixir constant.other.keyword.elixir, meta.brackets.elixir constant.other.keyword.elixir",
+      "foreground": "#D8467B"
+    },
+    {
       "scope": "support.attr.elixir, support.attr.doc.elixir, keyword.operator.attribute.elixir, meta.function-call.arguments.elixir entity.name.constant.elixir",
       "foreground": "color(#5DD8FF l(- 23%))"
     },

@@ -329,6 +329,10 @@
       "foreground": "color(#C01553 l(+ 9%) a(0.7))"
     },
     {
+      "scope": "meta.sequence.tuple.elixir constant.other.keyword.elixir, meta.brackets.elixir constant.other.keyword.elixir",
+      "foreground": "color(#4A3532 l(+ 9% )a(0.8))"
+    },
+    {
       "scope": "support.attr.elixir, support.attr.doc.elixir, keyword.operator.attribute.elixir, meta.function-call.arguments.elixir entity.name.constant.elixir",
       "foreground": "color(#38A2AF l(- 4%))"
     },
@@ -414,11 +418,11 @@
     },
     {
       "scope": "entity.name.table.toml",
-      "foreground": "color(#C86733 a(0.8))"
+      "foreground": "#1E73BE"
     },
     {
       "scope": "entity.name.tag.toml",
-      "foreground": "#1E73BE"
+      "foreground": "color(#4A3532 l(+ 9% )a(0.8))"
     },
     {
       "scope": "entity.name.class.ruby",
