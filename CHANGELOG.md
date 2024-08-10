@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.21] - 2024
+## [0.1.21] - 2024-08-10
 - Change rule punctuation section mapping fg
 - Add punctuation section sequence separator fg
 - Change rule meta embedded variable other constant elixir fg
