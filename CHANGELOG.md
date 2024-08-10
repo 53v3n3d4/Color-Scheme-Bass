@@ -5,11 +5,13 @@
 - Add punctuation section sequence separator fg
 - Change rule meta embedded variable other constant elixir fg
 - Split rule constant other keyword elixir fg from constant other symbol elixir
+- Change rule constant other placeholder python fg
+- Change rule meta selector support type vendor prefix css fg
 
 ### Biohack
 - Change punctuation section mapping fg color, magenta -> white
 - Change meta mapping value fg color, magenta -> gray
-- Change constant symbol keyword elixir fg color, yellow -> gray
+- Change constant other symbol elixir fg color, yellow -> gray
 - Change meta annotation python fg color, gray -> green
 - Change entity name tag toml fg color, gold -> yellow
 
@@ -17,41 +19,57 @@
 - Change punctuation section mapping fg color, blue-light -> white
 - Change meta mapping key fg to lighter tone
 - Change meta mapping value fg color, blue -> yellow
+- Change meta annotation python fg color, blue -> yellow
 - Change entity name tag toml fg color, magenta -> pink
 
 ### Bowtruckle
 - Change punctuation section mapping fg color, cyan -> black
 - Change meta mapping value fg color, cyan -> brown
-- Change support attribute entity name constant elixir fg color, gold -> brown
-- Change variable other constant elixir fg color, gold -> brown
+- Change support attribute entity name constant elixir fg color, gold -> violet
+- Change variable other constant elixir fg color, gold -> violet
+- Change meta annotation python fg color, cyan -> violet
 
 ### D-O
+- Change entity attribute name fg color, orange -> violet
+- Change entity other pseudo class fg color to darker tone
 - Change constant number fg color, gold -> orange
 - Change meta mapping value fg color, gray -> dark red
+- Change meta selector support type vendor prefix css fg to darker tone
+- Change meta annotation python fg color, brown -> green
 - Change entity name table toml fg color, blue -> purple
 - Change entity name tag toml fg color, purple -> blue
 
 ### Fuji
+- Change entity attribute name fg color, purple -> brown
+- Change entity other pseudo class fg color, purple -> violet
 - Change punctuation section mapping fg color, blue -> black
 - Change constant css fg to lighter tone
+- Change meta selector support type vendor prefix css fg color, purple -> violet
+- Change css variable fg color, blue -> pink
+- Change support attribute entity name constant elixir fg color, blue -> brown
+- Change variable other constant elixir fg color, blue -> brown
 
 ### Lagoon
 - Change punctuation section mapping fg color, pink -> black
 - Change meta mapping key fg color, green -> dark red
+- Change meta selector support type vendor prefix css fg to darker tone
+- Change meta annotation python fg color, green -> cyan
 - Change entity name table toml fg color, orange -> blue
 - Change entity name tag toml fg color, blue -> dark red
 
 ### Nimbus
 - Change punctuation section mapping fg color, green -> gray
 - Change constant css fg to lighter tone
-- Change support attribute entity name constant elixir fg color, brown -> orange
-- Change variable other constant elixir fg color, brown -> orange
+- Change meta annotation python fg color, gray -> blue
+- Change support attribute entity name constant elixir fg color, brown -> blue
+- Change variable other constant elixir fg color, brown -> blue
 - Change entity name tag toml fg to lighter tone
 
 ### Roci
 - Change punctuation section mapping fg color, blue -> gray
 - Change meta mapping key fg to lighter tone
 - Change meta mapping value fg color, blue -> green
+- Change entity name tag css fg color, brown -> blue
 - Change support attribute entity name constant elixir fg color, yellow -> orange
 - Change variable other constant elixir fg color, yellow -> orange
 - Change entity name tag toml fg to lighter tone
@@ -62,6 +80,7 @@
 - Change meta mapping value fg color, gold -> brown
 - Change support attribute entity name constant elixir fg color, magenta -> purple
 - Change variable other constant elixir fg color, magenta -> purple
+- Change meta annotation python fg color, cyan -> purple
 - Change entity name tag toml fg to lighter tone
 
 ## [0.1.20] - 2024-06-30

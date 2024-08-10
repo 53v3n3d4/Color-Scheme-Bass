@@ -317,7 +317,7 @@
       "foreground": "color(#C4E7CE l(- 11%) a(0.7))"
     },
     {
-      "scope": "meta.selector.css support.type.vendor-prefix.css",
+      "scope": "meta.selector.css support.type.vendor-prefix.css, meta.selector.css punctuation.definition.pseudo-class.css",
       "foreground": "#DF88B7"
     },
     {
@@ -369,7 +369,7 @@
       "foreground": "#BF8555"
     },
     {
-      "scope": "meta.function-call.arguments.python meta.string.python string.quoted.single.python constant.other.placeholder.python",
+      "scope": "meta.string.python string.quoted.single.python constant.other.placeholder.python",
       "foreground": "#F0F0F7"
     },
     {
@@ -378,7 +378,7 @@
     },
     {
       "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python",
-      "foreground": "color(#1E73BE l(+ 33%) a(0.6))"
+      "foreground": "color(#FFC849 l(+ 2%) a(0.9)"
     },
     {
       "scope": "meta.function-call.arguments.python meta.mapping.value.python string.quoted.single.python",

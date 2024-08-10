@@ -214,7 +214,7 @@
         /** Python */
         "constant-other-placeholder-python-fg":                 "var(gray2)",
         "keyword-control-loop-in-python-fg":                    "var(magenta2)",
-        "meta-annotation-python-fg":                            "color(var(cyan1) a(0.7))",
+        "meta-annotation-python-fg":                            "color(var(purple3) l(+ 33%) a(0.7))",
         "meta-fn-arg-string-quoted-python-fg":                  "color(var(gold2) l(+ 6%))",
         "meta-mapping-value-string-interpolation-python-fg":    "var(gray2)",
         "support-type-python-fg":                               "color(var(green-light3) l(+ 2%))",

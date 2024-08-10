@@ -68,11 +68,11 @@
     },
     {
       "scope": "entity.other.attribute-name",
-      "foreground": "#AA0D91"
+      "foreground": "color(#643820 l(+ 11%))"
     },
     {
       "scope": "entity.other.pseudo-class",
-      "foreground": "#9B2393"
+      "foreground": "color(#3E2940 l(+ 22%))"
     },
     {
       "scope": "variable.function",
@@ -317,12 +317,12 @@
       "foreground": "#BF8555"
     },
     {
-      "scope": "meta.selector.css support.type.vendor-prefix.css",
-      "foreground": "#9B2393"
+      "scope": "meta.selector.css support.type.vendor-prefix.css, meta.selector.css punctuation.definition.pseudo-class.css",
+      "foreground": "color(#3E2940 l(+ 22%))"
     },
     {
       "scope": "entity.other.custom-property.css, meta.property-value.css variable.other.custom-property.css",
-      "foreground": "color(#5DD8FF l(- 24%))"
+      "foreground": "#D8467B"
     },
     {
       "scope": "constant.other.keyword.elixir",
@@ -334,11 +334,11 @@
     },
     {
       "scope": "support.attr.elixir, support.attr.doc.elixir, keyword.operator.attribute.elixir, meta.function-call.arguments.elixir entity.name.constant.elixir",
-      "foreground": "color(#5DD8FF l(- 23%))"
+      "foreground": "color(#643820 a(0.8))"
     },
     {
       "scope": "meta.embedded.eex meta.function-call.arguments.elixir variable.other.constant.elixir, meta.embedded.heex variable.other.constant.elixir, meta.function-call.arguments.elixir meta.block.elixir meta.brackets.elixir variable.other.constant.elixir",
-      "foreground": "color(#5DD8FF l(- 23%))"
+      "foreground": "color(#643820 a(0.8))"
     },
     {
       "scope": "variable.other.readwrite.declaration.go",
@@ -369,7 +369,7 @@
       "foreground": "#E47C48"
     },
     {
-      "scope": "meta.function-call.arguments.python meta.string.python string.quoted.single.python constant.other.placeholder.python",
+      "scope": "meta.string.python string.quoted.single.python constant.other.placeholder.python",
       "foreground": "#404040"
     },
     {

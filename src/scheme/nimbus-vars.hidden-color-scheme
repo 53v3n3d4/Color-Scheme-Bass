@@ -195,8 +195,8 @@
         /** Elixir */
         "constant-other-keyword-elixir-fg":            "color(var(brown1) l(- 7%))",
         "constant-other-symbol-elixir-fg":             "var(magenta2)",
-        "support-attr-entity-name-const-elixir-fg":    "color(var(orange-light1) l(- 11%))",
-        "var-other-constant-elixir-fg":                "color(var(orange-light1) l(- 11%))",
+        "support-attr-entity-name-const-elixir-fg":    "color(var(blue2) l(+ 3%))",
+        "var-other-constant-elixir-fg":                "color(var(blue2) l(+ 3%))",
 
         /** Go */
         "variable-other-readwrite-declaration-go-fg":    "color(var(blue3) a(0.7))",
@@ -214,7 +214,7 @@
         /** Python */
         "constant-other-placeholder-python-fg":                 "color(var(gray6) a(0.9))",
         "keyword-control-loop-in-python-fg":                    "color(var(gold3) l(- 1%) a(0.9))",
-        "meta-annotation-python-fg":                            "var(gray4)",
+        "meta-annotation-python-fg":                            "color(var(blue2) l(+ 3%))",
         "meta-fn-arg-string-quoted-python-fg":                  "color(var(violet1) l(+ 29%))",
         "meta-mapping-value-string-interpolation-python-fg":    "color(var(gray6) a(0.9))",
         "support-type-python-fg":                               "color(var(blue3) a(0.7))",

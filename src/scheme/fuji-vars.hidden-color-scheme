@@ -76,8 +76,8 @@
         "entity-inherited-class-fg":       "color(var(blue5) l(- 23%))",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
-        "entity-attribute-name-fg":        "var(purple3)",
-        "entity-other-pseudo-class-fg":    "var(purple2)",
+        "entity-attribute-name-fg":        "color(var(brown2) l(+ 11%))",
+        "entity-other-pseudo-class-fg":    "color(var(violet1) l(+ 22%))",
 
         /** Variable */
         // "variable-fg":                   "color(var(blue-light4) l(- 14%))",
@@ -189,14 +189,14 @@
         "constant-css-fg":                                    "color(var(gray2) l(- 14%))",
         "entity-name-tag-css-fg":                             "var(pink-light4)",
         "support-property-css-fg":                            "var(brown1)",
-        "meta-selector-support-type-vendor-prefix-css-fg":    "var(purple2)",
-        "css-variable-fg":                                    "color(var(blue5) l(- 24%))",
+        "meta-selector-support-type-vendor-prefix-css-fg":    "color(var(violet1) l(+ 22%))",
+        "css-variable-fg":                                    "var(pink2)",
 
         /** Elixir */
         "constant-other-keyword-elixir-fg":            "var(pink2)",
         "constant-other-symbol-elixir-fg":             "color(var(pink-light4) l(- 3%))",
-        "support-attr-entity-name-const-elixir-fg":    "color(var(blue5) l(- 23%))",
-        "var-other-constant-elixir-fg":                "color(var(blue5) l(- 23%))",
+        "support-attr-entity-name-const-elixir-fg":    "color(var(brown2) a(0.8))",
+        "var-other-constant-elixir-fg":                "color(var(brown2) a(0.8))",
 
         /** Go */
         "variable-other-readwrite-declaration-go-fg":    "color(var(green-light3) l(- 7%))",
