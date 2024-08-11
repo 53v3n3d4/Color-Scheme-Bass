@@ -72,7 +72,7 @@
     },
     {
       "scope": "entity.other.pseudo-class",
-      "foreground": "#FFE76D"
+      "foreground": "color(#FFE76D a(0.9)"
     },
     {
       "scope": "variable.function",
@@ -318,7 +318,7 @@
     },
     {
       "scope": "meta.selector.css support.type.vendor-prefix.css, meta.selector.css punctuation.definition.pseudo-class.css",
-      "foreground": "#FFE76D"
+      "foreground": "color(#FFE76D a(0.9)"
     },
     {
       "scope": "entity.other.custom-property.css, meta.property-value.css variable.other.custom-property.css",
