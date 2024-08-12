@@ -879,6 +879,17 @@
             // "name": "Support type rust",
             "scope": "support.type.rust",
             "foreground": "var(support-type-rust-fg)"
+        },
+
+        /**
+         *
+         * SHELL
+         *
+         */
+        {
+            // "name": "Line constant shebang",
+            "scope": "comment.line.shebang constant.language.shebang",
+            "foreground": "var(line-constant-shebang-fg)"
         }
 
     ]

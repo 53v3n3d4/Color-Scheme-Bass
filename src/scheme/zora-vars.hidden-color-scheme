@@ -251,7 +251,10 @@
         "storage-type-rust-fg":            "color(var(blue2) l(+ 24%))",
         "storage-type-source-rust-fg":     "color(var(pink-light4) l(+ 4%) a(0.8))",
         "support-macro-rust-fg":           "color(var(purple2) l(+ 33%) a(0.7))",
-        "support-type-rust-fg":            "color(var(pink-light4) l(+ 4%) a(0.8))"
+        "support-type-rust-fg":            "color(var(pink-light4) l(+ 4%) a(0.8))",
+
+        /** Shell */
+        "line-constant-shebang-fg":    "color(var(blue-light3) a(0.4))"
 
     },
     "globals": {},

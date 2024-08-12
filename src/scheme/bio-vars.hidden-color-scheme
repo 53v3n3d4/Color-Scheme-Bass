@@ -251,7 +251,10 @@
         "storage-type-rust-fg":            "var(gold1)",
         "storage-type-source-rust-fg":     "var(pink-light4)",
         "support-macro-rust-fg":           "color(var(green-light3) l(- 3%) a(0.9))",
-        "support-type-rust-fg":            "var(pink-light4)"
+        "support-type-rust-fg":            "var(pink-light4)",
+
+        /** Shell */
+        "line-constant-shebang-fg":    "color(var(yellow-light1) a(0.4))"
 
     },
     "globals": {},

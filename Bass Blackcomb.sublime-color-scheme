@@ -479,6 +479,10 @@
     {
       "scope": "support.type.rust",
       "foreground": "#BF8555"
+    },
+    {
+      "scope": "comment.line.shebang constant.language.shebang",
+      "foreground": "color(#B4B4B4 a(0.9))"
     }
   ]
 }
