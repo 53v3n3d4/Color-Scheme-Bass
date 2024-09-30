@@ -2,6 +2,7 @@
 
 ## [0.1.22] - 2024
 - Add line constant shebang fg
+- Change rule meta annotation python
 
 ### Zora 🔵
 - Change entity other pseudo class fg color to lighter tone
@@ -98,10 +99,10 @@
 - Add meta function call arguments string quoted python fg
 - Add meta mapping value string interpolation python fg
 
-### Fuji
+### Fuji ⚪️
 - Change meta import wildcard asterisk java fg color, gold -> blue 
 
-### Lagoon
+### Lagoon 🌐
 - Change meta import wildcard asterisk java fg color, gold -> yellow 
 
 ## [0.1.19] - 2024-04-01
@@ -109,33 +110,33 @@
 - Add sass/scss constant other color rgb-value
 - Fix plugin sass (add string sass), after upgrade, do not identify tag use with multiple strings
 
-### D-O
+### D-O 🟡
 - Change support type python fg color, gold -> magenta
 
-### Nimbus
+### Nimbus 🪙
 - Change foreground color to lighter tone
 - Change gutter foreground hl color, purple -> blue
 - Change meta annotation path rust fg color to lighter tone
 
-### Roci
+### Roci 🟣
 - Change constant css fg to lighter tone
 
-### Zora
+### Zora 🔵
 - Change constant css fg to lighter tone
 
 ## [0.1.18] - 2024-03-05
 - Add support type vendor prefix css
 
-### Biohack
+### Biohack 🟤
 - Change meta embedded var other constant elixir fg color, cyan -> green
 - Change support attr entity name const elixir fg color, cyan -> green
 
-### Blackcomb
+### Blackcomb ⚫️
 - Change line highlight to ligher tone
 - Change entity name fg color, brown -> yellow
 - Change variable other readwrite instance ruby fg color. purple -> yellow
 
-### Bowtruckle
+### Bowtruckle 🟢
 - Change entity name fg color to lighter tone
 - Change entity name fn fg color to lighter tone
 - Change entity attribute name fg color to lighter tone
@@ -152,29 +153,29 @@
 - Change variable other readwrite instance ruby fg color. purple -> gold
 - Change entity name fn rust fg color to lighter tone
 
-### D-O
+### D-O 🟡
 - Change entity name tag css fg color to darker tone
 - Change css variable fg color to lighter tone
 - Change meta embedded var other constant elixir fg color, purple -> green
 - Change support attr entity name const elixir fg color, purple -> green
 
-### Fuji
+### Fuji ⚪️
 - Change meta embedded var other constant elixir fg color, gold -> blue
 - Change support attr entity name const elixir fg color, gold -> blue
 
-### Lagoon
+### Lagoon 🌐
 - Change meta embedded var other constant elixir fg color, gold -> cyan
 - Change support attr entity name const elixir fg color, gold -> cyan
 
-### Nimbus
+### Nimbus 🪙
 - Change variable other readwrite instance ruby fg color. green -> brown
 
-### Roci
+### Roci 🟣
 - Change meta embedded var other constant elixir fg color to lighter tone
 - Change support attr entity name const elixir fg color to lighter tone
 - Change variable other readwrite instance ruby fg color to lighter tone
 
-### Zora
+### Zora 🔵
 - Change meta embedded var other constant elixir fg color to lighter tone
 - Change support attr entity name const elixir fg color to lighter tone
 - Change variable other readwrite instance ruby fg color. orange -> magenta
@@ -184,7 +185,7 @@
 - Add support attribute elixir
 - Add meta embedded heex variable other constant elixir
 
-### Biohack
+### Biohack 🟤
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
 - Change punctuation line break md bg color to lighter tone
@@ -193,13 +194,13 @@
 - Change support property css fg color, green -> magenta
 - Change parameter sass fg color, green -> magenta
 
-### Blackcomb
+### Blackcomb ⚫️
 - Change invisibles to darker tone
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
 - Change meta import wildcard asterisk java fg color, brown -> yellow
 
-### Bowtruckle
+### Bowtruckle 🟢
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
 - Change meta import wildcard asterisk java fg color, brown -> gold
@@ -207,29 +208,29 @@
 - Change support property css fg color, green -> brown
 - Change parameter sass fg color, green -> brown
 
-### D-O
+### D-O 🟡
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
 - Change meta import wildcard asterisk java fg color, gold -> purple
 
-### Fuji
+### Fuji ⚪️
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
 - Change meta import wildcard asterisk java fg color, brown -> gold
 
-### Lagoon
+### Lagoon 🌐
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
 - Change meta import wildcard asterisk java fg color, green -> gold
 - Change css variable fg color to darker tone
 - Change variable sass fg color to lighter tone
 
-### Nimbus
+### Nimbus 🪙
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
 - Change meta import wildcard asterisk java fg color, orange -> gold
 
-### Roci
+### Roci 🟣
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
 - Change punctuation line break md bg color to lighter tone
@@ -238,7 +239,7 @@
 - Change support property css fg color, brown -> green
 - Change parameter sass fg color, brown -> green
 
-### Zora
+### Zora 🔵
 - Change markup raw bg color to lighter tone
 - Change markup table bg color to lighter tone
 - Change punctuation line break md bg color to lighter tone
@@ -257,18 +258,18 @@
 - Add parameter sass/scss
 - Split css variable and support property css
 
-### Biohack
+### Biohack 🟤
 - Change background color to hex without filter
 - Change constant ruby fg color, red -> yellow
 
-### Blackcomb
+### Blackcomb ⚫️
 - Change support property css fg color to lighter tone
 
-### Bowtruckle
+### Bowtruckle 🟢
 - Change support property css fg color to lighter tone
 - Change constant ruby fg color to darker tone
 
-### Nimbus
+### Nimbus 🪙
 - Change constant number fg color to darker tone
 - Change language fg color, gold -> magenta
 - Change language null fg color, gold -> magenta
@@ -277,7 +278,7 @@
 - Change support property css fg color, pink -> red dark
 - Change keyword operator logical sql fg color, gold -> magenta
 
-### Roci
+### Roci 🟣
 - Change meta mapping key fg color to ligther tone
 - Change background color to hex without filter
 
@@ -285,70 +286,70 @@
 - Add new violet color
 - Add punctuation section mapping json and yaml
 
-### Biohack
+### Biohack 🟤
 - Change background color to darker tone
 - Change inactive selection color, pink -> brown
 - Change inactive selection fg color, black -> gray
 
-### Bowtruckle
+### Bowtruckle 🟢
 - Change inactive selection color to lighter tone
 
-### Fuji
+### Fuji ⚪️
 - Change inactive selection color to lighter tone
 
-### Lagoon
+### Lagoon 🌐
 - Change inactive selection color to darker tone
 
-### Roci
+### Roci 🟣
 - Change background color to darker tone
 - Change inactive selection color to lighter tone
 
-### Zora
+### Zora 🔵
 - Change selection color to lighter tone
 - Change selection border color to darker tone
 - Change inactive selection color to darker tone
 
 ## [0.1.14] - 2024-02-09
 
-### Biohack
+### Biohack 🟤
 - Change accent color, orange -> brown
 
-### Blackcomb
+### Blackcomb ⚫️
 - Change accent color, blue -> brown
 
-### Bowtruckle
+### Bowtruckle 🟢
 - Change accent color, green -> purple
 
-### D-O
+### D-O 🟡
 - Change accent color, orange -> brown
 
-### Fuji
+### Fuji ⚪️
 - Change accent color to lighter tone
 
-### Lagoon
+### Lagoon 🌐
 - Change accent color, blue -> purple
 
-### Nimbus
+### Nimbus 🪙
 - Change accent color to lighter tone
 
-### Roci
+### Roci 🟣
 - Change accent color to lighter tone
 
-### Zora
+### Zora 🔵
 - Change accent color, cyan -> blue
 
 ## [0.1.13] - 2024-02-04
 - Add name field description for Inline diff rules
 - Fix transparecy popup-css in light schemes. Change background color and margin.
 
-### Blackcomb
+### Blackcomb ⚫️
 - Change invisibles to litgher tone
 
-### Biohack
+### Biohack 🟤
 - Change keyword operator color, blue -> cyan
 - Change keyword declaration fn arrow js, blue -> cyan
 
-### Zora
+### Zora 🔵
 - Change background color to different dark blue tone, rgb(25, 44, 55) -> rgb(38, 40, 51)
 - Change selection color, cyan -> blue
 - Change inactive selection color, cyan -> blue
@@ -371,10 +372,10 @@
 
 ## [0.1.12] - 2023-04-01
 
-### Biohack
+### Biohack 🟤
 - Change punctuation section embedded php color, orange -> green
 
-### Blackcomb
+### Blackcomb ⚫️
 - Change entity name color to darker tone
 - Change entity name function color to darker tone
 - Change variable function color to darker tone
@@ -388,13 +389,13 @@
 - Change entity name table toml color to darker tone
 - Change entity name function rust color to darker tone
 
-### Lagoon
+### Lagoon 🌐
 - Change constant language color to darker tone
 - Change constant language null color to darker tone
 - Change constant language boolean color to darker tone
 - Change keyword operator logical color to darker tone
 
-### Roci
+### Roci 🟣
 - Change keyword operator color to lighter tone
 - Change keyword declaration function arrow js color to lighter tone
 - Change meta mapping value color to darker tone
@@ -402,7 +403,7 @@
 - Change entity name table toml to darker tone
 - Change variable other readwrite instance ruby color to lighter tone
 
-### Zora
+### Zora 🔵
 - Change entity attribute name color to darker tone
 - Change storage type color to darker tone
 - Change keyword color to darker tone
@@ -425,38 +426,38 @@
 - Change entity name rust
 - Change meta models rails -> meta class ruby
 
-### Biohack
+### Biohack 🟤
 - Change meta model rails color, yellow -> pink
 - Change variable other readwrite instance ruby color, magenta -> green
 
-### Blackcomb
+### Blackcomb ⚫️
 - Change entity other attribute name docs js color, gray -> blue
 - Change constant ruby color, blue -> green
 - Change meta model rails color, blue -> brown
 
-### Bowtruckle
+### Bowtruckle 🟢
 - Change entity name class ruby color to lighter tone
 - Change meta model rails color, green -> brown
 
-### D-O
+### D-O 🟡
 - Change entity other attribute name docs js color, gray -> brown
 - Change meta model rails color, blue -> gold
 - Change variable other readwrite instance ruby color, gold -> green
 
-### Fuji
+### Fuji ⚪️
 - Change entity other attribute name doc js color, orange -> brown
 - Change meta model rails color, magenta -> brown
 - Change variable other readwrite instance ruby color, orange -> blue
 
-### Lagoon
+### Lagoon 🌐
 - Change entity name class ruby color, gray -> black
 - Change meta model rails color, pink -> green
 - Change variable other readwrite instance ruby color, green -> cyan
 
-### Nimbus
+### Nimbus 🪙
 - Change meta model rails color, magenta -> orange
 
-### Roci
+### Roci 🟣
 - Change entity name class color to lighter tone
 - Change variable other constant color to lighter tone
 - Change support class color to lighter tone
@@ -467,7 +468,7 @@
 - Change meta model rails color, cyan -> orange
 - Change entity name class ruby color, white -> gray
 
-### Zora
+### Zora 🔵
 - Change entity name class color, orange -> pink
 - Change variable other constant color, orange -> pink
 - Change support class color, orange -> pink
@@ -499,7 +500,7 @@
 - Change storage type method params c# color empty
 - Change keyword operator rust to keyword operator
 
-### Biohack
+### Biohack 🟤
 - Change entity inherited class color, yellow -> blue
 - Change entity attribute name color, magenta -> blue
 - Change variable function color, magenta -> orange
@@ -515,14 +516,14 @@
 - Change support macro rust color, cyan -> green
 - Change support type rust color, red -> pink
 
-### Blackcomb
+### Blackcomb ⚫️
 - Change entity inherited class color, blue -> green
 - Change support function color, green -> blue
 - Change entity name function rust color to darker tone
 - Change storage type source rust color, orange -> brown
 - Change support type rust color, orange -> brown
 
-### Bowtruckle
+### Bowtruckle 🟢
 - Change variable function color, purple -> cyan
 - Change variable other constant color, cyan -> brown
 - Change variable other member color, gold -> purple
@@ -534,7 +535,7 @@
 - Change support entity property css color, magenta -> green
 - Change support macro rust color, gold -> orange
 
-### D-O
+### D-O 🟡
 - Change variable function color, purple -> magenta
 - Change variable other constant color, red -> gold
 - Change support function color, green -> magenta
@@ -548,7 +549,7 @@
 - Change entity name function rust color, cyan -> magenta
 - Change support macro rust color to darker tone
 
-### Fuji
+### Fuji ⚪️
 - Change entity name color, cyan -> green
 - Change entity inherited class color, magenta -> blue
 - Change variable function color to lighter tone
@@ -560,7 +561,7 @@
 - Change storage type source rust color, orange -> brown
 - Change support type rust color, orange -> brown
 
-### Lagoon
+### Lagoon 🌐
 - Change entity name color, cyan -> brown
 - Change entity attribute name color, orange -> green
 - Change variable function color, green -> brown
@@ -581,7 +582,7 @@
 - Change support macro rust color, gold -> cyan
 - Change support type rust color, brown -> green
 
-### Nimbus
+### Nimbus 🪙
 - Change entity name color, orange -> blue
 - Change variable function color, red -> blue
 - Change variable other constant color to lighter tone
@@ -602,7 +603,7 @@
 - Change support macro rust color, brown -> magenta
 - Change support type rust color, magenta -> orange
 
-### Roci
+### Roci 🟣
 - Change entity name color to lighter tone
 - Change variable other constant color to lighter tone
 - Change support function color, green -> blue
@@ -612,7 +613,7 @@
 - Change entity other attribute name html color, magenta -> pink
 - Change entity name function rust color, brown -> blue
 
-### Zora
+### Zora 🔵
 - Change entity name color, magenta -> green
 - Change variable function color, blue -> green
 - Change keyword operator color, gold -> magenta
@@ -627,7 +628,7 @@
 - Add support type primitive
 - Add variable other member
 
-### Biohack
+### Biohack 🟤
 - Change storage modifier color, maagenta -> green
 - Change markup link color to lighter tone
 - Change diff and inline diff color to lighter tone
@@ -637,7 +638,7 @@
 - Change support entity property css color to darker tone
 - Change support type rust color, gold -> red
 
-### Blackcomb
+### Blackcomb ⚫️
 - Change storage modifier color, maagenta -> green
 - Change keyword color to lighter tone
 - Change diff and inline diff color to lighter tone
@@ -648,7 +649,7 @@
 - Change support macro rust color to darker tone
 - Change support type rust color to lighter tone
 
-### Bowtruckle
+### Bowtruckle 🟢
 - Change storage modifier color to lighter tone
 - Change diff and inline diff color to lighter tone
 - Change keyword operator color, brown -> orange
@@ -658,7 +659,7 @@
 - Change keyword operator rust color to lighter tone
 - Change storage modifier rust color, green -> purple
 
-### D-O
+### D-O 🟡
 - Change storage modifier color to lighter tone
 - Change keyword color to lighter tone
 - Change diff and inline diff color to lighter tone
@@ -668,7 +669,7 @@
 - Change storage modifier rust color, gold -> blue
 - Change support type rust color, green -> gold
 
-### Fuji
+### Fuji ⚪️
 - Change storage modifier color, maagenta -> purple
 - Change keyword color to darker tone
 - Change keyword operator color, purple -> gold
@@ -679,7 +680,7 @@
 - Change storage modifier rust color, magenta -> purple
 - Change support macro rust color, gold -> blue
 
-### Lagoon
+### Lagoon 🌐
 - Change attribute name color, gold -> orange
 - Change entity other pseudo class color, purple -> green
 - Change variable function color to lighter tone
@@ -696,13 +697,13 @@
 - Change keyword operator rust color, brown -> orange
 - Change storage modifier rust color to lighter tone
 
-### Nimbus
+### Nimbus 🪙
 - Change diff and inline diff color to lighter tone
 - Change diff deleted char background color to darker tone
 - Change diff inserted char background color to darker tone
 - Change keyword operator rust color, cyan -> gold
 
-### Roci
+### Roci 🟣
 - Change storage modifier color, pink -> green
 - Change keyword color to lighter tone
 - Change diff header to darker tone
@@ -715,7 +716,7 @@
 - Change support macro rust color to lighter tone
 - Change support type rust color to lighter tone
 
-### Zora
+### Zora 🔵
 - Change entity name color, cyan -> magenta
 - Change entity attribute name color, orange -> blue
 - Change variable function color to lighter tone
@@ -746,13 +747,13 @@
 - Change constant language go and rust to constant language
 - Change constant language boolean ruby to constant language boolean
 
-### Biohack
+### Biohack 🟤
 - Change entity inherited class color, orange -> yellow
 - Change comment color, gray -> yellow
 - Change constant other language name markdown color, purple -> magenta
 - Change meta models rails color, blue -> yellow
 
-### Blackcomb
+### Blackcomb ⚫️
 - Change entity inherited class color to lighter tone
 - Change constant numeric color to darker tone
 - Change meta mapping key color, magenta -> pink
@@ -763,7 +764,7 @@
 - Change support macro rust color, cyan -> yellow
 - Change support type rust color, red -> brown
 
-### Bowtruckle
+### Bowtruckle 🟢
 - Change entity inherited class color, blue -> green
 - Change string color to darker tone
 - Change comments color to lighter tone
@@ -775,7 +776,7 @@
 - Change storage modifier rust color to darker tone
 - Change support macro rust color to darker tone
 
-### D-O
+### D-O 🟡
 - Change comments color to darker tone
 - Change entity name color, purple -> magenta
 - Change entity inherited class color, purple -> blue
@@ -795,7 +796,7 @@
 - Change constant language rust color, green -> red
 - Change storage modifier rust color, magenta -> pink
 
-### Fuji
+### Fuji ⚪️
 - Change entity inherited class color, blue -> magenta
 - Change support function color to lighter tone
 - Change constant other language name markdown font style, italic -> normal
@@ -808,7 +809,7 @@
 - Change constant language rust color, orange -> red
 - Change support macro rust color, green -> gold
 
-### Lagoon
+### Lagoon 🌐
 - Change entity name color to darker tone
 - Change entity inherited class color to darker tone
 - Change entity attribute name color, purple -> gold
@@ -833,7 +834,7 @@
 - Change support macro rust color to darker tone
 - Change support type rust color, red -> brown
 
-### Nimbus
+### Nimbus 🪙
 - Change entity inherited class color, purple -> magenta
 - Change entity attribute name color, purple -> green
 - Change support function color to darker tone
@@ -847,14 +848,14 @@
 - Change keyword operator logical sql to darker tone
 - Change constant ruby color, purple -> magenta
 
-### Roci
+### Roci 🟣
 - Change entity inherited class color, blue -> cyan
 - Change variable function color to darker tone
 - Change constant other language name markdown color, yellow -> gold
 - Change markup heading color, pink -> blue
 - Change meta models rails color, blue -> cyan
 
-### Zora
+### Zora 🔵
 - Change entity inherited class color, magenta -> green
 - Change variable function color to darker tone
 - Change constant numeric color, red -> gold
@@ -869,7 +870,7 @@
 ## [0.1.7] - 2023-02-16
 - Change constant language null javascript and sql to constant language null
 
-### Blackcomb
+### Blackcomb ⚫️
 - Change line diff deleted color to lighter tone
 - Change variable other constant color, orange -> brown
 - Change support class color, orange -> brown
@@ -881,17 +882,17 @@
 - Change variable other class javascript color, orange -> brown
 - Change entity name function rust color, green -> purple
 
-### Biohack
+### Biohack 🟤
 - Change line diff deleted color to lighter tone
 - Change constant language null javascript color, blue -> red
 
-### Bowtruckle
+### Bowtruckle 🟢
 - Change line diff deleted color to lighter tone
 - Change foreground color to ligther tone
 - Change gutter foreground color to darker tone
 - Change entity name table toml color, blue -> cyan
 
-### Fuji
+### Fuji ⚪️
 - Change line diff deleted color to lighter tone
 - Change entity name table toml color, blue -> green
 - Change comment color, green -> gray
@@ -905,22 +906,22 @@
 - Change entity name function rust color, cyan -> brown
 - Change support type rust color, brown -> orange
 
-### Lagoon
+### Lagoon 🌐
 - Change foreground color to darker tone
 - Change gutter foreground to darker tone
 - Change entity name table toml color, pink -> orange
 - Change constant numeric color to darker tone
 
-### Nimbus
+### Nimbus 🪙
 - Change line diff deleted color to lighter tone
 - Change entity name table toml color, purple -> magenta
 - Change constant language null sql color, red -> gold
 - Change key operator logical sql color, red -> gold
 
-### Roci
+### Roci 🟣
 - Change line diff deleted color to lighter tone
 
-### Zora
+### Zora 🔵
 - Change line diff deleted color to lighter tone
 - Change entity name table toml color, gold -> pink
 
@@ -929,15 +930,15 @@
 - Change Diff and Inline Diffs color tones
 - Change line highlight transparency
 
-### Biohack
+### Biohack 🟤
 - Change markup list font style, bold -> normal
 - Change meta mapping gitattributes color, from brown to cyan
 
-### Blackcomb
+### Blackcomb ⚫️
 - Change markup list font style, bold -> normal
 - Change accent color, cyan -> blue
 
-### Bowtruckle
+### Bowtruckle 🟢
 - Change support function color, purple -> orange
 - Change keyword operator color, orange -> brown
 - Change invalid depreceated color, orange -> red
@@ -950,7 +951,7 @@
 - Change support type rust transparency
 - Change constant boolean ruby color, orange -> red
 
-### D-O
+### D-O 🟡
 - Change foreground and string color, black -> gray
 - Change highlight color, brown -> gold
 - Change entity name and entity inherited class color, cyan -> purple
@@ -979,7 +980,7 @@
 - Change string quoted rust color, purple -> brown-light
 - Change support macro rust color, cyan -> green
 
-### Lagoon
+### Lagoon 🌐
 - Change foreground color, black -> gray
 - Change entity name transparency
 - Change constant numeric color, orange -> blue
@@ -1004,7 +1005,7 @@
 - Change keyword operator rust, blue -> brown
 - Change support type rust color, orange -> red
 
-### Nimbus
+### Nimbus 🪙
 - Change constant numeric color to a lighter blue
 - Change support function color, red -> blue
 - Change storage modifier color, blue -> green-light
@@ -1016,10 +1017,10 @@
 - Change variable other readwrite instance ruby color, blue -> green-light
 - Change support entity property css color, brown -> pink-light
 
-### Roci
+### Roci 🟣
 - Change markup list font style, bold -> normal
 
-### Zora
+### Zora 🔵
 - Change markup list font style, bold -> normal
 
 ## [0.1.5] - 2022-12-16

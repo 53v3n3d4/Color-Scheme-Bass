@@ -377,7 +377,7 @@
       "foreground": "color(#FFE76D l(+ 2%) a(0.9))"
     },
     {
-      "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python",
+      "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python, meta.annotation.python meta.function-call.identifier.python variable.annotation.python - meta.path.python variable.annotation.python",
       "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
     },
     {

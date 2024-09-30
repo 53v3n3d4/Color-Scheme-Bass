@@ -712,7 +712,7 @@
         },
         {
             // "name": "Meta annotation python",
-            "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python",
+            "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python, meta.annotation.python meta.function-call.identifier.python variable.annotation.python - meta.path.python variable.annotation.python",
             "foreground": "var(meta-annotation-python-fg)"
         },
         {
