@@ -3,6 +3,7 @@
 ## [0.1.22] - 2024
 - Add line constant shebang fg
 - Change rule meta annotation python
+- Add rule meta directive yaml fg
 
 ### Zora 🔵
 - Change entity other pseudo class fg color to lighter tone

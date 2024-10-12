@@ -483,6 +483,10 @@
     {
       "scope": "comment.line.shebang constant.language.shebang",
       "foreground": "color(#B4B4B4 a(0.9))"
+    },
+    {
+      "scope": "meta.directive.yaml punctuation.definition.directive.begin.yaml, meta.directive.yaml keyword.other.directive.yaml, meta.directive.yaml constant.numeric.yaml-version.yaml",
+      "foreground": "color(#83B85E a(0.9))"
     }
   ]
 }

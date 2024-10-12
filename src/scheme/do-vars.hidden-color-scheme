@@ -254,7 +254,10 @@
         "support-type-rust-fg":            "color(var(gold2) l(- 7%))",
 
         /** Shell */
-        "line-constant-shebang-fg":    "color(var(gray4) a(0.63))"
+        "line-constant-shebang-fg":    "color(var(gray4) a(0.63))",
+
+        /** YAML */
+        "meta-directive-yaml-fg":    "color(var(brown2) a(0.5))"
 
     },
     "globals": {},

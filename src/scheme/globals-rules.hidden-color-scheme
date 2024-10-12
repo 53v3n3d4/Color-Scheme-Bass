@@ -890,6 +890,17 @@
             // "name": "Line constant shebang",
             "scope": "comment.line.shebang constant.language.shebang",
             "foreground": "var(line-constant-shebang-fg)"
+        },
+
+        /**
+         *
+         * YAML
+         *
+         */
+        {
+            // "name": "YAML meta directive",
+            "scope": "meta.directive.yaml punctuation.definition.directive.begin.yaml, meta.directive.yaml keyword.other.directive.yaml, meta.directive.yaml constant.numeric.yaml-version.yaml",
+            "foreground": "var(meta-directive-yaml-fg)"
         }
 
     ]
