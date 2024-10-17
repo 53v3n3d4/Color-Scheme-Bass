@@ -147,68 +147,6 @@
       "background": "#FC5B57"
     },
     {
-      "scope": "constant.other.language-name.markdown",
-      "foreground": "#83B85E"
-    },
-    {
-      "scope": "markup.heading, markup.heading entity.name",
-      "font_style": "bold",
-      "foreground": "color(#643820 l(+ 17%))"
-    },
-    {
-      "scope": "markup.bold",
-      "font_style": "bold"
-    },
-    {
-      "scope": "markup.italic",
-      "font_style": "italic"
-    },
-    {
-      "scope": "markup.underline",
-      "font_style": "underline"
-    },
-    {
-      "scope": "markup.italic markup.bold | markup.bold markup.italic",
-      "font_style": "bold italic"
-    },
-    {
-      "scope": "markup.underline markup.bold | markup.bold markup.underline",
-      "font_style": "bold underline"
-    },
-    {
-      "scope": "markup.underline markup.italic | markup.italic markup.underline",
-      "font_style": "italic underline"
-    },
-    {
-      "scope": "markup.bold markup.italic markup.underline | markup.bold markup.underline markup.italic | markup.italic markup.bold markup.underline | markup.italic markup.underline markup.bold | markup.underline markup.bold markup.italic | markup.underline markup.italic markup.bold",
-      "font_style": "bold italic underline"
-    },
-    {
-      "scope": "markup.quote",
-      "font_style": "italic",
-      "foreground": "#E47C48"
-    },
-    {
-      "scope": "markup.raw",
-      "background": "color(#F4E2BC a(0.7))"
-    },
-    {
-      "scope": "markup.raw.inline.markdown",
-      "background": "color(#F4E2BC a(0.8))"
-    },
-    {
-      "scope": "markup.underline.link",
-      "foreground": "#0282F2"
-    },
-    {
-      "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
-      "background": "color(#F4E2BC a(0.7))"
-    },
-    {
-      "scope": "punctuation.definition.hard-line-break.markdown",
-      "background": "color(#F4E2BC a(0.7))"
-    },
-    {
       "scope": "markup.changed",
       "background": "hsla(53, 93%, 87%, 0.9)",
       "foreground": "#C86733"
@@ -249,38 +187,6 @@
       "foreground": "color(#119912 a(0.9))"
     },
     {
-      "scope": "meta.import.java constant.other.wildcard.asterisk.java",
-      "foreground": "color(#8D52D1 l(+ 7%))"
-    },
-    {
-      "scope": "entity.name.type.js, entity.name.interface.js",
-      "foreground": "color(#D0BC56 l(- 7%))"
-    },
-    {
-      "scope": "entity.other.attribute-name.documentation.js",
-      "foreground": "color(#643820 a(0.7))"
-    },
-    {
-      "scope": "keyword.declaration.function.arrow.js, meta.type.js keyword.declaration.function.js",
-      "foreground": "color(#8D52D1 l(+ 7%))"
-    },
-    {
-      "scope": "(source.js | source.ts) - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
-      "foreground": "color(#83B85E l(- 4%))"
-    },
-    {
-      "scope": "meta.class.js support.constant.builtin.js, meta.function-call.constructor.js variable.type.js",
-      "foreground": "color(#D0BC56 l(- 7%))"
-    },
-    {
-      "scope": "support.constant.node.js, support.constant.builtin.js",
-      "foreground": "color(#83B85E l(- 4%))"
-    },
-    {
-      "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
-      "foreground": "color(#D0BC56 l(- 7%))"
-    },
-    {
       "scope": "meta.mapping.key, meta.mapping.key string",
       "foreground": "color(#1E73BE l(+ 4%) a(0.8))"
     },
@@ -297,8 +203,8 @@
       "foreground": "#5D6C79"
     },
     {
-      "scope": "text.html entity.other.attribute-name.id",
-      "foreground": "color(#C86733 a(0.8))"
+      "scope": "comment.line.shebang constant.language.shebang",
+      "foreground": "color(#5D6C79 a(0.63))"
     },
     {
       "scope": "meta.at-rule.other.css",
@@ -361,6 +267,104 @@
       "foreground": "#BF8555"
     },
     {
+      "scope": "text.html entity.other.attribute-name.id",
+      "foreground": "color(#C86733 a(0.8))"
+    },
+    {
+      "scope": "meta.import.java constant.other.wildcard.asterisk.java",
+      "foreground": "color(#8D52D1 l(+ 7%))"
+    },
+    {
+      "scope": "entity.name.type.js, entity.name.interface.js",
+      "foreground": "color(#D0BC56 l(- 7%))"
+    },
+    {
+      "scope": "entity.other.attribute-name.documentation.js",
+      "foreground": "color(#643820 a(0.7))"
+    },
+    {
+      "scope": "keyword.declaration.function.arrow.js, meta.type.js keyword.declaration.function.js",
+      "foreground": "color(#8D52D1 l(+ 7%))"
+    },
+    {
+      "scope": "(source.js | source.ts) - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
+      "foreground": "color(#83B85E l(- 4%))"
+    },
+    {
+      "scope": "meta.class.js support.constant.builtin.js, meta.function-call.constructor.js variable.type.js",
+      "foreground": "color(#D0BC56 l(- 7%))"
+    },
+    {
+      "scope": "support.constant.node.js, support.constant.builtin.js",
+      "foreground": "color(#83B85E l(- 4%))"
+    },
+    {
+      "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
+      "foreground": "color(#D0BC56 l(- 7%))"
+    },
+    {
+      "scope": "constant.other.language-name.markdown",
+      "foreground": "#83B85E"
+    },
+    {
+      "scope": "markup.heading, markup.heading entity.name",
+      "font_style": "bold",
+      "foreground": "color(#643820 l(+ 17%))"
+    },
+    {
+      "scope": "markup.bold",
+      "font_style": "bold"
+    },
+    {
+      "scope": "markup.italic",
+      "font_style": "italic"
+    },
+    {
+      "scope": "markup.underline",
+      "font_style": "underline"
+    },
+    {
+      "scope": "markup.italic markup.bold | markup.bold markup.italic",
+      "font_style": "bold italic"
+    },
+    {
+      "scope": "markup.underline markup.bold | markup.bold markup.underline",
+      "font_style": "bold underline"
+    },
+    {
+      "scope": "markup.underline markup.italic | markup.italic markup.underline",
+      "font_style": "italic underline"
+    },
+    {
+      "scope": "markup.bold markup.italic markup.underline | markup.bold markup.underline markup.italic | markup.italic markup.bold markup.underline | markup.italic markup.underline markup.bold | markup.underline markup.bold markup.italic | markup.underline markup.italic markup.bold",
+      "font_style": "bold italic underline"
+    },
+    {
+      "scope": "markup.quote",
+      "font_style": "italic",
+      "foreground": "#E47C48"
+    },
+    {
+      "scope": "markup.raw",
+      "background": "color(#F4E2BC a(0.7))"
+    },
+    {
+      "scope": "markup.raw.inline.markdown",
+      "background": "color(#F4E2BC a(0.8))"
+    },
+    {
+      "scope": "markup.underline.link",
+      "foreground": "#0282F2"
+    },
+    {
+      "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
+      "background": "color(#F4E2BC a(0.7))"
+    },
+    {
+      "scope": "punctuation.definition.hard-line-break.markdown",
+      "background": "color(#F4E2BC a(0.7))"
+    },
+    {
       "scope": "embedding.php text.html.php meta.embedded.php punctuation.definition.variable.php",
       "foreground": "color(#8D52D1 l(+ 7%))"
     },
@@ -391,38 +395,6 @@
     {
       "scope": "support.type.python",
       "foreground": "color(#EC4990 a(0.8))"
-    },
-    {
-      "scope": "source.sass constant.other.color.rgb-value.css, source.scss constant.other.color.rgb-value.css",
-      "foreground": "color(#5D6C79 a(0.8))"
-    },
-    {
-      "scope": "meta.map.arguments.sass variable.parameter.sass",
-      "foreground": "color(#0282F2 a(0.8))"
-    },
-    {
-      "scope": "source.scss meta.selector.css entity.name.tag.other.css, source.scss meta.selector.css entity.name.tag.html.css",
-      "foreground": "color(#643820 a(0.5))"
-    },
-    {
-      "scope": "variable.declaration.sass, variable.other.sass, meta.map.arguments.sass variable.other.sass, meta.function.parameters.sass variable.parameter.sass, source.sass meta.selector.css, source.sass meta.selector.css entity.name.tag.custom.css, variable.other.scss, meta.parameter.identifier.scss variable.parameter.scss, meta.argument.identifier.scss variable.parameter.scss",
-      "foreground": "color(#38A2AF l(- 2%) a(0.8))"
-    },
-    {
-      "scope": "keyword.operator.logical.sql",
-      "foreground": "#FC5B57"
-    },
-    {
-      "scope": "storage.type.sql",
-      "foreground": "color(#0282F2 a(0.8))"
-    },
-    {
-      "scope": "entity.name.table.toml",
-      "foreground": "#9B2393"
-    },
-    {
-      "scope": "entity.name.tag.toml",
-      "foreground": "color(#1E73BE l(+ 4%) a(0.8))"
     },
     {
       "scope": "entity.name.class.ruby",
@@ -481,8 +453,36 @@
       "foreground": "color(#D0BC56 l(- 7%))"
     },
     {
-      "scope": "comment.line.shebang constant.language.shebang",
-      "foreground": "color(#5D6C79 a(0.63))"
+      "scope": "source.sass constant.other.color.rgb-value.css, source.scss constant.other.color.rgb-value.css",
+      "foreground": "color(#5D6C79 a(0.8))"
+    },
+    {
+      "scope": "meta.map.arguments.sass variable.parameter.sass",
+      "foreground": "color(#0282F2 a(0.8))"
+    },
+    {
+      "scope": "source.scss meta.selector.css entity.name.tag.other.css, source.scss meta.selector.css entity.name.tag.html.css",
+      "foreground": "color(#643820 a(0.5))"
+    },
+    {
+      "scope": "variable.declaration.sass, variable.other.sass, meta.map.arguments.sass variable.other.sass, meta.function.parameters.sass variable.parameter.sass, source.sass meta.selector.css, source.sass meta.selector.css entity.name.tag.custom.css, variable.other.scss, meta.parameter.identifier.scss variable.parameter.scss, meta.argument.identifier.scss variable.parameter.scss",
+      "foreground": "color(#38A2AF l(- 2%) a(0.8))"
+    },
+    {
+      "scope": "keyword.operator.logical.sql",
+      "foreground": "#FC5B57"
+    },
+    {
+      "scope": "storage.type.sql",
+      "foreground": "color(#0282F2 a(0.8))"
+    },
+    {
+      "scope": "entity.name.table.toml",
+      "foreground": "#9B2393"
+    },
+    {
+      "scope": "entity.name.tag.toml",
+      "foreground": "color(#1E73BE l(+ 4%) a(0.8))"
     },
     {
       "scope": "meta.directive.yaml punctuation.definition.directive.begin.yaml, meta.directive.yaml keyword.other.directive.yaml, meta.directive.yaml constant.numeric.yaml-version.yaml",

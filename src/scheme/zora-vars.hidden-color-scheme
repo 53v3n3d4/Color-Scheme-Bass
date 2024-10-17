@@ -124,25 +124,6 @@
         "invalid-deprecated-fg":    "color(var(red1) a(0.9)",
         "invalid-illegal-fg":       "color(var(orange1) a(0.7))",
 
-        /** Markdown / Markup */
-        "constant-other-lang-name-md-fg":             "var(gold3)",
-        "markup-heading-font-style":                  "bold",
-        "markup-heading-fg":                          "var(pink-light4)",
-        "markup-bold-font-style":                     "bold",
-        "markup-italic-font-style":                   "italic",
-        "markup-underline-font-style":                "underline",
-        "markup-bold-italic-font-style":              "bold italic",
-        "markup-bold-underline-font-style":           "bold underline",
-        "markup-italic-underline-font-style":         "italic underline",
-        "markup-bold-italic-underline-font-style":    "bold italic underline",
-        "markup-quote-font-style":                    "italic",
-        "markup-quote-fg":                            "var(cyan2)",
-        "markup-raw-bg":                              "color(var(blue-dark1) l(+ 4%))",
-        "markup-raw-inline-bg":                       "color(var(blue-dark1) l(+ 8%) a(0.8))",
-        "markup-link-fg":                             "color(var(blue5) a(0.9))",
-        "markup-table-bg":                            "color(var(blue-dark1) l(+ 4%))",
-        "punctuation-line-break-md-bg":               "color(var(blue-dark1) l(+ 4%) a(0.8))",
-
         /** Diff */
         "markup-changed-bg":      "hsla(47, 29%, 23%, 0.6)",
         "markup-changed-fg":      "hsla(58, 63%, 64%, 0.9)",
@@ -163,26 +144,16 @@
         "diff-inserted-char-bg":    "hsla(133, 29%, 37%, 0.6)",
         "diff-inserted-char-fg":    "color(var(green1) l(+ 7%))",
 
-        /** Java */
-        "meta-import-wildcard-asterisk-java-fg":    "var(magenta2)",
-
-        /** Javascript */
-        "entity-name-type-interface-js-fg":         "color(var(pink-light4) l(+ 4%) a(0.8))",
-        "entity-other-attribute-name-doc-js-fg":    "color(var(cyan1) a(0.7))",
-        "keyword-declaration-fn-arrow-js-fg":       "var(magenta2)",
-        "support-other-js-fg":                      "color(var(orange1) l(+ 14%) a(0.8))",
-        "support-meta-class-js-fg":                 "color(var(pink-light4) l(+ 4%) a(0.8))",
-        "support-meta-fn-js-fg":                    "color(var(orange1) l(+ 14%) a(0.8))",
-        "variable-other-class-js-fg":               "color(var(pink-light4) l(+ 4%) a(0.8))",
-
         /** Mapping Key Value */
         "meta-mapping-key-fg":                          "color(var(cyan2) l(+ 11%) a(0.8))",
         "meta-mapping-value-fg":                        "color(var(brown-light1) l(+ 26%))",
         "punctuation-section-mapping-fg":               "var(gray2)",
         "punctuation-section-sequence-separator-fg":    "var(gray2)",
 
-        /** HTML */
-        "entity-other-attribute-name-html-fg":    "color(var(blue-light4) l(- 1%) a(0.8))",
+        /** Shell */
+        "line-constant-shebang-fg":    "color(var(blue-light3) a(0.4))",
+
+        /** Languages rules */
 
         /** CSS */
         "meta-at-rule-other-css-fg":                          "color(var(blue2) l(+ 24%))",
@@ -207,6 +178,40 @@
         "entity-name-git-ignore-const-wildcard-asterisk-fg":    "var(magenta2)",
         "meta-mapping-value-git-attributes-fg":                 "var(gold2)",
 
+        /** HTML */
+        "entity-other-attribute-name-html-fg":    "color(var(blue-light4) l(- 1%) a(0.8))",
+
+        /** Java */
+        "meta-import-wildcard-asterisk-java-fg":    "var(magenta2)",
+
+        /** Javascript */
+        "entity-name-type-interface-js-fg":         "color(var(pink-light4) l(+ 4%) a(0.8))",
+        "entity-other-attribute-name-doc-js-fg":    "color(var(cyan1) a(0.7))",
+        "keyword-declaration-fn-arrow-js-fg":       "var(magenta2)",
+        "support-other-js-fg":                      "color(var(orange1) l(+ 14%) a(0.8))",
+        "support-meta-class-js-fg":                 "color(var(pink-light4) l(+ 4%) a(0.8))",
+        "support-meta-fn-js-fg":                    "color(var(orange1) l(+ 14%) a(0.8))",
+        "variable-other-class-js-fg":               "color(var(pink-light4) l(+ 4%) a(0.8))",
+
+        /** Markdown / Markup */
+        "constant-other-lang-name-md-fg":             "var(gold3)",
+        "markup-heading-font-style":                  "bold",
+        "markup-heading-fg":                          "var(pink-light4)",
+        "markup-bold-font-style":                     "bold",
+        "markup-italic-font-style":                   "italic",
+        "markup-underline-font-style":                "underline",
+        "markup-bold-italic-font-style":              "bold italic",
+        "markup-bold-underline-font-style":           "bold underline",
+        "markup-italic-underline-font-style":         "italic underline",
+        "markup-bold-italic-underline-font-style":    "bold italic underline",
+        "markup-quote-font-style":                    "italic",
+        "markup-quote-fg":                            "var(cyan2)",
+        "markup-raw-bg":                              "color(var(blue-dark1) l(+ 4%))",
+        "markup-raw-inline-bg":                       "color(var(blue-dark1) l(+ 8%) a(0.8))",
+        "markup-link-fg":                             "color(var(blue5) a(0.9))",
+        "markup-table-bg":                            "color(var(blue-dark1) l(+ 4%))",
+        "punctuation-line-break-md-bg":               "color(var(blue-dark1) l(+ 4%) a(0.8))",
+
         /** PHP */
         "punctuation-definition-var-php-fg":      "var(magenta2)",
         "punctuation-section-embedded-php-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
@@ -219,20 +224,6 @@
         "meta-mapping-value-string-interpolation-python-fg":    "var(gray2)",
         "support-type-python-fg":                               "color(var(green-light3) l(+ 2%))",
         // "meta-qualified-name-fn-python-fg":    "color(var(pink-light4) l(+ 4%) a(0.8))",
-
-        /** Sass/SCSS */
-        "constant-sass-fg":    "color(var(gray2) l(+ 8%))",
-        "params-sass-fg":      "color(var(green-light3) l(+ 5%))",
-        "string-scss-fg":      "color(var(gold2) l(+ 6%))",
-        "variable-sass-fg":    "color(var(yellow-light3) l(+ 3%) a(0.7))",
-
-        /** Sql */
-        "keyword-operator-logical-sql-fg":    "color(var(red1) a(0.9)",
-        "storage-type-sql-fg":                "var(pink-light4)",
-
-        /** Toml */
-        "entity-name-table-toml-fg":    "var(pink-light4)",
-        "entity-name-tag-toml-fg":      "color(var(cyan2) l(+ 11%) a(0.8))",
 
         /** Ruby */
         "entity-name-class-ruby-fg":                    "var(gray2)",
@@ -253,8 +244,19 @@
         "support-macro-rust-fg":           "color(var(purple2) l(+ 33%) a(0.7))",
         "support-type-rust-fg":            "color(var(pink-light4) l(+ 4%) a(0.8))",
 
-        /** Shell */
-        "line-constant-shebang-fg":    "color(var(blue-light3) a(0.4))",
+        /** Sass/SCSS */
+        "constant-sass-fg":    "color(var(gray2) l(+ 8%))",
+        "params-sass-fg":      "color(var(green-light3) l(+ 5%))",
+        "string-scss-fg":      "color(var(gold2) l(+ 6%))",
+        "variable-sass-fg":    "color(var(yellow-light3) l(+ 3%) a(0.7))",
+
+        /** Sql */
+        "keyword-operator-logical-sql-fg":    "color(var(red1) a(0.9)",
+        "storage-type-sql-fg":                "var(pink-light4)",
+
+        /** Toml */
+        "entity-name-table-toml-fg":    "var(pink-light4)",
+        "entity-name-tag-toml-fg":      "color(var(cyan2) l(+ 11%) a(0.8))",
 
         /** YAML */
         "meta-directive-yaml-fg":    "color(var(gold2) l(+ 6%))"

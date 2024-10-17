@@ -342,89 +342,6 @@
 
         /**
          *
-         * MARKDOWN / MARKUP
-         *
-         */
-        {
-            // "name": "Constant other language name md",
-            "scope": "constant.other.language-name.markdown",
-            "foreground": "var(constant-other-lang-name-md-fg)"
-        },
-        {
-            // "name": "Markup heading",
-            "scope": "markup.heading, markup.heading entity.name",
-            "font_style": "var(markup-heading-font-style)",
-            "foreground": "var(markup-heading-fg)"
-        },
-        {
-            // "name": "Markup bold",
-            "scope": "markup.bold",
-            "font_style": "var(markup-bold-font-style)"
-        },
-        {
-            // "name": "Markup italic",
-            "scope": "markup.italic",
-            "font_style": "var(markup-italic-font-style)"
-        },
-        {
-            // "name": "Markup underline",
-            "scope": "markup.underline",
-            "font_style": "var(markup-underline-font-style)"
-        },
-        {
-            // "name": "Markup bold/italic",
-            "scope": "markup.italic markup.bold | markup.bold markup.italic",
-            "font_style": "var(markup-bold-italic-font-style)"
-        },
-        {
-            // "name": "Markup bold/underline",
-            "scope": "markup.underline markup.bold | markup.bold markup.underline",
-            "font_style": "var(markup-bold-underline-font-style)"
-        },
-        {
-            // "name": "Markup italic/underline",
-            "scope": "markup.underline markup.italic | markup.italic markup.underline",
-            "font_style": "var(markup-italic-underline-font-style)"
-        },
-        {
-            // "name": "Markup bold/italic/underline",
-            "scope": "markup.bold markup.italic markup.underline | markup.bold markup.underline markup.italic | markup.italic markup.bold markup.underline | markup.italic markup.underline markup.bold | markup.underline markup.bold markup.italic | markup.underline markup.italic markup.bold",
-            "font_style": "var(markup-bold-italic-underline-font-style)"
-        },
-        {
-            // "name": "Markup quote",
-            "scope": "markup.quote",
-            "font_style": "var(markup-quote-font-style)",
-            "foreground": "var(markup-quote-fg)"
-        },
-        {
-            // "name": "Markup raw code block",
-            "scope": "markup.raw",
-            "background": "var(markup-raw-bg)"
-        },
-        {
-            // "name": "Markup raw inline code",
-            "scope": "markup.raw.inline.markdown",
-            "background": "var(markup-raw-inline-bg)"
-        },
-        {
-            // "name": "Markup underline link",
-            "scope": "markup.underline.link",
-            "foreground": "var(markup-link-fg)"
-        },
-        {
-            // "name": "Table md",
-            "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
-            "background": "var(markup-table-bg)"
-        },
-        {
-            // "name": "Punctuation line break md",
-            "scope": "punctuation.definition.hard-line-break.markdown",
-            "background": "var(punctuation-line-break-md-bg)"
-        },
-
-        /**
-         *
          * DIFF
          *
          */
@@ -485,58 +402,6 @@
 
         /**
          *
-         * JAVA
-         *
-         */
-        {
-            // "name": "Meta import wildcard asterisk java",
-            "scope": "meta.import.java constant.other.wildcard.asterisk.java",
-            "foreground": "var(meta-import-wildcard-asterisk-java-fg)"
-        },
-
-        /**
-         *
-         * JAVASCRIPT
-         *
-         */
-        {
-            // "name": "Entity name type interface",
-            "scope": "entity.name.type.js, entity.name.interface.js",
-            "foreground": "var(entity-name-type-interface-js-fg)"
-        },
-        {
-            // "name": "JSDocs tags",
-            "scope": "entity.other.attribute-name.documentation.js",
-            "foreground": "var(entity-other-attribute-name-doc-js-fg)"
-        },
-        {
-            // "name": "Keyword declaration function arrow js",
-            "scope": "keyword.declaration.function.arrow.js, meta.type.js keyword.declaration.function.js",
-            "foreground": "var(keyword-declaration-fn-arrow-js-fg)"
-        },
-        {
-            // "name": "Support other js", // e.g. name from adaptiveData.name
-            "scope": "(source.js | source.ts) - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
-            "foreground": "var(support-other-js-fg)"
-        },
-        {
-            // "name": "Support meta class js",
-            "scope": "meta.class.js support.constant.builtin.js, meta.function-call.constructor.js variable.type.js",
-            "foreground": "var(support-meta-class-js-fg)"
-        },
-        {
-            // "name": "Support meta function js",
-            "scope": "support.constant.node.js, support.constant.builtin.js",
-            "foreground": "var(support-meta-fn-js-fg)"
-        },
-        {
-            // "name": "Variable other class js", // i.e. Class new
-            "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
-            "foreground": "var(variable-other-class-js-fg)"
-        },
-
-        /**
-         *
          * MAPPING KEY VALUE AND SEQUENCE
          *
          */
@@ -565,14 +430,16 @@
 
         /**
          *
-         * HTML
+         * SHELL
          *
          */
         {
-            // "name": "Entity id html", // i.e. id
-            "scope": "text.html entity.other.attribute-name.id",
-            "foreground": "var(entity-other-attribute-name-html-fg)"
+            // "name": "Line constant shebang",
+            "scope": "comment.line.shebang constant.language.shebang",
+            "foreground": "var(line-constant-shebang-fg)"
         },
+
+        /** LANGUAGES RULES */
 
         /**
          *
@@ -681,6 +548,152 @@
 
         /**
          *
+         * HTML
+         *
+         */
+        {
+            // "name": "Entity id html", // i.e. id
+            "scope": "text.html entity.other.attribute-name.id",
+            "foreground": "var(entity-other-attribute-name-html-fg)"
+        },
+
+        /**
+         *
+         * JAVA
+         *
+         */
+        {
+            // "name": "Meta import wildcard asterisk java",
+            "scope": "meta.import.java constant.other.wildcard.asterisk.java",
+            "foreground": "var(meta-import-wildcard-asterisk-java-fg)"
+        },
+
+        /**
+         *
+         * JAVASCRIPT
+         *
+         */
+        {
+            // "name": "Entity name type interface",
+            "scope": "entity.name.type.js, entity.name.interface.js",
+            "foreground": "var(entity-name-type-interface-js-fg)"
+        },
+        {
+            // "name": "JSDocs tags",
+            "scope": "entity.other.attribute-name.documentation.js",
+            "foreground": "var(entity-other-attribute-name-doc-js-fg)"
+        },
+        {
+            // "name": "Keyword declaration function arrow js",
+            "scope": "keyword.declaration.function.arrow.js, meta.type.js keyword.declaration.function.js",
+            "foreground": "var(keyword-declaration-fn-arrow-js-fg)"
+        },
+        {
+            // "name": "Support other js", // e.g. name from adaptiveData.name
+            "scope": "(source.js | source.ts) - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
+            "foreground": "var(support-other-js-fg)"
+        },
+        {
+            // "name": "Support meta class js",
+            "scope": "meta.class.js support.constant.builtin.js, meta.function-call.constructor.js variable.type.js",
+            "foreground": "var(support-meta-class-js-fg)"
+        },
+        {
+            // "name": "Support meta function js",
+            "scope": "support.constant.node.js, support.constant.builtin.js",
+            "foreground": "var(support-meta-fn-js-fg)"
+        },
+        {
+            // "name": "Variable other class js", // i.e. Class new
+            "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
+            "foreground": "var(variable-other-class-js-fg)"
+        },
+
+        /**
+         *
+         * MARKDOWN / MARKUP
+         *
+         */
+        {
+            // "name": "Constant other language name md",
+            "scope": "constant.other.language-name.markdown",
+            "foreground": "var(constant-other-lang-name-md-fg)"
+        },
+        {
+            // "name": "Markup heading",
+            "scope": "markup.heading, markup.heading entity.name",
+            "font_style": "var(markup-heading-font-style)",
+            "foreground": "var(markup-heading-fg)"
+        },
+        {
+            // "name": "Markup bold",
+            "scope": "markup.bold",
+            "font_style": "var(markup-bold-font-style)"
+        },
+        {
+            // "name": "Markup italic",
+            "scope": "markup.italic",
+            "font_style": "var(markup-italic-font-style)"
+        },
+        {
+            // "name": "Markup underline",
+            "scope": "markup.underline",
+            "font_style": "var(markup-underline-font-style)"
+        },
+        {
+            // "name": "Markup bold/italic",
+            "scope": "markup.italic markup.bold | markup.bold markup.italic",
+            "font_style": "var(markup-bold-italic-font-style)"
+        },
+        {
+            // "name": "Markup bold/underline",
+            "scope": "markup.underline markup.bold | markup.bold markup.underline",
+            "font_style": "var(markup-bold-underline-font-style)"
+        },
+        {
+            // "name": "Markup italic/underline",
+            "scope": "markup.underline markup.italic | markup.italic markup.underline",
+            "font_style": "var(markup-italic-underline-font-style)"
+        },
+        {
+            // "name": "Markup bold/italic/underline",
+            "scope": "markup.bold markup.italic markup.underline | markup.bold markup.underline markup.italic | markup.italic markup.bold markup.underline | markup.italic markup.underline markup.bold | markup.underline markup.bold markup.italic | markup.underline markup.italic markup.bold",
+            "font_style": "var(markup-bold-italic-underline-font-style)"
+        },
+        {
+            // "name": "Markup quote",
+            "scope": "markup.quote",
+            "font_style": "var(markup-quote-font-style)",
+            "foreground": "var(markup-quote-fg)"
+        },
+        {
+            // "name": "Markup raw code block",
+            "scope": "markup.raw",
+            "background": "var(markup-raw-bg)"
+        },
+        {
+            // "name": "Markup raw inline code",
+            "scope": "markup.raw.inline.markdown",
+            "background": "var(markup-raw-inline-bg)"
+        },
+        {
+            // "name": "Markup underline link",
+            "scope": "markup.underline.link",
+            "foreground": "var(markup-link-fg)"
+        },
+        {
+            // "name": "Table md",
+            "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
+            "background": "var(markup-table-bg)"
+        },
+        {
+            // "name": "Punctuation line break md",
+            "scope": "punctuation.definition.hard-line-break.markdown",
+            "background": "var(punctuation-line-break-md-bg)"
+        },
+
+        /**
+         *
          * PHP
          *
          */
@@ -735,64 +748,6 @@
         //     "scope": "meta.function-call.python meta.qualified-name.python variable.function.python meta.generic-name.python",
         //     "foreground": "var(meta-qualified-name-fn-python-fg)"
         // },
-
-        /**
-         *
-         * SASS/SCSS
-         *
-         */
-        {
-            // "name": "Constant sass",
-            "scope": "source.sass constant.other.color.rgb-value.css, source.scss constant.other.color.rgb-value.css",
-            "foreground": "var(constant-sass-fg)"
-        },
-        {
-            // "name": "Parameter sass",
-            "scope": "meta.map.arguments.sass variable.parameter.sass",
-            "foreground": "var(params-sass-fg)"
-        },
-        {
-            // "name": "String scss", // Fix plugin sass, after upgrade, do not identify @use with multiple strings
-            "scope": "source.scss meta.selector.css entity.name.tag.other.css, source.scss meta.selector.css entity.name.tag.html.css",
-            "foreground": "var(string-scss-fg)"
-        },
-        {
-            // "name": "Variable sass/scss",
-            "scope": "variable.declaration.sass, variable.other.sass, meta.map.arguments.sass variable.other.sass, meta.function.parameters.sass variable.parameter.sass, source.sass meta.selector.css, source.sass meta.selector.css entity.name.tag.custom.css, variable.other.scss, meta.parameter.identifier.scss variable.parameter.scss, meta.argument.identifier.scss variable.parameter.scss",
-            "foreground": "var(variable-sass-fg)"
-        },
-
-        /**
-         *
-         * SQL
-         *
-         */
-        {
-            // "name": "Keyword operator logical sql",
-            "scope": "keyword.operator.logical.sql",
-            "foreground": "var(keyword-operator-logical-sql-fg)"
-        },
-        {
-            // "name": "Storage type sql",
-            "scope": "storage.type.sql",
-            "foreground": "var(storage-type-sql-fg)"
-        },
-
-        /**
-         *
-         * TOML
-         *
-         */
-        {
-            // "name": "Table toml",
-            "scope": "entity.name.table.toml",
-            "foreground": "var(entity-name-table-toml-fg)"
-        },
-        {
-            // "name": "Key toml",
-            "scope": "entity.name.tag.toml",
-            "foreground": "var(entity-name-tag-toml-fg)"
-        },
 
         /**
          *
@@ -883,13 +838,60 @@
 
         /**
          *
-         * SHELL
+         * SASS/SCSS
          *
          */
         {
-            // "name": "Line constant shebang",
-            "scope": "comment.line.shebang constant.language.shebang",
-            "foreground": "var(line-constant-shebang-fg)"
+            // "name": "Constant sass",
+            "scope": "source.sass constant.other.color.rgb-value.css, source.scss constant.other.color.rgb-value.css",
+            "foreground": "var(constant-sass-fg)"
+        },
+        {
+            // "name": "Parameter sass",
+            "scope": "meta.map.arguments.sass variable.parameter.sass",
+            "foreground": "var(params-sass-fg)"
+        },
+        {
+            // "name": "String scss", // Fix plugin sass, after upgrade, do not identify @use with multiple strings
+            "scope": "source.scss meta.selector.css entity.name.tag.other.css, source.scss meta.selector.css entity.name.tag.html.css",
+            "foreground": "var(string-scss-fg)"
+        },
+        {
+            // "name": "Variable sass/scss",
+            "scope": "variable.declaration.sass, variable.other.sass, meta.map.arguments.sass variable.other.sass, meta.function.parameters.sass variable.parameter.sass, source.sass meta.selector.css, source.sass meta.selector.css entity.name.tag.custom.css, variable.other.scss, meta.parameter.identifier.scss variable.parameter.scss, meta.argument.identifier.scss variable.parameter.scss",
+            "foreground": "var(variable-sass-fg)"
+        },
+
+        /**
+         *
+         * SQL
+         *
+         */
+        {
+            // "name": "Keyword operator logical sql",
+            "scope": "keyword.operator.logical.sql",
+            "foreground": "var(keyword-operator-logical-sql-fg)"
+        },
+        {
+            // "name": "Storage type sql",
+            "scope": "storage.type.sql",
+            "foreground": "var(storage-type-sql-fg)"
+        },
+
+        /**
+         *
+         * TOML
+         *
+         */
+        {
+            // "name": "Table toml",
+            "scope": "entity.name.table.toml",
+            "foreground": "var(entity-name-table-toml-fg)"
+        },
+        {
+            // "name": "Key toml",
+            "scope": "entity.name.tag.toml",
+            "foreground": "var(entity-name-tag-toml-fg)"
         },
 
         /**

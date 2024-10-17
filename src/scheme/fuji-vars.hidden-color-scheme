@@ -124,25 +124,6 @@
         "invalid-deprecated-fg":    "var(red2)",
         "invalid-illegal-fg":       "color(var(red1) a(0.7))",
 
-        /** Markdown / Markup */
-        "constant-other-lang-name-md-fg":             "var(cyan2)",
-        "markup-heading-font-style":                  "bold",
-        "markup-heading-fg":                          "var(purple2)",
-        "markup-bold-font-style":                     "bold",
-        "markup-italic-font-style":                   "italic",
-        "markup-underline-font-style":                "underline",
-        "markup-bold-italic-font-style":              "bold italic",
-        "markup-bold-underline-font-style":           "bold underline",
-        "markup-italic-underline-font-style":         "italic underline",
-        "markup-bold-italic-underline-font-style":    "bold italic underline",
-        "markup-quote-font-style":                    "italic",
-        "markup-quote-fg":                            "var(green2)",
-        "markup-raw-bg":                              "color(var(gray1) a(0.5))",
-        "markup-raw-inline-bg":                       "color(var(white5) a(0.9))",
-        "markup-link-fg":                             "var(blue3)",
-        "markup-table-bg":                            "color(var(gray1) a(0.5))",
-        "punctuation-line-break-md-bg":               "color(var(gray1) a(0.7))",
-
         /** Diff */
         "markup-changed-bg":      "hsla(53, 93%, 94%, 0.9)",
         "markup-changed-fg":      "var(orange3)",
@@ -163,26 +144,16 @@
         "diff-inserted-char-bg":    "hsla(111, 89%, 81%, 0.9)",
         "diff-inserted-char-fg":    "color(var(green2) a(0.9))",
 
-        /** Java */
-        "meta-import-wildcard-asterisk-java-fg":    "color(var(blue5) l(- 2%))",
-
-        /** Javascript */
-        "entity-name-type-interface-js-fg":         "var(brown1)",
-        "entity-other-attribute-name-doc-js-fg":    "color(var(brown2) a(0.8))",
-        "keyword-declaration-fn-arrow-js-fg":       "color(var(gold3) l(- 2%))",
-        "support-other-js-fg":                      "var(pink-light4)",
-        "support-meta-class-js-fg":                 "var(brown1)",
-        "support-meta-fn-js-fg":                    "var(pink-light4)",
-        "variable-other-class-js-fg":               "var(brown1)",
-
         /** Mapping Key Value */
         "meta-mapping-key-fg":                          "var(pink2)",
         "meta-mapping-value-fg":                        "color(var(blue8) a(0.8))",
         "punctuation-section-mapping-fg":               "var(black4)",
         "punctuation-section-sequence-separator-fg":    "var(black4)",
 
-        /** HTML */
-        "entity-other-attribute-name-html-fg":    "var(purple3)",
+        /** Shell */
+        "line-constant-shebang-fg":    "color(var(gray4) a(0.9))",
+
+        /** Languages rules */
 
         /** CSS */
         "meta-at-rule-other-css-fg":                          "var(blue2)",
@@ -207,6 +178,40 @@
         "entity-name-git-ignore-const-wildcard-asterisk-fg":    "color(var(blue5) l(- 2%))",
         "meta-mapping-value-git-attributes-fg":                 "var(purple2)",
 
+        /** HTML */
+        "entity-other-attribute-name-html-fg":    "var(purple3)",
+
+        /** Java */
+        "meta-import-wildcard-asterisk-java-fg":    "color(var(blue5) l(- 2%))",
+
+        /** Javascript */
+        "entity-name-type-interface-js-fg":         "var(brown1)",
+        "entity-other-attribute-name-doc-js-fg":    "color(var(brown2) a(0.8))",
+        "keyword-declaration-fn-arrow-js-fg":       "color(var(gold3) l(- 2%))",
+        "support-other-js-fg":                      "var(pink-light4)",
+        "support-meta-class-js-fg":                 "var(brown1)",
+        "support-meta-fn-js-fg":                    "var(pink-light4)",
+        "variable-other-class-js-fg":               "var(brown1)",
+
+        /** Markdown / Markup */
+        "constant-other-lang-name-md-fg":             "var(cyan2)",
+        "markup-heading-font-style":                  "bold",
+        "markup-heading-fg":                          "var(purple2)",
+        "markup-bold-font-style":                     "bold",
+        "markup-italic-font-style":                   "italic",
+        "markup-underline-font-style":                "underline",
+        "markup-bold-italic-font-style":              "bold italic",
+        "markup-bold-underline-font-style":           "bold underline",
+        "markup-italic-underline-font-style":         "italic underline",
+        "markup-bold-italic-underline-font-style":    "bold italic underline",
+        "markup-quote-font-style":                    "italic",
+        "markup-quote-fg":                            "var(green2)",
+        "markup-raw-bg":                              "color(var(gray1) a(0.5))",
+        "markup-raw-inline-bg":                       "color(var(white5) a(0.9))",
+        "markup-link-fg":                             "var(blue3)",
+        "markup-table-bg":                            "color(var(gray1) a(0.5))",
+        "punctuation-line-break-md-bg":               "color(var(gray1) a(0.7))",
+
         /** PHP */
         "punctuation-definition-var-php-fg":      "var(magenta2)",
         "punctuation-section-embedded-php-fg":    "var(orange2)",
@@ -219,20 +224,6 @@
         "meta-mapping-value-string-interpolation-python-fg":    "var(black4)",
         "support-type-python-fg":                               "color(var(green-light3) l(- 7%))",
         // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
-
-        /** Sass/SCSS */
-        "constant-sass-fg":    "var(gray4)",
-        "params-sass-fg":      "var(brown1)",
-        "string-scss-fg":      "var(blue2)",
-        "variable-sass-fg":    "color(var(cyan2) l(- 2%)",
-
-        /** Sql */
-        "keyword-operator-logical-sql-fg":    "color(var(red2) a(0.8))",
-        "storage-type-sql-fg":                "var(gold2)",
-
-        /** Toml */
-        "entity-name-table-toml-fg":    "var(green2)",
-        "entity-name-tag-toml-fg":      "var(pink2)",
 
         /** Ruby */
         "entity-name-class-ruby-fg":                    "var(black4)",
@@ -253,8 +244,19 @@
         "support-macro-rust-fg":           "color(var(blue5) l(- 23%))",
         "support-type-rust-fg":            "var(brown1)",
 
-        /** Shell */
-        "line-constant-shebang-fg":    "color(var(gray4) a(0.9))",
+        /** Sass/SCSS */
+        "constant-sass-fg":    "var(gray4)",
+        "params-sass-fg":      "var(brown1)",
+        "string-scss-fg":      "var(blue2)",
+        "variable-sass-fg":    "color(var(cyan2) l(- 2%)",
+
+        /** Sql */
+        "keyword-operator-logical-sql-fg":    "color(var(red2) a(0.8))",
+        "storage-type-sql-fg":                "var(gold2)",
+
+        /** Toml */
+        "entity-name-table-toml-fg":    "var(green2)",
+        "entity-name-tag-toml-fg":      "var(pink2)",
 
         /** YAML */
         "meta-directive-yaml-fg":    "var(blue2)"

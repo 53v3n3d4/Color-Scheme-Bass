@@ -4,6 +4,7 @@
 - Add line constant shebang fg
 - Change rule meta annotation python
 - Add rule meta directive yaml fg
+- Sort language specific rules
 
 ### Zora 🔵
 - Change entity other pseudo class fg color to lighter tone
