@@ -5,6 +5,7 @@
 - Change rule meta annotation python
 - Add rule meta directive yaml fg
 - Sort language specific rules
+- Add rule entity name tag doc php fg
 
 ### Zora 🔵
 - Change entity other pseudo class fg color to lighter tone

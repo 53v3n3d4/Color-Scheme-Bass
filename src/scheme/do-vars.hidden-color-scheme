@@ -213,6 +213,7 @@
         "punctuation-line-break-md-bg":               "color(var(yellow-light4) a(0.7))",
 
         /** PHP */
+        "entity-name-tag-doc-php-fg":             "color(var(brown2) a(0.7))",
         "punctuation-definition-var-php-fg":      "color(var(purple1) l(+ 7%))",
         "punctuation-section-embedded-php-fg":    "color(var(green-light3) l(- 4%))",
 

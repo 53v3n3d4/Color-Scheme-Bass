@@ -365,6 +365,10 @@
       "background": "color(#423530 l(+ 4%) a(0.8))"
     },
     {
+      "scope": "embedding.php text.html.php meta.embedded.php source.php.embedded.html comment.block.documentation.phpdoc.php entity.name.tag.documentation.phpdoc.php",
+      "foreground": "#B4B4B4"
+    },
+    {
       "scope": "embedding.php text.html.php meta.embedded.php punctuation.definition.variable.php",
       "foreground": "#FC6BAA"
     },

@@ -698,12 +698,17 @@
          *
          */
         {
-            // "name": "Punctuation definition variable php", // php tag
+            // "name": "Phpdocs tags",
+            "scope": "embedding.php text.html.php meta.embedded.php source.php.embedded.html comment.block.documentation.phpdoc.php entity.name.tag.documentation.phpdoc.php",
+            "foreground": "var(entity-name-tag-doc-php-fg)"
+        },
+        {
+            // "name": "Punctuation definition variable php",
             "scope": "embedding.php text.html.php meta.embedded.php punctuation.definition.variable.php",
             "foreground": "var(punctuation-definition-var-php-fg)"
         },
         {
-            // "name": "Punctuation section embedded php", // php tag
+            // "name": "Punctuation section embedded php",
             "scope": "embedding.php text.html.php meta.embedded.php punctuation.section.embedded",
             "foreground": "var(punctuation-section-embedded-php-fg)"
         },
