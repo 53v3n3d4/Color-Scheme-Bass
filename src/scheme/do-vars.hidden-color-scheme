@@ -215,7 +215,7 @@
         /** PHP */
         "entity-name-tag-doc-php-fg":             "color(var(brown2) a(0.7))",
         "punctuation-definition-var-php-fg":      "color(var(purple1) l(+ 7%))",
-        "punctuation-section-embedded-php-fg":    "color(var(green-light3) l(- 4%))",
+        "punctuation-section-embedded-php-fg":    "color(var(cyan2) l(- 2%) a(0.8))",
 
         /** Python */
         "constant-other-placeholder-python-fg":                 "var(gray4)",

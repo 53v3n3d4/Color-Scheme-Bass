@@ -374,7 +374,7 @@
     },
     {
       "scope": "embedding.php text.html.php meta.embedded.php punctuation.section.embedded",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#C41A16 l(- 9%) a(0.7))"
     },
     {
       "scope": "meta.string.python string.quoted.single.python constant.other.placeholder.python",

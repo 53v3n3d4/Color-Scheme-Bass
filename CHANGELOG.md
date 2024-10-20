@@ -7,6 +7,27 @@
 - Sort language specific rules
 - Add rule entity name tag doc php fg
 
+### Biohack 🟤
+- Change punctuation section embedded php fg, brown -> yellow
+
+### Bowtruckle 🟢
+- Change punctuation section embedded php fg, brown -> orange
+
+### D-O 🟡
+- Change punctuation section embedded php fg, green -> cyan
+
+### Fuji ⚪️
+- Change punctuation section embedded php fg, orange -> blue
+
+### Lagoon 🌐
+- Change punctuation section embedded php fg, green -> red
+
+### Nimbus 🪙
+- Change punctuation section embedded php fg, orange -> magenta
+
+### Roci 🟣
+- Change punctuation section embedded php fg, orange -> cyan
+
 ### Zora 🔵
 - Change entity other pseudo class fg color to lighter tone
 - Change meta selector support type vendor prefix css fg to lighter tone
