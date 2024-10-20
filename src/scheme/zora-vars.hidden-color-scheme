@@ -73,7 +73,7 @@
         "entity-name-fg":                  "color(var(green-light3) l(+ 2%))",
         "entity-name-class-fg":            "color(var(pink-light4) l(+ 4%) a(0.8))",
         "entity-name-fn-fg":               "color(var(green-light3) l(+ 2%))",
-        "entity-inherited-class-fg":       "color(var(green1) l(+ 11%))",
+        "entity-inherited-class-fg":       "color(var(cyan1) a(0.9))",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
         "entity-attribute-name-fg":        "color(var(blue-light4) l(- 1%) a(0.8))",

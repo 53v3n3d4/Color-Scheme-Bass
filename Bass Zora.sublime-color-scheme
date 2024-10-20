@@ -64,7 +64,7 @@
     },
     {
       "scope": "entity.other.inherited-class",
-      "foreground": "color(#57C038 l(+ 11%))"
+      "foreground": "color(#40E0D0 a(0.9))"
     },
     {
       "scope": "entity.other.attribute-name",

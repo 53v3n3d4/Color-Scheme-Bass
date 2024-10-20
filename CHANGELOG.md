@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.23] - 2024
+
+### Zora 🔵
+- Change entity inherited class fg, green -> cyan
+
 ## [0.1.22] - 2024-10-19
 - Add line constant shebang fg
 - Change rule meta annotation python
