@@ -482,6 +482,7 @@
          * ELIXIR
          *
          */
+         // Package ElixirSyntax
         {
             // "name": "Constant other keyword elixir",
             "scope": "constant.other.keyword.elixir",
@@ -846,6 +847,7 @@
          * SASS/SCSS
          *
          */
+         // Package Sass
         {
             // "name": "Constant sass",
             "scope": "source.sass constant.other.color.rgb-value.css, source.scss constant.other.color.rgb-value.css",
@@ -888,6 +890,7 @@
          * TOML
          *
          */
+         // Package TOML
         {
             // "name": "Table toml",
             "scope": "entity.name.table.toml",

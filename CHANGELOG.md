@@ -9,21 +9,31 @@
 
 ### Biohack 🟤
 - Change punctuation section embedded php fg, brown -> yellow
+- Change meta annotation python fg, green -> gray
+
+### Blackcomb ⚫️
+- Change meta annotation path rust fg, blue -> yellow
 
 ### Bowtruckle 🟢
 - Change punctuation section embedded php fg, brown -> orange
+- Change meta annotation path rust fg, cyan -> violet
 
 ### D-O 🟡
 - Change punctuation section embedded php fg, green -> cyan
+- Change meta annotation python fg, green -> cyan
+- Change meta annotation path rust fg, brown -> cyan
 
 ### Fuji ⚪️
 - Change punctuation section embedded php fg, orange -> blue
 
 ### Lagoon 🌐
 - Change punctuation section embedded php fg, green -> red
+- Change meta annotation path rust fg, green -> cyan
 
 ### Nimbus 🪙
 - Change punctuation section embedded php fg, orange -> magenta
+- Change meta annotation python fg, blue -> gray
+- Change meta annotation path rust fg to lighter tone
 
 ### Roci 🟣
 - Change punctuation section embedded php fg, orange -> cyan
@@ -31,6 +41,8 @@
 ### Zora 🔵
 - Change entity other pseudo class fg color to lighter tone
 - Change meta selector support type vendor prefix css fg to lighter tone
+- Change meta annotation python fg, purple -> brown
+- Change meta annotation path rust fg, cyan -> brown
 
 ## [0.1.21] - 2024-08-10
 - Change rule punctuation section mapping fg

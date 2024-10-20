@@ -386,7 +386,7 @@
     },
     {
       "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python, meta.annotation.python meta.function-call.identifier.python variable.annotation.python - meta.path.python variable.annotation.python",
-      "foreground": "color(#AA0D91 l(+ 33%) a(0.7))"
+      "foreground": "color(#BF8555 l(+ 4%) a(0.9))"
     },
     {
       "scope": "meta.function-call.arguments.python meta.mapping.value.python string.quoted.single.python",
@@ -438,7 +438,7 @@
     },
     {
       "scope": "meta.annotation.rust meta.path.rust, meta.annotation.rust punctuation.definition.annotation.rust, meta.annotation.rust punctuation.section.group.begin.rust, meta.annotation.rust punctuation.section.group.end.rust",
-      "foreground": "color(#40E0D0 a(0.7))"
+      "foreground": "color(#BF8555 l(+ 4%) a(0.9))"
     },
     {
       "scope": "storage.type.rust",

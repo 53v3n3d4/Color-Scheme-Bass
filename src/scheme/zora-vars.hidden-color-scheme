@@ -220,7 +220,7 @@
         /** Python */
         "constant-other-placeholder-python-fg":                 "var(gray2)",
         "keyword-control-loop-in-python-fg":                    "var(magenta2)",
-        "meta-annotation-python-fg":                            "color(var(purple3) l(+ 33%) a(0.7))",
+        "meta-annotation-python-fg":                            "color(var(brown1) l(+ 4%) a(0.9))",
         "meta-fn-arg-string-quoted-python-fg":                  "color(var(gold2) l(+ 6%))",
         "meta-mapping-value-string-interpolation-python-fg":    "var(gray2)",
         "support-type-python-fg":                               "color(var(green-light3) l(+ 2%))",
@@ -238,7 +238,7 @@
         "entity-name-fn-rust-fg":          "color(var(green-light3) l(+ 2%))",
         "entity-name-module-rust-fg":      "var(gray2)",
         "keyword-ctrl-rust-fg":            "color(var(blue2) l(+ 24%))",
-        "meta-annotation-path-rust-fg":    "color(var(cyan1) a(0.7))",
+        "meta-annotation-path-rust-fg":    "color(var(brown1) l(+ 4%) a(0.9))",
         // "meta-fn-rust-fg":                      "",
         "storage-type-rust-fg":            "color(var(blue2) l(+ 24%))",
         "storage-type-source-rust-fg":     "color(var(pink-light4) l(+ 4%) a(0.8))",

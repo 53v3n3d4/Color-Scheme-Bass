@@ -438,7 +438,7 @@
     },
     {
       "scope": "meta.annotation.rust meta.path.rust, meta.annotation.rust punctuation.definition.annotation.rust, meta.annotation.rust punctuation.section.group.begin.rust, meta.annotation.rust punctuation.section.group.end.rust",
-      "foreground": "color(#119912 l(- 7%))"
+      "foreground": "color(#38A2AF l(- 4%))"
     },
     {
       "scope": "storage.type.rust",
