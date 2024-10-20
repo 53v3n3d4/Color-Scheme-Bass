@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.22] - 2024
+## [0.1.22] - 2024-10-19
 - Add line constant shebang fg
 - Change rule meta annotation python
 - Add rule meta directive yaml fg
