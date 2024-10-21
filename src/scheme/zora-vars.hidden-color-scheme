@@ -166,8 +166,8 @@
         /** Elixir */
         "constant-other-keyword-elixir-fg":            "color(var(cyan2) l(+ 11%) a(0.8))",
         "constant-other-symbol-elixir-fg":             "var(green-light4)",
-        "support-attr-entity-name-const-elixir-fg":    "color(var(purple3) l(+ 33%) a(0.7))",
-        "var-other-constant-elixir-fg":                "color(var(purple3) l(+ 33%) a(0.7))",
+        "support-attr-entity-name-const-elixir-fg":    "color(var(purple3) l(+ 39%) a(0.7))",
+        "var-other-constant-elixir-fg":                "color(var(purple3) l(+ 39%) a(0.7))",
 
         /** Go */
         "variable-other-readwrite-declaration-go-fg":    "color(var(green-light3) l(+ 2%))",

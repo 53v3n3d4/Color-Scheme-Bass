@@ -4,9 +4,11 @@
 
 ### Zora 🔵
 - Change entity inherited class fg, green -> cyan
+- Change support attribute entity name const elixir fg to lighter tone
+- Change var other constant elixir fg to lighter tone
 
 ## [0.1.22] - 2024-10-19
-- Add line constant shebang fg
+- Add rule line constant shebang fg
 - Change rule meta annotation python
 - Add rule meta directive yaml fg
 - Sort language specific rules
