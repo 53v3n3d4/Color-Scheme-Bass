@@ -11,7 +11,7 @@
 
         "bg-color":                   "var(yellow-light1)",
         "fg-color":                   "var(gray4)", // Popup definiton/reference text
-        "invisibles":                 "color(var(green1) a(0.6))",
+        "invisibles":                 "color(var(brown-light1) a(0.2))",
         "caret":                      "var(gray6)", // mouse cursor
         "line-highlight":             "color(var(bg-color) l(- 16%) a(0.5))", //"var(yellow-light3)",
         /** Accents */

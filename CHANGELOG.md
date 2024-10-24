@@ -2,7 +2,32 @@
 
 ## [0.1.23] - 2024
 
+### Biohack 🟤
+- Change invisibles, gray -> brown
+
+### Blackcomb ⚫️
+- Change invisibles, gray -> black
+
+### Bowtruckle 🟢
+- Change invisibles, gray -> green
+
+### D-O 🟡
+- Change invisibles, green -> brown
+
+### Fuji ⚪️
+- Change invisibles to lighter tone
+
+### Lagoon 🌐
+- Change invisibles, green -> blue
+
+### Nimbus 🪙
+- Change invisibles to lighter tone
+
+### Roci 🟣
+- Change invisibles, green -> pink
+
 ### Zora 🔵
+- Change invisibles, pink -> blue
 - Change entity inherited class fg, green -> cyan
 - Change support attribute entity name const elixir fg to lighter tone
 - Change var other constant elixir fg to lighter tone

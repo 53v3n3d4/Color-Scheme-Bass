@@ -9,7 +9,7 @@
   "globals": {
     "background": "#18171B",
     "foreground": "#F0F0F7",
-    "invisibles": "color(#5D6C79 a(0.7)",
+    "invisibles": "#404040",
     "caret": "#ECECEC",
     "line_highlight": "color(#18171B l(+ 12%) a(0.5))",
     "misspelling": "#FD8F3F",
