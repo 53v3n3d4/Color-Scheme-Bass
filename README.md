@@ -65,6 +65,10 @@ To install manually, [download](https://github.com/53v3n3d4/Color-Scheme-Bass/re
 - Download the zip file on [`releases`](https://github.com/53v3n3d4/Color-Scheme-Bass/releases) page  
 - Menu `Sublime Text > Preferences > Browse packages...` to open destination folder  
 - Then unzip `Color Scheme - Bass zip file` inside `Packages` folder  
+- Rename folder `Color-Scheme-Bass` to `Color Scheme - Bass`. This is important for Main.sublime-menu work.  
+
+> Mac/Linux `$ git clone https://github.com/53v3n3d4/Color-Scheme-Bass.git Color\ Scheme\ -\ Bass`  
+> Windows `$ git clone https://github.com/53v3n3d4/Color-Scheme-Bass.git "Color Scheme - Bass"`  
 
 ## Uninstall
 
