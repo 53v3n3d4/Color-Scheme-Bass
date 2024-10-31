@@ -454,7 +454,7 @@
     },
     {
       "scope": "support.macro.rust",
-      "foreground": "#F9DF9C"
+      "foreground": "color(#584740 l(+ 26%))"
     },
     {
       "scope": "support.type.rust",

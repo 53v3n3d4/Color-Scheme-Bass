@@ -243,7 +243,7 @@
         // "meta-fn-rust-fg":                      "",
         "storage-type-rust-fg":            "var(magenta2)",
         "storage-type-source-rust-fg":     "var(brown1)",
-        "support-macro-rust-fg":           "var(yellow-light3)",
+        "support-macro-rust-fg":           "color(var(brown-light1) l(+ 26%))",
         "support-type-rust-fg":            "var(brown1)",
 
         /** Sass/SCSS */

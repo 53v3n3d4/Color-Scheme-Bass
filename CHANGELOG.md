@@ -18,6 +18,7 @@
 - Change meta annotation python fg to lighter tone
 - Change variable other readwrite instance ruby fg to lighter tone
 - Change meta annotation path rust fg to lighter tone
+- Change support macro rust fg, yellow -> brown
 
 ### Bowtruckle 🟢
 - Change invisibles, gray -> green
@@ -80,7 +81,7 @@
 - Change meta annotation python fg, brown -> orange
 - Change variable other readwrite instance ruby fg, magenta -> orange
 - Change meta annotation path rust fg, brown -> orange
-- Change support macro rust fg, purple -> brown
+- Change support macro rust fg, purple -> cyan
 
 ## [0.1.22] - 2024-10-19
 - Add rule line constant shebang fg
