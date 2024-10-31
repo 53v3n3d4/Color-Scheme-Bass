@@ -128,7 +128,7 @@
     },
     {
       "scope": "keyword.operator",
-      "foreground": "color(#40E0D0 l(+ 3%))"
+      "foreground": "color(#40E0D0 l(+ 8%) a(0.9))"
     },
     {
       "scope": "string",
@@ -236,15 +236,19 @@
     },
     {
       "scope": "constant.other.symbol.elixir",
-      "foreground": "color(#B4B4B4 l(+ 4%))"
+      "foreground": "#A7D4B4"
+    },
+    {
+      "scope": "meta.doc.elixir meta.string.elixir string.quoted.triple.double.elixir",
+      "foreground": "color(#F9EFDA a(0.4))"
     },
     {
       "scope": "support.attr.elixir, support.attr.doc.elixir, keyword.operator.attribute.elixir, meta.function-call.arguments.elixir entity.name.constant.elixir",
-      "foreground": "#A7D4B4"
+      "foreground": "#B4B4B4"
     },
     {
       "scope": "meta.embedded.eex meta.function-call.arguments.elixir variable.other.constant.elixir, meta.embedded.heex variable.other.constant.elixir, meta.function-call.arguments.elixir meta.block.elixir meta.brackets.elixir variable.other.constant.elixir",
-      "foreground": "#A7D4B4"
+      "foreground": "#B4B4B4"
     },
     {
       "scope": "variable.other.readwrite.declaration.go",
@@ -406,7 +410,7 @@
     },
     {
       "scope": "source.ruby constant",
-      "foreground": "color(#FFE76D a(0.9))"
+      "foreground": "#A7D4B4"
     },
     {
       "scope": "meta.class.ruby entity.other.inherited-class.ruby",
@@ -418,7 +422,7 @@
     },
     {
       "scope": "variable.other.readwrite.instance.ruby",
-      "foreground": "#A7D4B4"
+      "foreground": "#B4B4B4"
     },
     {
       "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust",

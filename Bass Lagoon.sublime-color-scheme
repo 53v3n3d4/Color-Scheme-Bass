@@ -239,6 +239,10 @@
       "foreground": "color(#C01553 l(+ 9%) a(0.7))"
     },
     {
+      "scope": "meta.doc.elixir meta.string.elixir string.quoted.triple.double.elixir",
+      "foreground": "color(#5D6C79 a(0.7))"
+    },
+    {
       "scope": "support.attr.elixir, support.attr.doc.elixir, keyword.operator.attribute.elixir, meta.function-call.arguments.elixir entity.name.constant.elixir",
       "foreground": "color(#38A2AF l(- 4%))"
     },
@@ -280,7 +284,7 @@
     },
     {
       "scope": "entity.other.attribute-name.documentation.js",
-      "foreground": "color(#119912 l(- 7%))"
+      "foreground": "color(#38A2AF l(- 4%))"
     },
     {
       "scope": "keyword.declaration.function.arrow.js, meta.type.js keyword.declaration.function.js",
@@ -366,7 +370,7 @@
     },
     {
       "scope": "embedding.php text.html.php meta.embedded.php source.php.embedded.html comment.block.documentation.phpdoc.php entity.name.tag.documentation.phpdoc.php",
-      "foreground": "color(#119912 l(- 7%))"
+      "foreground": "color(#38A2AF l(- 4%))"
     },
     {
       "scope": "embedding.php text.html.php meta.embedded.php punctuation.definition.variable.php",
@@ -450,7 +454,7 @@
     },
     {
       "scope": "support.macro.rust",
-      "foreground": "color(#38A2AF l(- 4%))"
+      "foreground": "color(#4A3532 l(+ 9% )a(0.8))"
     },
     {
       "scope": "support.type.rust",

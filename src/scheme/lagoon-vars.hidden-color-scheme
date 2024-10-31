@@ -166,6 +166,7 @@
         /** Elixir */
         "constant-other-keyword-elixir-fg":            "color(var(red-dark1) l(+ 9%) a(0.8))",
         "constant-other-symbol-elixir-fg":             "color(var(pink1) l(+ 9%) a(0.7))",
+        "doc-string-quoted-triple-elixir-fg":          "color(var(gray4) a(0.7))",
         "support-attr-entity-name-const-elixir-fg":    "color(var(cyan2) l(- 4%))",
         "var-other-constant-elixir-fg":                "color(var(cyan2) l(- 4%))",
 
@@ -186,7 +187,7 @@
 
         /** Javascript */
         "entity-name-type-interface-js-fg":         "color(var(green-light3) l(- 14%))",
-        "entity-other-attribute-name-doc-js-fg":    "color(var(green2) l(- 7%))",
+        "entity-other-attribute-name-doc-js-fg":    "color(var(cyan2) l(- 4%))",
         "keyword-declaration-fn-arrow-js-fg":       "color(var(gold3) l(- 11%))",
         "support-other-js-fg":                      "color(var(pink-light4) l(- 13%))",
         "support-meta-class-js-fg":                 "color(var(green-light3) l(- 14%))",
@@ -213,7 +214,7 @@
         "punctuation-line-break-md-bg":               "color(var(blue-light4) a(0.7))",
 
         /** PHP */
-        "entity-name-tag-doc-php-fg":             "color(var(green2) l(- 7%))",
+        "entity-name-tag-doc-php-fg":             "color(var(cyan2) l(- 4%))",
         "punctuation-definition-var-php-fg":      "color(var(pink-light4) l(- 13%))",
         "punctuation-section-embedded-php-fg":    "color(var(red2) l(- 9%) a(0.7))",
 
@@ -242,7 +243,7 @@
         // "meta-fn-rust-fg":                      "",
         "storage-type-rust-fg":            "var(blue2)",
         "storage-type-source-rust-fg":     "color(var(green-light3) l(- 14%))",
-        "support-macro-rust-fg":           "color(var(cyan2) l(- 4%))",
+        "support-macro-rust-fg":           "color(var(red-dark1) l(+ 9% )a(0.8))",
         "support-type-rust-fg":            "color(var(green-light3) l(- 14%))",
 
         /** Sass/SCSS */

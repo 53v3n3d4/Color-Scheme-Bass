@@ -110,7 +110,7 @@
         /** Keyword */
         "keyword-fg":             "var(gold1)",
         // "keyword-ctrl-fg":           "var(magenta3)",
-        "keyword-operator-fg":    "color(var(cyan1) l(+ 3%))",
+        "keyword-operator-fg":    "color(var(cyan1) l(+ 8%) a(0.9))",
         // "keyword-declaration-fg":    "var(green-light1)",
 
         /** String */
@@ -165,9 +165,10 @@
 
         /** Elixir */
         "constant-other-keyword-elixir-fg":            "color(var(yellow1) a(0.9))",
-        "constant-other-symbol-elixir-fg":             "color(var(gray2) l(+ 4%))",
-        "support-attr-entity-name-const-elixir-fg":    "var(green-light2)",
-        "var-other-constant-elixir-fg":                "var(green-light2)",
+        "constant-other-symbol-elixir-fg":             "var(green-light2)",
+        "doc-string-quoted-triple-elixir-fg":          "color(var(yellow-light1) a(0.4))",
+        "support-attr-entity-name-const-elixir-fg":    "var(gray2)",
+        "var-other-constant-elixir-fg":                "var(gray2)",
 
         /** Go */
         "variable-other-readwrite-declaration-go-fg":    "var(orange2)",
@@ -228,10 +229,10 @@
 
         /** Ruby */
         "entity-name-class-ruby-fg":                    "var(white2)",
-        "constant-rb-fg":                               "color(var(yellow1) a(0.9))",
+        "constant-rb-fg":                               "var(green-light2)",
         "meta-class-ruby-fg":                           "var(pink-light4)",
         "meta-require-ruby-fg":                         "var(gold1)",
-        "variable-other-readwrite-instance-ruby-fg":    "var(green-light2)",
+        "variable-other-readwrite-instance-ruby-fg":    "var(gray2)",
 
         /** Rust */
         "entity-name-rust-fg":             "var(pink-light4)",

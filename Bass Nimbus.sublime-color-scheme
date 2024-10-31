@@ -239,12 +239,16 @@
       "foreground": "#FC6BAA"
     },
     {
+      "scope": "meta.doc.elixir meta.string.elixir string.quoted.triple.double.elixir",
+      "foreground": "color(#5D6C79 a(0.65))"
+    },
+    {
       "scope": "support.attr.elixir, support.attr.doc.elixir, keyword.operator.attribute.elixir, meta.function-call.arguments.elixir entity.name.constant.elixir",
-      "foreground": "color(#1E73BE l(+ 3%))"
+      "foreground": "color(#4A3532 l(+ 22%))"
     },
     {
       "scope": "meta.embedded.eex meta.function-call.arguments.elixir variable.other.constant.elixir, meta.embedded.heex variable.other.constant.elixir, meta.function-call.arguments.elixir meta.block.elixir meta.brackets.elixir variable.other.constant.elixir",
-      "foreground": "color(#1E73BE l(+ 3%))"
+      "foreground": "color(#4A3532 l(+ 22%))"
     },
     {
       "scope": "variable.other.readwrite.declaration.go",
@@ -280,7 +284,7 @@
     },
     {
       "scope": "entity.other.attribute-name.documentation.js",
-      "foreground": "#5D6C79"
+      "foreground": "color(#4A3532 l(+ 22%))"
     },
     {
       "scope": "keyword.declaration.function.arrow.js, meta.type.js keyword.declaration.function.js",
@@ -366,7 +370,7 @@
     },
     {
       "scope": "embedding.php text.html.php meta.embedded.php source.php.embedded.html comment.block.documentation.phpdoc.php entity.name.tag.documentation.phpdoc.php",
-      "foreground": "#5D6C79"
+      "foreground": "color(#4A3532 l(+ 22%))"
     },
     {
       "scope": "embedding.php text.html.php meta.embedded.php punctuation.definition.variable.php",
@@ -386,7 +390,7 @@
     },
     {
       "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python, meta.annotation.python meta.function-call.identifier.python variable.annotation.python - meta.path.python variable.annotation.python",
-      "foreground": "color(#5D6C79 a(0.7))"
+      "foreground": "color(#4A3532 l(+ 22%))"
     },
     {
       "scope": "meta.function-call.arguments.python meta.mapping.value.python string.quoted.single.python",
@@ -418,7 +422,7 @@
     },
     {
       "scope": "variable.other.readwrite.instance.ruby",
-      "foreground": "color(#BF8555 l(- 9%))"
+      "foreground": "color(#4A3532 l(+ 22%))"
     },
     {
       "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust",
@@ -438,7 +442,7 @@
     },
     {
       "scope": "meta.annotation.rust meta.path.rust, meta.annotation.rust punctuation.definition.annotation.rust, meta.annotation.rust punctuation.section.group.begin.rust, meta.annotation.rust punctuation.section.group.end.rust",
-      "foreground": "color(#5D6C79 a(0.7))"
+      "foreground": "color(#4A3532 l(+ 22%))"
     },
     {
       "scope": "storage.type.rust",

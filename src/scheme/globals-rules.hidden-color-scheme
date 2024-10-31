@@ -494,6 +494,11 @@
             "foreground": "var(constant-other-symbol-elixir-fg)"
         },
         {
+            // "name": "Doc string quoted triple elixir",
+            "scope": "meta.doc.elixir meta.string.elixir string.quoted.triple.double.elixir",
+            "foreground": "var(doc-string-quoted-triple-elixir-fg)"
+        },
+        {
             // "name": "Support attribute, keyword  and entity name constant elixir",
             "scope": "support.attr.elixir, support.attr.doc.elixir, keyword.operator.attribute.elixir, meta.function-call.arguments.elixir entity.name.constant.elixir",
             "foreground": "var(support-attr-entity-name-const-elixir-fg)"

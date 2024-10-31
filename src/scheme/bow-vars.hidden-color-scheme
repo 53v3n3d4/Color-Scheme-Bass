@@ -166,6 +166,7 @@
         /** Elixir */
         "constant-other-keyword-elixir-fg":            "color(var(purple2) a(0.9))",
         "constant-other-symbol-elixir-fg":             "color(var(green2) l(+ 2%) a(0.8))",
+        "doc-string-quoted-triple-elixir-fg":          "color(var(gray4) a(0.73))",
         "support-attr-entity-name-const-elixir-fg":    "color(var(violet1) l(+ 13%) a(0.8))",
         "var-other-constant-elixir-fg":                "color(var(violet1) l(+ 13%) a(0.8))",
 
@@ -186,7 +187,7 @@
 
         /** Javascript */
         "entity-name-type-interface-js-fg":         "color(var(brown2) l(+ 18%))",
-        "entity-other-attribute-name-doc-js-fg":    "var(cyan2)",
+        "entity-other-attribute-name-doc-js-fg":    "color(var(violet1) l(+ 13%) a(0.8))",
         "keyword-declaration-fn-arrow-js-fg":       "color(var(gold2) l(- 14%))",
         "support-other-js-fg":                      "var(purple1)",
         "support-meta-class-js-fg":                 "color(var(brown2) l(+ 18%))",
@@ -213,7 +214,7 @@
         "punctuation-line-break-md-bg":               "color(var(green-light6) a(0.5))",
 
         /** PHP */
-        "entity-name-tag-doc-php-fg":             "var(cyan2)",
+        "entity-name-tag-doc-php-fg":             "color(var(violet1) l(+ 13%) a(0.8))",
         "punctuation-definition-var-php-fg":      "var(magenta2)",
         "punctuation-section-embedded-php-fg":    "color(var(orange1) l(- 17%) a(0.7))",
 
@@ -231,7 +232,7 @@
         "constant-rb-fg":                               "color(var(green2) l(+ 2%) a(0.8))",
         "meta-class-ruby-fg":                           "color(var(brown2) l(+ 18%))",
         "meta-require-ruby-fg":                         "var(magenta3)",
-        "variable-other-readwrite-instance-ruby-fg":    "color(var(gold2) l(- 14%))",
+        "variable-other-readwrite-instance-ruby-fg":    "color(var(violet1) l(+ 13%) a(0.8))",
 
         /** Rust */
         "entity-name-rust-fg":             "color(var(brown2) l(+ 18%))",

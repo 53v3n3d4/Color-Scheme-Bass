@@ -1,36 +1,86 @@
 # Changelog
 
 ## [0.1.23] - 2024
+- Add rule doc string quoted triple elixir fg
 
 ### Biohack 🟤
 - Change invisibles, gray -> brown
+- Change keyword operator fg to lighter tone
+- Change entity other attribute name doc js fg, green -> gray
+- Change entity name tag doc php fg, green -> gray
+- Change constant ruby fg, yellow -> green
+- Change variable other readwrite instance ruby fg, green -> gray
 
 ### Blackcomb ⚫️
 - Change invisibles, gray -> black
+- Change entity other attribute name doc js fg, blue -> yellow
+- Change entity name tag doc php fg, blue -> yellow
+- Change meta annotation python fg to lighter tone
+- Change variable other readwrite instance ruby fg to lighter tone
+- Change meta annotation path rust fg to lighter tone
 
 ### Bowtruckle 🟢
 - Change invisibles, gray -> green
+- Change entity other attribute name doc js fg, cyan -> violet
+- Change entity name tag doc php fg, cyan -> violet
+- Change variable other readwrite instance ruby fg, gold -> violet
 
 ### D-O 🟡
 - Change invisibles, green -> brown
+- Change support attribute entity name const elixir fg, green -> cyan
+- Change var other constant elixir fg, green -> cyan
+- Change entity other attribute name doc js fg, brown -> cyan
+- Change entity name tag doc php fg, brown -> cyan
+- Change punctuation section embedded php fg to lighter tone
+- Change meta annotation python fg to darker tone
+- Change variable other readwrite instance ruby fg, green -> cyan
+- Change meta annotation path rust fg to darker tone
 
 ### Fuji ⚪️
 - Change invisibles to lighter tone
+- Change variable other readwrite instance ruby fg, blue -> brown
 
 ### Lagoon 🌐
 - Change invisibles, green -> blue
+- Change entity other attribute name doc js fg, green -> cyan
+- Change entity name tag doc php fg, green -> cyan
+- Change support macro rust fg, cyan -> red
 
 ### Nimbus 🪙
 - Change invisibles to lighter tone
+- Change support attribute entity name const elixir fg, blue -> red
+- Change var other constant elixir fg, blue -> red
+- Change entity other attribute name doc js fg, gray -> red
+- Change entity name tag doc php fg, gray -> red
+- Change meta annotation python fg, gray -> red
+- Change variable other readwrite instance ruby fg, brown -> red
+- Change meta annotation path rust fg, gray -> red
 
 ### Roci 🟣
 - Change invisibles, green -> pink
+- Change support attribute entity name const elixir fg to darker tone
+- Change var other constant elixir fg to darker tone
+- Change entity other attribute name doc js fg to darker tone
+- Change entity name tag doc php fg to darker tone
+- Change meta annotation python fg to darker tone
+- Change variable other readwrite instance ruby fg, yellow -> orange
+- Change meta annotation path rust fg to darker tone
 
 ### Zora 🔵
-- Change invisibles, pink -> blue
+- Change storage modifier fg, yellow -> purple
+- Change keyword operator fg to lighter tone
 - Change entity inherited class fg, green -> cyan
-- Change support attribute entity name const elixir fg to lighter tone
-- Change var other constant elixir fg to lighter tone
+- Change support attribute entity name const elixir fg, purple -> orange
+- Change var other constant elixir fg, purple -> orange
+- Change meta import wildcard asterisk java fg to lighter tone
+- Change entity other attribute name doc js fg, cyan -> orange
+- Change keyword declaration fn arrow js fg to lighter tone
+- Change entity name tag doc php fg, cyan -> orange
+- Change keyword control loop in python fg to lighter tone
+- Change meta annotation python fg, brown -> orange
+- Change variable other readwrite instance ruby fg, magenta -> orange
+- Change meta annotation path rust fg, brown -> orange
+- Change support macro rust fg, purple -> brown
 
 ## [0.1.22] - 2024-10-19
 - Add rule line constant shebang fg

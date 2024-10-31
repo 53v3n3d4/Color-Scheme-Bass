@@ -166,6 +166,7 @@
         /** Elixir */
         "constant-other-keyword-elixir-fg":            "var(pink2)",
         "constant-other-symbol-elixir-fg":             "color(var(pink-light4) l(- 3%))",
+        "doc-string-quoted-triple-elixir-fg":          "color(var(gray4) a(0.9))",
         "support-attr-entity-name-const-elixir-fg":    "color(var(brown2) a(0.8))",
         "var-other-constant-elixir-fg":                "color(var(brown2) a(0.8))",
 
@@ -231,7 +232,7 @@
         "constant-rb-fg":                               "color(var(pink-light4) l(- 3%))",
         "meta-class-ruby-fg":                           "var(brown1)",
         "meta-require-ruby-fg":                         "var(purple3)",
-        "variable-other-readwrite-instance-ruby-fg":    "color(var(blue5) l(- 23%))",
+        "variable-other-readwrite-instance-ruby-fg":    "color(var(brown2) a(0.8))",
 
         /** Rust */
         "entity-name-rust-fg":             "var(brown1)",
