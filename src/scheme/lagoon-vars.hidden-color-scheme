@@ -155,6 +155,11 @@
 
         /** Languages rules */
 
+        /** Clojure */
+        "constant-other-keyword-clojure-fg":    "color(var(pink1) l(+ 9%) a(0.7))",
+        "storage-modifier-def-clojure-fg":      "var(blue2)",
+        "variable-fn-clojure-fg":               "var(blue2)",
+
         /** CSS */
         "meta-at-rule-other-css-fg":                          "var(blue2)",
         "constant-css-fg":                                    "color(var(gray4) a(0.8))",

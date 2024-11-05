@@ -2,6 +2,9 @@
 
 ## [0.1.23] - 2024
 - Add rule doc string quoted triple elixir fg
+- Add rule constant other keyword clojure fg
+- Add rule storage modifier def clojure fg
+- Add rule variable fn clojure fg
 
 ### Biohack 🟤
 - Change invisibles, gray -> brown

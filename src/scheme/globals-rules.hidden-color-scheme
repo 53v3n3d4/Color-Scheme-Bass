@@ -443,6 +443,28 @@
 
         /**
          *
+         * CLOJURE
+         *
+         */
+        // Package Tutkain: constant.other.keyword.unqualified.edn
+        {
+            // "name": "Constant other keyword clojure",
+            "scope": "constant.other.keyword.clojure, constant.other.keyword.unqualified.edn",
+            "foreground": "var(constant-other-keyword-clojure-fg)"
+        },
+        {
+            // "name": "Storage modifier def clojure",
+            "scope": "storage.modifier.def.clojure",
+            "foreground": "var(storage-modifier-def-clojure-fg)"
+        },
+        {
+            // "name": "Variable function clojure",
+            "scope": "variable.function.clojure",
+            "foreground": "var(variable-fn-clojure-fg)"
+        },
+
+        /**
+         *
          * CSS
          *
          */

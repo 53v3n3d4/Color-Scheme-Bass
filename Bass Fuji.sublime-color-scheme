@@ -207,6 +207,18 @@
       "foreground": "color(#5D6C79 a(0.9))"
     },
     {
+      "scope": "constant.other.keyword.clojure, constant.other.keyword.unqualified.edn",
+      "foreground": "color(#DF88B7 l(- 3%))"
+    },
+    {
+      "scope": "storage.modifier.def.clojure",
+      "foreground": "#AA0D91"
+    },
+    {
+      "scope": "variable.function.clojure",
+      "foreground": "#AA0D91"
+    },
+    {
       "scope": "meta.at-rule.other.css",
       "foreground": "#1E73BE"
     },
