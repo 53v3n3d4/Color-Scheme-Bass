@@ -52,7 +52,7 @@
   "rules": [
     {
       "scope": "entity.name",
-      "foreground": "#E47C48"
+      "foreground": "#C8B2AF"
     },
     {
       "scope": "entity.name.class",
@@ -60,7 +60,7 @@
     },
     {
       "scope": "entity.name.function",
-      "foreground": "#E47C48"
+      "foreground": "#C8B2AF"
     },
     {
       "scope": "entity.other.inherited-class",
@@ -68,7 +68,7 @@
     },
     {
       "scope": "entity.other.attribute-name",
-      "foreground": "#A4CDFF"
+      "foreground": "color(#A4CDFF a(0.85))"
     },
     {
       "scope": "entity.other.pseudo-class",
@@ -76,7 +76,7 @@
     },
     {
       "scope": "variable.function",
-      "foreground": "#E47C48"
+      "foreground": "#C8B2AF"
     },
     {
       "scope": "variable.other.constant",
@@ -108,11 +108,11 @@
     },
     {
       "scope": "storage.type",
-      "foreground": "#FFB500"
+      "foreground": "#EAAE76"
     },
     {
       "scope": "support.function",
-      "foreground": "#E47C48"
+      "foreground": "#C8B2AF"
     },
     {
       "scope": "support.class",
@@ -124,7 +124,7 @@
     },
     {
       "scope": "keyword",
-      "foreground": "#FFB500"
+      "foreground": "#EAAE76"
     },
     {
       "scope": "keyword.operator",
@@ -212,11 +212,11 @@
     },
     {
       "scope": "storage.modifier.def.clojure",
-      "foreground": "#FFB500"
+      "foreground": "#EAAE76"
     },
     {
       "scope": "variable.function.clojure",
-      "foreground": "#FFB500"
+      "foreground": "#EAAE76"
     },
     {
       "scope": "meta.at-rule.other.css",
@@ -256,19 +256,19 @@
     },
     {
       "scope": "support.attr.elixir, support.attr.doc.elixir, keyword.operator.attribute.elixir, meta.function-call.arguments.elixir entity.name.constant.elixir",
-      "foreground": "#B4B4B4"
+      "foreground": "#FFB500"
     },
     {
       "scope": "meta.embedded.eex meta.function-call.arguments.elixir variable.other.constant.elixir, meta.embedded.heex variable.other.constant.elixir, meta.function-call.arguments.elixir meta.block.elixir meta.brackets.elixir variable.other.constant.elixir",
-      "foreground": "#B4B4B4"
+      "foreground": "#FFB500"
     },
     {
       "scope": "variable.other.readwrite.declaration.go",
-      "foreground": "#E47C48"
+      "foreground": "#C8B2AF"
     },
     {
       "scope": "storage.type.go",
-      "foreground": "#E47C48"
+      "foreground": "#C8B2AF"
     },
     {
       "scope": "storage.type.go support.type.builtin.go",
@@ -284,7 +284,7 @@
     },
     {
       "scope": "text.html entity.other.attribute-name.id",
-      "foreground": "#A4CDFF"
+      "foreground": "color(#A4CDFF a(0.85))"
     },
     {
       "scope": "meta.import.java constant.other.wildcard.asterisk.java",
@@ -296,7 +296,7 @@
     },
     {
       "scope": "entity.other.attribute-name.documentation.js",
-      "foreground": "#B4B4B4"
+      "foreground": "#FFB500"
     },
     {
       "scope": "keyword.declaration.function.arrow.js, meta.type.js keyword.declaration.function.js",
@@ -382,7 +382,7 @@
     },
     {
       "scope": "embedding.php text.html.php meta.embedded.php source.php.embedded.html comment.block.documentation.phpdoc.php entity.name.tag.documentation.phpdoc.php",
-      "foreground": "#B4B4B4"
+      "foreground": "#FFB500"
     },
     {
       "scope": "embedding.php text.html.php meta.embedded.php punctuation.definition.variable.php",
@@ -402,7 +402,7 @@
     },
     {
       "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python, meta.annotation.python meta.function-call.identifier.python variable.annotation.python - meta.path.python variable.annotation.python",
-      "foreground": "#B4B4B4"
+      "foreground": "#FFB500"
     },
     {
       "scope": "meta.function-call.arguments.python meta.mapping.value.python string.quoted.single.python",
@@ -414,7 +414,7 @@
     },
     {
       "scope": "support.type.python",
-      "foreground": "#E47C48"
+      "foreground": "#FFE76D"
     },
     {
       "scope": "entity.name.class.ruby",
@@ -430,11 +430,11 @@
     },
     {
       "scope": "meta.require.ruby - punctuation.definition.group.begin.ruby - punctuation.definition.group.end.ruby - punctuation.separator.sequence.ruby",
-      "foreground": "#FFB500"
+      "foreground": "#EAAE76"
     },
     {
       "scope": "variable.other.readwrite.instance.ruby",
-      "foreground": "#B4B4B4"
+      "foreground": "#FFB500"
     },
     {
       "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust",
@@ -442,7 +442,7 @@
     },
     {
       "scope": "entity.name.function.rust",
-      "foreground": "#E47C48"
+      "foreground": "#C8B2AF"
     },
     {
       "scope": "entity.name.module.rust",
@@ -450,15 +450,15 @@
     },
     {
       "scope": "keyword.control.rust",
-      "foreground": "#FFB500"
+      "foreground": "#EAAE76"
     },
     {
       "scope": "meta.annotation.rust meta.path.rust, meta.annotation.rust punctuation.definition.annotation.rust, meta.annotation.rust punctuation.section.group.begin.rust, meta.annotation.rust punctuation.section.group.end.rust",
-      "foreground": "#B4B4B4"
+      "foreground": "#FFB500"
     },
     {
       "scope": "storage.type.rust",
-      "foreground": "#FFB500"
+      "foreground": "#EAAE76"
     },
     {
       "scope": "storage.type.source.rust",
@@ -474,7 +474,7 @@
     },
     {
       "scope": "source.sass constant.other.color.rgb-value.css, source.scss constant.other.color.rgb-value.css",
-      "foreground": "#B4B4B4"
+      "foreground": "#FFB500"
     },
     {
       "scope": "meta.map.arguments.sass variable.parameter.sass",

@@ -70,13 +70,13 @@
         /** Rules variables*/
 
         /** Entity */
-        "entity-name-fg":                  "var(orange2)",
+        "entity-name-fg":                  "var(brown-light2)",
         "entity-name-class-fg":            "var(pink-light4)",
-        "entity-name-fn-fg":               "var(orange2)",
+        "entity-name-fn-fg":               "var(brown-light2)",
         "entity-inherited-class-fg":       "var(blue5)",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
-        "entity-attribute-name-fg":        "var(blue-light4)",
+        "entity-attribute-name-fg":        "color(var(blue-light4) a(0.85))",
         "entity-other-pseudo-class-fg":    "var(magenta3)",
 
         /** Variable */
@@ -84,7 +84,7 @@
         // "variable-lang-font-style":      "italic",
         // "variable-lang-fg":              "var(purple1)",
         // "variable-param-fg":             "var(purple1)",
-        "variable-fn-fg":                "var(orange2)",
+        "variable-fn-fg":                "var(brown-light2)",
         "variable-other-constant-fg":    "var(pink-light4)",
         "variable-other-member-fg":      "color(var(green-light3) l(- 3%) a(0.9))",
 
@@ -99,16 +99,16 @@
         /** Storage */
         // "storage-fg":             "var(pink-light4)",
         "storage-modifier-fg":          "var(green-light2)",
-        "storage-type-fg":              "var(gold1)",
+        "storage-type-fg":              "var(orange-light3)",
 
         /** Support */
         // "support-fg":          "var(green-light2)",
-        "support-fn-fg":                "var(orange2)",
+        "support-fn-fg":                "var(brown-light2)",
         "support-class-fg":             "var(pink-light4)",
         "support-type-primitive-fg":    "var(yellow1)",
 
         /** Keyword */
-        "keyword-fg":             "var(gold1)",
+        "keyword-fg":             "var(orange-light3)",
         // "keyword-ctrl-fg":           "var(magenta3)",
         "keyword-operator-fg":    "color(var(cyan1) l(+ 8%) a(0.9))",
         // "keyword-declaration-fg":    "var(green-light1)",
@@ -157,8 +157,8 @@
 
         /** Clojure */
         "constant-other-keyword-clojure-fg":    "var(green-light2)",
-        "storage-modifier-def-clojure-fg":      "var(gold1)",
-        "variable-fn-clojure-fg":               "var(gold1)",
+        "storage-modifier-def-clojure-fg":      "var(orange-light3)",
+        "variable-fn-clojure-fg":               "var(orange-light3)",
 
         /** CSS */
         "meta-at-rule-other-css-fg":                          "var(brown1)",
@@ -172,12 +172,12 @@
         "constant-other-keyword-elixir-fg":            "color(var(yellow1) a(0.9))",
         "constant-other-symbol-elixir-fg":             "var(green-light2)",
         "doc-string-quoted-triple-elixir-fg":          "color(var(yellow-light1) a(0.4))",
-        "support-attr-entity-name-const-elixir-fg":    "var(gray2)",
-        "var-other-constant-elixir-fg":                "var(gray2)",
+        "support-attr-entity-name-const-elixir-fg":    "var(gold1)",
+        "var-other-constant-elixir-fg":                "var(gold1)",
 
         /** Go */
-        "variable-other-readwrite-declaration-go-fg":    "var(orange2)",
-        "storage-type-go-fg":                            "var(orange2)",
+        "variable-other-readwrite-declaration-go-fg":    "var(brown-light2)",
+        "storage-type-go-fg":                            "var(brown-light2)",
         "storage-support-type-builtin-go-fg":            "var(pink-light4)",
 
         /** Git */
@@ -185,14 +185,14 @@
         "meta-mapping-value-git-attributes-fg":                 "var(green-light2)",
 
         /** HTML */
-        "entity-other-attribute-name-html-fg":    "var(blue-light4)",
+        "entity-other-attribute-name-html-fg":    "color(var(blue-light4) a(0.85))",
 
         /** Java */
         "meta-import-wildcard-asterisk-java-fg":    "color(var(cyan1) l(+ 3%))",
 
         /** Javascript */
         "entity-name-type-interface-js-fg":         "var(pink-light4)",
-        "entity-other-attribute-name-doc-js-fg":    "var(gray2)",
+        "entity-other-attribute-name-doc-js-fg":    "var(gold1)",
         "keyword-declaration-fn-arrow-js-fg":       "color(var(cyan1) l(+ 3%))",
         "support-other-js-fg":                      "var(green-light2)",
         "support-meta-class-js-fg":                 "var(pink-light4)",
@@ -219,40 +219,40 @@
         "punctuation-line-break-md-bg":               "color(var(brown3) l(+ 4%) a(0.8))",
 
         /** PHP */
-        "entity-name-tag-doc-php-fg":             "var(gray2)",
+        "entity-name-tag-doc-php-fg":             "var(gold1)",
         "punctuation-definition-var-php-fg":      "var(magenta2)",
         "punctuation-section-embedded-php-fg":    "color(var(yellow1) a(0.9))",
 
         /** Python */
         "constant-other-placeholder-python-fg":                 "var(white2)",
         "keyword-control-loop-in-python-fg":                    "color(var(cyan1) l(+ 3%))",
-        "meta-annotation-python-fg":                            "var(gray2)",
+        "meta-annotation-python-fg":                            "var(gold1)",
         "meta-fn-arg-string-quoted-python-fg":                  "color(var(yellow-light3) a(0.6))",
         "meta-mapping-value-string-interpolation-python-fg":    "var(white2)",
-        "support-type-python-fg":                               "var(orange2)",
+        "support-type-python-fg":                               "var(yellow1)",
         // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
 
         /** Ruby */
         "entity-name-class-ruby-fg":                    "var(white2)",
         "constant-rb-fg":                               "var(green-light2)",
         "meta-class-ruby-fg":                           "var(pink-light4)",
-        "meta-require-ruby-fg":                         "var(gold1)",
-        "variable-other-readwrite-instance-ruby-fg":    "var(gray2)",
+        "meta-require-ruby-fg":                         "var(orange-light3)",
+        "variable-other-readwrite-instance-ruby-fg":    "var(gold1)",
 
         /** Rust */
         "entity-name-rust-fg":             "var(pink-light4)",
-        "entity-name-fn-rust-fg":          "var(orange2)",
+        "entity-name-fn-rust-fg":          "var(brown-light2)",
         "entity-name-module-rust-fg":      "var(white2)",
-        "keyword-ctrl-rust-fg":            "var(gold1)",
-        "meta-annotation-path-rust-fg":    "var(gray2)",
+        "keyword-ctrl-rust-fg":            "var(orange-light3)",
+        "meta-annotation-path-rust-fg":    "var(gold1)",
         // "meta-fn-rust-fg":                      "",
-        "storage-type-rust-fg":            "var(gold1)",
+        "storage-type-rust-fg":            "var(orange-light3)",
         "storage-type-source-rust-fg":     "var(pink-light4)",
         "support-macro-rust-fg":           "color(var(green-light3) l(- 3%) a(0.9))",
         "support-type-rust-fg":            "var(pink-light4)",
 
         /** Sass/SCSS */
-        "constant-sass-fg":    "var(gray2)",
+        "constant-sass-fg":    "var(gold1)",
         "params-sass-fg":      "var(magenta2)",
         "string-scss-fg":      "color(var(yellow-light3) a(0.6))",
         "variable-sass-fg":    "color(var(yellow-light3) l(- 4%) a(0.8))",

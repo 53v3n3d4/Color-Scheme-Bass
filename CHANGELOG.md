@@ -7,12 +7,31 @@
 - Add rule variable fn clojure fg
 
 ### Biohack 🟤
+- Change entity name fg, orange -> brown
+- Change entity name fn fg, orange -> brown
+- Change entity attribute name fg to darker tone
 - Change invisibles, gray -> brown
+- Change variable fn fg, orange -> brown
+- Change storage type fg gold -> orange
+- Change support fn fg, orange -> brown
 - Change keyword operator fg to lighter tone
-- Change entity other attribute name doc js fg, green -> gray
-- Change entity name tag doc php fg, green -> gray
+- Change support attr entity name const elixir fg, gray -> gold
+- Change var other constant elixir fg, gray -> gold
+- Change variable other readwrite declaration go fg, orange -> brown
+- Change storage type go fg, orange -> brown
+- Change entity other attribute name html fg to darker tone
+- Change entity other attribute name doc js fg, green -> gold
+- Change entity name tag doc php fg, green -> gold
+- Change meta annotation python fg, gray -> gold
+- Change support type python fg, orange -> yellow
 - Change constant ruby fg, yellow -> green
-- Change variable other readwrite instance ruby fg, green -> gray
+- Change meta require ruby fg, gold -> orange
+- Change variable other readwrite instance ruby fg, green -> gold
+- Change entity name fn rust fg, orange -> brown
+- Change keyword ctrl rust fg, gold -> orange
+- Change meta annotation path rust fg, gray -> gold
+- Change storage type rust fg, gold -> orange
+- Change constant sass fg, gray -> gold
 
 ### Blackcomb ⚫️
 - Change invisibles, gray -> black
