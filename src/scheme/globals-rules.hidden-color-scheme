@@ -914,6 +914,18 @@
 
         /**
          *
+         * SVELTE
+         *
+         */
+        // Package Svelte
+        // {
+        //     // "name": "Meta embedded svelte", // Color too many
+        //     "scope": "meta.template.svelte meta.embedded.block.svelte source.js.embedded.svelte variable.other.readwrite.js",
+        //     "foreground": "var(meta-embedded-svelte-fg)"
+        // },
+
+        /**
+         *
          * TOML
          *
          */

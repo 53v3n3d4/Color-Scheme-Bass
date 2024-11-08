@@ -474,7 +474,7 @@
     },
     {
       "scope": "source.sass constant.other.color.rgb-value.css, source.scss constant.other.color.rgb-value.css",
-      "foreground": "#FFB500"
+      "foreground": "#B4B4B4"
     },
     {
       "scope": "meta.map.arguments.sass variable.parameter.sass",

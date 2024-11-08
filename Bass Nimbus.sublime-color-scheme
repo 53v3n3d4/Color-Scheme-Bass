@@ -414,7 +414,7 @@
     },
     {
       "scope": "support.type.python",
-      "foreground": "color(#0282F2 a(0.7))"
+      "foreground": "color(#DF88B7 l(- 1%))"
     },
     {
       "scope": "entity.name.class.ruby",

@@ -120,7 +120,7 @@
     },
     {
       "scope": "support.type.primitive",
-      "foreground": "color(#A4CDFF l(- 17%))"
+      "foreground": "color(#38A2AF l(+ 22%) a(0.9))"
     },
     {
       "scope": "keyword",
@@ -414,7 +414,7 @@
     },
     {
       "scope": "support.type.python",
-      "foreground": "color(#A4CDFF l(- 1%) a(0.9))"
+      "foreground": "color(#38A2AF l(+ 22%) a(0.9))"
     },
     {
       "scope": "entity.name.class.ruby",

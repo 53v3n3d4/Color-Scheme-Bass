@@ -105,7 +105,7 @@
         // "support-fg":          "var(green3)",
         "support-fn-fg":                "color(var(brown2) l(+ 23%))",
         "support-class-fg":             "color(var(green-light3) l(- 14%))",
-        "support-type-primitive-fg":    "color(var(gold1) l(- 11%) a(0.8))",
+        "support-type-primitive-fg":    "color(var(red-dark1) l(+ 22% )a(0.8))",
 
         /** Keyword */
         "keyword-fg":             "var(blue2)",
@@ -229,7 +229,7 @@
         "meta-annotation-python-fg":                            "color(var(cyan2) l(- 4%))",
         "meta-fn-arg-string-quoted-python-fg":                  "color(var(purple2) a(0.8))",
         "meta-mapping-value-string-interpolation-python-fg":    "color(var(black4) a(0.9))",
-        "support-type-python-fg":                               "color(var(brown2) l(+ 23%))",
+        "support-type-python-fg":                               "color(var(red-dark1) l(+ 22% )a(0.8))",
         // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
 
         /** Ruby */

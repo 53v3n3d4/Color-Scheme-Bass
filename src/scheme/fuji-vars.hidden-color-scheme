@@ -229,7 +229,7 @@
         "meta-annotation-python-fg":                            "color(var(brown2) a(0.8))",
         "meta-fn-arg-string-quoted-python-fg":                  "var(blue2)",
         "meta-mapping-value-string-interpolation-python-fg":    "var(black4)",
-        "support-type-python-fg":                               "color(var(green-light3) l(- 7%))",
+        "support-type-python-fg":                               "color(var(blue-light4) l(- 17%))",
         // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
 
         /** Ruby */

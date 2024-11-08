@@ -31,21 +31,24 @@
 - Change keyword ctrl rust fg, gold -> orange
 - Change meta annotation path rust fg, gray -> gold
 - Change storage type rust fg, gold -> orange
-- Change constant sass fg, gray -> gold
 
 ### Blackcomb ⚫️
 - Change invisibles, gray -> black
+- Change support type primitive fg, blue -> cyan
 - Change entity other attribute name doc js fg, blue -> yellow
 - Change entity name tag doc php fg, blue -> yellow
 - Change meta annotation python fg to lighter tone
+- Change support type python fg, blue -> cyan
 - Change variable other readwrite instance ruby fg to lighter tone
 - Change meta annotation path rust fg to lighter tone
 - Change support macro rust fg, yellow -> brown
 
 ### Bowtruckle 🟢
 - Change invisibles, gray -> green
+- Change support type primitive fg, blue -> brown
 - Change entity other attribute name doc js fg, cyan -> violet
 - Change entity name tag doc php fg, cyan -> violet
+- Change support type python fg, blue -> brown
 - Change variable other readwrite instance ruby fg, gold -> violet
 
 ### D-O 🟡
@@ -56,17 +59,21 @@
 - Change entity name tag doc php fg, brown -> cyan
 - Change punctuation section embedded php fg to lighter tone
 - Change meta annotation python fg to darker tone
+- Change support type python fg, magenta -> green
 - Change variable other readwrite instance ruby fg, green -> cyan
 - Change meta annotation path rust fg to darker tone
 
 ### Fuji ⚪️
 - Change invisibles to lighter tone
+- Change support type python fg, green -> blue
 - Change variable other readwrite instance ruby fg, blue -> brown
 
 ### Lagoon 🌐
 - Change invisibles, green -> blue
+- Change support type primitive fg, gold -> red
 - Change entity other attribute name doc js fg, green -> cyan
 - Change entity name tag doc php fg, green -> cyan
+- Change support type python fg, brown -> red
 - Change support macro rust fg, cyan -> red
 
 ### Nimbus 🪙
@@ -76,16 +83,19 @@
 - Change entity other attribute name doc js fg, gray -> red
 - Change entity name tag doc php fg, gray -> red
 - Change meta annotation python fg, gray -> red
+- Change support type python fg, blue -> pink
 - Change variable other readwrite instance ruby fg, brown -> red
 - Change meta annotation path rust fg, gray -> red
 
 ### Roci 🟣
 - Change invisibles, green -> pink
+- Change support type primitive fg to darker tone
 - Change support attribute entity name const elixir fg to darker tone
 - Change var other constant elixir fg to darker tone
 - Change entity other attribute name doc js fg to darker tone
 - Change entity name tag doc php fg to darker tone
 - Change meta annotation python fg to darker tone
+- Change support type python fg to darker tone
 - Change variable other readwrite instance ruby fg, yellow -> orange
 - Change meta annotation path rust fg to darker tone
 
@@ -101,6 +111,7 @@
 - Change entity name tag doc php fg, cyan -> orange
 - Change keyword control loop in python fg to lighter tone
 - Change meta annotation python fg, brown -> orange
+- Change support type python fg, green -> cyan
 - Change variable other readwrite instance ruby fg, magenta -> orange
 - Change meta annotation path rust fg, brown -> orange
 - Change support macro rust fg, purple -> cyan
