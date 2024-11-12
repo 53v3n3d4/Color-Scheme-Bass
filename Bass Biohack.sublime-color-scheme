@@ -256,11 +256,11 @@
     },
     {
       "scope": "support.attr.elixir, support.attr.doc.elixir, keyword.operator.attribute.elixir, meta.function-call.arguments.elixir entity.name.constant.elixir",
-      "foreground": "#FFB500"
+      "foreground": "color(#FFB500 a(0.85))"
     },
     {
       "scope": "meta.embedded.eex meta.function-call.arguments.elixir variable.other.constant.elixir, meta.embedded.heex variable.other.constant.elixir, meta.function-call.arguments.elixir meta.block.elixir meta.brackets.elixir variable.other.constant.elixir",
-      "foreground": "#FFB500"
+      "foreground": "color(#FFB500 a(0.85))"
     },
     {
       "scope": "variable.other.readwrite.declaration.go",
@@ -324,7 +324,7 @@
     },
     {
       "scope": "entity.other.attribute-name.documentation.js",
-      "foreground": "#FFB500"
+      "foreground": "color(#FFB500 a(0.85))"
     },
     {
       "scope": "keyword.declaration.function.arrow.js, meta.type.js keyword.declaration.function.js",
@@ -410,7 +410,7 @@
     },
     {
       "scope": "embedding.php text.html.php meta.embedded.php source.php.embedded.html comment.block.documentation.phpdoc.php entity.name.tag.documentation.phpdoc.php",
-      "foreground": "#FFB500"
+      "foreground": "color(#FFB500 a(0.85))"
     },
     {
       "scope": "embedding.php text.html.php meta.embedded.php punctuation.definition.variable.php",
@@ -419,6 +419,10 @@
     {
       "scope": "embedding.php text.html.php meta.embedded.php punctuation.section.embedded",
       "foreground": "color(#FFE76D a(0.9))"
+    },
+    {
+      "scope": "meta.sequence.array.php punctuation.separator.key-value.php, meta.function.php meta.block.php punctuation.accessor.arrow.php",
+      "foreground": "color(#40E0D0 l(+ 8%) a(0.9))"
     },
     {
       "scope": "meta.string.python string.quoted.single.python constant.other.placeholder.python",
@@ -430,7 +434,7 @@
     },
     {
       "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python, meta.annotation.python meta.function-call.identifier.python variable.annotation.python - meta.path.python variable.annotation.python",
-      "foreground": "#FFB500"
+      "foreground": "color(#FFB500 a(0.85))"
     },
     {
       "scope": "meta.function-call.arguments.python meta.mapping.value.python string.quoted.single.python",
@@ -462,7 +466,7 @@
     },
     {
       "scope": "variable.other.readwrite.instance.ruby",
-      "foreground": "#FFB500"
+      "foreground": "color(#FFB500 a(0.85))"
     },
     {
       "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust",
@@ -482,7 +486,7 @@
     },
     {
       "scope": "meta.annotation.rust meta.path.rust, meta.annotation.rust punctuation.definition.annotation.rust, meta.annotation.rust punctuation.section.group.begin.rust, meta.annotation.rust punctuation.section.group.end.rust",
-      "foreground": "#FFB500"
+      "foreground": "color(#FFB500 a(0.85))"
     },
     {
       "scope": "storage.type.rust",

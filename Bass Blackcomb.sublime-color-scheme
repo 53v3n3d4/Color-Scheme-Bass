@@ -414,11 +414,15 @@
     },
     {
       "scope": "embedding.php text.html.php meta.embedded.php punctuation.definition.variable.php",
-      "foreground": "#FFE76D"
+      "foreground": "color(#40E0D0 a(0.8))"
     },
     {
       "scope": "embedding.php text.html.php meta.embedded.php punctuation.section.embedded",
       "foreground": "#BF8555"
+    },
+    {
+      "scope": "meta.sequence.array.php punctuation.separator.key-value.php, meta.function.php meta.block.php punctuation.accessor.arrow.php",
+      "foreground": "#FFE76D"
     },
     {
       "scope": "meta.string.python string.quoted.single.python constant.other.placeholder.python",

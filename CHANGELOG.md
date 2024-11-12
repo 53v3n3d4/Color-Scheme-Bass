@@ -12,6 +12,7 @@
 - Add rule storage type class groovy fg
 - Add rule storage type pkg groovy fg
 - Add rule support fn print groovy fg
+- Add rule punctuation separator kv arrow php fg
 
 ### Biohack 🟤
 - Change entity name fg, orange -> brown
@@ -44,6 +45,7 @@
 - Change support type primitive fg, blue -> cyan
 - Change entity other attribute name doc js fg, blue -> yellow
 - Change entity name tag doc php fg, blue -> yellow
+- Change punctuation definition var php fg, yellow -> cyan
 - Change meta annotation python fg to lighter tone
 - Change support type python fg, blue -> cyan
 - Change variable other readwrite instance ruby fg to lighter tone

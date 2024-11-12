@@ -781,6 +781,11 @@
             "scope": "embedding.php text.html.php meta.embedded.php punctuation.section.embedded",
             "foreground": "var(punctuation-section-embedded-php-fg)"
         },
+        {
+            // "name": "Punctuation separator kv arrow php",
+            "scope": "meta.sequence.array.php punctuation.separator.key-value.php, meta.function.php meta.block.php punctuation.accessor.arrow.php",
+            "foreground": "var(punctuation-separator-kv-arrow-php-fg)"
+        },
 
         /**
          *

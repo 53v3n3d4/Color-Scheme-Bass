@@ -228,9 +228,10 @@
         "punctuation-line-break-md-bg":               "var(black8)",
 
         /** PHP */
-        "entity-name-tag-doc-php-fg":             "color(var(yellow-light3) l(+ 2%) a(0.9)",
-        "punctuation-definition-var-php-fg":      "var(yellow1)",
-        "punctuation-section-embedded-php-fg":    "var(brown1)",
+        "entity-name-tag-doc-php-fg":               "color(var(yellow-light3) l(+ 2%) a(0.9)",
+        "punctuation-definition-var-php-fg":        "color(var(cyan1) a(0.8))",
+        "punctuation-section-embedded-php-fg":      "var(brown1)",
+        "punctuation-separator-kv-arrow-php-fg":    "var(yellow1)",
 
         /** Python */
         "constant-other-placeholder-python-fg":                 "var(white2)",

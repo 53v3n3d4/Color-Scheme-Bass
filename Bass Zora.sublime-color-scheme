@@ -421,6 +421,10 @@
       "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
     },
     {
+      "scope": "meta.sequence.array.php punctuation.separator.key-value.php, meta.function.php meta.block.php punctuation.accessor.arrow.php",
+      "foreground": "color(#FC6BAA a(0.8))"
+    },
+    {
       "scope": "meta.string.python string.quoted.single.python constant.other.placeholder.python",
       "foreground": "#B4B4B4"
     },
