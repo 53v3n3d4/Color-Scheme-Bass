@@ -184,6 +184,15 @@
         "entity-name-git-ignore-const-wildcard-asterisk-fg":    "color(var(cyan1) l(+ 3%))",
         "meta-mapping-value-git-attributes-fg":                 "var(green-light2)",
 
+        /** Groovy */
+        "constant-other-key-groovy-fg":    "color(var(yellow1) a(0.9))",
+        "entity-name-class-groovy-fg":     "var(pink-light4)",
+        "keyword-other-new-groovy-fg":     "color(var(cyan1) l(+ 8%) a(0.9))",
+        "meta-method-call-groovy-fg":      "var(brown-light2)",
+        "storage-type-class-groovy-fg":    "var(pink-light4)",
+        "storage-type-pkg-groovy-fg":      "var(white2)",
+        "support-fn-print-groovy-fg":      "color(var(green-light3) l(- 3%) a(0.9))",
+
         /** HTML */
         "entity-other-attribute-name-html-fg":    "color(var(blue-light4) a(0.85))",
 

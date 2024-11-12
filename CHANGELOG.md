@@ -5,6 +5,13 @@
 - Add rule constant other keyword clojure fg
 - Add rule storage modifier def clojure fg
 - Add rule variable fn clojure fg
+- Add rule constant other key groovy fg
+- Add rule entity name class groovy fg
+- Add rule keyword other new groovy fg
+- Add rule meta method call groovy fg
+- Add rule storage type class groovy fg
+- Add rule storage type pkg groovy fg
+- Add rule support fn print groovy fg
 
 ### Biohack 🟤
 - Change entity name fg, orange -> brown

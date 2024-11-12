@@ -576,6 +576,47 @@
 
         /**
          *
+         * GROOVY
+         *
+         */
+        {
+            // "name": "Constant other key groovy",
+            "scope": "constant.other.key.groovy",
+            "foreground": "var(constant-other-key-groovy-fg)"
+        },
+        {
+            // "name": "Entity name type class groovy",
+            "scope": "entity.name.type.class.groovy",
+            "foreground": "var(entity-name-class-groovy-fg)"
+        },
+        {
+            // "name": "Keyword other new groovy",
+            "scope": "keyword.other.new.groovy",
+            "foreground": "var(keyword-other-new-groovy-fg)"
+        },
+        {
+            // "name": "Meta method call groovy",
+            "scope": "meta.method-call.groovy meta.method.groovy",
+            "foreground": "var(meta-method-call-groovy-fg)"
+        },
+        {
+            // "name": "Storage type class groovy",
+            "scope": "storage.type.class.groovy - meta.definition.class.groovy storage.type.class.groovy, meta.definition.method.parameter.groovy storage.type.parameter.groovy",
+            "foreground": "var(storage-type-class-groovy-fg)"
+        },
+        {
+            // "name": "Storage type package groovy",
+            "scope": "storage.type.package.groovy - keyword.other.package.groovy",
+            "foreground": "var(storage-type-pkg-groovy-fg)"
+        },
+        {
+            // "name": "Support function groovy",
+            "scope": "support.function.print.groovy",
+            "foreground": "var(support-fn-print-groovy-fg)"
+        },
+
+        /**
+         *
          * HTML
          *
          */

@@ -283,6 +283,34 @@
       "foreground": "#BF8555"
     },
     {
+      "scope": "constant.other.key.groovy",
+      "foreground": "color(#1E73BE l(+ 4%) a(0.8))"
+    },
+    {
+      "scope": "entity.name.type.class.groovy",
+      "foreground": "color(#D0BC56 l(- 7%))"
+    },
+    {
+      "scope": "keyword.other.new.groovy",
+      "foreground": "color(#8D52D1 l(+ 7%))"
+    },
+    {
+      "scope": "meta.method-call.groovy meta.method.groovy",
+      "foreground": "color(#EC4990 a(0.8))"
+    },
+    {
+      "scope": "storage.type.class.groovy - meta.definition.class.groovy storage.type.class.groovy, meta.definition.method.parameter.groovy storage.type.parameter.groovy",
+      "foreground": "color(#D0BC56 l(- 7%))"
+    },
+    {
+      "scope": "storage.type.package.groovy - keyword.other.package.groovy",
+      "foreground": "#5D6C79"
+    },
+    {
+      "scope": "support.function.print.groovy",
+      "foreground": "color(#0282F2 a(0.8))"
+    },
+    {
       "scope": "text.html entity.other.attribute-name.id",
       "foreground": "color(#C86733 a(0.8))"
     },
