@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.23] - 2024
+## [0.1.23] - 2024-11-26
 - Add rule doc string quoted triple elixir fg
 - Add rule constant other keyword clojure fg
 - Add rule storage modifier def clojure fg
