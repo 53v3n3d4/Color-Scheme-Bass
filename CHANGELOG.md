@@ -1,5 +1,51 @@
 # Changelog
 
+## [0.1.24] - 2025
+- Add rule meta annotation cedar fg
+- Add rule constant other keyword openfga fg
+- Add rule entity attribute name openfga fg
+- Add rule entity name label openfga fg
+- Add rule meta schema version openfga fg
+- Add rule storage modifier array js fg
+- Change rule meta annotation python fg
+
+### Biohack 🟤
+- Change invalid deprecated fg to lighter tone
+- Change invalid illegal fg to darker tone
+
+### Blackcomb ⚫️
+- Change invalid deprecated fg to darker tone
+- Change invalid illegal fg to darker tone
+
+### Bowtruckle 🟢
+- Change invalid deprecated fg, red -> orange
+- Change invalid illegal fg to lighter tone
+
+### D-O 🟡
+- Change invalid deprecated fg, red -> orange
+- Change invalid illegal fg to lighter tone
+
+### Fuji ⚪️
+- Change invalid deprecated fg, red -> orange
+
+### Lagoon 🌐
+- Change invalid deprecated fg to lighter tone
+- Change invalid illegal fg to lighter tone
+
+### Nimbus 🪙
+- Change invalid deprecated fg, red -> orange
+
+### Roci 🟣
+- Change support type primitive fg, blue -> yellow
+- Change invalid deprecated fg to darker tone
+- Change invalid illegal fg to darker tone
+- Change storage support type builtin go fg, blue -> yellow
+- Change support type python fg, blue -> yellow
+
+### Zora 🔵
+- Change invalid deprecated fg, red to orange
+- Change invalid illegal fg, orange to red
+
 ## [0.1.23] - 2024-11-26
 - Add rule doc string quoted triple elixir fg
 - Add rule constant other keyword clojure fg
