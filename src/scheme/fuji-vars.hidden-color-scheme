@@ -121,7 +121,7 @@
 
         /** Invalid */
         // "invalid-fg":               "var(red1)",
-        "invalid-deprecated-fg":    "var(red2)",
+        "invalid-deprecated-fg":    "color(var(orange1) a(0.3))",
         "invalid-illegal-fg":       "color(var(red1) a(0.7))",
 
         /** Diff */
@@ -154,6 +154,9 @@
         "line-constant-shebang-fg":    "color(var(gray4) a(0.9))",
 
         /** Languages rules */
+
+        /** Cedar */
+        "meta-annotation-cedar-fg":    "color(var(brown2) a(0.8))",
 
         /** Clojure */
         "constant-other-keyword-clojure-fg":    "color(var(pink-light4) l(- 3%))",
@@ -203,6 +206,7 @@
         "entity-name-type-interface-js-fg":         "var(brown1)",
         "entity-other-attribute-name-doc-js-fg":    "color(var(brown2) a(0.8))",
         "keyword-declaration-fn-arrow-js-fg":       "color(var(gold3) l(- 2%))",
+        "storage-modifier-array-js-fg":             "var(black4)",
         "support-other-js-fg":                      "var(pink-light4)",
         "support-meta-class-js-fg":                 "var(brown1)",
         "support-meta-fn-js-fg":                    "var(pink-light4)",
@@ -226,6 +230,12 @@
         "markup-link-fg":                             "var(blue3)",
         "markup-table-bg":                            "color(var(gray1) a(0.5))",
         "punctuation-line-break-md-bg":               "color(var(gray1) a(0.7))",
+
+        /** OpenFGA */
+        "constant-other-keyword-openfga-fg":    "var(pink2)",
+        "entity-attribute-name-openfga-fg":     "color(var(blue8) a(0.8))",
+        "entity-name-label-openfga-fg":         "var(black4)",
+        "meta-schema-version-openfga-fg":       "var(blue2)",
 
         /** PHP */
         "entity-name-tag-doc-php-fg":               "color(var(brown2) a(0.8))",

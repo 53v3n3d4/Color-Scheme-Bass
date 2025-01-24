@@ -140,11 +140,11 @@
     },
     {
       "scope": "invalid.deprecated",
-      "foreground": "color(#FC5B57 a(0.9)"
+      "foreground": "color(#FD8F3F a(0.2))"
     },
     {
       "scope": "invalid.illegal",
-      "background": "color(#FD8F3F a(0.7))"
+      "background": "color(#FC5B57 a(0.3))"
     },
     {
       "scope": "markup.changed",
@@ -205,6 +205,10 @@
     {
       "scope": "comment.line.shebang constant.language.shebang",
       "foreground": "color(#B2D6FB a(0.4))"
+    },
+    {
+      "scope": "meta.annotation.cedar punctuation.definition.annotation.cedar, meta.annotation.cedar variable.annotation.cedar",
+      "foreground": "color(#ECAA79 l(+ 7%) a(0.6))"
     },
     {
       "scope": "constant.other.keyword.clojure, constant.other.keyword.unqualified.edn",
@@ -331,6 +335,10 @@
       "foreground": "color(#FC6BAA a(0.8))"
     },
     {
+      "scope": "meta.type.js storage.modifier.array.js",
+      "foreground": "#B4B4B4"
+    },
+    {
       "scope": "(source.js | source.ts) - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
       "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
     },
@@ -409,6 +417,22 @@
       "background": "color(#262833 l(+ 4%) a(0.8))"
     },
     {
+      "scope": "constant.other.keyword.openfga",
+      "foreground": "color(#38A2AF l(+ 11%) a(0.8))"
+    },
+    {
+      "scope": "meta.group.openfga entity.name.attribute-name.openfga, meta.sequence.openfga entity.name.other.attribute-name.openfga, meta.sequence.openfga punctuation.separator.sequence.openfga, meta.group.openfga punctuation.definition.constant.openfga, constant.other.wildcard.asterisk.openfga",
+      "foreground": "color(#584740 l(+ 26%))"
+    },
+    {
+      "scope": "meta.scope.openfga entity.name.label.openfga",
+      "foreground": "#B4B4B4"
+    },
+    {
+      "scope": "meta.schema.version.openfga constant.numeric.base.version.major.openfga, meta.schema.version.openfga constant.numeric.base.version.minor.openfga, meta.schema.version.openfga punctuation.separator.sequence.version.openfga",
+      "foreground": "color(#D0BC56 l(+ 6%))"
+    },
+    {
       "scope": "embedding.php text.html.php meta.embedded.php source.php.embedded.html comment.block.documentation.phpdoc.php entity.name.tag.documentation.phpdoc.php",
       "foreground": "color(#ECAA79 l(+ 7%) a(0.6))"
     },
@@ -433,7 +457,7 @@
       "foreground": "color(#FC6BAA a(0.8))"
     },
     {
-      "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python, meta.annotation.python meta.function-call.identifier.python variable.annotation.python - meta.path.python variable.annotation.python",
+      "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python, meta.annotation.python meta.function-call.identifier.python variable.annotation.python - meta.path.python variable.annotation.python, meta.annotation.python variable.annotation.python",
       "foreground": "color(#ECAA79 l(+ 7%) a(0.6))"
     },
     {

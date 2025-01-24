@@ -443,6 +443,17 @@
 
         /**
          *
+         * CEDAR
+         *
+         */
+        {
+            // "name": "Meta annotation cedat",
+            "scope": "meta.annotation.cedar punctuation.definition.annotation.cedar, meta.annotation.cedar variable.annotation.cedar",
+            "foreground": "var(meta-annotation-cedar-fg)"
+        },
+
+        /**
+         *
          * CLOJURE
          *
          */
@@ -658,6 +669,11 @@
             "foreground": "var(keyword-declaration-fn-arrow-js-fg)"
         },
         {
+            // "name": "Storage modifier array js",
+            "scope": "meta.type.js storage.modifier.array.js",
+            "foreground": "var(storage-modifier-array-js-fg)"
+        },
+        {
             // "name": "Support other js", // e.g. name from adaptiveData.name
             "scope": "(source.js | source.ts) - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
             "foreground": "var(support-other-js-fg)"
@@ -763,6 +779,33 @@
 
         /**
          *
+         * OPEN FGA
+         *
+         */
+        {
+            // "name": "Constant other keyword openfga",
+            "scope": "constant.other.keyword.openfga",
+            "foreground": "var(constant-other-keyword-openfga-fg)"
+        },
+        {
+            // "name": "Entity name attribute name, punctuation and wildcard openfga",
+            "scope": "meta.group.openfga entity.name.attribute-name.openfga, meta.sequence.openfga entity.name.other.attribute-name.openfga, meta.sequence.openfga punctuation.separator.sequence.openfga, meta.group.openfga punctuation.definition.constant.openfga, constant.other.wildcard.asterisk.openfga",
+            "foreground": "var(entity-attribute-name-openfga-fg)"
+        },
+        {
+            // "name": "Entity name label openfga",
+            "scope": "meta.scope.openfga entity.name.label.openfga",
+            "foreground": "var(entity-name-label-openfga-fg)"
+        },
+        {
+            // "name": "Schema version openfga",
+            "scope": "meta.schema.version.openfga constant.numeric.base.version.major.openfga, meta.schema.version.openfga constant.numeric.base.version.minor.openfga, meta.schema.version.openfga punctuation.separator.sequence.version.openfga",
+            "foreground": "var(meta-schema-version-openfga-fg)"
+        },
+
+
+        /**
+         *
          * PHP
          *
          */
@@ -804,7 +847,7 @@
         },
         {
             // "name": "Meta annotation python",
-            "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python, meta.annotation.python meta.function-call.identifier.python variable.annotation.python - meta.path.python variable.annotation.python",
+            "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python, meta.annotation.python meta.function-call.identifier.python variable.annotation.python - meta.path.python variable.annotation.python, meta.annotation.python variable.annotation.python",
             "foreground": "var(meta-annotation-python-fg)"
         },
         {

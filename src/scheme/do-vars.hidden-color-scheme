@@ -121,8 +121,8 @@
 
         /** Invalid */
         // "invalid-fg":               "var(red1)",
-        "invalid-deprecated-fg":    "var(red2)",
-        "invalid-illegal-fg":       "var(red1)",
+        "invalid-deprecated-fg":    "color(var(orange1) a(0.2))",
+        "invalid-illegal-fg":       "color(var(red1) a(0.4))",
 
         /** Diff */
         "markup-changed-bg":      "hsla(53, 93%, 87%, 0.9)",
@@ -154,6 +154,9 @@
         "line-constant-shebang-fg":    "color(var(gray4) a(0.63))",
 
         /** Languages rules */
+
+        /** Cedar */
+        "meta-annotation-cedar-fg":    "color(var(cyan2) l(- 8%) a(0.8))",
 
         /** Clojure */
         "constant-other-keyword-clojure-fg":    "color(var(purple3) a(0.7))",
@@ -203,6 +206,7 @@
         "entity-name-type-interface-js-fg":         "color(var(gold2) l(- 7%))",
         "entity-other-attribute-name-doc-js-fg":    "color(var(cyan2) l(- 8%) a(0.8))",
         "keyword-declaration-fn-arrow-js-fg":       "color(var(purple1) l(+ 7%))",
+        "storage-modifier-array-js-fg":             "var(gray4)",
         "support-other-js-fg":                      "color(var(green-light3) l(- 4%))",
         "support-meta-class-js-fg":                 "color(var(gold2) l(- 7%))",
         "support-meta-fn-js-fg":                    "color(var(green-light3) l(- 4%))",
@@ -226,6 +230,12 @@
         "markup-link-fg":                             "var(blue3)",
         "markup-table-bg":                            "color(var(yellow-light4) a(0.7))",
         "punctuation-line-break-md-bg":               "color(var(yellow-light4) a(0.7))",
+
+        /** OpenFGA */
+        "constant-other-keyword-openfga-fg":    "color(var(blue2) l(+ 4%) a(0.8))",
+        "entity-attribute-name-openfga-fg":     "color(var(red-dark1) l(+ 12% )a(0.8))",
+        "entity-name-label-openfga-fg":         "var(gray4)",
+        "meta-schema-version-openfga-fg":       "color(var(brown2) a(0.5))",
 
         /** PHP */
         "entity-name-tag-doc-php-fg":               "color(var(cyan2) l(- 8%) a(0.8))",
