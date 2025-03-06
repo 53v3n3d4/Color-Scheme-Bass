@@ -1,12 +1,8 @@
-<p align="center">
-    <a href="" title="Sublime Version">
-        <img src="https://img.shields.io/badge/Build_for_Sublime_text-4143-orange?style=flat&logo=sublime-text"/>
-    </a>
-</p>
-
 ![Color Scheme Bass](assets/screenshots.gif)
 
 ## Color scheme Bass
+
+[![Sublime Text >= 4143](https://img.shields.io/badge/Sublime_Text-%3E%3D%204143-orange?style=flat&logo=sublime-text)](https://www.sublimetext.com/download)  
 
 Color-schemes available are (Click name to view)
 

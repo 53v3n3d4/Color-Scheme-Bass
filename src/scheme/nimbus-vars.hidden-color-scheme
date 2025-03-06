@@ -15,7 +15,7 @@
         "caret":                      "var(gray6)", // mouse cursor
         "line-highlight":             "color(var(bg-color) l(- 11%) a(0.5))", //"color(var(gray3) a(0.3))",
         /** Accents */
-        "misspelling":                "var(orange1)",
+        "misspelling":                "color(var(orange1) l(+ 3%))",
         "fold-marker":                "var(yellow1)", // when folded, the "..."
         "minimap-border":             "color(var(orange2) a(0.5))",
         "accent":                     "color(var(black4) a(0.8) l(+ 24%))",

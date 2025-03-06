@@ -10,32 +10,40 @@
 - Change rule meta annotation python fg
 
 ### Biohack 🟤
+- Change misspelling, brown -> orange
 - Change invalid deprecated fg to lighter tone
 - Change invalid illegal fg to darker tone
 
 ### Blackcomb ⚫️
+- Change misspelling to darker tone
 - Change invalid deprecated fg to darker tone
 - Change invalid illegal fg to darker tone
 
 ### Bowtruckle 🟢
+- Change misspelling to darker tone
 - Change invalid deprecated fg, red -> orange
 - Change invalid illegal fg to lighter tone
 
 ### D-O 🟡
+- Change misspelling to darker tone
 - Change invalid deprecated fg, red -> orange
 - Change invalid illegal fg to lighter tone
 
 ### Fuji ⚪️
+- Change misspelling to darker tone
 - Change invalid deprecated fg, red -> orange
 
 ### Lagoon 🌐
+- Change misspelling to lighter tone
 - Change invalid deprecated fg to lighter tone
 - Change invalid illegal fg to lighter tone
 
 ### Nimbus 🪙
+- Change misspelling to lighter tone
 - Change invalid deprecated fg, red -> orange
 
 ### Roci 🟣
+- Change misspelling to lighter tone
 - Change support type primitive fg, blue -> yellow
 - Change invalid deprecated fg to darker tone
 - Change invalid illegal fg to darker tone
@@ -43,6 +51,7 @@
 - Change support type python fg, blue -> yellow
 
 ### Zora 🔵
+- Change misspelling, green -> cyan
 - Change invalid deprecated fg, red to orange
 - Change invalid illegal fg, orange to red
 

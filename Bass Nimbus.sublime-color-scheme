@@ -12,7 +12,7 @@
     "invisibles": "#B4B4B4",
     "caret": "#525055",
     "line_highlight": "color(#F3EFF2 l(- 11%) a(0.5))",
-    "misspelling": "#FD8F3F",
+    "misspelling": "color(#FD8F3F l(+ 3%))",
     "fold_marker": "#FFE76D",
     "minimap_border": "color(#E47C48 a(0.5))",
     "accent": "color(#404040 a(0.8) l(+ 24%))",
