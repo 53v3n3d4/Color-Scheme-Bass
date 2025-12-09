@@ -933,6 +933,11 @@
             "foreground": "var(meta-annotation-path-rust-fg)"
         },
         {
+            // "name": "Meta annotation variable rust",
+            "scope": "meta.module.rust meta.annotation.rust meta.path.rust variable.annotation.rust",
+            "foreground": "var(meta-annotation-var-rust-fg)"
+        },
+        {
             // "name": "Meta block constant other rust",
             "scope": "meta.block.rust constant.other.rust",
             "foreground": "var(meta-block-constant-other-rust-fg)"

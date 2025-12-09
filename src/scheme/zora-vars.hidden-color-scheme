@@ -265,6 +265,7 @@
         "entity-name-module-rust-fg":           "var(gray2)",
         "keyword-ctrl-rust-fg":                 "color(var(blue2) l(+ 24%))",
         "meta-annotation-path-rust-fg":         "color(var(orange-light1) l(+ 7%) a(0.6))",
+        "meta-annotation-var-rust-fg":          "var(gray2)",
         "meta-block-constant-other-rust-fg":    "color(var(pink-light4) l(+ 4%) a(0.8))",
         "storage-type-rust-fg":                 "color(var(pink-light4) l(+ 4%) a(0.8))",
         "storage-type-source-rust-fg":          "color(var(pink-light4) l(+ 4%) a(0.8))",

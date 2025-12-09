@@ -513,6 +513,10 @@
       "foreground": "color(#F9DF9C l(+ 2%) a(0.9)"
     },
     {
+      "scope": "meta.module.rust meta.annotation.rust meta.path.rust variable.annotation.rust",
+      "foreground": "#F0F0F7"
+    },
+    {
       "scope": "meta.block.rust constant.other.rust",
       "foreground": "#BF8555"
     },

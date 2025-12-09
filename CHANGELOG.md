@@ -9,6 +9,7 @@
 - Add rule storage modifier array js fg
 - Change rule meta annotation python fg
 - Add rule meta block constant other rust fg
+- Add rule meta annotation var rust fg
 
 ### Biohack 🟤
 - Change misspelling, brown -> orange
