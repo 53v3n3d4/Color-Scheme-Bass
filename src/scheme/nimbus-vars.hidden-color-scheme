@@ -260,16 +260,16 @@
         "variable-other-readwrite-instance-ruby-fg":    "color(var(red-dark1) l(+ 22%))",
 
         /** Rust */
-        "entity-name-rust-fg":             "color(var(orange2) a(0.9))",
-        "entity-name-fn-rust-fg":          "color(var(blue3) a(0.7))",
-        "entity-name-module-rust-fg":      "var(black4)",
-        "keyword-ctrl-rust-fg":            "var(cyan2)",
-        "meta-annotation-path-rust-fg":    "color(var(red-dark1) l(+ 22%))",
-        // "meta-fn-rust-fg":                      "",
-        "storage-type-rust-fg":            "var(cyan2)",
-        "storage-type-source-rust-fg":     "color(var(orange2) a(0.9))",
-        "support-macro-rust-fg":           "color(var(magenta3) a(0.7))",
-        "support-type-rust-fg":            "color(var(orange2) a(0.9))",
+        "entity-name-rust-fg":                  "color(var(orange2) a(0.9))",
+        "entity-name-fn-rust-fg":               "color(var(blue3) a(0.7))",
+        "entity-name-module-rust-fg":           "var(black4)",
+        "keyword-ctrl-rust-fg":                 "var(cyan2)",
+        "meta-annotation-path-rust-fg":         "color(var(red-dark1) l(+ 22%))",
+        "meta-block-constant-other-rust-fg":    "color(var(orange2) a(0.9))",
+        "storage-type-rust-fg":                 "color(var(orange2) a(0.9))",
+        "storage-type-source-rust-fg":          "color(var(orange2) a(0.9))",
+        "support-macro-rust-fg":                "color(var(magenta3) a(0.7))",
+        "support-type-rust-fg":                 "color(var(orange2) a(0.9))",
 
         /** Sass/SCSS */
         "constant-sass-fg":    "var(gray4)",

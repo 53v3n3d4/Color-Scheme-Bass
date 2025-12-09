@@ -513,8 +513,12 @@
       "foreground": "color(#E47C48 l(+ 9%) a(0.7)"
     },
     {
+      "scope": "meta.block.rust constant.other.rust",
+      "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
+    },
+    {
       "scope": "storage.type.rust",
-      "foreground": "#FC6BAA"
+      "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
     },
     {
       "scope": "storage.type.source.rust",

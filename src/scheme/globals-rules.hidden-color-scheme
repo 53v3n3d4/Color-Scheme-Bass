@@ -932,11 +932,11 @@
             "scope": "meta.annotation.rust meta.path.rust, meta.annotation.rust punctuation.definition.annotation.rust, meta.annotation.rust punctuation.section.group.begin.rust, meta.annotation.rust punctuation.section.group.end.rust",
             "foreground": "var(meta-annotation-path-rust-fg)"
         },
-        // {
-        //     "name": "Meta function rust",
-        //     "scope": "meta.function.rust meta.block.rust - meta.group.rust - meta.path.rust",
-        //     "foreground": "var(meta-fn-rust-fg)"
-        // },
+        {
+            // "name": "Meta block constant other rust",
+            "scope": "meta.block.rust constant.other.rust",
+            "foreground": "var(meta-block-constant-other-rust-fg)"
+        },
         {
             // "name": "Storage type rust",
             "scope": "storage.type.rust",

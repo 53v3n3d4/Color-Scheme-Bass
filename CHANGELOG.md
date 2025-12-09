@@ -8,39 +8,51 @@
 - Add rule meta schema version openfga fg
 - Add rule storage modifier array js fg
 - Change rule meta annotation python fg
+- Add rule meta block constant other rust fg
 
 ### Biohack 🟤
 - Change misspelling, brown -> orange
 - Change invalid deprecated fg to lighter tone
 - Change invalid illegal fg to darker tone
+- Change storage type rust fg, orange -> pink
 
 ### Blackcomb ⚫️
 - Change misspelling to darker tone
 - Change invalid deprecated fg to darker tone
 - Change invalid illegal fg to darker tone
+- Change storage type rust fg, magenta -> brown
 
 ### Bowtruckle 🟢
 - Change misspelling to darker tone
 - Change invalid deprecated fg, red -> orange
 - Change invalid illegal fg to lighter tone
+- Change storage type rust fg, magenta -> brown
 
 ### D-O 🟡
 - Change misspelling to darker tone
 - Change invalid deprecated fg, red -> orange
 - Change invalid illegal fg to lighter tone
+- Change entity name rust fg, gold -> blue
+- Change storage type rust fg, orange -> blue
+- Change storage type source rust fg, gold -> blue
+- Change support macro rust fg, blue -> gold
+- Change support type rust fg, gold -> blue
 
 ### Fuji ⚪️
 - Change misspelling to darker tone
 - Change invalid deprecated fg, red -> orange
+- Change storage type rust fg, purple -> brown
 
 ### Lagoon 🌐
 - Change misspelling to lighter tone
 - Change invalid deprecated fg to lighter tone
 - Change invalid illegal fg to lighter tone
+- Change storage type rust fg, blue -> green
 
 ### Nimbus 🪙
 - Change misspelling to lighter tone
 - Change invalid deprecated fg, red -> orange
+- Change storage type rust fg, cyan -> orange
 
 ### Roci 🟣
 - Change misspelling to lighter tone
@@ -49,11 +61,13 @@
 - Change invalid illegal fg to darker tone
 - Change storage support type builtin go fg, blue -> yellow
 - Change support type python fg, blue -> yellow
+- Change storage type rust fg, magenta -> orange
 
 ### Zora 🔵
 - Change misspelling, green -> cyan
 - Change invalid deprecated fg, red to orange
 - Change invalid illegal fg, orange to red
+- Change storage type rust fg, blue -> pink
 
 ## [0.1.23] - 2024-11-26
 - Add rule doc string quoted triple elixir fg

@@ -494,7 +494,7 @@
     },
     {
       "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust",
-      "foreground": "color(#D0BC56 l(- 7%))"
+      "foreground": "color(#0282F2 l(- 7%) a(0.8))"
     },
     {
       "scope": "entity.name.function.rust",
@@ -513,20 +513,24 @@
       "foreground": "color(#38A2AF l(- 8%) a(0.8))"
     },
     {
+      "scope": "meta.block.rust constant.other.rust",
+      "foreground": "color(#0282F2 l(- 7%) a(0.8))"
+    },
+    {
       "scope": "storage.type.rust",
-      "foreground": "color(#C86733 a(0.7))"
+      "foreground": "color(#0282F2 l(- 7%) a(0.8))"
     },
     {
       "scope": "storage.type.source.rust",
-      "foreground": "color(#D0BC56 l(- 7%))"
+      "foreground": "color(#0282F2 l(- 7%) a(0.8))"
     },
     {
       "scope": "support.macro.rust",
-      "foreground": "color(#0282F2 a(0.8))"
+      "foreground": "color(#D0BC56 l(- 7%))"
     },
     {
       "scope": "support.type.rust",
-      "foreground": "color(#D0BC56 l(- 7%))"
+      "foreground": "color(#0282F2 l(- 7%) a(0.8))"
     },
     {
       "scope": "source.sass constant.other.color.rgb-value.css, source.scss constant.other.color.rgb-value.css",

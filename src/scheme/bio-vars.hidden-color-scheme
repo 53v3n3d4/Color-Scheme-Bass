@@ -260,16 +260,16 @@
         "variable-other-readwrite-instance-ruby-fg":    "color(var(gold1) a(0.85))",
 
         /** Rust */
-        "entity-name-rust-fg":             "var(pink-light4)",
-        "entity-name-fn-rust-fg":          "var(brown-light2)",
-        "entity-name-module-rust-fg":      "var(white2)",
-        "keyword-ctrl-rust-fg":            "var(orange-light3)",
-        "meta-annotation-path-rust-fg":    "color(var(gold1) a(0.85))",
-        // "meta-fn-rust-fg":                      "",
-        "storage-type-rust-fg":            "var(orange-light3)",
-        "storage-type-source-rust-fg":     "var(pink-light4)",
-        "support-macro-rust-fg":           "color(var(green-light3) l(- 3%) a(0.9))",
-        "support-type-rust-fg":            "var(pink-light4)",
+        "entity-name-rust-fg":                  "var(pink-light4)",
+        "entity-name-fn-rust-fg":               "var(brown-light2)",
+        "entity-name-module-rust-fg":           "var(white2)",
+        "keyword-ctrl-rust-fg":                 "var(orange-light3)",
+        "meta-annotation-path-rust-fg":         "color(var(gold1) a(0.85))",
+        "meta-block-constant-other-rust-fg":    "var(pink-light4)",
+        "storage-type-rust-fg":                 "var(pink-light4)",
+        "storage-type-source-rust-fg":          "var(pink-light4)",
+        "support-macro-rust-fg":                "color(var(green-light3) l(- 3%) a(0.9))",
+        "support-type-rust-fg":                 "var(pink-light4)",
 
         /** Sass/SCSS */
         "constant-sass-fg":    "var(gray2)",
