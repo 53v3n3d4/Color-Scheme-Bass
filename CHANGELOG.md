@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.24] - 2025
+## [0.1.24] - 2025-12-10
 - Add rule meta annotation cedar fg
 - Add rule constant other keyword openfga fg
 - Add rule entity attribute name openfga fg
