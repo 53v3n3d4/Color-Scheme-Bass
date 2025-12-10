@@ -56,7 +56,7 @@
     },
     {
       "scope": "entity.name.class",
-      "foreground": "color(#D0BC56 l(- 7%))"
+      "foreground": "color(#0282F2 l(- 7%) a(0.8))"
     },
     {
       "scope": "entity.name.function",
@@ -64,7 +64,7 @@
     },
     {
       "scope": "entity.other.inherited-class",
-      "foreground": "color(#0282F2 a(0.8))"
+      "foreground": "color(#D0BC56 l(- 7%))"
     },
     {
       "scope": "entity.other.attribute-name",
@@ -80,7 +80,7 @@
     },
     {
       "scope": "variable.other.constant",
-      "foreground": "color(#D0BC56 l(- 7%))"
+      "foreground": "color(#0282F2 l(- 7%) a(0.8))"
     },
     {
       "scope": "variable.other.member - meta.block.rust",
@@ -116,7 +116,7 @@
     },
     {
       "scope": "support.class",
-      "foreground": "color(#D0BC56 l(- 7%))"
+      "foreground": "color(#0282F2 l(- 7%) a(0.8))"
     },
     {
       "scope": "support.type.primitive",
@@ -236,7 +236,7 @@
     },
     {
       "scope": "support.type.property-name.css, meta.property-name.css support.type.vendor-prefix.css",
-      "foreground": "color(#0282F2 a(0.8))"
+      "foreground": "color(#0282F2 l(- 7%) a(0.8))"
     },
     {
       "scope": "meta.selector.css support.type.vendor-prefix.css, meta.selector.css punctuation.definition.pseudo-class.css",
@@ -292,7 +292,7 @@
     },
     {
       "scope": "entity.name.type.class.groovy",
-      "foreground": "color(#D0BC56 l(- 7%))"
+      "foreground": "color(#0282F2 l(- 7%) a(0.8))"
     },
     {
       "scope": "keyword.other.new.groovy",
@@ -304,7 +304,7 @@
     },
     {
       "scope": "storage.type.class.groovy - meta.definition.class.groovy storage.type.class.groovy, meta.definition.method.parameter.groovy storage.type.parameter.groovy",
-      "foreground": "color(#D0BC56 l(- 7%))"
+      "foreground": "color(#0282F2 l(- 7%) a(0.8))"
     },
     {
       "scope": "storage.type.package.groovy - keyword.other.package.groovy",
@@ -312,7 +312,7 @@
     },
     {
       "scope": "support.function.print.groovy",
-      "foreground": "color(#0282F2 a(0.8))"
+      "foreground": "color(#D0BC56 l(- 7%))"
     },
     {
       "scope": "text.html entity.other.attribute-name.id",
@@ -324,7 +324,7 @@
     },
     {
       "scope": "entity.name.type.js, entity.name.interface.js",
-      "foreground": "color(#D0BC56 l(- 7%))"
+      "foreground": "color(#0282F2 l(- 7%) a(0.8))"
     },
     {
       "scope": "entity.other.attribute-name.documentation.js",
@@ -344,7 +344,7 @@
     },
     {
       "scope": "meta.class.js support.constant.builtin.js, meta.function-call.constructor.js variable.type.js",
-      "foreground": "color(#D0BC56 l(- 7%))"
+      "foreground": "color(#0282F2 l(- 7%) a(0.8))"
     },
     {
       "scope": "support.constant.node.js, support.constant.builtin.js",
@@ -352,7 +352,7 @@
     },
     {
       "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
-      "foreground": "color(#D0BC56 l(- 7%))"
+      "foreground": "color(#0282F2 l(- 7%) a(0.8))"
     },
     {
       "scope": "constant.other.language-name.markdown",
@@ -482,7 +482,7 @@
     },
     {
       "scope": "meta.class.ruby entity.other.inherited-class.ruby",
-      "foreground": "color(#D0BC56 l(- 7%))"
+      "foreground": "color(#0282F2 l(- 7%) a(0.8))"
     },
     {
       "scope": "meta.require.ruby - punctuation.definition.group.begin.ruby - punctuation.definition.group.end.ruby - punctuation.separator.sequence.ruby",
@@ -542,7 +542,7 @@
     },
     {
       "scope": "meta.map.arguments.sass variable.parameter.sass",
-      "foreground": "color(#0282F2 a(0.8))"
+      "foreground": "color(#D0BC56 l(- 7%))"
     },
     {
       "scope": "source.scss meta.selector.css entity.name.tag.other.css, source.scss meta.selector.css entity.name.tag.html.css",
@@ -558,7 +558,7 @@
     },
     {
       "scope": "storage.type.sql",
-      "foreground": "color(#0282F2 a(0.8))"
+      "foreground": "color(#D0BC56 l(- 7%))"
     },
     {
       "scope": "entity.name.table.toml",

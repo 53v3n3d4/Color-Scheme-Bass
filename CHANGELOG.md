@@ -3,6 +3,22 @@
 ## [0.1.25] - 2026
 - Change rule meta annotation var rust fg
 
+### D-O 🟡
+- Change entity name class fg, gold -> blue
+- Change entity inherited class fg, blue -> gold
+- Change variable other constant fg, gold -> blue
+- Change support class fg, gold -> blue
+- Change support property css fg to darker tone
+- Chage entity name class groovy fg, gold -> blue
+- Change storage type class groovy fg, gold -> blue
+- Change support fn print groovy fg, blue -> gold
+- Change entity name type interface js fg, gold -> blue
+- Change support meta class js fg, gold -> blue
+- Change variable other class js fg, gold -> blue
+- Change meta class ruby fg, gold -> blue
+- Change params sass fg, blue -> gold
+- Change storage type sql fg, blue -> gold
+
 ## [0.1.24] - 2025-12-10
 - Add rule meta annotation cedar fg
 - Add rule constant other keyword openfga fg
