@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.1.25] - 2026
+- Change rule meta annotation var rust fg
+
 ## [0.1.24] - 2025-12-10
 - Add rule meta annotation cedar fg
 - Add rule constant other keyword openfga fg

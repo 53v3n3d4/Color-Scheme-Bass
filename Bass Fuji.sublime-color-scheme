@@ -513,7 +513,7 @@
       "foreground": "color(#643820 a(0.8))"
     },
     {
-      "scope": "(meta.module.rust meta.block.rust meta.annotation.rust meta.path.rust variable.annotation.rust | meta.impl.rust meta.block.rust meta.annotation.rust meta.path.rust variable.annotation.rust) - meta.function.rust meta.block.rust meta.module.rust meta.block.rust meta.module.rust meta.block.rust meta.annotation.rust meta.path.rust variable.annotation.rust",
+      "scope": "(meta.module.rust meta.block.rust meta.annotation.rust meta.path.rust variable.annotation.rust | meta.impl.rust meta.block.rust meta.annotation.rust meta.path.rust variable.annotation.rust) - meta.function.rust meta.block.rust meta.module.rust meta.block.rust meta.module.rust meta.block.rust meta.annotation.rust meta.path.rust variable.annotation.rust - meta.impl.rust meta.block.rust meta.function.rust meta.block.rust meta.annotation.rust meta.path.rust variable.annotation.rust",
       "foreground": "#404040"
     },
     {
