@@ -513,7 +513,7 @@
       "foreground": "color(#F9DF9C l(+ 2%) a(0.9)"
     },
     {
-      "scope": "meta.module.rust meta.annotation.rust meta.path.rust variable.annotation.rust",
+      "scope": "(meta.module.rust meta.block.rust meta.annotation.rust meta.path.rust variable.annotation.rust | meta.impl.rust meta.block.rust meta.annotation.rust meta.path.rust variable.annotation.rust) - meta.function.rust meta.block.rust meta.module.rust meta.block.rust meta.module.rust meta.block.rust meta.annotation.rust meta.path.rust variable.annotation.rust",
       "foreground": "#F0F0F7"
     },
     {
