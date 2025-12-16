@@ -932,11 +932,12 @@
             "scope": "meta.annotation.rust meta.path.rust, meta.annotation.rust punctuation.definition.annotation.rust, meta.annotation.rust punctuation.section.group.begin.rust, meta.annotation.rust punctuation.section.group.end.rust",
             "foreground": "var(meta-annotation-path-rust-fg)"
         },
-        {
-            // "name": "Meta annotation variable rust",
-            "scope": "(meta.module.rust meta.block.rust meta.annotation.rust meta.path.rust variable.annotation.rust | meta.impl.rust meta.block.rust meta.annotation.rust meta.path.rust variable.annotation.rust) - meta.function.rust meta.block.rust meta.module.rust meta.block.rust meta.module.rust meta.block.rust meta.annotation.rust meta.path.rust variable.annotation.rust - meta.impl.rust meta.block.rust meta.function.rust meta.block.rust meta.annotation.rust meta.path.rust variable.annotation.rust",
-            "foreground": "var(meta-annotation-var-rust-fg)"
-        },
+        // Working partially, so commenting it.
+        // {
+        //     // "name": "Meta annotation variable rust",
+        //     "scope": "(meta.module.rust meta.block.rust meta.annotation.rust meta.path.rust variable.annotation.rust | meta.impl.rust meta.block.rust meta.annotation.rust meta.path.rust variable.annotation.rust) - meta.function.rust meta.block.rust meta.module.rust meta.block.rust meta.module.rust meta.block.rust meta.annotation.rust meta.path.rust variable.annotation.rust - meta.impl.rust meta.block.rust meta.function.rust meta.block.rust meta.annotation.rust meta.path.rust variable.annotation.rust",
+        //     "foreground": "var(meta-annotation-var-rust-fg)"
+        // },
         {
             // "name": "Meta block constant other rust",
             "scope": "meta.block.rust constant.other.rust",

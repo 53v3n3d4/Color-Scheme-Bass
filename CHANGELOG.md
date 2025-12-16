@@ -1,7 +1,7 @@
 # Changelog
 
 ## [0.1.25] - 2026
-- Change rule meta annotation var rust fg
+- Remove rule meta annotation var rust fg
 
 ### D-O 🟡
 - Change entity name class fg, gold -> blue
