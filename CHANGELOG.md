@@ -3,6 +3,9 @@
 ## [0.1.25] - 2026
 - Remove rule meta annotation var rust fg
 
+### Bowtruckle 🟢
+- Change bg-color to lighter tone
+
 ### D-O 🟡
 - Change entity name class fg, gold -> blue
 - Change entity inherited class fg, blue -> gold
@@ -18,6 +21,12 @@
 - Change meta class ruby fg, gold -> blue
 - Change params sass fg, blue -> gold
 - Change storage type sql fg, blue -> gold
+
+### Lagoon 🌐
+- Change bg-color to lighter tone
+
+### Nimbus 🪙
+- Change bg-color to lighter tone
 
 ## [0.1.24] - 2025-12-10
 - Add rule meta annotation cedar fg

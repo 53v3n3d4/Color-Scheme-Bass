@@ -9,7 +9,7 @@
 
         /** Globals variables */
 
-        "bg-color":                   "var(green-light1)",
+        "bg-color":                   "color(var(green-light1) l(+ 3%))",
         "fg-color":                   "color(var(black4) a(0.9))", // Popup definiton/reference text
         "invisibles":                 "color(var(green-light2) l(- 14%))",
         "caret":                      "var(blue3)", // mouse cursor
