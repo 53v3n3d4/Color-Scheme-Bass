@@ -9,7 +9,7 @@
 
         /** Globals variables */
 
-        "bg-color":                   "color(var(blue-light3) l(+ 5%))",
+        "bg-color":                   "color(var(blue-light3) l(+ 7%))",
         "fg-color":                   "color(var(black4) a(0.9))", // Popup definiton/reference text
         "invisibles":                 "color(var(blue2) a(0.5))",
         "caret":                      "var(orange1)", // mouse cursor
@@ -281,6 +281,8 @@
         /** Sql */
         "keyword-operator-logical-sql-fg":    "color(var(red2) l(+ 3%) a(0.9))",
         "storage-type-sql-fg":                "color(var(green-light3) l(- 14%))",
+        "support-type-sql-fg":                "color(var(green-light3) l(- 14%))",
+        "variable-other-member-sql-fg":       "color(var(black4) a(0.9))",
 
         /** Toml */
         "entity-name-table-toml-fg":    "var(blue2)",

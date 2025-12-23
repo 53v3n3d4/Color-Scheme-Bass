@@ -1006,6 +1006,16 @@
             "scope": "storage.type.sql",
             "foreground": "var(storage-type-sql-fg)"
         },
+        {
+            // "name": "Support type sql",
+            "scope": "support.type.sql",
+            "foreground": "var(support-type-sql-fg)"
+        },
+        {
+            // "name": "Variable other member declaration sql",
+            "scope": "variable.other.member.declaration.sql",
+            "foreground": "var(variable-other-member-sql-fg)"
+        },
 
         /**
          *

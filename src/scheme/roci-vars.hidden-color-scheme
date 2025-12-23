@@ -281,6 +281,8 @@
         /** Sql */
         "keyword-operator-logical-sql-fg":    "var(red1)",
         "storage-type-sql-fg":                "color(var(yellow1) l(+ 2%) a(0.9))",
+        "support-type-sql-fg":                "color(var(yellow1) l(+ 2%) a(0.9))",
+        "variable-other-member-sql-fg":       "var(gray2)",
 
         /** Toml */
         "entity-name-table-toml-fg":    "color(var(blue2) l(+ 19%))",

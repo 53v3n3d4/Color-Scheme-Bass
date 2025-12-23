@@ -2,9 +2,12 @@
 
 ## [0.1.25] - 2026
 - Remove rule meta annotation var rust fg
+- Add rule support type sql fg
+- Add rule variable other member sql fg
 
 ### Bowtruckle 🟢
 - Change bg-color to lighter tone
+- Change line-highlight to lighter tone
 
 ### D-O 🟡
 - Change entity name class fg, gold -> blue

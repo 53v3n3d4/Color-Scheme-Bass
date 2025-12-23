@@ -557,6 +557,14 @@
       "foreground": "color(#DF88B7 l(- 1%))"
     },
     {
+      "scope": "support.type.sql",
+      "foreground": "color(#DF88B7 l(- 1%))"
+    },
+    {
+      "scope": "variable.other.member.declaration.sql",
+      "foreground": "#404040"
+    },
+    {
       "scope": "entity.name.table.toml",
       "foreground": "#EC4990"
     },
