@@ -15,6 +15,7 @@
 - Change variable other constant fg, gold -> blue
 - Change support class fg, gold -> blue
 - Change support property css fg to darker tone
+- Change css variable fg, green -> red
 - Chage entity name class groovy fg, gold -> blue
 - Change storage type class groovy fg, gold -> blue
 - Change support fn print groovy fg, blue -> gold

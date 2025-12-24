@@ -244,7 +244,7 @@
     },
     {
       "scope": "entity.other.custom-property.css, meta.property-value.css variable.other.custom-property.css",
-      "foreground": "color(#C4E7CE l(- 27%) a(0.9))"
+      "foreground": "color(#4A3532 l(+ 14% )a(0.8))"
     },
     {
       "scope": "constant.other.keyword.elixir",
