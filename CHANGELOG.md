@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.25] - 2026
+## [0.1.25] - 2025-12-27
 - Remove rule meta annotation var rust fg
 - Add rule support type sql fg
 - Add rule variable other member sql fg
