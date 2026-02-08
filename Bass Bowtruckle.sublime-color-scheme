@@ -52,7 +52,7 @@
   "rules": [
     {
       "scope": "entity.name",
-      "foreground": "color(#007F7C l(+ 2%))"
+      "foreground": "color(#007F7C l(+ 2%) a(0.9))"
     },
     {
       "scope": "entity.name.class",
@@ -60,7 +60,7 @@
     },
     {
       "scope": "entity.name.function",
-      "foreground": "color(#007F7C l(+ 2%))"
+      "foreground": "color(#007F7C l(+ 2%) a(0.9))"
     },
     {
       "scope": "entity.other.inherited-class",
@@ -68,7 +68,7 @@
     },
     {
       "scope": "entity.other.attribute-name",
-      "foreground": "color(#AA0D91 a(0.8))"
+      "foreground": "color(#EC4990 a(0.8))"
     },
     {
       "scope": "entity.other.pseudo-class",
@@ -76,7 +76,7 @@
     },
     {
       "scope": "variable.function",
-      "foreground": "color(#007F7C l(+ 2%))"
+      "foreground": "color(#007F7C l(+ 2%) a(0.9))"
     },
     {
       "scope": "variable.other.constant",
@@ -104,15 +104,15 @@
     },
     {
       "scope": "storage.modifier",
-      "foreground": "color(#9B2393 a(0.8))"
+      "foreground": "color(#EC4990 a(0.8))"
     },
     {
       "scope": "storage.type",
-      "foreground": "#EC4990"
+      "foreground": "color(#9B2393 a(0.8))"
     },
     {
       "scope": "support.function",
-      "foreground": "color(#007F7C l(+ 2%))"
+      "foreground": "color(#007F7C l(+ 2%) a(0.9))"
     },
     {
       "scope": "support.class",
@@ -124,7 +124,7 @@
     },
     {
       "scope": "keyword",
-      "foreground": "#EC4990"
+      "foreground": "color(#9B2393 a(0.8))"
     },
     {
       "scope": "keyword.operator",
@@ -188,7 +188,7 @@
     },
     {
       "scope": "meta.mapping.key, meta.mapping.key string",
-      "foreground": "color(#9B2393 a(0.9))"
+      "foreground": "color(#EC4990 l(- 18%) a(0.6))"
     },
     {
       "scope": "meta.mapping.value, meta.mapping.value string",
@@ -216,15 +216,15 @@
     },
     {
       "scope": "storage.modifier.def.clojure",
-      "foreground": "#EC4990"
+      "foreground": "color(#EC4990 a(0.8))"
     },
     {
       "scope": "variable.function.clojure",
-      "foreground": "#EC4990"
+      "foreground": "color(#9B2393 a(0.8))"
     },
     {
       "scope": "meta.at-rule.other.css",
-      "foreground": "color(#007F7C l(+ 2%))"
+      "foreground": "color(#007F7C l(+ 2%) a(0.9))"
     },
     {
       "scope": "source.css constant",
@@ -248,7 +248,7 @@
     },
     {
       "scope": "constant.other.keyword.elixir",
-      "foreground": "color(#9B2393 a(0.9))"
+      "foreground": "color(#EC4990 l(- 18%) a(0.6))"
     },
     {
       "scope": "constant.other.symbol.elixir",
@@ -268,11 +268,11 @@
     },
     {
       "scope": "variable.other.readwrite.declaration.go",
-      "foreground": "color(#007F7C l(+ 2%))"
+      "foreground": "color(#007F7C l(+ 2%) a(0.9))"
     },
     {
       "scope": "storage.type.go",
-      "foreground": "color(#007F7C l(+ 2%))"
+      "foreground": "color(#007F7C l(+ 2%) a(0.9))"
     },
     {
       "scope": "storage.type.go support.type.builtin.go",
@@ -284,11 +284,11 @@
     },
     {
       "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
-      "foreground": "#EC4990"
+      "foreground": "color(#9B2393 a(0.8))"
     },
     {
       "scope": "constant.other.key.groovy",
-      "foreground": "color(#9B2393 a(0.9))"
+      "foreground": "color(#EC4990 l(- 18%) a(0.6))"
     },
     {
       "scope": "entity.name.type.class.groovy",
@@ -300,7 +300,7 @@
     },
     {
       "scope": "meta.method-call.groovy meta.method.groovy",
-      "foreground": "color(#007F7C l(+ 2%))"
+      "foreground": "color(#007F7C l(+ 2%) a(0.9))"
     },
     {
       "scope": "storage.type.class.groovy - meta.definition.class.groovy storage.type.class.groovy, meta.definition.method.parameter.groovy storage.type.parameter.groovy",
@@ -316,7 +316,7 @@
     },
     {
       "scope": "text.html entity.other.attribute-name.id",
-      "foreground": "color(#AA0D91 a(0.8))"
+      "foreground": "color(#EC4990 a(0.8))"
     },
     {
       "scope": "meta.import.java constant.other.wildcard.asterisk.java",
@@ -418,7 +418,7 @@
     },
     {
       "scope": "constant.other.keyword.openfga",
-      "foreground": "color(#9B2393 a(0.9))"
+      "foreground": "color(#EC4990 l(- 18%) a(0.6))"
     },
     {
       "scope": "meta.group.openfga entity.name.attribute-name.openfga, meta.sequence.openfga entity.name.other.attribute-name.openfga, meta.sequence.openfga punctuation.separator.sequence.openfga, meta.group.openfga punctuation.definition.constant.openfga, constant.other.wildcard.asterisk.openfga",
@@ -486,7 +486,7 @@
     },
     {
       "scope": "meta.require.ruby - punctuation.definition.group.begin.ruby - punctuation.definition.group.end.ruby - punctuation.separator.sequence.ruby",
-      "foreground": "#EC4990"
+      "foreground": "color(#9B2393 a(0.8))"
     },
     {
       "scope": "variable.other.readwrite.instance.ruby",
@@ -498,7 +498,7 @@
     },
     {
       "scope": "entity.name.function.rust",
-      "foreground": "color(#007F7C l(+ 2%))"
+      "foreground": "color(#007F7C l(+ 2%) a(0.9))"
     },
     {
       "scope": "entity.name.module.rust",
@@ -506,7 +506,7 @@
     },
     {
       "scope": "keyword.control.rust",
-      "foreground": "#EC4990"
+      "foreground": "color(#9B2393 a(0.8))"
     },
     {
       "scope": "meta.annotation.rust meta.path.rust, meta.annotation.rust punctuation.definition.annotation.rust, meta.annotation.rust punctuation.section.group.begin.rust, meta.annotation.rust punctuation.section.group.end.rust",
@@ -566,11 +566,11 @@
     },
     {
       "scope": "entity.name.table.toml",
-      "foreground": "color(#007F7C l(+ 2%))"
+      "foreground": "color(#007F7C l(+ 2%) a(0.9))"
     },
     {
       "scope": "entity.name.tag.toml",
-      "foreground": "color(#9B2393 a(0.9))"
+      "foreground": "color(#EC4990 l(- 18%) a(0.6))"
     },
     {
       "scope": "meta.directive.yaml punctuation.definition.directive.begin.yaml, meta.directive.yaml keyword.other.directive.yaml, meta.directive.yaml constant.numeric.yaml-version.yaml",

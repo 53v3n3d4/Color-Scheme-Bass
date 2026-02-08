@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.1.26] - 2026
+
+### Bowtruckle 🟢
+- Change entity name fg to lighter tone
+- Change entity name fn fg to lighter tone
+- Change entity attribute name fn fg, purple -> magenta
+- Change variable fn fg to lighter tone
+- Change storage modifier fg, purple -> magenta
+- Change storage type fg, magenta -> purple
+- Change support fn fg to lighter tone
+- Change keyword fg, magenta -> purple
+- Change meta mapping key fg, purple -> magenta
+- Change storage modifier def clojure fg to lighter tone
+- Change variable fn clojure fg, magenta -> purple
+- Change meta at rule other css fg to lighter tone
+- Change constant other keyword elixir fg, purple -> magenta
+- Change variable other readwrite declaration go fg to lighter tone
+- Change storage type go fg to lighter tone
+- Change meta mapping value git attributes fg, magenta -> purple
+- Change constant other key groovy fg, purple -> magenta
+- Change meta method call groovy fg to lighter tone
+- Change entity other attribute name html fg, purple -> magenta
+- Change constant other keyword openfga fg, purple -> magenta
+- Change meta require ruby fg, magenta -> purple
+- Change entity name fn rust fg to lighter tone
+- Change keyword ctrl rust fg, magenta -> purple
+- Change entity name table toml fg to lighter tone
+- Change entity name tag toml fg, purple -> magenta
+
 ## [0.1.25] - 2025-12-27
 - Remove rule meta annotation var rust fg
 - Add rule support type sql fg
