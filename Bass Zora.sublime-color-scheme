@@ -132,7 +132,7 @@
     },
     {
       "scope": "string",
-      "foreground": "color(#D0BC56 l(+ 6%))"
+      "foreground": "color(#00997B l(+ 7%) a(0.7))"
     },
     {
       "scope": "comment",
@@ -284,7 +284,7 @@
     },
     {
       "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
-      "foreground": "#D0BC56"
+      "foreground": "#00997B"
     },
     {
       "scope": "constant.other.key.groovy",
@@ -430,7 +430,7 @@
     },
     {
       "scope": "meta.schema.version.openfga constant.numeric.base.version.major.openfga, meta.schema.version.openfga constant.numeric.base.version.minor.openfga, meta.schema.version.openfga punctuation.separator.sequence.version.openfga",
-      "foreground": "color(#D0BC56 l(+ 6%))"
+      "foreground": "color(#00997B l(+ 7%) a(0.7))"
     },
     {
       "scope": "embedding.php text.html.php meta.embedded.php source.php.embedded.html comment.block.documentation.phpdoc.php entity.name.tag.documentation.phpdoc.php",
@@ -462,7 +462,7 @@
     },
     {
       "scope": "meta.function-call.arguments.python meta.mapping.value.python string.quoted.single.python",
-      "foreground": "color(#D0BC56 l(+ 6%))"
+      "foreground": "color(#00997B l(+ 7%) a(0.7))"
     },
     {
       "scope": "meta.mapping.value.python meta.string.python meta.interpolation.python source.python.embedded, meta.mapping.value.python meta.string.python meta.interpolation.python punctuation.section.interpolation.end.python, meta.mapping.value.python meta.string.python meta.interpolation.python punctuation.section.interpolation.begin.python",
@@ -542,7 +542,7 @@
     },
     {
       "scope": "source.scss meta.selector.css entity.name.tag.other.css, source.scss meta.selector.css entity.name.tag.html.css",
-      "foreground": "color(#D0BC56 l(+ 6%))"
+      "foreground": "color(#00997B l(+ 7%) a(0.7))"
     },
     {
       "scope": "variable.declaration.sass, variable.other.sass, meta.map.arguments.sass variable.other.sass, meta.function.parameters.sass variable.parameter.sass, source.sass meta.selector.css, source.sass meta.selector.css entity.name.tag.custom.css, variable.other.scss, meta.parameter.identifier.scss variable.parameter.scss, meta.argument.identifier.scss variable.parameter.scss",
@@ -574,7 +574,7 @@
     },
     {
       "scope": "meta.directive.yaml punctuation.definition.directive.begin.yaml, meta.directive.yaml keyword.other.directive.yaml, meta.directive.yaml constant.numeric.yaml-version.yaml",
-      "foreground": "color(#D0BC56 l(+ 6%))"
+      "foreground": "color(#00997B l(+ 7%) a(0.7))"
     }
   ]
 }

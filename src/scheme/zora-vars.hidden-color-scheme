@@ -114,7 +114,7 @@
         // "keyword-declaration-fg":    "var(green3)",
 
         /** String */
-        "string-fg":    "color(var(gold2) l(+ 6%))",
+        "string-fg":    "color(var(green-light4) l(+ 7%) a(0.7))",
 
         /** Comment */
         "comment-fg":    "color(var(blue-light3) a(0.4))",
@@ -185,7 +185,7 @@
 
         /** Git */
         "entity-name-git-ignore-const-wildcard-asterisk-fg":    "color(var(magenta2) a(0.8))",
-        "meta-mapping-value-git-attributes-fg":                 "var(gold2)",
+        "meta-mapping-value-git-attributes-fg":                 "var(green-light4)",
 
         /** Groovy */
         "constant-other-key-groovy-fg":    "color(var(cyan2) l(+ 11%) a(0.8))",
@@ -235,7 +235,7 @@
         "constant-other-keyword-openfga-fg":    "color(var(cyan2) l(+ 11%) a(0.8))",
         "entity-attribute-name-openfga-fg":     "color(var(brown-light1) l(+ 26%))",
         "entity-name-label-openfga-fg":         "var(gray2)",
-        "meta-schema-version-openfga-fg":       "color(var(gold2) l(+ 6%))",
+        "meta-schema-version-openfga-fg":       "color(var(green-light4) l(+ 7%) a(0.7))",
 
         /** PHP */
         "entity-name-tag-doc-php-fg":               "color(var(orange-light1) l(+ 7%) a(0.6))",
@@ -247,7 +247,7 @@
         "constant-other-placeholder-python-fg":                 "var(gray2)",
         "keyword-control-loop-in-python-fg":                    "color(var(magenta2) a(0.8))",
         "meta-annotation-python-fg":                            "color(var(orange-light1) l(+ 7%) a(0.6))",
-        "meta-fn-arg-string-quoted-python-fg":                  "color(var(gold2) l(+ 6%))",
+        "meta-fn-arg-string-quoted-python-fg":                  "color(var(green-light4) l(+ 7%) a(0.7))",
         "meta-mapping-value-string-interpolation-python-fg":    "var(gray2)",
         "support-type-python-fg":                               "color(var(cyan2) a(0.8))",
         // "meta-qualified-name-fn-python-fg":    "color(var(pink-light4) l(+ 4%) a(0.8))",
@@ -275,7 +275,7 @@
         /** Sass/SCSS */
         "constant-sass-fg":    "color(var(gray2) l(+ 8%))",
         "params-sass-fg":      "color(var(green-light3) l(+ 5%))",
-        "string-scss-fg":      "color(var(gold2) l(+ 6%))",
+        "string-scss-fg":      "color(var(green-light4) l(+ 7%) a(0.7))",
         "variable-sass-fg":    "color(var(yellow-light3) l(+ 3%) a(0.7))",
 
         /** Sql */
@@ -289,7 +289,7 @@
         "entity-name-tag-toml-fg":      "color(var(cyan2) l(+ 11%) a(0.8))",
 
         /** YAML */
-        "meta-directive-yaml-fg":    "color(var(gold2) l(+ 6%))"
+        "meta-directive-yaml-fg":    "color(var(green-light4) l(+ 7%) a(0.7))"
 
     },
     "globals": {},

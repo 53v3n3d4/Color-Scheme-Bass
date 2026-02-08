@@ -29,6 +29,14 @@
 - Change entity name table toml fg to lighter tone
 - Change entity name tag toml fg, purple -> magenta
 
+### Zora 🔵
+- Change string fg, gold -> green
+- Change meta mapping value git attributes fg, gold -> green
+- Change meta schema version openfga fg, gold -> green
+- Change meta fn arg string quoted python fg, gold -> green
+- Change string scss fg, gold -> green
+- Change meta directive yaml fg, gold -> green
+
 ## [0.1.25] - 2025-12-27
 - Remove rule meta annotation var rust fg
 - Add rule support type sql fg
