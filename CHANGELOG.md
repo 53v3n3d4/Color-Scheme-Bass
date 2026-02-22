@@ -1,6 +1,8 @@
 # Changelog
 
 ## [0.1.26] - 2026
+- Add rule support type null ts fg
+- Add rule support type void ts fg
 
 ### Bowtruckle 🟢
 - Change entity name fg to lighter tone
@@ -84,8 +86,10 @@
 ### Zora 🔵
 - Change string fg, gold -> green
 - Change meta mapping value git attributes fg, gold -> green
+- Change support fn print groovy fg to lighter tone
 - Change meta schema version openfga fg, gold -> green
 - Change meta fn arg string quoted python fg, gold -> green
+- Change support macro rust fg to lighter tone
 - Change string scss fg, gold -> green
 - Change meta directive yaml fg, gold -> green
 

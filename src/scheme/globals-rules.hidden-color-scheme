@@ -1048,6 +1048,22 @@
 
         /**
          *
+         * TYPESCRIPT
+         *
+         */
+        {
+            // "name": "Support type primitive null typescript",
+            "scope": "source.ts support.type.primitive.null.js",
+            "foreground": "var(support-type-null-ts-fg)"
+        },
+        {
+            // "name": "Support type void typescript",
+            "scope": "source.ts support.type.void.js",
+            "foreground": "var(support-type-void-ts-fg)"
+        },
+
+        /**
+         *
          * YAML
          *
          */

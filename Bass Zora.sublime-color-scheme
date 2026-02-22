@@ -312,7 +312,7 @@
     },
     {
       "scope": "support.function.print.groovy",
-      "foreground": "color(#40E0D0 a(0.7))"
+      "foreground": "color(#40E0D0 l(+ 14%) a(0.7))"
     },
     {
       "scope": "text.html entity.other.attribute-name.id",
@@ -526,7 +526,7 @@
     },
     {
       "scope": "support.macro.rust",
-      "foreground": "color(#40E0D0 a(0.7))"
+      "foreground": "color(#40E0D0 l(+ 14%) a(0.7))"
     },
     {
       "scope": "support.type.rust",
@@ -571,6 +571,14 @@
     {
       "scope": "entity.name.tag.toml",
       "foreground": "color(#38A2AF l(+ 11%) a(0.8))"
+    },
+    {
+      "scope": "source.ts support.type.primitive.null.js",
+      "foreground": "color(#FC5B57 a(0.9)"
+    },
+    {
+      "scope": "source.ts support.type.void.js",
+      "foreground": "color(#38A2AF a(0.8))"
     },
     {
       "scope": "meta.directive.yaml punctuation.definition.directive.begin.yaml, meta.directive.yaml keyword.other.directive.yaml, meta.directive.yaml constant.numeric.yaml-version.yaml",

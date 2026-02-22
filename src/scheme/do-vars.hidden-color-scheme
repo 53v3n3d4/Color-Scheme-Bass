@@ -288,6 +288,10 @@
         "entity-name-table-toml-fg":    "var(purple2)",
         "entity-name-tag-toml-fg":      "color(var(blue2) l(+ 4%) a(0.8))",
 
+        /** Typescript */
+        "support-type-null-ts-fg":    "var(red1)",
+        "support-type-void-ts-fg":    "color(var(green2) l(- 3%) a(0.8))",
+
         /** YAML */
         "meta-directive-yaml-fg":    "color(var(brown2) a(0.5))"
 

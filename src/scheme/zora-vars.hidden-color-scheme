@@ -194,7 +194,7 @@
         "meta-method-call-groovy-fg":      "color(var(green-light3) l(+ 2%))",
         "storage-type-class-groovy-fg":    "color(var(pink-light4) l(+ 4%) a(0.8))",
         "storage-type-pkg-groovy-fg":      "var(gray2)",
-        "support-fn-print-groovy-fg":      "color(var(cyan1) a(0.7))",
+        "support-fn-print-groovy-fg":      "color(var(cyan1) l(+ 14%) a(0.7))",
 
         /** HTML */
         "entity-other-attribute-name-html-fg":    "color(var(blue-light4) l(- 1%) a(0.8))",
@@ -269,7 +269,7 @@
         "meta-block-constant-other-rust-fg":    "color(var(pink-light4) l(+ 4%) a(0.8))",
         "storage-type-rust-fg":                 "color(var(pink-light4) l(+ 4%) a(0.8))",
         "storage-type-source-rust-fg":          "color(var(pink-light4) l(+ 4%) a(0.8))",
-        "support-macro-rust-fg":                "color(var(cyan1) a(0.7))",
+        "support-macro-rust-fg":                "color(var(cyan1) l(+ 14%) a(0.7))",
         "support-type-rust-fg":                 "color(var(pink-light4) l(+ 4%) a(0.8))",
 
         /** Sass/SCSS */
@@ -287,6 +287,10 @@
         /** Toml */
         "entity-name-table-toml-fg":    "var(pink-light4)",
         "entity-name-tag-toml-fg":      "color(var(cyan2) l(+ 11%) a(0.8))",
+
+        /** Typescript */
+        "support-type-null-ts-fg":    "color(var(red1) a(0.9)",
+        "support-type-void-ts-fg":    "color(var(cyan2) a(0.8))",
 
         /** YAML */
         "meta-directive-yaml-fg":    "color(var(green-light4) l(+ 7%) a(0.7))"

@@ -573,6 +573,14 @@
       "foreground": "color(#DF88B7 l(+ 1%))"
     },
     {
+      "scope": "source.ts support.type.primitive.null.js",
+      "foreground": "#FC5B57"
+    },
+    {
+      "scope": "source.ts support.type.void.js",
+      "foreground": "color(#FFE76D a(0.6) l(+ 7%))"
+    },
+    {
       "scope": "meta.directive.yaml punctuation.definition.directive.begin.yaml, meta.directive.yaml keyword.other.directive.yaml, meta.directive.yaml constant.numeric.yaml-version.yaml",
       "foreground": "color(#40E0D0 a(0.7))"
     }
