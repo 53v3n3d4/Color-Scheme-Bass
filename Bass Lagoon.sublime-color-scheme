@@ -9,7 +9,7 @@
   "globals": {
     "background": "color(#B2D6FB l(+ 7%))",
     "foreground": "color(#404040 a(0.9))",
-    "invisibles": "color(#1E73BE a(0.5))",
+    "invisibles": "color(#1E73BE a(0.35))",
     "caret": "#FD8F3F",
     "line_highlight": "color(#C4E7CE a(0.6))",
     "misspelling": "color(#DF88B7 l(- 13%))",
@@ -24,18 +24,18 @@
     "line_diff_added": "#0282F2",
     "line_diff_modified": "#FFB500",
     "line_diff_deleted": "#FC5B57",
-    "selection": "color(#C4E7CE a(0.4))",
+    "selection": "color(#352336 a(0.1))",
     "selection_foreground": "#5D6C79",
     "selection_border": "#E8F2FF",
     "selection_border_width": "1",
-    "inactive_selection": "color(#C4E7CE a(0.33))",
+    "inactive_selection": "color(#352336 a(0.14))",
     "inactive_selection_foreground": "#5D6C79",
     "selection_corner_style": "round",
     "selection_corner_radius": "2",
-    "highlight": "#FFE76D",
+    "highlight": "#FFC849",
     "find_highlight": "#A7D4B4",
     "find_highlight_foreground": "#FFFFFF",
-    "scroll_highlight": "#FFE76D",
+    "scroll_highlight": "#FFC849",
     "rulers": "color(#5D6C79 a(0.5)",
     "guide": "color(#2077FB a(0.5))",
     "active_guide": "#1C02CF",
@@ -52,15 +52,15 @@
   "rules": [
     {
       "scope": "entity.name",
-      "foreground": "color(#643820 l(+ 23%))"
+      "foreground": "color(#1E73BE a(0.9)"
     },
     {
       "scope": "entity.name.class",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#83B85E l(- 14%) a(0.9))"
     },
     {
       "scope": "entity.name.function",
-      "foreground": "color(#643820 l(+ 23%))"
+      "foreground": "color(#1E73BE a(0.9)"
     },
     {
       "scope": "entity.other.inherited-class",
@@ -68,7 +68,7 @@
     },
     {
       "scope": "entity.other.attribute-name",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#83B85E l(- 14%) a(0.9))"
     },
     {
       "scope": "entity.other.pseudo-class",
@@ -76,11 +76,11 @@
     },
     {
       "scope": "variable.function",
-      "foreground": "color(#643820 l(+ 23%))"
+      "foreground": "color(#1E73BE a(0.9)"
     },
     {
       "scope": "variable.other.constant",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#83B85E l(- 14%) a(0.9))"
     },
     {
       "scope": "variable.other.member - meta.block.rust",
@@ -92,31 +92,31 @@
     },
     {
       "scope": "constant.language",
-      "foreground": "color(#C41A16 l(+ 3%) a(0.9))"
+      "foreground": "color(#C41A16 l(+ 5%) a(0.8))"
     },
     {
       "scope": "constant.language.null",
-      "foreground": "color(#C41A16 l(+ 3%) a(0.9))"
+      "foreground": "color(#C41A16 l(+ 5%) a(0.8))"
     },
     {
       "scope": "constant.language.boolean",
-      "foreground": "color(#C41A16 l(+ 3%) a(0.9))"
+      "foreground": "color(#C41A16 l(+ 5%) a(0.8))"
     },
     {
       "scope": "storage.modifier",
-      "foreground": "color(#DF88B7 l(- 10%))"
+      "foreground": "color(#DF88B7 l(- 10%) a(0.9))"
     },
     {
       "scope": "storage.type",
-      "foreground": "#1E73BE"
+      "foreground": "color(#643820 l(- 2%) a(0.6))"
     },
     {
       "scope": "support.function",
-      "foreground": "color(#643820 l(+ 23%))"
+      "foreground": "color(#1E73BE a(0.9)"
     },
     {
       "scope": "support.class",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#83B85E l(- 14%) a(0.9))"
     },
     {
       "scope": "support.type.primitive",
@@ -124,7 +124,7 @@
     },
     {
       "scope": "keyword",
-      "foreground": "#1E73BE"
+      "foreground": "color(#643820 l(- 2%) a(0.6))"
     },
     {
       "scope": "keyword.operator",
@@ -164,7 +164,7 @@
     {
       "scope": "meta.diff, meta.diff.header",
       "background": "hsla(211, 85%, 89%, 0.5)",
-      "foreground": "#1E73BE"
+      "foreground": "color(#643820 l(- 2%) a(0.6))"
     },
     {
       "scope": "diff.deleted",
@@ -188,11 +188,11 @@
     },
     {
       "scope": "meta.mapping.key, meta.mapping.key string",
-      "foreground": "color(#4A3532 l(+ 9% )a(0.8))"
+      "foreground": "color(#FD8F3F l(- 26% )a(0.7))"
     },
     {
       "scope": "meta.mapping.value, meta.mapping.value string",
-      "foreground": "color(#DF88B7 l(- 13%))"
+      "foreground": "color(#DF88B7 l(- 24%) a(0.9))"
     },
     {
       "scope": "punctuation.section.mapping.begin, punctuation.section.mapping.end",
@@ -216,15 +216,15 @@
     },
     {
       "scope": "storage.modifier.def.clojure",
-      "foreground": "#1E73BE"
+      "foreground": "color(#643820 l(- 2%) a(0.6))"
     },
     {
       "scope": "variable.function.clojure",
-      "foreground": "#1E73BE"
+      "foreground": "color(#643820 l(- 2%) a(0.6))"
     },
     {
       "scope": "meta.at-rule.other.css",
-      "foreground": "#1E73BE"
+      "foreground": "color(#643820 l(- 2%) a(0.6))"
     },
     {
       "scope": "source.css constant",
@@ -268,11 +268,11 @@
     },
     {
       "scope": "variable.other.readwrite.declaration.go",
-      "foreground": "color(#643820 l(+ 23%))"
+      "foreground": "color(#1E73BE a(0.9)"
     },
     {
       "scope": "storage.type.go",
-      "foreground": "color(#643820 l(+ 23%))"
+      "foreground": "color(#1E73BE a(0.9)"
     },
     {
       "scope": "storage.type.go support.type.builtin.go",
@@ -292,7 +292,7 @@
     },
     {
       "scope": "entity.name.type.class.groovy",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#83B85E l(- 14%) a(0.9))"
     },
     {
       "scope": "keyword.other.new.groovy",
@@ -300,11 +300,11 @@
     },
     {
       "scope": "meta.method-call.groovy meta.method.groovy",
-      "foreground": "color(#643820 l(+ 23%))"
+      "foreground": "color(#1E73BE a(0.9)"
     },
     {
       "scope": "storage.type.class.groovy - meta.definition.class.groovy storage.type.class.groovy, meta.definition.method.parameter.groovy storage.type.parameter.groovy",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#83B85E l(- 14%) a(0.9))"
     },
     {
       "scope": "storage.type.package.groovy - keyword.other.package.groovy",
@@ -312,11 +312,11 @@
     },
     {
       "scope": "support.function.print.groovy",
-      "foreground": "color(#4A3532 l(+ 9% )a(0.8))"
+      "foreground": "color(#FD8F3F l(- 26% )a(0.7))"
     },
     {
       "scope": "text.html entity.other.attribute-name.id",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#83B85E l(- 14%) a(0.9))"
     },
     {
       "scope": "meta.import.java constant.other.wildcard.asterisk.java",
@@ -324,7 +324,7 @@
     },
     {
       "scope": "entity.name.type.js, entity.name.interface.js",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#83B85E l(- 14%) a(0.9))"
     },
     {
       "scope": "entity.other.attribute-name.documentation.js",
@@ -344,7 +344,7 @@
     },
     {
       "scope": "meta.class.js support.constant.builtin.js, meta.function-call.constructor.js variable.type.js",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#83B85E l(- 14%) a(0.9))"
     },
     {
       "scope": "support.constant.node.js, support.constant.builtin.js",
@@ -352,7 +352,7 @@
     },
     {
       "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#83B85E l(- 14%) a(0.9))"
     },
     {
       "scope": "constant.other.language-name.markdown",
@@ -482,11 +482,11 @@
     },
     {
       "scope": "meta.class.ruby entity.other.inherited-class.ruby",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#83B85E l(- 14%) a(0.9))"
     },
     {
       "scope": "meta.require.ruby - punctuation.definition.group.begin.ruby - punctuation.definition.group.end.ruby - punctuation.separator.sequence.ruby",
-      "foreground": "#1E73BE"
+      "foreground": "color(#643820 l(- 2%) a(0.6))"
     },
     {
       "scope": "variable.other.readwrite.instance.ruby",
@@ -494,11 +494,11 @@
     },
     {
       "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#83B85E l(- 14%) a(0.9))"
     },
     {
       "scope": "entity.name.function.rust",
-      "foreground": "color(#643820 l(+ 23%))"
+      "foreground": "color(#1E73BE a(0.9)"
     },
     {
       "scope": "entity.name.module.rust",
@@ -506,7 +506,7 @@
     },
     {
       "scope": "keyword.control.rust",
-      "foreground": "#1E73BE"
+      "foreground": "color(#643820 l(- 2%) a(0.6))"
     },
     {
       "scope": "meta.annotation.rust meta.path.rust, meta.annotation.rust punctuation.definition.annotation.rust, meta.annotation.rust punctuation.section.group.begin.rust, meta.annotation.rust punctuation.section.group.end.rust",
@@ -514,23 +514,23 @@
     },
     {
       "scope": "meta.block.rust constant.other.rust",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#83B85E l(- 14%) a(0.9))"
     },
     {
       "scope": "storage.type.rust",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#83B85E l(- 14%) a(0.9))"
     },
     {
       "scope": "storage.type.source.rust",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#83B85E l(- 14%) a(0.9))"
     },
     {
       "scope": "support.macro.rust",
-      "foreground": "color(#4A3532 l(+ 9% )a(0.8))"
+      "foreground": "color(#FD8F3F l(- 26% )a(0.7))"
     },
     {
       "scope": "support.type.rust",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#83B85E l(- 14%) a(0.9))"
     },
     {
       "scope": "source.sass constant.other.color.rgb-value.css, source.scss constant.other.color.rgb-value.css",
@@ -550,15 +550,15 @@
     },
     {
       "scope": "keyword.operator.logical.sql",
-      "foreground": "color(#C41A16 l(+ 3%) a(0.9))"
+      "foreground": "color(#C41A16 l(+ 5%) a(0.8))"
     },
     {
       "scope": "storage.type.sql",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#83B85E l(- 14%) a(0.9))"
     },
     {
       "scope": "support.type.sql",
-      "foreground": "color(#83B85E l(- 14%))"
+      "foreground": "color(#83B85E l(- 14%) a(0.9))"
     },
     {
       "scope": "variable.other.member.declaration.sql",
@@ -566,11 +566,11 @@
     },
     {
       "scope": "entity.name.table.toml",
-      "foreground": "#1E73BE"
+      "foreground": "color(#643820 l(- 2%) a(0.6))"
     },
     {
       "scope": "entity.name.tag.toml",
-      "foreground": "color(#4A3532 l(+ 9% )a(0.8))"
+      "foreground": "color(#FD8F3F l(- 26% )a(0.7))"
     },
     {
       "scope": "meta.directive.yaml punctuation.definition.directive.begin.yaml, meta.directive.yaml keyword.other.directive.yaml, meta.directive.yaml constant.numeric.yaml-version.yaml",

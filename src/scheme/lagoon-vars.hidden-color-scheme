@@ -11,7 +11,7 @@
 
         "bg-color":                   "color(var(blue-light3) l(+ 7%))",
         "fg-color":                   "color(var(black4) a(0.9))", // Popup definiton/reference text
-        "invisibles":                 "color(var(blue2) a(0.5))",
+        "invisibles":                 "color(var(blue2) a(0.35))",
         "caret":                      "var(orange1)", // mouse cursor
         "line-highlight":             "color(var(green-light1) a(0.6))",
         /** Accents */
@@ -36,19 +36,19 @@
         "line-diff-modified":         "var(gold1)",
         "line-diff-deleted":          "var(red1)",
         /** Selection */
-        "selection":                  "color(var(green-light1) a(0.4))",
+        "selection":                  "color(var(purple6) a(0.1))",
         "selection-fg":               "var(gray4)",
         "selection-border":           "var(blue-light1)",
         "selection-border-width":     "1",
-        "inactive-selection":         "color(var(green-light1) a(0.33))",
+        "inactive-selection":         "color(var(purple6) a(0.14))",
         "inactive-selection-fg":      "var(gray4)",
         "selection-corner-style":     "round",
         "selection-corner-radius":    "2",
         /** Find */
-        "highlight":                  "var(yellow1)",
+        "highlight":                  "var(yellow3)",
         "find-highlight":             "var(green-light2)",
         "find-highlight-fg":          "var(white1)",
-        "scroll-highlight":           "var(yellow1)",
+        "scroll-highlight":           "var(yellow3)",
         /** Rulers */
         "rulers":                     "color(var(gray4) a(0.5)", //"var(blue3)",
         /** Guides */
@@ -70,13 +70,13 @@
         /** Rules variables*/
 
         /** Entity */
-        "entity-name-fg":                  "color(var(brown2) l(+ 23%))",
-        "entity-name-class-fg":            "color(var(green-light3) l(- 14%))",
-        "entity-name-fn-fg":               "color(var(brown2) l(+ 23%))",
+        "entity-name-fg":                  "color(var(blue2) a(0.9)",
+        "entity-name-class-fg":            "color(var(green-light3) l(- 14%) a(0.9))",
+        "entity-name-fn-fg":               "color(var(blue2) a(0.9)",
         "entity-inherited-class-fg":       "color(var(pink-light4) l(- 5%))",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
-        "entity-attribute-name-fg":        "color(var(green-light3) l(- 14%))",
+        "entity-attribute-name-fg":        "color(var(green-light3) l(- 14%) a(0.9))",
         "entity-other-pseudo-class-fg":    "color(var(green3) l(+ 3%) a(0.8))",
 
         /** Variable */
@@ -84,31 +84,31 @@
         // "variable-lang-font-style":      "italic",
         // "variable-lang-fg":              "var(purple1)",
         // "variable-param-fg":             "var(purple1)",
-        "variable-fn-fg":                "color(var(brown2) l(+ 23%))",
-        "variable-other-constant-fg":    "color(var(green-light3) l(- 14%))",
+        "variable-fn-fg":                "color(var(blue2) a(0.9)",
+        "variable-other-constant-fg":    "color(var(green-light3) l(- 14%) a(0.9))",
         "variable-other-member-fg":      "color(var(cyan2) l(- 4%))",
 
         /** Constant */
         // "constant-fg":                "var(green4)",
         "constant-num-fg":            "color(var(blue1) l(+ 7%))",
-        "constant-lang-fg":           "color(var(red2) l(+ 3%) a(0.9))",
-        "constant-lang-null-fg":      "color(var(red2) l(+ 3%) a(0.9))",
-        "constant-lang-bool-fg":      "color(var(red2) l(+ 3%) a(0.9))",
+        "constant-lang-fg":           "color(var(red2) l(+ 5%) a(0.8))",
+        "constant-lang-null-fg":      "color(var(red2) l(+ 5%) a(0.8))",
+        "constant-lang-bool-fg":      "color(var(red2) l(+ 5%) a(0.8))",
         // "constant-char-escape-fg":    "var(blue4)",
 
         /** Storage */
         // "storage-fg":             "var(purple3)",
-        "storage-modifier-fg":    "color(var(pink-light4) l(- 10%))",
-        "storage-type-fg":        "var(blue2)",
+        "storage-modifier-fg":    "color(var(pink-light4) l(- 10%) a(0.9))",
+        "storage-type-fg":        "color(var(brown2) l(- 2%) a(0.6))",
 
         /** Support */
         // "support-fg":          "var(green3)",
-        "support-fn-fg":                "color(var(brown2) l(+ 23%))",
-        "support-class-fg":             "color(var(green-light3) l(- 14%))",
+        "support-fn-fg":                "color(var(blue2) a(0.9)",
+        "support-class-fg":             "color(var(green-light3) l(- 14%) a(0.9))",
         "support-type-primitive-fg":    "color(var(red-dark1) l(+ 22% )a(0.8))",
 
         /** Keyword */
-        "keyword-fg":             "var(blue2)",
+        "keyword-fg":             "color(var(brown2) l(- 2%) a(0.6))",
         // "keyword-ctrl-fg":           "var(purple3)",
         "keyword-operator-fg":    "color(var(gold3) l(- 11%))",
         // "keyword-declaration-fg":    "var(green3)",
@@ -132,7 +132,7 @@
         "markup-inserted-bg":     "hsla(111, 89%, 89%, 0.5)",
         "markup-inserted-fg":     "color(var(green2) a(0.9))",
         "meta-diff-header-bg":    "hsla(211, 85%, 89%, 0.5)",
-        "meta-diff-header-fg":    "var(blue2)",
+        "meta-diff-header-fg":    "color(var(brown2) l(- 2%) a(0.6))",
 
         /** Inline Diffs */
         "diff-deleted-bg":          "hsla(3, 100%, 91%, 0.5)",
@@ -145,8 +145,8 @@
         "diff-inserted-char-fg":    "color(var(green2) a(0.9))",
 
         /** Mapping Key Value */
-        "meta-mapping-key-fg":                          "color(var(red-dark1) l(+ 9% )a(0.8))",
-        "meta-mapping-value-fg":                        "color(var(pink-light4) l(- 13%))",
+        "meta-mapping-key-fg":                          "color(var(orange1) l(- 26% )a(0.7))",
+        "meta-mapping-value-fg":                        "color(var(pink-light4) l(- 24%) a(0.9))",
         "punctuation-section-mapping-fg":               "color(var(black4) a(0.9))",
         "punctuation-section-sequence-separator-fg":    "color(var(black4) a(0.9))",
 
@@ -160,11 +160,11 @@
 
         /** Clojure */
         "constant-other-keyword-clojure-fg":    "color(var(pink1) l(+ 9%) a(0.7))",
-        "storage-modifier-def-clojure-fg":      "var(blue2)",
-        "variable-fn-clojure-fg":               "var(blue2)",
+        "storage-modifier-def-clojure-fg":      "color(var(brown2) l(- 2%) a(0.6))",
+        "variable-fn-clojure-fg":               "color(var(brown2) l(- 2%) a(0.6))",
 
         /** CSS */
-        "meta-at-rule-other-css-fg":                          "var(blue2)",
+        "meta-at-rule-other-css-fg":                          "color(var(brown2) l(- 2%) a(0.6))",
         "constant-css-fg":                                    "color(var(gray4) a(0.8))",
         "entity-name-tag-css-fg":                             "color(var(cyan2) l(- 4%))",
         "support-property-css-fg":                            "color(var(pink-light4) l(- 9%))",
@@ -179,8 +179,8 @@
         "var-other-constant-elixir-fg":                "color(var(cyan2) l(- 4%))",
 
         /** Go */
-        "variable-other-readwrite-declaration-go-fg":    "color(var(brown2) l(+ 23%))",
-        "storage-type-go-fg":                            "color(var(brown2) l(+ 23%))",
+        "variable-other-readwrite-declaration-go-fg":    "color(var(blue2) a(0.9)",
+        "storage-type-go-fg":                            "color(var(blue2) a(0.9)",
         "storage-support-type-builtin-go-fg":            "color(var(magenta3) a(0.8))",
 
         /** Git */
@@ -189,28 +189,28 @@
 
         /** Groovy */
         "constant-other-key-groovy-fg":    "color(var(red-dark1) l(+ 9%) a(0.8))",
-        "entity-name-class-groovy-fg":     "color(var(green-light3) l(- 14%))",
+        "entity-name-class-groovy-fg":     "color(var(green-light3) l(- 14%) a(0.9))",
         "keyword-other-new-groovy-fg":     "color(var(gold3) l(- 11%))",
-        "meta-method-call-groovy-fg":      "color(var(brown2) l(+ 23%))",
-        "storage-type-class-groovy-fg":    "color(var(green-light3) l(- 14%))",
+        "meta-method-call-groovy-fg":      "color(var(blue2) a(0.9)",
+        "storage-type-class-groovy-fg":    "color(var(green-light3) l(- 14%) a(0.9))",
         "storage-type-pkg-groovy-fg":      "color(var(black4) a(0.9))",
-        "support-fn-print-groovy-fg":      "color(var(red-dark1) l(+ 9% )a(0.8))",
+        "support-fn-print-groovy-fg":      "color(var(orange1) l(- 26% )a(0.7))",
 
         /** HTML */
-        "entity-other-attribute-name-html-fg":    "color(var(green-light3) l(- 14%))",
+        "entity-other-attribute-name-html-fg":    "color(var(green-light3) l(- 14%) a(0.9))",
 
         /** Java */
         "meta-import-wildcard-asterisk-java-fg":    "color(var(yellow2) l(- 8%))",
 
         /** Javascript */
-        "entity-name-type-interface-js-fg":         "color(var(green-light3) l(- 14%))",
+        "entity-name-type-interface-js-fg":         "color(var(green-light3) l(- 14%) a(0.9))",
         "entity-other-attribute-name-doc-js-fg":    "color(var(cyan2) l(- 4%))",
         "keyword-declaration-fn-arrow-js-fg":       "color(var(gold3) l(- 11%))",
         "storage-modifier-array-js-fg":             "color(var(black4) a(0.9))",
         "support-other-js-fg":                      "color(var(pink-light4) l(- 13%))",
-        "support-meta-class-js-fg":                 "color(var(green-light3) l(- 14%))",
+        "support-meta-class-js-fg":                 "color(var(green-light3) l(- 14%) a(0.9))",
         "support-meta-fn-js-fg":                    "color(var(pink-light4) l(- 13%))",
-        "variable-other-class-js-fg":               "color(var(green-light3) l(- 14%))",
+        "variable-other-class-js-fg":               "color(var(green-light3) l(- 14%) a(0.9))",
 
         /** Markdown / Markup */
         "constant-other-lang-name-md-fg":             "var(cyan2)",
@@ -255,22 +255,22 @@
         /** Ruby */
         "entity-name-class-ruby-fg":                    "color(var(black4) a(0.9))",
         "constant-rb-fg":                               "color(var(pink1) l(+ 9%) a(0.7))",
-        "meta-class-ruby-fg":                           "color(var(green-light3) l(- 14%))",
-        "meta-require-ruby-fg":                         "var(blue2)",
+        "meta-class-ruby-fg":                           "color(var(green-light3) l(- 14%) a(0.9))",
+        "meta-require-ruby-fg":                         "color(var(brown2) l(- 2%) a(0.6))",
         "variable-other-readwrite-instance-ruby-fg":    "color(var(cyan2) l(- 4%))",
 
         /** Rust */
-        "entity-name-rust-fg":                  "color(var(green-light3) l(- 14%))",
-        "entity-name-fn-rust-fg":               "color(var(brown2) l(+ 23%))",
+        "entity-name-rust-fg":                  "color(var(green-light3) l(- 14%) a(0.9))",
+        "entity-name-fn-rust-fg":               "color(var(blue2) a(0.9)",
         "entity-name-module-rust-fg":           "color(var(black4) a(0.9))",
-        "keyword-ctrl-rust-fg":                 "var(blue2)",
+        "keyword-ctrl-rust-fg":                 "color(var(brown2) l(- 2%) a(0.6))",
         "meta-annotation-path-rust-fg":         "color(var(cyan2) l(- 4%))",
         // "meta-annotation-var-rust-fg":          "color(var(black4) a(0.9))",
-        "meta-block-constant-other-rust-fg":    "color(var(green-light3) l(- 14%))",
-        "storage-type-rust-fg":                 "color(var(green-light3) l(- 14%))",
-        "storage-type-source-rust-fg":          "color(var(green-light3) l(- 14%))",
-        "support-macro-rust-fg":                "color(var(red-dark1) l(+ 9% )a(0.8))",
-        "support-type-rust-fg":                 "color(var(green-light3) l(- 14%))",
+        "meta-block-constant-other-rust-fg":    "color(var(green-light3) l(- 14%) a(0.9))",
+        "storage-type-rust-fg":                 "color(var(green-light3) l(- 14%) a(0.9))",
+        "storage-type-source-rust-fg":          "color(var(green-light3) l(- 14%) a(0.9))",
+        "support-macro-rust-fg":                "color(var(orange1) l(- 26% )a(0.7))",
+        "support-type-rust-fg":                 "color(var(green-light3) l(- 14%) a(0.9))",
 
         /** Sass/SCSS */
         "constant-sass-fg":    "color(var(gray4) a(0.8))",
@@ -279,14 +279,14 @@
         "variable-sass-fg":    "color(var(red2) l(- 9%) a(0.7))",
 
         /** Sql */
-        "keyword-operator-logical-sql-fg":    "color(var(red2) l(+ 3%) a(0.9))",
-        "storage-type-sql-fg":                "color(var(green-light3) l(- 14%))",
-        "support-type-sql-fg":                "color(var(green-light3) l(- 14%))",
+        "keyword-operator-logical-sql-fg":    "color(var(red2) l(+ 5%) a(0.8))",
+        "storage-type-sql-fg":                "color(var(green-light3) l(- 14%) a(0.9))",
+        "support-type-sql-fg":                "color(var(green-light3) l(- 14%) a(0.9))",
         "variable-other-member-sql-fg":       "color(var(black4) a(0.9))",
 
         /** Toml */
-        "entity-name-table-toml-fg":    "var(blue2)",
-        "entity-name-tag-toml-fg":      "color(var(red-dark1) l(+ 9% )a(0.8))",
+        "entity-name-table-toml-fg":    "color(var(brown2) l(- 2%) a(0.6))",
+        "entity-name-tag-toml-fg":      "color(var(orange1) l(- 26% )a(0.7))",
 
         /** YAML */
         "meta-directive-yaml-fg":    "color(var(purple2) a(0.8))"

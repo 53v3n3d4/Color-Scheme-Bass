@@ -29,6 +29,58 @@
 - Change entity name table toml fg to lighter tone
 - Change entity name tag toml fg, purple -> magenta
 
+### Lagoon 🌐
+- Change invisibles to lighter tone
+- Change selection, green -> purple
+- Change inactive-selection, green -> purple
+- Change highlight to darker tone
+- Change scroll-highlight to darker tone
+- Change entity name fg, brown -> blue
+- Change entity name class fg to lighter tone
+- Change entity name fn fg, brown -> blue
+- Change entity attribute name fg to lighter tone
+- Change variable fn fg, brown -> blue
+- Change variable other constant fg to lighter tone
+- Change constant lang fg to lighter tone
+- Change constant lang-null fg to lighter tone
+- Change constant lang-bool fg to lighter tone
+- Change storage modifier fg to lighter tone
+- Change storage type fg, brown -> blue
+- Change support fn fg, brown -> blue
+- Change support class fg to lighter tone
+- Change keyword fg, blue -> brown
+- Change meta diff header fg, blue -> brown
+- Change meta mapping key fg, red -> orange
+- Change meta mapping value fg to darker tone
+- Change storage modifier def clojure fg, blue -> brown
+- Change variable fn clojure fg, blue -> brown
+- Change meta at rule other css fg, blue -> brown
+- Change variable other readwrite declaration go fg, brown -> blue
+- Change storage type go fg, brown -> blue
+- Change entity name class groovy fg to lighter tone
+- Change meta method call groovy fg, brown -> blue
+- Change storage type class groovy fg to lighter tone
+- Change support fn print groovy fg, red -> orange
+- Change entity other attribute name html fg to lighter tone
+- Change entity name type interface js fg to lighter tone
+- Change support meta class js fg to lighter tone
+- Change variable other class js fg to lighter tone
+- Change meta class ruby fg to lighter tone
+- Change meta require ruby fg, blue -> brown
+- Change entity name rust fg to lighter tone
+- Change entity name fn rust fg, brown -> blue
+- Change keyword ctrl rust fg, blue -> brown
+- Change meta block constant other rust fg to lighter tone
+- Change storage type rust fg to lighter tone
+- Change storage type source rust fg to lighter tone
+- Change support macro rust fg, red -> orange
+- Change support type rust fg to lighter tone
+- Change keyword operator logical sql fg to lighter tone
+- Change storage type sql fg to lighter tone
+- Change support type sql fg to lighter tone
+- Change entity name table toml fg, blue -> brown
+- Change entity name tag toml fg, red -> orange
+
 ### Zora 🔵
 - Change string fg, gold -> green
 - Change meta mapping value git attributes fg, gold -> green
