@@ -565,6 +565,10 @@
       "foreground": "color(#404040 a(0.9))"
     },
     {
+      "scope": "meta.template.svelte variable.other.dollar.js",
+      "foreground": "color(#404040 a(0.9))"
+    },
+    {
       "scope": "entity.name.table.toml",
       "foreground": "color(#007F7C l(+ 2%) a(0.9))"
     },

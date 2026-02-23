@@ -1,6 +1,7 @@
 # Changelog
 
 ## [0.1.26] - 2026
+- Add rule tmpl var other dollar svelte fg
 - Add rule support type null ts fg
 - Add rule support type void ts fg
 
@@ -32,7 +33,9 @@
 - Change entity name tag toml fg, purple -> magenta
 
 ### Lagoon 🌐
+- Change bg color to lighter tone
 - Change invisibles to lighter tone
+- Change line highlight, green -> purple
 - Change selection, green -> purple
 - Change inactive-selection, green -> purple
 - Change highlight to darker tone
@@ -51,6 +54,7 @@
 - Change support fn fg, brown -> blue
 - Change support class fg to lighter tone
 - Change keyword fg, blue -> brown
+- Change keyword operator fg, gold -> pink
 - Change meta diff header fg, blue -> brown
 - Change meta mapping key fg, red -> orange
 - Change meta mapping value fg to darker tone
@@ -60,13 +64,17 @@
 - Change variable other readwrite declaration go fg, brown -> blue
 - Change storage type go fg, brown -> blue
 - Change entity name class groovy fg to lighter tone
+- Change keyword other new groovy fg, gold -> pink
 - Change meta method call groovy fg, brown -> blue
 - Change storage type class groovy fg to lighter tone
 - Change support fn print groovy fg, red -> orange
 - Change entity other attribute name html fg to lighter tone
 - Change entity name type interface js fg to lighter tone
+- Change keyword declaration fn arrow js fg, gold -> pink
 - Change support meta class js fg to lighter tone
 - Change variable other class js fg to lighter tone
+- Change punctuation separator kv arrow php fg, gold -> pink
+- Change keyword control loop in python fg, gold -> pink
 - Change meta class ruby fg to lighter tone
 - Change meta require ruby fg, blue -> brown
 - Change entity name rust fg to lighter tone
@@ -85,6 +93,7 @@
 
 ### Zora 🔵
 - Change string fg, gold -> green
+- Change css variable fg to lighter tone
 - Change meta mapping value git attributes fg, gold -> green
 - Change support fn print groovy fg to lighter tone
 - Change meta schema version openfga fg, gold -> green

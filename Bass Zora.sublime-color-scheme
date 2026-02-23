@@ -132,7 +132,7 @@
     },
     {
       "scope": "string",
-      "foreground": "color(#00997B l(+ 7%) a(0.7))"
+      "foreground": "color(#C4E7CE l(- 7%) a(0.6))"
     },
     {
       "scope": "comment",
@@ -244,7 +244,7 @@
     },
     {
       "scope": "entity.other.custom-property.css, meta.property-value.css variable.other.custom-property.css",
-      "foreground": "color(#C4E7CE l(- 7%) a(0.6))"
+      "foreground": "color(#C4E7CE l(- 29%) a(0.5))"
     },
     {
       "scope": "constant.other.keyword.elixir",
@@ -430,7 +430,7 @@
     },
     {
       "scope": "meta.schema.version.openfga constant.numeric.base.version.major.openfga, meta.schema.version.openfga constant.numeric.base.version.minor.openfga, meta.schema.version.openfga punctuation.separator.sequence.version.openfga",
-      "foreground": "color(#00997B l(+ 7%) a(0.7))"
+      "foreground": "color(#C4E7CE l(- 7%) a(0.6))"
     },
     {
       "scope": "embedding.php text.html.php meta.embedded.php source.php.embedded.html comment.block.documentation.phpdoc.php entity.name.tag.documentation.phpdoc.php",
@@ -462,7 +462,7 @@
     },
     {
       "scope": "meta.function-call.arguments.python meta.mapping.value.python string.quoted.single.python",
-      "foreground": "color(#00997B l(+ 7%) a(0.7))"
+      "foreground": "color(#C4E7CE l(- 7%) a(0.6))"
     },
     {
       "scope": "meta.mapping.value.python meta.string.python meta.interpolation.python source.python.embedded, meta.mapping.value.python meta.string.python meta.interpolation.python punctuation.section.interpolation.end.python, meta.mapping.value.python meta.string.python meta.interpolation.python punctuation.section.interpolation.begin.python",
@@ -542,7 +542,7 @@
     },
     {
       "scope": "source.scss meta.selector.css entity.name.tag.other.css, source.scss meta.selector.css entity.name.tag.html.css",
-      "foreground": "color(#00997B l(+ 7%) a(0.7))"
+      "foreground": "color(#C4E7CE l(- 7%) a(0.6))"
     },
     {
       "scope": "variable.declaration.sass, variable.other.sass, meta.map.arguments.sass variable.other.sass, meta.function.parameters.sass variable.parameter.sass, source.sass meta.selector.css, source.sass meta.selector.css entity.name.tag.custom.css, variable.other.scss, meta.parameter.identifier.scss variable.parameter.scss, meta.argument.identifier.scss variable.parameter.scss",
@@ -565,6 +565,10 @@
       "foreground": "#B4B4B4"
     },
     {
+      "scope": "meta.template.svelte variable.other.dollar.js",
+      "foreground": "#B4B4B4"
+    },
+    {
       "scope": "entity.name.table.toml",
       "foreground": "#DF88B7"
     },
@@ -582,7 +586,7 @@
     },
     {
       "scope": "meta.directive.yaml punctuation.definition.directive.begin.yaml, meta.directive.yaml keyword.other.directive.yaml, meta.directive.yaml constant.numeric.yaml-version.yaml",
-      "foreground": "color(#00997B l(+ 7%) a(0.7))"
+      "foreground": "color(#C4E7CE l(- 7%) a(0.6))"
     }
   ]
 }

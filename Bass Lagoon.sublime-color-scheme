@@ -7,18 +7,18 @@
   "name": "Lagoon",
   "variables": {},
   "globals": {
-    "background": "color(#B2D6FB l(+ 7%))",
+    "background": "color(#B2D6FB l(+ 8%))",
     "foreground": "color(#404040 a(0.9))",
     "invisibles": "color(#1E73BE a(0.35))",
     "caret": "#FD8F3F",
-    "line_highlight": "color(#C4E7CE a(0.6))",
+    "line_highlight": "color(#352336 a(0.1))",
     "misspelling": "color(#DF88B7 l(- 13%))",
     "fold_marker": "#FFE76D",
     "minimap_border": "color(#2077FB a(0.4))",
     "accent": "color(#352336 a(0.6) l(+ 16%))",
-    "popup_css": "\n      html, body {\n        background-color: color(#B2D6FB l(+ 7%));\n        color: #9B9B9B;\n      }\n      body {\n        padding: 4px;\n      margin: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
+    "popup_css": "\n      html, body {\n        background-color: color(#B2D6FB l(+ 8%));\n        color: #9B9B9B;\n      }\n      body {\n        padding: 4px;\n      margin: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
     "phantom_css": "\n      html, body {\n        background-color: #B4B4B4;\n        border-radius: 4px;\n      color: #161818;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
-    "gutter": "color(#B2D6FB l(+ 7%))",
+    "gutter": "color(#B2D6FB l(+ 8%))",
     "gutter_foreground": "color(#5D6C79 a(0.5))",
     "gutter_foreground_highlight": "#2077FB",
     "line_diff_added": "#0282F2",
@@ -128,7 +128,7 @@
     },
     {
       "scope": "keyword.operator",
-      "foreground": "color(#D1B502 l(- 11%))"
+      "foreground": "color(#DF88B7 l(- 3%) a(0.8))"
     },
     {
       "scope": "string",
@@ -296,7 +296,7 @@
     },
     {
       "scope": "keyword.other.new.groovy",
-      "foreground": "color(#D1B502 l(- 11%))"
+      "foreground": "color(#DF88B7 l(- 3%) a(0.8))"
     },
     {
       "scope": "meta.method-call.groovy meta.method.groovy",
@@ -332,7 +332,7 @@
     },
     {
       "scope": "keyword.declaration.function.arrow.js, meta.type.js keyword.declaration.function.js",
-      "foreground": "color(#D1B502 l(- 11%))"
+      "foreground": "color(#DF88B7 l(- 3%) a(0.8))"
     },
     {
       "scope": "meta.type.js storage.modifier.array.js",
@@ -446,7 +446,7 @@
     },
     {
       "scope": "meta.sequence.array.php punctuation.separator.key-value.php, meta.function.php meta.block.php punctuation.accessor.arrow.php",
-      "foreground": "color(#D1B502 l(- 11%))"
+      "foreground": "color(#DF88B7 l(- 3%) a(0.8))"
     },
     {
       "scope": "meta.string.python string.quoted.single.python constant.other.placeholder.python",
@@ -454,7 +454,7 @@
     },
     {
       "scope": "meta.statement.loop.for.python keyword.control.loop.for.in.python",
-      "foreground": "color(#D1B502 l(- 11%))"
+      "foreground": "color(#DF88B7 l(- 3%) a(0.8))"
     },
     {
       "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python, meta.annotation.python meta.function-call.identifier.python variable.annotation.python - meta.path.python variable.annotation.python, meta.annotation.python variable.annotation.python",
@@ -562,6 +562,10 @@
     },
     {
       "scope": "variable.other.member.declaration.sql",
+      "foreground": "color(#404040 a(0.9))"
+    },
+    {
+      "scope": "meta.template.svelte variable.other.dollar.js",
       "foreground": "color(#404040 a(0.9))"
     },
     {

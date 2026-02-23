@@ -9,11 +9,11 @@
 
         /** Globals variables */
 
-        "bg-color":                   "color(var(blue-light3) l(+ 7%))",
+        "bg-color":                   "color(var(blue-light3) l(+ 8%))",
         "fg-color":                   "color(var(black4) a(0.9))", // Popup definiton/reference text
         "invisibles":                 "color(var(blue2) a(0.35))",
         "caret":                      "var(orange1)", // mouse cursor
-        "line-highlight":             "color(var(green-light1) a(0.6))",
+        "line-highlight":             "color(var(purple6) a(0.1))",
         /** Accents */
         "misspelling":                "color(var(pink-light4) l(- 13%))",
         "fold-marker":                "var(yellow1)", // when folded, the "..."
@@ -110,7 +110,7 @@
         /** Keyword */
         "keyword-fg":             "color(var(brown2) l(- 2%) a(0.6))",
         // "keyword-ctrl-fg":           "var(purple3)",
-        "keyword-operator-fg":    "color(var(gold3) l(- 11%))",
+        "keyword-operator-fg":    "color(var(pink-light4) l(- 3%) a(0.8))",
         // "keyword-declaration-fg":    "var(green3)",
 
         /** String */
@@ -190,7 +190,7 @@
         /** Groovy */
         "constant-other-key-groovy-fg":    "color(var(red-dark1) l(+ 9%) a(0.8))",
         "entity-name-class-groovy-fg":     "color(var(green-light3) l(- 14%) a(0.9))",
-        "keyword-other-new-groovy-fg":     "color(var(gold3) l(- 11%))",
+        "keyword-other-new-groovy-fg":     "color(var(pink-light4) l(- 3%) a(0.8))",
         "meta-method-call-groovy-fg":      "color(var(blue2) a(0.9)",
         "storage-type-class-groovy-fg":    "color(var(green-light3) l(- 14%) a(0.9))",
         "storage-type-pkg-groovy-fg":      "color(var(black4) a(0.9))",
@@ -205,7 +205,7 @@
         /** Javascript */
         "entity-name-type-interface-js-fg":         "color(var(green-light3) l(- 14%) a(0.9))",
         "entity-other-attribute-name-doc-js-fg":    "color(var(cyan2) l(- 4%))",
-        "keyword-declaration-fn-arrow-js-fg":       "color(var(gold3) l(- 11%))",
+        "keyword-declaration-fn-arrow-js-fg":       "color(var(pink-light4) l(- 3%) a(0.8))",
         "storage-modifier-array-js-fg":             "color(var(black4) a(0.9))",
         "support-other-js-fg":                      "color(var(pink-light4) l(- 13%))",
         "support-meta-class-js-fg":                 "color(var(green-light3) l(- 14%) a(0.9))",
@@ -241,11 +241,11 @@
         "entity-name-tag-doc-php-fg":               "color(var(cyan2) l(- 4%))",
         "punctuation-definition-var-php-fg":        "color(var(pink-light4) l(- 13%))",
         "punctuation-section-embedded-php-fg":      "color(var(red2) l(- 9%) a(0.7))",
-        "punctuation-separator-kv-arrow-php-fg":    "color(var(gold3) l(- 11%))",
+        "punctuation-separator-kv-arrow-php-fg":    "color(var(pink-light4) l(- 3%) a(0.8))",
 
         /** Python */
         "constant-other-placeholder-python-fg":                 "color(var(black4) a(0.9))",
-        "keyword-control-loop-in-python-fg":                    "color(var(gold3) l(- 11%))",
+        "keyword-control-loop-in-python-fg":                    "color(var(pink-light4) l(- 3%) a(0.8))",
         "meta-annotation-python-fg":                            "color(var(cyan2) l(- 4%))",
         "meta-fn-arg-string-quoted-python-fg":                  "color(var(purple2) a(0.8))",
         "meta-mapping-value-string-interpolation-python-fg":    "color(var(black4) a(0.9))",
@@ -283,6 +283,10 @@
         "storage-type-sql-fg":                "color(var(green-light3) l(- 14%) a(0.9))",
         "support-type-sql-fg":                "color(var(green-light3) l(- 14%) a(0.9))",
         "variable-other-member-sql-fg":       "color(var(black4) a(0.9))",
+
+        /** Svelte */
+        // "keyword-ctrl-conditional-svelte-fg":    "color(var(black4) a(0.9))",
+        "tmpl-var-other-dollar-svelte-fg":    "color(var(black4) a(0.9))",
 
         /** Toml */
         "entity-name-table-toml-fg":    "color(var(brown2) l(- 2%) a(0.6))",

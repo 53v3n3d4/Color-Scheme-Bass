@@ -1024,10 +1024,15 @@
          */
         // Package Svelte
         // {
-        //     // "name": "Meta embedded svelte", // Color too many
-        //     "scope": "meta.template.svelte meta.embedded.block.svelte source.js.embedded.svelte variable.other.readwrite.js",
-        //     "foreground": "var(meta-embedded-svelte-fg)"
+        //     // "name": "Keyword control conditional svelte", // Color too many
+        //     "scope": "keyword.control.conditional.end.svelte",
+        //     "foreground": "var(keyword-ctrl-conditional-svelte-fg)"
         // },
+        {
+            // "name": "Template variable other dollar svelte",
+            "scope": "meta.template.svelte variable.other.dollar.js",
+            "foreground": "var(tmpl-var-other-dollar-svelte-fg)"
+        },
 
         /**
          *

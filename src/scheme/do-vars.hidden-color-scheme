@@ -284,6 +284,10 @@
         "support-type-sql-fg":                "color(var(gold2) l(- 7%))",
         "variable-other-member-sql-fg":       "var(gray4)",
 
+        /** Svelte */
+        // "keyword-ctrl-conditional-svelte-fg":    "var(gray4)",
+        "tmpl-var-other-dollar-svelte-fg":    "var(gray4)",
+
         /** Toml */
         "entity-name-table-toml-fg":    "var(purple2)",
         "entity-name-tag-toml-fg":      "color(var(blue2) l(+ 4%) a(0.8))",
