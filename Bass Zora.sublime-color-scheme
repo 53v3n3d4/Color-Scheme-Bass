@@ -361,7 +361,7 @@
     {
       "scope": "markup.heading, markup.heading entity.name",
       "font_style": "bold",
-      "foreground": "#DF88B7"
+      "foreground": "color(#1E73BE l(+ 24%))"
     },
     {
       "scope": "markup.bold",

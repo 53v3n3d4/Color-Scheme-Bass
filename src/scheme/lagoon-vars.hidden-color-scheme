@@ -215,7 +215,7 @@
         /** Markdown / Markup */
         "constant-other-lang-name-md-fg":             "var(cyan2)",
         "markup-heading-font-style":                  "bold",
-        "markup-heading-fg":                          "color(var(green3) l(+ 9%))",
+        "markup-heading-fg":                          "color(var(blue1) l(+ 7%))",
         "markup-bold-font-style":                     "bold",
         "markup-italic-font-style":                   "italic",
         "markup-underline-font-style":                "underline",

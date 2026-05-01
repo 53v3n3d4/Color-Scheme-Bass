@@ -215,7 +215,7 @@
         /** Markdown / Markup */
         "constant-other-lang-name-md-fg":             "color(var(gold2) l(- 14%))",
         "markup-heading-font-style":                  "bold",
-        "markup-heading-fg":                          "var(orange3)",
+        "markup-heading-fg":                          "color(var(brown2) l(+ 18%))",
         "markup-bold-font-style":                     "bold",
         "markup-italic-font-style":                   "italic",
         "markup-underline-font-style":                "underline",

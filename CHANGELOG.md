@@ -25,6 +25,7 @@
 - Change constant other key groovy fg, purple -> magenta
 - Change meta method call groovy fg to lighter tone
 - Change entity other attribute name html fg, purple -> magenta
+- Change markup heading fg, orange -> brown
 - Change constant other keyword openfga fg, purple -> magenta
 - Change meta require ruby fg, magenta -> purple
 - Change entity name fn rust fg to lighter tone
@@ -73,6 +74,7 @@
 - Change keyword declaration fn arrow js fg, gold -> pink
 - Change support meta class js fg to lighter tone
 - Change variable other class js fg to lighter tone
+- Change markup heading fg, green -> blue
 - Change punctuation separator kv arrow php fg, gold -> pink
 - Change keyword control loop in python fg, gold -> pink
 - Change meta class ruby fg to lighter tone
@@ -91,11 +93,15 @@
 - Change entity name table toml fg, blue -> brown
 - Change entity name tag toml fg, red -> orange
 
+### Roci 🟣
+- Change markup heading fg, blue -> pink
+
 ### Zora 🔵
 - Change string fg, gold -> green
 - Change css variable fg to lighter tone
 - Change meta mapping value git attributes fg, gold -> green
 - Change support fn print groovy fg to lighter tone
+- Change markup heading fg, pink -> blue
 - Change meta schema version openfga fg, gold -> green
 - Change meta fn arg string quoted python fg, gold -> green
 - Change support macro rust fg to lighter tone
