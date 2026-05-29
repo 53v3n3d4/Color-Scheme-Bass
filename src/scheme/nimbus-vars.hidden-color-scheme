@@ -184,8 +184,9 @@
         "storage-support-type-builtin-go-fg":            "color(var(magenta3) a(0.7))",
 
         /** Git */
-        "entity-name-git-ignore-const-wildcard-asterisk-fg":    "color(var(gold3) l(- 1%) a(0.9))",
-        "meta-mapping-value-git-attributes-fg":                 "var(purple3)",
+        "entity-name-git-ignore-punctuation-separator-path-fg":    "color(var(gray6) a(0.9))",
+        "entity-name-git-ignore-const-wildcard-asterisk-fg":      "color(var(gold3) l(- 1%) a(0.9))",
+        "meta-mapping-value-git-attributes-fg":                   "var(purple3)",
 
         /** Groovy */
         "constant-other-key-groovy-fg":    "color(var(brown1) l(- 7%))",

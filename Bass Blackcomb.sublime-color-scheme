@@ -279,6 +279,10 @@
       "foreground": "#ECAA79"
     },
     {
+      "scope": "entity.name.pattern.git.ignore punctuation.separator.path.fnmatch.git",
+      "foreground": "#F0F0F7"
+    },
+    {
       "scope": "entity.name.pattern.git.ignore constant.other.wildcard.asterisk.fnmatch.git",
       "foreground": "#FFE76D"
     },

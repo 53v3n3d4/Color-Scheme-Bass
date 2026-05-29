@@ -575,6 +575,11 @@
          *
          */
         {
+            // "name": "Entity name patthen git ignore punctuation separator path",
+            "scope": "entity.name.pattern.git.ignore punctuation.separator.path.fnmatch.git",
+            "foreground": "var(entity-name-git-ignore-punctuation-separator-path-fg)"
+        },
+        {
             // "name": "Entity name patthen git ignore wildcard asterisk",
             "scope": "entity.name.pattern.git.ignore constant.other.wildcard.asterisk.fnmatch.git",
             "foreground": "var(entity-name-git-ignore-const-wildcard-asterisk-fg)"
