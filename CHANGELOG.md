@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.26] - 2026
+## [0.1.26] - 2026-06-20
 - Add rule entity name gitignore punctuation separator path fg
 - Add rule tmpl var other dollar svelte fg
 - Add rule support type null ts fg
