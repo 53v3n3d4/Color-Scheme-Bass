@@ -3,7 +3,7 @@
     {
         // Color Hex
         // Variables that don't work because they are replaced by hue variables:
-        // variable red 1, red2, red3, red6
+        // - red 1, red2, red3, red6
         "black1":           "#000000", // "rgb(0, 0, 0)"
         "black2":           "#161818", // "rgb(22, 24, 24)"
         "black3":           "#323234", // "rgb(50, 50, 52)"
@@ -128,6 +128,7 @@
         "blue210": "210",
         "blue211": "211",
         "blue213": "213",
+        "blue214": "214",
         "blue216": "216",
         "blue231": "231",
         "blue234": "234",
@@ -171,9 +172,11 @@
         "red2": "2",
         "red3": "3",
         "red6": "6",
+        "red8": "8",
         "red12": "12",
         "violet295": "295",
         "white240": "240",
+        "white315": "315",
         "yellow41": "41",
         "yellow42": "42",
         "yellow43": "43",

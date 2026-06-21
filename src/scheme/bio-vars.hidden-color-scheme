@@ -77,7 +77,7 @@
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "hsl(var(cyan191), 95%, 44%)",
         "entity-attribute-name-fg":        "hsla(var(blue213), 100%, 82%, 0.85)",
-        "entity-other-pseudo-class-fg":    "hsl(var(magenta344), 81%, 61%)",
+        "entity-other-pseudo-class-fg":    "hsl(var(magenta334), 81%, 61%)",
 
         /** Variable */
         // "variable-fg":                   "hsl(var(green137), 34%, 74%)",
@@ -168,7 +168,7 @@
         "constant-css-fg":                                    "hsl(0, 0%, 71%)",
         "entity-name-tag-css-fg":                             "hsl(var(green95), 39%, 60%)",
         "support-property-css-fg":                            "hsl(var(magenta334), 96%, 70%)",
-        "meta-selector-support-type-vendor-prefix-css-fg":    "hsl(var(magenta344), 81%, 61%)",
+        "meta-selector-support-type-vendor-prefix-css-fg":    "hsl(var(magenta334), 81%, 61%)",
         "css-variable-fg":                                    "hsla(var(green137), 42%, 77%, 0.7)",
 
         /** Elixir */
