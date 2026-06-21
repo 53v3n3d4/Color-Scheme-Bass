@@ -12,7 +12,7 @@
     "invisibles": "color(#A7D4B4 l(- 14%))",
     "caret": "#0282F2",
     "line_highlight": "color(#C4E7CE l(- 7%) a(0.5))",
-    "misspelling": "color(#FC5B57 l(- 3%))",
+    "misspelling": "hsl(1, 96%, 63%)",
     "fold_marker": "#FFE76D",
     "minimap_border": "color(#83B85E a(0.5))",
     "accent": "color(#352336 a(0.6) l(+ 22%))",
@@ -23,7 +23,7 @@
     "gutter_foreground_highlight": "#007F7C",
     "line_diff_added": "#0282F2",
     "line_diff_modified": "#FFB500",
-    "line_diff_deleted": "#FC5B57",
+    "line_diff_deleted": "hsl(1, 96%, 66%)",
     "selection": "color(#C7E1F2 a(0.8))",
     "selection_foreground": "#5D6C79",
     "selection_border": "#57C038",
@@ -32,9 +32,9 @@
     "inactive_selection_foreground": "#5D6C79",
     "selection_corner_style": "round",
     "selection_corner_radius": "2",
-    "highlight": "#C41A16",
+    "highlight": "hsl(1, 80%, 43%)",
     "find_highlight": "#A7D4B4",
-    "find_highlight_foreground": "color(#C41A16 a(0.7))",
+    "find_highlight_foreground": "hsla(1, 80%, 43%, 0.7)",
     "scroll_highlight": "#FFF618",
     "rulers": "color(#5D6C79 a(0.5)",
     "guide": "color(#9B9B9B a(0.5)",
@@ -92,15 +92,15 @@
     },
     {
       "scope": "constant.language",
-      "foreground": "color(#C41A16 l(+ 18%))"
+      "foreground": "hsl(1, 80%, 61%)"
     },
     {
       "scope": "constant.language.null",
-      "foreground": "color(#C41A16 l(+ 18%))"
+      "foreground": "hsl(1, 80%, 61%)"
     },
     {
       "scope": "constant.language.boolean",
-      "foreground": "color(#C41A16 l(+ 18%))"
+      "foreground": "hsl(1, 80%, 61%)"
     },
     {
       "scope": "storage.modifier",
@@ -144,7 +144,7 @@
     },
     {
       "scope": "invalid.illegal",
-      "background": "color(#FC5B57 a(0.4))"
+      "background": "hsla(1, 96%, 66%, 0.4)"
     },
     {
       "scope": "markup.changed",
@@ -154,7 +154,7 @@
     {
       "scope": "markup.deleted",
       "background": "hsla(3, 100%, 91%, 0.5)",
-      "foreground": "color(#C41A16 a(0.9))"
+      "foreground": "hsla(1, 80%, 43%, 0.9)"
     },
     {
       "scope": "markup.inserted",
@@ -169,12 +169,12 @@
     {
       "scope": "diff.deleted",
       "background": "hsla(3, 100%, 91%, 0.5)",
-      "foreground": "color(#C41A16 a(0.6))"
+      "foreground": "hsla(1, 80%, 43%, 0.6)"
     },
     {
       "scope": "diff.deleted.char",
       "background": "hsla(3, 100%, 78%, 0.5)",
-      "foreground": "color(#C41A16 a(0.9))"
+      "foreground": "hsla(1, 80%, 43%, 0.9)"
     },
     {
       "scope": "diff.inserted",
@@ -554,7 +554,7 @@
     },
     {
       "scope": "keyword.operator.logical.sql",
-      "foreground": "color(#C41A16 l(+ 18%))"
+      "foreground": "hsl(1, 80%, 61%)"
     },
     {
       "scope": "storage.type.sql",
@@ -582,7 +582,7 @@
     },
     {
       "scope": "source.ts support.type.primitive.null.js",
-      "foreground": "color(#C41A16 l(+ 18%))"
+      "foreground": "hsl(1, 80%, 61%)"
     },
     {
       "scope": "source.ts support.type.void.js",

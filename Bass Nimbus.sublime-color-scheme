@@ -23,7 +23,7 @@
     "gutter_foreground_highlight": "color(#2077FB l(+ 16%))",
     "line_diff_added": "#0282F2",
     "line_diff_modified": "#FFB500",
-    "line_diff_deleted": "#FC5B57",
+    "line_diff_deleted": "hsl(1, 96%, 66%)",
     "selection": "color(#C4E7CE a(0.4))",
     "selection_foreground": "#5D6C79",
     "selection_border": "#C7E1F2",
@@ -88,7 +88,7 @@
     },
     {
       "scope": "constant.numeric",
-      "foreground": "color(#C41A16 l(+ 11%) a(0.8))"
+      "foreground": "hsla(1, 80%, 54%, 0.8)"
     },
     {
       "scope": "constant.language",
@@ -144,7 +144,7 @@
     },
     {
       "scope": "invalid.illegal",
-      "background": "color(#FC5B57 a(0.1))"
+      "background": "hsla(1, 96%, 66%, 0.1)"
     },
     {
       "scope": "markup.changed",
@@ -154,7 +154,7 @@
     {
       "scope": "markup.deleted",
       "background": "hsla(3, 100%, 93%, 0.7)",
-      "foreground": "color(#C41A16 a(0.9))"
+      "foreground": "hsla(1, 80%, 43%, 0.9)"
     },
     {
       "scope": "markup.inserted",
@@ -169,12 +169,12 @@
     {
       "scope": "diff.deleted",
       "background": "hsla(3, 100%, 93%, 0.7)",
-      "foreground": "color(#C41A16 a(0.6))"
+      "foreground": "hsla(1, 80%, 43%, 0.6)"
     },
     {
       "scope": "diff.deleted.char",
       "background": "hsla(3, 100%, 83%, 0.7)",
-      "foreground": "color(#C41A16 a(0.9))"
+      "foreground": "hsla(1, 80%, 43%, 0.9)"
     },
     {
       "scope": "diff.inserted",

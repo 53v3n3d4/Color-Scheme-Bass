@@ -23,7 +23,7 @@
     "gutter_foreground_highlight": "#FFE76D",
     "line_diff_added": "#0282F2",
     "line_diff_modified": "#FFB500",
-    "line_diff_deleted": "#FC5B57",
+    "line_diff_deleted": "hsl(1, 96%, 66%)",
     "selection": "#323234",
     "selection_foreground": "#9B9B9B",
     "selection_border": "#525055",
@@ -92,15 +92,15 @@
     },
     {
       "scope": "constant.language",
-      "foreground": "#FC5B57"
+      "foreground": "hsl(1, 96%, 66%)"
     },
     {
       "scope": "constant.language.null",
-      "foreground": "#FC5B57"
+      "foreground": "hsl(1, 96%, 66%)"
     },
     {
       "scope": "constant.language.boolean",
-      "foreground": "#FC5B57"
+      "foreground": "hsl(1, 96%, 66%)"
     },
     {
       "scope": "storage.modifier",
@@ -140,11 +140,11 @@
     },
     {
       "scope": "invalid.deprecated",
-      "foreground": "color(#FC5B57 a(0.3))"
+      "foreground": "hsla(1, 96%, 66%, 0.3)"
     },
     {
       "scope": "invalid.illegal",
-      "background": "color(#C41A16 a(0.6))"
+      "background": "hsla(1, 80%, 43%, 0.6)"
     },
     {
       "scope": "markup.changed",
@@ -169,12 +169,12 @@
     {
       "scope": "diff.deleted",
       "background": "hsla(6, 28%, 23%, 0.7)",
-      "foreground": "color(#C41A16 l(+ 14%))"
+      "foreground": "hsl(1, 80%, 57%)"
     },
     {
       "scope": "diff.deleted.char",
       "background": "hsla(6, 28%, 37%, 0.7)",
-      "foreground": "#FC5B57"
+      "foreground": "hsl(1, 96%, 66%)"
     },
     {
       "scope": "diff.inserted",
@@ -554,7 +554,7 @@
     },
     {
       "scope": "keyword.operator.logical.sql",
-      "foreground": "#FC5B57"
+      "foreground": "hsl(1, 96%, 66%)"
     },
     {
       "scope": "storage.type.sql",
@@ -582,7 +582,7 @@
     },
     {
       "scope": "source.ts support.type.primitive.null.js",
-      "foreground": "#FC5B57"
+      "foreground": "hsl(1, 96%, 66%)"
     },
     {
       "scope": "source.ts support.type.void.js",

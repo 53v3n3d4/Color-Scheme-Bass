@@ -23,7 +23,7 @@
     "gutter_foreground_highlight": "#2077FB",
     "line_diff_added": "#0282F2",
     "line_diff_modified": "#FFB500",
-    "line_diff_deleted": "#FC5B57",
+    "line_diff_deleted": "hsl(1, 96%, 66%)",
     "selection": "color(#352336 a(0.1))",
     "selection_foreground": "#5D6C79",
     "selection_border": "#E8F2FF",
@@ -43,7 +43,7 @@
     "brackets_options": "underline",
     "brackets_foreground": "#FFF618",
     "bracket_contents_options": "underline",
-    "bracket_contents_foreground": "#FC5B57",
+    "bracket_contents_foreground": "hsl(1, 96%, 66%)",
     "tags_options": "underline",
     "tags_foreground": "#FFF618",
     "shadow": "color(#404040 a(0.3))",
@@ -92,15 +92,15 @@
     },
     {
       "scope": "constant.language",
-      "foreground": "color(#C41A16 l(+ 5%) a(0.8))"
+      "foreground": "hsla(1, 80%, 48%, 0.8)"
     },
     {
       "scope": "constant.language.null",
-      "foreground": "color(#C41A16 l(+ 5%) a(0.8))"
+      "foreground": "hsla(1, 80%, 48%, 0.8)"
     },
     {
       "scope": "constant.language.boolean",
-      "foreground": "color(#C41A16 l(+ 5%) a(0.8))"
+      "foreground": "hsla(1, 80%, 48%, 0.8)"
     },
     {
       "scope": "storage.modifier",
@@ -140,7 +140,7 @@
     },
     {
       "scope": "invalid.deprecated",
-      "foreground": "color(#C41A16 a(0.15))"
+      "foreground": "hsla(1, 80%, 43%, 0.15)"
     },
     {
       "scope": "invalid.illegal",
@@ -154,7 +154,7 @@
     {
       "scope": "markup.deleted",
       "background": "hsla(3, 100%, 91%, 0.5)",
-      "foreground": "color(#C41A16 a(0.9))"
+      "foreground": "hsla(1, 80%, 43%, 0.9)"
     },
     {
       "scope": "markup.inserted",
@@ -169,12 +169,12 @@
     {
       "scope": "diff.deleted",
       "background": "hsla(3, 100%, 91%, 0.5)",
-      "foreground": "color(#C41A16 a(0.6))"
+      "foreground": "hsla(1, 80%, 43%, 0.6)"
     },
     {
       "scope": "diff.deleted.char",
       "background": "hsla(3, 100%, 78%, 0.5)",
-      "foreground": "color(#C41A16 a(0.9))"
+      "foreground": "hsla(1, 80%, 43%, 0.9)"
     },
     {
       "scope": "diff.inserted",
@@ -446,7 +446,7 @@
     },
     {
       "scope": "embedding.php text.html.php meta.embedded.php punctuation.section.embedded",
-      "foreground": "color(#C41A16 l(- 9%) a(0.7))"
+      "foreground": "hsla(1, 80%, 34%, 0.7)"
     },
     {
       "scope": "meta.sequence.array.php punctuation.separator.key-value.php, meta.function.php meta.block.php punctuation.accessor.arrow.php",
@@ -550,11 +550,11 @@
     },
     {
       "scope": "variable.declaration.sass, variable.other.sass, meta.map.arguments.sass variable.other.sass, meta.function.parameters.sass variable.parameter.sass, source.sass meta.selector.css, source.sass meta.selector.css entity.name.tag.custom.css, variable.other.scss, meta.parameter.identifier.scss variable.parameter.scss, meta.argument.identifier.scss variable.parameter.scss",
-      "foreground": "color(#C41A16 l(- 9%) a(0.7))"
+      "foreground": "hsla(1, 80%, 34%, 0.7)"
     },
     {
       "scope": "keyword.operator.logical.sql",
-      "foreground": "color(#C41A16 l(+ 5%) a(0.8))"
+      "foreground": "hsla(1, 80%, 48%, 0.8)"
     },
     {
       "scope": "storage.type.sql",
@@ -582,7 +582,7 @@
     },
     {
       "scope": "source.ts support.type.primitive.null.js",
-      "foreground": "color(#C41A16 l(+ 5%) a(0.8))"
+      "foreground": "hsla(1, 80%, 48%, 0.8)"
     },
     {
       "scope": "source.ts support.type.void.js",

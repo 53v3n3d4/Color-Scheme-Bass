@@ -34,7 +34,7 @@
         /** Diff */
         "line-diff-added":            "var(blue3)",
         "line-diff-modified":         "var(gold1)",
-        "line-diff-deleted":          "var(red1)",
+        "line-diff-deleted":          "hsl(var(red1), 96%, 66%)",
         /** Selection */
         "selection":                  "color(var(green-light1) a(0.4))",
         "selection-fg":               "var(gray4)",
@@ -90,7 +90,7 @@
 
         /** Constant */
         // "constant-fg":                "var(green4)",
-        "constant-num-fg":            "color(var(red2) l(+ 11%) a(0.8))",
+        "constant-num-fg":            "hsla(var(red1), 80%, 54%, 0.8)",
         "constant-lang-fg":           "color(var(magenta3) l(- 11%) a(0.8))",
         "constant-lang-null-fg":      "color(var(magenta3) l(- 11%) a(0.8))",
         "constant-lang-bool-fg":      "color(var(magenta3) l(- 11%) a(0.8))",
@@ -120,15 +120,15 @@
         "comment-fg":    "color(var(gray4) a(0.65))",
 
         /** Invalid */
-        // "invalid-fg":               "var(red1)",
+        // "invalid-fg":               "hsl(var(red1), 96%, 66%)",
         "invalid-deprecated-fg":    "color(var(orange1) a(0.1))",
-        "invalid-illegal-fg":       "color(var(red1) a(0.1))",
+        "invalid-illegal-fg":       "hsla(var(red1), 96%, 66%, 0.1)",
 
         /** Diff */
         "markup-changed-bg":      "hsla(53, 93%, 89%, 0.7)",
         "markup-changed-fg":      "var(orange3)",
         "markup-deleted-bg":      "hsla(3, 100%, 93%, 0.7)",
-        "markup-deleted-fg":      "color(var(red2) a(0.9))",
+        "markup-deleted-fg":      "hsla(var(red1), 80%, 43%, 0.9)",
         "markup-inserted-bg":     "hsla(111, 89%, 93%, 0.7)",
         "markup-inserted-fg":     "color(var(green2) a(0.9))",
         "meta-diff-header-bg":    "hsla(211, 85%, 92%, 0.7)",
@@ -136,9 +136,9 @@
 
         /** Inline Diffs */
         "diff-deleted-bg":          "hsla(3, 100%, 93%, 0.7)",
-        "diff-deleted-fg":          "color(var(red2) a(0.6))",
+        "diff-deleted-fg":          "hsla(var(red1), 80%, 43%, 0.6)",
         "diff-deleted-char-bg":     "hsla(3, 100%, 83%, 0.7)",
-        "diff-deleted-char-fg":     "color(var(red2) a(0.9))",
+        "diff-deleted-char-fg":     "hsla(var(red1), 80%, 43%, 0.9)",
         "diff-inserted-bg":         "hsla(111, 89%, 93%, 0.7)",
         "diff-inserted-fg":         "color(var(green2) a(0.8))",
         "diff-inserted-char-bg":    "hsla(111, 89%, 77%, 0.7)",

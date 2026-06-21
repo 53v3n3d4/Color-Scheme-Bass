@@ -12,7 +12,7 @@
     "invisibles": "color(#584740 a(0.2))",
     "caret": "#525055",
     "line_highlight": "color(#F9EFDA l(- 16%) a(0.5))",
-    "misspelling": "color(#FC5B57 l(- 3%))",
+    "misspelling": "hsl(1, 96%, 63%)",
     "fold_marker": "#FFE76D",
     "minimap_border": "#FFC849",
     "accent": "color(#BF8555 l(+ 7%))",
@@ -23,7 +23,7 @@
     "gutter_foreground_highlight": "#643820",
     "line_diff_added": "#0282F2",
     "line_diff_modified": "#FFB500",
-    "line_diff_deleted": "#FC5B57",
+    "line_diff_deleted": "hsl(1, 96%, 66%)",
     "selection": "#F9DF9C",
     "selection_foreground": "#5D6C79",
     "selection_border": "#FFB500",
@@ -38,7 +38,7 @@
     "scroll_highlight": "#FD8F3F",
     "rulers": "color(#5D6C79 a(0.5)",
     "guide": "color(#C86733 a(0.5))",
-    "active_guide": "#C41A16",
+    "active_guide": "hsl(1, 80%, 43%)",
     "stack_guide": "color(#9B9B9B a(0.5))",
     "brackets_options": "underline",
     "brackets_foreground": "#C01553",
@@ -92,15 +92,15 @@
     },
     {
       "scope": "constant.language",
-      "foreground": "#FC5B57"
+      "foreground": "hsl(1, 96%, 66%)"
     },
     {
       "scope": "constant.language.null",
-      "foreground": "#FC5B57"
+      "foreground": "hsl(1, 96%, 66%)"
     },
     {
       "scope": "constant.language.boolean",
-      "foreground": "#FC5B57"
+      "foreground": "hsl(1, 96%, 66%)"
     },
     {
       "scope": "storage.modifier",
@@ -144,7 +144,7 @@
     },
     {
       "scope": "invalid.illegal",
-      "background": "color(#FC5B57 a(0.4))"
+      "background": "hsla(1, 96%, 66%, 0.4)"
     },
     {
       "scope": "markup.changed",
@@ -154,7 +154,7 @@
     {
       "scope": "markup.deleted",
       "background": "hsla(3, 100%, 91%, 0.5)",
-      "foreground": "color(#C41A16 a(0.9))"
+      "foreground": "hsla(1, 80%, 43%, 0.9)"
     },
     {
       "scope": "markup.inserted",
@@ -169,12 +169,12 @@
     {
       "scope": "diff.deleted",
       "background": "hsla(3, 100%, 91%, 0.5)",
-      "foreground": "color(#C41A16 a(0.6))"
+      "foreground": "hsla(1, 80%, 43%, 0.6)"
     },
     {
       "scope": "diff.deleted.char",
       "background": "hsla(3, 100%, 78%, 0.5)",
-      "foreground": "color(#C41A16 a(0.9))"
+      "foreground": "hsla(1, 80%, 43%, 0.9)"
     },
     {
       "scope": "diff.inserted",
@@ -554,7 +554,7 @@
     },
     {
       "scope": "keyword.operator.logical.sql",
-      "foreground": "#FC5B57"
+      "foreground": "hsl(1, 96%, 66%)"
     },
     {
       "scope": "storage.type.sql",
@@ -582,7 +582,7 @@
     },
     {
       "scope": "source.ts support.type.primitive.null.js",
-      "foreground": "#FC5B57"
+      "foreground": "hsl(1, 96%, 66%)"
     },
     {
       "scope": "source.ts support.type.void.js",

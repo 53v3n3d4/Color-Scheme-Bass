@@ -23,7 +23,7 @@
     "gutter_foreground_highlight": "#EC4990",
     "line_diff_added": "#0282F2",
     "line_diff_modified": "#FFB500",
-    "line_diff_deleted": "#C41A16",
+    "line_diff_deleted": "hsl(1, 80%, 43%)",
     "selection": "#E8F2FF",
     "selection_foreground": "#5D6C79",
     "selection_border": "#C7E1F2",
@@ -92,15 +92,15 @@
     },
     {
       "scope": "constant.language",
-      "foreground": "color(#C41A16 a(0.8))"
+      "foreground": "hsla(1, 80%, 43%, 0.8)"
     },
     {
       "scope": "constant.language.null",
-      "foreground": "color(#C41A16 a(0.8))"
+      "foreground": "hsla(1, 80%, 43%, 0.8)"
     },
     {
       "scope": "constant.language.boolean",
-      "foreground": "color(#C41A16 a(0.8))"
+      "foreground": "hsla(1, 80%, 43%, 0.8)"
     },
     {
       "scope": "storage.modifier",
@@ -144,7 +144,7 @@
     },
     {
       "scope": "invalid.illegal",
-      "background": "color(#FC5B57 a(0.7))"
+      "background": "hsla(1, 96%, 66%, 0.7)"
     },
     {
       "scope": "markup.changed",
@@ -154,7 +154,7 @@
     {
       "scope": "markup.deleted",
       "background": "hsla(3, 100%, 95%, 0.9)",
-      "foreground": "color(#C41A16 a(0.9))"
+      "foreground": "hsla(1, 80%, 43%, 0.9)"
     },
     {
       "scope": "markup.inserted",
@@ -169,12 +169,12 @@
     {
       "scope": "diff.deleted",
       "background": "hsla(3, 100%, 95%, 0.9)",
-      "foreground": "color(#C41A16 a(0.6))"
+      "foreground": "hsla(1, 80%, 43%, 0.6)"
     },
     {
       "scope": "diff.deleted.char",
       "background": "hsla(3, 100%, 84%, 0.9)",
-      "foreground": "color(#C41A16 a(0.9))"
+      "foreground": "hsla(1, 80%, 43%, 0.9)"
     },
     {
       "scope": "diff.inserted",
@@ -554,7 +554,7 @@
     },
     {
       "scope": "keyword.operator.logical.sql",
-      "foreground": "color(#C41A16 a(0.8))"
+      "foreground": "hsla(1, 80%, 43%, 0.8)"
     },
     {
       "scope": "storage.type.sql",
@@ -582,7 +582,7 @@
     },
     {
       "scope": "source.ts support.type.primitive.null.js",
-      "foreground": "color(#C41A16 a(0.8))"
+      "foreground": "hsla(1, 80%, 43%, 0.8)"
     },
     {
       "scope": "source.ts support.type.void.js",

@@ -2,6 +2,8 @@
     "variables":
     {
         // Color Hex
+        // Variables that don't work because they are replaced by hue variables:
+        // variable red 1, red2, red6
         "black1":           "#000000", // "rgb(0, 0, 0)"
         "black2":           "#161818", // "rgb(22, 24, 24)"
         "black3":           "#323234", // "rgb(50, 50, 52)"
@@ -111,7 +113,39 @@
         "yellow-light1":    "#F9EFDA", // "rgb(249, 239, 218)"
         "yellow-light2":    "#FFFCE5", // "rgb(255, 252, 229)"
         "yellow-light3":    "#F9DF9C", // "rgb(249, 223, 156)"
-        "yellow-light4":    "#F4E2BC" // "rgb(244, 228, 188)"
+        "yellow-light4":    "#F4E2BC", // "rgb(244, 228, 188)"
+        // Hue
+        // The are different name for the same hue value
+        // blue208 and gray208
+        // gold43 and yellow43
+        "blue194": "194",
+        "blue208": "208",
+        "blue213": "213",
+        "blue234": "234",
+        "cyan174": "174",
+        "gold43": "43",
+        "gold52": "52",
+        "gray208": "208",
+        "green95": "95",
+        "green106": "106",
+        "green133": "133",
+        "green137": "137",
+        "magenta334": "334",
+        "orange20": "20",
+        "orange25": "25",
+        "pink328": "328",
+        "pink344": "344",
+        "purple304": "304",
+        "red1": "1",
+        "red2": "2",
+        "red6": "6",
+        "red12": "12",
+        "violet295": "295",
+        "white240": "240",
+        "yellow43": "43",
+        "yellow47": "47",
+        "yellow50": "50",
+        "yellow58": "58"
     },
     "globals": {},
     "rules": []

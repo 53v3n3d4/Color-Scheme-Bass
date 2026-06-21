@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.2.0] - 2026
+- Replace hex variables -> hue (hsl) variables
+
 ## [0.1.26] - 2026-06-20
 - Add rule entity name gitignore punctuation separator path fg
 - Add rule tmpl var other dollar svelte fg

@@ -34,7 +34,7 @@
         /** Diff */
         "line-diff-added":            "var(blue3)",
         "line-diff-modified":         "var(gold1)",
-        "line-diff-deleted":          "var(red1)",
+        "line-diff-deleted":          "hsl(var(red1), 96%, 66%)",
         /** Selection */
         "selection":                  "color(var(purple6) a(0.1))",
         "selection-fg":               "var(gray4)",
@@ -59,7 +59,7 @@
         "brackets-opts":              "underline",
         "brackets-fg":                "var(yellow2)",
         "bracket-contents-opts":      "underline",
-        "bracket-contents-fg":        "var(red1)",
+        "bracket-contents-fg":        "hsl(var(red1), 96%, 66%)",
         /** Tags */
         "tags-opts":                  "underline",
         "tags-fg":                    "var(yellow2)",
@@ -91,9 +91,9 @@
         /** Constant */
         // "constant-fg":                "var(green4)",
         "constant-num-fg":            "color(var(blue1) l(+ 7%))",
-        "constant-lang-fg":           "color(var(red2) l(+ 5%) a(0.8))",
-        "constant-lang-null-fg":      "color(var(red2) l(+ 5%) a(0.8))",
-        "constant-lang-bool-fg":      "color(var(red2) l(+ 5%) a(0.8))",
+        "constant-lang-fg":           "hsla(var(red1), 80%, 48%, 0.8)",
+        "constant-lang-null-fg":      "hsla(var(red1), 80%, 48%, 0.8)",
+        "constant-lang-bool-fg":      "hsla(var(red1), 80%, 48%, 0.8)",
         // "constant-char-escape-fg":    "var(blue4)",
 
         /** Storage */
@@ -120,15 +120,15 @@
         "comment-fg":    "color(var(gray4) a(0.7))",
 
         /** Invalid */
-        // "invalid-fg":               "var(red1)",
-        "invalid-deprecated-fg":    "color(var(red2) a(0.15))",
+        // "invalid-fg":               "hsl(var(red1), 96%, 66%)",
+        "invalid-deprecated-fg":    "hsla(var(red1), 80%, 43%, 0.15)",
         "invalid-illegal-fg":       "color(var(orange1) a(0.4))",
 
         /** Diff */
         "markup-changed-bg":      "hsla(53, 93%, 87%, 0.5)",
         "markup-changed-fg":      "var(orange3)",
         "markup-deleted-bg":      "hsla(3, 100%, 91%, 0.5)",
-        "markup-deleted-fg":      "color(var(red2) a(0.9))",
+        "markup-deleted-fg":      "hsla(var(red1), 80%, 43%, 0.9)",
         "markup-inserted-bg":     "hsla(111, 89%, 89%, 0.5)",
         "markup-inserted-fg":     "color(var(green2) a(0.9))",
         "meta-diff-header-bg":    "hsla(211, 85%, 89%, 0.5)",
@@ -136,9 +136,9 @@
 
         /** Inline Diffs */
         "diff-deleted-bg":          "hsla(3, 100%, 91%, 0.5)",
-        "diff-deleted-fg":          "color(var(red2) a(0.6))",
+        "diff-deleted-fg":          "hsla(var(red1), 80%, 43%, 0.6)",
         "diff-deleted-char-bg":     "hsla(3, 100%, 78%, 0.5)",
-        "diff-deleted-char-fg":     "color(var(red2) a(0.9))",
+        "diff-deleted-char-fg":     "hsla(var(red1), 80%, 43%, 0.9)",
         "diff-inserted-bg":         "hsla(111, 89%, 89%, 0.5)",
         "diff-inserted-fg":         "color(var(green2) a(0.8))",
         "diff-inserted-char-bg":    "hsla(111, 89%, 73%, 0.5)",
@@ -241,7 +241,7 @@
         /** PHP */
         "entity-name-tag-doc-php-fg":               "color(var(cyan2) l(- 4%))",
         "punctuation-definition-var-php-fg":        "color(var(pink-light4) l(- 13%))",
-        "punctuation-section-embedded-php-fg":      "color(var(red2) l(- 9%) a(0.7))",
+        "punctuation-section-embedded-php-fg":      "hsla(var(red1), 80%, 34%, 0.7)",
         "punctuation-separator-kv-arrow-php-fg":    "color(var(pink-light4) l(- 3%) a(0.8))",
 
         /** Python */
@@ -277,10 +277,10 @@
         "constant-sass-fg":    "color(var(gray4) a(0.8))",
         "params-sass-fg":      "color(var(pink-light4) l(- 9%))",
         "string-scss-fg":      "color(var(purple2) a(0.8))",
-        "variable-sass-fg":    "color(var(red2) l(- 9%) a(0.7))",
+        "variable-sass-fg":    "hsla(var(red1), 80%, 34%, 0.7)",
 
         /** Sql */
-        "keyword-operator-logical-sql-fg":    "color(var(red2) l(+ 5%) a(0.8))",
+        "keyword-operator-logical-sql-fg":    "hsla(var(red1), 80%, 48%, 0.8)",
         "storage-type-sql-fg":                "color(var(green-light3) l(- 14%) a(0.9))",
         "support-type-sql-fg":                "color(var(green-light3) l(- 14%) a(0.9))",
         "variable-other-member-sql-fg":       "color(var(black4) a(0.9))",
@@ -294,7 +294,7 @@
         "entity-name-tag-toml-fg":      "color(var(orange1) l(- 26% )a(0.7))",
 
         /** Typescript */
-        "support-type-null-ts-fg":    "color(var(red2) l(+ 5%) a(0.8))",
+        "support-type-null-ts-fg":    "hsla(var(red1), 80%, 48%, 0.8)",
         "support-type-void-ts-fg":    "color(var(red-dark1) l(+ 22% )a(0.8))",
 
         /** YAML */

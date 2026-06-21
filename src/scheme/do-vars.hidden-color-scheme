@@ -15,7 +15,7 @@
         "caret":                      "var(gray6)", // mouse cursor
         "line-highlight":             "color(var(bg-color) l(- 16%) a(0.5))", //"var(yellow-light3)",
         /** Accents */
-        "misspelling":                "color(var(red1) l(- 3%))",
+        "misspelling":                "hsl(var(red1), 96%, 63%)",
         "fold-marker":                "var(yellow1)", // when folded, the "..."
         "minimap-border":             "var(yellow3)",
         "accent":                     "color(var(brown1) l(+ 7%))",
@@ -34,7 +34,7 @@
         /** Diff */
         "line-diff-added":            "var(blue3)",
         "line-diff-modified":         "var(gold1)",
-        "line-diff-deleted":          "var(red1)",
+        "line-diff-deleted":          "hsl(var(red1), 96%, 66%)",
         /** Selection */
         "selection":                  "var(yellow-light3)",
         "selection-fg":               "var(gray4)",
@@ -53,7 +53,7 @@
         "rulers":                     "color(var(gray4) a(0.5)", //"var(orange3)",
         /** Guides */
         "guide":                      "color(var(orange3) a(0.5))",
-        "active-guide":               "var(red2)",
+        "active-guide":               "hsl(var(red1), 80%, 43%)",
         "stack-guide":                "color(var(gray3) a(0.5))",
         /** Brackets */
         "brackets-opts":              "underline",
@@ -91,9 +91,9 @@
         /** Constant */
         // "constant-fg":                "var(green4)",
         "constant-num-fg":            "color(var(orange1) l(+ 2%))",
-        "constant-lang-fg":           "var(red1)",
-        "constant-lang-null-fg":      "var(red1)",
-        "constant-lang-bool-fg":      "var(red1)",
+        "constant-lang-fg":           "hsl(var(red1), 96%, 66%)",
+        "constant-lang-null-fg":      "hsl(var(red1), 96%, 66%)",
+        "constant-lang-bool-fg":      "hsl(var(red1), 96%, 66%)",
         // "constant-char-escape-fg":    "var(blue4)",
 
         /** Storage */
@@ -120,15 +120,15 @@
         "comment-fg":    "color(var(gray4) a(0.63))",
 
         /** Invalid */
-        // "invalid-fg":               "var(red1)",
+        // "invalid-fg":               "hsl(var(red1), 96%, 66%)",
         "invalid-deprecated-fg":    "color(var(orange1) a(0.2))",
-        "invalid-illegal-fg":       "color(var(red1) a(0.4))",
+        "invalid-illegal-fg":       "hsla(var(red1), 96%, 66%, 0.4)",
 
         /** Diff */
         "markup-changed-bg":      "hsla(53, 93%, 87%, 0.9)",
         "markup-changed-fg":      "var(orange3)",
         "markup-deleted-bg":      "hsla(3, 100%, 91%, 0.5)",
-        "markup-deleted-fg":      "color(var(red2) a(0.9))",
+        "markup-deleted-fg":      "hsla(var(red1), 80%, 43%, 0.9)",
         "markup-inserted-bg":     "hsla(111, 89%, 89%, 0.5)",
         "markup-inserted-fg":     "color(var(green2) a(0.9))",
         "meta-diff-header-bg":    "hsla(211, 85%, 89%, 0.4)",
@@ -136,9 +136,9 @@
 
         /** Inline Diffs */
         "diff-deleted-bg":          "hsla(3, 100%, 91%, 0.5)",
-        "diff-deleted-fg":          "color(var(red2) a(0.6))",
+        "diff-deleted-fg":          "hsla(var(red1), 80%, 43%, 0.6)",
         "diff-deleted-char-bg":     "hsla(3, 100%, 78%, 0.5)",
-        "diff-deleted-char-fg":     "color(var(red2) a(0.9))",
+        "diff-deleted-char-fg":     "hsla(var(red1), 80%, 43%, 0.9)",
         "diff-inserted-bg":         "hsla(111, 89%, 89%, 0.5)",
         "diff-inserted-fg":         "color(var(green2) a(0.8))",
         "diff-inserted-char-bg":    "hsla(111, 89%, 73%, 0.6)",
@@ -280,7 +280,7 @@
         "variable-sass-fg":    "color(var(cyan2) l(- 2%) a(0.8))",
 
         /** Sql */
-        "keyword-operator-logical-sql-fg":    "var(red1)",
+        "keyword-operator-logical-sql-fg":    "hsl(var(red1), 96%, 66%)",
         "storage-type-sql-fg":                "color(var(gold2) l(- 7%))",
         "support-type-sql-fg":                "color(var(gold2) l(- 7%))",
         "variable-other-member-sql-fg":       "var(gray4)",
@@ -294,7 +294,7 @@
         "entity-name-tag-toml-fg":      "color(var(blue2) l(+ 4%) a(0.8))",
 
         /** Typescript */
-        "support-type-null-ts-fg":    "var(red1)",
+        "support-type-null-ts-fg":    "hsl(var(red1), 96%, 66%)",
         "support-type-void-ts-fg":    "color(var(green2) l(- 3%) a(0.8))",
 
         /** YAML */

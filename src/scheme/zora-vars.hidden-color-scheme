@@ -34,7 +34,7 @@
         /** Diff */
         "line-diff-added":            "var(blue3)",
         "line-diff-modified":         "var(gold1)",
-        "line-diff-deleted":          "var(red2)",
+        "line-diff-deleted":          "hsl(var(red1), 80%, 43%)",
         /** Selection */
         "selection":                  "color(var(green-light1) a(0.14))",
         "selection-fg":               "color(var(blue-light4) a(0.8)",
@@ -91,9 +91,9 @@
         /** Constant */
         // "constant-fg":                "var(blue5)",
         "constant-num-fg":            "color(var(gold1) l(- 4%))",
-        "constant-lang-fg":           "color(var(red1) a(0.9)",
-        "constant-lang-null-fg":      "color(var(red1) a(0.9)",
-        "constant-lang-bool-fg":      "color(var(red1) a(0.9)",
+        "constant-lang-fg":           "hsla(var(red1), 96%, 66%, 0.9)",
+        "constant-lang-null-fg":      "hsla(var(red1), 96%, 66%, 0.9)",
+        "constant-lang-bool-fg":      "hsla(var(red1), 96%, 66%, 0.9)",
         // "constant-char-escape-fg":    "var(gold2)",
 
         /** Storage */
@@ -120,9 +120,9 @@
         "comment-fg":    "color(var(blue-light3) a(0.4))",
 
         /** Invalid */
-        // "invalid-fg":               "color(var(red1) a(0.9)",
+        // "invalid-fg":               "hsla(var(red1), 96%, 66%, 0.9)",
         "invalid-deprecated-fg":    "color(var(orange1) a(0.2))",
-        "invalid-illegal-fg":       "color(var(red1) a(0.3))",
+        "invalid-illegal-fg":       "hsla(var(red1), 96%, 66%, 0.3)",
 
         /** Diff */
         "markup-changed-bg":      "hsla(47, 29%, 23%, 0.6)",
@@ -136,9 +136,9 @@
 
         /** Inline Diffs */
         "diff-deleted-bg":          "hsla(6, 28%, 23%, 0.6)",
-        "diff-deleted-fg":          "color(var(red2) l(+ 14%))",
+        "diff-deleted-fg":          "hsl(var(red1), 80%, 57%)",
         "diff-deleted-char-bg":     "hsla(6, 28%, 39%, 0.6)",
-        "diff-deleted-char-fg":     "var(red1)",
+        "diff-deleted-char-fg":     "hsl(var(red1), 96%, 66%)",
         "diff-inserted-bg":         "hsla(133, 29%, 22%, 0.6)",
         "diff-inserted-fg":         "color(var(green1) l(+ 14%))",
         "diff-inserted-char-bg":    "hsla(133, 29%, 37%, 0.6)",
@@ -280,7 +280,7 @@
         "variable-sass-fg":    "color(var(yellow-light3) l(+ 3%) a(0.7))",
 
         /** Sql */
-        "keyword-operator-logical-sql-fg":    "color(var(red1) a(0.9)",
+        "keyword-operator-logical-sql-fg":    "hsla(var(red1), 96%, 66%, 0.9)",
         "storage-type-sql-fg":                "var(pink-light4)",
         "support-type-sql-fg":                "var(pink-light4)",
         "variable-other-member-sql-fg":       "var(gray2)",
@@ -294,7 +294,7 @@
         "entity-name-tag-toml-fg":      "color(var(cyan2) l(+ 11%) a(0.8))",
 
         /** Typescript */
-        "support-type-null-ts-fg":    "color(var(red1) a(0.9)",
+        "support-type-null-ts-fg":    "hsla(var(red1), 96%, 66%, 0.9)",
         "support-type-void-ts-fg":    "color(var(cyan2) a(0.8))",
 
         /** YAML */
