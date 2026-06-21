@@ -33,7 +33,7 @@
         // "gutter_foreground": "{font-family: Helvetica";\n        font-size: 8px;\n      color: #808080;\n}",
         /** Diff */
         "line-diff-added":            "hsl(var(blue208), 98%, 48%)",
-        "line-diff-modified":         "hsl(var(gold43), 100%, 50%)",
+        "line-diff-modified":         "hsl(var(yellow43), 100%, 50%)",
         "line-diff-deleted":          "hsl(var(red1), 96%, 66%)",
         /** Selection */
         "selection":                  "hsla(var(blue204), 62%, 86%, 0.8)",

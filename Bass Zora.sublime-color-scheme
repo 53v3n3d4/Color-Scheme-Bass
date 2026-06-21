@@ -7,88 +7,88 @@
   "name": "Zora",
   "variables": {},
   "globals": {
-    "background": "#262833",
-    "foreground": "#B4B4B4",
-    "invisibles": "#5D6C79",
-    "caret": "#06B1D8",
-    "line_highlight": "color(#262833 l(+ 7%) a(0.5))",
-    "misspelling": "color(#38A2AF l(+ 11%) a(0.8))",
-    "fold_marker": "#FFE76D",
-    "minimap_border": "#38A2AF",
-    "accent": "color(#262833 a(0.8) l(+ 29%))",
-    "popup_css": "\n      html, body {\n        background-color: #262833;\n        color: #B4B4B4;\n      }\n      body {\n        padding: 4px;\n      margin: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
-    "phantom_css": "\n      html, body {\n        background-color: #404040;\n        border-radius: 4px;\n      color: #D8D8D8;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
-    "gutter": "#262833",
-    "gutter_foreground": "color(#B4B4B4 a(0.7))",
-    "gutter_foreground_highlight": "#5DD8FF",
-    "line_diff_added": "#0282F2",
-    "line_diff_modified": "#FFB500",
+    "background": "hsl(231, 15%, 17%)",
+    "foreground": "hsl(0, 0%, 71%)",
+    "invisibles": "hsl(208, 13%, 42%)",
+    "caret": "hsl(191, 95%, 44%)",
+    "line_highlight": "hsla(231, 15%, 24%, 0.5)",
+    "misspelling": "hsla(187, 52%, 56%, 0.8)",
+    "fold_marker": "hsl(50, 100%, 71%)",
+    "minimap_border": "hsl(187, 52%, 45%)",
+    "accent": "hsla(231, 15%, 46%, 0.8)",
+    "popup_css": "\n      html, body {\n        background-color: hsl(231, 15%, 17%);\n        color: hsl(0, 0%, 71%);\n      }\n      body {\n        padding: 4px;\n      margin: 0px;\n      }\n      a {\n        color: hsl(208, 98%, 48%);\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
+    "phantom_css": "\n      html, body {\n        background-color: hsl(0, 0%, 25%);\n        border-radius: 4px;\n      color: hsl(0, 0%, 85%);\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: hsl(194, 100%, 68%);\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
+    "gutter": "hsl(231, 15%, 17%)",
+    "gutter_foreground": "hsla(0, 0%, 71%, 0.7)",
+    "gutter_foreground_highlight": "hsl(194, 100%, 68%)",
+    "line_diff_added": "hsl(208, 98%, 48%)",
+    "line_diff_modified": "hsl(43, 100%, 50%)",
     "line_diff_deleted": "hsl(1, 80%, 43%)",
-    "selection": "color(#C4E7CE a(0.14))",
-    "selection_foreground": "color(#A4CDFF a(0.8)",
-    "selection_border": "#232323",
+    "selection": "hsla(137, 42%, 84%, 0.14)",
+    "selection_foreground": "hsla(213, 100%, 82%, 0.8)",
+    "selection_border": "hsl(0, 0%, 14%)",
     "selection_border_width": "1",
-    "inactive_selection": "color(#C4E7CE a(0.1))",
-    "inactive_selection_foreground": "color(#A4CDFF a(0.8)",
+    "inactive_selection": "hsla(137, 42%, 84%, 0.1)",
+    "inactive_selection_foreground": "hsla(213, 100%, 82%, 0.8)",
     "selection_corner_style": "round",
     "selection_corner_radius": "2",
-    "highlight": "color(#D0BC56 a(0.7))",
-    "find_highlight": "#B2D6FB",
-    "find_highlight_foreground": "#007F7C",
-    "scroll_highlight": "#FC6BAA",
-    "rulers": "color(#5D6C79 a(0.5)",
-    "guide": "color(#9B9B9B a(0.4))",
-    "active_guide": "color(#A4CDFF a(0.7))",
-    "stack_guide": "color(#9B9B9B a(0.4))",
+    "highlight": "hsla(50, 56%, 58%, 0.7)",
+    "find_highlight": "hsl(210, 90%, 84%)",
+    "find_highlight_foreground": "hsl(179, 100%, 25%)",
+    "scroll_highlight": "hsl(334, 96%, 70%)",
+    "rulers": "hsla(208, 13%, 42%, 0.5)",
+    "guide": "hsla(0, 0%, 61%, 0.4)",
+    "active_guide": "hsla(213, 100%, 82%, 0.7)",
+    "stack_guide": "hsla(0, 0%, 61%, 0.4)",
     "brackets_options": "underline",
-    "brackets_foreground": "#FFF618",
+    "brackets_foreground": "hsl(58, 100%, 55%)",
     "bracket_contents_options": "stippled_underline",
-    "bracket_contents_foreground": "#FFC849",
+    "bracket_contents_foreground": "hsl(42, 100%, 64%)",
     "tags_options": "underline",
-    "tags_foreground": "#FFF618",
-    "shadow": "color(#404040 a(0.3))",
+    "tags_foreground": "hsl(58, 100%, 55%)",
+    "shadow": "hsla(0, 0%, 25%, 0.3)",
     "shadow_width": "3"
   },
   "rules": [
     {
       "scope": "entity.name",
-      "foreground": "color(#83B85E l(+ 2%))"
+      "foreground": "hsl(95, 39%, 57%)"
     },
     {
       "scope": "entity.name.class",
-      "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
+      "foreground": "hsla(328, 58%, 74%, 0.8)"
     },
     {
       "scope": "entity.name.function",
-      "foreground": "color(#83B85E l(+ 2%))"
+      "foreground": "hsl(95, 39%, 57%)"
     },
     {
       "scope": "entity.other.inherited-class",
-      "foreground": "color(#40E0D0 a(0.9))"
+      "foreground": "hsla(174, 72%, 56%, 0.9)"
     },
     {
       "scope": "entity.other.attribute-name",
-      "foreground": "color(#A4CDFF l(- 1%) a(0.8))"
+      "foreground": "hsla(213, 100%, 81%, 0.8)"
     },
     {
       "scope": "entity.other.pseudo-class",
-      "foreground": "color(#FFE76D a(0.9)"
+      "foreground": "hsla(50, 100%, 71%, 0.9)"
     },
     {
       "scope": "variable.function",
-      "foreground": "color(#83B85E l(+ 2%))"
+      "foreground": "hsl(95, 39%, 57%)"
     },
     {
       "scope": "variable.other.constant",
-      "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
+      "foreground": "hsla(328, 58%, 74%, 0.8)"
     },
     {
       "scope": "variable.other.member - meta.block.rust",
-      "foreground": "color(#643820 l(+ 37%) a(0.7))"
+      "foreground": "hsla(21, 52%, 63%, 0.7)"
     },
     {
       "scope": "constant.numeric",
-      "foreground": "color(#FFB500 l(- 4%))"
+      "foreground": "hsl(43, 100%, 46%)"
     },
     {
       "scope": "constant.language",
@@ -104,43 +104,43 @@
     },
     {
       "scope": "storage.modifier",
-      "foreground": "color(#AA0D91 l(+ 39%) a(0.7))"
+      "foreground": "hsla(310, 86%, 75%, 0.7)"
     },
     {
       "scope": "storage.type",
-      "foreground": "color(#1E73BE l(+ 24%))"
+      "foreground": "hsl(208, 73%, 67%)"
     },
     {
       "scope": "support.function",
-      "foreground": "color(#83B85E l(+ 2%))"
+      "foreground": "hsl(95, 39%, 57%)"
     },
     {
       "scope": "support.class",
-      "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
+      "foreground": "hsla(328, 58%, 74%, 0.8)"
     },
     {
       "scope": "support.type.primitive",
-      "foreground": "color(#38A2AF a(0.8))"
+      "foreground": "hsla(187, 52%, 45%, 0.8)"
     },
     {
       "scope": "keyword",
-      "foreground": "color(#1E73BE l(+ 24%))"
+      "foreground": "hsl(208, 73%, 67%)"
     },
     {
       "scope": "keyword.operator",
-      "foreground": "color(#FC6BAA a(0.8))"
+      "foreground": "hsla(334, 96%, 70%, 0.8)"
     },
     {
       "scope": "string",
-      "foreground": "color(#C4E7CE l(- 7%) a(0.6))"
+      "foreground": "hsla(137, 42%, 77%, 0.6)"
     },
     {
       "scope": "comment",
-      "foreground": "color(#B2D6FB a(0.4))"
+      "foreground": "hsla(210, 90%, 84%, 0.4)"
     },
     {
       "scope": "invalid.deprecated",
-      "foreground": "color(#FD8F3F a(0.2))"
+      "foreground": "hsla(25, 98%, 62%, 0.2)"
     },
     {
       "scope": "invalid.illegal",
@@ -159,12 +159,12 @@
     {
       "scope": "markup.inserted",
       "background": "hsla(133, 29%, 22%, 0.6)",
-      "foreground": "color(#83B85E l(+ 3%))"
+      "foreground": "hsl(95, 39%, 58%)"
     },
     {
       "scope": "meta.diff, meta.diff.header",
       "background": "hsla(234, 33%, 23%, 0.6)",
-      "foreground": "#5DD8FF"
+      "foreground": "hsl(194, 100%, 68%)"
     },
     {
       "scope": "diff.deleted",
@@ -179,193 +179,193 @@
     {
       "scope": "diff.inserted",
       "background": "hsla(133, 29%, 22%, 0.6)",
-      "foreground": "color(#57C038 l(+ 14%))"
+      "foreground": "hsl(106, 55%, 63%)"
     },
     {
       "scope": "diff.inserted.char",
       "background": "hsla(133, 29%, 37%, 0.6)",
-      "foreground": "color(#57C038 l(+ 7%))"
+      "foreground": "hsl(106, 55%, 56%)"
     },
     {
       "scope": "meta.mapping.key, meta.mapping.key string",
-      "foreground": "color(#38A2AF l(+ 11%) a(0.8))"
+      "foreground": "hsla(187, 52%, 56%, 0.8)"
     },
     {
       "scope": "meta.mapping.value, meta.mapping.value string",
-      "foreground": "color(#584740 l(+ 26%))"
+      "foreground": "hsl(18, 16%, 56%)"
     },
     {
       "scope": "punctuation.section.mapping.begin, punctuation.section.mapping.end",
-      "foreground": "#B4B4B4"
+      "foreground": "hsl(0, 0%, 71%)"
     },
     {
       "scope": "punctuation.section.sequence.begin, punctuation.section.sequence.end, punctuation.separator.sequence, punctuation.separator.key-value",
-      "foreground": "#B4B4B4"
+      "foreground": "hsl(0, 0%, 71%)"
     },
     {
       "scope": "comment.line.shebang constant.language.shebang",
-      "foreground": "color(#B2D6FB a(0.4))"
+      "foreground": "hsla(210, 90%, 84%, 0.4)"
     },
     {
       "scope": "meta.annotation.cedar punctuation.definition.annotation.cedar, meta.annotation.cedar variable.annotation.cedar",
-      "foreground": "color(#ECAA79 l(+ 7%) a(0.6))"
+      "foreground": "hsla(26, 75%, 77%, 0.6)"
     },
     {
       "scope": "constant.other.keyword.clojure, constant.other.keyword.unqualified.edn",
-      "foreground": "#00997B"
+      "foreground": "hsl(168, 100%, 30%)"
     },
     {
       "scope": "storage.modifier.def.clojure",
-      "foreground": "color(#1E73BE l(+ 24%))"
+      "foreground": "hsl(208, 73%, 67%)"
     },
     {
       "scope": "variable.function.clojure",
-      "foreground": "color(#1E73BE l(+ 24%))"
+      "foreground": "hsl(208, 73%, 67%)"
     },
     {
       "scope": "meta.at-rule.other.css",
-      "foreground": "color(#1E73BE l(+ 24%))"
+      "foreground": "hsl(208, 73%, 67%)"
     },
     {
       "scope": "source.css constant",
-      "foreground": "color(#B4B4B4 l(+ 8%))"
+      "foreground": "hsl(0, 0%, 79%)"
     },
     {
       "scope": "entity.name.tag.html.css",
-      "foreground": "color(#643820 l(+ 37%) a(0.7))"
+      "foreground": "hsla(21, 52%, 63%, 0.7)"
     },
     {
       "scope": "support.type.property-name.css, meta.property-name.css support.type.vendor-prefix.css",
-      "foreground": "color(#FC6BAA l(+ 7%) a(0.8))"
+      "foreground": "hsla(334, 96%, 77%, 0.8)"
     },
     {
       "scope": "meta.selector.css support.type.vendor-prefix.css, meta.selector.css punctuation.definition.pseudo-class.css",
-      "foreground": "color(#FFE76D a(0.9)"
+      "foreground": "hsla(50, 100%, 71%, 0.9)"
     },
     {
       "scope": "entity.other.custom-property.css, meta.property-value.css variable.other.custom-property.css",
-      "foreground": "color(#C4E7CE l(- 29%) a(0.5))"
+      "foreground": "hsla(137, 42%, 55%, 0.5)"
     },
     {
       "scope": "constant.other.keyword.elixir",
-      "foreground": "color(#38A2AF l(+ 11%) a(0.8))"
+      "foreground": "hsla(187, 52%, 56%, 0.8)"
     },
     {
       "scope": "constant.other.symbol.elixir",
-      "foreground": "#00997B"
+      "foreground": "hsl(168, 100%, 30%)"
     },
     {
       "scope": "meta.doc.elixir meta.string.elixir string.quoted.triple.double.elixir",
-      "foreground": "color(#B2D6FB a(0.4))"
+      "foreground": "hsla(210, 90%, 84%, 0.4)"
     },
     {
       "scope": "support.attr.elixir, support.attr.doc.elixir, keyword.operator.attribute.elixir, meta.function-call.arguments.elixir entity.name.constant.elixir",
-      "foreground": "color(#ECAA79 l(+ 7%) a(0.6))"
+      "foreground": "hsla(26, 75%, 77%, 0.6)"
     },
     {
       "scope": "meta.embedded.eex meta.function-call.arguments.elixir variable.other.constant.elixir, meta.embedded.heex variable.other.constant.elixir, meta.function-call.arguments.elixir meta.block.elixir meta.brackets.elixir variable.other.constant.elixir",
-      "foreground": "color(#ECAA79 l(+ 7%) a(0.6))"
+      "foreground": "hsla(26, 75%, 77%, 0.6)"
     },
     {
       "scope": "variable.other.readwrite.declaration.go",
-      "foreground": "color(#83B85E l(+ 2%))"
+      "foreground": "hsl(95, 39%, 57%)"
     },
     {
       "scope": "storage.type.go",
-      "foreground": "color(#83B85E l(+ 2%))"
+      "foreground": "hsl(95, 39%, 57%)"
     },
     {
       "scope": "storage.type.go support.type.builtin.go",
-      "foreground": "#DF88B7"
+      "foreground": "hsl(328, 58%, 70%)"
     },
     {
       "scope": "entity.name.pattern.git.ignore punctuation.separator.path.fnmatch.git",
-      "foreground": "#B4B4B4"
+      "foreground": "hsl(0, 0%, 71%)"
     },
     {
       "scope": "entity.name.pattern.git.ignore constant.other.wildcard.asterisk.fnmatch.git",
-      "foreground": "color(#FC6BAA a(0.8))"
+      "foreground": "hsla(334, 96%, 70%, 0.8)"
     },
     {
       "scope": "meta.mapping.key.git.attributes variable.language.attribute.git.attributes",
-      "foreground": "#00997B"
+      "foreground": "hsl(168, 100%, 30%)"
     },
     {
       "scope": "constant.other.key.groovy",
-      "foreground": "color(#38A2AF l(+ 11%) a(0.8))"
+      "foreground": "hsla(187, 52%, 56%, 0.8)"
     },
     {
       "scope": "entity.name.type.class.groovy",
-      "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
+      "foreground": "hsla(328, 58%, 74%, 0.8)"
     },
     {
       "scope": "keyword.other.new.groovy",
-      "foreground": "color(#FC6BAA a(0.8))"
+      "foreground": "hsla(334, 96%, 70%, 0.8)"
     },
     {
       "scope": "meta.method-call.groovy meta.method.groovy",
-      "foreground": "color(#83B85E l(+ 2%))"
+      "foreground": "hsl(95, 39%, 57%)"
     },
     {
       "scope": "storage.type.class.groovy - meta.definition.class.groovy storage.type.class.groovy, meta.definition.method.parameter.groovy storage.type.parameter.groovy",
-      "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
+      "foreground": "hsla(328, 58%, 74%, 0.8)"
     },
     {
       "scope": "storage.type.package.groovy - keyword.other.package.groovy",
-      "foreground": "#B4B4B4"
+      "foreground": "hsl(0, 0%, 71%)"
     },
     {
       "scope": "support.function.print.groovy",
-      "foreground": "color(#40E0D0 l(+ 14%) a(0.7))"
+      "foreground": "hsla(174, 72%, 70%, 0.7)"
     },
     {
       "scope": "text.html entity.other.attribute-name.id",
-      "foreground": "color(#A4CDFF l(- 1%) a(0.8))"
+      "foreground": "hsla(213, 100%, 81%, 0.8)"
     },
     {
       "scope": "meta.import.java constant.other.wildcard.asterisk.java",
-      "foreground": "color(#FC6BAA a(0.8))"
+      "foreground": "hsla(334, 96%, 70%, 0.8)"
     },
     {
       "scope": "entity.name.type.js, entity.name.interface.js",
-      "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
+      "foreground": "hsla(328, 58%, 74%, 0.8)"
     },
     {
       "scope": "entity.other.attribute-name.documentation.js",
-      "foreground": "color(#ECAA79 l(+ 7%) a(0.6))"
+      "foreground": "hsla(26, 75%, 77%, 0.6)"
     },
     {
       "scope": "keyword.declaration.function.arrow.js, meta.type.js keyword.declaration.function.js",
-      "foreground": "color(#FC6BAA a(0.8))"
+      "foreground": "hsla(334, 96%, 70%, 0.8)"
     },
     {
       "scope": "meta.type.js storage.modifier.array.js",
-      "foreground": "#B4B4B4"
+      "foreground": "hsl(0, 0%, 71%)"
     },
     {
       "scope": "(source.js | source.ts) - comment - string - keyword - punctuation - storage - entity - variable - support.constant - support - constant.language.boolean - constant.numeric.value, meta.class.js variable.other.readwrite.js - meta.binding.name.js - meta.function.js",
-      "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
+      "foreground": "hsla(25, 98%, 76%, 0.8)"
     },
     {
       "scope": "meta.class.js support.constant.builtin.js, meta.function-call.constructor.js variable.type.js",
-      "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
+      "foreground": "hsla(328, 58%, 74%, 0.8)"
     },
     {
       "scope": "support.constant.node.js, support.constant.builtin.js",
-      "foreground": "color(#FD8F3F l(+ 14%) a(0.8))"
+      "foreground": "hsla(25, 98%, 76%, 0.8)"
     },
     {
       "scope": "source.js variable - variable.function - variable.other.constant - variable.other.readwrite - variable.language - variable.parameter",
-      "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
+      "foreground": "hsla(328, 58%, 74%, 0.8)"
     },
     {
       "scope": "constant.other.language-name.markdown",
-      "foreground": "#D1B502"
+      "foreground": "hsl(52, 98%, 41%)"
     },
     {
       "scope": "markup.heading, markup.heading entity.name",
       "font_style": "bold",
-      "foreground": "color(#1E73BE l(+ 24%))"
+      "foreground": "hsl(208, 73%, 67%)"
     },
     {
       "scope": "markup.bold",
@@ -398,159 +398,159 @@
     {
       "scope": "markup.quote",
       "font_style": "italic",
-      "foreground": "#38A2AF"
+      "foreground": "hsl(187, 52%, 45%)"
     },
     {
       "scope": "markup.raw",
-      "background": "color(#262833 l(+ 4%))"
+      "background": "hsl(231, 15%, 21%)"
     },
     {
       "scope": "markup.raw.inline.markdown",
-      "background": "color(#262833 l(+ 8%) a(0.8))"
+      "background": "hsla(231, 15%, 25%, 0.8)"
     },
     {
       "scope": "markup.underline.link",
-      "foreground": "color(#5DD8FF a(0.9))"
+      "foreground": "hsla(194, 100%, 68%, 0.9)"
     },
     {
       "scope": "meta.table.header.markdown-gfm, meta.table.header-separator.markdown-gfm, meta.table.markdown-gfm",
-      "background": "color(#262833 l(+ 4%))"
+      "background": "hsl(231, 15%, 21%)"
     },
     {
       "scope": "punctuation.definition.hard-line-break.markdown",
-      "background": "color(#262833 l(+ 4%) a(0.8))"
+      "background": "hsla(231, 15%, 21%, 0.8)"
     },
     {
       "scope": "constant.other.keyword.openfga",
-      "foreground": "color(#38A2AF l(+ 11%) a(0.8))"
+      "foreground": "hsla(187, 52%, 56%, 0.8)"
     },
     {
       "scope": "meta.group.openfga entity.name.attribute-name.openfga, meta.sequence.openfga entity.name.other.attribute-name.openfga, meta.sequence.openfga punctuation.separator.sequence.openfga, meta.group.openfga punctuation.definition.constant.openfga, constant.other.wildcard.asterisk.openfga",
-      "foreground": "color(#584740 l(+ 26%))"
+      "foreground": "hsl(18, 16%, 56%)"
     },
     {
       "scope": "meta.scope.openfga entity.name.label.openfga",
-      "foreground": "#B4B4B4"
+      "foreground": "hsl(0, 0%, 71%)"
     },
     {
       "scope": "meta.schema.version.openfga constant.numeric.base.version.major.openfga, meta.schema.version.openfga constant.numeric.base.version.minor.openfga, meta.schema.version.openfga punctuation.separator.sequence.version.openfga",
-      "foreground": "color(#C4E7CE l(- 7%) a(0.6))"
+      "foreground": "hsla(137, 42%, 77%, 0.6)"
     },
     {
       "scope": "embedding.php text.html.php meta.embedded.php source.php.embedded.html comment.block.documentation.phpdoc.php entity.name.tag.documentation.phpdoc.php",
-      "foreground": "color(#ECAA79 l(+ 7%) a(0.6))"
+      "foreground": "hsla(26, 75%, 77%, 0.6)"
     },
     {
       "scope": "embedding.php text.html.php meta.embedded.php punctuation.definition.variable.php",
-      "foreground": "#FC6BAA"
+      "foreground": "hsl(334, 96%, 70%)"
     },
     {
       "scope": "embedding.php text.html.php meta.embedded.php punctuation.section.embedded",
-      "foreground": "color(#E47C48 l(+ 6%) a(0.8)"
+      "foreground": "hsla(20, 74%, 65%, 0.8)"
     },
     {
       "scope": "meta.sequence.array.php punctuation.separator.key-value.php, meta.function.php meta.block.php punctuation.accessor.arrow.php",
-      "foreground": "color(#FC6BAA a(0.8))"
+      "foreground": "hsla(334, 96%, 70%, 0.8)"
     },
     {
       "scope": "meta.string.python string.quoted.single.python constant.other.placeholder.python",
-      "foreground": "#B4B4B4"
+      "foreground": "hsl(0, 0%, 71%)"
     },
     {
       "scope": "meta.statement.loop.for.python keyword.control.loop.for.in.python",
-      "foreground": "color(#FC6BAA a(0.8))"
+      "foreground": "hsla(334, 96%, 70%, 0.8)"
     },
     {
       "scope": "meta.annotation.python punctuation.definition.annotation.python, meta.annotation.python meta.path.python meta.generic-name.python, meta.annotation.python meta.function-call.identifier.python variable.annotation.python - meta.path.python variable.annotation.python, meta.annotation.python variable.annotation.python",
-      "foreground": "color(#ECAA79 l(+ 7%) a(0.6))"
+      "foreground": "hsla(26, 75%, 77%, 0.6)"
     },
     {
       "scope": "meta.function-call.arguments.python meta.mapping.value.python string.quoted.single.python",
-      "foreground": "color(#C4E7CE l(- 7%) a(0.6))"
+      "foreground": "hsla(137, 42%, 77%, 0.6)"
     },
     {
       "scope": "meta.mapping.value.python meta.string.python meta.interpolation.python source.python.embedded, meta.mapping.value.python meta.string.python meta.interpolation.python punctuation.section.interpolation.end.python, meta.mapping.value.python meta.string.python meta.interpolation.python punctuation.section.interpolation.begin.python",
-      "foreground": "#B4B4B4"
+      "foreground": "hsl(0, 0%, 71%)"
     },
     {
       "scope": "support.type.python",
-      "foreground": "color(#38A2AF a(0.8))"
+      "foreground": "hsla(187, 52%, 45%, 0.8)"
     },
     {
       "scope": "entity.name.class.ruby",
-      "foreground": "#B4B4B4"
+      "foreground": "hsl(0, 0%, 71%)"
     },
     {
       "scope": "source.ruby constant",
-      "foreground": "#00997B"
+      "foreground": "hsl(168, 100%, 30%)"
     },
     {
       "scope": "meta.class.ruby entity.other.inherited-class.ruby",
-      "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
+      "foreground": "hsla(328, 58%, 74%, 0.8)"
     },
     {
       "scope": "meta.require.ruby - punctuation.definition.group.begin.ruby - punctuation.definition.group.end.ruby - punctuation.separator.sequence.ruby",
-      "foreground": "color(#1E73BE l(+ 24%))"
+      "foreground": "hsl(208, 73%, 67%)"
     },
     {
       "scope": "variable.other.readwrite.instance.ruby",
-      "foreground": "color(#ECAA79 l(+ 7%) a(0.6))"
+      "foreground": "hsla(26, 75%, 77%, 0.6)"
     },
     {
       "scope": "source.rust entity.name - entity.name.function.rust - entity.name.label.rust - entity.name.macro.rust - entity.name.module.rust",
-      "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
+      "foreground": "hsla(328, 58%, 74%, 0.8)"
     },
     {
       "scope": "entity.name.function.rust",
-      "foreground": "color(#83B85E l(+ 2%))"
+      "foreground": "hsl(95, 39%, 57%)"
     },
     {
       "scope": "entity.name.module.rust",
-      "foreground": "#B4B4B4"
+      "foreground": "hsl(0, 0%, 71%)"
     },
     {
       "scope": "keyword.control.rust",
-      "foreground": "color(#1E73BE l(+ 24%))"
+      "foreground": "hsl(208, 73%, 67%)"
     },
     {
       "scope": "meta.annotation.rust meta.path.rust, meta.annotation.rust punctuation.definition.annotation.rust, meta.annotation.rust punctuation.section.group.begin.rust, meta.annotation.rust punctuation.section.group.end.rust",
-      "foreground": "color(#ECAA79 l(+ 7%) a(0.6))"
+      "foreground": "hsla(26, 75%, 77%, 0.6)"
     },
     {
       "scope": "meta.block.rust constant.other.rust",
-      "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
+      "foreground": "hsla(328, 58%, 74%, 0.8)"
     },
     {
       "scope": "storage.type.rust",
-      "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
+      "foreground": "hsla(328, 58%, 74%, 0.8)"
     },
     {
       "scope": "storage.type.source.rust",
-      "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
+      "foreground": "hsla(328, 58%, 74%, 0.8)"
     },
     {
       "scope": "support.macro.rust",
-      "foreground": "color(#40E0D0 l(+ 14%) a(0.7))"
+      "foreground": "hsla(174, 72%, 70%, 0.7)"
     },
     {
       "scope": "support.type.rust",
-      "foreground": "color(#DF88B7 l(+ 4%) a(0.8))"
+      "foreground": "hsla(328, 58%, 74%, 0.8)"
     },
     {
       "scope": "source.sass constant.other.color.rgb-value.css, source.scss constant.other.color.rgb-value.css",
-      "foreground": "color(#B4B4B4 l(+ 8%))"
+      "foreground": "hsl(0, 0%, 79%)"
     },
     {
       "scope": "meta.map.arguments.sass variable.parameter.sass",
-      "foreground": "color(#83B85E l(+ 5%))"
+      "foreground": "hsl(95, 39%, 58%)"
     },
     {
       "scope": "source.scss meta.selector.css entity.name.tag.other.css, source.scss meta.selector.css entity.name.tag.html.css",
-      "foreground": "color(#C4E7CE l(- 7%) a(0.6))"
+      "foreground": "hsla(137, 42%, 77%, 0.6)"
     },
     {
       "scope": "variable.declaration.sass, variable.other.sass, meta.map.arguments.sass variable.other.sass, meta.function.parameters.sass variable.parameter.sass, source.sass meta.selector.css, source.sass meta.selector.css entity.name.tag.custom.css, variable.other.scss, meta.parameter.identifier.scss variable.parameter.scss, meta.argument.identifier.scss variable.parameter.scss",
-      "foreground": "color(#F9DF9C l(+ 3%) a(0.7))"
+      "foreground": "hsla(43, 89%, 82%, 0.7)"
     },
     {
       "scope": "keyword.operator.logical.sql",
@@ -558,27 +558,27 @@
     },
     {
       "scope": "storage.type.sql",
-      "foreground": "#DF88B7"
+      "foreground": "hsl(328, 58%, 70%)"
     },
     {
       "scope": "support.type.sql",
-      "foreground": "#DF88B7"
+      "foreground": "hsl(328, 58%, 70%)"
     },
     {
       "scope": "variable.other.member.declaration.sql",
-      "foreground": "#B4B4B4"
+      "foreground": "hsl(0, 0%, 71%)"
     },
     {
       "scope": "meta.template.svelte variable.other.dollar.js",
-      "foreground": "#B4B4B4"
+      "foreground": "hsl(0, 0%, 71%)"
     },
     {
       "scope": "entity.name.table.toml",
-      "foreground": "#DF88B7"
+      "foreground": "hsl(328, 58%, 70%)"
     },
     {
       "scope": "entity.name.tag.toml",
-      "foreground": "color(#38A2AF l(+ 11%) a(0.8))"
+      "foreground": "hsla(187, 52%, 56%, 0.8)"
     },
     {
       "scope": "source.ts support.type.primitive.null.js",
@@ -586,11 +586,11 @@
     },
     {
       "scope": "source.ts support.type.void.js",
-      "foreground": "color(#38A2AF a(0.8))"
+      "foreground": "hsla(187, 52%, 45%, 0.8)"
     },
     {
       "scope": "meta.directive.yaml punctuation.definition.directive.begin.yaml, meta.directive.yaml keyword.other.directive.yaml, meta.directive.yaml constant.numeric.yaml-version.yaml",
-      "foreground": "color(#C4E7CE l(- 7%) a(0.6))"
+      "foreground": "hsla(137, 42%, 77%, 0.6)"
     }
   ]
 }
