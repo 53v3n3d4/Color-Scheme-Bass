@@ -3,7 +3,7 @@
     {
         // Color Hex
         // Variables that don't work because they are replaced by hue variables:
-        // variable red 1, red2, red6
+        // variable red 1, red2, red3, red6
         "black1":           "#000000", // "rgb(0, 0, 0)"
         "black2":           "#161818", // "rgb(22, 24, 24)"
         "black3":           "#323234", // "rgb(50, 50, 52)"
@@ -119,25 +119,42 @@
         // blue208 and gray208
         // gold43 and yellow43
         "blue194": "194",
+        "blue204": "204",
         "blue208": "208",
+        "blue211": "211",
         "blue213": "213",
+        "blue216": "216",
         "blue234": "234",
+        "brown18": "18",
+        "brown21": "21",
+        "brown27": "27",
         "cyan174": "174",
+        "cyan179": "179",
+        "cyan187": "187",
         "gold43": "43",
         "gold52": "52",
         "gray208": "208",
         "green95": "95",
+        "green102": "102",
         "green106": "106",
+        "green111": "111",
+        "green120": "120",
         "green133": "133",
         "green137": "137",
+        "green148": "148",
         "magenta334": "334",
         "orange20": "20",
+        "orange21": "21",
         "orange25": "25",
         "pink328": "328",
+        "pink338": "338",
         "pink344": "344",
+        "purple268": "268",
+        "purple297": "297",
         "purple304": "304",
         "red1": "1",
         "red2": "2",
+        "red3": "3",
         "red6": "6",
         "red12": "12",
         "violet295": "295",
@@ -145,6 +162,7 @@
         "yellow43": "43",
         "yellow47": "47",
         "yellow50": "50",
+        "yellow53": "53",
         "yellow58": "58"
     },
     "globals": {},
