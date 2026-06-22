@@ -9,214 +9,214 @@
 
         /** Globals variables */
 
-        "bg-color":                   "color(var(white5) l(+ 3%))",
-        "fg-color":                   "color(var(gray6) a(0.9))", // Popup definiton/reference text
-        "invisibles":                 "var(gray2)",
-        "caret":                      "var(gray6)", // mouse cursor
-        "line-highlight":             "color(var(bg-color) l(- 11%) a(0.5))", //"color(var(gray3) a(0.3))",
+        "bg-color":                   "hsl(var(white315), 14%, 98%)",
+        "fg-color":                   "hsla(var(gray264), 3%, 32%, 0.9)", // Popup definiton/reference text
+        "invisibles":                 "hsl(0, 0%, 71%)",
+        "caret":                      "hsl(var(gray264), 3%, 32%)", // mouse cursor
+        "line-highlight":             "hsla(var(white315), 14%, 87%, 0.5)", //"color(var(gray3) a(0.3))",
         /** Accents */
-        "misspelling":                "color(var(orange1) l(+ 3%))",
-        "fold-marker":                "var(yellow1)", // when folded, the "..."
-        "minimap-border":             "color(var(orange2) a(0.5))",
-        "accent":                     "color(var(black4) a(0.8) l(+ 24%))",
+        "misspelling":                "hsl(var(orange25), 98%, 65%)",
+        "fold-marker":                "hsl(var(yellow50), 100%, 71%)", // when folded, the "..."
+        "minimap-border":             "hsla(var(orange20), 74%, 59%, 0.5)",
+        "accent":                     "hsla(0, 0%, 49%, 0.8)",
         /** Css */
         // Popup css: Example, bg color, link color, title color of definition/reference. Round corner, border, bg comes from Theme file.
-        "popup-css": "\n      html, body {\n        background-color: var(bg-color);\n        color: #9B9B9B;\n      }\n      body {\n        padding: 4px;\n      margin: 0px;\n      }\n      a {\n        color: #0282F2;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
+        "popup-css": "\n      html, body {\n        background-color: var(bg-color);\n        color: hsl(0, 0%, 61%);\n      }\n      body {\n        padding: 4px;\n      margin: 0px;\n      }\n      a {\n        color: hsl(var(blue208), 98%, 48%);\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
         // "popup_css": "\n      html, body {\n        background-color: #f4f5f6;\n        border-radius: 4px;\n      color: #808080;\n      }\n      body {\n        padding: 6px 12px;\n      }\n      a {\n        color: #404040;\n      line-height: 1.6em;\n      text-decoration: none;\n}\n    ",
         // phantom css, to test -> it is the badge/button "UI:select color scheme/theme" inside text line control overlay. 
-        "phantom-css": "\n      html, body {\n        background-color: #B4B4B4;\n        border-radius: 4px;\n      color: #161818;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: #5DD8FF;\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
+        "phantom-css": "\n      html, body {\n        background-color: hsl(0, 0%, 71%);\n        border-radius: 4px;\n      color: hsl(var(black180), 4%, 9%);\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: hsl(var(blue194), 100%, 68%);\n      line-height: 1.6em;\n      text-decoration: underline;\n}\n    ",
         // "sheet_css": ,
         /** Gutter */
         "gutter":                     "var(bg-color)",
-        "gutter-foreground":          "color(var(gray3) a(0.7))",
-        "gutter-foreground-hl":       "color(var(blue1) l(+ 16%))",
+        "gutter-foreground":          "hsla(0, 0%, 61%, 0.7)",
+        "gutter-foreground-hl":       "hsl(var(blue216), 96%, 71%)",
         // "gutter_foreground": "{font-family: Helvetica";\n        font-size: 8px;\n      color: #808080;\n}",
         /** Diff */
-        "line-diff-added":            "var(blue3)",
-        "line-diff-modified":         "var(gold1)",
+        "line-diff-added":            "hsl(var(blue208), 98%, 48%)",
+        "line-diff-modified":         "hsl(var(yellow43), 100%, 50%)",
         "line-diff-deleted":          "hsl(var(red1), 96%, 66%)",
         /** Selection */
-        "selection":                  "color(var(green-light1) a(0.4))",
-        "selection-fg":               "var(gray4)",
-        "selection-border":           "var(blue-light2)",
+        "selection":                  "hsla(var(green137), 42%, 84%, 0.4)",
+        "selection-fg":               "hsl(var(gray208), 13%, 42%)",
+        "selection-border":           "hsl(var(blue204), 62%, 86%)",
         "selection-border-width":     "1",
-        "inactive-selection":         "color(var(green-light1) a(0.3))",
-        "inactive-selection-fg":      "var(gray4)",
+        "inactive-selection":         "hsla(var(green137), 42%, 84%, 0.3)",
+        "inactive-selection-fg":      "hsl(var(gray208), 13%, 42%)",
         "selection-corner-style":     "round",
         "selection-corner-radius":    "2",
         /** Find */
-        "highlight":                  "color(var(purple3) a(0.7)",
-        "find-highlight":             "var(blue-light2)",
-        "find-highlight-fg":          "var(purple3)",
-        "scroll-highlight":           "var(cyan2)",
+        "highlight":                  "hsla(var(purple310), 86%, 36%, 0.7)",
+        "find-highlight":             "hsl(var(blue204), 62%, 86%)",
+        "find-highlight-fg":          "hsl(var(purple310), 86%, 36%)",
+        "scroll-highlight":           "hsl(var(cyan187), 52%, 45%)",
         /** Rulers */
-        "rulers":                     "color(var(gray4) a(0.5)", //"var(black4)",
+        "rulers":                     "hsla(var(gray208), 13%, 42%, 0.5)", //"hsl(0, 0%, 25%)",
         /** Guides */
-        "guide":                      "color(var(gray3) a(0.5))",
-        "active-guide":               "var(orange2)",
-        "stack-guide":                "color(var(gray3) a(0.5))",
+        "guide":                      "hsla(0, 0%, 61%, 0.5)",
+        "active-guide":               "hsl(var(orange20), 74%, 59%)",
+        "stack-guide":                "hsla(0, 0%, 61%, 0.5)",
         /** Brackets */
         "brackets-opts":              "underline",
-        "brackets-fg":                "var(pink-light3)",
+        "brackets-fg":                "hsl(var(pink344), 72%, 68%)",
         "bracket-contents-opts":      "underline",
-        "bracket-contents-fg":        "var(pink-light2)",
+        "bracket-contents-fg":        "hsl(var(pink345), 72%, 83%)",
         /** Tags */
         "tags-opts":                  "underline",
-        "tags-fg":                    "var(pink-light3)",
+        "tags-fg":                    "hsl(var(pink344), 72%, 68%)",
         /** Shadows */
-        "shadow":                     "color(var(black4) a(0.3))",
+        "shadow":                     "hsla(0, 0%, 25%, 0.3)",
         "shadow-width":               "3",
 
         /** Rules variables*/
 
         /** Entity */
-        "entity-name-fg":                  "color(var(blue3) a(0.7))",
-        "entity-name-class-fg":            "color(var(orange2) a(0.9))",
-        "entity-name-fn-fg":               "color(var(blue3) a(0.7))",
-        "entity-inherited-class-fg":       "color(var(magenta2) l(+ 7%))",
+        "entity-name-fg":                  "hsla(var(blue208), 98%, 48%, 0.7)",
+        "entity-name-class-fg":            "hsla(var(orange20), 74%, 59%, 0.9)",
+        "entity-name-fn-fg":               "hsla(var(blue208), 98%, 48%, 0.7)",
+        "entity-inherited-class-fg":       "hsl(var(magenta334), 96%, 77%)",
         // "entity-name-section-fg":          "var(purple1)",
         // "entity-name-tag-fg":              "var(cyan3)",
-        "entity-attribute-name-fg":        "color(var(green-light3) l(- 17%) a(0.8))",
-        "entity-other-pseudo-class-fg":    "var(purple2)",
+        "entity-attribute-name-fg":        "hsla(var(green95), 39%, 38%, 0.8)",
+        "entity-other-pseudo-class-fg":    "hsl(var(purple304), 63%, 37%)",
 
         /** Variable */
         // "variable-fg":                   "var(green4)",
         // "variable-lang-font-style":      "italic",
         // "variable-lang-fg":              "var(purple1)",
         // "variable-param-fg":             "var(purple1)",
-        "variable-fn-fg":                "color(var(blue3) a(0.7))",
-        "variable-other-constant-fg":    "color(var(orange2) a(0.9))",
-        "variable-other-member-fg":      "color(var(green-light3) l(- 11%) a(0.8))",
+        "variable-fn-fg":                "hsla(var(blue208), 98%, 48%, 0.7)",
+        "variable-other-constant-fg":    "hsla(var(orange20), 74%, 59%, 0.9)",
+        "variable-other-member-fg":      "hsla(var(green95), 39%, 44%, 0.8)",
 
         /** Constant */
         // "constant-fg":                "var(green4)",
         "constant-num-fg":            "hsla(var(red1), 80%, 54%, 0.8)",
-        "constant-lang-fg":           "color(var(magenta3) l(- 11%) a(0.8))",
-        "constant-lang-null-fg":      "color(var(magenta3) l(- 11%) a(0.8))",
-        "constant-lang-bool-fg":      "color(var(magenta3) l(- 11%) a(0.8))",
+        "constant-lang-fg":           "hsla(var(magenta334), 81%, 50%, 0.8)",
+        "constant-lang-null-fg":      "hsla(var(magenta334), 81%, 50%, 0.8)",
+        "constant-lang-bool-fg":      "hsla(var(magenta334), 81%, 50%, 0.8)",
         // "constant-char-escape-fg":    "var(blue4)",
 
         /** Storage */
-        // "storage-fg":             "var(purple3)",
-        "storage-modifier-fg":    "color(var(green-light3) l(- 17%) a(0.8))",
-        "storage-type-fg":        "var(cyan2)",
+        // "storage-fg":             "hsl(var(purple310), 86%, 36%)",
+        "storage-modifier-fg":    "hsla(var(green95), 39%, 38%, 0.8)",
+        "storage-type-fg":        "hsl(var(cyan187), 52%, 45%)",
 
         /** Support */
         // "support-fg":          "var(green3)",
-        "support-fn-fg":                "color(var(blue3) a(0.7))",
-        "support-class-fg":             "color(var(orange2) a(0.9))",
-        "support-type-primitive-fg":    "color(var(pink-light4) l(- 1%))",
+        "support-fn-fg":                "hsla(var(blue208), 98%, 48%, 0.7)",
+        "support-class-fg":             "hsla(var(orange20), 74%, 59%, 0.9)",
+        "support-type-primitive-fg":    "hsl(var(pink328), 58%, 69%)",
 
         /** Keyword */
-        "keyword-fg":             "var(cyan2)",
-        // "keyword-ctrl-fg":           "var(purple3)",
-        "keyword-operator-fg":    "color(var(gold3) l(- 1%) a(0.9))",
+        "keyword-fg":             "hsl(var(cyan187), 52%, 45%)",
+        // "keyword-ctrl-fg":           "hsl(var(purple310), 86%, 36%)",
+        "keyword-operator-fg":    "hsla(var(yellow52), 98%, 40%, 0.9)",
         // "keyword-declaration-fg":    "var(green3)",
 
         /** String */
-        "string-fg":    "color(var(violet1) l(+ 29%))",
+        "string-fg":    "hsl(var(violet295), 22%, 50%)",
 
         /** Comment */
-        "comment-fg":    "color(var(gray4) a(0.65))",
+        "comment-fg":    "hsla(var(gray208), 13%, 42%, 0.65)",
 
         /** Invalid */
         // "invalid-fg":               "hsl(var(red1), 96%, 66%)",
-        "invalid-deprecated-fg":    "color(var(orange1) a(0.1))",
+        "invalid-deprecated-fg":    "hsla(var(orange25), 98%, 62%, 0.1)",
         "invalid-illegal-fg":       "hsla(var(red1), 96%, 66%, 0.1)",
 
         /** Diff */
-        "markup-changed-bg":      "hsla(53, 93%, 89%, 0.7)",
-        "markup-changed-fg":      "var(orange3)",
-        "markup-deleted-bg":      "hsla(3, 100%, 93%, 0.7)",
+        "markup-changed-bg":      "hsla(var(yellow53), 93%, 89%, 0.7)",
+        "markup-changed-fg":      "hsl(var(orange21), 59%, 49%)",
+        "markup-deleted-bg":      "hsla(var(red3), 100%, 93%, 0.7)",
         "markup-deleted-fg":      "hsla(var(red1), 80%, 43%, 0.9)",
-        "markup-inserted-bg":     "hsla(111, 89%, 93%, 0.7)",
-        "markup-inserted-fg":     "color(var(green2) a(0.9))",
-        "meta-diff-header-bg":    "hsla(211, 85%, 92%, 0.7)",
-        "meta-diff-header-fg":    "var(blue2)",
+        "markup-inserted-bg":     "hsla(var(green111), 89%, 93%, 0.7)",
+        "markup-inserted-fg":     "hsla(var(green120), 80%, 33%, 0.9)",
+        "meta-diff-header-bg":    "hsla(var(blue211), 85%, 92%, 0.7)",
+        "meta-diff-header-fg":    "hsl(var(blue208), 73%, 43%)",
 
         /** Inline Diffs */
-        "diff-deleted-bg":          "hsla(3, 100%, 93%, 0.7)",
+        "diff-deleted-bg":          "hsla(var(red3), 100%, 93%, 0.7)",
         "diff-deleted-fg":          "hsla(var(red1), 80%, 43%, 0.6)",
-        "diff-deleted-char-bg":     "hsla(3, 100%, 83%, 0.7)",
+        "diff-deleted-char-bg":     "hsla(var(red3), 100%, 83%, 0.7)",
         "diff-deleted-char-fg":     "hsla(var(red1), 80%, 43%, 0.9)",
-        "diff-inserted-bg":         "hsla(111, 89%, 93%, 0.7)",
-        "diff-inserted-fg":         "color(var(green2) a(0.8))",
-        "diff-inserted-char-bg":    "hsla(111, 89%, 77%, 0.7)",
-        "diff-inserted-char-fg":    "color(var(green2) a(0.9))",
+        "diff-inserted-bg":         "hsla(var(green111), 89%, 93%, 0.7)",
+        "diff-inserted-fg":         "hsla(var(green120), 80%, 33%, 0.8)",
+        "diff-inserted-char-bg":    "hsla(var(green111), 89%, 77%, 0.7)",
+        "diff-inserted-char-fg":    "hsla(var(green120), 80%, 33%, 0.9)",
 
         /** Mapping Key Value */
-        "meta-mapping-key-fg":                          "color(var(brown1) l(- 7%))",
-        "meta-mapping-value-fg":                        "color(var(green3) a(0.8))",
-        "punctuation-section-mapping-fg":               "color(var(gray6) a(0.9))",
-        "punctuation-section-sequence-separator-fg":    "color(var(gray6) a(0.9))",
+        "meta-mapping-key-fg":                          "hsl(var(brown27), 45%, 47%)",
+        "meta-mapping-value-fg":                        "hsla(var(green102), 98%, 16%, 0.8)",
+        "punctuation-section-mapping-fg":               "hsla(var(gray264), 3%, 32%, 0.9)",
+        "punctuation-section-sequence-separator-fg":    "hsla(var(gray264), 3%, 32%, 0.9)",
 
         /** Shell */
-        "line-constant-shebang-fg":    "color(var(gray4) a(0.65))",
+        "line-constant-shebang-fg":    "hsla(var(gray208), 13%, 42%, 0.65)",
 
         /** Languages rules */
 
         /** Cedar */
-        "meta-annotation-cedar-fg":    "color(var(red-dark1) l(+ 22%))",
+        "meta-annotation-cedar-fg":    "hsl(var(red8), 19%, 46%)",
 
         /** Clojure */
-        "constant-other-keyword-clojure-fg":    "var(magenta2)",
-        "storage-modifier-def-clojure-fg":      "var(cyan2)",
-        "variable-fn-clojure-fg":               "var(cyan2)",
+        "constant-other-keyword-clojure-fg":    "hsl(var(magenta334), 96%, 70%)",
+        "storage-modifier-def-clojure-fg":      "hsl(var(cyan187), 52%, 45%)",
+        "variable-fn-clojure-fg":               "hsl(var(cyan187), 52%, 45%)",
 
         /** CSS */
-        "meta-at-rule-other-css-fg":                          "var(cyan2)",
-        "constant-css-fg":                                    "color(var(gray2) l(- 14%))",
-        "entity-name-tag-css-fg":                             "color(var(orange2) a(0.9))",
-        "support-property-css-fg":                            "color(var(red-dark1) l(+ 11% )a(0.8))",
-        "meta-selector-support-type-vendor-prefix-css-fg":    "var(purple2)",
-        "css-variable-fg":                                    "color(var(brown1) l(- 7%))",
+        "meta-at-rule-other-css-fg":                          "hsl(var(cyan187), 52%, 45%)",
+        "constant-css-fg":                                    "hsl(0, 0%, 57%)",
+        "entity-name-tag-css-fg":                             "hsla(var(orange20), 74%, 59%, 0.9)",
+        "support-property-css-fg":                            "hsla(var(red8), 19%, 35%, 0.8)",
+        "meta-selector-support-type-vendor-prefix-css-fg":    "hsl(var(purple304), 63%, 37%)",
+        "css-variable-fg":                                    "hsl(var(brown27), 45%, 47%)",
 
         /** Elixir */
-        "constant-other-keyword-elixir-fg":            "color(var(brown1) l(- 7%))",
-        "constant-other-symbol-elixir-fg":             "var(magenta2)",
-        "doc-string-quoted-triple-elixir-fg":          "color(var(gray4) a(0.65))",
-        "support-attr-entity-name-const-elixir-fg":    "color(var(red-dark1) l(+ 22%))",
-        "var-other-constant-elixir-fg":                "color(var(red-dark1) l(+ 22%))",
+        "constant-other-keyword-elixir-fg":            "hsl(var(brown27), 45%, 47%)",
+        "constant-other-symbol-elixir-fg":             "hsl(var(magenta334), 96%, 70%)",
+        "doc-string-quoted-triple-elixir-fg":          "hsla(var(gray208), 13%, 42%, 0.65)",
+        "support-attr-entity-name-const-elixir-fg":    "hsl(var(red8), 19%, 46%)",
+        "var-other-constant-elixir-fg":                "hsl(var(red8), 19%, 46%)",
 
         /** Go */
-        "variable-other-readwrite-declaration-go-fg":    "color(var(blue3) a(0.7))",
-        "storage-type-go-fg":                            "color(var(blue3) a(0.7))",
-        "storage-support-type-builtin-go-fg":            "color(var(magenta3) a(0.7))",
+        "variable-other-readwrite-declaration-go-fg":    "hsla(var(blue208), 98%, 48%, 0.7)",
+        "storage-type-go-fg":                            "hsla(var(blue208), 98%, 48%, 0.7)",
+        "storage-support-type-builtin-go-fg":            "hsla(var(magenta334), 81%, 61%, 0.7)",
 
         /** Git */
-        "entity-name-git-ignore-punctuation-separator-path-fg":    "color(var(gray6) a(0.9))",
-        "entity-name-git-ignore-const-wildcard-asterisk-fg":      "color(var(gold3) l(- 1%) a(0.9))",
-        "meta-mapping-value-git-attributes-fg":                   "var(purple3)",
+        "entity-name-git-ignore-punctuation-separator-path-fg":    "hsla(var(gray264), 3%, 32%, 0.9)",
+        "entity-name-git-ignore-const-wildcard-asterisk-fg":       "hsla(var(yellow52), 98%, 40%, 0.9)",
+        "meta-mapping-value-git-attributes-fg":                    "hsl(var(purple310), 86%, 36%)",
 
         /** Groovy */
-        "constant-other-key-groovy-fg":    "color(var(brown1) l(- 7%))",
-        "entity-name-class-groovy-fg":     "color(var(orange2) a(0.9))",
-        "keyword-other-new-groovy-fg":     "color(var(gold3) l(- 1%) a(0.9))",
-        "meta-method-call-groovy-fg":      "color(var(blue3) a(0.7))",
-        "storage-type-class-groovy-fg":    "color(var(orange2) a(0.9))",
-        "storage-type-pkg-groovy-fg":      "color(var(gray6) a(0.9))",
-        "support-fn-print-groovy-fg":      "color(var(magenta3) a(0.7))",
+        "constant-other-key-groovy-fg":    "hsl(var(brown27), 45%, 47%)",
+        "entity-name-class-groovy-fg":     "hsla(var(orange20), 74%, 59%, 0.9)",
+        "keyword-other-new-groovy-fg":     "hsla(var(yellow52), 98%, 40%, 0.9)",
+        "meta-method-call-groovy-fg":      "hsla(var(blue208), 98%, 48%, 0.7)",
+        "storage-type-class-groovy-fg":    "hsla(var(orange20), 74%, 59%, 0.9)",
+        "storage-type-pkg-groovy-fg":      "hsla(var(gray264), 3%, 32%, 0.9)",
+        "support-fn-print-groovy-fg":      "hsla(var(magenta334), 81%, 61%, 0.7)",
 
         /** HTML */
-        "entity-other-attribute-name-html-fg":    "color(var(green-light3) l(- 17%) a(0.8))",
+        "entity-other-attribute-name-html-fg":    "hsla(var(green95), 39%, 38%, 0.8)",
 
         /** Java */
-        "meta-import-wildcard-asterisk-java-fg":    "color(var(gold3) l(- 1%) a(0.9))",
+        "meta-import-wildcard-asterisk-java-fg":    "hsla(var(yellow52), 98%, 40%, 0.9)",
 
         /** Javascript */
-        "entity-name-type-interface-js-fg":         "color(var(orange2) a(0.9))",
-        "entity-other-attribute-name-doc-js-fg":    "color(var(red-dark1) l(+ 22%))",
-        "keyword-declaration-fn-arrow-js-fg":       "var(gold3)",
-        "storage-modifier-array-js-fg":             "color(var(gray6) a(0.9))",
-        "support-other-js-fg":                      "color(var(green-light3) l(- 11%) a(0.8))",
-        "support-meta-class-js-fg":                 "color(var(orange2) a(0.9))",
-        "support-meta-fn-js-fg":                    "color(var(green-light3) l(- 11%) a(0.8))",
-        "variable-other-class-js-fg":               "color(var(orange2) a(0.9))",
+        "entity-name-type-interface-js-fg":         "hsla(var(orange20), 74%, 59%, 0.9)",
+        "entity-other-attribute-name-doc-js-fg":    "hsl(var(red8), 19%, 46%)",
+        "keyword-declaration-fn-arrow-js-fg":       "hsl(var(yellow52), 98%, 41%)",
+        "storage-modifier-array-js-fg":             "hsla(var(gray264), 3%, 32%, 0.9)",
+        "support-other-js-fg":                      "hsla(var(green95), 39%, 44%, 0.8)",
+        "support-meta-class-js-fg":                 "hsla(var(orange20), 74%, 59%, 0.9)",
+        "support-meta-fn-js-fg":                    "hsla(var(green95), 39%, 44%, 0.8)",
+        "variable-other-class-js-fg":               "hsla(var(orange20), 74%, 59%, 0.9)",
 
         /** Markdown / Markup */
-        "constant-other-lang-name-md-fg":             "var(pink-light3)",
+        "constant-other-lang-name-md-fg":             "hsl(var(pink344), 72%, 68%)",
         "markup-heading-font-style":                  "bold",
-        "markup-heading-fg":                          "var(brown1)",
+        "markup-heading-fg":                          "hsl(var(brown27), 45%, 54%)",
         "markup-bold-font-style":                     "bold",
         "markup-italic-font-style":                   "italic",
         "markup-underline-font-style":                "underline",
@@ -225,80 +225,80 @@
         "markup-italic-underline-font-style":         "italic underline",
         "markup-bold-italic-underline-font-style":    "bold italic underline",
         "markup-quote-font-style":                    "italic",
-        "markup-quote-fg":                            "color(var(green-light3) l(- 7%))",
-        "markup-raw-bg":                              "color(var(gray2) a(0.2))",
-        "markup-raw-inline-bg":                       "color(var(gray2) a(0.2))",
-        "markup-link-fg":                             "var(blue2)",
-        "markup-table-bg":                            "color(var(gray2) a(0.2))",
-        "punctuation-line-break-md-bg":               "color(var(gray2) a(0.14))",
+        "markup-quote-fg":                            "hsl(var(green95), 39%, 48%)",
+        "markup-raw-bg":                              "hsla(0, 0%, 71%, 0.2)",
+        "markup-raw-inline-bg":                       "hsla(0, 0%, 71%, 0.2)",
+        "markup-link-fg":                             "hsl(var(blue208), 73%, 43%)",
+        "markup-table-bg":                            "hsla(0, 0%, 71%, 0.2)",
+        "punctuation-line-break-md-bg":               "hsla(0, 0%, 71%, 0.14)",
 
         /** OpenFGA */
-        "constant-other-keyword-openfga-fg":    "color(var(brown1) l(- 7%))",
-        "entity-attribute-name-openfga-fg":     "color(var(green3) a(0.8))",
-        "entity-name-label-openfga-fg":         "color(var(gray6) a(0.9))",
-        "meta-schema-version-openfga-fg":       "color(var(violet1) l(+ 29%))",
+        "constant-other-keyword-openfga-fg":    "hsl(var(brown27), 45%, 47%)",
+        "entity-attribute-name-openfga-fg":     "hsla(var(green102), 98%, 16%, 0.8)",
+        "entity-name-label-openfga-fg":         "hsla(var(gray264), 3%, 32%, 0.9)",
+        "meta-schema-version-openfga-fg":       "hsl(var(violet295), 22%, 50%)",
 
         /** PHP */
-        "entity-name-tag-doc-php-fg":               "color(var(red-dark1) l(+ 22%))",
-        "punctuation-definition-var-php-fg":        "var(gold3)",
-        "punctuation-section-embedded-php-fg":      "color(var(magenta3) a(0.7))",
-        "punctuation-separator-kv-arrow-php-fg":    "color(var(gold3) l(- 1%) a(0.9))",
+        "entity-name-tag-doc-php-fg":               "hsl(var(red8), 19%, 46%)",
+        "punctuation-definition-var-php-fg":        "hsl(var(yellow52), 98%, 41%)",
+        "punctuation-section-embedded-php-fg":      "hsla(var(magenta334), 81%, 61%, 0.7)",
+        "punctuation-separator-kv-arrow-php-fg":    "hsla(var(yellow52), 98%, 40%, 0.9)",
 
         /** Python */
-        "constant-other-placeholder-python-fg":                 "color(var(gray6) a(0.9))",
-        "keyword-control-loop-in-python-fg":                    "color(var(gold3) l(- 1%) a(0.9))",
-        "meta-annotation-python-fg":                            "color(var(red-dark1) l(+ 22%))",
-        "meta-fn-arg-string-quoted-python-fg":                  "color(var(violet1) l(+ 29%))",
-        "meta-mapping-value-string-interpolation-python-fg":    "color(var(gray6) a(0.9))",
-        "support-type-python-fg":                               "color(var(pink-light4) l(- 1%))",
+        "constant-other-placeholder-python-fg":                 "hsla(var(gray264), 3%, 32%, 0.9)",
+        "keyword-control-loop-in-python-fg":                    "hsla(var(yellow52), 98%, 40%, 0.9)",
+        "meta-annotation-python-fg":                            "hsl(var(red8), 19%, 46%)",
+        "meta-fn-arg-string-quoted-python-fg":                  "hsl(var(violet295), 22%, 50%)",
+        "meta-mapping-value-string-interpolation-python-fg":    "hsla(var(gray264), 3%, 32%, 0.9)",
+        "support-type-python-fg":                               "hsl(var(pink328), 58%, 69%)",
         // "meta-qualified-name-fn-python-fg":    "color(var(orange2) l(+ 6%) a(0.8)",
 
         /** Ruby */
-        "entity-name-class-ruby-fg":                    "var(black4)",
-        "constant-rb-fg":                               "var(magenta2)",
-        "meta-class-ruby-fg":                           "color(var(orange2) a(0.9))",
-        "meta-require-ruby-fg":                         "var(cyan2)",
-        "variable-other-readwrite-instance-ruby-fg":    "color(var(red-dark1) l(+ 22%))",
+        "entity-name-class-ruby-fg":                    "hsl(0, 0%, 25%)",
+        "constant-rb-fg":                               "hsl(var(magenta334), 96%, 70%)",
+        "meta-class-ruby-fg":                           "hsla(var(orange20), 74%, 59%, 0.9)",
+        "meta-require-ruby-fg":                         "hsl(var(cyan187), 52%, 45%)",
+        "variable-other-readwrite-instance-ruby-fg":    "hsl(var(red8), 19%, 46%)",
 
         /** Rust */
-        "entity-name-rust-fg":                  "color(var(orange2) a(0.9))",
-        "entity-name-fn-rust-fg":               "color(var(blue3) a(0.7))",
-        "entity-name-module-rust-fg":           "var(black4)",
-        "keyword-ctrl-rust-fg":                 "var(cyan2)",
-        "meta-annotation-path-rust-fg":         "color(var(red-dark1) l(+ 22%))",
-        // "meta-annotation-var-rust-fg":          "var(black4)",
-        "meta-block-constant-other-rust-fg":    "color(var(orange2) a(0.9))",
-        "storage-type-rust-fg":                 "color(var(orange2) a(0.9))",
-        "storage-type-source-rust-fg":          "color(var(orange2) a(0.9))",
-        "support-macro-rust-fg":                "color(var(magenta3) a(0.7))",
-        "support-type-rust-fg":                 "color(var(orange2) a(0.9))",
+        "entity-name-rust-fg":                  "hsla(var(orange20), 74%, 59%, 0.9)",
+        "entity-name-fn-rust-fg":               "hsla(var(blue208), 98%, 48%, 0.7)",
+        "entity-name-module-rust-fg":           "hsl(0, 0%, 25%)",
+        "keyword-ctrl-rust-fg":                 "hsl(var(cyan187), 52%, 45%)",
+        "meta-annotation-path-rust-fg":         "hsl(var(red8), 19%, 46%)",
+        // "meta-annotation-var-rust-fg":          "hsl(0, 0%, 25%)",
+        "meta-block-constant-other-rust-fg":    "hsla(var(orange20), 74%, 59%, 0.9)",
+        "storage-type-rust-fg":                 "hsla(var(orange20), 74%, 59%, 0.9)",
+        "storage-type-source-rust-fg":          "hsla(var(orange20), 74%, 59%, 0.9)",
+        "support-macro-rust-fg":                "hsla(var(magenta334), 81%, 61%, 0.7)",
+        "support-type-rust-fg":                 "hsla(var(orange20), 74%, 59%, 0.9)",
 
         /** Sass/SCSS */
-        "constant-sass-fg":    "var(gray4)",
-        "params-sass-fg":      "color(var(red-dark1) l(+ 11% )a(0.8))",
-        "string-scss-fg":      "color(var(violet1) l(+ 29%))",
-        "variable-sass-fg":    "color(var(pink-light3) l(- 11%) a(0.8))",
+        "constant-sass-fg":    "hsl(var(gray208), 13%, 42%)",
+        "params-sass-fg":      "hsla(var(red8), 19%, 35%, 0.8)",
+        "string-scss-fg":      "hsl(var(violet295), 22%, 50%)",
+        "variable-sass-fg":    "hsla(var(pink344), 72%, 57%, 0.8)",
 
         /** Sql */
-        "keyword-operator-logical-sql-fg":    "color(var(magenta3) l(- 11%) a(0.8))",
-        "storage-type-sql-fg":                "color(var(pink-light4) l(- 1%))",
-        "support-type-sql-fg":                "color(var(pink-light4) l(- 1%))",
-        "variable-other-member-sql-fg":       "var(black4)",
+        "keyword-operator-logical-sql-fg":    "hsla(var(magenta334), 81%, 50%, 0.8)",
+        "storage-type-sql-fg":                "hsl(var(pink328), 58%, 69%)",
+        "support-type-sql-fg":                "hsl(var(pink328), 58%, 69%)",
+        "variable-other-member-sql-fg":       "hsl(0, 0%, 25%)",
 
         /** Svelte */
-        // "keyword-ctrl-conditional-svelte-fg":    "var(black4)",
-        "tmpl-var-other-dollar-svelte-fg":    "var(black4)",
+        // "keyword-ctrl-conditional-svelte-fg":    "hsl(0, 0%, 25%)",
+        "tmpl-var-other-dollar-svelte-fg":    "hsl(0, 0%, 25%)",
 
         /** Toml */
-        "entity-name-table-toml-fg":    "var(magenta3)",
-        "entity-name-tag-toml-fg":      "color(var(brown1) l(- 7%))",
+        "entity-name-table-toml-fg":    "hsl(var(magenta334), 81%, 61%)",
+        "entity-name-tag-toml-fg":      "hsl(var(brown27), 45%, 47%)",
 
         /** Typescript */
-        "support-type-null-ts-fg":    "color(var(magenta3) l(- 11%) a(0.8))",
-        "support-type-void-ts-fg":    "color(var(pink-light4) l(- 1%))",
+        "support-type-null-ts-fg":    "hsla(var(magenta334), 81%, 50%, 0.8)",
+        "support-type-void-ts-fg":    "hsl(var(pink328), 58%, 69%)",
 
         /** YAML */
-        "meta-directive-yaml-fg":    "color(var(violet1) l(+ 29%))"
+        "meta-directive-yaml-fg":    "hsl(var(violet295), 22%, 50%)"
 
     },
     "globals": {},

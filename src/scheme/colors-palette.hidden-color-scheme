@@ -118,7 +118,6 @@
         // The are different name for the same hue value
         // black240 and white240
         // blue208 and gray208
-        // gold43 and yellow43
         "black180": "180",
         "black240": "240",
         "black255": "255",
@@ -132,6 +131,7 @@
         "blue216": "216",
         "blue231": "231",
         "blue234": "234",
+        "blue248": "248",
         "brown7": "7",
         "brown16": "16",
         "brown17": "17",
@@ -142,8 +142,6 @@
         "cyan179": "179",
         "cyan187": "187",
         "cyan191": "191",
-        "gold43": "43",
-        "gold52": "52",
         "gray208": "208",
         "gray264": "264",
         "green95": "95",
@@ -164,6 +162,7 @@
         "pink328": "328",
         "pink338": "338",
         "pink344": "344",
+        "pink345": "345",
         "purple268": "268",
         "purple297": "297",
         "purple304": "304",
